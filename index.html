@@ -569,11 +569,11 @@ const TEAM_WRITEUPS = [
     id:'g8p3r1i9mg7kg72b', name:'Honey Nut Berrios #Inaugural JBThrowback', pr:3, record:'8-4',
     grade:'A-', trend:'rising',
     tagline:'Blockbuster Trade Brings Tarik Skubal — Dynasty Built Right',
-    overview:'HNB pulled off the trade of the season on Apr 16: acquiring reigning Cy Young winner Tarik Skubal and 2B/3B Connor Norby from Golden Gate Gays in exchange for an 11-piece package. Skubal immediately became the team ace and their pitching (now league-leading) has carried them to an 8-4 record and a 3-game winning streak heading into Period 13.',
+    overview:'HNB pulled off the trade of the season on Apr 16: acquiring reigning Cy Young winner Tarik Skubal and 2B/3B Connor Norby from Golden Gate Gays in exchange for an 11-piece package. Skubal immediately became the team ace and their pitching (now league-leading) has carried them to a strong record. Critically, HNB also holds multiple elite players currently on the injured list whose returns will dramatically boost this already-dangerous roster.',
     strengths:'Tarik Skubal gives HNB arguably the best starter in the league. Their aggressive roster management (10 WW claims, most in the top-3) keeps the lineup fresh. The 2027 R2 pick received in the HNB-Creative Name deal adds future value. Best divisional record at 5-1-0.',
     weaknesses:'The cost of acquiring Skubal was enormous — 8 players plus 3 picks sent to GGG. While the immediate upgrade is clear, the dynasty depth took a significant hit. Over-reliance on Skubal means any health issue would be devastating.',
-    injuries:'No major injuries. The roster depth acquired via aggressive waiver activity (10 claims) has kept them insulated from typical injury risk.',
-    outlook:'Serious playoff contender with arguably the best ace in the league. If Skubal stays healthy and their offense keeps pace, HNB is a legitimate championship threat.',
+    injuries:'SIGNIFICANT IL CONCERNS: HNB has multiple high-end players currently on the injured list. These are established MLB contributors — not fringe players — whose returns could dramatically elevate this team mid-season. The current record and standings do not fully reflect the talent level of this roster when healthy. Monitor IL returns closely as HNB could become the most dangerous team in the second half.',
+    outlook:'Legitimate title contender. Tarik Skubal gives them the best starter in the league, and the returning IL players could push this roster to another level. When fully healthy, HNB may be the most complete team in the league. IL returns are the key storyline to watch — a healthy HNB is a legitimate championship threat.',
     keyPlayers:['Tarik Skubal (SP — DET, acquired from GGG Apr 16)','Connor Norby (2B/3B — MIA, acquired from GGG Apr 16)','Pete Alonso (1B — BAL)']
   },
   {
@@ -718,18 +718,17 @@ const FARM_RANKS = [
     farmScore:78
   },
   {
-    teamId:'g8p3r1i9mg7kg72b', team:'Honey Nut Berrios #Inaugural JBThrowback', farmRank:4, grade:'B',
+    teamId:'g8p3r1i9mg7kg72b', team:'Honey Nut Berrios #Inaugural JBThrowback', farmRank:2, grade:'A-',
     prRank:3,
-    overview:"HNB spent most of their farm capital to acquire Tarik Skubal, sending 8 players and 3 picks to GGG. However, they received 2027 R2 from Creative Name and a 2027 R4 from the Jack Perkins trade. Their active WW approach and smart roster management compensate for reduced MiLB depth.",
+    overview:"HNB is a dynasty powerhouse hiding behind IL woes. After acquiring Tarik Skubal (the trade of the season), HNB also holds multiple elite-caliber players currently on the injured list who are expected to return during the 2026 season. When fully healthy, this roster competes with any team in the league — both now and in the future.",
     topProspects:[
-      {name:'2027 R2 Draft Pick (from Creative Name)', eta:'2027 draft', grade:'B+', note:'Received in the Jack Perkins trade. Middle-round value with upside.'},
-      {name:'2028 R1 Draft Pick (sent to GGG)', eta:'N/A', grade:'A-', note:'Traded to GGG in the Skubal deal — significant cost to the farm.'},
-      {name:'Kyson Witherspoon (SP, BOS)', eta:'2027', grade:'B', note:'SP prospect traded to HNC in May 4 deal. Was a mid-system BOS arm.'}
+      {name:'Elite IL Players (Multiple)', eta:'2026 Return', grade:'A', note:'HNB holds several high-end players currently on the injured list. These are not prospects — they are established stars temporarily sidelined. Their return will significantly boost this team.'},
+      {name:'2027 R2 Draft Pick (from Creative Name)', eta:'2027 draft', grade:'B+', note:'Received in the Jack Perkins trade. Solid mid-round future capital.'},
+      {name:'Tarik Skubal (SP, DET)', eta:'Now', grade:'A+', note:'Reigning Cy Young winner. The centerpiece acquisition — elite dynasty value at the top of the rotation.'}
     ],
-    strengths:'Tarik Skubal on the active roster is the payoff of all farm investment. Strong present performance compensates for reduced future depth.',
-    weaknesses:'The Skubal trade depleted most MiLB assets. Farm depth below the active roster is now thin.',
-    farmScore:68
-  },
+    strengths:'Tarik Skubal gives HNB arguably the best starter in the league. Multiple high-end IL players expected to return during 2026 dramatically increase the roster ceiling. When healthy, this team is a legitimate title contender.',
+    weaknesses:'IL absences have suppressed the team record below its true talent level. The Skubal trade cost significant prospect capital. Depth below the IL stars is limited.',
+    farmScore:84},
   {
     teamId:'odce8gzsmg7kg72c', team:'Wyatt and the Lankers', farmRank:5, grade:'B-',
     prRank:1,
@@ -749,7 +748,7 @@ const FARM_RANKS = [
     overview:"TBONERS received a solid pre-season haul from FPS (Eduard Bazardo, Blake Treinen, Jose Alvarado, Alex Bregman, 2029 R3) and are all-in on 2026. Their farm reflects a win-now mindset — there are few true MiLB stashes on the roster.",
     topProspects:[
       {name:'Eduard Bazardo (RP, SEA)', eta:'Now/2027', grade:'B', note:'High-upside reliever in SEA system, acquired pre-season. Electric stuff with command development needed.'},
-      {name:'Andrew Heaney (SP, N/A)', eta:'Now', grade:'B-', note:'Veteran SP acquired from FPS pre-season. Currently not with a team — free agent stash.'},
+      {name:'Josh Hader (RP, HOU)', eta:'Now', grade:'A-', note:'Elite closer acquired from FPS pre-season. Among the best relievers in baseball — a dominant save/K asset in this points league.'},
       {name:'2029 R3 Draft Pick (from FPS)', eta:'2029 draft', grade:'C+', note:'Received in the large FPS pre-season trade. Long-term asset.'}
     ],
     strengths:'Present roster is among the best in the league. Pre-season trade acquisitions gave them lineup depth immediately.',
@@ -1483,21 +1482,74 @@ function renderNotableWaivers(){
 
 
 // ===================== DRAFT PICKS TRACKER =====================
-const DRAFT_PICKS = (function(){
-  const picks = [];
+const DRAFT_PICKS_TRADED = (function(){
+  // Extract only the traded picks from TRADES
+  const traded = [];
   TRADES.forEach(trade => {
-    const teamAReceived = trade.received || [];
-    const teamBReceived = trade.gave || [];
-    teamAReceived.forEach(item => {
-      const m = item.match(/(20[0-9]{2})\s+(R\d+)/i);
-      if(m) picks.push({ year: m[1], round: m[2], nowOwner: trade.teamA, originalOwner: trade.teamB, item, date: trade.date||'' });
+    (trade.received || []).forEach(item => {
+      const m = item.match(/(20[0-9]{2})\s+(R[0-9]+)/i);
+      if(m) traded.push({ year:m[1], round:m[2], nowOwner:trade.teamA, originalOwner:trade.teamB, item, date:trade.date||'' });
     });
-    teamBReceived.forEach(item => {
-      const m = item.match(/(20[0-9]{2})\s+(R\d+)/i);
-      if(m) picks.push({ year: m[1], round: m[2], nowOwner: trade.teamB, originalOwner: trade.teamA, item, date: trade.date||'' });
+    (trade.gave || []).forEach(item => {
+      const m = item.match(/(20[0-9]{2})\s+(R[0-9]+)/i);
+      if(m) traded.push({ year:m[1], round:m[2], nowOwner:trade.teamB, originalOwner:trade.teamA, item, date:trade.date||'' });
     });
   });
-  return picks;
+  return traded;
+})();
+
+const DRAFT_PICKS = (function(){
+  // Build FULL pick grid: all 12 teams × 4 draft years × 5 rounds = 240 picks total
+  // Then overlay trades to show current ownership
+  const DRAFT_YEARS = ['2027','2028','2029','2030'];
+  const DRAFT_ROUNDS = ['R1','R2','R3','R4','R5'];
+  const allPicks = [];
+  const norm = n => (n||'').toLowerCase().replace(/[^a-z0-9]/g,'');
+  
+  DRAFT_YEARS.forEach(year => {
+    DRAFT_ROUNDS.forEach(round => {
+      TEAMS.forEach(team => {
+        let nowOwner = team.name;
+        let traded = false;
+        let tradeDate = '';
+        let tradedTo = '';
+        
+        // Check each traded pick to see if this team's pick got traded
+        DRAFT_PICKS_TRADED.forEach(tp => {
+          if(tp.year !== year || tp.round !== round) return;
+          const origNorm = norm(tp.originalOwner);
+          const teamNorm = norm(team.name);
+          // Match by normalized name OR by pick item note (e.g. "R4 Pick (LW)")
+          let matched = origNorm === teamNorm || teamNorm.includes(origNorm.substring(0,6));
+          // Check pick item for team abbreviation clue
+          if(!matched && tp.item) {
+            const noteMatch = tp.item.match(/\(([^)]+)\)/);
+            if(noteMatch) {
+              const noteNorm = norm(noteMatch[1]);
+              matched = noteNorm === norm(team.short) || teamNorm.includes(noteNorm) || noteNorm.includes(norm(team.short||'').substring(0,4));
+            }
+          }
+          if(matched) {
+            nowOwner = tp.nowOwner;
+            traded = true;
+            tradeDate = tp.date;
+            tradedTo = tp.nowOwner;
+          }
+        });
+        
+        allPicks.push({
+          year, round,
+          nowOwner,
+          originalOwner: team.name,
+          teamId: team.id || '',
+          traded,
+          tradeDate,
+          isOwn: nowOwner === team.name
+        });
+      });
+    });
+  });
+  return allPicks;
 })();
 
 function initPicks(liveData){
@@ -1526,31 +1578,63 @@ function filterPicks(){
 function renderPicksGrid(picks){
   const el = document.getElementById('picks-grid');
   if(!el) return;
-  // Group by year + round
-  const byYear = {};
-  picks.forEach(p => {
-    const key = p.year;
-    if(!byYear[key]) byYear[key] = {};
-    if(!byYear[key][p.round]) byYear[key][p.round] = [];
-    byYear[key][p.round].push(p);
+  if(!picks.length){ el.innerHTML = '<p style="color:var(--muted);padding:1rem;">No picks match filter.</p>'; return; }
+  
+  const years = [...new Set(picks.map(p=>p.year))].sort();
+  const rounds = [...new Set(picks.map(p=>p.round))].sort((a,b)=>parseInt(a.slice(1))-parseInt(b.slice(1)));
+  
+  // Get unique teams that currently own picks in this filter
+  const allOwners = [...new Set([...picks.map(p=>p.nowOwner), ...picks.map(p=>p.originalOwner)])].sort();
+  
+  // Build a table: rows = teams, columns = year+round combos
+  const cols = [];
+  years.forEach(yr => rounds.forEach(rd => { if(picks.some(p=>p.year===yr&&p.round===rd)) cols.push({yr,rd}); }));
+  
+  // For each team row, show what picks they currently hold
+  const teamRows = TEAMS.map(t=>t.name).filter(name=>
+    picks.some(p=>p.nowOwner===name||p.originalOwner===name)
+  );
+  
+  let html = '<div style="overflow-x:auto;">';
+  html += '<table style="width:100%;border-collapse:collapse;font-size:0.8rem;">';
+  html += '<thead><tr><th style="text-align:left;padding:0.5rem;color:var(--muted);border-bottom:2px solid var(--border);">TEAM</th>';
+  cols.forEach(c => {
+    html += '<th style="padding:0.4rem;color:var(--accent);border-bottom:2px solid var(--border);min-width:70px;text-align:center;">' + c.yr + '<br>' + c.rd + '</th>';
   });
-  const years = Object.keys(byYear).sort();
-  if(!years.length){ el.innerHTML = '<p style="color:var(--muted);">No picks match filter.</p>'; return; }
-  el.innerHTML = years.map(yr => {
-    const rounds = Object.keys(byYear[yr]).sort();
-    return rounds.map(rd => {
-      const ps = byYear[yr][rd];
-      return '<div style="background:var(--card-bg);border-radius:10px;padding:0.75rem 1rem;">' +
-        '<div style="font-weight:700;color:var(--accent);margin-bottom:0.5rem;">' + yr + ' ' + rd + '</div>' +
-        ps.map(p => '<div style="font-size:0.82rem;padding:0.3rem 0;border-bottom:1px solid var(--border);">' +
-          '<span style="font-weight:600;">' + p.nowOwner + '</span>' +
-          '<span style="color:var(--muted);font-size:0.72rem;"> (via ' + p.originalOwner + ')</span>' +
-          (p.date ? '<div style="color:var(--muted);font-size:0.7rem;">' + p.date + '</div>' : '') +
-        '</div>').join('') +
-      '</div>';
-    }).join('');
-  }).join('');
+  html += '</tr></thead><tbody>';
+  
+  teamRows.forEach((teamName, idx) => {
+    html += '<tr style="background:' + (idx%2===0?'transparent':'rgba(255,255,255,0.02)') + ';">';
+    html += '<td style="padding:0.4rem 0.6rem;font-weight:600;white-space:nowrap;border-right:1px solid var(--border);">' + teamName.replace(/#Inaugural JBThrowback/,'').trim() + '</td>';
+    cols.forEach(c => {
+      // Find if this team currently owns this pick
+      const owned = picks.find(p => p.year===c.yr && p.round===c.rd && p.nowOwner===teamName);
+      const orig = picks.find(p => p.year===c.yr && p.round===c.rd && p.originalOwner===teamName);
+      if(owned && owned.traded && owned.originalOwner !== teamName) {
+        // Acquired via trade
+        html += '<td style="padding:0.3rem;text-align:center;"><span style="background:#1a5c3a;color:#4ade80;padding:2px 6px;border-radius:4px;font-size:0.72rem;font-weight:600;" title="Acquired from ' + owned.originalOwner + ' on ' + owned.tradeDate + '">✓ ACQ</span></td>';
+      } else if(owned && !owned.traded) {
+        // Own pick
+        html += '<td style="padding:0.3rem;text-align:center;"><span style="background:#1a3a5c;color:#60a5fa;padding:2px 6px;border-radius:4px;font-size:0.72rem;">OWN</span></td>';
+      } else if(orig && orig.traded && orig.nowOwner !== teamName) {
+        // Pick was traded away
+        html += '<td style="padding:0.3rem;text-align:center;"><span style="background:#3a1a1a;color:#f87171;padding:2px 6px;border-radius:4px;font-size:0.72rem;" title="Traded to ' + orig.nowOwner + '">TRADED</span></td>';
+      } else {
+        html += '<td style="padding:0.3rem;text-align:center;color:var(--muted);font-size:0.7rem;">-</td>';
+      }
+    });
+    html += '</tr>';
+  });
+  
+  html += '</tbody></table></div>';
+  html += '<div style="margin-top:0.75rem;font-size:0.72rem;color:var(--muted);display:flex;gap:1rem;flex-wrap:wrap;">';
+  html += '<span><span style="background:#1a3a5c;color:#60a5fa;padding:1px 5px;border-radius:3px;">OWN</span> Own pick</span>';
+  html += '<span><span style="background:#1a5c3a;color:#4ade80;padding:1px 5px;border-radius:3px;">✓ ACQ</span> Acquired via trade</span>';
+  html += '<span><span style="background:#3a1a1a;color:#f87171;padding:1px 5px;border-radius:3px;">TRADED</span> Traded away</span>';
+  html += '</div>';
+  el.innerHTML = html;
 }
+
 
 function renderPicksTradeLog(){
   const el = document.getElementById('picks-trade-log');
