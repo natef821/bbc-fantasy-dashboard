@@ -27,7 +27,7 @@ jobs:
 
       - name: Fetch Fantrax data
         env:
-          FANTRAX_SESSION: ${{ secrets.FANTRAX_SESSION }}
+          FANTRAX_COOKIES: ${{ secrets.FANTRAX_COOKIES }}
         run: python fetch_data.py
 
       - name: Commit updated data
