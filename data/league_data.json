@@ -1,11 +1,35 @@
 {
-  "lastUpdated": "2026-05-09T18:53:07.877870Z",
+  "lastUpdated": "2026-05-09T20:55:23.924503Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "seasonStats": {},
   "schedule": {},
   "transactions": [
+    {
+      "displayDate": 1778342400000,
+      "teamId": "10270",
+      "id": "3bbbvx49moysgzfu",
+      "seq": 137631,
+      "desc": "The Rockies recalled Halvorsen from Triple-A Albuquerque on Saturday.",
+      "player": {
+        "teamName": "Colorado Rockies",
+        "urlName": "seth-halvorsen",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06fqx_96_2.png",
+        "scorerId": "06fqx",
+        "posShortNames": "RP",
+        "team": false,
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "016"
+        ],
+        "teamId": "10270",
+        "name": "Seth Halvorsen",
+        "teamShortName": "COL",
+        "shortName": "S. Halvorsen"
+      }
+    },
     {
       "displayDate": 1778342400000,
       "teamId": "10200",
@@ -192,12 +216,13 @@
         "urlName": "aaron-brooks",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bwv_96_5.png",
         "scorerId": "02bwv",
-        "posShortNames": "SP",
+        "posShortNames": "SP,RP",
         "team": false,
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
-          "015"
+          "015",
+          "016"
         ],
         "teamId": "10040",
         "name": "Aaron Brooks",
@@ -216,8 +241,15 @@
         "urlName": "blake-perkins",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pp5_96_4.png",
         "scorerId": "03pp5",
+        "upcomingEventStatusId": "5",
         "posShortNames": "CF,LF",
         "team": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -265,8 +297,15 @@
         "teamName": "San Francisco Giants",
         "urlName": "logan-porter",
         "scorerId": "05j94",
+        "upcomingEventStatusId": "5",
         "posShortNames": "C",
         "team": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -305,6 +344,37 @@
     },
     {
       "displayDate": 1778342400000,
+      "teamId": "10070",
+      "id": "a067959vmoykc8nq",
+      "seq": 137619,
+      "desc": "The San Francisco Giants traded C Patrick Bailey to the Cleveland Guardians.",
+      "player": {
+        "teamName": "Cleveland Guardians",
+        "urlName": "patrick-bailey",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yuu_96_5.png",
+        "scorerId": "04yuu",
+        "upcomingEventStatusId": "5",
+        "posShortNames": "C",
+        "team": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "001"
+        ],
+        "teamId": "10070",
+        "name": "Patrick Bailey",
+        "teamShortName": "CLE",
+        "shortName": "P. Bailey"
+      }
+    },
+    {
+      "displayDate": 1778342400000,
       "teamId": "10300",
       "id": "wkx3810amoykc92x",
       "seq": 137619,
@@ -330,30 +400,6 @@
         "name": "Matt Wilkinson",
         "teamShortName": "SF",
         "shortName": "M. Wilkinson"
-      }
-    },
-    {
-      "displayDate": 1778342400000,
-      "teamId": "10070",
-      "id": "a067959vmoykc8nq",
-      "seq": 137619,
-      "desc": "The San Francisco Giants traded C Patrick Bailey to the Cleveland Guardians.",
-      "player": {
-        "teamName": "Cleveland Guardians",
-        "urlName": "patrick-bailey",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yuu_96_5.png",
-        "scorerId": "04yuu",
-        "posShortNames": "C",
-        "team": false,
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "001"
-        ],
-        "teamId": "10070",
-        "name": "Patrick Bailey",
-        "teamShortName": "CLE",
-        "shortName": "P. Bailey"
       }
     },
     {
@@ -646,8 +692,15 @@
         "urlName": "zack-short",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0420g_96_9.png",
         "scorerId": "0420g",
+        "upcomingEventStatusId": "5",
         "posShortNames": "3B",
         "team": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -789,36 +842,6 @@
         "name": "Steven Cruz",
         "teamShortName": "KC",
         "shortName": "S. Cruz"
-      }
-    },
-    {
-      "displayDate": 1778256000000,
-      "teamId": "10260",
-      "id": "uvk268rzmoxc8us1",
-      "seq": 137603,
-      "desc": "The Diamondbacks activated Locklear (shoulder/elbow) from the 10-day injured list Friday and optioned him to Triple-A Reno.",
-      "player": {
-        "teamName": "Arizona Diamondbacks",
-        "urlName": "tyler-locklear",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xu8_96_2.png",
-        "scorerId": "05xu8",
-        "posShortNames": "1B",
-        "team": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "002"
-        ],
-        "teamId": "10260",
-        "name": "Tyler Locklear",
-        "teamShortName": "ARI",
-        "shortName": "T. Locklear"
       }
     }
   ],
