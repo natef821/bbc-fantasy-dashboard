@@ -31,7 +31,8 @@ def fantrax_post(method, data=None):
         resp.raise_for_status()
         result = resp.json()
         if result.get('pageError'):
-            print(f'API Error for {method}: {result["pageError"]["text"]}')
+            page_err = result.get('pageError', {})
+            print(f'API Error for {method}: {page_err}')
             return None
         return result.get('responses', [{}])[0].get('data')
     except Exception as e:
@@ -138,6 +139,9 @@ def main():
     with open('data/league_data.json', 'w') as f:
         json.dump(output, f, indent=2, default=str)
     print('Saved data/league_data.json')
+    print(f'  Standings: {len(output["standings"])} teams')
+    print(f'  Transactions: {len(output["transactions"])} items')
+    print(f'  Cookie set: {bool(SESSION_COOKIE)}')
     
     # Also update last_updated timestamp
     with open('data/last_updated.json', 'w') as f:
