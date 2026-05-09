@@ -1,0 +1,274 @@
+{
+  "lastUpdated": "2026-05-09T01:59:57.315Z",
+  "leagueId": "n25i1grumg7kg722",
+  "season": 2026,
+  "currentPeriod": 13,
+  "standings": [
+    {
+      "id": "odce8gzsmg7kg72c",
+      "name": "Wyatt and the Lankers",
+      "short": "Lankers",
+      "rank": 1,
+      "w": 9,
+      "l": 3,
+      "t": 0,
+      "winPct": 0.75,
+      "div": "4-2-0",
+      "gb": 0,
+      "ww": 2,
+      "pf": 3270.25,
+      "pa": 2675.25,
+      "streak": "1 (L)"
+    },
+    {
+      "id": "8znzrpg1mg7kg72e",
+      "name": "TBONERS",
+      "short": "TBONERS",
+      "rank": 2,
+      "w": 9,
+      "l": 3,
+      "t": 0,
+      "winPct": 0.75,
+      "div": "3-3-0",
+      "gb": 0,
+      "ww": 7,
+      "pf": 3199.5,
+      "pa": 2888.25,
+      "streak": "1 (W)"
+    },
+    {
+      "id": "g8p3r1i9mg7kg72b",
+      "name": "Honey Nut Berrios #Inaugural JBThrowback",
+      "short": "HNB",
+      "rank": 3,
+      "w": 8,
+      "l": 4,
+      "t": 0,
+      "winPct": 0.667,
+      "div": "5-1-0",
+      "gb": 1,
+      "ww": 10,
+      "pf": 3156.5,
+      "pa": 2686,
+      "streak": "3 (W)"
+    },
+    {
+      "id": "xgktl0otmg7kg72d",
+      "name": "Tank for LeBron",
+      "short": "Tank4LB",
+      "rank": 4,
+      "w": 8,
+      "l": 4,
+      "t": 0,
+      "winPct": 0.667,
+      "div": "4-2-0",
+      "gb": 1,
+      "ww": 11,
+      "pf": 2870,
+      "pa": 2735.5,
+      "streak": "1 (L)"
+    },
+    {
+      "id": "ckm3yf5rmg7kg729",
+      "name": "Layin Wood",
+      "short": "LayinWood",
+      "rank": 5,
+      "w": 7,
+      "l": 5,
+      "t": 0,
+      "winPct": 0.583,
+      "div": "5-1-0",
+      "gb": 2,
+      "ww": 8,
+      "pf": 2923.75,
+      "pa": 2951.75,
+      "streak": "1 (L)"
+    },
+    {
+      "id": "nbnjqx3cmg7kg72g",
+      "name": "Honey Nut Chourio's",
+      "short": "HNC",
+      "rank": 6,
+      "w": 6,
+      "l": 6,
+      "t": 0,
+      "winPct": 0.5,
+      "div": "3-3-0",
+      "gb": 3,
+      "ww": 6,
+      "pf": 2777.5,
+      "pa": 3016.25,
+      "streak": "1 (W)"
+    },
+    {
+      "id": "c8sjtrwhmg7kg72h",
+      "name": "Say Yes to Velo",
+      "short": "Velo",
+      "rank": 7,
+      "w": 6,
+      "l": 6,
+      "t": 0,
+      "winPct": 0.5,
+      "div": "3-3-0",
+      "gb": 3,
+      "ww": 5,
+      "pf": 2532,
+      "pa": 2557,
+      "streak": "3 (W)"
+    },
+    {
+      "id": "0b0hd0qymg7kg72i",
+      "name": "Evil Honey Nut Chourio's",
+      "short": "EvilHNC",
+      "rank": 8,
+      "w": 5,
+      "l": 7,
+      "t": 0,
+      "winPct": 0.417,
+      "div": "2-4-0",
+      "gb": 4,
+      "ww": 9,
+      "pf": 2970.25,
+      "pa": 3083.75,
+      "streak": "1 (W)"
+    },
+    {
+      "id": "vhuxfzygmg7kg728",
+      "name": "Creative Name",
+      "short": "Creative",
+      "rank": 9,
+      "w": 5,
+      "l": 7,
+      "t": 0,
+      "winPct": 0.417,
+      "div": "3-3-0",
+      "gb": 4,
+      "ww": 12,
+      "pf": 2584.75,
+      "pa": 2636.25,
+      "streak": "1 (W)"
+    },
+    {
+      "id": "0qrvkt09mg7kg72f",
+      "name": "First Pitch Swinging",
+      "short": "FPS",
+      "rank": 10,
+      "w": 4,
+      "l": 8,
+      "t": 0,
+      "winPct": 0.333,
+      "div": "2-4-0",
+      "gb": 5,
+      "ww": 1,
+      "pf": 2924,
+      "pa": 3063,
+      "streak": "2 (L)"
+    },
+    {
+      "id": "aw407ddlmg7kg72a",
+      "name": "Golden Gate Gays",
+      "short": "GGG",
+      "rank": 11,
+      "w": 3,
+      "l": 9,
+      "t": 0,
+      "winPct": 0.25,
+      "div": "2-4-0",
+      "gb": 6,
+      "ww": 4,
+      "pf": 2535.5,
+      "pa": 3105.25,
+      "streak": "1 (L)"
+    },
+    {
+      "id": "jwg2zkwzmg7kg72a",
+      "name": "Jac-in' It",
+      "short": "JacInIt",
+      "rank": 12,
+      "w": 2,
+      "l": 10,
+      "t": 0,
+      "winPct": 0.167,
+      "div": "0-6-0",
+      "gb": 7,
+      "ww": 3,
+      "pf": 2466.25,
+      "pa": 2812,
+      "streak": "6 (L)"
+    }
+  ],
+  "powerRankings": [
+    {
+      "teamId": "odce8gzsmg7kg72c",
+      "rank": 1,
+      "score": 92,
+      "prevRank": 1
+    },
+    {
+      "teamId": "8znzrpg1mg7kg72e",
+      "rank": 2,
+      "score": 90,
+      "prevRank": 2
+    },
+    {
+      "teamId": "g8p3r1i9mg7kg72b",
+      "rank": 3,
+      "score": 85,
+      "prevRank": 3
+    },
+    {
+      "teamId": "xgktl0otmg7kg72d",
+      "rank": 4,
+      "score": 80,
+      "prevRank": 7
+    },
+    {
+      "teamId": "ckm3yf5rmg7kg729",
+      "rank": 5,
+      "score": 75,
+      "prevRank": 5
+    },
+    {
+      "teamId": "nbnjqx3cmg7kg72g",
+      "rank": 6,
+      "score": 68,
+      "prevRank": 6
+    },
+    {
+      "teamId": "c8sjtrwhmg7kg72h",
+      "rank": 7,
+      "score": 65,
+      "prevRank": 10
+    },
+    {
+      "teamId": "0b0hd0qymg7kg72i",
+      "rank": 8,
+      "score": 62,
+      "prevRank": 8
+    },
+    {
+      "teamId": "vhuxfzygmg7kg728",
+      "rank": 9,
+      "score": 55,
+      "prevRank": 9
+    },
+    {
+      "teamId": "0qrvkt09mg7kg72f",
+      "rank": 10,
+      "score": 54,
+      "prevRank": 4
+    },
+    {
+      "teamId": "aw407ddlmg7kg72a",
+      "rank": 11,
+      "score": 48,
+      "prevRank": 11
+    },
+    {
+      "teamId": "jwg2zkwzmg7kg72a",
+      "rank": 12,
+      "score": 35,
+      "prevRank": 12
+    }
+  ]
+}
