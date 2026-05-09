@@ -124,15 +124,13 @@ def get_schedule():
                 records[t2_id]['pa'] += t1_pts
                 records[t2_id]['weeklyPF'].append(t2_pts)
 
-            # Determine winner using highlight field (True = winner)
-            t1_won = cells[1].get('highlight', False)
-            t2_won = cells[3].get('highlight', False)
-
-            # Fallback: compare scores if neither highlighted
-            if not t1_won and not t2_won and t1_pts != t2_pts:
-                t1_won = t1_pts > t2_pts
-                t2_won = t2_pts > t1_pts
-
+            # Determine winner by score comparison (more reliable than highlight field)
+            if t1_pts > t2_pts:
+                t1_won, t2_won = True, False
+            elif t2_pts > t1_pts:
+                t1_won, t2_won = False, True
+            else:
+                t1_won, t2_won = False, False  # Tie
             winner_name = ''
             if t1_won and not t2_won:
                 records[t1_id]['w'] += 1
@@ -227,6 +225,34 @@ def get_transactions(view='TRADE', page=0):
         return []
     return data.get('transactions', [])
 
+def get_rosters():
+    """Fetch all team rosters including IL status"""
+    data = fantrax_post('getTeamRosterInfo', {'view': 'ROSTER'})
+    if not data:
+        return {}
+    
+    teams = {}
+    for team_id, team_data in data.get('rosters', {}).items():
+        team_name = team_data.get('name', '')
+        roster = []
+        for player in team_data.get('rosterItems', []):
+            player_info = player.get('player', {})
+            status = player.get('status', {})
+            roster.append({
+                'name': player_info.get('name', ''),
+                'pos': player_info.get('posShortNames', ''),
+                'team': player_info.get('teamShortName', ''),
+                'rookie': player_info.get('rookie', False),
+                'minorsEligible': player_info.get('minorsEligible', False),
+                'scorerId': player_info.get('scorerId', ''),
+                'statusCode': status.get('label', ''),
+                'injuryNote': status.get('code', ''),
+                'onIL': status.get('code', '') in ('IL10', 'IL15', 'IL60', 'COVID', 'SUSP', 'IL7', 'DTD'),
+                'fantasyPos': player.get('lineupPosition', ''),
+            })
+        teams[team_id] = {'name': team_name, 'roster': roster}
+    return teams
+
 def main():
     print(f'Fetching Fantrax data at {datetime.utcnow().isoformat()}')
 
@@ -239,6 +265,7 @@ def main():
         'seasonStats': {},
         'transactions': [],
         'mlbTransactions': [],
+        'rosters': {},
         'currentPeriod': None
     }
 
@@ -264,6 +291,15 @@ def main():
     print('Getting MLB transactions (IL/recalls)...')
     output['mlbTransactions'] = get_transactions('TRANSACTION')
     print(f'  Got {len(output["mlbTransactions"])} MLB transactions')
+
+    print('Getting team rosters (IL status)...')
+    try:
+        output['rosters'] = get_rosters()
+        print(f'  Got {len(output["rosters"])} team rosters')
+    except Exception as e:
+        print(f'  Rosters fetch failed: {e}')
+        output['rosters'] = {}
+
 
     # Save to file
     os.makedirs('data', exist_ok=True)
