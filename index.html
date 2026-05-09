@@ -857,6 +857,12 @@ function showTab(name){
   if(name==='weekrank')initWeekRank();
   if(name==='farm')initFarm();
   if(name==='teamwrite')initWriteups();
+
+  if(name==='matchups'){ const ld=window._liveData||window._matchupLiveData||{}; renderMatchups(ld); buildH2HMatrix(ld); }
+  if(name==='picks') initPicks(window._liveData||window._waiverLiveData||{});
+  if(name==='injuryil') filterIL();
+  if(name==='playoff') initPlayoffPicture(window._liveData||window._waiverLiveData||{});
+  if(name==='news') initLeagueNews(window._liveData||window._waiverLiveData||{});
 }
 
 function showStatView(v,btn){
@@ -1878,6 +1884,7 @@ function initLeagueNews(liveData){
 document.addEventListener('DOMContentLoaded',function(){
       // Fetch live data from data/league_data.json and init dashboard
       fetch('data/league_data.json').then(r=>r.json()).then(liveData=>{
+              window._liveData = liveData;
               // Update last updated timestamp
               if(liveData.lastUpdated){
                         const d=new Date(liveData.lastUpdated);
