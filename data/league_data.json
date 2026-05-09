@@ -1,11 +1,41 @@
 {
-  "lastUpdated": "2026-05-09T13:05:08.804221Z",
+  "lastUpdated": "2026-05-09T15:45:34.429049Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "seasonStats": {},
   "schedule": {},
   "transactions": [
+    {
+      "displayDate": 1778342400000,
+      "teamId": "10070",
+      "id": "aapp2okrmoyimhyp",
+      "seq": 137616,
+      "desc": "The Guardians optioned Naylor to Triple-A Columbus on Saturday, Zack Meisel of The Athletic reports.",
+      "player": {
+        "teamName": "Cleveland Guardians",
+        "urlName": "bo-naylor",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mrn_96_5.png",
+        "scorerId": "04mrn",
+        "posShortNames": "C",
+        "team": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "001"
+        ],
+        "teamId": "10070",
+        "name": "Bo Naylor",
+        "teamShortName": "CLE",
+        "shortName": "B. Naylor"
+      }
+    },
     {
       "displayDate": 1778256000000,
       "teamId": "10280",
@@ -777,30 +807,6 @@
         "name": "Stephen Jones",
         "teamShortName": "MIA",
         "shortName": "S. Jones"
-      }
-    },
-    {
-      "displayDate": 1778256000000,
-      "teamId": "10160",
-      "id": "wqph3jzmmox2ee73",
-      "seq": 137586,
-      "desc": "The Marlins selected Snelling's contract from Triple-A Jacksonville on Friday.",
-      "player": {
-        "teamName": "Miami Marlins",
-        "urlName": "robby-snelling",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061mh_96_1.png",
-        "scorerId": "061mh",
-        "posShortNames": "SP",
-        "team": false,
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "015"
-        ],
-        "teamId": "10160",
-        "name": "Robby Snelling",
-        "teamShortName": "MIA",
-        "shortName": "R. Snelling"
       }
     }
   ],
