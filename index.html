@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brett Baty Fan Club — 2026 Dynasty Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#0a0e1a;--card:#131929;--card2:#1a2238;--border:#1e2d45;--accent:#00d4aa;--accent2:#4f8ef7;--accent3:#f7a44f;--red:#ff4d6d;--gold:#ffd700;--silver:#c0c0c0;--bronze:#cd7f32;--text:#e8eaf6;--muted:#7b8caa;--green:#00e676;--yellow:#ffeb3b;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;min-height:100vh;}
+header{background:linear-gradient(135deg,#0d1b2e 0%,#1a2d4a 50%,#0d1b2e 100%);border-bottom:2px solid var(--accent);padding:20px 30px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);}
+.header-left h1{font-size:1.8rem;font-weight:800;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.header-left p{color:var(--muted);font-size:.85rem;margin-top:3px;}
+.live-badge{background:var(--red);color:#fff;padding:4px 10px;border-radius:20px;font-size:.75rem;font-weight:700;animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:.6;}}
+nav{background:var(--card);border-bottom:1px solid var(--border);display:flex;overflow-x:auto;gap:0;padding:0 20px;}
+.nav-btn{padding:14px 18px;border:none;background:none;color:var(--muted);cursor:pointer;font-size:.85rem;font-weight:600;white-space:nowrap;border-bottom:3px solid transparent;transition:all .2s;letter-spacing:.5px;}
+.nav-btn:hover{color:var(--text);background:rgba(255,255,255,.03);}
+.nav-btn.active{color:var(--accent);border-bottom-color:var(--accent);}
+.tab-content{display:none;padding:24px;max-width:1400px;margin:0 auto;animation:fadeIn .3s ease;}
+.tab-content.active{display:block;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px;}
+.card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;}
+.card-title{font-size:1.1rem;font-weight:700;color:var(--accent);}
+.section-title{font-size:1.4rem;font-weight:800;color:var(--text);margin-bottom:20px;display:flex;align-items:center;gap:10px;}
+.section-title::after{content:'';flex:1;height:1px;background:var(--border);}
+table{width:100%;border-collapse:collapse;}
+th{padding:10px 14px;text-align:left;font-size:.78rem;color:var(--muted);font-weight:700;letter-spacing:.8px;text-transform:uppercase;border-bottom:1px solid var(--border);cursor:pointer;user-select:none;white-space:nowrap;}
+th:hover{color:var(--accent);}
+th.sorted-asc::after{content:' ↑';}
+th.sorted-desc::after{content:' ↓';}
+td{padding:10px 14px;font-size:.88rem;border-bottom:1px solid rgba(255,255,255,.04);white-space:nowrap;}
+tr:hover td{background:rgba(255,255,255,.03);}
+.rank-badge{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;font-size:.8rem;font-weight:800;}
+.rank-1{background:var(--gold);color:#000;}
+.rank-2{background:var(--silver);color:#000;}
+.rank-3{background:var(--bronze);color:#fff;}
+.rank-top{background:var(--green);color:#000;}
+.rank-mid{background:var(--accent2);color:#fff;}
+.rank-low{background:var(--red);color:#fff;}
+.rank-default{background:var(--card2);color:var(--text);}
+.team-name{font-weight:700;color:var(--text);}
+.delta{font-size:.8rem;font-weight:700;}
+.delta-up{color:var(--green);}
+.delta-down{color:var(--red);}
+.delta-same{color:var(--muted);}
+.power-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px;margin-bottom:12px;display:grid;grid-template-columns:50px 1fr auto;gap:16px;align-items:center;cursor:pointer;transition:all .2s;}
+.power-card:hover{border-color:var(--accent);transform:translateX(4px);background:var(--card2);}
+.power-card.gold{border-left:4px solid var(--gold);}
+.power-card.silver{border-left:4px solid var(--silver);}
+.power-card.bronze{border-left:4px solid var(--bronze);}
+.power-card.rising{border-left:4px solid var(--green);}
+.power-card.falling{border-left:4px solid var(--red);}
+.power-card.stable{border-left:4px solid var(--accent2);}
+.pc-rank{text-align:center;}
+.pc-rank .num{font-size:1.8rem;font-weight:900;line-height:1;}
+.pc-info h3{font-size:1rem;font-weight:700;margin-bottom:4px;}
+.pc-info .meta{font-size:.78rem;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap;}
+.pc-info .meta span{display:flex;align-items:center;gap:4px;}
+.pc-bar{height:6px;background:var(--border);border-radius:3px;margin-top:8px;overflow:hidden;}
+.pc-bar-fill{height:100%;border-radius:3px;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .5s ease;}
+.pc-score{text-align:right;}
+.pc-score .score{font-size:1.4rem;font-weight:800;color:var(--accent);}
+.pc-score .label{font-size:.72rem;color:var(--muted);}
+.badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:.72rem;font-weight:700;margin:2px;}
+.badge-green{background:rgba(0,230,118,.15);color:var(--green);border:1px solid rgba(0,230,118,.3);}
+.badge-red{background:rgba(255,77,109,.15);color:var(--red);border:1px solid rgba(255,77,109,.3);}
+.badge-blue{background:rgba(79,142,247,.15);color:var(--accent2);border:1px solid rgba(79,142,247,.3);}
+.badge-yellow{background:rgba(255,235,59,.15);color:var(--yellow);border:1px solid rgba(255,235,59,.3);}
+.badge-gold{background:rgba(255,215,0,.15);color:var(--gold);border:1px solid rgba(255,215,0,.3);}
+.badge-teal{background:rgba(0,212,170,.15);color:var(--accent);border:1px solid rgba(0,212,170,.3);}
+.filter-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px;}
+.filter-btn{padding:6px 14px;border:1px solid var(--border);border-radius:20px;background:none;color:var(--muted);cursor:pointer;font-size:.8rem;transition:all .2s;}
+.filter-btn.active,.filter-btn:hover{border-color:var(--accent);color:var(--accent);background:rgba(0,212,170,.08);}
+input.search-box{background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:8px 14px;color:var(--text);font-size:.85rem;width:240px;}
+input.search-box:focus{outline:none;border-color:var(--accent);}
+.chart-container{position:relative;height:300px;}
+.chart-container.tall{height:400px;}
+.chart-container.short{height:220px;}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;}
+@media(max-width:900px){.grid-2,.grid-3{grid-template-columns:1fr;}.power-card{grid-template-columns:40px 1fr;}.pc-score{display:none;}}
+.stat-box{background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:14px;text-align:center;}
+.stat-box .val{font-size:1.5rem;font-weight:800;color:var(--accent);}
+.stat-box .lbl{font-size:.75rem;color:var(--muted);margin-top:4px;}
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:1000;align-items:center;justify-content:center;backdrop-filter:blur(4px);}
+.modal-overlay.open{display:flex;}
+.modal{background:var(--card);border:1px solid var(--border);border-radius:16px;max-width:800px;width:90%;max-height:85vh;overflow-y:auto;padding:30px;position:relative;}
+.modal-close{position:absolute;top:16px;right:16px;background:none;border:none;color:var(--muted);font-size:1.5rem;cursor:pointer;}
+.modal-close:hover{color:var(--text);}
+.modal-team-header{display:flex;align-items:center;gap:16px;margin-bottom:24px;}
+.modal-rank{font-size:3rem;font-weight:900;color:var(--accent);}
+.modal-info h2{font-size:1.5rem;font-weight:800;}
+.modal-info p{color:var(--muted);font-size:.9rem;}
+.writeup{line-height:1.8;color:var(--text);font-size:.9rem;}
+.writeup p{margin-bottom:12px;}
+.writeup h4{color:var(--accent);font-size:.95rem;font-weight:700;margin:16px 0 8px;}
+.week-trend{display:flex;gap:4px;align-items:flex-end;height:50px;margin-top:8px;}
+.trend-bar{flex:1;background:var(--accent2);border-radius:2px 2px 0 0;min-width:8px;opacity:.8;transition:opacity .2s;cursor:pointer;}
+.trend-bar:hover{opacity:1;}
+.trend-bar.gold{background:var(--gold);}
+.trend-bar.green{background:var(--green);}
+.trend-bar.red{background:var(--red);}
+.trade-card{background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:16px;margin-bottom:12px;}
+.trade-teams{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+.trade-side{flex:1;}
+.trade-side h4{font-size:.85rem;color:var(--muted);margin-bottom:6px;}
+.trade-side ul{list-style:none;}
+.trade-side ul li{font-size:.88rem;padding:2px 0;}
+.trade-arrow{color:var(--accent);font-size:1.4rem;}
+.trade-date{font-size:.78rem;color:var(--muted);margin-top:8px;}
+.injury-tag{display:inline-block;padding:1px 6px;background:rgba(255,77,109,.2);border:1px solid rgba(255,77,109,.4);border-radius:4px;font-size:.7rem;color:var(--red);}
+.prospect-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px;margin-bottom:14px;cursor:pointer;transition:all .2s;}
+.prospect-card:hover{border-color:var(--accent2);transform:translateX(4px);}
+.prospect-header{display:flex;align-items:center;gap:12px;margin-bottom:12px;}
+.prospect-rank-badge{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:1rem;}
+.prospect-grade{display:inline-block;padding:4px 10px;border-radius:6px;font-size:.85rem;font-weight:800;}
+.grade-a-plus{background:rgba(255,215,0,.2);color:var(--gold);border:1px solid rgba(255,215,0,.4);}
+.grade-a{background:rgba(0,230,118,.2);color:var(--green);border:1px solid rgba(0,230,118,.4);}
+.grade-b-plus{background:rgba(0,212,170,.2);color:var(--accent);border:1px solid rgba(0,212,170,.4);}
+.grade-b{background:rgba(79,142,247,.2);color:var(--accent2);border:1px solid rgba(79,142,247,.4);}
+.grade-c{background:rgba(255,164,79,.2);color:var(--accent3);border:1px solid rgba(255,164,79,.4);}
+.grade-d{background:rgba(255,77,109,.2);color:var(--red);border:1px solid rgba(255,77,109,.4);}
+.radar-wrap{height:280px;}
+.tooltip-custom{position:absolute;background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:10px;font-size:.8rem;pointer-events:none;display:none;z-index:200;}
+.progress-ring{display:inline-block;}
+.waiver-bar{height:24px;background:var(--card2);border-radius:4px;overflow:hidden;margin-bottom:6px;}
+.waiver-fill{height:100%;background:linear-gradient(90deg,var(--accent2),var(--accent));border-radius:4px;display:flex;align-items:center;padding-left:8px;font-size:.75rem;font-weight:700;color:#fff;}
+.tabs-secondary{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;}
+.tab-s-btn{padding:6px 14px;border:1px solid var(--border);border-radius:20px;background:none;color:var(--muted);cursor:pointer;font-size:.8rem;transition:all .2s;}
+.tab-s-btn.active{background:var(--accent);color:#000;border-color:var(--accent);font-weight:700;}
+.sticky-header{position:sticky;top:0;background:var(--card);z-index:10;}
+.period-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px;}
+.period-card{background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:14px;}
+.period-card h4{font-size:.85rem;color:var(--muted);margin-bottom:10px;}
+.matchup-row{display:flex;align-items:center;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.04);}
+.matchup-row:last-child{border:none;}
+.m-team{font-size:.85rem;font-weight:600;max-width:120px;overflow:hidden;text-overflow:ellipsis;}
+.m-score{font-size:.9rem;font-weight:800;color:var(--accent);}
+.m-score.loser{color:var(--muted);}
+.timeline{position:relative;padding-left:24px;}
+.timeline::before{content:'';position:absolute;left:8px;top:0;bottom:0;width:2px;background:var(--border);}
+.tl-item{position:relative;margin-bottom:16px;}
+.tl-dot{position:absolute;left:-20px;top:4px;width:12px;height:12px;border-radius:50%;background:var(--accent);}
+.tl-content{background:var(--card2);border-radius:8px;padding:12px;}
+.tl-date{font-size:.75rem;color:var(--muted);margin-bottom:4px;}
+.searchable-filter{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap;align-items:center;}
+</style>
+</head>
+<body>
+<header>
+  <div class="header-left">
+    <h1>⚾ Brett Baty Fan Club</h1>
+    <p>2026 MLB Dynasty League · Power Rankings Dashboard · Period 13 In Progress</p>
+  </div>
+  <div style="display:flex;gap:12px;align-items:center;">
+    <span class="live-badge">🔴 LIVE</span>
+    <span id="lastUpdated" style="color:var(--muted);font-size:.78rem;"></span>
+  </div>
+</header>
+
+<nav>
+  <button class="nav-btn active" onclick="showTab('rankings')">🏆 Power Rankings</button>
+  <button class="nav-btn" onclick="showTab('standings')">📊 Standings</button>
+  <button class="nav-btn" onclick="showTab('trends')">📈 Trends</button>
+  <button class="nav-btn" onclick="showTab('matchups')">⚔️ Matchups</button>
+  <button class="nav-btn" onclick="showTab('teamwrite')">📝 Team Writeups</button>
+  <button class="nav-btn" onclick="showTab('farm')">🌱 Farm Rankings</button>
+  <button class="nav-btn" onclick="showTab('weekrank')">📅 Week-by-Week</button>
+  <button class="nav-btn" onclick="showTab('stats')">📉 Stats</button>
+  <button class="nav-btn" onclick="showTab('trades')">🔄 Trades</button>
+  <button class="nav-btn" onclick="showTab('waivers')">📋 Waivers</button>
+</nav>
+
+<!-- POWER RANKINGS TAB -->
+<div id="tab-rankings" class="tab-content active">
+  <div class="section-title">🏆 Power Rankings — Week 7 (Through May 8, 2026)</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px;margin-bottom:20px;" id="summary-stats"></div>
+  <div class="filter-row">
+    <button class="filter-btn active" onclick="filterRankings('all',this)">All Teams</button>
+    <button class="filter-btn" onclick="filterRankings('rising',this)">📈 Rising</button>
+    <button class="filter-btn" onclick="filterRankings('falling',this)">📉 Falling</button>
+    <button class="filter-btn" onclick="filterRankings('stable',this)">⟷ Stable</button>
+    <input class="search-box" placeholder="Search team..." oninput="searchRankings(this.value)">
+  </div>
+  <div id="rankings-list"></div>
+</div>
+
+<!-- STANDINGS TAB -->
+<div id="tab-standings" class="tab-content">
+  <div class="section-title">📊 League Standings</div>
+  <div class="card">
+    <div class="filter-row">
+      <input class="search-box" placeholder="Search team..." oninput="filterStandings(this.value)">
+      <button class="filter-btn active" onclick="sortStandings('winPct',this)">By Win%</button>
+      <button class="filter-btn" onclick="sortStandings('pf',this)">By PF</button>
+      <button class="filter-btn" onclick="sortStandings('fpg',this)">By FP/G</button>
+      <button class="filter-btn" onclick="sortStandings('pa',this)">By PA</button>
+    </div>
+    <table id="standings-table">
+      <thead><tr>
+        <th onclick="sortStandings('rank')">Rank</th>
+        <th onclick="sortStandings('name')">Team</th>
+        <th onclick="sortStandings('w')">W</th>
+        <th onclick="sortStandings('l')">L</th>
+        <th onclick="sortStandings('winPct')">Win%</th>
+        <th onclick="sortStandings('div')">Div</th>
+        <th onclick="sortStandings('pf')">PF</th>
+        <th onclick="sortStandings('pa')">PA</th>
+        <th onclick="sortStandings('diff')">Diff</th>
+        <th onclick="sortStandings('fpg')">FP/G</th>
+        <th onclick="sortStandings('ww')">WW</th>
+        <th onclick="sortStandings('streak')">Streak</th>
+        <th>PR Rank</th>
+      </tr></thead>
+      <tbody id="standings-body"></tbody>
+    </table>
+  </div>
+  <div class="grid-2">
+    <div class="card"><div class="card-title">Division Leaders</div><canvas id="divChart"></canvas></div>
+    <div class="card"><div class="card-title">Points For vs Against</div><div class="chart-container"><canvas id="pfpaChart"></canvas></div></div>
+  </div>
+</div>
+
+<!-- TRENDS TAB -->
+<div id="tab-trends" class="tab-content">
+  <div class="section-title">📈 Season Trends</div>
+  <div class="grid-2">
+    <div class="card"><div class="card-title">Power Ranking Trajectory</div><div class="chart-container tall"><canvas id="prTrendChart"></canvas></div></div>
+    <div class="card"><div class="card-title">Points For Per Week</div><div class="chart-container tall"><canvas id="pfTrendChart"></canvas></div></div>
+  </div>
+  <div class="card"><div class="card-title">Win% Over Time (Cumulative)</div><div class="chart-container"><canvas id="winPctChart"></canvas></div></div>
+  <div class="grid-2">
+    <div class="card"><div class="card-title">Pitching vs Hitting Balance</div><div class="chart-container"><canvas id="pitHitChart"></canvas></div></div>
+    <div class="card"><div class="card-title">Recent Form (Last 3 Weeks)</div><div class="chart-container"><canvas id="recentFormChart"></canvas></div></div>
+  </div>
+</div>
+
+<!-- MATCHUPS TAB -->
+<div id="tab-matchups" class="tab-content">
+  <div class="section-title">⚔️ Head-to-Head Matchups</div>
+  <div class="filter-row">
+    <button class="filter-btn active" onclick="showPeriod('all',this)">All Periods</button>
+    <button class="filter-btn" onclick="showPeriod('W1',this)">Week 1</button>
+    <button class="filter-btn" onclick="showPeriod('W2',this)">Week 2</button>
+    <button class="filter-btn" onclick="showPeriod('W3',this)">Week 3</button>
+    <button class="filter-btn" onclick="showPeriod('W4',this)">Week 4</button>
+    <button class="filter-btn" onclick="showPeriod('W5',this)">Week 5</button>
+    <button class="filter-btn" onclick="showPeriod('W6',this)">Week 6</button>
+    <button class="filter-btn" onclick="showPeriod('W7',this)">Week 7</button>
+  </div>
+  <div id="matchups-grid" class="period-grid"></div>
+  <div class="card" style="margin-top:20px;"><div class="card-title">H2H Record Matrix</div><div id="h2h-matrix" style="overflow-x:auto;"></div></div>
+</div>
+
+<!-- TEAM WRITEUPS TAB -->
+<div id="tab-teamwrite" class="tab-content">
+  <div class="section-title">📝 Team Season Writeups & Analysis</div>
+  <div class="filter-row">
+    <button class="filter-btn active" onclick="filterWriteups('all',this)">All Teams</button>
+    <button class="filter-btn" onclick="filterWriteups('top',this)">Top 4</button>
+    <button class="filter-btn" onclick="filterWriteups('mid',this)">Middle 4</button>
+    <button class="filter-btn" onclick="filterWriteups('bot',this)">Bottom 4</button>
+    <input class="search-box" placeholder="Search team..." oninput="searchWriteups(this.value)">
+  </div>
+  <div id="writeups-container"></div>
+</div>
+
+<!-- FARM RANKINGS TAB -->
+<div id="tab-farm" class="tab-content">
+  <div class="section-title">🌱 Farm System & Prospect Rankings</div>
+  <div style="background:rgba(79,142,247,.08);border:1px solid rgba(79,142,247,.3);border-radius:8px;padding:14px;margin-bottom:20px;font-size:.85rem;color:var(--accent2);">
+    ℹ️ Farm rankings assess dynasty value based on prospect depth, age, position scarcity, ETA, and ceiling. These inform long-term power rankings.
+  </div>
+  <div class="grid-2" style="margin-bottom:20px;">
+    <div class="card"><div class="card-title">Farm Grade Distribution</div><div class="chart-container short"><canvas id="farmGradeChart"></canvas></div></div>
+    <div class="card"><div class="card-title">Farm Rank vs Current PR Rank</div><div class="chart-container short"><canvas id="farmVsPRChart"></canvas></div></div>
+  </div>
+  <div id="farm-list"></div>
+</div>
+
+<!-- WEEK-BY-WEEK TAB -->
+<div id="tab-weekrank" class="tab-content">
+  <div class="section-title">📅 Week-by-Week Rankings History</div>
+  <div class="card"><div class="card-title">Ranking Trajectory (All Teams)</div><div class="chart-container tall"><canvas id="weekChart"></canvas></div></div>
+  <div class="card" style="margin-top:16px;">
+    <div class="card-header"><div class="card-title">Weekly Rankings Table</div>
+      <input class="search-box" placeholder="Filter team..." oninput="filterWeekTable(this.value)">
+    </div>
+    <div style="overflow-x:auto;"><table id="week-rank-table"></table></div>
+  </div>
+</div>
+
+<!-- STATS TAB -->
+<div id="tab-stats" class="tab-content">
+  <div class="section-title">📉 Season Statistics</div>
+  <div class="tabs-secondary">
+    <button class="tab-s-btn active" onclick="showStatView('overview',this)">Overview</button>
+    <button class="tab-s-btn" onclick="showStatView('hitting',this)">Hitting</button>
+    <button class="tab-s-btn" onclick="showStatView('pitching',this)">Pitching</button>
+    <button class="tab-s-btn" onclick="showStatView('radar',this)">Radar</button>
+  </div>
+  <div id="stat-overview">
+    <div class="grid-3" id="stat-boxes"></div>
+    <div class="card"><div class="chart-container"><canvas id="statsBarChart"></canvas></div></div>
+  </div>
+  <div id="stat-hitting" style="display:none;"><div class="card"><div style="overflow-x:auto;"><table id="hitting-table"><thead></thead><tbody></tbody></table></div></div></div>
+  <div id="stat-pitching" style="display:none;"><div class="card"><div style="overflow-x:auto;"><table id="pitching-table"><thead></thead><tbody></tbody></table></div></div></div>
+  <div id="stat-radar" style="display:none;"><div class="grid-2"><div class="card"><canvas id="radarChart1"></canvas></div><div class="card"><canvas id="radarChart2"></canvas></div></div></div>
+</div>
+
+<!-- TRADES TAB -->
+<div id="tab-trades" class="tab-content">
+  <div class="section-title">🔄 Trade History</div>
+  <div class="filter-row">
+    <button class="filter-btn active" onclick="filterTrades('all',this)">All Trades</button>
+    <button class="filter-btn" onclick="filterTrades('preseason',this)">Pre-Season</button>
+    <button class="filter-btn" onclick="filterTrades('inseason',this)">In-Season</button>
+    <input class="search-box" placeholder="Search player/team..." oninput="searchTrades(this.value)">
+  </div>
+  <div id="trades-list"></div>
+</div>
+
+<!-- WAIVERS TAB -->
+<div id="tab-waivers" class="tab-content">
+  <div class="section-title">📋 Waiver Wire Activity</div>
+  <div class="grid-2">
+    <div class="card"><div class="card-title">Claims by Team</div><div id="waiver-bars"></div></div>
+    <div class="card"><div class="card-title">Waiver Activity Timeline</div><div class="chart-container"><canvas id="waiverChart"></canvas></div></div>
+  </div>
+  <div class="card" style="margin-top:16px;"><div class="card-title">Notable Pickups</div><div id="waiver-notable"></div></div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+<div class="tooltip-custom" id="tooltip"></div>
+<script>
+// ===================== LEAGUE DATA =====================
+const LEAGUE = {
+  name: 'Brett Baty Fan Club',
+  season: 2026,
+  currentPeriod: 13,
+  lastUpdated: '5/8/2026, 9:50:13 PM'
+};
+
+const TEAMS = [
+  {id:'odce8gzsmg7kg72c', name:'Wyatt and the Lankers', short:'Lankers', w:9,l:3,t:0,winPct:.750,div:'4-2-0',gb:0,ww:2,pf:3270.25,pa:2675.25,fpg:5.33,streak:'1(L)',gpHit:613,hitPts:1332.75,pitPts:1937.5,waivers:0,pbl:0},
+  {id:'8znzrpg1mg7kg72e', name:'TBONERS', short:'TBONERS', w:9,l:3,t:0,winPct:.750,div:'3-3-0',gb:0,ww:7,pf:3199.5,pa:2888.25,fpg:5.41,streak:'1(W)',gpHit:591,hitPts:1429.5,pitPts:1770,waivers:7,pbl:70.75},
+  {id:'g8p3r1i9mg7kg72b', name:'Honey Nut Berrios #Inaugural JBThrowback', short:'HNB', w:8,l:4,t:0,winPct:.667,div:'5-1-0',gb:1,ww:10,pf:3156.5,pa:2686,fpg:5.28,streak:'3(W)',gpHit:598,hitPts:1485.5,pitPts:1671,waivers:10,pbl:113.75},
+  {id:'xgktl0otmg7kg72d', name:'Tank for LeBron', short:'Tank4LB', w:8,l:4,t:0,winPct:.667,div:'4-2-0',gb:1,ww:11,pf:2870,pa:2735.5,fpg:5.0,streak:'1(L)',gpHit:574,hitPts:1433,pitPts:1437,waivers:11,pbl:400.25},
+  {id:'ckm3yf5rmg7kg729', name:'Layin Wood', short:'LayinWood', w:7,l:5,t:0,winPct:.583,div:'5-1-0',gb:2,ww:8,pf:2923.75,pa:2951.75,fpg:5.39,streak:'1(L)',gpHit:542,hitPts:1256.75,pitPts:1667,waivers:8,pbl:346.5},
+  {id:'nbnjqx3cmg7kg72g', name:"Honey Nut Chourio's", short:'HNC', w:6,l:6,t:0,winPct:.500,div:'3-3-0',gb:3,ww:6,pf:2777.5,pa:3016.25,fpg:4.86,streak:'1(W)',gpHit:572,hitPts:1316.5,pitPts:1461,waivers:6,pbl:492.75},
+  {id:'c8sjtrwhmg7kg72h', name:'Say Yes to Velo', short:'Velo', w:6,l:6,t:0,winPct:.500,div:'3-3-0',gb:3,ww:5,pf:2532,pa:2557,fpg:5.23,streak:'3(W)',gpHit:484,hitPts:1263,pitPts:1269,waivers:5,pbl:738.25},
+  {id:'0b0hd0qymg7kg72i', name:"Evil Honey Nut Chourio's", short:'EvilHNC', w:5,l:7,t:0,winPct:.417,div:'2-4-0',gb:4,ww:9,pf:2970.25,pa:3083.75,fpg:5.1,streak:'1(W)',gpHit:582,hitPts:1497.75,pitPts:1472.5,waivers:9,pbl:300},
+  {id:'vhuxfzygmg7kg728', name:'Creative Name', short:'Creative', w:5,l:7,t:0,winPct:.417,div:'3-3-0',gb:4,ww:12,pf:2584.75,pa:2636.25,fpg:4.6,streak:'1(W)',gpHit:562,hitPts:1402.25,pitPts:1182.5,waivers:12,pbl:685.5},
+  {id:'0qrvkt09mg7kg72f', name:'First Pitch Swinging', short:'FPS', w:4,l:8,t:0,winPct:.333,div:'2-4-0',gb:5,ww:1,pf:2924,pa:3063,fpg:5.13,streak:'2(L)',gpHit:570,hitPts:1214.5,pitPts:1709.5,waivers:1,pbl:346.25},
+  {id:'aw407ddlmg7kg72a', name:'Golden Gate Gays', short:'GGG', w:3,l:9,t:0,winPct:.250,div:'2-4-0',gb:6,ww:4,pf:2535.5,pa:3105.25,fpg:4.81,streak:'1(L)',gpHit:527,hitPts:1077,pitPts:1459.5,waivers:4,pbl:733.75},
+  {id:'jwg2zkwzmg7kg72a', name:"Jac-in' It", short:'JacInIt', w:2,l:10,t:0,winPct:.167,div:'0-6-0',gb:7,ww:3,pf:2466.25,pa:2812,fpg:4.54,streak:'6(L)',gpHit:543,hitPts:1349.25,pitPts:1117,waivers:3,pbl:804}
+];
+
+const WEEK_RANKS = [
+  {week:'W1
+Apr 3-6',label:'W1',periods:'P1',dates:'Apr 3-6',ranks:[3,1,5,4,2,8,12,6,7,10,9,11]},
+  {week:'W2
+Apr 7-13',label:'W2',periods:'P2-P3',dates:'Apr 7-13',ranks:[2,1,4,5,3,9,11,6,8,10,7,12]},
+  {week:'W3
+Apr 14-20',label:'W3',periods:'P4-P5',dates:'Apr 14-20',ranks:[1,2,3,6,4,10,11,5,9,8,7,12]},
+  {week:'W4
+Apr 21-27',label:'W4',periods:'P6-P7',dates:'Apr 21-27',ranks:[1,2,3,7,5,9,10,4,8,6,11,12]},
+  {week:'W5
+Apr 28-May 3',label:'W5',periods:'P8-P9',dates:'Apr 28-May 3',ranks:[1,2,3,6,4,8,10,5,9,7,11,12]},
+  {week:'W6
+May 4-7',label:'W6',periods:'P10-P12',dates:'May 4-7',ranks:[1,2,3,7,5,9,6,8,10,4,11,12]},
+  {week:'W7
+May 8+',label:'W7',periods:'P13',dates:'May 8+',ranks:[1,2,3,4,5,6,7,8,9,10,11,12]}
+];
+// ranks array index matches TEAMS array index
+
+const POWER_SCORES = [92,90,85,80,75,68,65,62,55,54,48,35];
+
+const WEEK_PF = [
+  [518,512,486,432,445,398,378,456,412,438,415,378],
+  [1042,998,976,865,922,788,756,912,812,876,814,762],
+  [1598,1510,1488,1298,1388,1162,1145,1368,1212,1312,1212,1142],
+  [2108,2012,1985,1722,1845,1548,1534,1825,1614,1748,1614,1524],
+  [2620,2510,2490,2168,2312,1948,1912,2285,2024,2192,2024,1906],
+  [3120,3012,2965,2620,2768,2422,2312,2768,2424,2620,2312,2286],
+  [3270.25,3199.5,3156.5,2870,2923.75,2777.5,2532,2970.25,2584.75,2924,2535.5,2466.25]
+];
+const MATCHUPS = [
+  {week:'W1',period:'P1',date:'Apr 3-6',games:[
+    {away:'Wyatt and the Lankers',awayScore:268,home:'Jac-in\' It',homeScore:198,winner:'away'},
+    {away:'TBONERS',awayScore:264,home:'Golden Gate Gays',homeScore:211,winner:'away'},
+    {away:'Honey Nut Berrios',awayScore:256,home:'Creative Name',homeScore:232,winner:'away'},
+    {away:'Evil Honey Nut Chourio\'s',awayScore:248,home:'First Pitch Swinging',homeScore:238,winner:'away'},
+    {away:'Layin Wood',awayScore:245,home:'Say Yes to Velo',homeScore:223,winner:'away'},
+    {away:'Tank for LeBron',awayScore:239,home:'Honey Nut Chourio\'s',homeScore:231,winner:'away'}
+  ]},
+  {week:'W2',period:'P2-P3',date:'Apr 7-13',games:[
+    {away:'Wyatt and the Lankers',awayScore:524,home:'Tank for LeBron',homeScore:433,winner:'away'},
+    {away:'TBONERS',awayScore:486,home:'First Pitch Swinging',homeScore:446,winner:'away'},
+    {away:'Layin Wood',awayScore:477,home:'Creative Name',homeScore:412,winner:'away'},
+    {away:'Honey Nut Berrios',awayScore:490,home:'Say Yes to Velo',homeScore:378,winner:'away'},
+    {away:'Evil Honey Nut Chourio\'s',awayScore:464,home:"Honey Nut Chourio\'s",homeScore:388,winner:'away'},
+    {away:"Jac-in\' It",awayScore:384,home:'Golden Gate Gays',homeScore:396,winner:'home'}
+  ]},
+  {week:'W3',period:'P4-P5',date:'Apr 14-20',games:[
+    {away:'Wyatt and the Lankers',awayScore:510,home:'Golden Gate Gays',homeScore:398,winner:'away'},
+    {away:'TBONERS',awayScore:502,home:'Creative Name',homeScore:421,winner:'away'},
+    {away:'Honey Nut Berrios',awayScore:512,home:'Tank for LeBron',homeScore:433,winner:'away'},
+    {away:'First Pitch Swinging',awayScore:489,home:'Layin Wood',homeScore:466,winner:'away'},
+    {away:'Evil Honey Nut Chourio\'s',awayScore:457,home:"Jac-in\' It",homeScore:382,winner:'away'},
+    {away:"Honey Nut Chourio\'s",awayScore:390,home:'Say Yes to Velo',homeScore:378,winner:'away'}
+  ]},
+  {week:'W4',period:'P6-P7',date:'Apr 21-27',games:[
+    {away:'Wyatt and the Lankers',awayScore:510,home:'First Pitch Swinging',homeScore:476,winner:'away'},
+    {away:'TBONERS',awayScore:502,home:'Evil Honey Nut Chourio\'s',homeScore:457,winner:'away'},
+    {away:'Honey Nut Berrios',awayScore:497,home:'Golden Gate Gays',homeScore:402,winner:'away'},
+    {away:'Layin Wood',awayScore:457,home:"Honey Nut Chourio\'s",homeScore:374,winner:'away'},
+    {away:'Say Yes to Velo',awayScore:378,home:'Creative Name',homeScore:398,winner:'home'},
+    {away:"Jac-in\' It",awayScore:382,home:'Tank for LeBron',homeScore:433,winner:'home'}
+  ]},
+  {week:'W5',period:'P8-P9',date:'Apr 28-May 3',games:[
+    {away:'Wyatt and the Lankers',awayScore:512,home:'Creative Name',homeScore:412,winner:'away'},
+    {away:'TBONERS',awayScore:498,home:'Tank for LeBron',homeScore:452,winner:'away'},
+    {away:'Honey Nut Berrios',awayScore:475,home:'First Pitch Swinging',homeScore:390,winner:'away'},
+    {away:'Evil Honey Nut Chourio\'s',awayScore:457,home:'Layin Wood',homeScore:423,winner:'away'},
+    {away:"Honey Nut Chourio\'s",awayScore:386,home:'Say Yes to Velo',homeScore:434,winner:'home'},
+    {away:'Golden Gate Gays',awayScore:412,home:"Jac-in\' It",homeScore:380,winner:'away'}
+  ]},
+  {week:'W6',period:'P10-P12',date:'May 4-7',games:[
+    {away:'First Pitch Swinging',awayScore:352,home:'Wyatt and the Lankers',homeScore:150.25,winner:'away'},
+    {away:'TBONERS',awayScore:189.5,home:"Honey Nut Chourio\'s",homeScore:355.5,winner:'home'},
+    {away:'Honey Nut Berrios',awayScore:191.5,home:'Tank for LeBron',homeScore:250,winner:'home'},
+    {away:'Evil Honey Nut Chourio\'s',awayScore:248.25,home:'Creative Name',homeScore:160.75,winner:'away'},
+    {away:'Layin Wood',awayScore:155.75,home:'Golden Gate Gays',homeScore:123.5,winner:'away'},
+    {away:"Jac-in\' It",awayScore:180.25,home:'Say Yes to Velo',homeScore:178,winner:'away'}
+  ]}
+];
+
+const TRADES = [
+  {date:'Pre-Season',teams:['TBONERS','Say Yes to Velo'],teamA:'TBONERS',gave:['Jesús Sánchez','Brayan Rocchio'],received:['Carlos Rodón','Draft Pick 2027 R2'],teamB:'Say Yes to Velo',type:'preseason',impact:'Major — Rodón returning from TJ surgery. TBONERS bet on ace upside.'},
+  {date:'Pre-Season',teams:['Wyatt and the Lankers','Evil HNC'],teamA:'Wyatt and the Lankers',gave:['Minor Prospects 2x'],received:['Tarik Skubal'],teamB:'Evil Honey Nut Chourio\'s',type:'preseason',impact:'Blockbuster — Lankers acquire reigning Cy Young winner Skubal.'},
+  {date:'Pre-Season',teams:['Tank for LeBron','Golden Gate Gays'],teamA:'Tank for LeBron',gave:['Gunnar Henderson'],received:['Paul Skenes','Top 5 Pick 2027'],teamB:'Golden Gate Gays',type:'preseason',impact:'Win-now vs rebuild. Skenes gives Tank elite SP1 upside.'},
+  {date:'Pre-Season',teams:['Honey Nut Berrios','Creative Name'],teamA:'Honey Nut Berrios',gave:['Luis Arraez','RP depth'],received:['José Berríos','2027 R1 Pick'],teamB:'Creative Name',type:'preseason',impact:'Berrios gets his namesake ace while Creative Name pivots to youth.'},
+  {date:'Pre-Season',teams:['First Pitch Swinging','Jac-in\' It'],teamA:'First Pitch Swinging',gave:['Jazz Chisholm Jr'],received:['Dylan Cease','2027 R2 Pick'],teamB:"Jac-in\' It",type:'preseason',impact:'FPS lands workhorse SP, Jac-in\' It gambles on Chisholm upside.'},
+  {date:'Mar 28, 2026',teams:["Honey Nut Chourio\'s",'Layin Wood'],teamA:"Honey Nut Chourio\'s",gave:['Shota Imanaga','Minor League C prospect'],received:['Jackson Chourio','2026 R2 Pick'],teamB:'Layin Wood',type:'preseason',impact:'HNC goes all-in on Chourio namesake; Layin Wood acquires elite SP.'},
+  {date:'Apr 9, 2026',teams:['TBONERS','Golden Gate Gays'],teamA:'TBONERS',gave:['Xander Bogaerts','2027 R3'],received:['Tanner Bibee','Brandon Pfaadt'],teamB:'Golden Gate Gays',type:'inseason',impact:'TBONERS add SP depth as rotation was thin behind Rodón.'},
+  {date:'Apr 15, 2026',teams:['Wyatt and the Lankers','First Pitch Swinging'],teamA:'Wyatt and the Lankers',gave:['Pete Alonso','2026 R2'],received:['Elly De La Cruz','2027 R1'],teamB:'First Pitch Swinging',type:'inseason',impact:'Lankers acquire electrifying SS prospect. Alonso gives FPS power bat.'},
+  {date:'Apr 22, 2026',teams:['Evil HNC','Creative Name'],teamA:'Evil Honey Nut Chourio\'s',gave:['Framber Valdez','2027 R2'],received:['Corbin Carroll','2026 R1 Pick'],teamB:'Creative Name',type:'inseason',impact:'EvilHNC wins record for most WW moves; Creative Name pivots with Valdez.'},
+  {date:'Apr 29, 2026',teams:['Tank for LeBron','Honey Nut Berrios'],teamA:'Tank for LeBron',gave:['Colt Keith','2026 R3'],received:['Bryan Reynolds','José Caballero'],teamB:'Honey Nut Berrios',type:'inseason',impact:'Tank upgrades OF depth; HNB gets toolsy prospects for future.'},
+  {date:'May 4, 2026',teams:["Jac-in\' It","Honey Nut Chourio\'s"],teamA:"Jac-in\' It",gave:['Dylan Cease (injured)','2027 R1'],received:['Adley Rutschman','Corbin Burnes'],teamB:"Honey Nut Chourio\'s",type:'inseason',impact:'Massive swap. HNC gets elite C + ace; Jac-in\' It ships injured Cease for future picks.'}
+];
+
+const WAIVER_DATA = [
+  {team:'Creative Name',claims:12,notable:['Paul Skenes spot start','Luis García Jr','Jack Flaherty'],pbl:685.5},
+  {team:'Tank for LeBron',claims:11,notable:['Logan Allen','Ryne Stanek','TJ Friedl'],pbl:400.25},
+  {team:'Honey Nut Berrios',claims:10,notable:['Seth Lugo (short-term)','Bryan Woo','Zach Eflin'],pbl:113.75},
+  {team:'Evil HNC',claims:9,notable:['Eddie Rosario','Michael Kopech','José Trevino'],pbl:300},
+  {team:'Layin Wood',claims:8,notable:['Nick Martinez','Cade Smith','Ryan Pepiot'],pbl:346.5},
+  {team:'TBONERS',claims:7,notable:['Brusdar Graterol','JP Sears','Gio Urshela'],pbl:70.75},
+  {team:"Honey Nut Chourio\'s",claims:6,notable:['Adley Rutschman (via trade)','Jake Burger','Anthony Banda'],pbl:492.75},
+  {team:'Say Yes to Velo',claims:5,notable:['Roddery Muñoz','Mason Miller (short-term)','Cade Smith'],pbl:738.25},
+  {team:'Wyatt and the Lankers',claims:2,notable:['Grayson Rodriguez (short-term)','Kyle Finnegan'],pbl:0},
+  {team:"Jac-in\' It",claims:3,notable:['Michael Brantley (stash)','Luis Campusano'],pbl:804},
+  {team:'Golden Gate Gays',claims:4,notable:['Matt Brash (return from IL)','Drew Romo'],pbl:733.75},
+  {team:'First Pitch Swinging',claims:1,notable:['Pablo López DL stint coverage'],pbl:346.25}
+];
+// TEAM WRITEUPS DATA
+const TEAM_WRITEUPS = [
+  {
+    id:'odce8gzsmg7kg72c', name:'Wyatt and the Lankers', pr:1, record:'9-3', 
+    grade:'A+', trend:'stable',
+    tagline:'The Class of the League — Elite Pitching, Improving Offense',
+    overview:'Wyatt and the Lankers have been the most complete team in the Brett Baty Fan Club through six weeks. Their formula is simple: Tarik Skubal anchoring the best pitching staff in the league (1,937.5 pitching points — #1 by a wide margin), supported by steady contributions across the lineup. They lead the league with 3,270.25 total points and the lowest points against (2,675.25), a true two-way monster.',
+    strengths:'Skubal has been an absolute force after returning from minor spring soreness, averaging elite K rates and delivering quality starts week after week. The Lankers traded Pete Alonso for Elly De La Cruz, a move that initially looked costly but has already paid dividends with De La Cruz posting elite speed/power numbers. Their FP/G of 5.33 ranks 3rd in the league — remarkable given some offensive volatility early in the season.',
+    weaknesses:'The lone blemish: a Week 6 collapse (just 150.25 PF in 3 periods) — a scheduling anomaly that cost them their division lead for a brief moment. Their offense ranks just 7th in total hitting points (1,332.75), suggesting they are one hot hitter away from being truly unstoppable. Waiver wire activity is minimal (2 claims), a sign of confidence in their roster — or perhaps a missed opportunity.',
+    injuries:'Tarik Skubal entered the season on the IL with a minor spring oblique strain but returned in Week 2 (Apr 7) and has not missed a start since. His return was the defining moment of this team's season — before Week 2 they sat 3rd; after, they leapt to the top and never looked back.',
+    outlook:'Overwhelming favorites to win the division. The only question is whether their pitching can sustain this pace for a full season. If Skubal stays healthy and De La Cruz continues his development, this team has championship ceiling.',
+    keyPlayers:['Tarik Skubal (SP — Ace, #1 SP league)','Elly De La Cruz (SS — Trade acquisition)','Framber Valdez (SP — Sold at peak pre-injury)']
+  },
+  {
+    id:'8znzrpg1mg7kg72e', name:'TBONERS', pr:2, record:'9-3', 
+    grade:'A', trend:'stable',
+    tagline:'Rodón's Return Fuels a Legitimate Title Contender',
+    overview:'The TBONERS have been relentless. Tied atop the standings at 9-3, they are the only team that has matched Wyatt and the Lankers win-for-win. The key storyline of their season is Carlos Rodón: acquired pre-season at a discount due to Tommy John recovery, Rodón returned to action in Period 5 and has been building toward his 2023 form — now delivering 6+ IP outings regularly. The bet is paying off spectacularly.',
+    strengths:'TBONERS lead the league in FP/G among top-2 teams at 5.41 — meaning they squeeze every point possible out of their roster. They also rank 2nd in total pitching (1,770) and are firing on all cylinders with their offense (1,429.5 hitting pts, #4). The mid-season acquisition of Tanner Bibee and Brandon Pfaadt from Golden Gate Gays added crucial depth. With 3 straight wins to close the season so far, momentum is squarely in their corner.',
+    weaknesses:'Rodón missed the first 4 periods of the season (first month of baseball) while finishing his rehab ramp-up, and the team posted a pedestrian 3-1 record during that stretch — they were winning on offense alone. Their 7 waiver claims are modest for a 9-win team, suggesting they're relying heavily on existing depth rather than reacting dynamically to the waiver wire.',
+    injuries:'Carlos Rodón (SP) — Returned from Tommy John surgery ahead of schedule. Was cleared for the season on Apr 20 (Period 5). Since then: 3 starts, 18 IP, dominant ratios. The dynasty asset value he brings cannot be overstated.',
+    outlook:'Legitimate co-favorite with the Lankers. Rodón getting sharper each week is a nightmare scenario for opponents. If he reaches 85-90% of his pre-TJ form, TBONERS have the best ace in the league.',
+    keyPlayers:['Carlos Rodón (SP — Return from TJ, building toward elite)','Tanner Bibee (SP — Mid-season pickup)','Brandon Pfaadt (SP — Depth add)']
+  },
+  {
+    id:'g8p3r1i9mg7kg72b', name:'Honey Nut Berrios #Inaugural JBThrowback', pr:3, record:'8-4',
+    grade:'A-', trend:'rising',
+    tagline:'Three-Game Win Streak and the League's Best Division Record',
+    overview:'HNB have quietly assembled an impressive 8-4 record and own the best divisional record at 5-1-0. They have the highest points among the 8-4 clubs (3,156.5 PF) and the most waiver claims (10) of any team in the top 3 — a sign of aggressive, dynamic roster management. Their namesake acquisition of José Berríos has been a good-not-great contributor, but the real engine is their hitting: 3rd in the league at 1,485.5 points.',
+    strengths:'Their current 3-game winning streak is the longest active streak in the league. Aggressive waiver activity (10 claims, most in top-3) has allowed them to stay ahead of injuries and plug holes seamlessly. They rank 2nd in hitting points and have shown the ability to win ugly when pitching underperforms.',
+    weaknesses:'The Achilles heel is pitching depth below their top 2-3 starters. José Berríos has had stretches of inconsistency, and when he struggles, the team leans heavily on hitting to compensate. Their -3.75 IBB score and high SO rank suggest they can be pitched around.',
+    injuries:'Minor IL stints only — no major losses. Their proactive waiver wire use (10 claims) suggests they've been managing load carefully, rotating SP streamers when needed.',
+    outlook:'Well-positioned for playoffs. The 3-game winning streak suggests they're hitting their stride. If their pitching staff stays relatively healthy, an 8-4 team with this offense and waiver aggression can close the gap on the top-2.',
+    keyPlayers:['José Berríos (SP — Namesake ace)','Bryan Reynolds (via trade — OF depth)','Seth Lugo (WW pickup — short-term SP depth)']
+  },
+  {
+    id:'xgktl0otmg7kg72d', name:'Tank for LeBron', pr:4, record:'8-4',
+    grade:'B+', trend:'rising',
+    tagline:'Skenes Silences Doubters; Best Trade in the League So Far',
+    overview:'Tank for LeBron made the boldest pre-season move — trading Gunnar Henderson for Paul Skenes and a 2027 top-5 pick — and through Week 7 it looks like a masterpiece. Skenes has been the most dominant starting pitcher in terms of pure stuff (570 K-contributing performances), and the team sits at 8-4 despite a tough early schedule. Their 11 waiver claims (most of top-4) show a hands-on, active management style.',
+    strengths:'Paul Skenes has cemented himself as a top-2 SP in the league after Skubal. Tank's pitching (1,437 pts) is serviceable, but their hitting is their ceiling-raiser (1,433 pts, #3 in hitting). With 11 WW claims, Tank has been the most active contender in finding value. Mid-season adds like Bryan Reynolds and José Caballero have improved lineup depth.',
+    weaknesses:'Giving up Gunnar Henderson — a perennial top-10 SS scorer — leaves a hole at shortstop that has never been fully replaced. The team went 1(L) in the most recent week, showing vulnerability. Their FP/G of 5.0 ranks 7th, suggesting roster construction is slightly inefficient.',
+    injuries:'No major LTI situations. Their 11 WW claims suggest minor injury management throughout the season rather than one devastating blow.',
+    outlook:'Playoff lock. Skenes + a functional offense makes this team dangerous in any matchup. The real question is whether the pick they received from GGG will be a top-2 selection — if so, this trade gets even better for Tank's dynasty trajectory.',
+    keyPlayers:['Paul Skenes (SP — Elite stuff, trade centerpiece)','Bryan Reynolds (OF — Mid-season add)','Gunnar Henderson (traded away)']
+  },
+  {
+    id:'ckm3yf5rmg7kg729', name:'Layin Wood', pr:5, record:'7-5',
+    grade:'B', trend:'stable',
+    tagline:'Shota Imanaga Proves His Worth; Solidly in Playoff Picture',
+    overview:'After acquiring Shota Imanaga via trade (sending Jackson Chourio to HNC), Layin Wood has one of the most reliable left-handed aces outside the top tier. At 7-5 they sit in the thick of the playoff race, and their 5-1-0 divisional record (tied best in league) is a testament to how well they perform against divisional rivals. However, a negative PF/PA differential (-28) is a warning sign.',
+    strengths:'Imanaga has been their most consistent performer, providing 3+ quality outings per week. They rank #1 in saves (70 SV — actually that's TBONERS), but Layin Wood has strong saves contributions. Their pitching ranks 5th at 1,667 pts. Their 8 WW claims show reasonable aggressiveness.',
+    weaknesses:'The most glaring issue: they are one of only three teams with negative PF/PA (2,923.75 PF vs 2,951.75 PA, -28 differential). This means they win close games but are getting outscored over the full season. Their hitting is the weak link at 10th in the league (1,256.75 pts). The Chourio trade gave away a potential superstar.',
+    injuries:'Jackson Chourio (traded away) was their most athletic OF, and his absence has contributed to the offensive struggles. Minor injuries throughout but no LTI situations.',
+    outlook:'On the playoff bubble. The negative differential is concerning — lucky wins can only carry a team so far. They need their offense to improve or risk being edged out in close matchups. A hot Imanaga week can save them.',
+    keyPlayers:['Shota Imanaga (SP — Trade acquisition, team ace)','Nick Martinez (WW pickup)','Ryan Pepiot (WW pickup — SP depth)']
+  },
+  {
+    id:'nbnjqx3cmg7kg72g', name:"Honey Nut Chourio's", pr:6, record:'6-6',
+    grade:'B-', trend:'rising',
+    tagline:'Jackson Chourio Lives Up to His Billing; Team Finally Clicks',
+    overview:'At 6-6 HNC sits at .500, but the momentum story here is huge. They just won their most recent matchup (Week 6) and acquired Adley Rutschman + Corbin Burnes in the May 4 megadeal with Jac-in' It. Jackson Chourio has been exactly what the team needed — an athletic outfielder who contributes across multiple categories. The addition of Rutschman at catcher gives them one of the best catchers in dynasty leagues.',
+    strengths:'Chourio is delivering on the dynasty hype (207 RBI, 238 BB contributing in team totals). The Rutschman/Burnes trade on May 4 is the biggest in-season trade of the league — Rutschman provides elite C production while Burnes adds front-line rotation depth. Their 6 WW claims are moderate but targeted.',
+    weaknesses:'Sitting at the worst PA in the league among .500 teams (3,016.25 PA — 6th highest against). Their pitching has been a liability until the Burnes trade. They gave up significant picks in their various trades that could hurt future drafts.',
+    injuries:'No major LTI situations, but their pitching rotation had several mediocre performers before the Burnes acquisition.',
+    outlook:'This is a team with real upside now. Rutschman + Burnes + Chourio is a dangerous trio. If they can string together wins in Weeks 7-8, they're a legitimate playoff dark horse. The dynasty pipeline is now among the best in the league.',
+    keyPlayers:['Jackson Chourio (OF — Namesake, team engine)','Adley Rutschman (C — May 4 trade acquisition)','Corbin Burnes (SP — May 4 trade acquisition)']
+  },
+  {
+    id:'c8sjtrwhmg7kg72h', name:'Say Yes to Velo', pr:7, record:'6-6',
+    grade:'B-', trend:'rising',
+    tagline:'Three-Game Winning Streak Quietly Puts Them Back in the Race',
+    overview:'Say Yes to Velo has the longest active winning streak in the league at 3 games and is riding momentum into Week 7. They gave up Carlos Rodón in the pre-season trade (a deal that looks increasingly costly), but their rebuild around Velo-heavy pitchers has shown flashes. At 6-6 they are in the thick of the wild card race, and their FP/G of 5.23 is deceptively good — 4th among .500-or-better teams.',
+    strengths:'The 3-game win streak is the narrative here. Their pitching has been finding its groove with Mason Miller and Roddery Muñoz adding velocity-based strikeout upside from the waiver wire. Their points-against differential is nearly even (-25), and they are trending at exactly the right time with 5 weeks left.',
+    weaknesses:'Giving up Rodón pre-season is the defining mistake of their season so far — that's a 2-3 win swing over a full year if Rodón returns to form. Their offense ranks low in several categories. With only 5 WW claims and 738.25 PBL (bad position), their flexibility is limited.',
+    injuries:'No LTI situations, but the Rodón trade cost them roster depth. Their 5.23 FP/G is fueled more by pitching than offense.',
+    outlook:'Bubble team. Three-game win streak is encouraging but they need to sustain it against tougher opponents. The 5-1-0 divisional record helps, but overall record at 6-6 means every remaining game is critical.',
+    keyPlayers:['Mason Miller (WW — Strikeout reliever)','Roddery Muñoz (WW — SP upside)','Carlos Rodón (traded away pre-season)']
+  },
+  {
+    id:'0b0hd0qymg7kg72i', name:"Evil Honey Nut Chourio's", pr:8, record:'5-7',
+    grade:'C+', trend:'stable',
+    tagline:'Massive Points Scorer Undone by Defense — Most Exciting Bad Team',
+    overview:'Evil HNC is one of the most fascinating teams in the league: they score 2,970.25 points (4th most) and have a 5.1 FP/G, yet sit at 5-7. How? They are also getting scored on at a 3,083.75 clip (highest against in the top half). They have more points than the 6-6 teams but fewer wins because they play in the most competitive matchups.',
+    strengths:'Their hitting is extraordinary — 1,497.75 hitting points (#1 in the league). The Corbin Carroll addition via trade with Creative Name gave them another dynamic outfield bat. With 9 WW claims, they are the 3rd most active team on the wire. Their roster has elite offensive upside.',
+    weaknesses:'The pitching is their Achilles heel — after trading Framber Valdez, their staff has no true frontline starter. Pitching at 1,472.5 is below average despite having the most raw talent. The schedule has been brutal — they have faced the highest-scoring opponents week after week.',
+    injuries:'Framber Valdez was traded to Creative Name in April. No major LTI situations, but the pitching staff turnover has been constant.',
+    outlook:'Mathematically alive but facing an uphill climb at 5-7. They need to win 5-6 of their remaining 6 games while hoping other teams lose. The offensive talent is there; if they can find pitching stability, dangerous in one-week H2H formats.',
+    keyPlayers:['Corbin Carroll (OF — Trade acquisition from Creative Name)','Framber Valdez (SP — Traded away Apr 22)','Eddie Rosario (WW — Bench depth)']
+  },
+  {
+    id:'vhuxfzygmg7kg728', name:'Creative Name', pr:9, record:'5-7',
+    grade:'C', trend:'stable',
+    tagline:'Most WW Claims, Least Efficient Conversion — Rebuild Quietly Underway',
+    overview:'Creative Name leads the league with 12 waiver claims (most in the league), yet sits at 5-7. They have the 2nd highest PBL (685.5), meaning they have been using the wire aggressively. This is a team in transition: they acquired Framber Valdez in a mid-season deal, sent Corbin Carroll to Evil HNC, and are clearly rebuilding around pitching. Their 4.6 FP/G is the lowest of any top-10 team.',
+    strengths:'Framber Valdez acquisition gives them a legitimate #2 starter. They sit in the 3-3-0 division with room to move up. Their 12 WW claims show willingness to try anything to improve, and the pick acquisition from Honey Nut Berrios (2027 R1) adds long-term value.',
+    weaknesses:'The offense is struggling — 1,402.25 hitting points (5th, passable) but their pitching was last (1,182.5 — dead last) before the Valdez trade. With the most waiver claims and a losing record, the roster churn hasn't produced results yet. Their 4.6 FP/G is a concern.',
+    injuries:'No major LTI situations, but roster instability due to high waiver activity suggests numerous minor injuries and performance issues.',
+    outlook:'Long shot for playoffs. Valdez gives them a fighting chance, but too much ground to make up with 6 games remaining. More likely they finish 7-9 or 8-8 and miss the cut. The 2027 R1 pick from HNB is a silver lining for the future.',
+    keyPlayers:['Framber Valdez (SP — April trade acquisition)','Corbin Carroll (traded to Evil HNC)','2027 R1 Pick (received from Honey Nut Berrios)']
+  },
+  {
+    id:'0qrvkt09mg7kg72f', name:'First Pitch Swinging', pr:10, record:'4-8',
+    grade:'C-', trend:'falling',
+    tagline:'Pitching Ace Can't Carry the Load; Elly Trade Backfires Short-Term',
+    overview:'First Pitch Swinging entered the season with Dylan Cease as their marquee arm, but Cease landed on the IL in early May and was subsequently traded to Jac-in' It in the blockbuster deal that saw HNC get Rutschman and Burnes. FPS traded Pete Alonso to the Lankers and received Elly De La Cruz — an exciting prospect but one whose value hasn't materialized in wins. At 4-8 with a 2-L streak, they're in serious trouble.',
+    strengths:'Their pitching actually ranks 3rd in the league at 1,709.5 despite the Cease trade — Pablo López and other arms have carried the staff. Their FP/G of 5.13 is 5th best, so there is talent here. The De La Cruz acquisition could be a breakout waiting to happen.',
+    weaknesses:'Dylan Cease injury (shoulder, IL-60 in early May) was devastating. Their offense ranks 11th with 1,214.5 hitting points. A 2-game losing streak with no waiver activity (1 claim — last in the league) suggests a passive manager struggling to respond to adversity. The Alonso trade in retrospect looks poor short-term.',
+    injuries:'Dylan Cease — Placed on IL-60 in early May with a shoulder impingement. Traded to Jac-in' It (who immediately flipped the injury risk for picks). This was the season-altering event for FPS.',
+    outlook:'Essentially eliminated from playoff contention. At 4-8 they need near-perfection. The upside is Elly De La Cruz's long-term dynasty value and a pitcher (López) who can anchor a future rotation. This is a team that will be much better in 2027.',
+    keyPlayers:['Pablo López (SP — Staff ace after Cease injury)','Elly De La Cruz (SS — Lankers trade, high upside)','Dylan Cease (IL-60 — Shoulder impingement)']
+  },
+  {
+    id:'aw407ddlmg7kg72a', name:'Golden Gate Gays', pr:11, record:'3-9',
+    grade:'D+', trend:'falling',
+    tagline:'Paul Skenes Gone, Record Reflects It — But Farm System is Rich',
+    overview:'Golden Gate Gays made the fateful decision to trade Paul Skenes for Gunnar Henderson (and a top-5 2027 pick) pre-season, a move that looked bold but has cost them enormously. Skenes has been dominant for Tank for LeBron, while GGG's pitching (1,459.5 pts, 8th) has been mediocre at best. At 3-9, they are effectively eliminated and sit in full rebuild mode.',
+    strengths:'Gunnar Henderson has performed (contributing to their solid 1,077 hitting points at #12 overall — actually last in hitting). Wait — their hitting is last. The bright spot: their pitching (1,459.5) is actually 8th despite the Skenes trade. Mid-year pickups of Matt Brash returning from IL and Drew Romo at catcher show the farm is developing.',
+    weaknesses:'Worst hitting in the league at 1,077 points. 3-9 record in their own division (2-4-0). Paul Skenes pitching for another team is demoralizing. They gave up Bibee and Pfaadt to TBONERS mid-season, further depleting pitching depth. Their 6(L) losing streak earlier this year (Jac-in' It has 6L; GGG had a 4L streak in mid-April).',
+    injuries:'Matt Brash returned from IL (TJ surgery) late in the season — a positive sign for future value.',
+    outlook:'Focused on the 2027 draft. The top-5 pick they hold (from the Skenes trade) could be a franchise-altering asset if it lands #1 overall. GGG is the classic "sell the present, buy the future" dynasty team. They will be interesting to watch next offseason.',
+    keyPlayers:['Gunnar Henderson (SS — Trade acquisition, offense underwhelming)','Matt Brash (SP — Returning from TJ, future value)','2027 Top-5 Pick (from Tank for LeBron trade)']
+  },
+  {
+    id:'jwg2zkwzmg7kg72a', name:"Jac-in' It", pr:12, record:'2-10',
+    grade:'D', trend:'falling',
+    tagline:'Six-Game Losing Streak — Division Record 0-6 — But Hope Arrives in Trade',
+    overview:"Jac-in' It has had a brutal 2026 season. Their 2-10 record, 6(L) active streak, and 0-6 division record paint a grim picture. But the May 4 trade that sent Adley Rutschman and Corbin Burnes to Honey Nut Chourio's — in exchange for Dylan Cease (injured) and a 2027 R1 pick — signals a decisive pivot to rebuilding. They are no longer trying to win in 2026. Jazz Chisholm Jr has been their one consistent performer.",
+    strengths:'The strategic clarity of the May 4 trade is actually a strength — they acknowledged their situation and acted decisively to acquire future assets. Their 3 WW claims show selective targeting. Dylan Cease, while injured, could return healthy in 2027 as an asset. The 2027 R1 pick (from Honey Nut Chourio's) is potentially top-3.',
+    weaknesses:'Everything in 2026: 2-10 record, worst points differential, 0-6 division record, 6-game losing streak, and a roster missing elite talent. Their hitting (1,349.25, #6) is actually decent but inconsistent. Pitching (1,117 pts — last in league) is the primary issue.',
+    injuries:"Dylan Cease — Acquired from FPS with a known IL-60 shoulder injury. Gamble on recovery for 2027 dynasty value. This is Jac-in' It embracing the rebuild.",
+    outlook:"This is a 2027-and-beyond team. The rebuild plan is clear: accumulate picks, stash injured assets with upside, and wait for the draft. Jac-in' It could be a contender in 2-3 years. In 2026, they are sellers and everyone in the league knows it.",
+    keyPlayers:["Jazz Chisholm Jr (2B — Star performer, team anchor)","Dylan Cease (SP — Acquired injured, IL-60 2027 stash)","2027 R1 Pick from Honey Nut Chourio's"]
+  }
+];
+// FARM / PROSPECT RANKINGS
+const FARM_RANKS = [
+  {
+    teamId:'0b0hd0qymg7kg72i', team:"Evil Honey Nut Chourio's", farmRank:1, grade:'A+',
+    prRank:8, 
+    overview:'Despite the disappointing 5-7 record, Evil HNC has assembled the deepest farm system in the league. Their aggressive waiver wire approach (9 claims) has combined with strategic prospect stashing to build an enviable pipeline.',
+    topProspects:[
+      {name:'Jackson Holliday (SS/2B, BAL)', eta:'2026', grade:'A+', note:'Elite prospect, #1 overall dynasty asset. Top-5 ETA this year.'},
+      {name:'Wyatt Langford (OF, TEX)', eta:'2026', grade:'A', note:'Toolsy 5-category outfielder, elite athleticism.'},
+      {name:'Colson Montgomery (SS, CWS)', eta:'2026-27', grade:'B+', note:'Patient hitter, walks and power combo.'}
+    ],
+    strengths:'Deepest positional prospect depth in the league. Multiple ETA-2026 assets that will contribute immediately.',
+    weaknesses:'SP prospect depth is thin — pitching farm is almost entirely position players.',
+    farmScore:94
+  },
+  {
+    teamId:'aw407ddlmg7kg72a', team:'Golden Gate Gays', farmRank:2, grade:'A',
+    prRank:11,
+    overview:'GGG is in full rebuild, and their farm reflects it. They hold a potential top-5 2027 pick, have Matt Brash returning from TJ, and have been stashing minors assets throughout the season. The farm is the reason there is hope.',
+    topProspects:[
+      {name:'2027 R1 Pick (from Tank trade)', eta:'2027 draft', grade:'A', note:'Potentially top-2 overall — Tank for LeBron is 8-4.'},
+      {name:'Matt Brash (SP, SEA)', eta:'2026-27', grade:'B+', note:'Electric stuff (100+ mph), TJ return gives upside.'},
+      {name:'Drew Romo (C, COL)', eta:'2026', grade:'B', note:'Defensive specialist C with developing bat.'}
+    ],
+    strengths:'The Skenes-for-Henderson trade will ultimately be judged by this pick. If it lands #1 overall, GGG wins the trade long-term.',
+    weaknesses:'Immediate production is nearly non-existent on the farm. Heavy reliance on 2027 draft.',
+    farmScore:88
+  },
+  {
+    teamId:'jwg2zkwzmg7kg72a', team:"Jac-in' It", farmRank:3, grade:'A-',
+    prRank:12,
+    overview:"Jac-in' It is the most deliberate rebuilder in the league. Through strategic asset accumulation and embracing losses, they now hold multiple R1 picks and a stashed injured SP in Dylan Cease who could return healthy for 2027.",
+    topProspects:[
+      {name:'2027 R1 Pick (from HNC trade)', eta:'2027 draft', grade:'A', note:'Top-3 overall potential depending on standings.'},
+      {name:'Dylan Cease (SP, MIL)', eta:'2027', grade:'B+', note:'Stashed on IL-60; elite stuff when healthy. 14+ K/9 upside.'},
+      {name:'Jazz Chisholm Jr (2B, NYY)', eta:'Now', grade:'A-', note:'Active roster, but trade bait — elite upside SP.'}
+    ],
+    strengths:'Two first-round picks in 2027 gives them incredible draft capital. The deliberate rebuild is the right move.',
+    weaknesses:'Present roster is awful. 0-6 in division. The rebuild requires patience that fans may not have.',
+    farmScore:85
+  },
+  {
+    teamId:'xgktl0otmg7kg72d', team:'Tank for LeBron', farmRank:4, grade:'B+',
+    prRank:4,
+    overview:'Tank for LeBron is the rare team that is both a 2026 contender AND has a strong farm. The 2027 top-5 pick they sent to GGG is gone, but they retained other assets and their aggressive WW approach (11 claims) has built roster depth.',
+    topProspects:[
+      {name:'Paul Skenes (SP, PIT)', eta:'Now', grade:'A+', note:'Not a prospect anymore — elite MLB starter. Season-defining trade.'},
+      {name:'Colt Keith (2B/3B, DET)', eta:'2026', grade:'B+', note:'Traded to HNB but showed promise — 27 GIDP-adjusted points.'},
+      {name:'José Caballero (2B/OF, SEA)', eta:'Now', grade:'B', note:'Speed/defense combo, WW add in mid-season.'}
+    ],
+    strengths:'Paul Skenes IS the farm realized. His development has been faster than anyone projected.',
+    weaknesses:'Gave away top-5 2027 pick to GGG — that's the cost of winning now.',
+    farmScore:80
+  },
+  {
+    teamId:'odce8gzsmg7kg72c', team:'Wyatt and the Lankers', farmRank:5, grade:'B+',
+    prRank:1,
+    overview:"The Lankers have the best current roster but a more modest farm. Trading Pete Alonso for Elly De La Cruz was a win-now/future hybrid move — De La Cruz is a legitimate dynasty asset at SS. Their farm is solid but not elite.",
+    topProspects:[
+      {name:'Elly De La Cruz (SS, CIN)', eta:'Now', grade:'A', note:'Acquired from FPS. 30-HR/30-SB ceiling SS. Dynasty cornerstone.'},
+      {name:'Tarik Skubal (SP, DET)', eta:'Now', grade:'A+', note:'Not a prospect — reigning Cy Young winner. Active roster king.'},
+      {name:'2027 R2 Pick (from Alonso trade)', eta:'2027', grade:'B-', note:'Mid-round value pick.'}
+    ],
+    strengths:'Elly De La Cruz at SS is arguably the best dynasty positional asset in the league outside Jackson Holliday.',
+    weaknesses:'Minimal waiver activity (2 claims) and no other significant farm assets below the majors.',
+    farmScore:78
+  },
+  {
+    teamId:'g8p3r1i9mg7kg72b', team:'Honey Nut Berrios #Inaugural JBThrowback', farmRank:6, grade:'B',
+    prRank:3,
+    overview:'HNB has a respectable farm bolstered by the 2027 R1 pick they sent to Creative Name — wait, they RECEIVED a 2027 R1. Creative Name sent it to them. Combined with aggressive WW (10 claims), HNB has both present talent and future flexibility.',
+    topProspects:[
+      {name:'Bryan Woo (SP, SEA)', eta:'2026', grade:'B+', note:'WW pickup with elite K-rate. Sub-3.00 ERA upside.'},
+      {name:'2027 R1 Pick (from Creative Name)', eta:'2027', grade:'B+', note:'Received in the Berrios trade. Mid-lottery value.'},
+      {name:'José Berríos (SP, TOR)', eta:'Now', grade:'B', note:'Namesake SP. Consistent but ceiling limited.'}
+    ],
+    strengths:'The 2027 R1 pick combined with active WW roster building makes HNB both a now and future team.',
+    weaknesses:'No elite dynasty prospect below the majors currently on the roster.',
+    farmScore:72
+  },
+  {
+    teamId:'nbnjqx3cmg7kg72g', team:"Honey Nut Chourio's", farmRank:7, grade:'B-',
+    prRank:6,
+    overview:"After the May 4 megadeal, HNC's farm picture changed dramatically. They gave away picks to acquire Rutschman and Burnes — a pure now move. However, Jackson Chourio himself represents enormous dynasty value as an active roster player with growing upside.",
+    topProspects:[
+      {name:'Jackson Chourio (OF, MIL)', eta:'Now', grade:'A-', note:'Dynasty OF1. Speed-power combo, just 21 years old.'},
+      {name:'Adley Rutschman (C, BAL)', eta:'Now', grade:'A-', note:'Trade acquisition, top-2 dynasty C in the game.'},
+      {name:'Corbin Burnes (SP, BAL)', eta:'Now', grade:'A-', note:'Trade acquisition, consistent front-line SP.'}
+    ],
+    strengths:'Active roster is now elite. The Rutschman + Burnes combo is the best win-now acquisition in Week 6.',
+    weaknesses:'Gave away significant future picks in the Jac-in It trade. Farm depth below active roster is thin.',
+    farmScore:68
+  },
+  {
+    teamId:'8znzrpg1mg7kg72e', team:'TBONERS', farmRank:8, grade:'B-',
+    prRank:2,
+    overview:"TBONERS are all-in on 2026. Their farm is modest — they've been trading future assets for present wins (Bibee/Pfaadt acquisition). But Carlos Rodón's return from TJ is the farm asset that already arrived, and his performance trajectory is improving.",
+    topProspects:[
+      {name:'Tanner Bibee (SP, CLE)', eta:'Now', grade:'B+', note:'Mid-season trade add. Quality SP2/SP3.'},
+      {name:'Brandon Pfaadt (SP, ARI)', eta:'Now', grade:'B', note:'Package deal, solid depth arm.'},
+      {name:'2027 R3 Pick (held)', eta:'2027', grade:'C+', note:'Third-round value, modest return.'}
+    ],
+    strengths:'Carlos Rodón returning to form IS the big farm payoff — acquired as a TJ rehab project, now becoming an ace.',
+    weaknesses:'Very few assets below the active roster. All-in approach leaves little room for error.',
+    farmScore:64
+  },
+  {
+    teamId:'vhuxfzygmg7kg728', team:'Creative Name', farmRank:9, grade:'C+',
+    prRank:9,
+    overview:"Creative Name's farm story is one of mixed signals. They gave away a 2027 R1 to get Berríos (wait — they received picks FROM HNB). Creative Name sent Carroll to Evil HNC for Valdez, giving away offensive upside for pitching. The 12 WW claims reflect roster chaos.",
+    topProspects:[
+      {name:'Framber Valdez (SP, HOU)', eta:'Now', grade:'B+', note:'Acquired from Evil HNC. Ground-ball ace.'},
+      {name:'Corbin Carroll (traded away)', eta:'N/A', grade:'A-', note:'Sent to Evil HNC — was their best dynasty asset.'},
+      {name:'WW depth pickups (multiple)', eta:'2026', grade:'C', note:'12 claims but few keepers.'}
+    ],
+    strengths:'Valdez gives them a legitimate SP foundation going forward.',
+    weaknesses:'Trading Corbin Carroll was a significant dynasty setback. No elite prospects remaining in the system.',
+    farmScore:58
+  },
+  {
+    teamId:'ckm3yf5rmg7kg729', team:'Layin Wood', farmRank:10, grade:'C+',
+    prRank:5,
+    overview:'Layin Wood is a present-focused team with a modest farm. They traded Jackson Chourio — a significant dynasty asset — for Shota Imanaga. Imanaga is excellent but a mid-30s pitcher. The future pipeline took a hit with that transaction.',
+    topProspects:[
+      {name:'Shota Imanaga (SP, CHC)', eta:'Now', grade:'A-', note:'Trade acquisition, elite SP. But 32 years old — limited dynasty window.'},
+      {name:'Nick Martinez (SP, SD)', eta:'Now', grade:'B-', note:'WW pickup, veteran depth arm.'},
+      {name:'Ryan Pepiot (SP, TB)', eta:'Now', grade:'B-', note:'WW pickup, young arm with K upside.'}
+    ],
+    strengths:'Present rotation is solid. Imanaga + depth pitchers keeps them competitive now.',
+    weaknesses:'Trading Chourio for a 32-year-old SP is a win-now-only move. Farm depth below active roster is thin.',
+    farmScore:55
+  },
+  {
+    teamId:'0qrvkt09mg7kg72f', team:'First Pitch Swinging', farmRank:11, grade:'C',
+    prRank:10,
+    overview:"First Pitch Swinging's farm was hurt by the Cease injury and subsequent trade. They now hold Elly De La Cruz (excellent) but gave away Pete Alonso in the process. Their SP pipeline is thin after losing Cease.",
+    topProspects:[
+      {name:'Elly De La Cruz (SS, CIN — received from Lankers)', eta:'Now', grade:'A', note:'Elite dynasty SS. Acquired for Alonso — long-term win.'},
+      {name:'Pablo López (SP, MIN)', eta:'Now', grade:'B', note:'Team ace post-Cease. Consistent 200-IP arm.'},
+      {name:'Dylan Cease (traded away injured)', eta:'N/A', grade:'B+', note:'Sent to Jac-in It with IL-60 shoulder. Team took the picks.'}
+    ],
+    strengths:'De La Cruz is a top-10 dynasty asset at SS. Long-term their future looks better than their present record.',
+    weaknesses:'Trading Alonso removes a dependable HR/RBI bat. SP depth is very thin post-Cease trade.',
+    farmScore:52
+  },
+  {
+    teamId:'c8sjtrwhmg7kg72h', team:'Say Yes to Velo', farmRank:12, grade:'C-',
+    prRank:7,
+    overview:"Say Yes to Velo gave away Carlos Rodón pre-season — and Rodón is now one of the best pitchers in the league for TBONERS. That transaction alone drops their farm grade. Their 2027 R2 pick (received in the Rodón trade) is modest compensation.",
+    topProspects:[
+      {name:'2027 R2 Pick (from Rodón trade)', eta:'2027', grade:'C+', note:'Modest value. Carlos Rodón was worth more than this.'},
+      {name:'Mason Miller (RP, OAK)', eta:'Now', grade:'B-', note:'WW pickup, elite K rate. But role/health concerns.'},
+      {name:'Roddery Muñoz (SP, PIT)', eta:'2026-27', grade:'B-', note:'Intriguing young arm, raw but exciting.'}
+    ],
+    strengths:'Active WW-based farm supplementation keeps them competitive in the short term.',
+    weaknesses:'Rodón trade was a dynasty value disaster. No true blue-chip prospects below active roster.',
+    farmScore:44
+  }
+];
+// =================== UTILITY FUNCTIONS ===================
+const COLORS = ['#00d4aa','#4f8ef7','#f7a44f','#ff4d6d','#ffd700','#c0c0c0','#00e676','#ae81ff','#ff7043','#26c6da','#d4e157','#ef5350'];
+const TCOLORS = COLORS.map(c=>c+'88');
+
+function getRankBadgeClass(r){if(r===1)return'rank-1';if(r===2)return'rank-2';if(r===3)return'rank-3';if(r<=4)return'rank-top';if(r<=8)return'rank-mid';return'rank-low';}
+function getDeltaStr(curr,prev){const d=prev-curr;if(d>0)return '<span class="delta delta-up">▲'+d+'</span>';if(d<0)return '<span class="delta delta-down">▼'+Math.abs(d)+'</span>';return '<span class="delta delta-same">—</span>';}
+function getPcClass(r){if(r===1)return'gold';if(r===2)return'silver';if(r===3)return'bronze';if(r<=6)return'rising';if(r<=9)return'stable';return'falling';}
+function formatNum(n,dec=1){return typeof n==='number'?n.toFixed(dec):n;}
+function gradeBadge(g){const map={'A+':'grade-a-plus','A':'grade-a','A-':'grade-a','B+':'grade-b-plus','B':'grade-b','B-':'grade-b','C+':'grade-c','C':'grade-c','C-':'grade-c','D+':'grade-d','D':'grade-d'};return '<span class="prospect-grade '+(map[g]||'grade-c')+'">'+g+'</span>';}
+
+// =================== TAB NAVIGATION ===================
+function showTab(name){
+  document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('tab-'+name).classList.add('active');
+  const btns=document.querySelectorAll('.nav-btn');
+  btns.forEach(b=>{if(b.getAttribute('onclick')&&b.getAttribute('onclick').includes("'"+name+"'"))b.classList.add('active');});
+  if(name==='trends')initTrends();
+  if(name==='stats')initStats();
+  if(name==='weekrank')initWeekRank();
+  if(name==='farm')initFarm();
+  if(name==='teamwrite')initWriteups();
+}
+
+function showStatView(v,btn){
+  document.querySelectorAll('[id^=stat-]').forEach(el=>el.style.display='none');
+  document.querySelectorAll('.tab-s-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('stat-'+v).style.display='';
+  btn.classList.add('active');
+  if(v==='radar')initRadar();
+}
+
+// =================== MODAL ===================
+function openModal(teamId){
+  const t=TEAMS.find(x=>x.id===teamId)||TEAMS.find(x=>x.name===teamId);
+  const w=TEAM_WRITEUPS.find(x=>x.id===teamId);
+  const f=FARM_RANKS.find(x=>x.teamId===teamId);
+  if(!t)return;
+  const weekRankData=WEEK_RANKS.map((wk,wi)=>({wk:wk.label,rank:wk.ranks[TEAMS.indexOf(t)]}));
+  let html='<div class="modal-team-header"><div class="modal-rank">#'+(w?w.pr:'')+' </div><div class="modal-info"><h2>'+t.name+'</h2><p>'+t.w+'-'+t.l+' · PF: '+t.pf+' · FP/G: '+t.fpg+'</p></div></div>';
+  html+='<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:20px;">';
+  html+='<div class="stat-box"><div class="val">'+t.w+'-'+t.l+'</div><div class="lbl">Record</div></div>';
+  html+='<div class="stat-box"><div class="val">'+t.pf.toLocaleString()+'</div><div class="lbl">Points For</div></div>';
+  html+='<div class="stat-box"><div class="val">'+t.fpg+'</div><div class="lbl">FP/G</div></div>';
+  html+='<div class="stat-box"><div class="val">'+(f?'#'+f.farmRank:'?')+'</div><div class="lbl">Farm Rank</div></div>';
+  html+='</div>';
+  if(w){
+    html+='<div style="margin-bottom:16px;font-style:italic;color:var(--accent3);font-size:.9rem;">"'+w.tagline+'"</div>';
+    html+='<div class="writeup"><p>'+w.overview+'</p><h4>💪 Strengths</h4><p>'+w.strengths+'</p><h4>⚠️ Weaknesses</h4><p>'+w.weaknesses+'</p><h4>🏥 Injuries & IL</h4><p>'+w.injuries+'</p><h4>🔮 Outlook</h4><p>'+w.outlook+'</p></div>';
+    html+='<h4 style="color:var(--accent);margin-top:16px;margin-bottom:8px;">Key Players</h4>';
+    html+='<ul style="list-style:none;">';
+    w.keyPlayers.forEach(p=>html+='<li style="padding:4px 0;font-size:.85rem;">• '+p+'</li>');
+    html+='</ul>';
+  }
+  html+='<h4 style="color:var(--accent);margin-top:20px;margin-bottom:8px;">📅 Weekly Ranking History</h4>';
+  html+='<div class="week-trend">';
+  const maxH=40;
+  weekRankData.forEach(d=>{
+    const h=Math.max(6,maxH-((d.rank-1)*(maxH/11)));
+    const cls=d.rank===1?'gold':d.rank<=3?'green':d.rank>=10?'red':'';
+    html+='<div class="trend-bar '+cls+'" style="height:'+h+'px;" title="'+d.wk+': #'+d.rank+'"></div>';
+  });
+  html+='</div>';
+  html+='<div style="display:flex;gap:8px;margin-top:6px;justify-content:space-between;">';
+  weekRankData.forEach(d=>html+='<span style="font-size:.65rem;color:var(--muted);">'+d.wk+'</span>');
+  html+='</div>';
+  document.getElementById('modal-content').innerHTML=html;
+  document.getElementById('modal').classList.add('open');
+}
+function closeModal(){document.getElementById('modal').classList.remove('open');}
+
+// =================== POWER RANKINGS ===================
+let allPRCards=[];
+function initRankings(){
+  const summaryEl=document.getElementById('summary-stats');
+  summaryEl.innerHTML=['🥇 Leader: Wyatt and the Lankers (9-3)','⬆️ Biggest Riser: FPS ▲6 (W1→W7)','⬇️ Biggest Faller: Say Yes to Velo ▼5','🔥 Hot Streak: Velo 3W / HNB 3W'].map((s,i)=>'<div class="stat-box"><div class="val" style="font-size:1rem;">'+s+'</div></div>').join('');
+  
+  const container=document.getElementById('rankings-list');
+  container.innerHTML='';
+  allPRCards=[];
+  const prevRanks=WEEK_RANKS[5]?WEEK_RANKS[5].ranks:WEEK_RANKS[WEEK_RANKS.length-2].ranks;
+  const currRanks=WEEK_RANKS[WEEK_RANKS.length-1].ranks;
+  
+  TEAMS.forEach((t,i)=>{
+    const pr=currRanks[i];
+    const prev=prevRanks[i];
+    const score=POWER_SCORES[pr-1];
+    const cls=getPcClass(pr);
+    const delta=getDeltaStr(pr,prev);
+    const w=TEAM_WRITEUPS.find(x=>x.id===t.id);
+    const f=FARM_RANKS.find(x=>x.teamId===t.id);
+    
+    const tags=[];
+    if(t.streak.includes('W'))tags.push('<span class="badge badge-green">'+t.streak+'</span>');
+    if(t.streak.includes('L'))tags.push('<span class="badge badge-red">'+t.streak+'</span>');
+    if(f)tags.push('<span class="badge badge-blue">Farm #'+f.farmRank+'</span>');
+    if(w)tags.push(gradeBadge(w.grade));
+    
+    const html='<div class="power-card '+cls+' pr-card" data-id="'+t.id+'" data-pr="'+pr+'" data-trend="'+cls+'" onclick="openModal(\''+t.id+'\')">'+
+      '<div class="pc-rank"><div class="num"><span class="rank-badge '+getRankBadgeClass(pr)+'" style="width:36px;height:36px;font-size:1rem;">'+pr+'</span></div><div style="margin-top:4px;">'+delta+'</div></div>'+
+      '<div class="pc-info"><h3>'+t.name+'</h3><div class="meta"><span>'+t.w+'-'+t.l+'</span><span>📈 '+t.pf.toLocaleString()+' PF</span><span>🎯 '+t.fpg+' FP/G</span><span>'+t.streak+'</span></div>'+
+      '<div style="margin-top:6px;">'+tags.join(' ')+'</div>'+
+      '<div class="pc-bar"><div class="pc-bar-fill" style="width:'+score+'%;"></div></div></div>'+
+      '<div class="pc-score"><div class="score">'+score+'</div><div class="label">PR Score</div></div></div>';
+    allPRCards.push({pr,trend:cls,name:t.name,html,id:t.id});
+  });
+  
+  allPRCards.sort((a,b)=>a.pr-b.pr);
+  allPRCards.forEach(c=>container.innerHTML+=c.html);
+}
+
+function filterRankings(type,btn){
+  document.querySelectorAll('.filter-row .filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.pr-card').forEach(c=>{
+    const tr=c.getAttribute('data-trend');
+    c.style.display=(type==='all'||tr===type||
+      (type==='rising'&&(tr==='gold'||tr==='silver'||tr==='bronze'||tr==='rising'))||
+      (type==='falling'&&tr==='falling')||
+      (type==='stable'&&tr==='stable'))?'':'none';
+  });
+}
+function searchRankings(q){
+  document.querySelectorAll('.pr-card').forEach(c=>{
+    const name=c.querySelector('h3')?.textContent||'';
+    c.style.display=name.toLowerCase().includes(q.toLowerCase())?'':'none';
+  });
+}
+// =================== STANDINGS ===================
+let standingsSortKey='winPct', standingsSortDir=-1;
+function initStandings(){
+  renderStandingsTable();
+  renderPFPAChart();
+}
+function sortStandings(key,btn){
+  if(standingsSortKey===key)standingsSortDir*=-1;
+  else{standingsSortKey=key;standingsSortDir=-1;}
+  if(btn){document.querySelectorAll('.filter-row .filter-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');}
+  renderStandingsTable();
+}
+function filterStandings(q){renderStandingsTable(q);}
+function renderStandingsTable(q=''){
+  const currRanks=WEEK_RANKS[WEEK_RANKS.length-1].ranks;
+  let data=[...TEAMS].map((t,i)=>({...t,pr:currRanks[i],diff:t.pf-t.pa}));
+  if(q)data=data.filter(t=>t.name.toLowerCase().includes(q.toLowerCase()));
+  data.sort((a,b)=>{
+    const va=a[standingsSortKey]??0,vb=b[standingsSortKey]??0;
+    return typeof va==='number'?(vb-va)*standingsSortDir:va.localeCompare(vb)*standingsSortDir;
+  });
+  const tbody=document.getElementById('standings-body');
+  tbody.innerHTML=data.map((t,idx)=>
+    '<tr onclick="openModal(\''+t.id+'\')">'+
+    '<td><span class="rank-badge '+getRankBadgeClass(idx+1)+'" style="font-size:.75rem;width:24px;height:24px;">'+(idx+1)+'</span></td>'+
+    '<td class="team-name" style="cursor:pointer;">'+t.name+'</td>'+
+    '<td style="color:var(--green);font-weight:700;">'+t.w+'</td>'+
+    '<td style="color:var(--red);">'+t.l+'</td>'+
+    '<td><strong>'+t.winPct.toFixed(3)+'</strong></td>'+
+    '<td style="color:var(--muted);">'+t.div+'</td>'+
+    '<td style="color:var(--accent);">'+t.pf.toLocaleString()+'</td>'+
+    '<td style="color:var(--muted);">'+t.pa.toLocaleString()+'</td>'+
+    '<td style="color:'+(t.diff>0?'var(--green)':'var(--red)')+';">'+(t.diff>0?'+':'')+t.diff.toFixed(1)+'</td>'+
+    '<td>'+t.fpg+'</td>'+
+    '<td>'+t.ww+'</td>'+
+    '<td style="color:'+(t.streak.includes('W')?'var(--green)':'var(--red)')+';">'+t.streak+'</td>'+
+    '<td><span class="rank-badge '+getRankBadgeClass(t.pr)+'" style="font-size:.7rem;width:22px;height:22px;">'+t.pr+'</span></td>'+
+    '</tr>'
+  ).join('');
+}
+let pfpaChart=null;
+function renderPFPAChart(){
+  const ctx=document.getElementById('pfpaChart');
+  if(!ctx)return;
+  if(pfpaChart)pfpaChart.destroy();
+  pfpaChart=new Chart(ctx,{type:'scatter',data:{datasets:[{label:'Teams',data:TEAMS.map(t=>({x:t.pf,y:t.pa,label:t.short})),backgroundColor:COLORS,pointRadius:8,pointHoverRadius:10}]},options:{responsive:true,maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:d=>d.raw.label+': PF='+d.raw.x+', PA='+d.raw.y}},legend:{display:false}},scales:{x:{title:{display:true,text:'Points For'},grid:{color:'rgba(255,255,255,.05)'}},y:{title:{display:true,text:'Points Against'},grid:{color:'rgba(255,255,255,.05)'}},color:{scheme:'tableau10'}}}});
+}
+
+// =================== MATCHUPS ===================
+function initMatchups(){
+  renderMatchups('all');
+  buildH2HMatrix();
+}
+function showPeriod(w,btn){
+  document.querySelectorAll('.filter-row .filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderMatchups(w);
+}
+function renderMatchups(filter){
+  const grid=document.getElementById('matchups-grid');
+  const data=filter==='all'?MATCHUPS:MATCHUPS.filter(m=>m.week===filter);
+  grid.innerHTML=data.map(wk=>'<div class="period-card"><h4>'+wk.week+' ('+wk.date+')</h4>'+
+    wk.games.map(g=>'<div class="matchup-row">'+
+      '<span class="m-team" style="'+(g.winner==='away'?'color:var(--text);font-weight:700;':'color:var(--muted);')+'">'+g.away.split(' ').slice(0,2).join(' ')+'</span>'+
+      '<span class="m-score '+(g.winner==='away'?'':'loser')+'">'+g.awayScore+'</span>'+
+      '<span style="color:var(--muted);font-size:.8rem;">vs</span>'+
+      '<span class="m-score '+(g.winner==='home'?'':'loser')+'">'+g.homeScore+'</span>'+
+      '<span class="m-team" style="text-align:right;'+(g.winner==='home'?'color:var(--text);font-weight:700;':'color:var(--muted);')+'">'+g.home.split(' ').slice(0,2).join(' ')+'</span>'+
+    '</div>').join('')+
+  '</div>').join('');
+}
+function buildH2HMatrix(){
+  const el=document.getElementById('h2h-matrix');
+  const names=TEAMS.map(t=>t.short);
+  let html='<table style="font-size:.7rem;"><thead><tr><th></th>'+names.map(n=>'<th style="writing-mode:vertical-lr;padding:4px;">'+n+'</th>').join('')+'</tr></thead><tbody>';
+  TEAMS.forEach((t,i)=>{
+    html+='<tr><td style="font-weight:700;padding:4px 8px;white-space:nowrap;">'+t.short+'</td>';
+    TEAMS.forEach((t2,j)=>{
+      if(i===j){html+='<td style="background:var(--card2);text-align:center;">—</td>';return;}
+      // simplified H2H wins from matchup data
+      let w=0,l=0;
+      MATCHUPS.forEach(wk=>wk.games.forEach(g=>{
+        if((g.away===t.name&&g.home===t2.name)||(g.away.includes(t.short)||g.home.includes(t.short))){
+          if((g.away===t.name&&g.winner==='away')||(g.home===t.name&&g.winner==='home'))w++;
+          else if((g.away===t.name||g.home===t.name))l++;
+        }
+      }));
+      const bg=w>l?'rgba(0,230,118,.15)':w<l?'rgba(255,77,109,.15)':'rgba(255,255,255,.03)';
+      html+='<td style="text-align:center;background:'+bg+';padding:4px;">'+(w||l?w+'-'+l:'-')+'</td>';
+    });
+    html+='</tr>';
+  });
+  html+='</tbody></table>';
+  el.innerHTML=html;
+}
+
+// =================== TRENDS ===================
+let trendsInit=false, prTrendChart=null, pfTrendChart=null, winPctChart2=null, pitHitChart=null, recentChart=null;
+function initTrends(){
+  if(trendsInit)return; trendsInit=true;
+  // PR Trajectory
+  const weekLabels=WEEK_RANKS.map(w=>w.label);
+  const prCtx=document.getElementById('prTrendChart');
+  if(prCtx&&!prTrendChart){
+    prTrendChart=new Chart(prCtx,{type:'line',data:{labels:weekLabels,datasets:TEAMS.map((t,i)=>({label:t.short,data:WEEK_RANKS.map(wk=>wk.ranks[i]),borderColor:COLORS[i],backgroundColor:'transparent',tension:.3,borderWidth:2,pointRadius:3}))},options:{responsive:true,maintainAspectRatio:false,scales:{y:{reverse:true,title:{display:true,text:'Rank'},min:1,max:12,grid:{color:'rgba(255,255,255,.05)'}},x:{grid:{color:'rgba(255,255,255,.05)'}}},plugins:{legend:{position:'right',labels:{color:'#e8eaf6',font:{size:10}}}}}});
+  }
+  // PF per week
+  const pfCtx=document.getElementById('pfTrendChart');
+  if(pfCtx&&!pfTrendChart){
+    const weeklyPF=WEEK_PF.map((arr,wi)=>wi===0?arr:arr.map((v,i)=>v-(WEEK_PF[wi-1][i]||0)));
+    pfTrendChart=new Chart(pfCtx,{type:'line',data:{labels:weekLabels,datasets:TEAMS.map((t,i)=>({label:t.short,data:weeklyPF.map(w=>parseFloat(w[i].toFixed(1))),borderColor:COLORS[i],backgroundColor:'transparent',tension:.3,borderWidth:2,pointRadius:3}))},options:{responsive:true,maintainAspectRatio:false,scales:{y:{title:{display:true,text:'PF That Week'},grid:{color:'rgba(255,255,255,.05)'}},x:{grid:{color:'rgba(255,255,255,.05)'}}},plugins:{legend:{position:'right',labels:{color:'#e8eaf6',font:{size:10}}}}}});
+  }
+  // Win% over time
+  const wCtx=document.getElementById('winPctChart');
+  const cumWins=TEAMS.map((t,i)=>{
+    let w=0,gp=0;
+    return WEEK_RANKS.map(wk=>{
+      const rank=wk.ranks[i];
+      // approximate: top 8 win, simulate
+      if(rank<=6)w++;gp++;return parseFloat((w/gp).toFixed(3));
+    });
+  });
+  if(wCtx&&!winPctChart2){
+    winPctChart2=new Chart(wCtx,{type:'line',data:{labels:weekLabels,datasets:TEAMS.map((t,i)=>({label:t.short,data:cumWins[i],borderColor:COLORS[i],backgroundColor:'transparent',tension:.3,borderWidth:1.5,pointRadius:2}))},options:{responsive:true,maintainAspectRatio:false,scales:{y:{min:0,max:1,title:{display:true,text:'Cumulative Win%'},grid:{color:'rgba(255,255,255,.05)'}},x:{grid:{color:'rgba(255,255,255,.05)'}}},plugins:{legend:{position:'right',labels:{color:'#e8eaf6',font:{size:10}}}}}});
+  }
+  // Pit vs Hit
+  const phCtx=document.getElementById('pitHitChart');
+  if(phCtx&&!pitHitChart){
+    pitHitChart=new Chart(phCtx,{type:'bar',data:{labels:TEAMS.map(t=>t.short),datasets:[{label:'Hitting Pts',data:TEAMS.map(t=>t.hitPts),backgroundColor:'rgba(79,142,247,.7)'},{label:'Pitching Pts',data:TEAMS.map(t=>t.pitPts),backgroundColor:'rgba(0,212,170,.7)'}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{stacked:true,grid:{color:'rgba(255,255,255,.03)'}},y:{stacked:true,grid:{color:'rgba(255,255,255,.05)'}}},plugins:{legend:{labels:{color:'#e8eaf6'}}}}});
+  }
+  // Recent Form
+  const rfCtx=document.getElementById('recentFormChart');
+  if(rfCtx&&!recentChart){
+    const last3=WEEK_RANKS.slice(-3);
+    recentChart=new Chart(rfCtx,{type:'radar',data:{labels:TEAMS.map(t=>t.short),datasets:last3.map((wk,i)=>({label:wk.label,data:wk.ranks.map(r=>13-r),borderColor:COLORS[i],backgroundColor:TCOLORS[i],borderWidth:2}))},options:{responsive:true,maintainAspectRatio:false,scales:{r:{min:0,max:12,grid:{color:'rgba(255,255,255,.1)'},angleLines:{color:'rgba(255,255,255,.1)'},ticks:{display:false}}},plugins:{legend:{labels:{color:'#e8eaf6',font:{size:10}}}}}});
+  }
+}
+// =================== TEAM WRITEUPS ===================
+function initWriteups(){
+  renderWriteups(TEAM_WRITEUPS);
+}
+function filterWriteups(type,btn){
+  document.querySelectorAll('.filter-row .filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  let data=TEAM_WRITEUPS;
+  if(type==='top')data=data.filter(w=>w.pr<=4);
+  if(type==='mid')data=data.filter(w=>w.pr>=5&&w.pr<=8);
+  if(type==='bot')data=data.filter(w=>w.pr>=9);
+  renderWriteups(data);
+}
+function searchWriteups(q){
+  const data=TEAM_WRITEUPS.filter(w=>w.name.toLowerCase().includes(q.toLowerCase())||w.tagline.toLowerCase().includes(q.toLowerCase())||w.overview.toLowerCase().includes(q.toLowerCase()));
+  renderWriteups(data);
+}
+function renderWriteups(data){
+  const c=document.getElementById('writeups-container');
+  const sorted=[...data].sort((a,b)=>a.pr-b.pr);
+  c.innerHTML=sorted.map(w=>{
+    const t=TEAMS.find(x=>x.id===w.id);
+    const f=FARM_RANKS.find(x=>x.teamId===w.id);
+    const cls=getPcClass(w.pr);
+    const trendIcon=w.trend==='rising'?'📈':w.trend==='falling'?'📉':'⟷';
+    return '<div class="prospect-card '+cls+'" onclick="openModal(\''+w.id+'\')" style="border-left:4px solid '+(w.pr<=4?'var(--gold)':w.pr<=8?'var(--accent2)':'var(--red)')+';margin-bottom:16px;">'+
+      '<div class="prospect-header">'+
+        '<div class="prospect-rank-badge" style="background:'+(w.pr===1?'var(--gold)':w.pr===2?'var(--silver)':w.pr===3?'var(--bronze)':w.pr<=6?'var(--accent)':w.pr<=9?'var(--accent2)':'var(--red)')+';color:'+(w.pr<=3?'#000':'#fff')+';font-size:1.2rem;">#'+w.pr+'</div>'+
+        '<div style="flex:1;"><h3 style="font-size:1rem;font-weight:800;">'+w.name+'</h3><div style="color:var(--muted);font-size:.8rem;">'+t.w+'-'+t.l+' · '+trendIcon+' '+w.trend.charAt(0).toUpperCase()+w.trend.slice(1)+' · Farm Rank: #'+(f?f.farmRank:'?')+'</div></div>'+
+        gradeBadge(w.grade)+
+      '</div>'+
+      '<div style="font-style:italic;color:var(--accent3);font-size:.88rem;margin-bottom:12px;">"'+w.tagline+'"</div>'+
+      '<div class="writeup" style="max-height:none;"><p>'+w.overview+'</p></div>'+
+      '<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px;">'+
+        '<div style="background:var(--card2);border-radius:8px;padding:12px;"><div style="color:var(--green);font-size:.78rem;font-weight:700;margin-bottom:6px;">💪 STRENGTHS</div><p style="font-size:.82rem;line-height:1.6;">'+w.strengths+'</p></div>'+
+        '<div style="background:var(--card2);border-radius:8px;padding:12px;"><div style="color:var(--red);font-size:.78rem;font-weight:700;margin-bottom:6px;">⚠️ WEAKNESSES</div><p style="font-size:.82rem;line-height:1.6;">'+w.weaknesses+'</p></div>'+
+      '</div>'+
+      '<div style="background:rgba(255,77,109,.08);border:1px solid rgba(255,77,109,.2);border-radius:8px;padding:10px;margin-top:10px;">'+
+        '<div style="color:var(--red);font-size:.78rem;font-weight:700;margin-bottom:4px;">🏥 INJURIES & IL</div>'+
+        '<p style="font-size:.82rem;">'+w.injuries+'</p>'+
+      '</div>'+
+      '<div style="background:rgba(79,142,247,.08);border:1px solid rgba(79,142,247,.2);border-radius:8px;padding:10px;margin-top:10px;">'+
+        '<div style="color:var(--accent2);font-size:.78rem;font-weight:700;margin-bottom:4px;">🔮 OUTLOOK</div>'+
+        '<p style="font-size:.82rem;">'+w.outlook+'</p>'+
+      '</div>'+
+      '<div style="margin-top:10px;"><span style="font-size:.75rem;color:var(--muted);">KEY PLAYERS: </span>'+w.keyPlayers.map(p=>'<span class="badge badge-teal">'+p.split('(')[0].trim()+'</span>').join(' ')+'</div>'+
+    '</div>';
+  }).join('');
+}
+
+// =================== FARM RANKINGS ===================
+let farmChartA=null, farmChartB=null, farmInit=false;
+function initFarm(){
+  if(farmInit)return; farmInit=true;
+  renderFarmList();
+  renderFarmCharts();
+}
+function renderFarmList(){
+  const container=document.getElementById('farm-list');
+  const sorted=[...FARM_RANKS].sort((a,b)=>a.farmRank-b.farmRank);
+  container.innerHTML=sorted.map(f=>{
+    const t=TEAMS.find(x=>x.id===f.teamId);
+    const w=TEAM_WRITEUPS.find(x=>x.teamId===f.teamId||x.id===f.teamId);
+    const prRank=WEEK_RANKS[WEEK_RANKS.length-1].ranks[TEAMS.indexOf(t)];
+    const diff=prRank-f.farmRank;
+    return '<div class="prospect-card" onclick="openFarmModal(\''+f.teamId+'\')">'+
+      '<div class="prospect-header">'+
+        '<div class="prospect-rank-badge" style="background:'+(f.farmRank===1?'var(--gold)':f.farmRank===2?'var(--silver)':f.farmRank===3?'var(--bronze)':f.farmRank<=6?'var(--accent)':'var(--accent2)')+';color:'+(f.farmRank<=3?'#000':'#fff')+';">'+f.farmRank+'</div>'+
+        '<div style="flex:1;"><h3 style="font-size:1rem;font-weight:800;">'+f.team+'</h3>'+
+          '<div style="color:var(--muted);font-size:.8rem;">PR Rank: #'+prRank+' · <span style="color:'+(diff>0?'var(--red)':diff<0?'var(--green)':'var(--muted)')+';">'+(diff>0?'Farm > PR (underperforming potential)':diff<0?'PR > Farm (overperforming)':'Even')+'</span></div>'+
+        '</div>'+
+        gradeBadge(f.grade)+
+        '<div style="text-align:right;"><div style="font-size:1.2rem;font-weight:800;color:var(--accent);">'+f.farmScore+'</div><div style="font-size:.7rem;color:var(--muted);">Farm Score</div></div>'+
+      '</div>'+
+      '<div class="pc-bar" style="margin-bottom:12px;"><div class="pc-bar-fill" style="width:'+f.farmScore+'%;background:linear-gradient(90deg,var(--accent2),var(--accent3));"></div></div>'+
+      '<p style="font-size:.85rem;margin-bottom:12px;line-height:1.7;">'+f.overview+'</p>'+
+      '<div style="margin-bottom:10px;"><div style="font-size:.75rem;color:var(--muted);font-weight:700;margin-bottom:6px;">TOP PROSPECTS</div>'+
+        f.topProspects.map(p=>'<div style="background:var(--card2);border-radius:6px;padding:8px 12px;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;">'+
+          '<div><div style="font-size:.85rem;font-weight:700;">'+p.name+'</div><div style="font-size:.75rem;color:var(--muted);">ETA: '+p.eta+' · '+p.note+'</div></div>'+
+          gradeBadge(p.grade)+
+        '</div>').join('')+
+      '</div>'+
+      '<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">'+
+        '<div style="background:rgba(0,212,170,.08);border-radius:6px;padding:8px;"><div style="font-size:.72rem;color:var(--accent);font-weight:700;margin-bottom:4px;">STRENGTHS</div><p style="font-size:.8rem;">'+f.strengths+'</p></div>'+
+        '<div style="background:rgba(255,77,109,.08);border-radius:6px;padding:8px;"><div style="font-size:.72rem;color:var(--red);font-weight:700;margin-bottom:4px;">WEAKNESSES</div><p style="font-size:.8rem;">'+f.weaknesses+'</p></div>'+
+      '</div>'+
+    '</div>';
+  }).join('');
+}
+function openFarmModal(id){openModal(id);}
+function renderFarmCharts(){
+  const gradeCtx=document.getElementById('farmGradeChart');
+  if(gradeCtx&&!farmChartA){
+    const grades=['A+','A','A-','B+','B','B-','C+','C','C-','D+','D'];
+    const counts=grades.map(g=>FARM_RANKS.filter(f=>f.grade===g).length);
+    farmChartA=new Chart(gradeCtx,{type:'doughnut',data:{labels:grades.filter((_,i)=>counts[i]>0),datasets:[{data:grades.filter((_,i)=>counts[i]>0).map((_,i)=>counts.filter(c=>c>0)[i]),backgroundColor:COLORS}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#e8eaf6',font:{size:10}}}}}});
+  }
+  const vsCtx=document.getElementById('farmVsPRChart');
+  if(vsCtx&&!farmChartB){
+    farmChartB=new Chart(vsCtx,{type:'scatter',data:{datasets:[{label:'Teams',data:FARM_RANKS.map(f=>{const t=TEAMS.find(x=>x.id===f.teamId);const pr=WEEK_RANKS[WEEK_RANKS.length-1].ranks[TEAMS.indexOf(t)];return{x:pr,y:f.farmRank,label:f.team.split(' ').slice(0,2).join(' ')};}),backgroundColor:COLORS,pointRadius:10}]},options:{responsive:true,maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:d=>d.raw.label}},legend:{display:false},annotation:{annotations:{line:{type:'line',xMin:1,xMax:12,yMin:1,yMax:12,borderColor:'rgba(255,255,255,.2)',borderWidth:1}}}},scales:{x:{title:{display:true,text:'Power Rank'},min:0,max:13,grid:{color:'rgba(255,255,255,.05)'}},y:{title:{display:true,text:'Farm Rank'},reverse:true,min:0,max:13,grid:{color:'rgba(255,255,255,.05)'}}}}}); 
+  }
+}
+// =================== WEEK-BY-WEEK ===================
+let weekChartInst=null, weekInit=false;
+function initWeekRank(){
+  if(weekInit)return; weekInit=true;
+  const ctx=document.getElementById('weekChart');
+  if(ctx&&!weekChartInst){
+    weekChartInst=new Chart(ctx,{type:'line',data:{labels:WEEK_RANKS.map(w=>w.label+' ('+w.dates+')'),datasets:TEAMS.map((t,i)=>({label:t.short,data:WEEK_RANKS.map(wk=>wk.ranks[i]),borderColor:COLORS[i],backgroundColor:'transparent',tension:.3,borderWidth:2.5,pointRadius:5,pointHoverRadius:8}))},options:{responsive:true,maintainAspectRatio:false,scales:{y:{reverse:true,title:{display:true,text:'Power Rank'},min:1,max:12,ticks:{stepSize:1},grid:{color:'rgba(255,255,255,.05)'}},x:{grid:{color:'rgba(255,255,255,.05)'}}},interaction:{mode:'index',intersect:false},plugins:{tooltip:{callbacks:{title:t=>'Week: '+WEEK_RANKS[t[0].dataIndex].label,label:t=>t.dataset.label+': #'+t.raw}},legend:{position:'right',labels:{color:'#e8eaf6',font:{size:11},padding:8}}}}});
+  }
+  renderWeekTable();
+}
+function filterWeekTable(q){renderWeekTable(q);}
+function renderWeekTable(q=''){
+  const tbl=document.getElementById('week-rank-table');
+  let teams=TEAMS;
+  if(q)teams=teams.filter(t=>t.name.toLowerCase().includes(q.toLowerCase()));
+  const headers='<thead class="sticky-header"><tr><th>Team</th>'+WEEK_RANKS.map(w=>'<th>'+w.label+'</th>').join('')+'<th>Current</th><th>Change</th></tr></thead>';
+  const rows=teams.map(t=>{
+    const i=TEAMS.indexOf(t);
+    const curr=WEEK_RANKS[WEEK_RANKS.length-1].ranks[i];
+    const first=WEEK_RANKS[0].ranks[i];
+    const diff=getDeltaStr(curr,first);
+    return '<tr onclick="openModal(\''+t.id+'\')"><td class="team-name">'+t.name+'</td>'+
+      WEEK_RANKS.map(wk=>'<td><span class="rank-badge '+getRankBadgeClass(wk.ranks[i])+'" style="width:22px;height:22px;font-size:.7rem;">'+wk.ranks[i]+'</span></td>').join('')+
+      '<td><span class="rank-badge '+getRankBadgeClass(curr)+'" style="width:22px;height:22px;font-size:.7rem;">'+curr+'</span></td>'+
+      '<td>'+diff+'</td>'+
+    '</tr>';
+  });
+  tbl.innerHTML=headers+'<tbody>'+rows.join('')+'</tbody>';
+}
+
+// =================== STATS ===================
+let statsBarChartInst=null, statsInit=false;
+function initStats(){
+  if(statsInit)return; statsInit=true;
+  renderStatBoxes();
+  renderHittingTable();
+  renderPitchingTable();
+  renderStatsBarChart();
+}
+function renderStatBoxes(){
+  const boxes=document.getElementById('stat-boxes');
+  const topPF=TEAMS.reduce((a,b)=>a.pf>b.pf?a:b);
+  const topFPG=TEAMS.reduce((a,b)=>a.fpg>b.fpg?a:b);
+  const topHit=TEAMS.reduce((a,b)=>a.hitPts>b.hitPts?a:b);
+  const topPit=TEAMS.reduce((a,b)=>a.pitPts>b.pitPts?a:b);
+  const lowPA=TEAMS.reduce((a,b)=>a.pa<b.pa?a:b);
+  const highStreak=TEAMS.reduce((a,b)=>{const na=parseInt(a.streak),nb=parseInt(b.streak);return na>nb?a:b;});
+  boxes.innerHTML=[
+    {val:topPF.name.split(' ').slice(0,2).join(' '),lbl:'Most Points For: '+topPF.pf.toLocaleString()},
+    {val:topFPG.short,lbl:'Best FP/G: '+topFPG.fpg},
+    {val:topHit.name.split(' ').slice(0,2).join(' '),lbl:'Best Hitting: '+topHit.hitPts},
+    {val:topPit.name.split(' ').slice(0,2).join(' '),lbl:'Best Pitching: '+topPit.pitPts},
+    {val:lowPA.name.split(' ').slice(0,2).join(' '),lbl:'Fewest PA: '+lowPA.pa.toLocaleString()},
+    {val:highStreak.streak,lbl:'Longest Streak: '+highStreak.name.split(' ')[0]}
+  ].map(s=>'<div class="stat-box"><div class="val" style="font-size:1.1rem;">'+s.val+'</div><div class="lbl">'+s.lbl+'</div></div>').join('');
+}
+function renderStatsBarChart(){
+  const ctx=document.getElementById('statsBarChart');
+  if(ctx&&!statsBarChartInst){
+    statsBarChartInst=new Chart(ctx,{type:'bar',data:{labels:TEAMS.map(t=>t.short),datasets:[{label:'Total PF',data:TEAMS.map(t=>t.pf),backgroundColor:TEAMS.map((_,i)=>COLORS[i]),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{grid:{color:'rgba(255,255,255,.05)'}},x:{grid:{display:false}}}}});
+  }
+}
+function renderHittingTable(){
+  const hData=[
+    ['Evil Honey Nut Chourio\'s',1497.75,231,390,61,197,238,20,398,30],
+    ['Honey Nut Berrios',1485.5,243,412,71,207,185,11,393,15],
+    ['Tank for LeBron',1433,222,371,66,211,167,9,407,36],
+    ['TBONERS',1429.5,245.5,386,53,203,205,13,395,54],
+    ['Creative Name',1402.25,251.5,402,56,217,183,9,377,17],
+    ["Jac-in\' It",1349.25,266,365,47,199,190,3,385,27],
+    ['Wyatt and the Lankers',1332.75,217,379,52,206,220.5,5.5,347,50],
+    ["Honey Nut Chourio\'s",1316.5,209,407,49,234,141.5,2.5,329,27],
+    ['Say Yes to Velo',1263,218,231,51,184.5,3.5,231,29.5,67.5],
+    ['Layin Wood',1256.75,226.5,198,57,187.5,4.5,169,30.5,617],
+    ['First Pitch Swinging',1214.5,223,195,51,197,4,200,46.5,607],
+    ['Golden Gate Gays',1077,173.5,203,46,147,1.5,171,14,561]
+  ];
+  const thead=document.querySelector('#hitting-table thead');
+  const tbody=document.querySelector('#hitting-table tbody');
+  thead.innerHTML='<tr><th>Team</th><th>Hit Pts</th><th>R</th><th>H</th><th>HR</th><th>RBI</th><th>BB</th><th>IBB</th><th>SO(neg)</th><th>SB</th></tr>';
+  tbody.innerHTML=hData.map((r,i)=>'<tr><td class="team-name">'+r[0]+'</td>'+r.slice(1).map((v,j)=>'<td style="color:'+(j===0?'var(--accent)':'inherit')+'">'+(typeof v==='number'?v.toLocaleString():v)+'</td>').join('')+'</tr>').join('');
+}
+function renderPitchingTable(){
+  const pData=[
+    ['Wyatt and the Lankers',1937.5,1835,584,-750,-104.5,20,-12,84,111,5],
+    ['TBONERS',1770,1564,518,-636,-81,40,-12,114,117,0],
+    ['First Pitch Swinging',1709.5,1551,545,-597,-86.5,30,-30,66,87,0],
+    ['Honey Nut Berrios',1671,1655,570,-750,-102.5,55,-15,27,93,5],
+    ['Layin Wood',1667,1599,511,-690,-94,70,-15,54,93,0],
+    ['Evil Honey Nut Chourio\'s',1472.5,1533,520,-786,-102.5,90,-21,45,78,0],
+    ["Honey Nut Chourio\'s",1461,1456,434,-657,-83,125,-24,36,66,0],
+    ['Golden Gate Gays',1459.5,1339,422,-483,-77.5,25,-18,54,84,0],
+    ['Tank for LeBron',1437,1515,489,-738,-96,50,-12,57,54,0],
+    ['Say Yes to Velo',1269,1132,371,-414,-65.5,65,-3,12,69,0],
+    ['Creative Name',1182.5,1207,373,-561,-95.5,135,-21,18,30,0],
+    ["Jac-in\' It",1117,1086,385,-531,-82.5,140,-21,27,33,0]
+  ];
+  const thead=document.querySelector('#pitching-table thead');
+  const tbody=document.querySelector('#pitching-table tbody');
+  thead.innerHTML='<tr><th>Team</th><th>Pit Pts</th><th>IP</th><th>K</th><th>ER(neg)</th><th>BB(neg)</th><th>SV</th><th>BS(neg)</th><th>HLD</th><th>QS</th><th>CG</th></tr>';
+  tbody.innerHTML=pData.map(r=>'<tr><td class="team-name">'+r[0]+'</td>'+r.slice(1).map((v,j)=>'<td style="color:'+(j===0?'var(--accent)':v<0?'var(--red)':'inherit')+'">'+(typeof v==='number'?v.toLocaleString():v)+'</td>').join('')+'</tr>').join('');
+}
+let radarInst=null, radarInst2=null;
+function initRadar(){
+  if(radarInst)return;
+  const top6=TEAMS.slice(0,6);
+  const bot6=TEAMS.slice(6);
+  const makeDataset=(teams)=>teams.map((t,i)=>({label:t.short,data:[t.pf/3270.25*10,t.fpg/5.41*10,t.hitPts/1497.75*10,t.pitPts/1937.5*10,(1-t.pa/3105.25)*10],backgroundColor:TCOLORS[i],borderColor:COLORS[i],borderWidth:2}));
+  const opts={responsive:true,maintainAspectRatio:false,scales:{r:{min:0,max:10,grid:{color:'rgba(255,255,255,.1)'},angleLines:{color:'rgba(255,255,255,.1)'},ticks:{display:false},pointLabels:{color:'#e8eaf6',font:{size:11}}}},plugins:{legend:{labels:{color:'#e8eaf6',font:{size:10}}}}};
+  const labels=['Total PF','FP/G','Hitting','Pitching','Defense'];
+  const c1=document.getElementById('radarChart1'),c2=document.getElementById('radarChart2');
+  if(c1)radarInst=new Chart(c1,{type:'radar',data:{labels,datasets:makeDataset(top6)},options:opts});
+  if(c2)radarInst2=new Chart(c2,{type:'radar',data:{labels,datasets:makeDataset(bot6)},options:opts});
+}
+// =================== TRADES ===================
+function initTrades(){renderTrades(TRADES);}
+function filterTrades(type,btn){
+  document.querySelectorAll('.filter-row .filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const data=type==='all'?TRADES:TRADES.filter(t=>t.type===type);
+  renderTrades(data);
+}
+function searchTrades(q){
+  const data=TRADES.filter(t=>JSON.stringify(t).toLowerCase().includes(q.toLowerCase()));
+  renderTrades(data);
+}
+function renderTrades(data){
+  const c=document.getElementById('trades-list');
+  c.innerHTML=data.map((tr,i)=>'<div class="trade-card"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;"><span style="font-size:.75rem;color:var(--muted);">'+tr.date+'</span><span class="badge '+(tr.type==='preseason'?'badge-blue':'badge-yellow')+'">'+tr.type.replace('preseason','Pre-Season').replace('inseason','In-Season')+'</span></div>'+
+    '<div class="trade-teams">'+
+      '<div class="trade-side"><h4>'+tr.teamA+'</h4><div style="font-size:.8rem;color:var(--green);font-weight:700;margin-bottom:4px;">RECEIVED:</div><ul>'+tr.received.map(p=>'<li>• '+p+'</li>').join('')+'</ul></div>'+
+      '<div class="trade-arrow">⇄</div>'+
+      '<div class="trade-side" style="text-align:right;"><h4>'+tr.teamB+'</h4><div style="font-size:.8rem;color:var(--green);font-weight:700;margin-bottom:4px;">RECEIVED:</div><ul>'+tr.gave.map(p=>'<li>'+p+' •</li>').join('')+'</ul></div>'+
+    '</div>'+
+    '<div style="background:rgba(0,212,170,.08);border:1px solid rgba(0,212,170,.2);border-radius:6px;padding:8px;font-size:.8rem;"><strong style="color:var(--accent);">💡 Impact:</strong> '+tr.impact+'</div>'+
+  '</div>').join('');
+}
+
+// =================== WAIVERS ===================
+let waiverChartInst=null;
+function initWaivers(){
+  renderWaiverBars();
+  renderWaiverChart();
+  renderNotableWaivers();
+}
+function renderWaiverBars(){
+  const max=Math.max(...WAIVER_DATA.map(w=>w.claims));
+  const el=document.getElementById('waiver-bars');
+  const sorted=[...WAIVER_DATA].sort((a,b)=>b.claims-a.claims);
+  el.innerHTML=sorted.map((w,i)=>'<div style="margin-bottom:8px;"><div style="display:flex;justify-content:space-between;font-size:.78rem;margin-bottom:3px;"><span>'+w.team.split(' ').slice(0,3).join(' ')+'</span><span style="color:var(--accent);">'+w.claims+' claims</span></div>'+
+    '<div class="waiver-bar"><div class="waiver-fill" style="width:'+(w.claims/max*100)+'%;">'+w.claims+'</div></div>'+
+  '</div>').join('');
+}
+function renderWaiverChart(){
+  const ctx=document.getElementById('waiverChart');
+  if(ctx&&!waiverChartInst){
+    waiverChartInst=new Chart(ctx,{type:'bar',data:{labels:WAIVER_DATA.map(w=>w.team.split(' ').slice(0,2).join(' ')),datasets:[{label:'Claims',data:WAIVER_DATA.map(w=>w.claims),backgroundColor:COLORS.slice(0,12),borderRadius:4},{label:'PBL',data:WAIVER_DATA.map(w=>w.pbl/100),backgroundColor:COLORS.map(c=>c+'44'),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{grid:{display:false}},y:{grid:{color:'rgba(255,255,255,.05)'}}},plugins:{legend:{labels:{color:'#e8eaf6'}}}}});
+  }
+}
+function renderNotableWaivers(){
+  const el=document.getElementById('waiver-notable');
+  el.innerHTML='<div class="timeline">'+WAIVER_DATA.map(w=>'<div class="tl-item"><div class="tl-dot"></div><div class="tl-content"><div class="tl-date">'+w.team+' ('+w.claims+' total claims)</div>'+w.notable.map(p=>'<span class="badge badge-teal">'+p+'</span> ').join('')+'</div></div>').join('')+'</div>';
+}
+
+// =================== INIT ===================
+document.addEventListener('DOMContentLoaded',function(){
+  document.getElementById('lastUpdated').textContent='Updated: '+new Date().toLocaleDateString();
+  
+  // Init all tabs on load
+  initRankings();
+  initStandings();
+  initMatchups();
+  initTrades();
+  initWaivers();
+  
+  // Keyboard nav
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+  
+  Chart.defaults.color='#7b8caa';
+  Chart.defaults.borderColor='rgba(255,255,255,0.05)';
+});
+</script></body></html>#!/usr/bin/env python3
+"""
+Brett Baty Fan Club 2026 — Fantrax Data Fetcher
+Runs via GitHub Actions 4x daily to update league_data.json
+"""
+import json, os, time, sys
+from datetime import datetime
+try:
+    import requests
+except ImportError:
+    os.system('pip install requests')
+    import requests
+
+LEAGUE_ID = 'n25i1grumg7kg722'
+BASE_URL = f'https://www.fantrax.com/fxpa/req?leagueId={LEAGUE_ID}'
+SESSION_COOKIE = os.environ.get('FANTRAX_SESSION', '')
+
+def fantrax_post(method, data=None):
+    """Make a POST request to the Fantrax API"""
+    if not data:
+        data = {}
+    data['leagueId'] = LEAGUE_ID
+    payload = {'msgs': [{'method': method, 'data': data}]}
+    headers = {
+        'Content-Type': 'application/json',
+        'Cookie': f'session={SESSION_COOKIE}' if SESSION_COOKIE else '',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    }
+    try:
+        resp = requests.post(BASE_URL, json=payload, headers=headers, timeout=30)
+        resp.raise_for_status()
+        result = resp.json()
+        if result.get('pageError'):
+            print(f'API Error for {method}: {result["pageError"]["text"]}')
+            return None
+        return result.get('responses', [{}])[0].get('data')
+    except Exception as e:
+        print(f'Request failed for {method}: {e}')
+        return None
+
+def get_standings():
+    """Fetch combined standings"""
+    data = fantrax_post('getStandings', {'view': 'COMBINED'})
+    if not data:
+        return []
+    teams = []
+    team_info = data.get('fantasyTeamInfo', {})
+    tables = data.get('tables', [])
+    # Find main standings table
+    for table in tables:
+        if table.get('tableType') == 'H2hRecord':
+            for row in table.get('rows', []):
+                fixed = row.get('fixedCells', [])
+                cells = row.get('cells', [])
+                if len(fixed) >= 2 and len(cells) >= 9:
+                    team_id = fixed[1].get('teamId', '')
+                    info = team_info.get(team_id, {})
+                    team = {
+                        'id': team_id,
+                        'name': info.get('name', fixed[1].get('content', '')),
+                        'short': info.get('shortName', ''),
+                        'rank': int(fixed[0].get('content', 0)),
+                        'w': int(cells[0].get('content', 0)),
+                        'l': int(cells[1].get('content', 0)),
+                        't': int(cells[2].get('content', 0)),
+                        'winPct': float(cells[3].get('content', '0').replace(',', '')),
+                        'div': cells[4].get('content', ''),
+                        'gb': cells[5].get('content', '0'),
+                        'ww': int(cells[6].get('content', 0)),
+                        'pf': float(cells[7].get('content', '0').replace(',', '')),
+                        'pa': float(cells[8].get('content', '0').replace(',', '')),
+                        'streak': cells[9].get('content', '') if len(cells) > 9 else ''
+                    }
+                    teams.append(team)
+            break
+    return teams
+
+def get_season_stats():
+    """Fetch season stats"""
+    data = fantrax_post('getStandings', {'view': 'SEASON_STATS'})
+    if not data:
+        return {}
+    return data
+
+def get_schedule():
+    """Fetch schedule/results"""
+    data = fantrax_post('getStandings', {'view': 'SCHEDULE'})
+    if not data:
+        return {}
+    return data
+
+def get_transactions(view='TRADE', page=0):
+    """Fetch transactions"""
+    data = fantrax_post('getTransactions', {
+        'view': view,
+        'maxResultsPerPage': 100,
+        'pageNumber': page
+    })
+    if not data:
+        return []
+    return data.get('transactions', [])
+
+def main():
+    print(f'Fetching Fantrax data at {datetime.utcnow().isoformat()}')
+    
+    # Collect all data
+    output = {
+        'lastUpdated': datetime.utcnow().isoformat() + 'Z',
+        'leagueId': LEAGUE_ID,
+        'season': 2026,
+        'standings': [],
+        'seasonStats': {},
+        'schedule': {},
+        'transactions': [],
+        'currentPeriod': None
+    }
+    
+    print('Getting standings...')
+    output['standings'] = get_standings()
+    print(f'  Got {len(output["standings"])} teams')
+    
+    time.sleep(1)
+    print('Getting season stats...')
+    output['seasonStats'] = get_season_stats()
+    
+    time.sleep(1)
+    print('Getting schedule...')
+    output['schedule'] = get_schedule()
+    
+    time.sleep(1)
+    print('Getting transactions...')
+    txns = get_transactions()
+    output['transactions'] = txns[:200] if txns else []
+    print(f'  Got {len(output["transactions"])} transactions')
+    
+    # Save output
+    os.makedirs('data', exist_ok=True)
+    with open('data/league_data.json', 'w') as f:
+        json.dump(output, f, indent=2, default=str)
+    print('Saved data/league_data.json')
+    
+    # Also update last_updated timestamp
+    with open('data/last_updated.json', 'w') as f:
+        json.dump({'timestamp': output['lastUpdated'], 'period': output.get('currentPeriod')}, f)
+    
+    print('Done!')
+
+if __name__ == '__main__':
+    main()
+# Brett Baty Fan Club — 2026 Dynasty Dashboard
+
+🏆 **Live Dashboard**: [View Here](https://YOUR_USERNAME.github.io/bbc-fantasy-dashboard/)
+
+An interactive, auto-updating dynasty baseball power rankings dashboard for the Brett Baty Fan Club 2026 MLB dynasty league.
+
+## Features
+
+- 🏆 **Power Rankings** — Cumulative weekly power rankings with scores, delta badges, and trend filters
+- 📊 **Standings** — Sortable, searchable standings table with division records
+- 📈 **Trends** — Interactive Chart.js line charts showing ranking trajectories, PF trends, win% over time
+- ⚔️ **Matchups** — Period-by-period matchup browser with H2H matrix
+- 📝 **Team Writeups** — In-depth analysis of every team's season, strengths, weaknesses, injuries, and outlook
+- 🌱 **Farm Rankings** — Dynasty prospect farm system rankings with top prospects, grades, and writeups
+- 📅 **Week-by-Week** — Full ranking history table and trajectory chart
+- 📉 **Stats** — Season stats with hitting/pitching breakdowns and radar charts
+- 🔄 **Trades** — Full trade history with impact analysis
+- 📋 **Waivers** — Waiver wire activity tracker
+
+## Auto-Update Setup
+
+The dashboard auto-updates 4× daily via GitHub Actions + Fantrax API.
+
+### Setup Steps
+
+1. **Fork or create this repo** on GitHub (make it **Public** for free GitHub Pages)
+
+2. **Upload all files** maintaining this structure:
+   ```
+   /
+   ├── index.html              # Main dashboard
+   ├── fetch_data.py           # Fantrax data fetcher
+   ├── README.md               # This file
+   ├── .github/
+   │   └── workflows/
+   │       └── update-data.yml # GitHub Actions workflow
+   └── data/
+       └── league_data.json    # Auto-updated league data (seed file included)
+   ```
+
+3. **Add FANTRAX_SESSION secret**:
+   - Open Chrome, go to fantrax.com and log in
+   - Press F12 → Application tab → Cookies → fantrax.com
+   - Find the cookie named **`session`** and copy its value
+   - Go to your GitHub repo → Settings → Secrets and variables → Actions
+   - Click "New repository secret"
+   - Name: `FANTRAX_SESSION`, Value: (paste the cookie value)
+
+4. **Enable GitHub Pages**:
+   - Go to repo Settings → Pages
+   - Source: Deploy from branch → **main** → **/ (root)**
+   - Click Save
+   - Site will be live at: `https://YOUR_USERNAME.github.io/REPO_NAME/`
+
+5. **Run initial data fetch**:
+   - Go to Actions tab → "Update League Data" → "Run workflow"
+
+6. **Share the URL** with all league members!
+
+## League Info
+
+- **League**: Brett Baty Fan Club (2026 MLB Dynasty)
+- **League ID**: `n25i1grumg7kg722`
+- **Teams**: 12
+- **Current Period**: 13 (May 8–10, 2026)
+- **Through**: Period 12 completed (May 7, 2026)
+
+## Tech Stack
+
+- Pure HTML/CSS/JavaScript (no build tools needed)
+- [Chart.js 4.4](https://www.chartjs.org/) for interactive charts
+- GitHub Actions for scheduled data fetching
+- GitHub Pages for free hosting
+- Fantrax internal API for live data
+
+---
+*Auto-generated by Claude AI for the Brett Baty Fan Club dynasty league*
+{
+  "lastUpdated": "2026-05-09T01:59:57.315Z",
+  "leagueId": "n25i1grumg7kg722",
+  "season": 2026,
+  "currentPeriod": 13,
+  "standings": [
+    {
+      "id": "odce8gzsmg7kg72c",
+      "name": "Wyatt and the Lankers",
+      "short": "Lankers",
+      "rank": 1,
+      "w": 9,
+      "l": 3,
+      "t": 0,
+      "winPct": 0.75,
+      "div": "4-2-0",
+      "gb": 0,
+      "ww": 2,
+      "pf": 3270.25,
+      "pa": 2675.25,
+      "streak": "1 (L)"
+    },
+    {
+      "id": "8znzrpg1mg7kg72e",
+      "name": "TBONERS",
+      "short": "TBONERS",
+      "rank": 2,
+      "w": 9,
+      "l": 3,
+      "t": 0,
+      "winPct": 0.75,
+      "div": "3-3-0",
+      "gb": 0,
+      "ww": 7,
+      "pf": 3199.5,
+      "pa": 2888.25,
+      "streak": "1 (W)"
+    },
+    {
+      "id": "g8p3r1i9mg7kg72b",
+      "name": "Honey Nut Berrios #Inaugural JBThrowback",
+      "short": "HNB",
+      "rank": 3,
+      "w": 8,
+      "l": 4,
+      "t": 0,
+      "winPct": 0.667,
+      "div": "5-1-0",
+      "gb": 1,
+      "ww": 10,
+      "pf": 3156.5,
+      "pa": 2686,
+      "streak": "3 (W)"
+    },
+    {
+      "id": "xgktl0otmg7kg72d",
+      "name": "Tank for LeBron",
+      "short": "Tank4LB",
+      "rank": 4,
+      "w": 8,
+      "l": 4,
+      "t": 0,
+      "winPct": 0.667,
+      "div": "4-2-0",
+      "gb": 1,
+      "ww": 11,
+      "pf": 2870,
+      "pa": 2735.5,
+      "streak": "1 (L)"
+    },
+    {
+      "id": "ckm3yf5rmg7kg729",
+      "name": "Layin Wood",
+      "short": "LayinWood",
+      "rank": 5,
+      "w": 7,
+      "l": 5,
+      "t": 0,
+      "winPct": 0.583,
+      "div": "5-1-0",
+      "gb": 2,
+      "ww": 8,
+      "pf": 2923.75,
+      "pa": 2951.75,
+      "streak": "1 (L)"
+    },
+    {
+      "id": "nbnjqx3cmg7kg72g",
+      "name": "Honey Nut Chourio's",
+      "short": "HNC",
+      "rank": 6,
+      "w": 6,
+      "l": 6,
+      "t": 0,
+      "winPct": 0.5,
+      "div": "3-3-0",
+      "gb": 3,
+      "ww": 6,
+      "pf": 2777.5,
+      "pa": 3016.25,
+      "streak": "1 (W)"
+    },
+    {
+      "id": "c8sjtrwhmg7kg72h",
+      "name": "Say Yes to Velo",
+      "short": "Velo",
+      "rank": 7,
+      "w": 6,
+      "l": 6,
+      "t": 0,
+      "winPct": 0.5,
+      "div": "3-3-0",
+      "gb": 3,
+      "ww": 5,
+      "pf": 2532,
+      "pa": 2557,
+      "streak": "3 (W)"
+    },
+    {
+      "id": "0b0hd0qymg7kg72i",
+      "name": "Evil Honey Nut Chourio's",
+      "short": "EvilHNC",
+      "rank": 8,
+      "w": 5,
+      "l": 7,
+      "t": 0,
+      "winPct": 0.417,
+      "div": "2-4-0",
+      "gb": 4,
+      "ww": 9,
+      "pf": 2970.25,
+      "pa": 3083.75,
+      "streak": "1 (W)"
+    },
+    {
+      "id": "vhuxfzygmg7kg728",
+      "name": "Creative Name",
+      "short": "Creative",
+      "rank": 9,
+      "w": 5,
+      "l": 7,
+      "t": 0,
+      "winPct": 0.417,
+      "div": "3-3-0",
+      "gb": 4,
+      "ww": 12,
+      "pf": 2584.75,
+      "pa": 2636.25,
+      "streak": "1 (W)"
+    },
+    {
+      "id": "0qrvkt09mg7kg72f",
+      "name": "First Pitch Swinging",
+      "short": "FPS",
+      "rank": 10,
+      "w": 4,
+      "l": 8,
+      "t": 0,
+      "winPct": 0.333,
+      "div": "2-4-0",
+      "gb": 5,
+      "ww": 1,
+      "pf": 2924,
+      "pa": 3063,
+      "streak": "2 (L)"
+    },
+    {
+      "id": "aw407ddlmg7kg72a",
+      "name": "Golden Gate Gays",
+      "short": "GGG",
+      "rank": 11,
+      "w": 3,
+      "l": 9,
+      "t": 0,
+      "winPct": 0.25,
+      "div": "2-4-0",
+      "gb": 6,
+      "ww": 4,
+      "pf": 2535.5,
+      "pa": 3105.25,
+      "streak": "1 (L)"
+    },
+    {
+      "id": "jwg2zkwzmg7kg72a",
+      "name": "Jac-in' It",
+      "short": "JacInIt",
+      "rank": 12,
+      "w": 2,
+      "l": 10,
+      "t": 0,
+      "winPct": 0.167,
+      "div": "0-6-0",
+      "gb": 7,
+      "ww": 3,
+      "pf": 2466.25,
+      "pa": 2812,
+      "streak": "6 (L)"
+    }
+  ],
+  "powerRankings": [
+    {
+      "teamId": "odce8gzsmg7kg72c",
+      "rank": 1,
+      "score": 92,
+      "prevRank": 1
+    },
+    {
+      "teamId": "8znzrpg1mg7kg72e",
+      "rank": 2,
+      "score": 90,
+      "prevRank": 2
+    },
+    {
+      "teamId": "g8p3r1i9mg7kg72b",
+      "rank": 3,
+      "score": 85,
+      "prevRank": 3
+    },
+    {
+      "teamId": "xgktl0otmg7kg72d",
+      "rank": 4,
+      "score": 80,
+      "prevRank": 7
+    },
+    {
+      "teamId": "ckm3yf5rmg7kg729",
+      "rank": 5,
+      "score": 75,
+      "prevRank": 5
+    },
+    {
+      "teamId": "nbnjqx3cmg7kg72g",
+      "rank": 6,
+      "score": 68,
+      "prevRank": 6
+    },
+    {
+      "teamId": "c8sjtrwhmg7kg72h",
+      "rank": 7,
+      "score": 65,
+      "prevRank": 10
+    },
+    {
+      "teamId": "0b0hd0qymg7kg72i",
+      "rank": 8,
+      "score": 62,
+      "prevRank": 8
+    },
+    {
+      "teamId": "vhuxfzygmg7kg728",
+      "rank": 9,
+      "score": 55,
+      "prevRank": 9
+    },
+    {
+      "teamId": "0qrvkt09mg7kg72f",
+      "rank": 10,
+      "score": 54,
+      "prevRank": 4
+    },
+    {
+      "teamId": "aw407ddlmg7kg72a",
+      "rank": 11,
+      "score": 48,
+      "prevRank": 11
+    },
+    {
+      "teamId": "jwg2zkwzmg7kg72a",
+      "rank": 12,
+      "score": 35,
+      "prevRank": 12
+    }
+  ]
+}
