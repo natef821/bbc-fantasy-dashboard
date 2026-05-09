@@ -13,7 +13,7 @@ except ImportError:
 
 LEAGUE_ID = 'n25i1grumg7kg722'
 BASE_URL = f'https://www.fantrax.com/fxpa/req?leagueId={LEAGUE_ID}'
-SESSION_COOKIE = os.environ.get('FANTRAX_SESSION', '')
+SESSION_COOKIE = os.environ.get('FANTRAX_COOKIES', '')
 
 def fantrax_post(method, data=None):
     """Make a POST request to the Fantrax API"""
