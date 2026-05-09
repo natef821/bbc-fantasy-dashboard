@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T15:45:34.429049Z",
+  "lastUpdated": "2026-05-09T16:14:11.340660Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -310,8 +310,15 @@
         "teamName": "Los Angeles Angels",
         "urlName": "omar-martinez",
         "scorerId": "06aw4",
+        "upcomingEventStatusId": "5",
         "posShortNames": "C",
         "team": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
