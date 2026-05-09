@@ -46,10 +46,13 @@ def get_standings():
         return []
     teams = []
     team_info = data.get('fantasyTeamInfo', {})
-    table_list = data.get('tableList', {})
+    table_list = data.get('tableList', [])
+    # tableList can be a list or a dict - normalize to iterable
+    if isinstance(table_list, dict):
+        table_list = list(table_list.values())
     # Find PointsBased1 table (main standings)
     main_table = None
-    for table in table_list.values():
+    for table in table_list:
         if table.get('tableType') == 'PointsBased1':
             main_table = table
             break
@@ -81,12 +84,15 @@ def get_schedule():
     data = fantrax_post('getStandings', {'view': 'SCHEDULE'})
     if not data:
         return {}
-    table_list = data.get('tableList', {})
+    table_list = data.get('tableList', [])
     team_info = data.get('fantasyTeamInfo', {})
+    # tableList can be a list or a dict - normalize to iterable
+    if isinstance(table_list, dict):
+        table_list = list(table_list.values())
     # Build W/L/T records from all scoring periods
     records = {}  # teamId -> {w, l, t, pf, pa}
     periods = []
-    for table in table_list.values():
+    for table in table_list:
         if table.get('tableType', '').startswith('H2h'):
             period_name = table.get('caption', '')
             period_matchups = []
