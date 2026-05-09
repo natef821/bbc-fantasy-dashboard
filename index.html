@@ -860,7 +860,7 @@ function showTab(name){
 
   if(name==='matchups'){ const ld=window._liveData||window._matchupLiveData||{}; renderMatchups(ld); buildH2HMatrix(ld); }
   if(name==='picks') initPicks(window._liveData||window._waiverLiveData||{});
-  if(name==='injuryil') filterIL();
+  if(name==='injuryil'){ _ilLiveData = _ilLiveData || window._liveData; filterIL(); }
   if(name==='playoff') initPlayoffPicture(window._liveData||window._waiverLiveData||{});
   if(name==='news') initLeagueNews(window._liveData||window._waiverLiveData||{});
 }
@@ -1582,7 +1582,7 @@ function initILTracker(liveData){
 }
 
 function filterIL(){
-  const liveData = _ilLiveData;
+  const liveData = _ilLiveData || window._liveData;
   const search = (document.getElementById('il-search')||{}).value || '';
   const typeFilter = (document.getElementById('il-type-filter')||{}).value || 'all';
   const el = document.getElementById('il-list');
@@ -1839,7 +1839,7 @@ function initLeagueNews(liveData){
   // Recent trades from hardcoded data
   const recentTrades = TRADES.slice(0, 3);
   recentTrades.forEach(t => {
-    news.push({ icon:'🔄', type:'TRADE', headline: t.team1 + ' ↔ ' + t.team2, detail: t.impact || '', date: t.date || '' });
+    news.push({ icon:'🔄', type:'TRADE', headline: (t.teamA||t.team1||'') + ' ↔ ' + (t.teamB||t.team2||''), detail: t.impact || '', date: t.date || '' });
   });
   
   // Big point weeks from schedule
