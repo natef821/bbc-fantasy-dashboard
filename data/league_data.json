@@ -1,11 +1,43 @@
 {
-  "lastUpdated": "2026-05-09T16:14:11.340660Z",
+  "lastUpdated": "2026-05-09T16:22:44.553657Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "seasonStats": {},
   "schedule": {},
   "transactions": [
+    {
+      "displayDate": 1778342400000,
+      "teamId": "10050",
+      "id": "94almsgamoyjszzn",
+      "seq": 137617,
+      "desc": "The Blue Jays reinstated Barger (ankle) from the injured list Saturday.",
+      "player": {
+        "teamName": "Toronto Blue Jays",
+        "urlName": "addison-barger",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04qii_96_4.png",
+        "scorerId": "04qii",
+        "upcomingEventStatusId": "1",
+        "posShortNames": "3B,RF",
+        "team": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 2",
+            "typeId": "22"
+          }
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "004",
+          "011"
+        ],
+        "teamId": "10050",
+        "name": "Addison Barger",
+        "teamShortName": "TOR",
+        "shortName": "A. Barger"
+      }
+    },
     {
       "displayDate": 1778342400000,
       "teamId": "10070",
@@ -88,29 +120,6 @@
     {
       "displayDate": 1778256000000,
       "teamId": "10010",
-      "id": "gy062401moxjag9z",
-      "seq": 137613,
-      "desc": "The Philadelphia Phillies traded RHP Maicol Lauriano to the Baltimore Orioles.",
-      "player": {
-        "teamName": "Atlanta Falcons",
-        "urlName": "brandon-frazier",
-        "scorerId": "075oq",
-        "posShortNames": "TE",
-        "team": false,
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "157"
-        ],
-        "teamId": "20250",
-        "name": "Brandon Frazier",
-        "teamShortName": "ATL",
-        "shortName": "B. Frazier"
-      }
-    },
-    {
-      "displayDate": 1778256000000,
-      "teamId": "10010",
       "id": "k0cvw8pjmoxjagq0",
       "seq": 137613,
       "desc": "The Philadelphia Phillies traded RHP Enyel Garcia to the Baltimore Orioles.",
@@ -136,6 +145,29 @@
         "name": "Elvin Garcia",
         "teamShortName": "BAL",
         "shortName": "E. Garcia"
+      }
+    },
+    {
+      "displayDate": 1778256000000,
+      "teamId": "10010",
+      "id": "gy062401moxjag9z",
+      "seq": 137613,
+      "desc": "The Philadelphia Phillies traded RHP Maicol Lauriano to the Baltimore Orioles.",
+      "player": {
+        "teamName": "Atlanta Falcons",
+        "urlName": "brandon-frazier",
+        "scorerId": "075oq",
+        "posShortNames": "TE",
+        "team": false,
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "157"
+        ],
+        "teamId": "20250",
+        "name": "Brandon Frazier",
+        "teamShortName": "ATL",
+        "shortName": "B. Frazier"
       }
     },
     {
@@ -785,35 +817,6 @@
         "name": "Tyler Schweitzer",
         "teamShortName": "CHW",
         "shortName": "T. Schweitzer"
-      }
-    },
-    {
-      "displayDate": 1778256000000,
-      "teamId": "10160",
-      "id": "ryor87himox2ee80",
-      "seq": 137587,
-      "desc": "The Marlins designated Jones for assignment Friday.",
-      "player": {
-        "teamName": "Miami Marlins",
-        "urlName": "stephen-jones",
-        "scorerId": "051fu",
-        "posShortNames": "RP",
-        "team": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "016"
-        ],
-        "teamId": "10160",
-        "name": "Stephen Jones",
-        "teamShortName": "MIA",
-        "shortName": "S. Jones"
       }
     }
   ],
