@@ -40,55 +40,103 @@ def fantrax_post(method, data=None):
         return None
 
 def get_standings():
-    """Fetch combined standings"""
-    data = fantrax_post('getStandings', {'view': 'COMBINED'})
+    """Fetch standings from PointsBased1 table (points-based league)"""
+    data = fantrax_post('getStandings', {'view': 'SEASON_STATS'})
     if not data:
         return []
     teams = []
     team_info = data.get('fantasyTeamInfo', {})
-    tables = data.get('tables', [])
-    # Find main standings table
-    for table in tables:
-        if table.get('tableType') == 'H2hRecord':
-            for row in table.get('rows', []):
-                fixed = row.get('fixedCells', [])
-                cells = row.get('cells', [])
-                if len(fixed) >= 2 and len(cells) >= 9:
-                    team_id = fixed[1].get('teamId', '')
-                    info = team_info.get(team_id, {})
-                    team = {
-                        'id': team_id,
-                        'name': info.get('name', fixed[1].get('content', '')),
-                        'short': info.get('shortName', ''),
-                        'rank': int(fixed[0].get('content', 0)),
-                        'w': int(cells[0].get('content', 0)),
-                        'l': int(cells[1].get('content', 0)),
-                        't': int(cells[2].get('content', 0)),
-                        'winPct': float(cells[3].get('content', '0').replace(',', '')),
-                        'div': cells[4].get('content', ''),
-                        'gb': cells[5].get('content', '0'),
-                        'ww': int(cells[6].get('content', 0)),
-                        'pf': float(cells[7].get('content', '0').replace(',', '')),
-                        'pa': float(cells[8].get('content', '0').replace(',', '')),
-                        'streak': cells[9].get('content', '') if len(cells) > 9 else ''
-                    }
-                    teams.append(team)
+    table_list = data.get('tableList', {})
+    # Find PointsBased1 table (main standings)
+    main_table = None
+    for table in table_list.values():
+        if table.get('tableType') == 'PointsBased1':
+            main_table = table
             break
+    if not main_table:
+        print('  Warning: PointsBased1 table not found in standings')
+        return []
+    for row in main_table.get('rows', []):
+        fixed = row.get('fixedCells', [])
+        cells = row.get('cells', [])
+        if len(fixed) >= 2:
+            team_id = fixed[1].get('teamId', '')
+            info = team_info.get(team_id, {})
+            team = {
+                'id': team_id,
+                'name': info.get('name', fixed[1].get('content', '')),
+                'short': info.get('shortName', ''),
+                'logoUrl': info.get('logoUrl512', ''),
+                'rank': int(fixed[0].get('content', 0) or 0),
+                'fantasyPoints': cells[0].get('content', '0').replace(',', '') if len(cells) > 0 else '0',
+                'fptsPerGame': cells[2].get('content', '0') if len(cells) > 2 else '0',
+                'scoringPeriod': cells[3].get('content', '') if len(cells) > 3 else '',
+                'gb': cells[7].get('content', '0') if len(cells) > 7 else '0',
+            }
+            teams.append(team)
     return teams
 
-def get_season_stats():
-    """Fetch season stats"""
-    data = fantrax_post('getStandings', {'view': 'SEASON_STATS'})
-    if not data:
-        return {}
-    return data
-
 def get_schedule():
-    """Fetch schedule/results"""
+    """Fetch schedule/results — derives H2H W/L/T per team"""
     data = fantrax_post('getStandings', {'view': 'SCHEDULE'})
     if not data:
         return {}
-    return data
+    table_list = data.get('tableList', {})
+    team_info = data.get('fantasyTeamInfo', {})
+    # Build W/L/T records from all scoring periods
+    records = {}  # teamId -> {w, l, t, pf, pa}
+    periods = []
+    for table in table_list.values():
+        if table.get('tableType', '').startswith('H2h'):
+            period_name = table.get('caption', '')
+            period_matchups = []
+            for row in table.get('rows', []):
+                cells = row.get('cells', [])
+                if len(cells) >= 4:
+                    t1_id = cells[0].get('teamId', '')
+                    t1_pts = float(str(cells[1].get('content', '0')).replace(',', '') or '0')
+                    t2_id = cells[2].get('teamId', '')
+                    t2_pts = float(str(cells[3].get('content', '0')).replace(',', '') or '0')
+                    t1_name = cells[0].get('content', '')
+                    t2_name = cells[2].get('content', '')
+                    if t1_id:
+                        if t1_id not in records:
+                            records[t1_id] = {'w': 0, 'l': 0, 't': 0, 'pf': 0.0, 'pa': 0.0, 'name': t1_name}
+                        if t2_id not in records:
+                            records[t2_id] = {'w': 0, 'l': 0, 't': 0, 'pf': 0.0, 'pa': 0.0, 'name': t2_name}
+                        records[t1_id]['pf'] += t1_pts
+                        records[t1_id]['pa'] += t2_pts
+                        records[t2_id]['pf'] += t2_pts
+                        records[t2_id]['pa'] += t1_pts
+                        t1_won = cells[1].get('highlight', False)
+                        t2_won = cells[3].get('highlight', False)
+                        if t1_won and not t2_won:
+                            records[t1_id]['w'] += 1
+                            records[t2_id]['l'] += 1
+                        elif t2_won and not t1_won:
+                            records[t2_id]['w'] += 1
+                            records[t1_id]['l'] += 1
+                        else:
+                            records[t1_id]['t'] += 1
+                            records[t2_id]['t'] += 1
+                    period_matchups.append({
+                        'team1': t1_name, 'team1Id': t1_id, 'team1Pts': t1_pts,
+                        'team2': t2_name, 'team2Id': t2_id, 'team2Pts': t2_pts,
+                        'winner': t1_name if t1_won else (t2_name if t2_won else 'Tie')
+                    })
+            periods.append({'period': period_name, 'matchups': period_matchups})
+    # Enrich records with team info
+    for tid, rec in records.items():
+        info = team_info.get(tid, {})
+        rec['teamId'] = tid
+        rec['name'] = info.get('name', rec.get('name', ''))
+        rec['short'] = info.get('shortName', '')
+        rec['logoUrl'] = info.get('logoUrl512', '')
+        pf = rec['pf']
+        pa = rec['pa']
+        rec['pf'] = round(pf, 2)
+        rec['pa'] = round(pa, 2)
+    return {'records': list(records.values()), 'periods': periods}
 
 def get_transactions(view='TRADE', page=0):
     """Fetch transactions"""
@@ -103,50 +151,41 @@ def get_transactions(view='TRADE', page=0):
 
 def main():
     print(f'Fetching Fantrax data at {datetime.utcnow().isoformat()}')
-    
-    # Collect all data
+
     output = {
         'lastUpdated': datetime.utcnow().isoformat() + 'Z',
         'leagueId': LEAGUE_ID,
         'season': 2026,
         'standings': [],
-        'seasonStats': {},
         'schedule': {},
         'transactions': [],
         'currentPeriod': None
     }
-    
+
     print('Getting standings...')
     output['standings'] = get_standings()
     print(f'  Got {len(output["standings"])} teams')
-    
-    time.sleep(1)
-    print('Getting season stats...')
-    output['seasonStats'] = get_season_stats()
-    
-    time.sleep(1)
-    print('Getting schedule...')
-    output['schedule'] = get_schedule()
-    
-    time.sleep(1)
+
+    print('Getting schedule/H2H records...')
+    sched = get_schedule()
+    output['schedule'] = sched
+    records = sched.get('records', [])
+    print(f'  Got {len(records)} team records, {len(sched.get("periods", []))} periods')
+
     print('Getting transactions...')
-    txns = get_transactions()
-    output['transactions'] = txns[:200] if txns else []
+    output['transactions'] = get_transactions()
     print(f'  Got {len(output["transactions"])} transactions')
-    
-    # Save output
+
+    # Save to file
     os.makedirs('data', exist_ok=True)
     with open('data/league_data.json', 'w') as f:
-        json.dump(output, f, indent=2, default=str)
-    print('Saved data/league_data.json')
+        json.dump(output, f, indent=2)
+
+    print(f'Saved data/league_data.json')
     print(f'  Standings: {len(output["standings"])} teams')
+    print(f'  H2H Records: {len(records)} teams')
     print(f'  Transactions: {len(output["transactions"])} items')
     print(f'  Cookie set: {bool(SESSION_COOKIE)}')
-    
-    # Also update last_updated timestamp
-    with open('data/last_updated.json', 'w') as f:
-        json.dump({'timestamp': output['lastUpdated'], 'period': output.get('currentPeriod')}, f)
-    
     print('Done!')
 
 if __name__ == '__main__':
