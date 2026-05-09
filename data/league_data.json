@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T22:21:08.972726Z",
+  "lastUpdated": "2026-05-09T22:25:30.611499Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -64,10 +64,10 @@
       "short": "FPS",
       "logoUrl": "https://fantraximg.com/logos/u8v/tmLogo_u8vsnkdbml4fnu92_512.webp",
       "rank": 6,
-      "fantasyPoints": "2963.5",
-      "fptsPerGame": "5.15",
+      "fantasyPoints": "2965.5",
+      "fptsPerGame": "5.16",
       "scoringPeriod": "575",
-      "gb": "364.5"
+      "gb": "362.5"
     },
     {
       "id": "xgktl0otmg7kg72d",
@@ -485,7 +485,7 @@
         "l": 10,
         "t": 29,
         "pf": 2576.75,
-        "pa": 2596.5,
+        "pa": 2598.5,
         "name": "Say Yes to Velo",
         "weeklyPF": [
           144.25,
@@ -598,7 +598,7 @@
         "w": 5,
         "l": 11,
         "t": 28,
-        "pf": 2963.5,
+        "pf": 2965.5,
         "pa": 3107.75,
         "name": "First Pitch Swinging",
         "weeklyPF": [
@@ -614,7 +614,7 @@
           309.25,
           196.0,
           249.0,
-          96.5,
+          98.5,
           0.0,
           0.0,
           0.0,
@@ -1547,7 +1547,7 @@
           {
             "team1": "First Pitch Swinging",
             "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 96.5,
+            "team1Pts": 98.5,
             "team2": "Say Yes to Velo",
             "team2Id": "lhaxchcjmg7kg72c",
             "team2Pts": 67.5,
@@ -3627,6 +3627,30 @@
   "transactions": [
     {
       "displayDate": 1778342400000,
+      "teamId": "10300",
+      "id": "k8b4rrzymoywsorh",
+      "seq": 137632,
+      "desc": "San Francisco recalled McDonald from Triple-A Sacramento on Saturday.",
+      "player": {
+        "teamName": "San Francisco Giants",
+        "urlName": "trevor-mcdonald",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0518g_96_2.png",
+        "scorerId": "0518g",
+        "posShortNames": "SP",
+        "team": false,
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "015"
+        ],
+        "teamId": "10300",
+        "name": "Trevor McDonald",
+        "teamShortName": "SF",
+        "shortName": "T. McDonald"
+      }
+    },
+    {
+      "displayDate": 1778342400000,
       "teamId": "10270",
       "id": "3bbbvx49moysgzfu",
       "seq": 137631,
@@ -3963,6 +3987,35 @@
     },
     {
       "displayDate": 1778342400000,
+      "teamId": "10300",
+      "id": "wkx3810amoykc92x",
+      "seq": 137619,
+      "desc": "The Cleveland Guardians traded LHP Matt Wilkinson to the San Francisco Giants.",
+      "player": {
+        "teamName": "San Francisco Giants",
+        "urlName": "matt-wilkinson",
+        "scorerId": "06dmr",
+        "posShortNames": "SP",
+        "team": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "015"
+        ],
+        "teamId": "10300",
+        "name": "Matt Wilkinson",
+        "teamShortName": "SF",
+        "shortName": "M. Wilkinson"
+      }
+    },
+    {
+      "displayDate": 1778342400000,
       "teamId": "10070",
       "id": "a067959vmoykc8nq",
       "seq": 137619,
@@ -3990,35 +4043,6 @@
         "name": "Patrick Bailey",
         "teamShortName": "CLE",
         "shortName": "P. Bailey"
-      }
-    },
-    {
-      "displayDate": 1778342400000,
-      "teamId": "10300",
-      "id": "wkx3810amoykc92x",
-      "seq": 137619,
-      "desc": "The Cleveland Guardians traded LHP Matt Wilkinson to the San Francisco Giants.",
-      "player": {
-        "teamName": "San Francisco Giants",
-        "urlName": "matt-wilkinson",
-        "scorerId": "06dmr",
-        "posShortNames": "SP",
-        "team": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "015"
-        ],
-        "teamId": "10300",
-        "name": "Matt Wilkinson",
-        "teamShortName": "SF",
-        "shortName": "M. Wilkinson"
       }
     },
     {
@@ -4437,36 +4461,36 @@
         "name": "Stephen Kolek",
         "teamShortName": "KC",
         "shortName": "S. Kolek"
-      }
-    },
-    {
-      "displayDate": 1778256000000,
-      "teamId": "10090",
-      "id": "eaewras3moxcn1lp",
-      "seq": 137604,
-      "desc": "The Royals recalled Cruz from Triple-A Omaha on Friday.",
-      "player": {
-        "teamName": "Kansas City Royals",
-        "urlName": "steven-cruz",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tjx_96_2.png",
-        "scorerId": "05tjx",
-        "posShortNames": "RP",
-        "team": false,
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "016"
-        ],
-        "teamId": "10090",
-        "name": "Steven Cruz",
-        "teamShortName": "KC",
-        "shortName": "S. Cruz"
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1778342400000,
+      "teamId": "10300",
+      "id": "k8b4rrzymoywsorh",
+      "seq": 137632,
+      "desc": "San Francisco recalled McDonald from Triple-A Sacramento on Saturday.",
+      "player": {
+        "teamName": "San Francisco Giants",
+        "urlName": "trevor-mcdonald",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0518g_96_2.png",
+        "scorerId": "0518g",
+        "posShortNames": "SP",
+        "team": false,
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "015"
+        ],
+        "teamId": "10300",
+        "name": "Trevor McDonald",
+        "teamShortName": "SF",
+        "shortName": "T. McDonald"
+      }
+    },
+    {
+      "displayDate": 1778342400000,
       "teamId": "10270",
       "id": "3bbbvx49moysgzfu",
       "seq": 137631,
@@ -4803,6 +4827,35 @@
     },
     {
       "displayDate": 1778342400000,
+      "teamId": "10300",
+      "id": "wkx3810amoykc92x",
+      "seq": 137619,
+      "desc": "The Cleveland Guardians traded LHP Matt Wilkinson to the San Francisco Giants.",
+      "player": {
+        "teamName": "San Francisco Giants",
+        "urlName": "matt-wilkinson",
+        "scorerId": "06dmr",
+        "posShortNames": "SP",
+        "team": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "015"
+        ],
+        "teamId": "10300",
+        "name": "Matt Wilkinson",
+        "teamShortName": "SF",
+        "shortName": "M. Wilkinson"
+      }
+    },
+    {
+      "displayDate": 1778342400000,
       "teamId": "10070",
       "id": "a067959vmoykc8nq",
       "seq": 137619,
@@ -4830,35 +4883,6 @@
         "name": "Patrick Bailey",
         "teamShortName": "CLE",
         "shortName": "P. Bailey"
-      }
-    },
-    {
-      "displayDate": 1778342400000,
-      "teamId": "10300",
-      "id": "wkx3810amoykc92x",
-      "seq": 137619,
-      "desc": "The Cleveland Guardians traded LHP Matt Wilkinson to the San Francisco Giants.",
-      "player": {
-        "teamName": "San Francisco Giants",
-        "urlName": "matt-wilkinson",
-        "scorerId": "06dmr",
-        "posShortNames": "SP",
-        "team": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "015"
-        ],
-        "teamId": "10300",
-        "name": "Matt Wilkinson",
-        "teamShortName": "SF",
-        "shortName": "M. Wilkinson"
       }
     },
     {
@@ -5277,30 +5301,6 @@
         "name": "Stephen Kolek",
         "teamShortName": "KC",
         "shortName": "S. Kolek"
-      }
-    },
-    {
-      "displayDate": 1778256000000,
-      "teamId": "10090",
-      "id": "eaewras3moxcn1lp",
-      "seq": 137604,
-      "desc": "The Royals recalled Cruz from Triple-A Omaha on Friday.",
-      "player": {
-        "teamName": "Kansas City Royals",
-        "urlName": "steven-cruz",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tjx_96_2.png",
-        "scorerId": "05tjx",
-        "posShortNames": "RP",
-        "team": false,
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "016"
-        ],
-        "teamId": "10090",
-        "name": "Steven Cruz",
-        "teamShortName": "KC",
-        "shortName": "S. Cruz"
       }
     }
   ],
