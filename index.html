@@ -1485,25 +1485,16 @@ function renderNotableWaivers(){
 // ===================== DRAFT PICKS TRACKER =====================
 const DRAFT_PICKS = (function(){
   const picks = [];
-  // Extract all picks from TRADES array
   TRADES.forEach(trade => {
-    ['team1','team2'].forEach(side => {
-      const received = side === 'team1' ? trade.team1received : trade.team2received;
-      const receivingTeam = side === 'team1' ? trade.team1 : trade.team2;
-      const givingTeam = side === 'team1' ? trade.team2 : trade.team1;
-      (received||[]).forEach(item => {
-        const m = item.match(/(20[0-9]{2})s+(Rd+|Rounds*d+)/i);
-        if(m){
-          picks.push({
-            year: m[1],
-            round: m[2].replace('Round ','R'),
-            nowOwner: receivingTeam,
-            originalOwner: givingTeam,
-            item: item,
-            date: trade.date || ''
-          });
-        }
-      });
+    const teamAReceived = trade.received || [];
+    const teamBReceived = trade.gave || [];
+    teamAReceived.forEach(item => {
+      const m = item.match(/(20[0-9]{2})\s+(R\d+)/i);
+      if(m) picks.push({ year: m[1], round: m[2], nowOwner: trade.teamA, originalOwner: trade.teamB, item, date: trade.date||'' });
+    });
+    teamBReceived.forEach(item => {
+      const m = item.match(/(20[0-9]{2})\s+(R\d+)/i);
+      if(m) picks.push({ year: m[1], round: m[2], nowOwner: trade.teamB, originalOwner: trade.teamA, item, date: trade.date||'' });
     });
   });
   return picks;
@@ -1565,19 +1556,19 @@ function renderPicksTradeLog(){
   const el = document.getElementById('picks-trade-log');
   if(!el) return;
   const pickTrades = TRADES.filter(t => {
-    const all = [...(t.team1received||[]), ...(t.team2received||[])];
-    return all.some(item => /20[0-9]{2}s+Rd+/i.test(item));
+    const all = [...(t.received||[]), ...(t.gave||[])];
+    return all.some(item => /20[0-9]{2}\s+R\d+/i.test(item));
   });
   if(!pickTrades.length){ el.innerHTML = '<p style="color:var(--muted);">No pick trades found.</p>'; return; }
   el.innerHTML = pickTrades.map(t => {
-    const picks1 = (t.team1received||[]).filter(i => /20[0-9]{2}s+Rd+/i.test(i));
-    const picks2 = (t.team2received||[]).filter(i => /20[0-9]{2}s+Rd+/i.test(i));
-    if(!picks1.length && !picks2.length) return '';
+    const picksA = (t.received||[]).filter(i => /20[0-9]{2}\s+R\d+/i.test(i));
+    const picksB = (t.gave||[]).filter(i => /20[0-9]{2}\s+R\d+/i.test(i));
+    if(!picksA.length && !picksB.length) return '';
     return '<div style="padding:0.5rem 0;border-bottom:1px solid var(--border);font-size:0.82rem;">' +
       '<span style="color:var(--muted);font-size:0.7rem;">' + (t.date||'') + '</span> ' +
-      '<strong>' + t.team1 + '</strong> ↔ <strong>' + t.team2 + '</strong>' +
-      (picks1.length ? '<div style="color:var(--accent);margin-top:2px;">' + t.team1 + ' received: ' + picks1.join(', ') + '</div>' : '') +
-      (picks2.length ? '<div style="color:var(--accent);margin-top:2px;">' + t.team2 + ' received: ' + picks2.join(', ') + '</div>' : '') +
+      '<strong>' + (t.teamA||t.team1||'') + '</strong> ↔ <strong>' + (t.teamB||t.team2||'') + '</strong>' +
+      (picksA.length ? '<div style="color:var(--accent);margin-top:2px;">' + (t.teamA||t.team1||'') + ' received: ' + picksA.join(', ') + '</div>' : '') +
+      (picksB.length ? '<div style="color:var(--accent);margin-top:2px;">' + (t.teamB||t.team2||'') + ' received: ' + picksB.join(', ') + '</div>' : '') +
     '</div>';
   }).join('');
 }
