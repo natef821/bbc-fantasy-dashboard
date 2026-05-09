@@ -23,7 +23,7 @@ def fantrax_post(method, data=None):
     payload = {'msgs': [{'method': method, 'data': data}]}
     headers = {
         'Content-Type': 'application/json',
-        'Cookie': f'session={SESSION_COOKIE}' if SESSION_COOKIE else '',
+        'Cookie': SESSION_COOKIE if SESSION_COOKIE else '',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
     }
     try:
