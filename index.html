@@ -8,7 +8,7 @@
 <style>
 :root{--bg:#0a0e1a;--card:#131929;--card2:#1a2238;--border:#1e2d45;--accent:#00d4aa;--accent2:#4f8ef7;--accent3:#f7a44f;--red:#ff4d6d;--gold:#ffd700;--silver:#c0c0c0;--bronze:#cd7f32;--text:#e8eaf6;--muted:#7b8caa;--green:#00e676;--yellow:#ffeb3b;}
 *{box-sizing:border-box;margin:0;padding:0;}
-body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;min-height:100vh;}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;min-height:100vhh;}
 header{background:linear-gradient(135deg,#0d1b2e 0%,#1a2d4a 50%,#0d1b2e 100%);border-bottom:2px solid var(--accent);padding:20px 30px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);}
 .header-left h1{font-size:1.8rem;font-weight:800;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
 .header-left p{color:var(--muted);font-size:.85rem;margin-top:3px;}
@@ -366,20 +366,13 @@ const TEAMS = [
 ];
 
 const WEEK_RANKS = [
-  {week:'W1
-Apr 3-6',label:'W1',periods:'P1',dates:'Apr 3-6',ranks:[3,1,5,4,2,8,12,6,7,10,9,11]},
-  {week:'W2
-Apr 7-13',label:'W2',periods:'P2-P3',dates:'Apr 7-13',ranks:[2,1,4,5,3,9,11,6,8,10,7,12]},
-  {week:'W3
-Apr 14-20',label:'W3',periods:'P4-P5',dates:'Apr 14-20',ranks:[1,2,3,6,4,10,11,5,9,8,7,12]},
-  {week:'W4
-Apr 21-27',label:'W4',periods:'P6-P7',dates:'Apr 21-27',ranks:[1,2,3,7,5,9,10,4,8,6,11,12]},
-  {week:'W5
-Apr 28-May 3',label:'W5',periods:'P8-P9',dates:'Apr 28-May 3',ranks:[1,2,3,6,4,8,10,5,9,7,11,12]},
-  {week:'W6
-May 4-7',label:'W6',periods:'P10-P12',dates:'May 4-7',ranks:[1,2,3,7,5,9,6,8,10,4,11,12]},
-  {week:'W7
-May 8+',label:'W7',periods:'P13',dates:'May 8+',ranks:[1,2,3,4,5,6,7,8,9,10,11,12]}
+  {week:'W1',label:'W1',periods:'P1',dates:'Apr 3-6',ranks:[3,1,5,4,2,8,12,6,7,10,9,11]},
+  {week:'W2',label:'W2',periods:'P2-P3',dates:'Apr 7-13',ranks:[2,1,4,5,3,9,11,6,8,10,7,12]},
+  {week:'W3',label:'W3',periods:'P4-P5',dates:'Apr 14-20',ranks:[1,2,3,6,4,10,11,5,9,8,7,12]},
+  {week:'W4',label:'W4',periods:'P6-P7',dates:'Apr 21-27',ranks:[1,2,3,7,5,9,10,4,8,6,11,12]},
+  {week:'W5',label:'W5',periods:'P8-P9',dates:'Apr 28-May 3',ranks:[1,2,3,6,4,8,10,5,9,7,11,12]},
+  {week:'W6',label:'W6',periods:'P10-P12',dates:'May 4-7',ranks:[1,2,3,7,5,9,6,8,10,4,11,12]},
+  {week:'W7',label:'W7',periods:'P13',dates:'May 8+',ranks:[1,2,3,4,5,6,7,8,9,10,11,12]}
 ];
 // ranks array index matches TEAMS array index
 
