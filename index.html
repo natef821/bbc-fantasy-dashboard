@@ -181,6 +181,19 @@ tr:hover td{background:rgba(0,212,170,0.04)!important}
 .il-team-card:hover{transform:translateY(-2px)!important;box-shadow:0 8px 20px rgba(0,0,0,0.5)!important}
 
 .sub-nav-btn{background:rgba(255,255,255,0.05)!important;border:1px solid rgba(255,255,255,0.1)!important;border-radius:6px!important;color:var(--muted)!important;padding:6px 14px!important;font-size:0.8rem!important;font-weight:600!important;cursor:pointer!important;transition:all 0.2s ease!important;margin:2px!important}
+.pct-circle{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700;color:#fff;flex-shrink:0;}
+.pct-blue{background:linear-gradient(135deg,#1e40af,#3b82f6);box-shadow:0 2px 8px rgba(59,130,246,.4);}
+.pct-red{background:linear-gradient(135deg,#991b1b,#ef4444);box-shadow:0 2px 8px rgba(239,68,68,.4);}
+.pct-gray{background:linear-gradient(135deg,#374151,#6b7280);}
+.pct-row{display:flex;align-items:center;gap:8px;padding:5px 0;border-bottom:1px solid rgba(255,255,255,.04);}
+.pct-row:last-child{border-bottom:none;}
+.pct-bar-wrap{flex:1;height:7px;background:rgba(255,255,255,.08);border-radius:4px;overflow:hidden;}
+.pct-bar{height:100%;border-radius:4px;}
+.pct-stat-name{width:100px;text-align:right;font-size:.72rem;color:var(--muted);flex-shrink:0;}
+.pct-value{width:52px;text-align:left;font-size:.72rem;color:var(--muted);flex-shrink:0;padding-left:4px;}
+.pct-section{margin-bottom:1.2rem;}
+.pct-section-title{font-size:.72rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.6rem;padding-bottom:.3rem;border-bottom:1px solid var(--border);}
+.pct-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1.2rem;}
 .sub-nav-btn:hover,.sub-nav-btn.active-stat{background:rgba(0,212,170,0.12)!important;border-color:var(--accent)!important;color:var(--accent)!important}
 
 .trade-card{border-left:3px solid rgba(0,212,170,0.5)!important;background:linear-gradient(135deg,#101c2e,#0d1520)!important;transition:all 0.2s ease!important}
@@ -355,6 +368,7 @@ tr:hover td{background:rgba(0,212,170,0.04)!important}
     <button class="sub-nav-btn" onclick="showStatView('radar')">Radar</button>
     <button class="sub-nav-btn" onclick="showStatView('luck')">📊 Luck Index</button>
   <button class="sub-nav-btn" onclick="showStatView('dynasty')">👑 Dynasty Value</button>
+  <button class="sub-nav-btn" onclick="showStatView('percentile',this)">📊 Percentile Rankings</button>
   </div>
   <div id="stat-overview" class="stat-view">
     <div id="stat-boxes" class="stat-boxes"></div>
@@ -404,6 +418,14 @@ tr:hover td{background:rgba(0,212,170,0.04)!important}
         <div style="position:relative;height:380px;"><canvas id="dynastyChart"></canvas></div>
       </div>
     </div>
+  </div>
+  <div id="stat-percentile" class="stat-view" style="display:none">
+    <p style="color:var(--muted);font-size:.8rem;margin-bottom:1.2rem;">Baseball Savant-style percentile rankings across all fantasy scoring categories. <span style="color:#3b82f6;font-weight:700;">●</span> Blue = elite (70th+) &nbsp;<span style="color:#ef4444;font-weight:700;">●</span> Red = below avg (≤30th) &nbsp;<span style="color:#6b7280;font-weight:700;">●</span> Gray = average</p>
+    <div style="margin-bottom:1.2rem;display:flex;gap:1rem;align-items:center;flex-wrap:wrap;">
+      <label style="color:var(--muted);font-size:.85rem;">Select Team:</label>
+      <select id="pct-team-select" onchange="renderPercentileChart()" style="background:var(--card);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:6px 14px;font-size:.85rem;cursor:pointer;min-width:200px;"></select>
+    </div>
+    <div id="pct-chart-area"></div>
   </div>
 </div>
 <div id="tab-trades" class="tab-content">
@@ -998,6 +1020,7 @@ function showStatView(v,btn){
   if(v==='radar') initRadar();
   if(v==='luck') renderLuckIndex(window._waiverLiveData || window._liveData);
   if(v==='dynasty') renderDynastyLeaderboard();
+  if(v==='percentile') renderPercentileChart();
   if(v==='hitting' && document.querySelector('#hitting-table tbody') && !document.querySelector('#hitting-table tbody tr')) renderHittingTable();
   if(v==='pitching' && document.querySelector('#pitching-table tbody') && !document.querySelector('#pitching-table tbody tr')) renderPitchingTable();
 }
@@ -2394,6 +2417,45 @@ function renderDynastyLeaderboard(){
       }
     });
   }
+}
+
+function renderPercentileChart() {
+  function parseTableData(tableId) {
+    const table = document.getElementById(tableId);
+    if(!table) return [];
+    if(tableId==='hitting-table' && !table.querySelector('tbody tr')) renderHittingTable();
+    if(tableId==='pitching-table' && !table.querySelector('tbody tr')) renderPitchingTable();
+    const rows = table.querySelectorAll('tbody tr');
+    return Array.from(rows).map(row => Array.from(row.querySelectorAll('td')).map(c=>c.textContent.trim()));
+  }
+  const hRows = parseTableData('hitting-table');
+  const pRows = parseTableData('pitching-table');
+  if(!hRows.length){renderHittingTable();renderPitchingTable();setTimeout(renderPercentileChart,200);return;}
+  const hitMap={},pitMap={};
+  for(const v of hRows) hitMap[v[0]]={R:+v[2]||0,H:+v[3]||0,HR:+v[4]||0,RBI:+v[5]||0,BB:+v[6]||0,SO:Math.abs(+v[8]||0),SB:+v[9]||0,hitPts:parseFloat(v[1].replace(/,/g,''))||0};
+  for(const v of pRows) pitMap[v[0]]={IP:parseFloat(v[2].replace(/,/g,''))||0,K:+v[3]||0,ER:Math.abs(parseFloat(v[4].replace(/,/g,''))||0),BBp:Math.abs(parseFloat(v[5].replace(/,/g,''))||0),SV:+v[6]||0,BS:Math.abs(+v[7]||0),HLD:+v[8]||0,QS:+v[9]||0,pitPts:parseFloat(v[1].replace(/,/g,''))||0};
+  const teams=Object.keys(hitMap);
+  const sel=document.getElementById('pct-team-select');
+  if(sel&&sel.options.length===0){
+    const sorted=teams.slice().sort((a,b)=>((hitMap[b]?.hitPts||0)+(pitMap[b]?.pitPts||0))-((hitMap[a]?.hitPts||0)+(pitMap[a]?.pitPts||0)));
+    for(const t of sorted){const opt=document.createElement('option');opt.value=t;opt.textContent=t;sel.appendChild(opt);}
+  }
+  const selectedTeam=sel?sel.value:teams[0];
+  if(!selectedTeam) return;
+  function pctRk(vals,val,lb=false){const n=vals.length;if(n<2)return 50;const worse=vals.filter(v=>lb?v<val:v>val).length;return Math.round(((n-1-worse)/(n-1))*100);}
+  const HIT_STATS=[['R','Runs',false],['HR','Home Runs',false],['RBI','RBI',false],['SB','Stolen Bases',false],['H','Hits',false],['BB','Walks',false],['SO','SO (neg)',true],['hitPts','Hit Pts',false]];
+  const PIT_STATS=[['K','Strikeouts',false],['SV','Saves',false],['QS','Qual. Starts',false],['HLD','Holds',false],['IP','Inn. Pitched',false],['ER','ERA (neg)',true],['BBp','BB (neg)',true],['pitPts','Pitch Pts',false]];
+  function ccls(p){return p>=70?'pct-blue':p<=30?'pct-red':'pct-gray';}
+  function bclr(p){return p>=70?'linear-gradient(90deg,#1e40af,#3b82f6)':p<=30?'linear-gradient(90deg,#991b1b,#ef4444)':'linear-gradient(90deg,#374151,#6b7280)';}
+  function makeRow(label,val,p){const dv=typeof val==='number'&&val>=1000?val.toLocaleString():val;return '<div class="pct-row"><div class="pct-stat-name">'+label+'</div><div class="pct-bar-wrap"><div class="pct-bar" style="width:'+Math.max(3,p)+'%;background:'+bclr(p)+';"></div></div><div class="pct-circle '+ccls(p)+'">'+p+'</div><div class="pct-value">'+dv+'</div></div>';}
+  function makeSection(title,stats,dm){let rows='';for(const[k,lbl,lb]of stats){const vals=teams.map(t=>dm[t]?.[k]||0);const val=dm[selectedTeam]?.[k]||0;const p=pctRk(vals,val,lb);rows+=makeRow(lbl,Number.isInteger(val)?val:parseFloat(val.toFixed(1)),p);}return '<div class="pct-section"><div class="pct-section-title">'+title+'</div>'+rows+'</div>';}
+  const totalPtsVal=(hitMap[selectedTeam]?.hitPts||0)+(pitMap[selectedTeam]?.pitPts||0);
+  const totalPtsList=teams.map(t=>(hitMap[t]?.hitPts||0)+(pitMap[t]?.pitPts||0));
+  const overallPct=pctRk(totalPtsList,totalPtsVal);
+  const ocls=ccls(overallPct);
+  const container=document.getElementById('pct-chart-area');
+  if(!container) return;
+  container.innerHTML='<div style="margin-bottom:1.5rem;display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;"><div style="display:flex;align-items:center;gap:14px;"><div class="pct-circle '+ocls+'" style="width:60px;height:60px;font-size:1.1rem;">'+overallPct+'</div><div><div style="font-size:1.1rem;font-weight:700;color:var(--text);">'+selectedTeam+'</div><div style="font-size:.8rem;color:var(--muted);">Total Pts: '+totalPtsVal.toLocaleString()+'</div><div style="font-size:.75rem;color:var(--muted);">Overall Percentile: '+overallPct+'th</div></div></div><div style="display:flex;gap:12px;font-size:.75rem;color:var(--muted);align-items:center;"><span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#3b82f6;margin-right:3px;"></span>Elite (70+)</span><span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#6b7280;margin-right:3px;"></span>Average</span><span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:3px;"></span>Below Avg</span></div></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;"><div class="pct-card">'+makeSection('⚾ Hitting Stats',HIT_STATS,hitMap)+'</div><div class="pct-card">'+makeSection('🎯 Pitching Stats',PIT_STATS,pitMap)+'</div></div>';
 }
 </script>
 <!-- TEAM MODAL -->
