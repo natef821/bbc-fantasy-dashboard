@@ -1787,7 +1787,7 @@ function filterIL(){
     'Logan Gilbert': 'First Pitch Swinging', 'Tommy Troy': 'First Pitch Swinging', 'Dillon Dingler': 'First Pitch Swinging',
     'Dylan Cease': "Evil Honey Nut Chourio's", 'Kris Bubic': "Evil Honey Nut Chourio's", 'Bryan Woo': "Evil Honey Nut Chourio's",
     'Dean Kremer': 'Layin Wood', 'Spencer Horwitz': 'Layin Wood',
-    'Caden Dana': "Jac-in' It", 'Robert Gasser': "Jac-in' It"
+    'Caden Dana': "Jac-in\' It", 'Robert Gasser': "Jac-in' It"
   };
   
   let txns = [...(liveData.mlbTransactions||[]), ...(liveData.transactions||[])].filter(t => t && t.player);
@@ -2113,7 +2113,7 @@ function initLeagueNews(liveData){
     if(luckData.length){
       const luckiest = luckData[0];
       const unluckiest = luckData[luckData.length-1];
-      news.push({ icon:'🍀', type:'LUCK INDEX', headline: (luckiest.name||'').replace(/#Inaugural JBThrowback/,'').trim() + ' is the league's luckiest team this season', detail: '+' + luckiest.luck + ' wins above expected. Meanwhile, ' + (unluckiest.name||'').replace(/#Inaugural JBThrowback/,'').trim() + ' has been unlucky (' + unluckiest.luck + ' vs expected). Luck evens out over time.', date: today });
+      news.push({ icon:'🍀', type:'LUCK INDEX', headline: (luckiest.name||'').replace(/#Inaugural JBThrowback/,'').trim() + ' leads in luck index this season', detail: '+' + luckiest.luck + ' wins above expected. Meanwhile, ' + (unluckiest.name||'').replace(/#Inaugural JBThrowback/,'').trim() + ' has been unlucky (' + unluckiest.luck + ' vs expected). Luck evens out over time.', date: today });
     }
   } catch(e){}
   
