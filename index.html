@@ -1815,7 +1815,7 @@ function filterIL(){
     const fantasyTeam = Object.entries(FANTASY_OWNERSHIP).find(([k]) => playerName.includes(k))?.[1] || '';
     
     return '<div style="display:grid;grid-template-columns:auto 1fr auto;gap:0.75rem;align-items:center;padding:0.6rem 1rem;border-radius:8px;background:' + bgColor + ';border:1px solid var(--border);">' +
-      (p.headshotUrl ? '<img src="' + p.headshotUrl + '" onerror="this.style.display='none'" style="width:36px;height:36px;border-radius:50%;object-fit:cover;">' : '<div style="width:36px;height:36px;border-radius:50%;background:var(--card-bg);display:flex;align-items:center;justify-content:center;font-size:1rem;">⚾</div>') +
+      (p.headshotUrl ? '<img src="' + p.headshotUrl + '" onerror="this.style.display=\'none\'" style="width:36px;height:36px;border-radius:50%;object-fit:cover;">' : '<div style="width:36px;height:36px;border-radius:50%;background:var(--card-bg);display:flex;align-items:center;justify-content:center;font-size:1rem;">⚾</div>') +
       '<div>' +
         '<div style="display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;">' +
           '<span style="font-weight:700;font-size:0.85rem;">' + (playerName||'Unknown') + '</span>' +
