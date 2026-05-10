@@ -18,6 +18,12 @@ nav{background:var(--card);border-bottom:1px solid var(--border);display:flex;ov
 .nav-btn:hover{color:var(--text);background:rgba(255,255,255,.03);}
 .nav-btn.active{color:var(--accent);border-bottom-color:var(--accent);}
 .tab-content{display:none;padding:24px;max-width:1400px;margin:0 auto;animation:fadeIn .3s ease forwards;}
+@keyframes tickerScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.ticker-item{display:inline-flex;align-items:center;gap:6px}
+.ticker-sep{color:var(--border);margin:0 8px}
+.hamburger{display:none;background:none;border:none;color:var(--text);font-size:1.4rem;cursor:pointer;padding:12px 16px;flex-shrink:0;line-height:1}
+.nav-tabs{display:flex}
+@media(max-width:768px){.hamburger{display:block}.nav-tabs{display:none;width:100%;flex-direction:column;background:var(--card);border-top:1px solid var(--border)}.nav-tabs.open{display:flex}.nav-btn{border-bottom:1px solid var(--border)!important;width:100%;text-align:left!important;padding:12px 20px!important}nav{flex-wrap:wrap;padding:0!important}}
 .tab-content.active{display:block;}
 @keyframes fadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
 .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px;}
@@ -223,7 +229,8 @@ tr:hover td{background:rgba(0,212,170,0.04)!important}
 </header>
 
 <nav>
-  <button class="nav-btn active" onclick="showTab('rankings')">🏆 Power Rankings</button>
+  <button class="hamburger" onclick="document.querySelector('.nav-tabs').classList.toggle('open')" aria-label="Menu">☰</button><div class="nav-tabs">
+  <button class="nav-btn active" onclick="showTab('rankings');document.querySelector('.nav-tabs').classList.remove('open')">🏆 Power Rankings</button>
   <button class="nav-btn" onclick="showTab('standings')">📊 Standings</button>
   <button class="nav-btn" onclick="showTab('trends')">📈 Trends</button>
   <button class="nav-btn" onclick="showTab('matchups')">⚔️ Matchups</button>
@@ -236,8 +243,10 @@ tr:hover td{background:rgba(0,212,170,0.04)!important}
   <button class="nav-btn" onclick="showTab('picks')">🎯 Draft Picks</button>
   <button class="nav-btn" onclick="showTab('injuryil')">🏥 IL Tracker</button>
   <button class="nav-btn" onclick="showTab('playoff')">🏆 Playoff Picture</button>
-  <button class="nav-btn" onclick="showTab('news')">📰 League News</button>
+  <button class="nav-btn" onclick="showTab('tools');document.querySelector('.nav-tabs').classList.remove('open')">🛠️ Tools</button>
+  <button class="nav-btn" onclick="showTab('news');document.querySelector('.nav-tabs').classList.remove('open')">📰 League News</button></div>
 </nav>
+<div id="injury-ticker-wrap" style="background:#0d1424;border-bottom:1px solid var(--border);overflow:hidden;height:32px;display:flex;align-items:center"><span style="background:var(--red);color:#fff;font-size:11px;font-weight:700;padding:0 10px;height:100%;display:flex;align-items:center;flex-shrink:0">🚨 TRANSACTIONS</span><div style="overflow:hidden;flex:1"><div id="injury-ticker" style="display:inline-flex;gap:24px;white-space:nowrap;animation:tickerScroll 60s linear infinite;font-size:12px;color:var(--text);padding:4px 16px"><span style="color:var(--muted)">Loading...</span></div></div></div>
 
 <!-- POWER RANKINGS TAB -->
 <div id="tab-rankings" class="tab-content active">
@@ -601,6 +610,64 @@ Felix Bautista (RP)
   <div id="lottery-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px"></div>
   <p style="color:#64748b;font-size:11px;margin-top:12px;text-align:center">* Projected based on current standings. Odds finalize at end of regular season.</p>
 </div>
+</div>
+<!-- TOOLS TAB -->
+<div id="tab-tools" class="tab-content">
+  <h2 class="section-title">🛠️ Tools &amp; Analysis</h2>
+  <div class="sub-nav" style="margin-bottom:24px">
+    <button class="sub-nav-btn active" onclick="showToolView('tradematch',this)">🔄 Trade Matcher</button>
+    <button class="sub-nav-btn" onclick="showToolView('tradecalc',this)">⚖️ Trade Calc</button>
+    <button class="sub-nav-btn" onclick="showToolView('compare',this)">📊 Team Compare</button>
+    <button class="sub-nav-btn" onclick="showToolView('heatmap',this)">🔥 Heatmap</button>
+    <button class="sub-nav-btn" onclick="showToolView('ilreturn',this)">🏥 IL Impact</button>
+  </div>
+  <div id="tool-tradematch">
+    <h3 style="color:var(--accent);margin-bottom:12px">🔄 Trade Matching Tool</h3>
+    <p style="color:var(--muted);font-size:13px;margin-bottom:20px">See roster strengths/needs for any two teams to identify trade partners.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px">
+      <div><label style="color:var(--muted);font-size:12px;display:block;margin-bottom:6px">TEAM A</label><select id="tm-team-a" onchange="renderTradeMatcher()" style="width:100%;padding:10px;background:var(--card2);border:1px solid var(--border);color:var(--text);border-radius:8px"></select></div>
+      <div><label style="color:var(--muted);font-size:12px;display:block;margin-bottom:6px">TEAM B</label><select id="tm-team-b" onchange="renderTradeMatcher()" style="width:100%;padding:10px;background:var(--card2);border:1px solid var(--border);color:var(--text);border-radius:8px"></select></div>
+    </div>
+    <div id="trade-matcher-result"></div>
+  </div>
+  <div id="tool-tradecalc" style="display:none">
+    <h3 style="color:var(--accent);margin-bottom:12px">⚖️ Dynasty Trade Calculator</h3>
+    <p style="color:var(--muted);font-size:13px;margin-bottom:16px">Add players and picks to compare dynasty value on each side. Uses FanGraphs Future Value scale.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+      <div>
+        <h4 style="color:var(--accent);margin-bottom:10px">Side A — Giving</h4>
+        <div id="tc-side-a" style="min-height:60px;border:2px dashed var(--border);border-radius:8px;padding:10px;margin-bottom:8px;font-size:13px"></div>
+        <select id="tc-add-a" onchange="tcAddPlayer('a')" style="width:100%;padding:8px;background:var(--card2);border:1px solid var(--border);color:var(--text);border-radius:6px"><option value="">+ Add to Side A...</option></select>
+        <div id="tc-val-a" style="margin-top:10px;font-size:1.3rem;font-weight:700;color:var(--accent)">Value: 0</div>
+      </div>
+      <div>
+        <h4 style="color:var(--accent3);margin-bottom:10px">Side B — Getting</h4>
+        <div id="tc-side-b" style="min-height:60px;border:2px dashed var(--border);border-radius:8px;padding:10px;margin-bottom:8px;font-size:13px"></div>
+        <select id="tc-add-b" onchange="tcAddPlayer('b')" style="width:100%;padding:8px;background:var(--card2);border:1px solid var(--border);color:var(--text);border-radius:6px"><option value="">+ Add to Side B...</option></select>
+        <div id="tc-val-b" style="margin-top:10px;font-size:1.3rem;font-weight:700;color:var(--accent3)">Value: 0</div>
+      </div>
+    </div>
+    <div id="tc-verdict" style="margin-top:16px;padding:14px;border-radius:8px;background:var(--card2);text-align:center;display:none"></div>
+    <button onclick="tcReset()" style="margin-top:10px;padding:7px 18px;background:var(--card2);border:1px solid var(--border);color:var(--muted);border-radius:6px;cursor:pointer;font-size:13px">Reset</button>
+  </div>
+  <div id="tool-compare" style="display:none">
+    <h3 style="color:var(--accent);margin-bottom:12px">📊 Team Comparison</h3>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px">
+      <div><label style="color:var(--muted);font-size:12px;display:block;margin-bottom:6px">TEAM A</label><select id="cmp-team-a" onchange="renderTeamCompare()" style="width:100%;padding:10px;background:var(--card2);border:1px solid var(--border);color:var(--text);border-radius:8px"></select></div>
+      <div><label style="color:var(--muted);font-size:12px;display:block;margin-bottom:6px">TEAM B</label><select id="cmp-team-b" onchange="renderTeamCompare()" style="width:100%;padding:10px;background:var(--card2);border:1px solid var(--border);color:var(--text);border-radius:8px"></select></div>
+    </div>
+    <div id="team-compare-result"></div>
+  </div>
+  <div id="tool-heatmap" style="display:none">
+    <h3 style="color:var(--accent);margin-bottom:12px">🔥 Period Scoring Heatmap</h3>
+    <p style="color:var(--muted);font-size:13px;margin-bottom:14px">Fantasy points by scoring period. Green = above league average, red = below. Reveals hot/cold streaks.</p>
+    <div id="heatmap-table" style="overflow-x:auto"></div>
+  </div>
+  <div id="tool-ilreturn" style="display:none">
+    <h3 style="color:var(--accent);margin-bottom:12px">🏥 IL Return Impact Projector</h3>
+    <p style="color:var(--muted);font-size:13px;margin-bottom:14px">Estimated weekly scoring boost when IL players return. Teams with the most/best players on IR have the most upside.</p>
+    <div id="ilreturn-result"></div>
+  </div>
 </div>
 <div id="tab-news" class="tab-content">
   <h2>📰 League News &amp; Commissioner Corner</h2>
@@ -1009,6 +1076,7 @@ function showTab(name){
   if(name==='injuryil'){ _ilLiveData = _ilLiveData || window._liveData; filterIL(); }
   if(name==='playoff') initPlayoffPicture(window._liveData||window._waiverLiveData||{});
   if(name==='news') initLeagueNews(window._liveData||window._waiverLiveData||{});
+  if(name==='tools') initTools();
 }
 
 function showStatView(v,btn){
@@ -2329,6 +2397,7 @@ document.addEventListener('DOMContentLoaded',function(){
   // Fetch live data
   fetch('data/league_data.json').then(r=>r.json()).then(liveData=>{
     window._liveData = liveData;
+    initInjuryTicker(liveData);
     
     // Update last updated timestamp
     if(liveData.lastUpdated){
@@ -2457,6 +2526,284 @@ function renderPercentileChart() {
   if(!container) return;
   container.innerHTML='<div style="margin-bottom:1.5rem;display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;"><div style="display:flex;align-items:center;gap:14px;"><div class="pct-circle '+ocls+'" style="width:60px;height:60px;font-size:1.1rem;">'+overallPct+'</div><div><div style="font-size:1.1rem;font-weight:700;color:var(--text);">'+selectedTeam+'</div><div style="font-size:.8rem;color:var(--muted);">Total Pts: '+totalPtsVal.toLocaleString()+'</div><div style="font-size:.75rem;color:var(--muted);">Overall Percentile: '+overallPct+'th</div></div></div><div style="display:flex;gap:12px;font-size:.75rem;color:var(--muted);align-items:center;"><span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#3b82f6;margin-right:3px;"></span>Elite (70+)</span><span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#6b7280;margin-right:3px;"></span>Average</span><span><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:#ef4444;margin-right:3px;"></span>Below Avg</span></div></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;"><div class="pct-card">'+makeSection('⚾ Hitting Stats',HIT_STATS,hitMap)+'</div><div class="pct-card">'+makeSection('🎯 Pitching Stats',PIT_STATS,pitMap)+'</div></div>';
 }
+
+
+// ====================================================
+// INJURY TICKER
+// ====================================================
+function initInjuryTicker(liveData) {
+  var el = document.getElementById('injury-ticker');
+  if(!el) return;
+  var trx = (liveData && liveData.mlbTransactions) ? liveData.mlbTransactions : [];
+  if(!trx.length) { el.innerHTML = '<span style="color:var(--muted)">No recent transactions.</span>'; return; }
+  var items = trx.slice(0, 40);
+  var content = items.map(function(t) {
+    var name = (t.player && t.player.urlName) ? t.player.urlName.replace(/-/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase();}) : '';
+    var pos = (t.player && t.player.posShortNames) ? ' ('+t.player.posShortNames+')' : '';
+    var raw = (t.desc||'').replace(/<[^>]+>/g,'');
+    var desc = raw.length > 90 ? raw.substring(0,87)+'...' : raw;
+    var icon = /reinstat|return|activ/i.test(desc)?'\u2705':/injur|strain|il|dl/i.test(desc)?'\ud83e\udd15':'\ud83d\udccb';
+    var date = t.displayDate ? new Date(t.displayDate).toLocaleDateString('en-US',{month:'short',day:'numeric'}) : '';
+    return '<span class="ticker-item">'+icon+' <strong>'+name+'</strong>'+pos+' &mdash; '+desc+(date?' &bull; '+date:'')+'</span><span class="ticker-sep"> | </span>';
+  }).join('');
+  el.innerHTML = content + content;
+  var charLen = el.textContent.length;
+  el.style.animationDuration = Math.max(30, Math.floor(charLen / 12)) + 's';
+}
+
+// ====================================================
+// TRADE MATCHING TOOL
+// ====================================================
+function renderTradeMatcher() {
+  var selA = document.getElementById('tm-team-a');
+  var selB = document.getElementById('tm-team-b');
+  var res = document.getElementById('trade-matcher-result');
+  if(!selA||!selB||!res) return;
+  var teamA = TEAMS.find(function(t){return t.id===selA.value;});
+  var teamB = TEAMS.find(function(t){return t.id===selB.value;});
+  if(!teamA||!teamB||teamA.id===teamB.id){res.innerHTML='<p style="color:var(--muted);padding:20px">Select two different teams.</p>';return;}
+  var farmA = FARM_RANKS.find(function(f){return f.teamId===teamA.id;});
+  var farmB = FARM_RANKS.find(function(f){return f.teamId===teamB.id;});
+  var gv = {'A+':10,'A':9,'A-':8,'B+':7,'B':6,'B-':5,'C+':4,'C':3,'C-':2,'D+':1,'D':0.5,'D-':0};
+  var pfs = TEAMS.slice().sort(function(a,b){return b.pf-a.pf;}).map(function(t){return t.id;});
+  var hits = TEAMS.slice().sort(function(a,b){return b.hitPts-a.hitPts;}).map(function(t){return t.id;});
+  var pits = TEAMS.slice().sort(function(a,b){return b.pitPts-a.pitPts;}).map(function(t){return t.id;});
+  var ws = TEAMS.slice().sort(function(a,b){return b.w-a.w;}).map(function(t){return t.id;});
+  var farmSorted = TEAMS.slice().sort(function(a,b){
+    var fa=FARM_RANKS.find(function(f){return f.teamId===a.id;});
+    var fb=FARM_RANKS.find(function(f){return f.teamId===b.id;});
+    return (gv[fb&&fb.grade]||0)-(gv[fa&&fa.grade]||0);
+  }).map(function(t){return t.id;});
+  var rkOf = function(arr,id){return arr.indexOf(id)+1;};
+  var makeInfo = function(t){return {name:t.name,short:t.short,pfRk:rkOf(pfs,t.id),hitRk:rkOf(hits,t.id),pitRk:rkOf(pits,t.id),wRk:rkOf(ws,t.id),farmRk:rkOf(farmSorted,t.id)};};
+  var a = makeInfo(teamA), b = makeInfo(teamB);
+  var badge = function(rk,lbl){
+    var col = rk<=3?'var(--green)':rk<=5?'var(--accent)':rk<=8?'var(--muted)':'var(--red)';
+    return '<span style="display:inline-flex;align-items:center;padding:3px 9px;background:var(--card);border-radius:14px;font-size:11px;margin:2px;color:'+col+'">'+lbl+' #'+rk+'</span>';
+  };
+  var profile = function(info,col) {
+    var cats = [['Total PF',info.pfRk],['Hitting',info.hitRk],['Pitching',info.pitRk],['Farm',info.farmRk],['Wins',info.wRk]];
+    var byCatAsc = cats.slice().sort(function(x,y){return x[1]-y[1];});
+    var byCatDesc = cats.slice().sort(function(x,y){return y[1]-x[1];});
+    return '<div style="background:var(--card2);border-radius:12px;padding:18px">'
+      +'<h4 style="color:'+col+';margin-bottom:12px">'+info.name+'</h4>'
+      +'<div style="font-size:11px;color:var(--muted);margin-bottom:6px;text-transform:uppercase">Strengths</div>'
+      +'<div style="display:flex;flex-wrap:wrap;margin-bottom:12px">'+byCatAsc.slice(0,2).map(function(c){return badge(c[1],c[0]);}).join('')+'</div>'
+      +'<div style="font-size:11px;color:var(--muted);margin-bottom:6px;text-transform:uppercase">Needs</div>'
+      +'<div style="display:flex;flex-wrap:wrap">'+byCatDesc.slice(0,2).map(function(c){return badge(c[1],c[0]);}).join('')+'</div></div>';
+  };
+  var opps = [];
+  var statsA=[['Hitting',a.hitRk],['Pitching',a.pitRk],['Farm',a.farmRk]];
+  var statsB=[['Hitting',b.hitRk],['Pitching',b.pitRk],['Farm',b.farmRk]];
+  statsA.forEach(function(sa){statsB.forEach(function(sb){
+    if(sa[1]<=4&&sb[1]>=8&&sa[0]!==sb[0]) opps.push('<div style="padding:10px;background:var(--card);border-radius:8px;margin-bottom:8px;font-size:13px;border-left:3px solid var(--green)">&#128161; <strong>'+teamA.short+'</strong> has elite <em>'+sa[0]+'</em> (#'+sa[1]+') &mdash; <strong>'+teamB.short+'</strong> needs it (#'+sb[1]+')</div>');
+    if(sb[1]<=4&&sa[1]>=8&&sa[0]!==sb[0]) opps.push('<div style="padding:10px;background:var(--card);border-radius:8px;margin-bottom:8px;font-size:13px;border-left:3px solid var(--accent2)">&#128161; <strong>'+teamB.short+'</strong> has elite <em>'+sb[0]+'</em> (#'+sb[1]+') &mdash; <strong>'+teamA.short+'</strong> needs it (#'+sa[1]+')</div>');
+  });});
+  res.innerHTML = '<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px">'+profile(a,'var(--accent)')+profile(b,'var(--accent3)')+'</div>'
+    +'<h4 style="color:var(--gold);margin-bottom:12px">&#127919; Trade Opportunities</h4>'
+    +(opps.length?opps.join(''):'<p style="color:var(--muted);font-size:13px">No obvious mismatches &mdash; similar team profiles.</p>');
+}
+
+// ====================================================
+// DYNASTY TRADE CALCULATOR
+// ====================================================
+var TC_PLAYERS = [
+  {n:'Juan Soto',v:95},{n:'Ronald Acuna Jr.',v:94},{n:'Julio Rodriguez',v:93},{n:'Gunnar Henderson',v:93},
+  {n:'Corbin Carroll',v:92},{n:'Tarik Skubal',v:91},{n:'Yordan Alvarez',v:91},{n:'Francisco Lindor',v:90},
+  {n:'Elly De La Cruz',v:90},{n:'Kyle Tucker',v:89},{n:'Paul Skenes',v:88},{n:'Jackson Chourio',v:88},
+  {n:'Spencer Schwellenbach',v:87},{n:'Mookie Betts',v:87},{n:'Yoshinobu Yamamoto',v:85},{n:'Wyatt Langford',v:84},
+  {n:'Matt McLain',v:82},{n:'Adley Rutschman',v:80},{n:'Ketel Marte',v:79},{n:'Freddie Freeman',v:78},
+  {n:'Tyler Glasnow',v:78},{n:'Blake Snell',v:76},{n:'Cal Raleigh',v:76},{n:'Grayson Rodriguez',v:75},
+  {n:'Pete Alonso',v:75},{n:'Jose Berrios',v:72},{n:'Manny Machado',v:72},{n:'Carlos Rodon',v:73},
+  {n:'Gavin Stone',v:72},{n:'Zach Eflin',v:72},{n:'Ryan Helsley',v:70},{n:'Mason Miller',v:68},
+  {n:'Jordan Montgomery',v:66},{n:'Luis Robert Jr.',v:65},{n:'Carlos Estevez',v:60},{n:'JP Sears',v:60},
+  {n:'Dean Kremer',v:55},{n:'Evan Phillips',v:55},{n:'Hunter Harvey',v:55},{n:'Brusdar Graterol',v:52},
+  {n:'2027 R1 Pick',v:55},{n:'2028 R1 Pick',v:45},{n:'2029 R1 Pick',v:40},{n:'2030 R1 Pick',v:35},
+  {n:'2027 R2 Pick',v:35},{n:'2028 R2 Pick',v:28},{n:'2027 R3 Pick',v:20}
+];
+var tcSideA=[], tcSideB=[];
+function tcPopulate() {
+  ['tc-add-a','tc-add-b'].forEach(function(id,si){
+    var sel=document.getElementById(id); if(!sel) return;
+    sel.innerHTML='<option value="">+ Add to Side '+(si?'B':'A')+'...</option>'
+      +TC_PLAYERS.map(function(p){return '<option value="'+p.v+'^'+p.n+'">'+p.n+' (FV '+p.v+')</option>';}).join('');
+  });
+}
+function tcAddPlayer(side){
+  var sel=document.getElementById('tc-add-'+side); if(!sel||!sel.value) return;
+  var idx=sel.value.indexOf('^'); var v=sel.value.substring(0,idx); var n=sel.value.substring(idx+1);
+  (side==='a'?tcSideA:tcSideB).push({n:n,v:+v}); sel.value=''; tcRender();
+}
+function tcRemoveSide(side,i){ if(side==='a')tcSideA.splice(i,1); else tcSideB.splice(i,1); tcRender(); }
+function tcReset(){ tcSideA=[]; tcSideB=[]; tcRender(); }
+function tcRender(){
+  function renderSide(arr,s){
+    if(!arr.length) return '<span style="color:var(--muted);font-size:13px">No items yet</span>';
+    return arr.map(function(p,i){
+      return '<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 8px;background:var(--card);border-radius:6px;margin-bottom:4px;font-size:13px">'
+        +'<span>'+p.n+' <span style="color:var(--muted)">(FV '+p.v+')</span></span>'
+        +'<button data-side="'+s+'" data-idx="'+i+'" class="tc-rm-btn" style="background:none;border:none;color:var(--red);cursor:pointer;font-size:16px;line-height:1">&times;</button>'
+        +'</div>';
+    }).join('');
+  }
+  var ea=document.getElementById('tc-side-a'); var eb=document.getElementById('tc-side-b');
+  if(ea){ea.innerHTML=renderSide(tcSideA,'a'); ea.querySelectorAll('.tc-rm-btn').forEach(function(btn){btn.onclick=function(){tcRemoveSide(this.dataset.side,+this.dataset.idx);};});}
+  if(eb){eb.innerHTML=renderSide(tcSideB,'b'); eb.querySelectorAll('.tc-rm-btn').forEach(function(btn){btn.onclick=function(){tcRemoveSide(this.dataset.side,+this.dataset.idx);};});}
+  var ta=tcSideA.reduce(function(s,p){return s+p.v;},0);
+  var tb=tcSideB.reduce(function(s,p){return s+p.v;},0);
+  var va=document.getElementById('tc-val-a'); var vb=document.getElementById('tc-val-b');
+  if(va)va.textContent='Value: '+ta; if(vb)vb.textContent='Value: '+tb;
+  var verd=document.getElementById('tc-verdict');
+  if(verd&&tcSideA.length&&tcSideB.length){
+    var diff=ta-tb,abs=Math.abs(diff),msg,col;
+    if(abs<=5){msg='&#9989; FAIR TRADE (within 5 pts)';col='var(--green)';}
+    else if(diff>0){msg='&#9888;&#65039; SIDE B WINS by '+abs+' pts &mdash; Side A overpays';col='var(--accent3)';}
+    else{msg='&#9888;&#65039; SIDE A WINS by '+abs+' pts &mdash; Side B overpays';col='var(--accent2)';}
+    verd.style.display='block';
+    verd.innerHTML='<span style="font-size:1rem;font-weight:700;color:'+col+'">'+msg+'</span><div style="margin-top:6px;font-size:12px;color:var(--muted)">'+ta+' vs '+tb+' FanGraphs FV points</div>';
+  } else if(verd) verd.style.display='none';
+}
+
+// ====================================================
+// TEAM COMPARISON
+// ====================================================
+function renderTeamCompare(){
+  var sA=document.getElementById('cmp-team-a'),sB=document.getElementById('cmp-team-b'),res=document.getElementById('team-compare-result');
+  if(!sA||!sB||!res) return;
+  var tA=TEAMS.find(function(t){return t.id===sA.value;});
+  var tB=TEAMS.find(function(t){return t.id===sB.value;});
+  if(!tA||!tB||tA.id===tB.id){res.innerHTML='<p style="color:var(--muted)">Select two different teams.</p>';return;}
+  var fA=FARM_RANKS.find(function(f){return f.teamId===tA.id;});
+  var fB=FARM_RANKS.find(function(f){return f.teamId===tB.id;});
+  var gvf={'A+':12,'A':11,'A-':10,'B+':9,'B':8,'B-':7,'C+':6,'C':5,'C-':4,'D+':3,'D':2,'D-':1};
+  var defs=[
+    ['Record',tA.w+'-'+tA.l,tB.w+'-'+tB.l,tA.w,tB.w],
+    ['Win %',tA.winPct.toFixed(3),tB.winPct.toFixed(3),tA.winPct,tB.winPct],
+    ['Total PF',tA.pf.toLocaleString(),tB.pf.toLocaleString(),tA.pf,tB.pf],
+    ['FP/Game',tA.fpg,tB.fpg,+tA.fpg,+tB.fpg],
+    ['Hitting Pts',tA.hitPts.toLocaleString(),tB.hitPts.toLocaleString(),tA.hitPts,tB.hitPts],
+    ['Pitching Pts',tA.pitPts.toLocaleString(),tB.pitPts.toLocaleString(),tA.pitPts,tB.pitPts],
+    ['Pts Against',tA.pa.toLocaleString(),tB.pa.toLocaleString(),tB.pa,tA.pa],
+    ['Farm Grade',fA?fA.grade:'N/A',fB?fB.grade:'N/A',gvf[fA&&fA.grade]||0,gvf[fB&&fB.grade]||0]
+  ];
+  var rows=defs.map(function(d){
+    var aW=d[3]>d[4], tie=d[3]===d[4];
+    function cell(v,w){return '<td style="text-align:center;font-size:1rem;padding:10px;font-weight:'+(w?700:400)+';color:'+(w?'var(--green)':tie?'var(--muted)':'var(--text)')+'">'+v+(w?' &#10003;':'')+'</td>';}
+    return '<tr><td style="color:var(--muted);padding:10px 14px;font-size:13px">'+d[0]+'</td>'+cell(d[1],aW&&!tie)+cell(d[2],!aW&&!tie)+'</tr>';
+  }).join('');
+  res.innerHTML='<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse"><thead><tr>'
+    +'<th style="padding:10px 14px;text-align:left;color:var(--muted);font-size:12px">STAT</th>'
+    +'<th style="padding:10px;text-align:center;color:var(--accent);font-size:13px">'+tA.name+'</th>'
+    +'<th style="padding:10px;text-align:center;color:var(--accent3);font-size:13px">'+tB.name+'</th>'
+    +'</tr></thead><tbody>'+rows+'</tbody></table></div>';
+}
+
+// ====================================================
+// PERIOD SCORING HEATMAP
+// ====================================================
+function renderHeatmap(liveData){
+  var el=document.getElementById('heatmap-table'); if(!el) return;
+  if(!liveData||!liveData.schedule||!liveData.schedule.records){el.innerHTML='<p style="color:var(--muted)">No schedule data.</p>';return;}
+  var records=liveData.schedule.records;
+  var teamIds=Object.keys(records);
+  var maxP=0;
+  teamIds.forEach(function(id){var len=(records[id].weeklyPF||[]).filter(function(v){return v>0;}).length; if(len>maxP)maxP=len;});
+  if(!maxP){el.innerHTML='<p style="color:var(--muted)">No period data yet.</p>';return;}
+  var periodStats=[];
+  for(var pp=0;pp<maxP;pp++){
+    (function(p){
+      var vals=teamIds.map(function(id){return (records[id].weeklyPF||[])[p]||0;}).filter(function(v){return v>0;});
+      var avg=vals.length?vals.reduce(function(a,b){return a+b;},0)/vals.length:250;
+      var sd=vals.length?Math.sqrt(vals.map(function(v){return (v-avg)*(v-avg);}).reduce(function(a,b){return a+b;},0)/vals.length):50;
+      periodStats.push({avg:avg,sd:Math.max(sd,20)});
+    })(pp);
+  }
+  function getCol(val,p){
+    if(!val) return 'transparent';
+    var z=(val-periodStats[p].avg)/periodStats[p].sd;
+    if(z>1) return 'rgba(0,230,118,0.75)'; if(z>0.3) return 'rgba(0,230,118,0.35)';
+    if(z>-0.3) return 'rgba(255,255,255,0.07)';
+    if(z>-1) return 'rgba(255,77,109,0.35)'; return 'rgba(255,77,109,0.75)';
+  }
+  var sorted=teamIds.map(function(id){return {id:id,rec:records[id]};}).sort(function(a,b){return (b.rec.pf||0)-(a.rec.pf||0);});
+  var headers='';
+  for(var hh=0;hh<maxP;hh++) headers+='<th style="padding:5px 4px;text-align:center;color:var(--muted);font-size:11px;min-width:44px">P'+(hh+1)+'</th>';
+  var tableRows=sorted.map(function(item){
+    var rec=item.rec; var pf=rec.weeklyPF||[]; var cells=''; var total=0;
+    for(var pp=0;pp<maxP;pp++){var v=pf[pp]||0; total+=v; cells+='<td style="text-align:center;padding:5px 4px;background:'+getCol(v,pp)+';font-size:11px;color:var(--text)">'+(v>0?Math.round(v):'')+'</td>';}
+    return '<tr><td style="padding:7px 12px;font-size:12px;color:var(--text);white-space:nowrap">'+rec.name+'</td>'+cells+'<td style="padding:7px 8px;font-size:12px;font-weight:700;color:var(--accent)">'+Math.round(total)+'</td></tr>';
+  }).join('');
+  el.innerHTML='<table style="border-collapse:collapse;min-width:600px"><thead><tr><th style="padding:7px 12px;text-align:left;color:var(--muted);font-size:12px">Team</th>'+headers+'<th style="padding:7px 8px;color:var(--muted);font-size:11px">Total</th></tr></thead><tbody>'+tableRows+'</tbody></table>'
+    +'<div style="margin-top:12px;font-size:11px;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap">'
+    +'<span><span style="display:inline-block;width:12px;height:12px;background:rgba(0,230,118,0.75);border-radius:2px;margin-right:4px"></span>Elite</span>'
+    +'<span><span style="display:inline-block;width:12px;height:12px;background:rgba(0,230,118,0.35);border-radius:2px;margin-right:4px"></span>Above avg</span>'
+    +'<span><span style="display:inline-block;width:12px;height:12px;background:rgba(255,255,255,0.07);border-radius:2px;margin-right:4px"></span>Average</span>'
+    +'<span><span style="display:inline-block;width:12px;height:12px;background:rgba(255,77,109,0.35);border-radius:2px;margin-right:4px"></span>Below avg</span>'
+    +'<span><span style="display:inline-block;width:12px;height:12px;background:rgba(255,77,109,0.75);border-radius:2px;margin-right:4px"></span>Weak</span></div>';
+}
+
+// ====================================================
+// IL RETURN IMPACT
+// ====================================================
+function renderILReturnImpact(){
+  var el=document.getElementById('ilreturn-result'); if(!el) return;
+  var KNOWN_IL = {};
+  KNOWN_IL['Evil Honey Nut Chourio' + String.fromCharCode(39) + 's']=19;
+  KNOWN_IL['Honey Nut Berrios #Inaugural JBThrowback']=18;
+  KNOWN_IL['Jac-in' + String.fromCharCode(39) + ' It']=12;
+  KNOWN_IL['Wyatt and the Lankers']=12; KNOWN_IL['Layin Wood']=12;
+  KNOWN_IL['Honey Nut Chourio' + String.fromCharCode(39) + 's']=11;
+  KNOWN_IL['TBONERS']=10; KNOWN_IL['Golden Gate Gays']=9;
+  KNOWN_IL['Creative Name']=9; KNOWN_IL['Tank for LeBron']=8;
+  KNOWN_IL['Say Yes to Velo']=2; KNOWN_IL['First Pitch Swinging']=1;
+  var data=TEAMS.map(function(t){
+    var ilCount=KNOWN_IL[t.name]||0;
+    return {t:t,ilCount:ilCount,ptsBoost:Math.round(ilCount*3.2),curRank:TEAMS.indexOf(t)+1};
+  }).sort(function(a,b){return b.ilCount-a.ilCount;});
+  var cards=data.map(function(d){
+    var bdr=d.ilCount>=12?'var(--red)':d.ilCount>=6?'var(--gold)':d.ilCount>=2?'var(--green)':'var(--border)';
+    var lbl=d.ilCount>=12?'&#128308; Major':d.ilCount>=6?'&#128993; Moderate':d.ilCount>=2?'&#128994; Minor':'&#9898; Minimal';
+    return '<div style="background:var(--card2);border-radius:10px;padding:16px;border-left:3px solid '+bdr+';margin-bottom:10px">'
+      +'<div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px">'
+      +'<div><div style="font-weight:700;color:var(--text)">'+d.t.name+'</div>'
+      +'<div style="font-size:12px;color:var(--muted);margin-top:3px">'+lbl+' &mdash; '+d.ilCount+' on IR &bull; PR #'+d.curRank+' ('+d.t.w+'-'+d.t.l+')</div></div>'
+      +(d.ilCount>0?'<div style="text-align:right"><div style="font-size:1.2rem;font-weight:800;color:var(--accent3)">+'+d.ptsBoost+' pts/wk</div><div style="font-size:11px;color:var(--muted)">projected</div></div>':'')
+      +'</div></div>';
+  }).join('');
+  el.innerHTML='<div style="background:var(--card2);border-radius:8px;padding:12px;margin-bottom:16px;font-size:13px;color:var(--muted)">&#8505;&#65039; ~3.2 pts/player/week estimated. Impact varies by player quality.</div>'+cards;
+}
+
+// ====================================================
+// TOOLS INIT
+// ====================================================
+var toolsInit=false;
+function showToolView(v,btn){
+  document.querySelectorAll('[id^=tool-]').forEach(function(el){el.style.display='none';});
+  document.querySelectorAll('#tab-tools .sub-nav-btn').forEach(function(b){b.classList.remove('active');});
+  var el=document.getElementById('tool-'+v); if(el) el.style.display='';
+  if(btn) btn.classList.add('active');
+  if(v==='tradematch') renderTradeMatcher();
+  if(v==='tradecalc') tcPopulate();
+  if(v==='compare') renderTeamCompare();
+  if(v==='heatmap') renderHeatmap(window._liveData||window._waiverLiveData||{});
+  if(v==='ilreturn') renderILReturnImpact();
+}
+function initTools(){
+  if(toolsInit) return; toolsInit=true;
+  ['tm-team-a','tm-team-b','cmp-team-a','cmp-team-b'].forEach(function(id,i){
+    var sel=document.getElementById(id); if(!sel) return;
+    sel.innerHTML=TEAMS.map(function(t){return '<option value="'+t.id+'">'+t.name+'</option>';}).join('');
+    if(i===1||i===3) sel.selectedIndex=1;
+  });
+  tcPopulate();
+  showToolView('tradematch',document.querySelector('#tab-tools .sub-nav-btn'));
+}
+setInterval(function(){
+  if(window._liveData&&window._liveData.lastUpdated){
+    var lu=document.getElementById('lastUpdated');
+    if(lu) lu.textContent='Updated: '+new Date(window._liveData.lastUpdated).toLocaleString();
+  }
+},300000);
 </script>
 <!-- TEAM MODAL -->
 <div id="modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:1000;overflow-y:auto;backdrop-filter:blur(4px);" onclick="if(event.target===this)closeModal()">
