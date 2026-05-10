@@ -2149,44 +2149,51 @@ function initLeagueNews(liveData){
 
 // =================== INIT ===================
 document.addEventListener('DOMContentLoaded',function(){
-      // Fetch live data from data/league_data.json and init dashboard
-      fetch('data/league_data.json').then(r=>r.json()).then(liveData=>{
-              window._liveData = liveData;
-              // Update last updated timestamp
-              if(liveData.lastUpdated){
-                        const d=new Date(liveData.lastUpdated);
-                        document.getElementById('lastUpdated').textContent='Updated: '+d.toLocaleDateString()+' '+d.toLocaleTimeString();
-              }
-              // Update transactions with live data
-              if(liveData.transactions&&liveData.transactions.length>0){
-                        window.LIVE_TRANSACTIONS=liveData.transactions;
-                        initTrades();
-                        initWaivers(liveData);              initPicks(liveData);
-              initILTracker(liveData);
-              initPlayoffPicture(liveData);
-              initLeagueNews(liveData);
-
-              }
-              // Update current period if available
-              if(liveData.currentPeriod){
-                        document.querySelector('header p').textContent='2026 MLB Dynasty League · Power Rankings Dashboard · Period '+liveData.currentPeriod+' In Progress';
-              }
-      }).catch(()=>{
-              document.getElementById('lastUpdated').textContent='Updated: '+new Date().toLocaleDateString();
-      });
-  
-      // Init all tabs on load
-      initRankings();
-      initStandings();
-      initMatchups(liveData);
-      initTrades();
-      initWaivers();// Keyboard nav
-  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
-  
   Chart.defaults.color='#7b8caa';
   Chart.defaults.borderColor='rgba(255,255,255,0.05)';
-});
-</script>
+  
+  // Keyboard nav
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+  
+  // Init non-data tabs immediately
+  initRankings();
+  initStandings();
+  
+  // Fetch live data
+  fetch('data/league_data.json').then(r=>r.json()).then(liveData=>{
+    window._liveData = liveData;
+    
+    // Update last updated timestamp
+    if(liveData.lastUpdated){
+      const d=new Date(liveData.lastUpdated);
+      const el=document.getElementById('lastUpdated');
+      if(el) el.textContent='Updated: '+d.toLocaleDateString()+' '+d.toLocaleTimeString();
+    }
+    
+    // Update current period header
+    if(liveData.currentPeriod){
+      const el=document.querySelector('header p');
+      if(el) el.textContent='2026 MLB Dynasty League · Power Rankings Dashboard · Period '+liveData.currentPeriod+' In Progress';
+    }
+    
+    // Init all live-data tabs
+    initMatchups(liveData);
+    initTrades();
+    initWaivers(liveData);
+    initPicks(liveData);
+    initILTracker(liveData);
+    initPlayoffPicture(liveData);
+    initLeagueNews(liveData);
+    
+    // Re-init standings with live data (for PF/PA chart + division leaders)
+    initStandings();
+    
+  }).catch(e=>{
+    const el=document.getElementById('lastUpdated');
+    if(el) el.textContent='Updated: '+new Date().toLocaleDateString();
+    console.warn('Failed to load league data:', e);
+  });
+});</script>
 <!-- TEAM MODAL -->
 <div id="modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:1000;overflow-y:auto;backdrop-filter:blur(4px);" onclick="if(event.target===this)closeModal()">
   <div style="max-width:700px;margin:40px auto;background:var(--card);border-radius:16px;padding:24px;border:1px solid var(--border);position:relative;">
