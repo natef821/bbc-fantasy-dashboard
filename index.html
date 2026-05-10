@@ -884,6 +884,7 @@ function showTab(name){
   const btns=document.querySelectorAll('.nav-btn');
   btns.forEach(b=>{if(b.getAttribute('onclick')&&b.getAttribute('onclick').includes("'"+name+"'"))b.classList.add('active');});
   if(name==='trends')initTrends();
+  if(name==='standings'){ renderDivLeaders(); renderPFPAChart(); }
   if(name==='stats')initStats();
   if(name==='weekrank')initWeekRank();
   if(name==='farm')initFarm();
@@ -1073,8 +1074,8 @@ let pfpaChart=null;
 function renderPFPAChart(){
   const ctx=document.getElementById('pfpaChart');
   if(!ctx)return;
-  if(pfpaChart)pfpaChart.destroy();
-  pfpaChart=new Chart(ctx,{type:'scatter',data:{datasets:[{label:'Teams',data:TEAMS.map(t=>({x:t.pf,y:t.pa,label:t.short})),backgroundColor:COLORS,pointRadius:8,pointHoverRadius:10}]},options:{responsive:true,maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:d=>d.raw.label+': PF='+d.raw.x+', PA='+d.raw.y}},legend:{display:false}},scales:{x:{title:{display:true,text:'Points For'},grid:{color:'rgba(255,255,255,.05)'}},y:{title:{display:true,text:'Points Against'},grid:{color:'rgba(255,255,255,.05)'}},color:{scheme:'tableau10'}}}});
+  if(pfpaChart){ try{ pfpaChart.destroy(); }catch(e){} }
+  pfpaChart=new Chart(ctx,{type:'scatter',data:{datasets:[{label:'Teams',data:TEAMS.map((t,i)=>({x:t.pf,y:t.pa,label:t.short,backgroundColor:COLORS[i]||'#00d4aa'})),backgroundColor:TEAMS.map((_,i)=>COLORS[i]||'#00d4aa'),pointRadius:8,pointHoverRadius:11}]},options:{responsive:true,maintainAspectRatio:false,plugins:{tooltip:{callbacks:{label:d=>d.raw.label+': PF='+d.raw.x.toLocaleString()+', PA='+d.raw.y.toLocaleString()}},legend:{display:false}},scales:{x:{title:{display:true,text:'Points For (higher=better)'},grid:{color:'rgba(255,255,255,.05)'}},y:{title:{display:true,text:'Points Against (lower=better)'},grid:{color:'rgba(255,255,255,.05)'},reverse:true}}}});
 }
 
 // =================== MATCHUPS ===================
