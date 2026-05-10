@@ -1978,7 +1978,8 @@ function filterIL(){
   const el = document.getElementById('il-list');
   if(!el || !liveData) return;
 
-  // MLB player -> fantasy team ownership (from known trades/rosters)
+  // IL projected return timeframes (updated May 2026)  
+  const IL_RETURN_PROJECTIONS = {      // HNB players      'Tarik Skubal': 'Day-to-Day', 'Francisco Lindor': 'May 15', 'Corbin Burnes': 'June 1',      'Carlos Rodon': 'May 20', 'Blake Snell': 'June 15', 'Shane Bieber': 'June 2026',      'Justin Steele': 'May 25', 'Christian Yelich': 'May 18', 'Hunter Brown': 'TBD',      'Edwin Diaz': 'June 2026', 'Trevor Rogers': 'TBD', 'Gunnar Hoglund': 'TBD',      // Wyatt and the Lankers      'Wyatt Langford': 'Day-to-Day', 'Luis Robert Jr.': 'June 2026', 'Kodai Senga': '2027',      'Jose Berrios': 'Day-to-Day', 'Jordan Montgomery': 'May 20', 'Johan Oviedo': 'TBD',      'Gavin Stone': 'May 25', 'Steven Matz': 'TBD', 'Jonathan India': 'May 15',      'Anthony Rendon': '2027+', 'Hunter Harvey': 'Day-to-Day',      // Layin Wood      'Garrett Crochet': 'June 2026', 'Hunter Greene': 'June 2026', 'Max Scherzer': '2027',      'Triston Casas': 'TBD', 'Hurston Waldrep': 'May 25', 'Dean Kremer': 'Day-to-Day',      // Tank for LeBron      'Eugenio Suarez': 'Day-to-Day', 'Cristian Javier': 'TBD', 'Gavin Lux': 'May 20',      'Austin Hays': 'Day-to-Day', 'Everson Pereira': 'TBD',      // Honey Nut Chourio      'Giancarlo Stanton': 'June 2026', 'Jackson Holliday': 'May 20',      'Jackson Jobe': 'June 2026', 'Kutter Crawford': 'TBD',      // TBONERS      'Zach Eflin': 'TBD', 'Ryan Pepiot': 'TBD', 'Reese Olson': 'Day-to-Day',      'Ronel Blanco': 'May 25', 'Pete Fairbanks': 'May 18', 'Anthony Santander': 'Day-to-Day',      // Say Yes to Velo      'Gerrit Cole': 'May 20', 'Carlos Estevez': 'Day-to-Day',      // Jac-in It      'Mookie Betts': 'May 15', 'Ryan Helsley': 'Day-to-Day'    };    // MLB player -> fantasy team ownership (from known trades/rosters)
   const FANTASY_OWNERSHIP = {
     'Tarik Skubal': 'Honey Nut Berrios', 'Connor Norby': 'Honey Nut Berrios',
     'Reynaldo Lopez': 'Wyatt and the Lankers', 'Brandon Nimmo': 'Wyatt and the Lankers',
@@ -2012,13 +2013,13 @@ function filterIL(){
     
     // Find fantasy team ownership
     const playerName = p.name||'';
-    const fantasyTeam = Object.entries(FANTASY_OWNERSHIP).find(([k]) => playerName.includes(k))?.[1] || '';
+    const fantasyTeam = Object.entries(FANTASY_OWNERSHIP).find(([k]) => playerName.includes(k))?.[1] || '';        const projectedReturn = isIL ? (IL_RETURN_PROJECTIONS[playerName] || '') : '';
     
     return '<div style="display:grid;grid-template-columns:auto 1fr auto;gap:0.75rem;align-items:center;padding:0.6rem 1rem;border-radius:8px;background:' + bgColor + ';border:1px solid var(--border);">' +
       (p.headshotUrl ? '<img src="' + p.headshotUrl + '" onerror="this.style.display=\'none\'" style="width:36px;height:36px;border-radius:50%;object-fit:cover;">' : '<div style="width:36px;height:36px;border-radius:50%;background:var(--card-bg);display:flex;align-items:center;justify-content:center;font-size:1rem;">⚾</div>') +
       '<div>' +
         '<div style="display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;">' +
-          '<span style="font-weight:700;font-size:0.85rem;">' + (playerName||'Unknown') + '</span>' +
+          '<span style="font-weight:700;font-size:0.85rem;">' + (playerName||'Unknown') + '</span>' + (projectedReturn ? ' <span style="font-size:0.65rem;color:var(--accent3);font-weight:600;border:1px solid var(--accent3);border-radius:3px;padding:1px 4px;margin-left:3px;">ETA: ' + projectedReturn + '</span>' : '') +
           '<span style="font-size:0.7rem;color:var(--muted);">' + (p.posShortNames||'') + ' · ' + (p.teamShortName||p.teamName||'') + '</span>' +
           (fantasyTeam ? '<span style="font-size:0.65rem;background:rgba(79,142,247,0.2);color:var(--accent2);padding:1px 5px;border-radius:3px;font-weight:600;">🎮 ' + fantasyTeam.replace(/#Inaugural JBThrowback/,'').trim().split(' ').slice(0,2).join(' ') + '</span>' : '') +
         '</div>' +
