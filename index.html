@@ -18,7 +18,7 @@ nav{background:var(--card);border-bottom:1px solid var(--border);display:flex;ov
 .nav-btn{padding:14px 18px;border:none;background:none;color:var(--muted);cursor:pointer;font-size:.85rem;font-weight:600;white-space:nowrap;border-bottom:3px solid transparent;transition:all .2s;letter-spacing:.5px;}
 .nav-btn:hover{color:var(--text);background:rgba(255,255,255,.03);}
 .nav-btn.active{color:var(--accent);border-bottom-color:var(--accent);}
-.tab-content{display:none;padding:24px;max-width:1400px;margin:0 auto;animation:fadeIn .3s ease;}
+.tab-content{display:none;padding:24px;max-width:1400px;margin:0 auto;animation:fadeIn .3s ease forwards;}
 .tab-content.active{display:block;}
 @keyframes fadeIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
 .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:20px;}
@@ -149,6 +149,53 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
 .searchable-filter{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap;align-items:center;}
 
 #modal.open{display:block !important;}
+
+/* ===== ENHANCED VISUAL STYLES 2026 ===== */
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:#070b14}
+::-webkit-scrollbar-thumb{background:rgba(0,212,170,0.3);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:rgba(0,212,170,0.6)}
+
+nav{background:linear-gradient(90deg,#050d1a,#0a1628,#050d1a)!important;border-bottom:1px solid rgba(0,212,170,0.2)!important;box-shadow:0 2px 20px rgba(0,0,0,0.5)}
+.nav-btn{position:relative;transition:all 0.2s ease!important}
+.nav-btn::after{content:'';position:absolute;bottom:-2px;left:50%;transform:translateX(-50%) scaleX(0);width:70%;height:2px;background:var(--accent);transition:transform 0.2s ease;border-radius:2px}
+.nav-btn.active::after,.nav-btn:hover::after{transform:translateX(-50%) scaleX(1)}
+
+header{background:linear-gradient(135deg,#050d1a 0%,#0a1a2e 50%,#050d1a 100%)!important;border-bottom:2px solid rgba(0,212,170,0.25)!important}
+.header-left h1{background:linear-gradient(90deg,var(--accent),var(--accent2))!important;-webkit-background-clip:text!important;-webkit-text-fill-color:transparent!important}
+
+.card{background:linear-gradient(135deg,#101c2e,#0d1520)!important;border:1px solid rgba(255,255,255,0.07)!important;transition:transform 0.2s ease,box-shadow 0.2s ease,border-color 0.2s ease!important}
+.card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.5);border-color:rgba(0,212,170,0.25)!important}
+
+.pr-card{background:linear-gradient(135deg,#0e1a2c,#0a1220)!important;border:1px solid rgba(255,255,255,0.06)!important;border-radius:14px!important;transition:all 0.25s ease!important;margin-bottom:10px!important}
+.pr-card:hover{border-color:rgba(0,212,170,0.25)!important;box-shadow:0 6px 20px rgba(0,0,0,0.5)!important;transform:translateY(-1px)}
+
+.grade-badge{font-weight:800!important;letter-spacing:0.5px!important;box-shadow:0 2px 8px rgba(0,0,0,0.4)!important;font-size:14px!important}
+
+th{font-size:0.71rem!important;letter-spacing:1px!important;color:rgba(148,163,184,0.9)!important}
+tr:hover td{background:rgba(0,212,170,0.04)!important}
+
+.section-title{font-size:1.5rem!important;letter-spacing:-0.5px!important}
+.section-title::after{height:2px!important;background:linear-gradient(90deg,var(--accent),transparent)!important}
+
+.il-team-card{transition:transform 0.2s ease,box-shadow 0.2s ease!important}
+.il-team-card:hover{transform:translateY(-2px)!important;box-shadow:0 8px 20px rgba(0,0,0,0.5)!important}
+
+.sub-nav-btn{background:rgba(255,255,255,0.05)!important;border:1px solid rgba(255,255,255,0.1)!important;border-radius:6px!important;color:var(--muted)!important;padding:6px 14px!important;font-size:0.8rem!important;font-weight:600!important;cursor:pointer!important;transition:all 0.2s ease!important;margin:2px!important}
+.sub-nav-btn:hover,.sub-nav-btn.active-stat{background:rgba(0,212,170,0.12)!important;border-color:var(--accent)!important;color:var(--accent)!important}
+
+.trade-card{border-left:3px solid rgba(0,212,170,0.5)!important;background:linear-gradient(135deg,#101c2e,#0d1520)!important;transition:all 0.2s ease!important}
+.trade-card:hover{border-left-color:var(--accent)!important;transform:translateX(2px)}
+
+.prospect-card{border:1px solid rgba(255,255,255,0.06)!important;transition:all 0.2s ease!important}
+.prospect-card:hover{border-color:rgba(99,102,241,0.4)!important;transform:translateY(-1px)}
+
+.matchup-card{transition:all 0.2s ease!important}
+.matchup-card.current-period{border-color:rgba(0,212,170,0.5)!important;box-shadow:0 0 16px rgba(0,212,170,0.15)!important}
+
+@keyframes glow{0%,100%{box-shadow:0 0 6px rgba(255,68,68,0.5)}50%{box-shadow:0 0 16px rgba(255,68,68,0.9)}}
+.live-badge{animation:pulse 2s infinite,glow 2s infinite!important}
+/* ======================================== */
 </style>
 </head>
 <body>
@@ -165,7 +212,6 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
 
 <nav>
   <button class="nav-btn active" onclick="showTab('rankings')">🏆 Power Rankings</button>
-    <button class="sub-nav-btn" onclick="showStatView('dynasty',this)">👑 Dynasty Value</button>
   <button class="nav-btn" onclick="showTab('standings')">📊 Standings</button>
   <button class="nav-btn" onclick="showTab('trends')">📈 Trends</button>
   <button class="nav-btn" onclick="showTab('matchups')">⚔️ Matchups</button>
@@ -431,17 +477,6 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
 </div>
 <div id="tab-injuryil" class="tab-content">
   <h2>🏥 IL Tracker &amp; MLB Transactions</h2>
-  <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1rem;">
-    <input id="il-search" type="text" placeholder="Search player..." oninput="filterIL()" style="padding:6px 10px;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);min-width:180px;">
-    <select id="il-type-filter" onchange="filterIL()" style="padding:6px 10px;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);">
-      <option value="all">All Transactions</option>
-      <option value="il">IL Placements</option>
-      <option value="recall">Recalls / Activations</option>
-      <option value="option">Options / Designations</option>
-    </select>
-  </div>
-  <div id="il-list" style="display:grid;gap:0.5rem;"></div>
-
 <div id="fantasy-il-tracker" style="margin-top:28px">
 <h3 style="color:#7dd3fc;margin-bottom:12px">🏥 Fantasy League IL Tracker — Current IR Roster Spots</h3>
 <p style="color:#94a3b8;margin-bottom:16px;font-size:13px">Players currently on Injured Reserve (IR) slot. Updated May 9, 2026. These players count toward power rankings and team outlook but are temporarily unavailable.</p>
@@ -508,6 +543,17 @@ Felix Bautista (RP)
 </div></div>
 </div>
 </div></div>
+  <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1rem;">
+    <input id="il-search" type="text" placeholder="Search player..." oninput="filterIL()" style="padding:6px 10px;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);min-width:180px;">
+    <select id="il-type-filter" onchange="filterIL()" style="padding:6px 10px;background:var(--bg);border:1px solid var(--border);border-radius:6px;color:var(--text);">
+      <option value="all">All Transactions</option>
+      <option value="il">IL Placements</option>
+      <option value="recall">Recalls / Activations</option>
+      <option value="option">Options / Designations</option>
+    </select>
+  </div>
+  <div id="il-list" style="display:grid;gap:0.5rem;"></div>
+
 <div id="tab-playoff" class="tab-content">
   <h2>🏆 Playoff Picture</h2>
   <div id="playoff-summary" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;margin-bottom:2rem;"></div>
@@ -525,6 +571,13 @@ Felix Bautista (RP)
     <h3 style="color:var(--accent);margin-bottom:0.75rem;">🗓️ Remaining Schedule Strength</h3>
     <div id="playoff-strength"></div>
   </div>
+
+<div id="lottery-odds" style="margin-top:32px;padding:20px;background:linear-gradient(135deg,#1a1a2e,#16213e);border-radius:12px;border:1px solid #334155">
+  <h3 style="color:#fbbf24;margin-bottom:8px;font-size:1.1rem">🎰 2027 Draft Lottery Odds — Projected</h3>
+  <p style="color:#94a3b8;font-size:12px;margin-bottom:16px">Non-playoff teams receive lottery odds weighted by standings. Worst record = best odds for the 2027 #1 overall pick.</p>
+  <div id="lottery-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px"></div>
+  <p style="color:#64748b;font-size:11px;margin-top:12px;text-align:center">* Projected based on current standings. Odds finalize at end of regular season.</p>
+</div>
 </div>
 <div id="tab-news" class="tab-content">
   <h2>📰 League News &amp; Commissioner Corner</h2>
@@ -670,7 +723,7 @@ const TEAM_WRITEUPS = [
     weaknesses:'Their offense ranks 7th in hitting points (1,332.75), meaning they rely heavily on pitching to win. Surrendering Patrick Sandoval, David Shields, and two 2028 picks to land Lopez and Nimmo is a cost that reduces future flexibility.',
     injuries:'MAJOR IL CONCERNS (12 players): Wyatt Langford (LF), Luis Robert Jr. (CF), Kodai Senga (SP), Jose Berrios (SP), Jordan Montgomery (SP), Johan Oviedo (SP), Gavin Stone (SP), Steven Matz (SP), Jonathan India (2B), Anthony Rendon (3B), Hunter Harvey (RP), Ronny Henriquez (RP). Multiple key players on IL — returns could significantly boost an already dominant team.',
     outlook:'Overwhelming favorites to win their division and secure a top-2 seed. Championship-caliber roster with the pitching to back it up.',
-    keyPlayers:['Reynaldo Lopez (SP — ATL, trade acquisition Apr 23)','Brandon Nimmo (OF — TEX, trade acquisition Apr 23)','Ace pitching staff anchoring the division lead']
+    keyPlayers:['Reynaldo Lopez (SP, A+)','Adley Rutschman (C)','Alex Bregman (3B)','Brandon Nimmo (OF)']
   },
   {
     id:'8znzrpg1mg7kg72e', name:'TBONERS', pr:2, record:'9-3', 
@@ -681,7 +734,7 @@ const TEAM_WRITEUPS = [
     weaknesses:'Their 7 waiver claims suggest ongoing minor roster management. The pre-season trade cost them some offensive upside (Paredes, Yoshida) but gained pitching depth.',
     injuries:'IL CONCERNS (10 players): Zach Eflin (SP), Ryan Pepiot (SP), Reese Olson (SP), Ronel Blanco (SP), Bowden Francis (SP), Ryan Feltner (SP), Alec Marsh (SP), Bailey Falter (SP), Pete Fairbanks (RP), Anthony Santander (RF). Heavy pitching-side IL — rotation depth thin until these arms return.',
     outlook:'Legitimate title contender. Strong across the board with a commanding division lead.',
-    keyPlayers:['Eduard Bazardo (RP — SEA, pre-season trade)','Alex Bregman (3B — CHC, pre-season trade)','Strong depth across both pitching and hitting']
+    keyPlayers:['Shohei Ohtani (DH/SP, S+)','Alex Bregman (3B, A)','Max Fried (SP, A)','Mike Trout (CF)']
   },
   {
     id:'g8p3r1i9mg7kg72b', name:'Honey Nut Berrios #Inaugural JBThrowback', pr:3, record:'8-4',
@@ -692,7 +745,7 @@ const TEAM_WRITEUPS = [
     weaknesses:'The cost of acquiring Skubal was enormous — 8 players plus 3 picks sent to GGG. While the immediate upgrade is clear, the dynasty depth took a significant hit. Over-reliance on Skubal means any health issue would be devastating.',
     injuries:'SIGNIFICANT IL CONCERNS (18 players): Tarik Skubal (SP), Francisco Lindor (SS), Corbin Burnes (SP), Carlos Rodon (SP), Blake Snell (SP), Shane Bieber (SP), Justin Steele (SP), Christian Yelich (LF), Hunter Brown (SP), Edwin Diaz (RP), Trevor Rogers (SP), A.J. Minter (RP), Justin Martinez (RP), Gunnar Hoglund (SP), Ben Casparius (SP), Cody Ponce (SP), Mason Englert (RP), Brandon Walter (SP). Most elite IL talent in the league — when healthy this roster is top-3.',
     outlook:'Legitimate title contender. Tarik Skubal gives them the best starter in the league, and the returning IL players could push this roster to another level. When fully healthy, HNB may be the most complete team in the league. IL returns are the key storyline to watch — a healthy HNB is a legitimate championship threat.',
-    keyPlayers:['Tarik Skubal (SP — DET, acquired from GGG Apr 16)','Connor Norby (2B/3B — MIA, acquired from GGG Apr 16)','Pete Alonso (1B — BAL)']
+    keyPlayers:['Tarik Skubal (SP, S)','Francisco Lindor (SS)','Junior Caminero (3B)','Juan Soto (OF, A+)']
   },
   {
     id:'xgktl0otmg7kg72d', name:'Tank for LeBron', pr:4, record:'8-4',
@@ -703,7 +756,7 @@ const TEAM_WRITEUPS = [
     weaknesses:'FP/G of 5.0 ranks 7th in the league, suggesting some roster inefficiency. They have not made any in-season trades, relying entirely on waiver wire acquisitions for upgrades.',
     injuries:'IL CONCERNS (8 players): Eugenio Suarez (3B), Cristian Javier (SP), Gavin Lux (2B), Austin Hays (LF), Everson Pereira (CF), A.J. Puk (RP), Evan Phillips (RP), Hayden Wesneski (SP). Multiple players injured — return timelines uncertain.',
     outlook:'Playoff lock. Their consistent performance and aggressive roster management make them a dangerous opponent. Need to hold their current pace in the back half of the season.',
-    keyPlayers:['Active waiver wire strategy (11 claims)','Consistent offensive production across the lineup','Positive PF/PA differential (+134.5 pts)']
+    keyPlayers:['Aaron Judge (OF, A+)','Ben Rice (C/1B)','CJ Abrams (SS)','Jesus Luzardo (SP)']
   },
   {
     id:'w6b31holmg7kg72f', name:'Layin Wood', pr:5, record:'7-5',
@@ -714,7 +767,7 @@ const TEAM_WRITEUPS = [
     weaknesses:'Negative PF/PA differential (-28) is a warning sign — they win close games but get outscored overall. Hitting ranks 10th in the league at 1,256.75 pts. Giving away Nolan Arenado reduced their power potential.',
     injuries:'MAJOR IL CONCERNS (12 players): Garrett Crochet (SP), Hunter Greene (SP), Max Scherzer (SP), Triston Casas (1B), Hurston Waldrep (SP), Dean Kremer (SP), AJ Smith-Shawver (SP), DJ Herz (SP), Landon Knack (SP), Brusdar Graterol (RP), Jared Koenig (RP), Gabriel Arias (SS). Crochet and Hunter Greene are elite starters — Layin Wood becomes a rotation monster when they return.',
     outlook:'On the playoff bubble. Need to win 4-5 of their remaining games to feel secure. The Dean Kremer addition helps the rotation, but the offensive struggles are a real concern.',
-    keyPlayers:['Dean Kremer (SP — BAL, acquired from GGG May 9)','Nolan Arenado (3B — ARI, traded away Apr 4)','Active trade participation — multiple deals this season']
+    keyPlayers:['Garrett Crochet (SP, A+)','James Wood (OF, A)','Hunter Greene (SP)','Chris Sale (SP)']
   },
   {
     id:'nbnjqx3cmg7kg72g', name:"Honey Nut Chourio\'s", pr:6, record:'6-6',
@@ -725,7 +778,7 @@ const TEAM_WRITEUPS = [
     weaknesses:'At .500 with a negative points differential (-238.8 PA vs PF), they need to finish strong. Giving up a 2028 R1 pick for Okamoto is a significant dynasty cost. Pitching has been inconsistent below the top of the rotation.',
     injuries:'IL CONCERNS (11 players): Giancarlo Stanton (RF), Jackson Holliday (2B), Jackson Jobe (SP), Kutter Crawford (SP), Brandon Williamson (SP), David Festa (SP), Drew Thorpe (SP), Troy Melton (RP), Gabe Speier (RP), Will Vest (RP), Logan Evans (SP). Stanton and Holliday returns are key — both have top upside when healthy.',
     outlook:'Playoff dark horse. Need to go at least 4-2 in the final six games to have a realistic shot. The Okamoto addition gives them a bat they lacked, and if the pitching holds, they can make a run.',
-    keyPlayers:['Kazuma Okamoto (1B/3B — TOR, acquired from EvilHNC May 4)','Kyle Freeland (SP — COL, acquired from GGG Apr 10)','Jackson Chourio (OF — MIL, namesake player)']
+    keyPlayers:['Roki Sasaki (SP)','Jackson Holliday (2B)','Tommy Troy (SS, MiLB)','Jackson Jobe (SP)']
   },
   {
     id:'lhaxchcjmg7kg72c', name:'Say Yes to Velo', pr:7, record:'6-6',
@@ -736,7 +789,7 @@ const TEAM_WRITEUPS = [
     weaknesses:'Only 5 WW claims — one of the most passive teams on the waiver wire. This limits their ability to respond to injuries or find hot streamers. With 738.25 PBL, they are stretched at many roster spots.',
     injuries:'IL CONCERNS (2 players): Gerrit Cole (SP), Carlos Estevez (RP). Cole is a top-end starter — his return significantly boosts the rotation.',
     outlook:'Bubble team. The 3-game win streak is encouraging but they need to sustain it. The FP/G of 5.23 suggests real talent — they just need everything to click simultaneously.',
-    keyPlayers:['Consistent core roster without major shake-ups','3-game active winning streak heading into Period 13','Strong FP/G of 5.23 — 4th among .500 teams']
+    keyPlayers:['Jose Soriano (SP)','Gerrit Cole (SP, elite)','CJ Abrams (SS)','Michael Kopech (RP)']
   },
   {
     id:'7gq3y996mg7kg729', name:"Evil Honey Nut Chourio\'s", pr:8, record:'5-7',
@@ -747,7 +800,7 @@ const TEAM_WRITEUPS = [
     weaknesses:'Trading Dylan Cease and an enormous package to GGG (12 pieces for 2 players) has depleted dynasty depth significantly. At 5-7, the record does not reflect their offensive talent. Pitching has been the Achilles heel — 1,472.5 pts is below average.',
     injuries:'SEVERE IL SITUATION (19 players): Ronald Acuna Jr. (RF), Roman Anthony (LF), Tommy Edman (2B), Grayson Rodriguez (SP), Jared Jones (SP), Tanner Houck (SP), Cade Horton (SP), Joe Musgrove (SP), Kyle Teel (C), Josh Smith (3B), Josiah Gray (SP), Tylor Megill (SP), Quinn Priester (SP), Tatsuya Imai (SP), Matt Brash (RP), Ben Joyce (RP), Justin Slaten (RP), RJ Petit (RP), Romy Gonzalez. Most players on IL in the league — Acuna and Roman Anthony returns could be season-defining.',
     outlook:'Mathematically alive but facing an uphill climb at 5-7. They need to win 5-6 of their remaining 6 games. The offensive firepower is there, but pitching instability may cost them.',
-    keyPlayers:['George Springer (OF — TOR, pre-season acquisition)','Kris Bubic (SP/RP — KC, from GGG Apr 10)','Bryan Woo (SP — SEA, from GGG Apr 10)']
+    keyPlayers:['Ronald Acuna Jr. (OF, S)','Yordan Alvarez (OF, A+)','Roman Anthony (OF, elite)','Tommy Edman (2B)']
   },
   {
     id:'vhuxfzygmg7kg728', name:'Creative Name', pr:9, record:'5-7',
@@ -758,7 +811,7 @@ const TEAM_WRITEUPS = [
     weaknesses:'Most waiver claims in the league but a 5-7 record. Pitching (1,182.5 pts — last in the league) is their fundamental problem. FP/G of 4.6 is the worst of any team not firmly in last place.',
     injuries:'IL CONCERNS (9 players): Carlos Correa (3B), Justin Verlander (SP), Patrick Sandoval (SP), Clarke Schmidt (SP), Lars Nootbaar (LF), Yainer Diaz (C), Clayton Beeter (RP), Carter Baumler (RP), Pavin Smith (1B). Correa and Verlander returns are pivotal for this team.',
     outlook:'Long shot for playoffs. At 5-7 they need near-perfection. More likely they focus on the 2028 picks and building for 2027.',
-    keyPlayers:['Patrick Sandoval (SP — BOS, from Lankers trade Apr 23)','David Shields (SP — KC, from Lankers trade Apr 23)','Brandon Clarke (SP — STL, pre-season from EvilHNC)']
+    keyPlayers:['Pete Alonso (1B, A)','Ketel Marte (2B, A)','Riley Greene (OF)','Carlos Correa (SS/3B)']
   },
   {
     id:'0qrvkt09mg7kg72f', name:'First Pitch Swinging', pr:10, record:'4-8',
@@ -769,7 +822,7 @@ const TEAM_WRITEUPS = [
     weaknesses:'At 4-8 with a 2-L streak, they are effectively eliminated. Offense ranks 11th with just 1,214.5 hitting points. Only 1 WW claim (last in the league) suggests a passive approach to roster management in a season where they needed to be most active.',
     injuries:'IL CONCERNS (1 player): Felix Bautista (RP). Elite closer — his return will be a major boost to the bullpen.',
     outlook:'Essentially eliminated from playoff contention. The focus shifts to evaluating their young core — Tommy Troy and the pitching staff — heading into the 2027 dynasty draft.',
-    keyPlayers:['Logan Gilbert (SP — SEA, acquired pre-season from EvilHNC)','Tommy Troy (2B/CF — ARI, from EvilHNC Apr 9)','Josh Hader (RP — HOU, from EvilHNC Apr 9)']
+    keyPlayers:['Cam Schlittler (SP, A)','Matt Olson (1B, A)','Cristopher Sanchez (SP)','Dillon Dingler (C, MiLB)']
   },
   {
     id:'aw407ddlmg7kg72a', name:'Golden Gate Gays', pr:11, record:'3-9',
@@ -780,7 +833,7 @@ const TEAM_WRITEUPS = [
     weaknesses:'Worst hitting in the league (1,077 pts). Traded away Skubal, their only elite-level asset. The rebuild requires multiple seasons of patience. Their 3-9 record is the inevitable cost of going all-in on the future.',
     injuries:'IL CONCERNS (9 players): Spencer Schwellenbach (SP), Mick Abel (SP), Hayden Birdsong (SP), Cody Bradford (SP), Jorge Polanco (2B), Alejandro Kirk (C), Randy Rodriguez (RP), Trevor Williams (SP), Joey Wentz (SP). Pitching-heavy IL — Schwellenbach return is key.',
     outlook:'GGG is focused entirely on the 2027 draft and building for 2028. The prospect haul is genuinely impressive — if even 3-4 of these players develop, GGG could be a contender in 2-3 years.',
-    keyPlayers:['Jhonny Level (SS — SF, from HNB Apr 16)','Nick Lodolo (SP — CIN, from HNB Apr 16)','Brandon Sproat (SP — MIL, from HNB Apr 16)']
+    keyPlayers:['Eduardo Quintero (CF, FG#17 FV50)','Kyle Tucker (OF, A+)','Jacob Wilson (SS)','Arjun Nimmala (SS, MiLB)']
   },
   {
     id:'jwg2zkwzmg7kg72a', name:"Jac-in\' It", pr:12, record:'2-10',
@@ -791,7 +844,7 @@ const TEAM_WRITEUPS = [
     weaknesses:"Everything in 2026: 2-10 record, 0-6 in division, 6-game losing streak. Pitching (1,117 pts — last in the league) is the primary issue. The rebuild has left them without quality MLB arms.",
     injuries:'IL CONCERNS (12 players): Mookie Betts (SS, LAD), Ryan Helsley (RP, STL), Yusei Kikuchi (SP, TOR), Max Muncy (2B, LAD), Jake Cronenworth (1B, SD), Jasson Dominguez (LF, NYY), Parker Meadows (CF, DET), Denzel Clarke (CF, ATH), Bobby Miller (SP, LAD), Ha-seong Kim (SS, SD), Edwin Uceta (RP), Mike Vasil (RP). Mookie Betts return is the headliner \u2014 top-5 player when healthy.',
     outlook:"This is a 2027-and-beyond team. They will be an active seller in any remaining trade deadline moves. The combination of Caden Dana, Robert Gasser, and draft picks gives them a foundation to build from.",
-    keyPlayers:["Dylan Cease (SP — TOR, pre-season acquisition from FPS)","Caden Dana (SP — LAA, acquired from GGG Apr 16)","Robert Gasser (SP — MIL, acquired from GGG Apr 16)"]
+    keyPlayers:['Mookie Betts (SS, A+)','Ryan Helsley (RP, A)','Caden Dana (SP, MiLB)','Jett Williams (SS, FG#42)']
   }
 ];
 // FARM / PROSPECT RANKINGS
@@ -1771,9 +1824,9 @@ function renderPicksGrid(picks){
         const p = yrPicks.find(pk => pk.round === rd);
         if(!p) return;
         let badge, title;
-        if(p.nowOwner === teamName && !p.traded) { badge = '<span style="display:inline-block;background:#1a3a5c;color:#60a5fa;font-size:0.6rem;padding:1px 4px;border-radius:3px;margin-right:2px;" title="Own pick">' + rd + '</span>'; }
-        else if(p.nowOwner === teamName && p.traded) { badge = '<span style="display:inline-block;background:#1a5c3a;color:#4ade80;font-size:0.6rem;padding:1px 4px;border-radius:3px;margin-right:2px;" title="Acquired from ' + (p.originalOwner||'') + '">' + rd + '✓</span>'; }
-        else if(p.originalOwner === teamName && p.nowOwner !== teamName) { badge = '<span style="display:inline-block;background:#3a1a1a;color:#f87171;font-size:0.6rem;padding:1px 4px;border-radius:3px;margin-right:2px;text-decoration:line-through;" title="Traded to ' + p.nowOwner + '">' + rd + '</span>'; }
+        if(p.nowOwner === teamName && !p.traded) { badge = '<span style="display:inline-block;background:#0d2540;border:1px solid #2563eb;color:#93c5fd;font-size:0.6rem;padding:1px 4px;border-radius:3px;margin-right:2px;" title="Own pick">' + rd + '</span>'; }
+        else if(p.nowOwner === teamName && p.traded) { badge = '<span style="display:inline-block;background:#0d3d22;border:2px solid #22c55e;color:#4ade80;font-size:0.6rem;padding:1px 4px;border-radius:3px;margin-right:2px;" title="Acquired from ' + (p.originalOwner||'') + '">' + rd + '✓</span>'; }
+        else if(p.originalOwner === teamName && p.nowOwner !== teamName) { badge = '<span style="display:inline-block;background:#2d1515;border:1px solid #dc2626;color:#fca5a5;opacity:0.8;text-decoration:line-through;font-size:0.6rem;padding:1px 4px;border-radius:3px;margin-right:2px;text-decoration:line-through;" title="Traded to ' + p.nowOwner + '">' + rd + '</span>'; }
         else { badge = ''; }
         html += badge;
       });
@@ -1789,9 +1842,9 @@ function renderPicksGrid(picks){
   
   html += '</div>';
   html += '<div style="margin-top:0.75rem;font-size:0.68rem;color:var(--muted);display:flex;gap:1rem;flex-wrap:wrap;">';
-  html += '<span><span style="background:#1a3a5c;color:#60a5fa;padding:1px 5px;border-radius:3px;">Rn</span> Own pick</span>';
-  html += '<span><span style="background:#1a5c3a;color:#4ade80;padding:1px 5px;border-radius:3px;">Rn✓</span> Acquired via trade</span>';
-  html += '<span><span style="background:#3a1a1a;color:#f87171;padding:1px 5px;border-radius:3px;text-decoration:line-through;">Rn</span> Traded away</span>';
+  html += '<span><span style="background:#0d2540;border:1px solid #2563eb;color:#93c5fd;padding:1px 5px;border-radius:3px;">Rn</span> Own pick</span>';
+  html += '<span><span style="background:#0d3d22;border:2px solid #22c55e;color:#4ade80;padding:1px 5px;border-radius:3px;">Rn✓</span> Acquired via trade</span>';
+  html += '<span><span style="background:#2d1515;border:1px solid #dc2626;color:#fca5a5;opacity:0.8;text-decoration:line-through;padding:1px 5px;border-radius:3px;text-decoration:line-through;">Rn</span> Traded away</span>';
   html += '</div>';
   el.innerHTML = html;
 }
@@ -1946,6 +1999,41 @@ function renderLuckIndex(liveData){
 
 // ===================== PLAYOFF PICTURE =====================
 let _playoffLiveData = null;
+
+
+function renderLotteryOdds(liveData) {
+  const el = document.getElementById('lottery-grid');
+  if (!el || !liveData) return;
+  
+  const standings = liveData.standings || [];
+  const allSorted = [...standings].sort((a,b) => (a.winPct||0) - (b.winPct||0) || (a.pf||0) - (b.pf||0));
+  
+  // Get playoff teams
+  let playoffIds = new Set();
+  try { const pt = getPlayoffTeams(liveData); if(pt) pt.forEach(t => playoffIds.add(t.id)); } catch(e){}
+  
+  // Non-playoff teams sorted worst to best
+  const nonPlayoff = allSorted.filter(t => !playoffIds.has(t.id));
+  const weights = [40, 25, 15, 10, 6, 4];
+  const colors = ['#ef4444','#f97316','#eab308','#22c55e','#3b82f6','#8b5cf6'];
+  
+  el.innerHTML = nonPlayoff.slice(0, 6).map((t, i) => {
+    const pct = weights[i] || 2;
+    const color = colors[i] || '#64748b';
+    const record = (t.w||0) + '-' + (t.l||0);
+    const shortName = (t.name||t.short||'Team').split(' ').slice(0,3).join(' ');
+    return '<div style="background:#0f172a;border-radius:8px;padding:12px;border-left:3px solid '+color+'">'+
+      '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">'+
+        '<span style="font-weight:700;color:#f1f5f9;font-size:13px">'+shortName+'</span>'+
+        '<span style="color:'+color+';font-weight:800;font-size:20px">'+pct+'%</span>'+
+      '</div>'+
+      '<div style="font-size:11px;color:#94a3b8">Record: '+record+' · Rank #'+(i+7)+'</div>'+
+      '<div style="margin-top:8px;background:#1e293b;border-radius:4px;height:6px;overflow:hidden">'+
+        '<div style="height:100%;width:'+pct+'%;background:'+color+';border-radius:4px;transition:width 1s ease"></div>'+
+      '</div>'+
+    '</div>';
+  }).join('');
+}
 
 function initPlayoffPicture(liveData){
   _playoffLiveData = liveData;
