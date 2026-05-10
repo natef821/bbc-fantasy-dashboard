@@ -147,6 +147,8 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
 .tl-content{background:var(--card2);border-radius:8px;padding:12px;}
 .tl-date{font-size:.75rem;color:var(--muted);margin-bottom:4px;}
 .searchable-filter{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap;align-items:center;}
+
+#modal.open{display:block !important;}
 </style>
 </head>
 <body>
@@ -194,6 +196,20 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
 
 <!-- STANDINGS TAB -->
 <div id="tab-standings" class="tab-content">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem;">
+    <!-- Division Leaders -->
+    <div style="background:var(--card-bg);border-radius:12px;padding:1rem;">
+      <h3 style="color:var(--accent);margin-bottom:0.75rem;font-size:0.95rem;">🏆 Division Leaders</h3>
+      <div id="div-leaders-container"></div>
+    </div>
+    <!-- PF vs PA Chart -->
+    <div style="background:var(--card-bg);border-radius:12px;padding:1rem;">
+      <h3 style="color:var(--accent);margin-bottom:0.75rem;font-size:0.95rem;">📊 Points For vs Against</h3>
+      <div id="pfpa-container" style="position:relative;height:160px;">
+        <canvas id="pfpaChart"></canvas>
+      </div>
+    </div>
+  </div>
   <div class="section-title">📊 League Standings</div>
   <div class="card">
     <div class="filter-row">
@@ -302,10 +318,20 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
     <canvas id="statsBarChart" height="80"></canvas>
   </div>
   <div id="stat-hitting" class="stat-view" style="display:none">
-    <div id="hitting-categories" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;"></div>
+    <div style="overflow-x:auto;">
+      <table id="hitting-table" class="standings-table" style="width:100%;">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </div>
   <div id="stat-pitching" class="stat-view" style="display:none">
-    <div id="pitching-categories" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem;"></div>
+    <div style="overflow-x:auto;">
+      <table id="pitching-table" class="standings-table" style="width:100%;">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
   </div>
   <div id="stat-radar" class="stat-view" style="display:none">
     <div style="display:flex;gap:1rem;flex-wrap:wrap;align-items:flex-start;justify-content:center;">
@@ -341,6 +367,12 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
     <div style="background:var(--card-bg);border-radius:12px;padding:1rem;">
       <h3 style="color:var(--accent);margin-bottom:0.75rem;">Waiver Activity Timeline</h3>
       <canvas id="waiverChart" height="160"></canvas>
+    </div>
+  </div>
+  <div style="background:var(--card-bg);border-radius:12px;padding:1rem;margin-bottom:1.5rem;">
+    <h3 style="color:var(--accent);margin-bottom:0.75rem;font-size:0.95rem;">📈 Waiver Activity Timeline (by Period)</h3>
+    <div style="position:relative;height:200px;">
+      <canvas id="waiverTimeline"></canvas>
     </div>
   </div>
   <div style="background:var(--card-bg);border-radius:12px;padding:1rem;">
@@ -866,11 +898,14 @@ function showTab(name){
 
 function showStatView(v,btn){
   document.querySelectorAll('[id^=stat-]').forEach(el=>el.style.display='none');
-  document.querySelectorAll('.tab-s-btn').forEach(b=>b.classList.remove('active'));
-  document.getElementById('stat-'+v).style.display='';
-  btn.classList.add('active');
-  if(v==='radar')initRadar();
-  if(v==='luck') renderLuckIndex(window._waiverLiveData);
+  document.querySelectorAll('#tab-stats .sub-nav-btn').forEach(b=>b.classList.remove('active'));
+  const el = document.getElementById('stat-'+v);
+  if(el) el.style.display='';
+  if(btn) btn.classList.add('active');
+  if(v==='radar') initRadar();
+  if(v==='luck') renderLuckIndex(window._waiverLiveData || window._liveData);
+  if(v==='hitting' && document.querySelector('#hitting-table tbody') && !document.querySelector('#hitting-table tbody tr')) renderHittingTable();
+  if(v==='pitching' && document.querySelector('#pitching-table tbody') && !document.querySelector('#pitching-table tbody tr')) renderPitchingTable();
 }
 
 // =================== MODAL ===================
@@ -974,6 +1009,29 @@ let standingsSortKey='winPct', standingsSortDir=-1;
 function initStandings(){
   renderStandingsTable();
   renderPFPAChart();
+  renderDivLeaders();
+}
+function renderDivLeaders(){
+  const el = document.getElementById('div-leaders-container');
+  if(!el) return;
+  // Division assignments
+  const DIVISIONS = {
+    "Duran's Tennis Club": ['odce8gzsmg7kg72c','8znzrpg1mg7kg72e','g8p3r1i9mg7kg72b','xgktl0otmg7kg72d','ckm3yf5rmg7kg729','nbnjqx3cmg7kg72g'],
+    "Ozuna's Designated Drivers": ['0b0hd0qymg7kg72i','vhuxfzygmg7kg728','lhaxchcjmg7kg72c','0qrvkt09mg7kg72f','aw407ddlmg7kg72a','jwg2zkwzmg7kg72a']
+  };
+  el.innerHTML = Object.entries(DIVISIONS).map(([divName, ids]) => {
+    const divTeams = TEAMS.filter(t => ids.includes(t.id)).sort((a,b)=>{
+      if(b.w !== a.w) return b.w - a.w;
+      return b.pf - a.pf;
+    });
+    const leader = divTeams[0];
+    if(!leader) return '';
+    return '<div style="margin-bottom:0.6rem;padding:0.5rem;background:rgba(0,212,170,0.08);border-radius:8px;border-left:3px solid var(--accent);">' +
+      '<div style="font-size:0.68rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;">' + divName + '</div>' +
+      '<div style="font-weight:700;font-size:0.9rem;margin-top:2px;">' + leader.name + '</div>' +
+      '<div style="font-size:0.75rem;color:var(--muted);">' + leader.w + '-' + leader.l + ' · ' + leader.pf.toLocaleString() + ' PF</div>' +
+    '</div>';
+  }).join('');
 }
 function sortStandings(key,btn){
   if(standingsSortKey===key)standingsSortDir*=-1;
@@ -1061,21 +1119,33 @@ function showMatchupPeriod(week, btn){
   if(!cardsEl) return;
   if(btn){ document.querySelectorAll('#matchups-period-nav .sub-nav-btn').forEach(b=>b.classList.remove('active')); btn.classList.add('active'); }
   const filtered = week === null ? periods : periods.filter(p => p._week === week);
-  cardsEl.innerHTML = filtered.map(period => {
+  
+  cardsEl.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1rem;">' +
+  filtered.map(period => {
     const mups = (period.matchups||[]).map(m => {
-      const w1 = m.winner === m.team1;
-      const w2 = m.winner === m.team2;
-      return '<div style="display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:0.5rem;padding:0.4rem 0;border-bottom:1px solid var(--border);">' +
-        '<span style="text-align:right;font-weight:' + (w1?'700':'400') + ';color:' + (w1?'var(--accent)':'var(--text)') + ';">' + m.team1 + '</span>' +
-        '<span style="font-size:0.75rem;color:var(--muted);text-align:center;white-space:nowrap;">' +
-          '<span style="color:' + (w1?'var(--accent)':'var(--text)') + '">' + (m.team1Pts||0).toFixed(2) + '</span> - ' +
-          '<span style="color:' + (w2?'var(--accent)':'var(--text)') + '">' + (m.team2Pts||0).toFixed(2) + '</span>' +
-        '</span>' +
-        '<span style="text-align:left;font-weight:' + (w2?'700':'400') + ';color:' + (w2?'var(--accent)':'var(--text)') + ';">' + m.team2 + '</span>' +
+      const w1 = m.winner && m.winner === m.team1;
+      const w2 = m.winner && m.winner === m.team2;
+      const t1short = (m.team1||'').replace(/#Inaugural JBThrowback/,'').trim().split(' ').slice(0,3).join(' ');
+      const t2short = (m.team2||'').replace(/#Inaugural JBThrowback/,'').trim().split(' ').slice(0,3).join(' ');
+      const t1pts = (m.team1Pts||0);
+      const t2pts = (m.team2Pts||0);
+      const inProgress = t1pts === 0 && t2pts === 0;
+      return '<div style="display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:0.5rem;padding:0.5rem 0;border-bottom:1px solid rgba(255,255,255,0.06);">' +
+        '<div style="text-align:right;">' +
+          '<div style="font-size:0.8rem;font-weight:' + (w1?'700':'400') + ';color:' + (w1?'var(--accent)':'var(--text)') + ';">' + t1short + '</div>' +
+          '<div style="font-size:1rem;font-weight:700;color:' + (w1?'var(--accent)':w2?'var(--muted)':'var(--text)') + ';">' + (inProgress ? '–' : t1pts.toFixed(2)) + '</div>' +
+        '</div>' +
+        '<div style="text-align:center;color:var(--muted);font-size:0.7rem;padding:0 4px;">' + (inProgress ? '<span style="font-size:0.65rem;background:rgba(0,212,170,0.2);color:var(--accent);padding:2px 5px;border-radius:4px;">LIVE</span>' : 'vs') + '</div>' +
+        '<div style="text-align:left;">' +
+          '<div style="font-size:0.8rem;font-weight:' + (w2?'700':'400') + ';color:' + (w2?'var(--accent)':'var(--text)') + ';">' + t2short + '</div>' +
+          '<div style="font-size:1rem;font-weight:700;color:' + (w2?'var(--accent)':w1?'var(--muted)':'var(--text)') + ';">' + (inProgress ? '–' : t2pts.toFixed(2)) + '</div>' +
+        '</div>' +
       '</div>';
     }).join('');
-    return '<div style="background:var(--card-bg);border-radius:10px;padding:0.75rem 1rem;"><div style="font-size:0.75rem;color:var(--muted);font-weight:600;margin-bottom:0.4rem;">' + period.period + '</div>' + mups + '</div>';
-  }).join('');
+    return '<div style="background:var(--card-bg);border-radius:12px;padding:1rem;border:1px solid var(--border);">' +
+      '<div style="font-size:0.7rem;color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:0.5rem;">' + period.period + '</div>' +
+      mups + '</div>';
+  }).join('') + '</div>';
 }
 
 function buildH2HMatrix(liveData){
@@ -1301,11 +1371,10 @@ function renderWeekTable(q=''){
 // =================== STATS ===================
 let statsBarChartInst=null, statsInit=false;
 function initStats(){
-  if(statsInit)return; statsInit=true;
+  if(statsInit) return; statsInit=true;
   renderStatBoxes();
-  renderHittingTable();
-  renderPitchingTable();
   renderStatsBarChart();
+  // Tables render lazily on tab click via showStatView
 }
 function renderStatBoxes(){
   const boxes=document.getElementById('stat-boxes');
@@ -1414,6 +1483,7 @@ function initWaivers(liveData){
   renderWaiverChart();
   renderNotableWaivers();
   renderWaiverTransactions(liveData);
+  renderWaiverTimeline(liveData);
 }
 
 function filterWaivers(){
@@ -1472,9 +1542,45 @@ function renderWaiverBars(){
 function renderWaiverChart(){
   const ctx=document.getElementById('waiverChart');
   if(ctx&&!waiverChartInst){
-    waiverChartInst=new Chart(ctx,{type:'bar',data:{labels:WAIVER_DATA.map(w=>w.team.split(' ').slice(0,2).join(' ')),datasets:[{label:'Claims',data:WAIVER_DATA.map(w=>w.claims),backgroundColor:COLORS.slice(0,12),borderRadius:4},{label:'PBL',data:WAIVER_DATA.map(w=>w.pbl/100),backgroundColor:COLORS.map(c=>c+'44'),borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,scales:{x:{grid:{display:false}},y:{grid:{color:'rgba(255,255,255,.05)'}}},plugins:{legend:{labels:{color:'#e8eaf6'}}}}});
+    waiverChartInst=new Chart(ctx,{type:'bar',data:{labels:WAIVER_DATA.map(w=>w.team.split(' ').slice(0,2).join(' ')),datasets:[{label:'Claims',data:WAIVER_DATA.map(w=>w.claims),backgroundColor:COLORS,borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{grid:{color:'rgba(255,255,255,.05)'},ticks:{stepSize:1}},x:{grid:{display:false}}}}});
   }
 }
+function renderWaiverTimeline(liveData){
+  const ctx = document.getElementById('waiverTimeline');
+  if(!ctx) return;
+  if(window._waiverTimelineInst){ try{ window._waiverTimelineInst.destroy(); }catch(e){} }
+  const transactions = (liveData.transactions||[]);
+  // Group by week period (every 7 days from epoch)
+  const byPeriod = {};
+  const now = Date.now();
+  transactions.forEach(tx => {
+    const d = new Date(tx.displayDate||now);
+    const weekLabel = d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
+    if(!byPeriod[weekLabel]) byPeriod[weekLabel] = 0;
+    byPeriod[weekLabel]++;
+  });
+  const labels = Object.keys(byPeriod).slice(-10);
+  const data = labels.map(l => byPeriod[l]);
+  window._waiverTimelineInst = new Chart(ctx, {
+    type:'line',
+    data:{
+      labels,
+      datasets:[{
+        label:'Transactions',
+        data,
+        backgroundColor:'rgba(0,212,170,0.15)',
+        borderColor:'var(--accent)',
+        borderWidth:2,
+        fill:true,
+        tension:0.4,
+        pointRadius:4,
+        pointBackgroundColor:'var(--accent)'
+      }]
+    },
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'rgba(255,255,255,.05)'},ticks:{stepSize:1}},x:{grid:{display:false}}}}
+  });
+}
+
 function renderNotableWaivers(){
   const el=document.getElementById('waiver-notable');
   el.innerHTML='<div class="timeline">'+WAIVER_DATA.map(w=>'<div class="tl-item"><div class="tl-dot"></div><div class="tl-content"><div class="tl-date">'+w.team+' ('+w.claims+' total claims)</div>'+w.notable.map(p=>'<span class="badge badge-teal">'+p+'</span> ').join('')+'</div></div>').join('')+'</div>';
@@ -1583,54 +1689,54 @@ function renderPicksGrid(picks){
   const years = [...new Set(picks.map(p=>p.year))].sort();
   const rounds = [...new Set(picks.map(p=>p.round))].sort((a,b)=>parseInt(a.slice(1))-parseInt(b.slice(1)));
   
-  // Get unique teams that currently own picks in this filter
-  const allOwners = [...new Set([...picks.map(p=>p.nowOwner), ...picks.map(p=>p.originalOwner)])].sort();
+  // Show per-team cards: each team gets a card showing their pick status across all years
+  const teamNames = TEAMS.map(t=>t.name);
   
-  // Build a table: rows = teams, columns = year+round combos
-  const cols = [];
-  years.forEach(yr => rounds.forEach(rd => { if(picks.some(p=>p.year===yr&&p.round===rd)) cols.push({yr,rd}); }));
+  let html = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:0.75rem;">';
   
-  // For each team row, show what picks they currently hold
-  const teamRows = TEAMS.map(t=>t.name).filter(name=>
-    picks.some(p=>p.nowOwner===name||p.originalOwner===name)
-  );
-  
-  let html = '<div style="overflow-x:auto;">';
-  html += '<table style="width:100%;border-collapse:collapse;font-size:0.8rem;">';
-  html += '<thead><tr><th style="text-align:left;padding:0.5rem;color:var(--muted);border-bottom:2px solid var(--border);">TEAM</th>';
-  cols.forEach(c => {
-    html += '<th style="padding:0.4rem;color:var(--accent);border-bottom:2px solid var(--border);min-width:70px;text-align:center;">' + c.yr + '<br>' + c.rd + '</th>';
-  });
-  html += '</tr></thead><tbody>';
-  
-  teamRows.forEach((teamName, idx) => {
-    html += '<tr style="background:' + (idx%2===0?'transparent':'rgba(255,255,255,0.02)') + ';">';
-    html += '<td style="padding:0.4rem 0.6rem;font-weight:600;white-space:nowrap;border-right:1px solid var(--border);">' + teamName.replace(/#Inaugural JBThrowback/,'').trim() + '</td>';
-    cols.forEach(c => {
-      // Find if this team currently owns this pick
-      const owned = picks.find(p => p.year===c.yr && p.round===c.rd && p.nowOwner===teamName);
-      const orig = picks.find(p => p.year===c.yr && p.round===c.rd && p.originalOwner===teamName);
-      if(owned && owned.traded && owned.originalOwner !== teamName) {
-        // Acquired via trade
-        html += '<td style="padding:0.3rem;text-align:center;"><span style="background:#1a5c3a;color:#4ade80;padding:2px 6px;border-radius:4px;font-size:0.72rem;font-weight:600;" title="Acquired from ' + owned.originalOwner + ' on ' + owned.tradeDate + '">✓ ACQ</span></td>';
-      } else if(owned && !owned.traded) {
-        // Own pick
-        html += '<td style="padding:0.3rem;text-align:center;"><span style="background:#1a3a5c;color:#60a5fa;padding:2px 6px;border-radius:4px;font-size:0.72rem;">OWN</span></td>';
-      } else if(orig && orig.traded && orig.nowOwner !== teamName) {
-        // Pick was traded away
-        html += '<td style="padding:0.3rem;text-align:center;"><span style="background:#3a1a1a;color:#f87171;padding:2px 6px;border-radius:4px;font-size:0.72rem;" title="Traded to ' + orig.nowOwner + '">TRADED</span></td>';
-      } else {
-        html += '<td style="padding:0.3rem;text-align:center;color:var(--muted);font-size:0.7rem;">-</td>';
-      }
+  teamNames.forEach(teamName => {
+    const teamPicks = picks.filter(p => p.nowOwner === teamName || p.originalOwner === teamName);
+    if(!teamPicks.length) return;
+    
+    const own = teamPicks.filter(p => p.nowOwner === teamName && !p.traded);
+    const acquired = teamPicks.filter(p => p.nowOwner === teamName && p.traded && p.originalOwner !== teamName);
+    const traded = teamPicks.filter(p => p.originalOwner === teamName && p.traded && p.nowOwner !== teamName);
+    const totalHeld = own.length + acquired.length;
+    
+    html += '<div style="background:var(--card-bg);border-radius:10px;padding:0.75rem;border:1px solid var(--border);">';
+    html += '<div style="font-weight:700;font-size:0.82rem;margin-bottom:0.5rem;border-bottom:1px solid var(--border);padding-bottom:0.4rem;">' + teamName.replace(/#Inaugural JBThrowback/,'').trim() + '</div>';
+    
+    // Group by year
+    years.forEach(yr => {
+      const yrPicks = teamPicks.filter(p => p.year === yr);
+      if(!yrPicks.length) return;
+      html += '<div style="margin-bottom:0.4rem;">';
+      html += '<span style="font-size:0.68rem;color:var(--accent);font-weight:700;">' + yr + '</span> ';
+      rounds.forEach(rd => {
+        const p = yrPicks.find(pk => pk.round === rd);
+        if(!p) return;
+        let badge, title;
+        if(p.nowOwner === teamName && !p.traded) { badge = '<span style="display:inline-block;background:#1a3a5c;color:#60a5fa;font-size:0.6rem;padding:1px 4px;border-radius:3px;margin-right:2px;" title="Own pick">' + rd + '</span>'; }
+        else if(p.nowOwner === teamName && p.traded) { badge = '<span style="display:inline-block;background:#1a5c3a;color:#4ade80;font-size:0.6rem;padding:1px 4px;border-radius:3px;margin-right:2px;" title="Acquired from ' + (p.originalOwner||'') + '">' + rd + '✓</span>'; }
+        else if(p.originalOwner === teamName && p.nowOwner !== teamName) { badge = '<span style="display:inline-block;background:#3a1a1a;color:#f87171;font-size:0.6rem;padding:1px 4px;border-radius:3px;margin-right:2px;text-decoration:line-through;" title="Traded to ' + p.nowOwner + '">' + rd + '</span>'; }
+        else { badge = ''; }
+        html += badge;
+      });
+      html += '</div>';
     });
-    html += '</tr>';
+    
+    html += '<div style="font-size:0.68rem;color:var(--muted);margin-top:0.4rem;border-top:1px solid var(--border);padding-top:0.4rem;">';
+    html += '<span style="color:var(--green);">Holds: ' + totalHeld + '</span> · ';
+    html += '<span style="color:var(--red);">Traded: ' + traded.length + '</span>';
+    if(acquired.length) html += ' · <span style="color:#4ade80;">Acq: ' + acquired.length + '</span>';
+    html += '</div></div>';
   });
   
-  html += '</tbody></table></div>';
-  html += '<div style="margin-top:0.75rem;font-size:0.72rem;color:var(--muted);display:flex;gap:1rem;flex-wrap:wrap;">';
-  html += '<span><span style="background:#1a3a5c;color:#60a5fa;padding:1px 5px;border-radius:3px;">OWN</span> Own pick</span>';
-  html += '<span><span style="background:#1a5c3a;color:#4ade80;padding:1px 5px;border-radius:3px;">✓ ACQ</span> Acquired via trade</span>';
-  html += '<span><span style="background:#3a1a1a;color:#f87171;padding:1px 5px;border-radius:3px;">TRADED</span> Traded away</span>';
+  html += '</div>';
+  html += '<div style="margin-top:0.75rem;font-size:0.68rem;color:var(--muted);display:flex;gap:1rem;flex-wrap:wrap;">';
+  html += '<span><span style="background:#1a3a5c;color:#60a5fa;padding:1px 5px;border-radius:3px;">Rn</span> Own pick</span>';
+  html += '<span><span style="background:#1a5c3a;color:#4ade80;padding:1px 5px;border-radius:3px;">Rn✓</span> Acquired via trade</span>';
+  html += '<span><span style="background:#3a1a1a;color:#f87171;padding:1px 5px;border-radius:3px;text-decoration:line-through;">Rn</span> Traded away</span>';
   html += '</div>';
   el.innerHTML = html;
 }
@@ -1672,6 +1778,18 @@ function filterIL(){
   const el = document.getElementById('il-list');
   if(!el || !liveData) return;
 
+  // MLB player -> fantasy team ownership (from known trades/rosters)
+  const FANTASY_OWNERSHIP = {
+    'Tarik Skubal': 'Honey Nut Berrios', 'Connor Norby': 'Honey Nut Berrios',
+    'Reynaldo Lopez': 'Wyatt and the Lankers', 'Brandon Nimmo': 'Wyatt and the Lankers',
+    'Alex Bregman': 'TBONERS', 'Blake Treinen': 'TBONERS', 'Jose Alvarado': 'TBONERS',
+    'Jackson Chourio': "Honey Nut Chourio's", 'Kazuma Okamoto': "Honey Nut Chourio's",
+    'Logan Gilbert': 'First Pitch Swinging', 'Tommy Troy': 'First Pitch Swinging', 'Dillon Dingler': 'First Pitch Swinging',
+    'Dylan Cease': "Evil Honey Nut Chourio's", 'Kris Bubic': "Evil Honey Nut Chourio's", 'Bryan Woo': "Evil Honey Nut Chourio's",
+    'Dean Kremer': 'Layin Wood', 'Spencer Horwitz': 'Layin Wood',
+    'Caden Dana': "Jac-in' It", 'Robert Gasser': "Jac-in' It"
+  };
+  
   let txns = [...(liveData.mlbTransactions||[]), ...(liveData.transactions||[])].filter(t => t && t.player);
   
   if(search) txns = txns.filter(t => (t.player.name||'').toLowerCase().includes(search.toLowerCase()));
@@ -1687,25 +1805,33 @@ function filterIL(){
     const isIL = desc.toLowerCase().includes('injur') || desc.toLowerCase().includes('injured list');
     const isRecall = desc.toLowerCase().includes('recall') || desc.toLowerCase().includes('reinstat') || desc.toLowerCase().includes('activat');
     const isOption = desc.toLowerCase().includes('option') || desc.toLowerCase().includes('designat');
-    const bgColor = isIL ? 'rgba(220,53,69,0.1)' : isRecall ? 'rgba(40,167,69,0.1)' : 'rgba(255,165,0,0.1)';
-    const badgeText = isIL ? '🏥 IL' : isRecall ? '✅ Active' : '📦 Option/DFA';
-    const badgeColor = isIL ? '#dc3545' : isRecall ? '#28a745' : 'var(--accent)';
-    const date = t.displayDate ? new Date(t.displayDate).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
-    return '<div style="display:grid;grid-template-columns:auto 1fr auto;gap:0.75rem;align-items:center;padding:0.7rem 1rem;border-radius:8px;background:' + bgColor + ';border:1px solid var(--border);">' +
-      (p.headshotUrl ? '<img src="' + p.headshotUrl + '" style="width:40px;height:40px;border-radius:50%;object-fit:cover;">' : '<div style="width:40px;height:40px;border-radius:50%;background:var(--card-bg);display:flex;align-items:center;justify-content:center;font-size:1.2rem;">⚾</div>') +
+    const bgColor = isIL ? 'rgba(220,53,69,0.08)' : isRecall ? 'rgba(40,167,69,0.08)' : 'rgba(255,165,0,0.08)';
+    const badgeText = isIL ? '🏥 IL' : isRecall ? '✅ ACT' : '📦 OPT/DFA';
+    const badgeColor = isIL ? '#dc3545' : isRecall ? '#28a745' : 'var(--accent3)';
+    const date = t.displayDate ? new Date(t.displayDate).toLocaleDateString('en-US',{month:'short',day:'numeric'}) : '';
+    
+    // Find fantasy team ownership
+    const playerName = p.name||'';
+    const fantasyTeam = Object.entries(FANTASY_OWNERSHIP).find(([k]) => playerName.includes(k))?.[1] || '';
+    
+    return '<div style="display:grid;grid-template-columns:auto 1fr auto;gap:0.75rem;align-items:center;padding:0.6rem 1rem;border-radius:8px;background:' + bgColor + ';border:1px solid var(--border);">' +
+      (p.headshotUrl ? '<img src="' + p.headshotUrl + '" onerror="this.style.display='none'" style="width:36px;height:36px;border-radius:50%;object-fit:cover;">' : '<div style="width:36px;height:36px;border-radius:50%;background:var(--card-bg);display:flex;align-items:center;justify-content:center;font-size:1rem;">⚾</div>') +
       '<div>' +
-        '<div style="font-weight:700;">' + (p.name||'Unknown') + ' <span style="font-weight:400;color:var(--muted);font-size:0.78rem;">' + (p.posShortNames||'') + ' · ' + (p.teamName||p.teamShortName||'') + '</span></div>' +
-        '<div style="font-size:0.8rem;color:var(--text);margin-top:2px;">' + desc.substring(0,150) + (desc.length>150?'...':'') + '</div>' +
+        '<div style="display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;">' +
+          '<span style="font-weight:700;font-size:0.85rem;">' + (playerName||'Unknown') + '</span>' +
+          '<span style="font-size:0.7rem;color:var(--muted);">' + (p.posShortNames||'') + ' · ' + (p.teamShortName||p.teamName||'') + '</span>' +
+          (fantasyTeam ? '<span style="font-size:0.65rem;background:rgba(79,142,247,0.2);color:var(--accent2);padding:1px 5px;border-radius:3px;font-weight:600;">🎮 ' + fantasyTeam.replace(/#Inaugural JBThrowback/,'').trim().split(' ').slice(0,2).join(' ') + '</span>' : '') +
+        '</div>' +
+        '<div style="font-size:0.75rem;color:var(--muted);margin-top:2px;">' + desc.substring(0,130) + (desc.length>130?'...':'') + '</div>' +
       '</div>' +
-      '<div style="text-align:right;">' +
-        '<div style="font-size:0.72rem;font-weight:700;color:' + badgeColor + ';">' + badgeText + '</div>' +
-        (date ? '<div style="font-size:0.7rem;color:var(--muted);margin-top:4px;">' + date + '</div>' : '') +
+      '<div style="text-align:right;flex-shrink:0;">' +
+        '<span style="font-size:0.65rem;font-weight:700;color:' + badgeColor + ';border:1px solid ' + badgeColor + ';padding:2px 5px;border-radius:4px;display:block;margin-bottom:2px;">' + badgeText + '</span>' +
+        '<span style="font-size:0.65rem;color:var(--muted);">' + date + '</span>' +
       '</div>' +
     '</div>';
   }).join('');
 }
 
-// ===================== LUCK INDEX / SCHEDULE STRENGTH =====================
 function computeLuckIndex(liveData){
   const periods = (liveData.schedule||{}).periods || [];
   if(!periods.length) return [];
@@ -1771,7 +1897,13 @@ function initPlayoffPicture(liveData){
   const standings = liveData.standings || [];
   const records = (liveData.schedule||{}).records || [];
   
-  // Build combined team data with W/L from records + FPts from standings
+  // Division assignments
+  const DIV1_IDS = ['odce8gzsmg7kg72c','8znzrpg1mg7kg72e','g8p3r1i9mg7kg72b','xgktl0otmg7kg72d','ckm3yf5rmg7kg729','nbnjqx3cmg7kg72g'];
+  const DIV2_IDS = ['0b0hd0qymg7kg72i','vhuxfzygmg7kg728','lhaxchcjmg7kg72c','0qrvkt09mg7kg72f','aw407ddlmg7kg72a','jwg2zkwzmg7kg72a'];
+  const DIV1_NAME = "Duran's Tennis Club";
+  const DIV2_NAME = "Ozuna's Designated Drivers";
+  
+  // Build combined team data
   const teamMap = {};
   standings.forEach(s => { teamMap[s.id] = {...s}; });
   records.forEach(r => {
@@ -1779,95 +1911,125 @@ function initPlayoffPicture(liveData){
       teamMap[r.teamId].w = r.w || 0;
       teamMap[r.teamId].l = r.l || 0;
       teamMap[r.teamId].t = r.t || 0;
-      teamMap[r.teamId].pf_h2h = r.pf || 0;
+      teamMap[r.teamId].pf = r.pf || 0;
     }
   });
   
-  const teams = Object.values(teamMap).sort((a,b) => {
-    const wa = a.w||0, wb = b.w||0;
-    if(wb !== wa) return wb - wa;
-    return parseFloat(b.fantasyPoints||0) - parseFloat(a.fantasyPoints||0);
-  });
+  const allTeams = Object.values(teamMap);
+  const sortFn = (a,b) => {
+    if((b.w||0) !== (a.w||0)) return (b.w||0) - (a.w||0);
+    return parseFloat(b.fantasyPoints||b.pf||0) - parseFloat(a.fantasyPoints||a.pf||0);
+  };
   
-  const topN = 6; // playoff teams
-  const leader = teams[0];
-  const leaderPts = parseFloat(leader?.fantasyPoints||0);
+  // Get division winners
+  const div1Teams = allTeams.filter(t => DIV1_IDS.includes(t.id)).sort(sortFn);
+  const div2Teams = allTeams.filter(t => DIV2_IDS.includes(t.id)).sort(sortFn);
+  const divWinner1 = div1Teams[0];
+  const divWinner2 = div2Teams[0];
+  
+  // Wild card: remaining teams sorted by W-L, tiebreaker PF
+  const divWinnerIds = [divWinner1?.id, divWinner2?.id].filter(Boolean);
+  const wildCardTeams = allTeams.filter(t => !divWinnerIds.includes(t.id)).sort(sortFn);
+  
+  // Playoff seeding: div winner 1, div winner 2, then top 4 wild cards (6 total)
+  const topN = 6;
+  const playoffTeams = [
+    divWinner1 && {...divWinner1, seed:'DIV1'},
+    divWinner2 && {...divWinner2, seed:'DIV2'},
+    ...wildCardTeams.slice(0,4).map(t=>({...t,seed:'WC'}))
+  ].filter(Boolean).slice(0, topN);
+  
+  const allSorted = [...playoffTeams, ...wildCardTeams.filter(t => !playoffTeams.find(p=>p.id===t.id))];
+  
+  const gamesPlayed = (allSorted[0]?.w||0) + (allSorted[0]?.l||0) + (allSorted[0]?.t||0);
+  const totalPeriods = 44;
+  const remaining = totalPeriods - gamesPlayed;
+  
+  // Cutline team (6th seed)
+  const cutlineTeam = playoffTeams[topN-1];
+  const firstOut = wildCardTeams.find(t => !playoffTeams.find(p=>p.id===t.id));
   
   // Summary cards
   const summaryEl = document.getElementById('playoff-summary');
   if(summaryEl){
-    const clinched = teams.filter((t,i) => i < topN && (t.w||0) >= 7);
-    const eliminated = teams.filter((t,i) => i >= topN && (t.l||0) >= 8);
     summaryEl.innerHTML = [
-      { label: 'In Playoff Position', value: topN, color: 'var(--green)' },
-      { label: 'Current Leader', value: leader?.name || '-', color: 'var(--accent)' },
-      { label: 'Games Played', value: ((teams[0]?.w||0) + (teams[0]?.l||0) + (teams[0]?.t||0)), color: 'var(--text)' },
-      { label: 'Total Periods', value: 44, color: 'var(--muted)' }
+      { label: 'Playoff Teams', value: topN, color: 'var(--green)' },
+      { label: DIV1_NAME + ' Leader', value: divWinner1?.name?.replace(/#Inaugural JBThrowback/,'').trim() || '-', color: 'var(--accent)' },
+      { label: DIV2_NAME + ' Leader', value: divWinner2?.name || '-', color: 'var(--accent2)' },
+      { label: 'Periods Remaining', value: remaining > 0 ? remaining : 0, color: remaining > 5 ? 'var(--text)' : 'var(--red)' }
     ].map(c => '<div style="background:var(--card-bg);border-radius:10px;padding:1rem;text-align:center;">' +
-      '<div style="font-size:1.4rem;font-weight:800;color:' + c.color + ';">' + c.value + '</div>' +
-      '<div style="font-size:0.78rem;color:var(--muted);">' + c.label + '</div>' +
+      '<div style="font-size:1.3rem;font-weight:800;color:' + c.color + ';">' + c.value + '</div>' +
+      '<div style="font-size:0.75rem;color:var(--muted);margin-top:3px;">' + c.label + '</div>' +
     '</div>').join('');
   }
   
-  // Projected standings
+  // Projected standings with seeding
   const projEl = document.getElementById('playoff-projected');
   if(projEl){
-    projEl.innerHTML = teams.map((t,i) => {
+    projEl.innerHTML = allSorted.slice(0,12).map((t,i) => {
       const inPlayoffs = i < topN;
-      const bg = inPlayoffs ? 'rgba(0,255,136,0.08)' : 'transparent';
-      const border = inPlayoffs ? '1px solid rgba(0,255,136,0.3)' : '1px solid var(--border)';
-      return '<div style="display:flex;align-items:center;gap:0.5rem;padding:0.4rem 0.6rem;margin-bottom:0.3rem;border-radius:6px;background:' + bg + ';border:' + border + ';">' +
-        '<span style="width:20px;text-align:center;font-weight:700;color:' + (inPlayoffs?'var(--green)':'var(--muted)') + ';">' + (i+1) + '</span>' +
-        (t.logoUrl ? '<img src="' + t.logoUrl + '" style="width:22px;height:22px;border-radius:50%;object-fit:cover;">' : '') +
-        '<span style="flex:1;font-size:0.82rem;">' + (t.name||'') + '</span>' +
-        '<span style="font-size:0.78rem;color:var(--muted);">' + (t.w||0) + '-' + (t.l||0) + '</span>' +
-        (inPlayoffs ? '<span style="font-size:0.65rem;background:var(--green);color:#000;padding:1px 4px;border-radius:3px;font-weight:700;">IN</span>' : '<span style="font-size:0.65rem;background:var(--red);color:#fff;padding:1px 4px;border-radius:3px;">OUT</span>') +
+      const isCutline = i === topN - 1;
+      const seed = t.seed;
+      const bg = inPlayoffs ? (seed==='DIV1'||seed==='DIV2') ? 'rgba(255,215,0,0.08)' : 'rgba(0,255,136,0.08)' : 'transparent';
+      const border = isCutline ? '2px dashed rgba(0,255,136,0.5)' : inPlayoffs ? '1px solid rgba(0,255,136,0.3)' : '1px solid var(--border)';
+      const seedBadge = seed==='DIV1' ? '<span style="font-size:0.6rem;background:var(--gold);color:#000;padding:1px 4px;border-radius:3px;font-weight:700;">DIV</span>' : seed==='DIV2' ? '<span style="font-size:0.6rem;background:var(--accent2);color:#fff;padding:1px 4px;border-radius:3px;font-weight:700;">DIV</span>' : '';
+      // Games back from cutline team
+      const cutlineW = cutlineTeam?.w||0;
+      const teamW = t.w||0;
+      const gb = i < topN ? (cutlineW - teamW) : ((teamW - cutlineW));
+      const gbStr = i < topN ? (gb === 0 ? '-' : '+' + gb) : (gb === 0 ? 'E' : gb + ' back');
+      const gbColor = i < topN ? 'var(--green)' : 'var(--red)';
+      return '<div style="display:grid;grid-template-columns:20px 1fr auto auto auto;align-items:center;gap:0.5rem;padding:0.4rem 0.6rem;margin-bottom:0.3rem;border-radius:6px;background:' + bg + ';border:' + border + ';">' +
+        '<span style="font-weight:700;font-size:0.8rem;color:' + (inPlayoffs?'var(--green)':'var(--muted)') + ';">' + (i+1) + '</span>' +
+        '<span style="font-size:0.82rem;">' + (t.name||'').replace(/#Inaugural JBThrowback/,'').trim() + ' ' + seedBadge + '</span>' +
+        '<span style="font-size:0.78rem;color:var(--muted);min-width:40px;text-align:right;">' + (t.w||0) + '-' + (t.l||0) + '</span>' +
+        '<span style="font-size:0.72rem;color:' + gbColor + ';min-width:45px;text-align:right;font-weight:600;">' + gbStr + '</span>' +
+        (inPlayoffs ? '<span style="font-size:0.6rem;background:var(--green);color:#000;padding:1px 4px;border-radius:3px;font-weight:700;">IN</span>' : '<span style="font-size:0.6rem;background:var(--red);color:#fff;padding:1px 4px;border-radius:3px;font-weight:700;">OUT</span>') +
       '</div>';
     }).join('');
+    
+    // Add legend
+    projEl.innerHTML += '<div style="font-size:0.68rem;color:var(--muted);margin-top:0.5rem;display:flex;gap:1rem;flex-wrap:wrap;">' +
+      '<span><span style="background:var(--gold);color:#000;padding:1px 4px;border-radius:3px;">DIV</span> Division Winner (auto-bid)</span>' +
+      '<span style="color:var(--green);">+N = wins ahead of cutline</span>' +
+      '<span style="color:var(--red);">N back = games behind cutline</span>' +
+    '</div>';
   }
   
-  // Points needed / games back
-  const pnEl = document.getElementById('playoff-points-needed');
-  if(pnEl){
-    const cutlineTeam = teams[topN - 1];
-    const cutlinePts = parseFloat(cutlineTeam?.fantasyPoints||0);
-    pnEl.innerHTML = '<p style="font-size:0.8rem;color:var(--muted);margin-bottom:0.75rem;">Playoff cutline: ' + (cutlineTeam?.name||'') + ' (' + cutlinePts.toFixed(2) + ' pts)</p>' +
-      teams.map((t,i) => {
-        const tPts = parseFloat(t.fantasyPoints||0);
-        const diff = tPts - cutlinePts;
-        const inPlayoffs = i < topN;
-        const color = inPlayoffs ? 'var(--green)' : 'var(--red)';
-        const sign = diff >= 0 ? '+' : '';
-        return '<div style="display:flex;justify-content:space-between;align-items:center;padding:0.3rem 0.5rem;margin-bottom:0.25rem;font-size:0.82rem;border-radius:4px;background:var(--bg);">' +
-          '<span>' + (t.name||'') + '</span>' +
-          '<span style="font-weight:700;color:' + color + ';">' + sign + diff.toFixed(2) + ' pts</span>' +
-        '</div>';
-      }).join('');
+  // Points needed / games back panel
+  const ptEl = document.getElementById('playoff-points-needed');
+  if(ptEl && cutlineTeam && firstOut){
+    const ptGap = parseFloat(cutlineTeam.fantasyPoints||cutlineTeam.pf||0) - parseFloat(firstOut.fantasyPoints||firstOut.pf||0);
+    ptEl.innerHTML = '<div style="font-size:0.85rem;margin-bottom:1rem;color:var(--muted);">Cutline: <strong style="color:var(--text);">' + (cutlineTeam.name||'').replace(/#Inaugural JBThrowback/,'').trim() + '</strong> (#' + topN + ' seed)</div>' +
+    allSorted.filter((_,i)=>i>=topN && i<topN+4).map(t => {
+      const ptDiff = parseFloat(cutlineTeam.fantasyPoints||0) - parseFloat(t.fantasyPoints||0);
+      const wDiff = (cutlineTeam.w||0) - (t.w||0);
+      return '<div style="padding:0.5rem 0;border-bottom:1px solid var(--border);">' +
+        '<div style="display:flex;justify-content:space-between;font-size:0.82rem;">' +
+          '<span>' + (t.name||'').replace(/#Inaugural JBThrowback/,'').trim() + '</span>' +
+          '<span style="color:var(--red);">' + wDiff + ' W back</span>' +
+        '</div>' +
+        '<div style="font-size:0.72rem;color:var(--muted);">Needs +' + ptDiff.toFixed(1) + ' fantasy points to pass on PF tiebreaker</div>' +
+      '</div>';
+    }).join('') || '<p style="color:var(--muted);">All bubble teams are close.</p>';
   }
   
-  // Schedule strength (future periods - simplified)
+  // Schedule strength
   const strengthEl = document.getElementById('playoff-strength');
   if(strengthEl){
-    // Compute each team avg points against
-    const paMap = {};
-    records.forEach(r => { if(r.teamId) paMap[r.teamId] = r.pa||0; });
-    const sortedByPA = Object.entries(paMap).sort((a,b)=>a[1]-b[1]);
-    strengthEl.innerHTML = '<p style="color:var(--muted);font-size:0.82rem;margin-bottom:0.75rem;">Lower Points Against = weaker opposition faced (easier schedule).</p>' +
-      teams.map(t => {
-        const pa = paMap[t.id] || 0;
-        const pf = t.pf_h2h || 0;
-        const diff = pf - pa;
-        const color = diff > 0 ? 'var(--green)' : 'var(--red)';
-        return '<div style="display:flex;align-items:center;gap:0.5rem;padding:0.3rem 0.5rem;margin-bottom:0.25rem;font-size:0.8rem;border-radius:4px;background:var(--bg);">' +
-          '<span style="flex:1;">' + (t.name||'') + '</span>' +
-          '<span style="color:var(--muted);">PA: ' + pa.toFixed(0) + '</span>' +
-          '<span style="color:' + color + ';font-weight:600;">Net: ' + (diff>0?'+':'') + diff.toFixed(0) + '</span>' +
-        '</div>';
-      }).join('');
+    const avgPF = allTeams.reduce((sum,t)=>sum+parseFloat(t.fantasyPoints||0),0) / (allTeams.length||1);
+    strengthEl.innerHTML = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:0.75rem;">' +
+    allSorted.slice(0,8).map((t,i) => {
+      const inPlayoffs = i < topN;
+      const fpg = (parseFloat(t.fantasyPoints||0) / Math.max(1,(t.w||0)+(t.l||0)+(t.t||0))).toFixed(1);
+      return '<div style="background:var(--card-bg);border-radius:8px;padding:0.75rem;border:1px solid ' + (inPlayoffs?'rgba(0,255,136,0.2)':'var(--border)') + ';">' +
+        '<div style="font-size:0.78rem;font-weight:700;">' + (t.name||'').replace(/#Inaugural JBThrowback/,'').trim() + '</div>' +
+        '<div style="font-size:0.72rem;color:var(--muted);margin-top:3px;">FP/G: ' + fpg + ' · Total: ' + parseFloat(t.fantasyPoints||0).toFixed(1) + '</div>' +
+      '</div>';
+    }).join('') + '</div>';
   }
 }
 
-// ===================== LEAGUE NEWS FEED =====================
 function initLeagueNews(liveData){
   const el = document.getElementById('news-feed');
   if(!el) return;
@@ -1876,84 +2038,114 @@ function initLeagueNews(liveData){
   const records = (liveData.schedule||{}).records || [];
   const periods = (liveData.schedule||{}).periods || [];
   const transactions = liveData.transactions || [];
-  
-  const news = [];
   const today = new Date().toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
   
-  // Headline: current league leader
-  if(records.length){
-    const sorted = [...records].sort((a,b)=>(b.w||0)-(a.w||0));
-    const leader = sorted[0];
-    const second = sorted[1];
-    if(leader) news.push({ icon:'🏆', type:'STANDINGS', headline: leader.name + ' leads the league at ' + (leader.w||0) + '-' + (leader.l||0), detail: second ? 'Followed by ' + second.name + ' at ' + (second.w||0) + '-' + (second.l||0) : '', date: today });
+  const news = [];
+  
+  // --- STANDINGS HEADLINE ---
+  const sortedRecords = [...records].sort((a,b)=>(b.w||0)-(a.w||0)||(b.pf||0)-(a.pf||0));
+  if(sortedRecords.length >= 2){
+    const leader = sortedRecords[0];
+    const second = sortedRecords[1];
+    const gap = (leader.w||0) - (second.w||0);
+    news.push({ icon:'🏆', type:'STANDINGS', headline: leader.name.replace(/#Inaugural JBThrowback/,'').trim() + ' leads the league at ' + (leader.w||0) + '-' + (leader.l||0), detail: gap > 0 ? 'Leads ' + second.name.replace(/#Inaugural JBThrowback/,'').trim() + ' by ' + gap + ' win(s) (' + (second.w||0) + '-' + (second.l||0) + ').' : 'Tied with ' + second.name + ' — PF tiebreaker gives the edge.', date: today });
   }
   
-  // Hot streaks (3+ period win streak from most recent periods)
+  // --- DIVISION RACES ---
+  const DIV1 = ['odce8gzsmg7kg72c','8znzrpg1mg7kg72e','g8p3r1i9mg7kg72b','xgktl0otmg7kg72d','ckm3yf5rmg7kg729','nbnjqx3cmg7kg72g'];
+  const DIV2 = ['0b0hd0qymg7kg72i','vhuxfzygmg7kg728','lhaxchcjmg7kg72c','0qrvkt09mg7kg72f','aw407ddlmg7kg72a','jwg2zkwzmg7kg72a'];
+  [DIV1, DIV2].forEach((div, di) => {
+    const divTeams = sortedRecords.filter(t => div.includes(t.teamId)).sort((a,b)=>(b.w||0)-(a.w||0));
+    if(divTeams.length >= 2){
+      const leader = divTeams[0];
+      const chase = divTeams[1];
+      const gDiff = (leader.w||0)-(chase.w||0);
+      const divName = di===0 ? "Duran's Tennis Club" : "Ozuna's Designated Drivers";
+      news.push({ icon: di===0?'🎾':'🚗', type:'DIVISION', headline: divName + ': ' + leader.name.replace(/#Inaugural JBThrowback/,'').trim() + ' leads at ' + (leader.w||0) + '-' + (leader.l||0), detail: (chase.name.replace(/#Inaugural JBThrowback/,'').trim()) + ' is ' + gDiff + ' game(s) back at ' + (chase.w||0) + '-' + (chase.l||0) + '. Division title race is ' + (gDiff<=1?'extremely tight!':'heating up.'), date: today });
+    }
+  });
+  
+  // --- HOT STREAKS ---
   if(periods.length >= 3){
     const recentPeriods = periods.slice(-3);
-    const streakCount = {};
-    recentPeriods.forEach(p => {
-      (p.matchups||[]).forEach(m => {
-        if(m.winner && m.winner !== 'Tie'){
-          if(!streakCount[m.winner]) streakCount[m.winner] = 0;
-          streakCount[m.winner]++;
-        }
-      });
-    });
-    const hotTeam = Object.entries(streakCount).filter(([,v])=>v>=3).sort((a,b)=>b[1]-a[1])[0];
-    if(hotTeam) news.push({ icon:'🔥', type:'HOT STREAK', headline: hotTeam[0] + ' is on a 3-period win streak!', detail: 'Winning their last ' + hotTeam[1] + ' consecutive matchups.', date: today });
+    const streakMap = {};
+    recentPeriods.forEach(p => (p.matchups||[]).forEach(m => {
+      if(m.winner && m.winner !== 'Tie') streakMap[m.winner] = (streakMap[m.winner]||0)+1;
+    }));
+    const hotTeams = Object.entries(streakMap).filter(([,v])=>v>=3).sort((a,b)=>b[1]-a[1]);
+    if(hotTeams.length) news.push({ icon:'🔥', type:'HOT STREAK', headline: hotTeams.map(([n,v])=>n.replace(/#Inaugural JBThrowback/,'').trim()+' '+v+'W').join(' / ') + ' in last 3 periods', detail: hotTeams.length > 1 ? 'Multiple teams on fire entering the stretch run!' : hotTeams[0][0].replace(/#Inaugural JBThrowback/,'').trim() + ' is the hottest team in the league right now.', date: today });
   }
   
-  // Most fantasy points this season
+  // --- ALL RECENT TRADES (in-season) ---
+  const inSeasonTrades = TRADES.filter(t => t.type === 'inseason').sort((a,b) => new Date(b.date||0)-new Date(a.date||0));
+  inSeasonTrades.forEach(t => {
+    const playersA = (t.received||[]).filter(p=>!p.match(/20[0-9]{2}s+R/i));
+    const playersB = (t.gave||[]).filter(p=>!p.match(/20[0-9]{2}s+R/i));
+    const picksA = (t.received||[]).filter(p=>p.match(/20[0-9]{2}s+R/i));
+    const picksB = (t.gave||[]).filter(p=>p.match(/20[0-9]{2}s+R/i));
+    const headline = (t.teamA||'').replace(/#Inaugural JBThrowback/,'').trim() + ' ↔ ' + (t.teamB||'').replace(/#Inaugural JBThrowback/,'').trim();
+    let detail = t.impact || '';
+    if(playersA.length) detail += ' ' + t.teamA.replace(/#Inaugural JBThrowback/,'').trim() + ' received: ' + playersA.slice(0,3).join(', ') + (playersA.length>3?'...':'') + '.';
+    if(picksA.length) detail += ' Picks: ' + picksA.join(', ') + '.';
+    news.push({ icon:'🔄', type:'TRADE', headline, detail: detail.trim(), date: t.date||'' });
+  });
+  
+  // --- PRE-SEASON MAJOR TRADES ---
+  const bigPreSeason = TRADES.filter(t => t.type==='preseason').sort((a,b)=>{
+    const aLen = (t.received||[]).length + (t.gave||[]).length;
+    const bLen = (b.received||[]).length + (b.gave||[]).length;
+    return bLen - aLen;
+  }).slice(0,2);
+  bigPreSeason.forEach(t => {
+    news.push({ icon:'📋', type:'PRE-SEASON DEAL', headline: (t.teamA||'').replace(/#Inaugural JBThrowback/,'').trim() + ' ↔ ' + (t.teamB||'').replace(/#Inaugural JBThrowback/,'').trim(), detail: t.impact || '', date: t.date||'' });
+  });
+  
+  // --- SCORING LEADERS ---
   if(standings.length){
     const topScorer = [...standings].sort((a,b)=>parseFloat(b.fantasyPoints||0)-parseFloat(a.fantasyPoints||0))[0];
     const topFPG = [...standings].sort((a,b)=>parseFloat(b.fptsPerGame||0)-parseFloat(a.fptsPerGame||0))[0];
-    if(topScorer) news.push({ icon:'💯', type:'SCORING', headline: topScorer.name + ' leads in total fantasy points (' + parseFloat(topScorer.fantasyPoints||0).toFixed(2) + ')', detail: 'Best FP/G: ' + (topFPG?.name||'') + ' at ' + parseFloat(topFPG?.fptsPerGame||0).toFixed(2) + ' per game.', date: today });
+    news.push({ icon:'💯', type:'SCORING LEADERS', headline: (topScorer.name||'').replace(/#Inaugural JBThrowback/,'').trim() + ' leads all teams in total fantasy points', detail: 'Tallied ' + parseFloat(topScorer.fantasyPoints||0).toFixed(2) + ' total points this season. Best per-game average: ' + (topFPG.name||'').replace(/#Inaugural JBThrowback/,'').trim() + ' at ' + parseFloat(topFPG.fptsPerGame||0).toFixed(2) + ' FP/G.', date: today });
   }
   
-  // Luck index news
-  const luckData = computeLuckIndex(liveData);
-  if(luckData.length){
-    const luckiest = luckData[0];
-    const unluckiest = luckData[luckData.length - 1];
-    if(luckiest.luck > 1) news.push({ icon:'🍀', type:'LUCK INDEX', headline: luckiest.name + ' is the luckiest team (+' + luckiest.luck + ' vs expected)', detail: 'Their actual wins exceed expected wins based on weekly median scores.', date: today });
-    if(unluckiest.luck < -1) news.push({ icon:'😤', type:'BAD LUCK', headline: unluckiest.name + ' has been unlucky this season (' + unluckiest.luck + ' vs expected)', detail: 'Scoring well but caught tough matchups at the wrong times.', date: today });
-  }
+  // --- LUCK INDEX ---
+  try {
+    const luckData = computeLuckIndex(liveData);
+    if(luckData.length){
+      const luckiest = luckData[0];
+      const unluckiest = luckData[luckData.length-1];
+      news.push({ icon:'🍀', type:'LUCK INDEX', headline: (luckiest.name||'').replace(/#Inaugural JBThrowback/,'').trim() + ' is the league's luckiest team this season', detail: '+' + luckiest.luck + ' wins above expected. Meanwhile, ' + (unluckiest.name||'').replace(/#Inaugural JBThrowback/,'').trim() + ' has been unlucky (' + unluckiest.luck + ' vs expected). Luck evens out over time.', date: today });
+    }
+  } catch(e){}
   
-  // Recent trades from hardcoded data
-  const recentTrades = TRADES.slice(0, 3);
-  recentTrades.forEach(t => {
-    news.push({ icon:'🔄', type:'TRADE', headline: (t.teamA||t.team1||'') + ' ↔ ' + (t.teamB||t.team2||''), detail: t.impact || '', date: t.date || '' });
-  });
-  
-  // Big point weeks from schedule
+  // --- HIGHEST SCORING GAME ---
   if(periods.length){
     let bigGame = null;
-    periods.forEach(p => {
-      (p.matchups||[]).forEach(m => {
-        const total = (m.team1Pts||0) + (m.team2Pts||0);
-        if(!bigGame || total > bigGame.total){
-          bigGame = { total, team1: m.team1, team2: m.team2, t1pts: m.team1Pts, t2pts: m.team2Pts, period: p.period };
-        }
-      });
-    });
-    if(bigGame) news.push({ icon:'💥', type:'HIGH SCORE GAME', headline: bigGame.team1 + ' vs ' + bigGame.team2 + ' combined for ' + bigGame.total.toFixed(2) + ' pts', detail: bigGame.team1 + ' scored ' + bigGame.t1pts.toFixed(2) + ', ' + bigGame.team2 + ' scored ' + bigGame.t2pts.toFixed(2) + ' in ' + bigGame.period + '.', date: '' });
+    periods.forEach(p => (p.matchups||[]).forEach(m => {
+      const total = (m.team1Pts||0)+(m.team2Pts||0);
+      if(!bigGame || total > bigGame.total) bigGame = {total, team1:m.team1, team2:m.team2, t1:m.team1Pts, t2:m.team2Pts, period:p.period};
+    }));
+    if(bigGame) news.push({ icon:'⚡', type:'RECORD GAME', headline: 'Highest-scoring game of the season: ' + bigGame.total.toFixed(2) + ' combined pts', detail: (bigGame.team1||'').replace(/#Inaugural JBThrowback/,'').trim() + ' (' + bigGame.t1.toFixed(2) + ') vs ' + (bigGame.team2||'').replace(/#Inaugural JBThrowback/,'').trim() + ' (' + bigGame.t2.toFixed(2) + ') in ' + (bigGame.period||''), date: '' });
   }
   
-  if(!news.length){ el.innerHTML = '<p style="color:var(--muted);">No news available yet.</p>'; return; }
+  // --- IL WATCH ---
+  news.push({ icon:'🏥', type:'IL WATCH', headline: 'Honey Nut Berrios has multiple elite players on the injured list', detail: 'HNB holds several high-caliber MLB players currently on IL. These returns could dramatically boost their roster. HNB is Farm #2 but ranks #3 overall — a fully healthy HNB may be the most dangerous team in the league.', date: today });
   
-  el.innerHTML = news.map(n => '<div style="background:var(--card-bg);border-radius:10px;padding:1rem 1.25rem;display:grid;grid-template-columns:auto 1fr auto;gap:0.75rem;align-items:start;">' +
-    '<span style="font-size:1.5rem;">' + n.icon + '</span>' +
-    '<div>' +
-      '<span style="font-size:0.65rem;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:0.05em;">' + n.type + '</span>' +
-      '<div style="font-weight:700;margin-top:0.15rem;">' + n.headline + '</div>' +
-      (n.detail ? '<div style="font-size:0.8rem;color:var(--muted);margin-top:0.25rem;">' + n.detail + '</div>' : '') +
-    '</div>' +
-    (n.date ? '<div style="font-size:0.72rem;color:var(--muted);white-space:nowrap;">' + n.date + '</div>' : '<div></div>') +
-  '</div>').join('');
+  // --- RENDER ---
+  el.innerHTML = news.map(item => {
+    const typeColor = item.type==='TRADE'||item.type==='PRE-SEASON DEAL' ? 'var(--accent2)' : item.type==='STANDINGS'||item.type==='DIVISION' ? 'var(--gold)' : item.type==='HOT STREAK' ? 'var(--red)' : item.type==='IL WATCH' ? '#ff4d6d' : 'var(--accent)';
+    return '<div style="padding:1rem;border-bottom:1px solid var(--border);display:flex;gap:0.75rem;">' +
+      '<span style="font-size:1.5rem;flex-shrink:0;">' + item.icon + '</span>' +
+      '<div>' +
+        '<div style="display:flex;gap:0.5rem;align-items:center;margin-bottom:4px;">' +
+          '<span style="font-size:0.65rem;font-weight:700;color:' + typeColor + ';text-transform:uppercase;letter-spacing:1px;">' + item.type + '</span>' +
+          (item.date ? '<span style="font-size:0.65rem;color:var(--muted);">· ' + item.date + '</span>' : '') +
+        '</div>' +
+        '<div style="font-weight:700;font-size:0.9rem;margin-bottom:4px;">' + item.headline + '</div>' +
+        '<div style="font-size:0.8rem;color:var(--muted);line-height:1.5;">' + item.detail + '</div>' +
+      '</div>' +
+    '</div>';
+  }).join('');
 }
-
-
 
 // =================== INIT ===================
 document.addEventListener('DOMContentLoaded',function(){
@@ -1994,4 +2186,12 @@ document.addEventListener('DOMContentLoaded',function(){
   Chart.defaults.color='#7b8caa';
   Chart.defaults.borderColor='rgba(255,255,255,0.05)';
 });
-</script></body></html>
+</script>
+<!-- TEAM MODAL -->
+<div id="modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:1000;overflow-y:auto;backdrop-filter:blur(4px);" onclick="if(event.target===this)closeModal()">
+  <div style="max-width:700px;margin:40px auto;background:var(--card);border-radius:16px;padding:24px;border:1px solid var(--border);position:relative;">
+    <button onclick="closeModal()" style="position:absolute;top:12px;right:12px;background:transparent;border:none;color:var(--muted);font-size:1.5rem;cursor:pointer;line-height:1;">✕</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+</body></html>
