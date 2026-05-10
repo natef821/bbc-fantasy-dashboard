@@ -2014,7 +2014,7 @@ function renderLuckIndex(liveData){
     '<div style="overflow-x:auto;"><table class="standings-table"><thead><tr><th>Team</th><th>Actual W</th><th>Expected W</th><th>Luck</th><th>Label</th></tr></thead><tbody>' +
     data.map(t => {
       const color = t.luck > 1 ? 'var(--green)' : t.luck < -1 ? 'var(--red)' : 'var(--muted)';
-      return '<tr><td>' + t.name + '</td><td style="text-align:center;">' + t.actual_w + '</td><td style="text-align:center;">' + t.expected_w + '</td>' +
+      return '<tr><td style="color:var(--text)">' + t.name + '</td><td style="text-align:center;color:var(--text)">' + t.actual_w + '</td><td style="text-align:center;color:var(--text)">' + t.expected_w + '</td>' +
         '<td style="text-align:center;color:' + color + ';font-weight:700;">' + (t.luck > 0 ? '+' : '') + t.luck + '</td>' +
         '<td style="text-align:center;color:' + color + ';">' + t.luckLabel + '</td></tr>';
     }).join('') +
