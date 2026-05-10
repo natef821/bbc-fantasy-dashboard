@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T00:07:09.501340Z",
+  "lastUpdated": "2026-05-10T00:10:55.470984Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -53,10 +53,10 @@
       "short": "Lsgob",
       "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp",
       "rank": 5,
-      "fantasyPoints": "3047.75",
-      "fptsPerGame": "5.48",
+      "fantasyPoints": "3049.75",
+      "fptsPerGame": "5.49",
       "scoringPeriod": "556",
-      "gb": "302"
+      "gb": "300"
     },
     {
       "id": "0qrvkt09mg7kg72f",
@@ -97,10 +97,10 @@
       "short": "CN",
       "logoUrl": "https://fantraximg.com/logos/fco/tmLogo_fco5zrxmmo67qg28_512.webp",
       "rank": 9,
-      "fantasyPoints": "2629.25",
-      "fptsPerGame": "4.58",
+      "fantasyPoints": "2622.25",
+      "fptsPerGame": "4.57",
       "scoringPeriod": "574",
-      "gb": "720.5"
+      "gb": "727.5"
     },
     {
       "id": "lhaxchcjmg7kg72c",
@@ -108,10 +108,10 @@
       "short": "haydenor",
       "logoUrl": "https://fantraximg.com/logos/nsd/tmLogo_nsdzor91mcat5gih_512.webp",
       "rank": 10,
-      "fantasyPoints": "2602",
+      "fantasyPoints": "2601",
       "fptsPerGame": "5.22",
       "scoringPeriod": "498",
-      "gb": "747.75"
+      "gb": "748.75"
     },
     {
       "id": "aw407ddlmg7kg72a",
@@ -130,10 +130,10 @@
       "short": "Jac",
       "logoUrl": "https://fantraximg.com/logos/6oi/tmLogo_6oix2hntmn40p414_512.webp",
       "rank": 12,
-      "fantasyPoints": "2497",
+      "fantasyPoints": "2498",
       "fptsPerGame": "4.52",
       "scoringPeriod": "553",
-      "gb": "852.75"
+      "gb": "851.75"
     }
   ],
   "schedule": {
@@ -200,7 +200,7 @@
         "l": 5,
         "t": 31,
         "pf": 3225.5,
-        "pa": 2730.5,
+        "pa": 2723.5,
         "name": "Honey Nut Berrios #Inaugural JBThrowback",
         "weeklyPF": [
           339.75,
@@ -313,8 +313,8 @@
         "w": 2,
         "l": 11,
         "t": 31,
-        "pf": 2497.0,
-        "pa": 2936.0,
+        "pf": 2498.0,
+        "pa": 2938.0,
         "name": "Jac-in' It",
         "weeklyPF": [
           180.75,
@@ -329,7 +329,7 @@
           206.75,
           154.0,
           123.25,
-          96.25,
+          97.25,
           0.0,
           0.0,
           0.0,
@@ -484,7 +484,7 @@
         "w": 6,
         "l": 7,
         "t": 31,
-        "pf": 2602.0,
+        "pf": 2601.0,
         "pa": 2611.5,
         "name": "Say Yes to Velo",
         "weeklyPF": [
@@ -500,7 +500,7 @@
           317.0,
           263.75,
           194.75,
-          92.75,
+          91.75,
           0.0,
           0.0,
           0.0,
@@ -541,7 +541,7 @@
         "w": 6,
         "l": 7,
         "t": 31,
-        "pf": 2629.25,
+        "pf": 2622.25,
         "pa": 2705.25,
         "name": "Creative Name",
         "weeklyPF": [
@@ -557,7 +557,7 @@
           262.0,
           125.25,
           259.5,
-          142.0,
+          135.0,
           0.0,
           0.0,
           0.0,
@@ -599,7 +599,7 @@
         "l": 8,
         "t": 31,
         "pf": 2978.5,
-        "pa": 3133.0,
+        "pa": 3132.0,
         "name": "First Pitch Swinging",
         "weeklyPF": [
           306.75,
@@ -712,8 +712,8 @@
         "w": 8,
         "l": 5,
         "t": 31,
-        "pf": 3047.75,
-        "pa": 2982.5,
+        "pf": 3049.75,
+        "pa": 2983.5,
         "name": "Layin Wood\ud83e\udeb5",
         "weeklyPF": [
           286.0,
@@ -728,7 +728,7 @@
           318.25,
           213.5,
           260.5,
-          165.5,
+          167.5,
           0.0,
           0.0,
           0.0,
@@ -1541,7 +1541,7 @@
             "team1Pts": 104.75,
             "team2": "Creative Name",
             "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 142.0,
+            "team2Pts": 135.0,
             "winner": "Creative Name"
           },
           {
@@ -1550,7 +1550,7 @@
             "team1Pts": 111.5,
             "team2": "Say Yes to Velo",
             "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 92.75,
+            "team2Pts": 91.75,
             "winner": "First Pitch Swinging"
           },
           {
@@ -1565,10 +1565,10 @@
           {
             "team1": "Layin Wood\ud83e\udeb5",
             "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 165.5,
+            "team1Pts": 167.5,
             "team2": "Jac-in' It",
             "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 96.25,
+            "team2Pts": 97.25,
             "winner": "Layin Wood\ud83e\udeb5"
           },
           {
