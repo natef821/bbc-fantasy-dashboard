@@ -2093,7 +2093,7 @@ function initLeagueNews(liveData){
   
   // --- PRE-SEASON MAJOR TRADES ---
   const bigPreSeason = TRADES.filter(t => t.type==='preseason').sort((a,b)=>{
-    const aLen = (t.received||[]).length + (t.gave||[]).length;
+    const aLen = (a.received||[]).length + (a.gave||[]).length;
     const bLen = (b.received||[]).length + (b.gave||[]).length;
     return bLen - aLen;
   }).slice(0,2);
