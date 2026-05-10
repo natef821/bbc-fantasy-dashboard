@@ -2004,37 +2004,27 @@ let _playoffLiveData = null;
 function renderLotteryOdds(liveData) {
   const el = document.getElementById('lottery-grid');
   if (!el || !liveData) return;
-  
   const standings = liveData.standings || [];
-  const allSorted = [...standings].sort((a,b) => (a.winPct||0) - (b.winPct||0) || (a.pf||0) - (b.pf||0));
-  
-  // Get playoff teams
-  let playoffIds = new Set();
-  try { const pt = getPlayoffTeams(liveData); if(pt) pt.forEach(t => playoffIds.add(t.id)); } catch(e){}
-  
-  // Non-playoff teams sorted worst to best
-  const nonPlayoff = allSorted.filter(t => !playoffIds.has(t.id));
+  const allSorted = [...standings].sort((a,b) => (a.rank||99) - (b.rank||99));
+  const nonPlayoff = allSorted.slice(6, 12).reverse();
   const weights = [40, 25, 15, 10, 6, 4];
   const colors = ['#ef4444','#f97316','#eab308','#22c55e','#3b82f6','#8b5cf6'];
-  
-  el.innerHTML = nonPlayoff.slice(0, 6).map((t, i) => {
+  el.innerHTML = nonPlayoff.map((t, i) => {
     const pct = weights[i] || 2;
     const color = colors[i] || '#64748b';
-    const record = (t.w||0) + '-' + (t.l||0);
+    const fp = parseFloat(t.fantasyPoints||0).toFixed(1);
     const shortName = (t.name||t.short||'Team').split(' ').slice(0,3).join(' ');
-    return '<div style="background:#0f172a;border-radius:8px;padding:12px;border-left:3px solid '+color+'">'+
-      '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">'+
-        '<span style="font-weight:700;color:#f1f5f9;font-size:13px">'+shortName+'</span>'+
-        '<span style="color:'+color+';font-weight:800;font-size:20px">'+pct+'%</span>'+
-      '</div>'+
-      '<div style="font-size:11px;color:#94a3b8">Record: '+record+' · Rank #'+(i+7)+'</div>'+
-      '<div style="margin-top:8px;background:#1e293b;border-radius:4px;height:6px;overflow:hidden">'+
-        '<div style="height:100%;width:'+pct+'%;background:'+color+';border-radius:4px;transition:width 1s ease"></div>'+
-      '</div>'+
-    '</div>';
+    return '<div style="background:#0f172a;border-radius:8px;padding:12px;border-left:3px solid '+color+'">'
+      +'<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">'
+      +'<span style="font-weight:700;color:#f1f5f9;font-size:13px">'+shortName+'</span>'
+      +'<span style="color:'+color+';font-weight:800;font-size:20px">'+pct+'%</span>'
+      +'</div>'
+      +'<div style="font-size:11px;color:#94a3b8">Total PF: '+fp+' · Rank: #'+t.rank+'</div>'
+      +'<div style="margin-top:8px;background:#1e293b;border-radius:4px;height:6px;overflow:hidden">'
+      +'<div style="height:100%;width:'+pct+'%;background:'+color+';border-radius:4px"></div>'
+      +'</div></div>';
   }).join('');
 }
-
 function initPlayoffPicture(liveData){
   _playoffLiveData = liveData;
   const standings = liveData.standings || [];
