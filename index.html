@@ -1190,7 +1190,7 @@ function searchRankings(q){
   });
 }
 // =================== STANDINGS ===================
-let standingsSortKey='winPct', standingsSortDir=-1;
+let standingsSortKey='winPct', standingsSortDir=1;
 function initStandings(){
   renderStandingsTable();
   renderPFPAChart();
@@ -1221,7 +1221,7 @@ function renderDivLeaders(){
 }
 function sortStandings(key,btn){
   if(standingsSortKey===key)standingsSortDir*=-1;
-  else{standingsSortKey=key;standingsSortDir=-1;}
+  else{standingsSortKey=key;standingsSortDir=1;}
   if(btn){document.querySelectorAll('.filter-row .filter-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');}
   renderStandingsTable();
 }
