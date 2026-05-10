@@ -165,6 +165,7 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
 
 <nav>
   <button class="nav-btn active" onclick="showTab('rankings')">🏆 Power Rankings</button>
+    <button class="sub-nav-btn" onclick="showStatView('dynasty',this)">👑 Dynasty Value</button>
   <button class="nav-btn" onclick="showTab('standings')">📊 Standings</button>
   <button class="nav-btn" onclick="showTab('trends')">📈 Trends</button>
   <button class="nav-btn" onclick="showTab('matchups')">⚔️ Matchups</button>
@@ -330,10 +331,15 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
     </div>
   </div>
   <div id="stat-radar" class="stat-view" style="display:none">
-    <div style="display:flex;gap:1rem;flex-wrap:wrap;align-items:flex-start;justify-content:center;">
-      <div style="background:var(--card-bg);border-radius:12px;padding:1rem;">
-        <select id="radar-team-select" onchange="initRadar()" style="background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:4px 8px;margin-bottom:8px;"></select>
-        <canvas id="radarChart" width="400" height="400"></canvas>
+    <p style="color:var(--muted);font-size:.8rem;margin-bottom:1rem;">Normalized to league leader (10=best): Total PF, FP/Game, Hitting, Pitching, Defense (fewest PA).</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;">
+      <div style="background:var(--card);border-radius:12px;padding:1rem;border:1px solid var(--border);">
+        <div style="font-size:.8rem;color:var(--accent);font-weight:700;margin-bottom:.5rem;text-align:center;">Top 6 Teams</div>
+        <div style="position:relative;height:320px;"><canvas id="radarChart1"></canvas></div>
+      </div>
+      <div style="background:var(--card);border-radius:12px;padding:1rem;border:1px solid var(--border);">
+        <div style="font-size:.8rem;color:var(--accent2);font-weight:700;margin-bottom:.5rem;text-align:center;">Bottom 6 Teams</div>
+        <div style="position:relative;height:320px;"><canvas id="radarChart2"></canvas></div>
       </div>
     </div>
   </div>
@@ -341,6 +347,19 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
     <div id="luck-content"></div>
   </div>
 </div>
+  <div id="stat-dynasty" class="stat-view" style="display:none">
+    <p style="color:var(--muted);font-size:.8rem;margin-bottom:1rem;">Combined score: Active roster performance (60%) + Farm system grade (40%). Measures total franchise value.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+      <div style="background:var(--card);border-radius:12px;padding:1rem;border:1px solid var(--border);">
+        <div style="font-size:.85rem;font-weight:700;color:var(--accent);margin-bottom:.75rem;">👑 Dynasty Rankings</div>
+        <div id="dynasty-rank-list"></div>
+      </div>
+      <div style="background:var(--card);border-radius:12px;padding:1rem;border:1px solid var(--border);">
+        <div style="font-size:.85rem;font-weight:700;color:var(--accent);margin-bottom:.75rem;">Dynasty Score Breakdown</div>
+        <div style="position:relative;height:380px;"><canvas id="dynastyChart"></canvas></div>
+      </div>
+    </div>
+  </div>
 <div id="tab-trades" class="tab-content">
   <div class="section-title">🔄 Trade History</div>
   <div class="filter-row">
@@ -355,6 +374,7 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
 <!-- WAIVERS TAB -->
 <div id="tab-waivers" class="tab-content">
   <h2>📋 Waiver Wire Activity</h2>
+  <div id="waiver-notable" style="margin-bottom:1rem;padding:1rem;background:var(--card);border-radius:12px;border:1px solid var(--border);"></div>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:2rem;">
     <div style="background:var(--card-bg);border-radius:12px;padding:1rem;">
       <h3 style="color:var(--accent);margin-bottom:0.75rem;">Claims by Team</h3>
@@ -370,6 +390,10 @@ input.search-box:focus{outline:none;border-color:var(--accent);}
     <div style="position:relative;height:200px;max-height:200px;overflow:hidden;">
       <canvas id="waiverTimeline" style="height:200px!important;max-height:200px!important;"></canvas>
     </div>
+  </div>
+  <div id="waiver-period-summary" style="background:var(--card);border-radius:12px;padding:1rem;margin-bottom:1rem;border:1px solid var(--border);">
+    <div style="font-size:.85rem;font-weight:700;color:var(--accent);margin-bottom:.5rem;">📊 Claim Activity by Period</div>
+    <div id="waiver-period-table" style="font-size:.8rem;color:var(--muted);">Loading...</div>
   </div>
   <div style="background:var(--card-bg);border-radius:12px;padding:1rem;">
     <h3 style="color:var(--accent);margin-bottom:0.75rem;">Recent Transactions</h3>
@@ -706,134 +730,112 @@ const TEAM_WRITEUPS = [
 ];
 // FARM / PROSPECT RANKINGS
 const FARM_RANKS = [
-  {
-    teamId:'aw407ddlmg7kg72a', team:'Golden Gate Gays', farmRank:1, grade:'A+',
-    prRank:11, farmScore:96,
-    overview:'GGG acquired the deepest prospect package in league history from HNB on Apr 16 (11-piece haul for Tarik Skubal). Combined with pre-season acquisitions, GGG has more MiLB depth than any other team. Two MLB Pipeline Top-100 caliber prospects headline a system built for long-term dominance.',
+  {teamId:'aw407ddlmg7kg72a',team:'Golden Gate Gays',farmRank:1,grade:'A+',prRank:11,farmScore:96,prospectCount:9,
+    overview:'GGG acquired 11 players/picks from HNB on Apr 16 in the Tarik Skubal trade — the largest package in league history. Combined with pre-season acquisitions, GGG has the widest and deepest prospect base in the league by a wide margin.',
     topProspects:[
-      {name:'Eduardo Quintero (OF, LAD)', eta:'2028', grade:'A', fgDynRank:17, fgFV:50, note:'FanGraphs Dynasty #17 | FV 50 | A+ level. Dynamic CF in the Dodgers system with elite athleticism, plus speed, and developing power. MLB Pipeline Top-100. Elite dynasty asset.'},
-      {name:'Arjun Nimmala (SS, TOR)', eta:'2028', grade:'A-', fgDynRank:null, fgFV:45, note:'TOR #3 prospect per MLB.com | Double-A. Athletic SS with patient approach, raw power, strong OBP. Hot start in 2026. High-ceiling dynasty value.'},
-      {name:'Brandon Sproat (SP, MIL)', eta:'2027', grade:'B+', fgDynRank:null, fgFV:40, note:'MIL SP prospect | Upper minors arm. Power fastball and sharp slider. Mid-rotation upside with dynasty SP scarcity premium.'},
+      {name:'Eduardo Quintero (OF, LAD)',eta:'2028',grade:'A',fgDynRank:17,fgFV:50,note:'FanGraphs Dynasty #17 | FV 50 | A+ level. Dynamic CF with elite athleticism and plus speed. MLB Pipeline Top-100. Elite dynasty asset acquired pre-season.'},
+      {name:'Arjun Nimmala (SS, TOR)',eta:'2028',grade:'A-',fgDynRank:null,fgFV:45,note:'TOR #3 prospect | Double-A | Hot 2026 start. Athletic SS with patient approach and raw power. Acquired in HNB Skubal trade package.'},
+      {name:'Brandon Sproat (SP, MIL)',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'MIL SP prospect | Upper minors. Power fastball, sharp secondary stuff. Mid-rotation upside. From HNB trade.'},
+      {name:'Jacob Bresnahan (SP, PIT)',eta:'2027',grade:'B',fgDynRank:null,fgFV:35,note:'PIT pitching prospect | Acquired pre-season from EvilHNC. Mid-rotation potential with solid command profile.'},
+      {name:'Gavin Kilen (2B, MIN)',eta:'2027',grade:'B',fgDynRank:null,fgFV:35,note:'MIN infield prospect | Acquired pre-season from EvilHNC. Contact-first with gap power and solid plate discipline.'},
     ],
-    strengths:'Unmatched depth after the Skubal trade. Two elite Top-100 prospects headlining the system. Multiple arms in upper minors for near-term contribution.',
-    weaknesses:'Quintero and Nimmala have 2027-28 ETAs. Peak prospect tier is one step below truly elite.'
+    strengths:'Best farm depth in the league by volume and quality. Two top-100 caliber prospects anchor the system.',
+    weaknesses:'Top prospects have 2027-28 ETAs. Many depth pieces are unranked but provide impressive volume.'
   },
-  {
-    teamId:'g8p3r1i9mg7kg72b', team:'Honey Nut Berrios #Inaugural JBThrowback', farmRank:2, grade:'A-',
-    prRank:3, farmScore:85,
-    overview:"HNB traded most prospect depth to acquire Tarik Skubal. The farm retains quality near-term arms. Note: HNB's elite IL players (Yordan Alvarez and others) dramatically boost their power ranking once healthy — IL impact is reflected in power rankings, not farm grade.",
+  {teamId:'g8p3r1i9mg7kg72b',team:'Honey Nut Berrios #Inaugural JBThrowback',farmRank:2,grade:'A-',prRank:3,farmScore:85,prospectCount:2,
+    overview:"HNB traded most top prospects to get Tarik Skubal. The farm retains two quality near-term SP prospects. IL players (Yordan Alvarez and others) dramatically boost their power ranking once healthy — IL impact belongs in PR, not farm grade.",
     topProspects:[
-      {name:'Robert Gasser (SP, MIL)', eta:'2027', grade:'B+', fgDynRank:null, fgFV:40, note:'MIL SP prospect | AA/AAA. Deceptive lefty with plus changeup and excellent command profile. Mid-rotation MLB ceiling.'},
-      {name:'Caden Dana (SP, LAA)', eta:'2027', grade:'B+', fgDynRank:null, fgFV:40, note:'LAA SP prospect | AA. Power arm with plus fastball/slider combo. High-floor starter profile. Near-term dynasty value.'},
+      {name:'Robert Gasser (SP, MIL)',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'MIL SP | AA/AAA. Deceptive lefty with plus changeup and strong command. Mid-rotation MLB ceiling retained from pre-Skubal era.'},
+      {name:'Caden Dana (SP, LAA)',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'LAA SP | AA. Power arm with plus fastball/slider combo. High-floor starter profile retained from pre-Skubal era.'},
     ],
-    strengths:'Gasser and Dana are both near-term MLB starters. IL returnees (Alvarez, etc.) massively boost overall team value. Active roster is elite.',
-    weaknesses:'Gave up Eduardo Quintero and top picks for Skubal. Farm depth is thin compared to pre-trade status.'
+    strengths:'Both prospects are quality near-term MLB starters. Elite IL players (Alvarez etc.) make this team stronger than farm rank shows.',
+    weaknesses:'Gave up Quintero, Nimmala, and 7+ assets for Skubal. Farm thin compared to pre-trade depth.'
   },
-  {
-    teamId:'7gq3y996mg7kg729', team:"Evil Honey Nut Chourio\'s", farmRank:3, grade:'A-',
-    prRank:8, farmScore:83,
-    overview:"EvilHNC has two MLB Pipeline Top-100 prospects and made the most impactful in-season acquisition (Kyson Witherspoon, SP prospect from HNC on May 4). Lazaro Montes is a legitimate top-50 dynasty prospect. This system punches well above its size.",
+  {teamId:'7gq3y996mg7kg729',team:"Evil Honey Nut Chourio\'s",farmRank:3,grade:'A-',prRank:8,farmScore:83,prospectCount:3,
+    overview:"EvilHNC has two MLB Pipeline Top-100 prospects and made the smartest in-season acquisition (Kyson Witherspoon from HNC on May 4). Lazaro Montes is a FanGraphs Dynasty top-50 prospect. Small but elite-quality system.",
     topProspects:[
-      {name:'Lazaro Montes (OF, SEA)', eta:'2027', grade:'A-', fgDynRank:49, fgFV:50, note:'FanGraphs Dynasty #49 | FV 50 | MLB Pipeline Top-100 | Double-A. Left-handed power bat with massive raw power and improving plate discipline. Elite dynasty OF ceiling.'},
-      {name:'Kyson Witherspoon (SP, BOS)', eta:'2027', grade:'B+', fgDynRank:null, fgFV:40, note:'BOS #6 prospect | Acquired from HNC May 4. Power fastball (96-99 mph) with plus slider. Mid-to-front rotation upside. Dynasty SP premium.'},
-      {name:'Sung Mun Song (2B/3B, SD)', eta:'2028', grade:'B', fgDynRank:null, fgFV:35, note:'SD infield prospect | A+/AA. Korean bat with solid hit tool and improving power. Versatile defender. Long-term dynasty stash.'},
+      {name:'Lazaro Montes (OF, SEA)',eta:'2027',grade:'A-',fgDynRank:49,fgFV:50,note:'FanGraphs Dynasty #49 | FV 50 | MLB Pipeline Top-100 | Double-A. Left-handed power bat with massive raw power and improving plate discipline. Elite dynasty ceiling.'},
+      {name:'Kyson Witherspoon (SP, BOS)',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'BOS #6 prospect | Acquired from HNC May 4. Power fastball 96-99 mph with plus slider. Mid-to-front rotation upside. Smart acquisition.'},
+      {name:'Sung Mun Song (2B/3B, SD)',eta:'2028',grade:'B',fgDynRank:null,fgFV:35,note:'SD infield prospect | A+/AA. Korean bat with solid hit tool and improving power. Versatile defender. Long-term dynasty stash.'},
     ],
-    strengths:'Two MLB Pipeline Top-100 prospects. Witherspoon is a high-upside arm acquired in a smart trade. Meaningful depth across positions.',
-    weaknesses:'Montes and Witherspoon both have 2027 ETAs. Song is a longer-term project. Command concerns add risk to Witherspoon.'
+    strengths:'Two MLB Pipeline Top-100 prospects. Quality over quantity. Witherspoon was a value-buy in May.',
+    weaknesses:'Only 3 confirmed prospects. Both Montes and Witherspoon have 2027 ETAs. Command concerns for Witherspoon add risk.'
   },
-  {
-    teamId:'jwg2zkwzmg7kg72a', team:"Jac-in' It", farmRank:4, grade:'B+',
-    prRank:12, farmScore:78,
-    overview:"Jac-in' It has assembled a collection of SP prospects throughout 2026, targeting pitching depth specifically. Their system lacks a true top-50 dynasty anchor but has solid volume of pitching prospects with near-term ETA.",
+  {teamId:'jwg2zkwzmg7kg72a',team:"Jac-in' It",farmRank:4,grade:'B+',prRank:12,farmScore:78,prospectCount:2,
+    overview:"Jac-in' It has specifically targeted SP prospects throughout 2026. The system has solid SP depth with near-term ETAs though no elite position prospect anchor.",
     topProspects:[
-      {name:'Caden Dana (SP, LAA)', eta:'2027', grade:'B+', fgDynRank:null, fgFV:40, note:'LAA SP prospect | AA. Power fastball/slider arm. Mid-rotation MLB ceiling. Dynasty SP scarcity premium applies.'},
-      {name:'Robert Gasser (SP, MIL)', eta:'2027', grade:'B', fgDynRank:null, fgFV:40, note:'MIL SP prospect | AA/AAA. Deceptive southpaw with plus changeup. Consistent mid-rotation upside.'},
+      {name:'Caden Dana (SP, LAA)',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'LAA SP | AA. Power fastball/slider arm. Mid-rotation MLB ceiling. Dynasty SP scarcity premium.'},
+      {name:'Robert Gasser (SP, MIL)',eta:'2027',grade:'B',fgDynRank:null,fgFV:40,note:'MIL SP | AA/AAA. Deceptive southpaw with plus changeup. Near-term MLB contributor.'},
     ],
-    strengths:'Focused SP accumulation strategy. Multiple near-term arms. Pitching scarcity makes these assets valuable in dynasty.',
-    weaknesses:'No elite position prospects. System heavy on pitchers (higher bust rate). No top-50 dynasty anchor.'
+    strengths:'Focused SP accumulation with near-term upside. Pitching scarcity in dynasty elevates these assets.',
+    weaknesses:'No elite position prospects. Heavy on pitchers (higher bust rate). No top-50 dynasty anchor.'
   },
-  {
-    teamId:'odce8gzsmg7kg72c', team:'Wyatt and the Lankers', farmRank:5, grade:'B-',
-    prRank:1, farmScore:62,
-    overview:"The Lankers are the best team in the league with a win-now mindset. They traded away significant prospect capital to acquire Reynaldo Lopez and Brandon Nimmo. Almost no active MiLB stashes remain.",
+  {teamId:'odce8gzsmg7kg72c',team:'Wyatt and the Lankers',farmRank:5,grade:'B-',prRank:1,farmScore:62,prospectCount:0,
+    overview:"The Lankers lead the league with a maximum win-now approach. They traded Patrick Sandoval, David Shields, and picks for Reynaldo Lopez and Brandon Nimmo. No confirmed MiLB stashes on the roster.",
     topProspects:[
-      {name:'No active MiLB prospect stash', eta:'N/A', grade:'C', fgDynRank:null, fgFV:null, note:'The Lankers traded away prospect depth to win now. Dynasty value is entirely concentrated in current active roster production. No FanGraphs-ranked MiLB prospects identified.'},
+      {name:'No active MiLB prospect stash',eta:'N/A',grade:'C',fgDynRank:null,fgFV:null,note:'Dynasty value concentrated entirely in current active roster. No FanGraphs-ranked MiLB prospects. All players are active MLB contributors.'},
     ],
     strengths:'Best active roster in the league. Win-now approach maximizes 2026 championship odds.',
-    weaknesses:'Minimal farm depth. Traded away picks and prospects for present production. High risk if key players are injured.'
+    weaknesses:'No farm depth at all. Traded picks and prospects for present production. High injury risk.'
   },
-  {
-    teamId:'8znzrpg1mg7kg72e', team:'TBONERS', farmRank:6, grade:'B-',
-    prRank:2, farmScore:60,
-    overview:'TBONERS received a solid pre-season trade package from FPS (Eduard Bazardo, Blake Treinen, Jose Alvarado, Alex Bregman). Their farm is thin on true MiLB prospects, reflecting an all-in 2026 approach. Eduard Bazardo is the only genuine minor league arm on the roster.',
+  {teamId:'8znzrpg1mg7kg72e',team:'TBONERS',farmRank:6,grade:'B-',prRank:2,farmScore:60,prospectCount:1,
+    overview:'TBONERS acquired Eduard Bazardo, Blake Treinen, Jose Alvarado, Alex Bregman, and a 2029 R3 pick from FPS pre-season. Farm is thin on MiLB prospects with Bazardo being the only confirmed minor leaguer.',
     topProspects:[
-      {name:'Eduard Bazardo (RP, SEA)', eta:'2026', grade:'B', fgDynRank:null, fgFV:35, note:'SEA RP prospect | Near-MLB ready. Power reliever with high strikeout potential. Acquired from FPS pre-season. Near-term bullpen contributor.'},
+      {name:'Eduard Bazardo (RP, SEA)',eta:'2026',grade:'B',fgDynRank:null,fgFV:35,note:'SEA RP | Near-MLB ready power reliever with high strikeout potential. Acquired from FPS. Immediate bullpen contributor profile.'},
     ],
-    strengths:'Second-best active roster in the league. Bazardo provides immediate bullpen depth. Win-now approach well-suited for 2026.',
-    weaknesses:'Farm system essentially bare beyond Bazardo. Long-term dynasty trajectory is uncertain after 2026.'
+    strengths:'Second-best active roster. Bazardo provides near-term bullpen depth. Win-now approach well-constructed.',
+    weaknesses:'Farm essentially bare beyond Bazardo. Long-term dynasty trajectory unclear after 2026.'
   },
-  {
-    teamId:'nbnjqx3cmg7kg72g', team:"Honey Nut Chourio\'s", farmRank:7, grade:'C+',
-    prRank:6, farmScore:52,
-    overview:"HNC traded away Kyson Witherspoon (their top prospect) and two picks (2028 R1 + 2027 R3) to acquire Kazuma Okamoto from EvilHNC. The farm is now thin. Jackson Chourio is their star but is an active MLB player, not a MiLB prospect.",
+  {teamId:'vhuxfzygmg7kg728',team:'Creative Name',farmRank:7,grade:'C+',prRank:9,farmScore:52,prospectCount:3,
+    overview:"Creative Name received A.J. Ewing (CF-NYM) and Brandon Clarke (SP-STL) from EvilHNC pre-season plus Kaden Echeman in another deal. A.J. Ewing is their best dynasty prospect. 12 WW claims show active roster building.",
     topProspects:[
-      {name:'No ranked MiLB prospects currently', eta:'N/A', grade:'C-', fgDynRank:null, fgFV:null, note:'After trading Witherspoon to EvilHNC, HNC has no confirmed ranked MiLB prospects. Active roster led by Jackson Chourio (elite MLB star) and Kazuma Okamoto.'},
+      {name:'A.J. Ewing (CF, NYM)',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'NYM OF prospect | AA/AAA. Athletic CF with plus speed and developing offensive game. Acquired from EvilHNC pre-season. Premium position with dynasty upside.'},
+      {name:'Brandon Clarke (SP, STL)',eta:'2026',grade:'B',fgDynRank:null,fgFV:35,note:'STL SP | Near-MLB ready control pitcher with mid-rotation upside. Could contribute to active roster this season.'},
+      {name:'Kaden Echeman (SP, STL)',eta:'2027',grade:'B-',fgDynRank:null,fgFV:30,note:'STL SP acquired in trade. Secondary pitching stash with back-end starter ceiling.'},
     ],
-    strengths:'Jackson Chourio is an elite active MLB producer. Kazuma Okamoto adds versatility. Active roster is solid.',
-    weaknesses:'No MiLB prospect stash. Traded both near-term and long-term prospect capital in May deals.'
+    strengths:'A.J. Ewing is a legitimate dynasty OF prospect at premium position. Clarke near-MLB-ready. Three STL arms provide depth.',
+    weaknesses:'No top-50 dynasty anchor. Back-end SP types at best. System lacks a star prospect.'
   },
-  {
-    teamId:'vhuxfzygmg7kg728', team:'Creative Name', farmRank:8, grade:'C+',
-    prRank:9, farmScore:50,
-    overview:"Creative Name received Brandon Clarke (SP-STL) and A.J. Ewing (CF-NYM) from EvilHNC pre-season. A.J. Ewing is their best dynasty prospect. 12 WW claims show active roster management.",
+  {teamId:'nbnjqx3cmg7kg72g',team:"Honey Nut Chourio\'s",farmRank:8,grade:'C+',prRank:6,farmScore:50,prospectCount:0,
+    overview:"HNC traded Kyson Witherspoon and two picks (2028 R1 + 2027 R3) to get Kazuma Okamoto from EvilHNC. Farm is now depleted. Jackson Chourio is their star but is an active MLB All-Star, not a prospect.",
     topProspects:[
-      {name:'A.J. Ewing (CF, NYM)', eta:'2027', grade:'B+', fgDynRank:null, fgFV:40, note:'NYM OF prospect | AA/AAA. Athletic CF with plus speed and developing offensive game. Acquired pre-season from EvilHNC. Solid dynasty upside at a premium position.'},
-      {name:'Brandon Clarke (SP, STL)', eta:'2026', grade:'B', fgDynRank:null, fgFV:35, note:'STL SP prospect | Near-MLB ready. Solid control pitcher with mid-rotation upside. May contribute to active roster in 2026.'},
-      {name:'Kaden Echeman (SP, STL)', eta:'2027', grade:'B-', fgDynRank:null, fgFV:30, note:'STL SP prospect acquired in GGG trade. Secondary pitching stash with moderate dynasty value.'},
+      {name:'No ranked MiLB prospects currently',eta:'N/A',grade:'C-',fgDynRank:null,fgFV:null,note:'After trading Witherspoon to EvilHNC, HNC has no confirmed ranked MiLB prospects. Active roster led by Jackson Chourio (elite MLB producer) and Kazuma Okamoto.'},
     ],
-    strengths:'A.J. Ewing is a legitimate dynasty OF prospect at a premium position. Brandon Clarke could contribute soon. Multiple STL arms provide depth.',
-    weaknesses:'No top-50 dynasty anchor. Clarke and Echeman are back-end SP types at best. System lacks a star prospect.'
+    strengths:'Jackson Chourio is an elite active MLB producer. Okamoto adds versatility. Active roster is solid.',
+    weaknesses:'No MiLB prospect stash after trading Witherspoon. Traded near-term and long-term capital.'
   },
-  {
-    teamId:'w6b31holmg7kg72f', team:'Layin Wood 🪵', farmRank:9, grade:'C',
-    prRank:5, farmScore:45,
-    overview:"Layin Wood recently acquired Dean Kremer (SP, BAL) from GGG in a trade (for Kaden Echeman and a pick). Kremer is an active MLB pitcher, not a prospect. Their farm is thin on genuine MiLB stashes.",
+  {teamId:'w6b31holmg7kg72f',team:'Layin Wood 🪵',farmRank:9,grade:'C',prRank:5,farmScore:45,prospectCount:2,
+    overview:"Layin Wood traded Kaden Echeman and a future pick to GGG and received Dean Kremer (SP, BAL) back — an active MLB pitcher, not a prospect. Their farm has Tommy Troy and Carlos Narvaez as dynasty stashes.",
     topProspects:[
-      {name:'Tommy Troy (2B/CF, ARI)', eta:'2027', grade:'B', fgDynRank:null, fgFV:35, note:'ARI infield/OF prospect | AA. Versatile multi-position athlete with solid hit tool and athleticism. Useful dynasty stash with multi-position eligibility upside.'},
-      {name:'Carlos Narvaez (C, BOS)', eta:'2027', grade:'B-', fgDynRank:null, fgFV:30, note:'BOS C prospect | AA. Switch-hitting catcher with solid defensive profile. Dynasty catcher scarcity premium applies.'},
+      {name:'Tommy Troy (2B/CF, ARI)',eta:'2027',grade:'B',fgDynRank:null,fgFV:35,note:'ARI multi-position prospect | Double-A. Athletic infielder/OF with solid hit tool. Useful dynasty stash with multi-position eligibility upside.'},
+      {name:'Carlos Narvaez (C, BOS)',eta:'2027',grade:'B-',fgDynRank:null,fgFV:30,note:'BOS C prospect | Double-A. Switch-hitting backstop with solid defensive profile. Dynasty catcher scarcity premium.'},
     ],
-    strengths:'Tommy Troy offers position flexibility value. Carlos Narvaez benefits from catcher scarcity in dynasty.',
-    weaknesses:'No top-100 prospects. Traded Echeman (prospect) for Kremer (MLB veteran). Thin farm overall.'
+    strengths:'Tommy Troy offers position flexibility. Narvaez benefits from catcher scarcity. Active roster is 5th-best.',
+    weaknesses:'No top-100 prospects. Traded Echeman (prospect) for Kremer (MLB vet). Thin farm overall.'
   },
-  {
-    teamId:'xgktl0otmg7kg72d', team:'Tank for LeBron', farmRank:10, grade:'C',
-    prRank:4, farmScore:40,
-    overview:"Tank for LeBron has not engaged in the trade market and has made no notable prospect acquisitions in 2026. Their active roster is strong (4th in PR) but the dynasty pipeline is minimal with no confirmed MiLB stashes.",
+  {teamId:'xgktl0otmg7kg72d',team:'Tank for LeBron',farmRank:10,grade:'C',prRank:4,farmScore:40,prospectCount:1,
+    overview:"Tank for LeBron has not engaged the trade market and made no notable prospect acquisitions in 2026. Active roster is strong (4th in PR) but dynasty pipeline is minimal.",
     topProspects:[
-      {name:'Spencer Horwitz (1B, PIT)', eta:'2026', grade:'B-', fgDynRank:null, fgFV:30, note:'PIT 1B prospect | Near-MLB ready. Solid hit tool and on-base skills. Limited power but a good contact approach. Near-term active roster contributor.'},
+      {name:'Spencer Horwitz (1B, PIT)',eta:'2026',grade:'B-',fgDynRank:null,fgFV:30,note:'PIT 1B | Near-MLB ready. Solid hit tool and excellent on-base skills. Limited power but strong contact approach. Near-term contributor.'},
     ],
-    strengths:'Active roster is strong and well-constructed. Spencer Horwitz provides near-term 1B depth.',
-    weaknesses:'No MiLB stars. No top-100 prospects. No trade market engagement to build long-term dynasty assets.'
+    strengths:'Active roster is strong. Horwitz provides near-term 1B depth.',
+    weaknesses:'No top-100 prospects. No trade market engagement. Minimal dynasty pipeline investment.'
   },
-  {
-    teamId:'0qrvkt09mg7kg72f', team:'First Pitch Swinging', farmRank:11, grade:'C-',
-    prRank:10, farmScore:32,
-    overview:"FPS traded away their best assets pre-season (Logan Gilbert, Alex Bregman, Treinen, Alvarado, Bazardo, 2029 R3) to TBONERS. Logan Gilbert is an active MLB starter, not a prospect. Farm is effectively depleted.",
+  {teamId:'0qrvkt09mg7kg72f',team:'First Pitch Swinging',farmRank:11,grade:'C-',prRank:10,farmScore:32,prospectCount:1,
+    overview:"FPS traded away their best assets pre-season (Logan Gilbert, Alex Bregman, Blake Treinen, Jose Alvarado, Eduard Bazardo, 2029 R3) to TBONERS. Logan Gilbert is an active MLB starter, not a prospect. Farm is essentially depleted.",
     topProspects:[
-      {name:'Dillon Dingler (C, DET)', eta:'2026', grade:'C+', fgDynRank:null, fgFV:30, note:'DET C prospect | Near-MLB ready. Solid defensive catcher with some offensive upside. Dynasty catcher scarcity value makes him a useful stash.'},
+      {name:'Dillon Dingler (C, DET)',eta:'2026',grade:'C+',fgDynRank:null,fgFV:30,note:'DET C | Near-MLB ready backstop with solid defense and some offensive upside. Catcher scarcity provides dynasty value even at this level.'},
     ],
-    strengths:'Dillon Dingler has dynasty catcher scarcity value. FPS has been active on WW (10 claims) seeking roster improvement.',
-    weaknesses:'Traded away all top assets pre-season. No top-100 prospects. Farm is essentially empty.'
+    strengths:'Dingler has catcher scarcity value. FPS has been active on WW (10 claims) seeking contributors.',
+    weaknesses:'Traded away all top assets pre-season. No top-100 prospects. Farm essentially empty.'
   },
-  {
-    teamId:'lhaxchcjmg7kg72c', team:'Say Yes to Velo', farmRank:12, grade:'D+',
-    prRank:7, farmScore:18,
-    overview:"Say Yes to Velo has made zero in-season trades and has the weakest farm system in the league. No confirmed MiLB prospect stashes. Their active roster is competitive enough for 2026 but the dynasty pipeline is completely empty.",
+  {teamId:'lhaxchcjmg7kg72c',team:'Say Yes to Velo',farmRank:12,grade:'D+',prRank:7,farmScore:18,prospectCount:0,
+    overview:"Say Yes to Velo has made zero in-season trades and has the weakest farm system in the league. No confirmed MiLB prospects have been identified. Active roster is competitive but no dynasty pipeline investment.",
     topProspects:[
-      {name:'No confirmed MiLB prospects', eta:'N/A', grade:'D', fgDynRank:null, fgFV:null, note:'Say Yes to Velo has not acquired any prospects through trades or waiver claims in 2026. Zero farm depth identified. Worst dynasty outlook in the league by a significant margin.'},
+      {name:'No confirmed MiLB prospects',eta:'N/A',grade:'D',fgDynRank:null,fgFV:null,note:'Say Yes to Velo has not acquired any prospects through trades or waiver claims in 2026. Zero farm depth. Worst dynasty outlook in the league by a significant margin.'},
     ],
-    strengths:'Active roster is competent enough to remain competitive in 2026.',
-    weaknesses:'No farm system. Zero trades. Zero prospect stash. Worst dynasty outlook in the league by a wide margin.'
+    strengths:'Active roster is competent enough for 2026 competitiveness.',
+    weaknesses:'No farm system. Zero trades made. Worst dynasty outlook in the league.'
   },
 ];;
 // =================== UTILITY FUNCTIONS ===================
@@ -875,6 +877,7 @@ function showStatView(v,btn){
   if(btn) btn.classList.add('active');
   if(v==='radar') initRadar();
   if(v==='luck') renderLuckIndex(window._waiverLiveData || window._liveData);
+  if(v==='dynasty') renderDynastyLeaderboard();
   if(v==='hitting' && document.querySelector('#hitting-table tbody') && !document.querySelector('#hitting-table tbody tr')) renderHittingTable();
   if(v==='pitching' && document.querySelector('#pitching-table tbody') && !document.querySelector('#pitching-table tbody tr')) renderPitchingTable();
 }
@@ -1293,7 +1296,7 @@ function renderFarmList(){
       '</div>'+
       '<div class="pc-bar" style="margin-bottom:12px;"><div class="pc-bar-fill" style="width:'+f.farmScore+'%;background:linear-gradient(90deg,var(--accent2),var(--accent3));"></div></div>'+
       '<p style="font-size:.85rem;margin-bottom:12px;line-height:1.7;">'+f.overview+'</p>'+
-      '<div style="margin-bottom:10px;"><div style="font-size:.75rem;color:var(--muted);font-weight:700;margin-bottom:6px;">TOP PROSPECTS</div>'+
+      '<div style="margin-bottom:10px;"><div style="font-size:.75rem;color:var(--muted);font-weight:700;margin-bottom:6px;">TOP PROSPECTS' + (f.prospectCount !== undefined ? ' <span style="color:var(--accent);font-size:.65rem;">('+f.prospectCount+' total MiLB stashes)</span>' : '') + '</div>'+
         f.topProspects.map(p=>'<div style="background:var(--card2);border-radius:6px;padding:8px 12px;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;">'+
           '<div style="flex:1"><div style="font-size:.85rem;font-weight:700;">'+p.name+
           (p.fgDynRank?'<span style="margin-left:6px;background:#1565c0;color:#fff;border-radius:4px;padding:1px 5px;font-size:.65rem;font-weight:700;">FG Dyn #'+p.fgDynRank+'</span>':'')+
@@ -1425,23 +1428,33 @@ function renderPitchingTable(){
 }
 let radarInst=null, radarInst2=null;
 function initRadar(){
-  if(radarInst)return;
-  const top6=TEAMS.slice(0,6);
-  const bot6=TEAMS.slice(6);
-  const makeDataset=(teams)=>teams.map((t,i)=>({label:t.short,data:[t.pf/3270.25*10,t.fpg/5.41*10,t.hitPts/1497.75*10,t.pitPts/1937.5*10,(1-t.pa/3105.25)*10],backgroundColor:TCOLORS[i],borderColor:COLORS[i],borderWidth:2}));
-  const opts={responsive:true,maintainAspectRatio:false,scales:{r:{min:0,max:10,grid:{color:'rgba(255,255,255,.1)'},angleLines:{color:'rgba(255,255,255,.1)'},ticks:{display:false},pointLabels:{color:'#e8eaf6',font:{size:11}}}},plugins:{legend:{labels:{color:'#e8eaf6',font:{size:10}}}}};
+  if(radarInst){try{radarInst.destroy();}catch(e){} radarInst=null;}
+  if(radarInst2){try{radarInst2.destroy();}catch(e){} radarInst2=null;}
+  const top6=TEAMS.slice(0,6), bot6=TEAMS.slice(6);
+  const maxPF=Math.max(...TEAMS.map(t=>t.pf||0))||1, maxFPG=Math.max(...TEAMS.map(t=>t.fpg||0))||1;
+  const maxHit=Math.max(...TEAMS.map(t=>t.hitPts||0))||1, maxPit=Math.max(...TEAMS.map(t=>t.pitPts||0))||1;
+  const minPA=Math.min(...TEAMS.map(t=>t.pa||9999)), maxPA=Math.max(...TEAMS.map(t=>t.pa||0))||1;
+  const makeDataset=(teams,off)=>teams.map((t,i)=>({
+    label:t.short, borderWidth:2, pointBackgroundColor:COLORS[i+off],
+    borderColor:COLORS[i+off], backgroundColor:TCOLORS[i+off]+'40',
+    data:[(t.pf||0)/maxPF*10,(t.fpg||0)/maxFPG*10,(t.hitPts||0)/maxHit*10,(t.pitPts||0)/maxPit*10,
+      maxPA>minPA?(1-(t.pa-minPA)/(maxPA-minPA))*10:5]
+  }));
+  const opts={responsive:true,maintainAspectRatio:false,
+    scales:{r:{min:0,max:10,grid:{color:'rgba(255,255,255,.1)'},angleLines:{color:'rgba(255,255,255,.1)'},ticks:{display:false},pointLabels:{color:'#e8eaf6',font:{size:11}}}},
+    plugins:{legend:{position:'right',labels:{color:'#e8eaf6',font:{size:9},boxWidth:10}}}};
   const labels=['Total PF','FP/G','Hitting','Pitching','Defense'];
   const c1=document.getElementById('radarChart1'),c2=document.getElementById('radarChart2');
-  if(c1)radarInst=new Chart(c1,{type:'radar',data:{labels,datasets:makeDataset(top6)},options:opts});
-  if(c2)radarInst2=new Chart(c2,{type:'radar',data:{labels,datasets:makeDataset(bot6)},options:opts});
+  if(c1)radarInst=new Chart(c1,{type:'radar',data:{labels,datasets:makeDataset(top6,0)},options:opts});
+  if(c2)radarInst2=new Chart(c2,{type:'radar',data:{labels,datasets:makeDataset(bot6,6)},options:opts});
 }
 // =================== TRADES ===================
-function initTrades(){renderTrades(TRADES);}
+function initTrades(){renderTrades([...TRADES].reverse());}
 function filterTrades(type,btn){
   document.querySelectorAll('.filter-row .filter-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');
-  const data=type==='all'?TRADES:TRADES.filter(t=>t.type===type);
-  renderTrades(data);
+  const raw=type==='all'?TRADES:TRADES.filter(t=>t.type===type);
+  renderTrades([...raw].reverse());
 }
 function searchTrades(q){
   const data=TRADES.filter(t=>JSON.stringify(t).toLowerCase().includes(q.toLowerCase()));
@@ -1530,41 +1543,33 @@ function renderWaiverChart(){
   }
 }
 function renderWaiverTimeline(liveData){
-  const ctx = document.getElementById('waiverTimeline');
-  if(!ctx) return;
-  if(window._waiverTimelineInst){ try{ window._waiverTimelineInst.destroy(); }catch(e){} }
-  const transactions = (liveData.transactions||[]);
-  // Group by week period (every 7 days from epoch)
-  const byPeriod = {};
-  const now = Date.now();
-  transactions.forEach(tx => {
-    const d = new Date(tx.displayDate||now);
-    const weekLabel = d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
-    if(!byPeriod[weekLabel]) byPeriod[weekLabel] = 0;
-    byPeriod[weekLabel]++;
+  const ctx=document.getElementById('waiverTimeline');
+  if(!ctx)return;
+  if(window._waiverTimelineInst){try{window._waiverTimelineInst.destroy();}catch(e){}}
+  const transactions=(liveData.transactions||[]);
+  const byPeriod={};
+  const now=Date.now();
+  transactions.forEach(tx=>{
+    const d=new Date(tx.displayDate||now);
+    const label=d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
+    if(!byPeriod[label])byPeriod[label]=0;
+    byPeriod[label]++;
   });
-  const labels = Object.keys(byPeriod).slice(-10);
-  const data = labels.map(l => byPeriod[l]);
-  window._waiverTimelineInst = new Chart(ctx, {
-    type:'line',
-    data:{
-      labels,
-      datasets:[{
-        label:'Transactions',
-        data,
-        backgroundColor:'rgba(0,212,170,0.15)',
-        borderColor:'var(--accent)',
-        borderWidth:2,
-        fill:true,
-        tension:0.4,
-        pointRadius:4,
-        pointBackgroundColor:'var(--accent)'
-      }]
-    },
-    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{beginAtZero:true,grid:{color:'rgba(255,255,255,.05)'},ticks:{stepSize:1}},x:{grid:{display:false}}}}
+  const allLabels=Object.keys(byPeriod);
+  const allData=allLabels.map(l=>byPeriod[l]);
+  window._waiverTimelineInst=new Chart(ctx,{
+    type:'bar',
+    data:{labels:allLabels,datasets:[{label:'Claims',data:allData,backgroundColor:'rgba(0,212,170,0.6)',borderColor:'#00d4aa',borderWidth:1}]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
+      scales:{x:{ticks:{color:'#a0a8c0',font:{size:9},maxRotation:45},grid:{color:'rgba(255,255,255,.05)'}},
+        y:{ticks:{color:'#a0a8c0',font:{size:9},stepSize:1},beginAtZero:true,grid:{color:'rgba(255,255,255,.05)'}}}}
   });
+  const summaryEl=document.getElementById('waiver-period-table');
+  if(summaryEl&&allLabels.length>0){
+    const rows=allLabels.map((label,i)=>'<tr><td style="padding:3px 8px;border-bottom:1px solid var(--border);">'+label+'</td><td style="padding:3px 8px;border-bottom:1px solid var(--border);text-align:center;color:var(--accent);">'+allData[i]+'</td></tr>').join('');
+    summaryEl.innerHTML='<table style="width:100%;border-collapse:collapse;"><thead><tr><th style="padding:4px 8px;text-align:left;color:var(--muted);font-size:.75rem;">Period</th><th style="padding:4px 8px;text-align:center;color:var(--muted);font-size:.75rem;">Claims</th></tr></thead><tbody>'+rows+'</tbody></table>';
+  }
 }
-
 function renderNotableWaivers(){
   const el=document.getElementById('waiver-notable');
   el.innerHTML='<div class="timeline">'+WAIVER_DATA.map(w=>'<div class="tl-item"><div class="tl-dot"></div><div class="tl-content"><div class="tl-date">'+w.team+' ('+w.claims+' total claims)</div>'+w.notable.map(p=>'<span class="badge badge-teal">'+p+'</span> ').join('')+'</div></div>').join('')+'</div>';
@@ -1930,8 +1935,9 @@ function initPlayoffPicture(liveData){
   
   const allSorted = [...playoffTeams, ...wildCardTeams.filter(t => !playoffTeams.find(p=>p.id===t.id))];
   
-  const gamesPlayed = (allSorted[0]?.w||0) + (allSorted[0]?.l||0) + (allSorted[0]?.t||0);
-  const totalPeriods = 44;
+  const allPeriods = (liveData.schedule||{}).periods || [];
+  const gamesPlayed = allPeriods.filter(p => (p.matchups||[]).some(m => (parseFloat(m.team1Pts)||0)>0||(parseFloat(m.team2Pts)||0)>0)).length;
+  const totalPeriods = allPeriods.length || 44;
   const remaining = totalPeriods - gamesPlayed;
   
   // Cutline team (6th seed)
@@ -2185,7 +2191,65 @@ document.addEventListener('DOMContentLoaded',function(){
     if(el) el.textContent='Updated: '+new Date().toLocaleDateString();
     console.warn('Failed to load league data:', e);
   });
-});</script>
+});
+// =================== DYNASTY VALUE LEADERBOARD ===================
+let dynastyChartInst=null;
+function renderDynastyLeaderboard(){
+  if(dynastyChartInst){try{dynastyChartInst.destroy();}catch(e){}dynastyChartInst=null;}
+  const gradeMap={'A+':100,'A':92,'A-':86,'B+':79,'B':71,'B-':63,'C+':55,'C':46,'C-':36,'D+':26,'D':16,'D-':8,'F':0};
+  const prScores=WEEK_RANKS[WEEK_RANKS.length-1]?.ranks||[];
+  const maxPR=TEAMS.length;
+  const data=TEAMS.map((t,i)=>{
+    const farm=FARM_RANKS.find(f=>f.teamId===t.id);
+    const prRank=prScores[i]||(i+1);
+    const prScore=Math.round(((maxPR-prRank+1)/maxPR)*100);
+    const farmGradeScore=farm?(gradeMap[farm.grade]||50):50;
+    const farmScore=farm?farm.farmScore:farmGradeScore;
+    const dynastyScore=Math.round(prScore*0.6+farmScore*0.4);
+    return{name:t.name.replace(/#Inaugural JBThrowback/,'').trim(),short:t.short,prScore,farmScore,farmGrade:farm?farm.grade:'C',dynastyScore,prRank,farmRank:farm?farm.farmRank:99,id:t.id};
+  }).sort((a,b)=>b.dynastyScore-a.dynastyScore);
+  
+  const listEl=document.getElementById('dynasty-rank-list');
+  if(listEl){
+    listEl.innerHTML=data.map((d,i)=>{
+      const medal=i===0?'🥇':i===1?'🥈':i===2?'🥉':'';
+      const col=d.dynastyScore>=80?'var(--accent)':d.dynastyScore>=60?'var(--accent2)':d.dynastyScore>=40?'var(--accent3)':'var(--red)';
+      return '<div style="margin-bottom:.6rem;padding:.5rem .75rem;background:var(--card2);border-radius:8px;">'+
+        '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:3px;">'+
+          '<span style="font-weight:700;font-size:.82rem;">'+medal+' '+(i+1)+'. '+d.name+'</span>'+
+          '<span style="font-weight:800;color:'+col+';">'+d.dynastyScore+'</span>'+
+        '</div>'+
+        '<div style="background:var(--bg);border-radius:3px;height:5px;margin-bottom:3px;">'+
+          '<div style="width:'+d.dynastyScore+'%;height:100%;background:'+col+';border-radius:3px;"></div>'+
+        '</div>'+
+        '<div style="font-size:.68rem;color:var(--muted);">PR #'+d.prRank+' ('+d.prScore+' pts) | Farm #'+d.farmRank+' '+d.farmGrade+' ('+d.farmScore+' pts)</div>'+
+      '</div>';
+    }).join('');
+  }
+  
+  const ctx=document.getElementById('dynastyChart');
+  if(ctx){
+    dynastyChartInst=new Chart(ctx,{
+      type:'bar',
+      data:{
+        labels:data.map(d=>d.short),
+        datasets:[
+          {label:'Active Roster (60%)',data:data.map(d=>Math.round(d.prScore*0.6)),backgroundColor:'rgba(0,212,170,0.75)',stack:'s'},
+          {label:'Farm System (40%)',data:data.map(d=>Math.round(d.farmScore*0.4)),backgroundColor:'rgba(79,142,247,0.75)',stack:'s'}
+        ]
+      },
+      options:{
+        responsive:true,maintainAspectRatio:false,indexAxis:'y',
+        plugins:{legend:{labels:{color:'#e8eaf6',font:{size:10}}},tooltip:{mode:'index',intersect:false}},
+        scales:{
+          x:{stacked:true,max:100,ticks:{color:'#a0a8c0',font:{size:9}},grid:{color:'rgba(255,255,255,.05)'}},
+          y:{stacked:true,ticks:{color:'#e8eaf6',font:{size:9}}}
+        }
+      }
+    });
+  }
+}
+</script>
 <!-- TEAM MODAL -->
 <div id="modal" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.7);z-index:1000;overflow-y:auto;backdrop-filter:blur(4px);" onclick="if(event.target===this)closeModal()">
   <div style="max-width:700px;margin:40px auto;background:var(--card);border-radius:16px;padding:24px;border:1px solid var(--border);position:relative;">
