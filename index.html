@@ -10,7 +10,7 @@
 body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;min-height:100vhh;}
 header{background:linear-gradient(135deg,#0d1b2e 0%,#1a2d4a 50%,#0d1b2e 100%);border-bottom:2px solid var(--accent);padding:20px 30px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);}
 .header-left h1{font-size:1.8rem;font-weight:800;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
-.header-left p{color:var(--muted);font-size:.85rem;margin-top:3px;}
+.header-left p{color:var(--muted);font-size:.85rem;margin-top:3px;}h
 .live-badge{background:var(--red);color:#fff;padding:4px 10px;border-radius:20px;font-size:.75rem;font-weight:700;animation:pulse 2s infinite;}
 @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.6;}}
 nav{background:var(--card);border-bottom:1px solid var(--border);display:flex;overflow-x:auto;gap:0;padding:0 20px;}
@@ -792,7 +792,7 @@ const WAIVER_DATA = [
   {team:'Creative Name',claims:12,notable:['Paul Skenes spot start','Luis García Jr','Jack Flaherty'],pbl:685.5},
   {team:'Tank for LeBron',claims:11,notable:['Logan Allen','Ryne Stanek','TJ Friedl'],pbl:400.25},
   {team:'Honey Nut Berrios',claims:10,notable:['Seth Lugo (short-term)','Bryan Woo','Zach Eflin'],pbl:113.75},
-  {team:'Evil HNC',claims:9,notable:['Eddie Rosario','Michael Kopech','José Trevino'],pbl:300},
+  {team:'Evil Honey Nut Chourio\'s',claims:9,notable:['Eddie Rosario','Michael Kopech','José Trevino'],pbl:300},
   {team:'Layin Wood',claims:8,notable:['Nick Martinez','Cade Smith','Ryan Pepiot'],pbl:346.5},
   {team:'TBONERS',claims:7,notable:['Brusdar Graterol','JP Sears','Gio Urshela'],pbl:70.75},
   {team:"Honey Nut Chourio\'s",claims:6,notable:['Adley Rutschman (via trade)','Jake Burger','Anthony Banda'],pbl:492.75},
@@ -818,8 +818,8 @@ const TEAM_WRITEUPS = [
   {
     id:'8znzrpg1mg7kg72e', name:'TBONERS', pr:2, record:'9-3', 
     grade:'A', trend:'stable',
-    tagline:'Baty\'s Ballpark Division Leaders — Built on Pre-Season Depth',
-    overview:'TBONERS lead Baty\'s Ballpark division at 9-3-0. Their pre-season trade acquiring Eduard Bazardo, Blake Treinen, Jose Alvarado, Alex Bregman, and a 2029 R3 pick from First Pitch Swinging (in exchange for Jesus Luzardo, Masataka Yoshida, Tyler Stephenson, Casey Mize, and Isaac Paredes) loaded them with depth. That roster depth has paid off throughout the season.',
+    tagline:'Manoah\'s Deflated Tires Division Leaders — Built on Pre-Season Depth',
+    overview:'TBONERS lead Manoah\'s Deflated Tires division at 9-3-0. Their pre-season trade acquiring Eduard Bazardo, Blake Treinen, Jose Alvarado, Alex Bregman, and a 2029 R3 pick from First Pitch Swinging (in exchange for Jesus Luzardo, Masataka Yoshida, Tyler Stephenson, Casey Mize, and Isaac Paredes) loaded them with depth. That roster depth has paid off throughout the season.',
     strengths:'Lead the league in FP/G at 5.41. Their roster depth from the large pre-season trade gives them flexibility and multiple contributors. Pitching and offense have both been reliable throughout.',
     weaknesses:'Their 7 waiver claims suggest ongoing minor roster management. The pre-season trade cost them some offensive upside (Paredes, Yoshida) but gained pitching depth.',
     injuries:'IL CONCERNS (10 players): Zach Eflin (SP), Ryan Pepiot (SP), Reese Olson (SP), Ronel Blanco (SP), Bowden Francis (SP), Ryan Feltner (SP), Alec Marsh (SP), Bailey Falter (SP), Pete Fairbanks (RP), Anthony Santander (RF). Heavy pitching-side IL — rotation depth thin until these arms return.',
@@ -852,7 +852,7 @@ const TEAM_WRITEUPS = [
     id:'w6b31holmg7kg72f', name:'Layin Wood', pr:5, record:'7-5',
     grade:'B', trend:'stable',
     tagline:'Active Trade Market Participant — Playoff Bubble Team',
-    overview:'Layin Wood has been one of the most active teams in trades, participating in multiple deals. They sent Nolan Arenado to Jac-in\' It in April, and most recently acquired SP Dean Kremer from Golden Gate Gays (for Kaden Echeman and a 2029 R4 pick) on May 9. At 7-5 in Baty\'s Ballpark, they hold the #2 spot in their division.',
+    overview:'Layin Wood has been one of the most active teams in trades, participating in multiple deals. They sent Nolan Arenado to Jac-in\' It in April, and most recently acquired SP Dean Kremer from Golden Gate Gays (for Kaden Echeman and a 2029 R4 pick) on May 9. At 7-5 in Manoah\'s Deflated Tires, they hold the #2 spot in their division.',
     strengths:'Active roster management through trades has kept them fresh. Dean Kremer adds reliable SP depth. Their divisional record puts them in good position for the final stretch. 8 WW claims show ongoing attention to the wire.',
     weaknesses:'Negative PF/PA differential (-28) is a warning sign — they win close games but get outscored overall. Hitting ranks 10th in the league at 1,256.75 pts. Giving away Nolan Arenado reduced their power potential.',
     injuries:'MAJOR IL CONCERNS (12 players): Garrett Crochet (SP), Hunter Greene (SP), Max Scherzer (SP), Triston Casas (1B), Hurston Waldrep (SP), Dean Kremer (SP), AJ Smith-Shawver (SP), DJ Herz (SP), Landon Knack (SP), Brusdar Graterol (RP), Jared Koenig (RP), Gabriel Arias (SS). Crochet and Hunter Greene are elite starters — Layin Wood becomes a rotation monster when they return.',
@@ -907,7 +907,7 @@ const TEAM_WRITEUPS = [
     id:'0qrvkt09mg7kg72f', name:'First Pitch Swinging', pr:10, record:'4-8',
     grade:'C-', trend:'falling',
     tagline:'Dylan Cease Traded Away — FPS Struggles to Find Identity',
-    overview:'First Pitch Swinging sits at 4-8 in Baty\'s Ballpark, locked into last place in their division. Their defining move was the Apr 9 trade: they sent Dylan Cease to Evil Honey Nut Chourio\'s in exchange for Tommy Troy, Dillon Dingler, and Josh Hader. The Cease departure hurt their pitching, but they did add Logan Gilbert (acquired pre-season from EvilHNC) as their potential ace.',
+    overview:'First Pitch Swinging sits at 4-8 in Manoah\'s Deflated Tires, locked into last place in their division. Their defining move was the Apr 9 trade: they sent Dylan Cease to Evil Honey Nut Chourio\'s in exchange for Tommy Troy, Dillon Dingler, and Josh Hader. The Cease departure hurt their pitching, but they did add Logan Gilbert (acquired pre-season from EvilHNC) as their potential ace.',
     strengths:'Logan Gilbert gives them a genuine ace when healthy. Their pitching ranks 3rd in the league at 1,709.5 pts despite the Cease trade — a credit to their depth. FP/G of 5.13 is 5th best, showing real talent on the roster.',
     weaknesses:'At 4-8 with a 2-L streak, they are effectively eliminated. Offense ranks 11th with just 1,214.5 hitting points. Only 1 WW claim (last in the league) suggests a passive approach to roster management in a season where they needed to be most active.',
     injuries:'IL CONCERNS (1 player): Felix Bautista (RP). Elite closer — his return will be a major boost to the bullpen.',
@@ -1199,9 +1199,9 @@ function renderDivLeaders(){
   if(!el) return;
   // Division assignments
   const DIVISIONS = {
-    "Duran's Tennis Club": ['g8p3r1i9mg7kg72b','xgktl0otmg7kg72d','jwg2zkwzmg7kg72a','nbnjqx3cmg7kg72g'],
-    "Ozuna's Designated Drivers": ['odce8gzsmg7kg72c','7gq3y996mg7kg729','lhaxchcjmg7kg72c','vhuxfzygmg7kg728'],
-    "Baty's Ballpark": ['8znzrpg1mg7kg72e','w6b31holmg7kg72f','0qrvkt09mg7kg72f','aw407ddlmg7kg72a']
+    "Manoah's Deflated Tires": ['g8p3r1i9mg7kg72b','xgktl0otmg7kg72d','nbnjqx3cmg7kg72g','jwg2zkwzmg7kg72a'],
+    "Duran's Tennis Club": ['odce8gzsmg7kg72c','lhaxchcjmg7kg72c','7gq3y996mg7kg729','vhuxfzygmg7kg728'],
+    "Ozuna's Designated Drivers": ['8znzrpg1mg7kg72e','w6b31holmg7kg72f','0qrvkt09mg7kg72f','aw407ddlmg7kg72a']
   };
   el.innerHTML = Object.entries(DIVISIONS).map(([divName, ids]) => {
     const divTeams = TEAMS.filter(t => ids.includes(t.id)).sort((a,b)=>{
@@ -1986,7 +1986,7 @@ function filterIL(){
     'Logan Gilbert': 'First Pitch Swinging', 'Tommy Troy': 'First Pitch Swinging', 'Dillon Dingler': 'First Pitch Swinging',
     'Dylan Cease': "Evil Honey Nut Chourio's", 'Kris Bubic': "Evil Honey Nut Chourio's", 'Bryan Woo': "Evil Honey Nut Chourio's",
     'Dean Kremer': 'Layin Wood', 'Spencer Horwitz': 'Layin Wood',
-          'Caden Dana': 'Honey Nut Berrios', 'Robert Gasser': 'Honey Nut Berrios'
+          'Caden Dana': 'Honey Nut Berrios', 'Robert Gasser': 'Honey Nut Berrios', 'Francisco Lindor': 'Honey Nut Berrios', 'Corbin Burnes': 'Honey Nut Berrios', 'Carlos Rodon': 'Honey Nut Berrios', 'Blake Snell': 'Honey Nut Berrios', 'Shane Bieber': 'Honey Nut Berrios', 'Justin Steele': 'Honey Nut Berrios', 'Christian Yelich': 'Honey Nut Berrios', 'Hunter Brown': 'Honey Nut Berrios', 'Edwin Diaz': 'Honey Nut Berrios', 'Trevor Rogers': 'Honey Nut Berrios', 'A.J. Minter': 'Honey Nut Berrios', 'Justin Martinez': 'Honey Nut Berrios', 'Gunnar Hoglund': 'Honey Nut Berrios', 'Ben Casparius': 'Honey Nut Berrios', 'Cody Ponce': 'Honey Nut Berrios', 'Mason Englert': 'Honey Nut Berrios', 'Brandon Walter': 'Honey Nut Berrios', 'Ronald Acuna Jr.': 'Evil Honey Nut Chourio\'s', 'Roman Anthony': 'Evil Honey Nut Chourio\'s', 'Tommy Edman': 'Evil Honey Nut Chourio\'s', 'Grayson Rodriguez': 'Evil Honey Nut Chourio\'s', 'Jared Jones': 'Evil Honey Nut Chourio\'s', 'Tanner Houck': 'Evil Honey Nut Chourio\'s', 'Cade Horton': 'Evil Honey Nut Chourio\'s', 'Joe Musgrove': 'Evil Honey Nut Chourio\'s', 'Kyle Teel': 'Evil Honey Nut Chourio\'s', 'Josh Smith': 'Evil Honey Nut Chourio\'s', 'Josiah Gray': 'Evil Honey Nut Chourio\'s', 'Tylor Megill': 'Evil Honey Nut Chourio\'s', 'Quinn Priester': 'Evil Honey Nut Chourio\'s', 'Tatsuya Imai': 'Evil Honey Nut Chourio\'s', 'Matt Brash': 'Evil Honey Nut Chourio\'s', 'Ben Joyce': 'Evil Honey Nut Chourio\'s', 'RJ Petit': 'Evil Honey Nut Chourio\'s', 'Romy Gonzalez': 'Evil Honey Nut Chourio\'s', 'Wyatt Langford': 'Wyatt and the Lankers', 'Luis Robert Jr.': 'Wyatt and the Lankers', 'Kodai Senga': 'Wyatt and the Lankers', 'Jose Berrios': 'Wyatt and the Lankers', 'Jordan Montgomery': 'Wyatt and the Lankers', 'Johan Oviedo': 'Wyatt and the Lankers', 'Gavin Stone': 'Wyatt and the Lankers', 'Steven Matz': 'Wyatt and the Lankers', 'Jonathan India': 'Wyatt and the Lankers', 'Anthony Rendon': 'Wyatt and the Lankers', 'Hunter Harvey': 'Wyatt and the Lankers', 'Ronny Henriquez': 'Wyatt and the Lankers', 'Garrett Crochet': 'Layin Wood', 'Hunter Greene': 'Layin Wood', 'Max Scherzer': 'Layin Wood', 'Triston Casas': 'Layin Wood', 'Hurston Waldrep': 'Layin Wood', 'AJ Smith-Shawwer': 'Layin Wood', 'DJ Herz': 'Layin Wood', 'Landon Knack': 'Layin Wood', 'Brusdar Graterol': 'Layin Wood', 'Jared Koenig': 'Layin Wood', 'Gabriel Arias': 'Layin Wood', 'Mookie Betts': "Jac-in' It", 'Ryan Helsley': "Jac-in' It", 'Yusei Kikuchi': "Jac-in' It", 'Max Muncy': "Jac-in' It", 'Jake Cronenworth': "Jac-in' It", 'Jasson Dominguez': "Jac-in' It", 'Parker Meadows': "Jac-in' It", 'Denzel Clarke': "Jac-in' It", 'Bobby Miller': "Jac-in' It", 'Ha-seong Kim': "Jac-in' It", 'Edwin Uceta': "Jac-in' It", 'Mike Vasil': "Jac-in' It", 'Giancarlo Stanton': 'Honey Nut Chourio\'s', 'Jackson Holliday': 'Honey Nut Chourio\'s', 'Jackson Jobe': 'Honey Nut Chourio\'s', 'Kutter Crawford': 'Honey Nut Chourio\'s', 'Brandon Williamson': 'Honey Nut Chourio\'s', 'David Festa': 'Honey Nut Chourio\'s', 'Drew Thorpe': 'Honey Nut Chourio\'s', 'Troy Melton': 'Honey Nut Chourio\'s', 'Gabe Speier': 'Honey Nut Chourio\'s', 'Will Vest': 'Honey Nut Chourio\'s', 'Logan Evans': 'Honey Nut Chourio\'s', 'Zach Eflin': 'TBONERS', 'Ryan Pepiot': 'TBONERS', 'Reese Olson': 'TBONERS', 'Ronel Blanco': 'TBONERS', 'Bowden Francis': 'TBONERS', 'Ryan Feltner': 'TBONERS', 'Alec Marsh': 'TBONERS', 'Bailey Falter': 'TBONERS', 'Pete Fairbanks': 'TBONERS', 'Anthony Santander': 'TBONERS', 'Spencer Schwellenbach': 'Golden Gate Gays', 'Mick Abel': 'Golden Gate Gays', 'Hayden Birdsong': 'Golden Gate Gays', 'Cody Bradford': 'Golden Gate Gays', 'Jorge Polanco': 'Golden Gate Gays', 'Alejandro Kirk': 'Golden Gate Gays', 'Randy Rodriguez': 'Golden Gate Gays', 'Trevor Williams': 'Golden Gate Gays', 'Joey Wentz': 'Golden Gate Gays', 'Carlos Correa': 'Creative Name', 'Justin Verlander': 'Creative Name', 'Patrick Sandoval': 'Creative Name', 'Clarke Schmidt': 'Creative Name', 'Lars Nootbaar': 'Creative Name', 'Yainer Diaz': 'Creative Name', 'Clayton Beeter': 'Creative Name', 'Carter Baumler': 'Creative Name', 'Pavin Smith': 'Creative Name', 'Eugenio Suarez': 'Tank for LeBron', 'Cristian Javier': 'Tank for LeBron', 'Gavin Lux': 'Tank for LeBron', 'Austin Hays': 'Tank for LeBron', 'Everson Pereira': 'Tank for LeBron', 'AJ Puk': 'Tank for LeBron', 'Evan Phillips': 'Tank for LeBron', 'Hayden Wesneski': 'Tank for LeBron', 'Gerrit Cole': 'Say Yes to Velo', 'Carlos Estevez': 'Say Yes to Velo', 'Felix Bautista': 'First Pitch Swinging'
   };
   
   let txns = [...(liveData.mlbTransactions||[]), ...(liveData.transactions||[])].filter(t => t && t.player);
@@ -2127,7 +2127,7 @@ function initPlayoffPicture(liveData){
   const DIV3_IDS = ['8znzrpg1mg7kg72e','w6b31holmg7kg72f','0qrvkt09mg7kg72f','aw407ddlmg7kg72a'];
   const DIV1_NAME = "Duran\'s Tennis Club";
   const DIV2_NAME = "Ozuna\'s Designated Drivers";
-  const DIV3_NAME = "Baty\'s Ballpark";
+  const DIV3_NAME = "Manoah\'s Deflated Tires";
   
   // Build combined team data
   const teamMap = {};
@@ -2287,7 +2287,7 @@ function initLeagueNews(liveData){
   const DIV1 = ['g8p3r1i9mg7kg72b','xgktl0otmg7kg72d','jwg2zkwzmg7kg72a','nbnjqx3cmg7kg72g'];
   const DIV2 = ['odce8gzsmg7kg72c','7gq3y996mg7kg729','lhaxchcjmg7kg72c','vhuxfzygmg7kg728'];
   const DIV3n = ['8znzrpg1mg7kg72e','w6b31holmg7kg72f','0qrvkt09mg7kg72f','aw407ddlmg7kg72a'];
-  const divDefsN=[{ids:DIV1,nm:"Duran\'s Tennis Club",ic:'🎾'},{ids:DIV2,nm:"Ozuna\'s Designated Drivers",ic:'🚗'},{ids:DIV3n,nm:"Baty\'s Ballpark",ic:'⚾'}];
+  const divDefsN=[{ids:DIV1,nm:"Duran\'s Tennis Club",ic:'🎾'},{ids:DIV2,nm:"Ozuna\'s Designated Drivers",ic:'🚗'},{ids:DIV3n,nm:"Manoah\'s Deflated Tires",ic:'⚾'}];
   divDefsN.forEach(({ids:div,nm:divName2,ic:dIcon}) => {
     const divTeams = sortedRecords.filter(t => div.includes(t.teamId)).sort((a,b)=>(b.w||0)-(a.w||0));
     if(divTeams.length >= 2){
