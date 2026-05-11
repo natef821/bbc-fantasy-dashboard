@@ -2529,8 +2529,8 @@ function renderPercentileChart() {
   const selectedTeam=sel?sel.value:teams[0];
   if(!selectedTeam) return;
   function pctRk(vals,val,lb=false){const n=vals.length;if(n<2)return 50;const worse=vals.filter(v=>lb?v<val:v>val).length;return Math.round(((n-1-worse)/(n-1))*100);}
-  const HIT_STATS=[['R','Runs',false],['HR','Home Runs',false],['RBI','RBI',false],['SB','Stolen Bases',false],['H','Hits',false],['BB','Walks',false],['SO','SO (neg)',true],['hitPts','Hit Pts',false]];
-  const PIT_STATS=[['K','Strikeouts',false],['SV','Saves',false],['QS','Qual. Starts',false],['HLD','Holds',false],['IP','Inn. Pitched',false],['ER','ERA (neg)',true],['BBp','BB (neg)',true],['pitPts','Pitch Pts',false]];
+  const HIT_STATS=[['R','Runs',false],['HR','Home Runs',false],['RBI','RBI',false],['SB','Stolen Bases',false],['H','Hits',false],['BB','Walks',false],['IBB','Int. Walks',false],['SO','SO (neg)',true],['hitPts','Hit Pts',false]];
+  const PIT_STATS=[['K','Strikeouts',false],['SV','Saves',false],['QS','Qual. Starts',false],['HLD','Holds',false],['IP','Inn. Pitched',false],['ER','ERA (neg)',true],['BBp','BB (neg)',true],['BS','BS (neg)',true],['CG','Comp. Games',false],['pitPts','Pitch Pts',false]];
   function ccls(p){return p>=70?'pct-blue':p<=30?'pct-red':'pct-gray';}
   function bclr(p){return p>=70?'linear-gradient(90deg,#1e40af,#3b82f6)':p<=30?'linear-gradient(90deg,#991b1b,#ef4444)':'linear-gradient(90deg,#374151,#6b7280)';}
   function makeRow(label,val,p){const dv=typeof val==='number'&&val>=1000?val.toLocaleString():val;return '<div class="pct-row"><div class="pct-stat-name">'+label+'</div><div class="pct-bar-wrap"><div class="pct-bar" style="width:'+Math.max(3,p)+'%;background:'+bclr(p)+';"></div></div><div class="pct-circle '+ccls(p)+'">'+p+'</div><div class="pct-value">'+dv+'</div></div>';}
