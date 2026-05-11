@@ -13,8 +13,8 @@ header{background:linear-gradient(135deg,#0d1b2e 0%,#1a2d4a 50%,#0d1b2e 100%);bo
 .header-left p{color:var(--muted);font-size:.85rem;margin-top:3px;}h
 .live-badge{background:var(--red);color:#fff;padding:4px 10px;border-radius:20px;font-size:.75rem;font-weight:700;animation:pulse 2s infinite;}
 @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.6;}}
-nav{background:var(--card);border-bottom:1px solid var(--border);display:flex;overflow-x:auto;gap:0;padding:0 20px;}
-.nav-btn{padding:10px 11px;border:none;background:none;color:var(--muted);cursor:pointer;font-size:.78rem;font-weight:600;white-space:nowrap;border-bottom:3px solid transparent;transition:all .2s;letter-spacing:0;}
+nav{background:var(--card);border-bottom:1px solid var(--border);display:flex;flex-wrap:wrap;gap:0;padding:0 10px;}
+.nav-btn{padding:7px 8px;border:none;background:none;color:var(--muted);cursor:pointer;font-size:.7rem;font-weight:600;white-space:nowrap;border-bottom:3px solid transparent;transition:all .2s;letter-spacing:0;}
 .nav-btn:hover{color:var(--text);background:rgba(255,255,255,.03);}
 .nav-btn.active{color:var(--accent);border-bottom-color:var(--accent);}
 .tab-content{display:none;padding:24px;max-width:1400px;margin:0 auto;animation:fadeIn .3s ease forwards;}
@@ -246,7 +246,12 @@ tr:hover td{background:rgba(0,212,170,0.04)!important}
   <button class="nav-btn" onclick="showTab('tools');document.querySelector('.nav-tabs').classList.remove('open')">🛠️ Tools</button>
   <button class="nav-btn" onclick="showTab('news');document.querySelector('.nav-tabs').classList.remove('open')">📰 League News</button></div>
 </nav>
-<div id="injury-ticker-wrap" style="background:#0d1424;border-bottom:1px solid var(--border);overflow:hidden;height:32px;display:flex;align-items:center"><span style="background:var(--red);color:#fff;font-size:11px;font-weight:700;padding:0 10px;height:100%;display:flex;align-items:center;flex-shrink:0">🚨 TRANSACTIONS</span><div style="overflow:hidden;flex:1"><div id="injury-ticker" style="display:inline-flex;gap:24px;white-space:nowrap;animation:tickerScroll 60s linear infinite;font-size:12px;color:var(--text);padding:4px 16px"><span style="color:var(--muted)">Loading...</span></div></div></div>
+  <div id="standings-ticker-wrap" style="background:linear-gradient(90deg,var(--card) 0%,var(--bg) 100%);border-bottom:1px solid var(--border);overflow:hidden;padding:5px 0;display:flex;align-items:center;">
+    <span style="font-size:.68rem;font-weight:700;color:var(--accent);padding:0 12px 0 10px;white-space:nowrap;flex-shrink:0;letter-spacing:.05em;">📊 STANDINGS</span>
+    <div style="overflow:hidden;flex:1;">
+      <div id="standings-ticker" style="display:inline-flex;align-items:center;gap:0;white-space:nowrap;"></div>
+    </div>
+  </div>
 
 <!-- POWER RANKINGS TAB -->
 <div id="tab-rankings" class="tab-content active">
@@ -826,7 +831,7 @@ const TEAM_WRITEUPS = [
     id:'odce8gzsmg7kg72c', name:'Wyatt and the Lankers', pr:1, record:'9-3', 
     grade:'A+', trend:'stable',
     tagline:'Division Leaders with Elite Pitching Core',
-    overview:'Wyatt and the Lankers have been the most dominant team in Ozuna\'s Designated Drivers division at 9-3-0. Their pitching staff has anchored their success all season, and a mid-season trade acquiring Reynaldo Lopez (SP-ATL) and Brandon Nimmo from Creative Name added another arm and outfield depth. They lead the league in total points at 3,270.25.',
+    overview:'Wyatt and the Lankers have been the most dominant team in Duran\'s Tennis Club division at 9-3-0. Their pitching staff has anchored their success all season, and a mid-season trade acquiring Reynaldo Lopez (SP-ATL) and Brandon Nimmo from Creative Name added another arm and outfield depth. They lead the league in total points at 3,270.25.',
     strengths:'Top-tier pitching and consistent scoring have kept them atop the standings all season. The Lopez/Nimmo acquisition from Creative Name gave them additional rotation depth. Their 2 WW claims show roster confidence — they rarely need to scramble.',
     weaknesses:'Their offense ranks 7th in hitting points (1,332.75), meaning they rely heavily on pitching to win. Surrendering Patrick Sandoval, David Shields, and two 2028 picks to land Lopez and Nimmo is a cost that reduces future flexibility.',
     injuries:'MAJOR IL CONCERNS (12 players): Wyatt Langford (LF), Luis Robert Jr. (CF), Kodai Senga (SP), Jose Berrios (SP), Jordan Montgomery (SP), Johan Oviedo (SP), Gavin Stone (SP), Steven Matz (SP), Jonathan India (2B), Anthony Rendon (3B), Hunter Harvey (RP), Ronny Henriquez (RP). Multiple key players on IL — returns could significantly boost an already dominant team.',
@@ -836,8 +841,8 @@ const TEAM_WRITEUPS = [
   {
     id:'8znzrpg1mg7kg72e', name:'TBONERS', pr:2, record:'9-3', 
     grade:'A', trend:'stable',
-    tagline:'Manoah\'s Deflated Tires Division Leaders — Built on Pre-Season Depth',
-    overview:'TBONERS lead Manoah\'s Deflated Tires division at 9-3-0. Their pre-season trade acquiring Eduard Bazardo, Blake Treinen, Jose Alvarado, Alex Bregman, and a 2029 R3 pick from First Pitch Swinging (in exchange for Jesus Luzardo, Masataka Yoshida, Tyler Stephenson, Casey Mize, and Isaac Paredes) loaded them with depth. That roster depth has paid off throughout the season.',
+    tagline:'Ozuna\'s Designated Drivers Division Leaders — Built on Pre-Season Depth',
+    overview:'TBONERS lead Ozuna\'s Designated Drivers division at 9-3-0. Their pre-season trade acquiring Eduard Bazardo, Blake Treinen, Jose Alvarado, Alex Bregman, and a 2029 R3 pick from First Pitch Swinging (in exchange for Jesus Luzardo, Masataka Yoshida, Tyler Stephenson, Casey Mize, and Isaac Paredes) loaded them with depth. That roster depth has paid off throughout the season.',
     strengths:'Lead the league in FP/G at 5.41. Their roster depth from the large pre-season trade gives them flexibility and multiple contributors. Pitching and offense have both been reliable throughout.',
     weaknesses:'Their 7 waiver claims suggest ongoing minor roster management. The pre-season trade cost them some offensive upside (Paredes, Yoshida) but gained pitching depth.',
     injuries:'IL CONCERNS (10 players): Zach Eflin (SP), Ryan Pepiot (SP), Reese Olson (SP), Ronel Blanco (SP), Bowden Francis (SP), Ryan Feltner (SP), Alec Marsh (SP), Bailey Falter (SP), Pete Fairbanks (RP), Anthony Santander (RF). Heavy pitching-side IL — rotation depth thin until these arms return.',
@@ -858,8 +863,8 @@ const TEAM_WRITEUPS = [
   {
     id:'xgktl0otmg7kg72d', name:'Tank for LeBron', pr:4, record:'8-4',
     grade:'B+', trend:'rising',
-    tagline:'Consistent Contender in Duran\'s Tennis Club',
-    overview:'Tank for LeBron sits at 8-4-0 in Duran\'s Tennis Club division. Their aggressive WW approach (11 claims, most in the top-4) has kept the roster competitive throughout the season. With a strong FP/G of 5.0, they have the offensive depth to compete with anyone.',
+    tagline:'Consistent Contender in Manoah\'s Deflated Tires',
+    overview:'Tank for LeBron sits at 8-4-0 in Manoah\'s Deflated Tires division. Their aggressive WW approach (11 claims, most in the top-4) has kept the roster competitive throughout the season. With a strong FP/G of 5.0, they have the offensive depth to compete with anyone.',
     strengths:'Most active in the waiver wire among contenders — 11 claims shows hands-on management. Their FP of 2,870 and positive PF/PA differential (+134.5) show a team that wins the games they should. Playoff-locked with this record.',
     weaknesses:'FP/G of 5.0 ranks 7th in the league, suggesting some roster inefficiency. They have not made any in-season trades, relying entirely on waiver wire acquisitions for upgrades.',
     injuries:'IL CONCERNS (8 players): Eugenio Suarez (3B), Cristian Javier (SP), Gavin Lux (2B), Austin Hays (LF), Everson Pereira (CF), A.J. Puk (RP), Evan Phillips (RP), Hayden Wesneski (SP). Multiple players injured — return timelines uncertain.',
@@ -870,7 +875,7 @@ const TEAM_WRITEUPS = [
     id:'w6b31holmg7kg72f', name:'Layin Wood', pr:5, record:'7-5',
     grade:'B', trend:'stable',
     tagline:'Active Trade Market Participant — Playoff Bubble Team',
-    overview:'Layin Wood has been one of the most active teams in trades, participating in multiple deals. They sent Nolan Arenado to Jac-in\' It in April, and most recently acquired SP Dean Kremer from Golden Gate Gays (for Kaden Echeman and a 2029 R4 pick) on May 9. At 7-5 in Manoah\'s Deflated Tires, they hold the #2 spot in their division.',
+    overview:'Layin Wood has been one of the most active teams in trades, participating in multiple deals. They sent Nolan Arenado to Jac-in\' It in April, and most recently acquired SP Dean Kremer from Golden Gate Gays (for Kaden Echeman and a 2029 R4 pick) on May 9. At 7-5 in Ozuna\'s Designated Drivers, they hold the #2 spot in their division.',
     strengths:'Active roster management through trades has kept them fresh. Dean Kremer adds reliable SP depth. Their divisional record puts them in good position for the final stretch. 8 WW claims show ongoing attention to the wire.',
     weaknesses:'Negative PF/PA differential (-28) is a warning sign — they win close games but get outscored overall. Hitting ranks 10th in the league at 1,256.75 pts. Giving away Nolan Arenado reduced their power potential.',
     injuries:'MAJOR IL CONCERNS (12 players): Garrett Crochet (SP), Hunter Greene (SP), Max Scherzer (SP), Triston Casas (1B), Hurston Waldrep (SP), Dean Kremer (SP), AJ Smith-Shawver (SP), DJ Herz (SP), Landon Knack (SP), Brusdar Graterol (RP), Jared Koenig (RP), Gabriel Arias (SS). Crochet and Hunter Greene are elite starters — Layin Wood becomes a rotation monster when they return.',
@@ -881,7 +886,7 @@ const TEAM_WRITEUPS = [
     id:'nbnjqx3cmg7kg72g', name:"Honey Nut Chourio\'s", pr:6, record:'6-6',
     grade:'B-', trend:'rising',
     tagline:'Kazuma Okamoto Deal Signals Win-Now Move',
-    overview:"HNC sits at 6-6-0 in Duran\'s Tennis Club. Their most recent trade (May 4) brought in 1B/3B Kazuma Okamoto from Evil Honey Nut Chourio\'s in exchange for SP prospect Kyson Witherspoon and two draft picks (2028 R1, 2027 R3). Earlier, they received SP Kyle Freeland from GGG. The team is pushing for a playoff spot in the final stretch.",
+    overview:"HNC sits at 6-6-0 in Manoah\'s Deflated Tires. Their most recent trade (May 4) brought in 1B/3B Kazuma Okamoto from Evil Honey Nut Chourio\'s in exchange for SP prospect Kyson Witherspoon and two draft picks (2028 R1, 2027 R3). Earlier, they received SP Kyle Freeland from GGG. The team is pushing for a playoff spot in the final stretch.",
     strengths:'The Okamoto acquisition adds a versatile power bat at corner infield. Their 6 WW claims show targeted roster management. Recent momentum could propel them into the playoff picture.',
     weaknesses:'At .500 with a negative points differential (-238.8 PA vs PF), they need to finish strong. Giving up a 2028 R1 pick for Okamoto is a significant dynasty cost. Pitching has been inconsistent below the top of the rotation.',
     injuries:'IL CONCERNS (11 players): Giancarlo Stanton (RF), Jackson Holliday (2B), Jackson Jobe (SP), Kutter Crawford (SP), Brandon Williamson (SP), David Festa (SP), Drew Thorpe (SP), Troy Melton (RP), Gabe Speier (RP), Will Vest (RP), Logan Evans (SP). Stanton and Holliday returns are key — both have top upside when healthy.',
@@ -892,7 +897,7 @@ const TEAM_WRITEUPS = [
     id:'lhaxchcjmg7kg72c', name:'Say Yes to Velo', pr:7, record:'6-6',
     grade:'B-', trend:'rising',
     tagline:'Three-Game Win Streak Quietly Revives Playoff Hopes',
-    overview:'Say Yes to Velo has the longest active winning streak in the league at 3 games and is pushing back into the playoff race at 6-6-0. They sit #2 in Ozuna\'s Designated Drivers division. Their FP/G of 5.23 is deceptively strong and shows a well-constructed roster even without major in-season trade activity.',
+    overview:'Say Yes to Velo has the longest active winning streak in the league at 3 games and is pushing back into the playoff race at 6-6-0. They sit #2 in Duran\'s Tennis Club division. Their FP/G of 5.23 is deceptively strong and shows a well-constructed roster even without major in-season trade activity.',
     strengths:'The 3-game winning streak is the narrative here — timing matters heading into the final stretch. Their nearly-even PF/PA differential (-25) shows they compete in every game. They have not needed to be active in the trade market (0 in-season trades), suggesting roster stability.',
     weaknesses:'Only 5 WW claims — one of the most passive teams on the waiver wire. This limits their ability to respond to injuries or find hot streamers. With 738.25 PBL, they are stretched at many roster spots.',
     injuries:'IL CONCERNS (2 players): Gerrit Cole (SP), Carlos Estevez (RP). Cole is a top-end starter — his return significantly boosts the rotation.',
@@ -925,7 +930,7 @@ const TEAM_WRITEUPS = [
     id:'0qrvkt09mg7kg72f', name:'First Pitch Swinging', pr:10, record:'4-8',
     grade:'C-', trend:'falling',
     tagline:'Dylan Cease Traded Away — FPS Struggles to Find Identity',
-    overview:'First Pitch Swinging sits at 4-8 in Manoah\'s Deflated Tires, locked into last place in their division. Their defining move was the Apr 9 trade: they sent Dylan Cease to Evil Honey Nut Chourio\'s in exchange for Tommy Troy, Dillon Dingler, and Josh Hader. The Cease departure hurt their pitching, but they did add Logan Gilbert (acquired pre-season from EvilHNC) as their potential ace.',
+    overview:'First Pitch Swinging sits at 4-8 in Ozuna\'s Designated Drivers, locked into last place in their division. Their defining move was the Apr 9 trade: they sent Dylan Cease to Evil Honey Nut Chourio\'s in exchange for Tommy Troy, Dillon Dingler, and Josh Hader. The Cease departure hurt their pitching, but they did add Logan Gilbert (acquired pre-season from EvilHNC) as their potential ace.',
     strengths:'Logan Gilbert gives them a genuine ace when healthy. Their pitching ranks 3rd in the league at 1,709.5 pts despite the Cease trade — a credit to their depth. FP/G of 5.13 is 5th best, showing real talent on the roster.',
     weaknesses:'At 4-8 with a 2-L streak, they are effectively eliminated. Offense ranks 11th with just 1,214.5 hitting points. Only 1 WW claim (last in the league) suggests a passive approach to roster management in a season where they needed to be most active.',
     injuries:'IL CONCERNS (1 player): Felix Bautista (RP). Elite closer — his return will be a major boost to the bullpen.',
@@ -2143,9 +2148,9 @@ function initPlayoffPicture(liveData){
   const DIV1_IDS = ['g8p3r1i9mg7kg72b','xgktl0otmg7kg72d','jwg2zkwzmg7kg72a','nbnjqx3cmg7kg72g'];
   const DIV2_IDS = ['odce8gzsmg7kg72c','7gq3y996mg7kg729','lhaxchcjmg7kg72c','vhuxfzygmg7kg728'];
   const DIV3_IDS = ['8znzrpg1mg7kg72e','w6b31holmg7kg72f','0qrvkt09mg7kg72f','aw407ddlmg7kg72a'];
-  const DIV1_NAME = "Duran\'s Tennis Club";
-  const DIV2_NAME = "Ozuna\'s Designated Drivers";
-  const DIV3_NAME = "Manoah\'s Deflated Tires";
+  const DIV1_NAME = "Manoah's Deflated Tires";
+  const DIV2_NAME = "Duran's Tennis Club";
+  const DIV3_NAME = "Ozuna's Designated Drivers";
   
   // Build combined team data
   const teamMap = {};
@@ -2414,7 +2419,7 @@ document.addEventListener('DOMContentLoaded',function(){
   // Fetch live data
   fetch('data/league_data.json').then(r=>r.json()).then(liveData=>{
     window._liveData = liveData;
-    initInjuryTicker(liveData);
+    populateStandingsTicker();
     
     // Update last updated timestamp
     if(liveData.lastUpdated){
@@ -2548,25 +2553,41 @@ function renderPercentileChart() {
 // ====================================================
 // INJURY TICKER
 // ====================================================
-function initInjuryTicker(liveData) {
-  var el = document.getElementById('injury-ticker');
-  if(!el) return;
-  var trx = (liveData && liveData.mlbTransactions) ? liveData.mlbTransactions : [];
-  if(!trx.length) { el.innerHTML = '<span style="color:var(--muted)">No recent transactions.</span>'; return; }
-  var items = trx.slice(0, 40);
-  var content = items.map(function(t) {
-    var name = (t.player && t.player.urlName) ? t.player.urlName.replace(/-/g,' ').replace(/\b\w/g,function(c){return c.toUpperCase();}) : '';
-    var pos = (t.player && t.player.posShortNames) ? ' ('+t.player.posShortNames+')' : '';
-    var raw = (t.desc||'').replace(/<[^>]+>/g,'');
-    var desc = raw.length > 90 ? raw.substring(0,87)+'...' : raw;
-    var icon = /reinstat|return|activ/i.test(desc)?'\u2705':/injur|strain|il|dl/i.test(desc)?'\ud83e\udd15':'\ud83d\udccb';
-    var date = t.displayDate ? new Date(t.displayDate).toLocaleDateString('en-US',{month:'short',day:'numeric'}) : '';
-    return '<span class="ticker-item">'+icon+' <strong>'+name+'</strong>'+pos+' &mdash; '+desc+(date?' &bull; '+date:'')+'</span><span class="ticker-sep"> | </span>';
-  }).join('');
-  el.innerHTML = content + content;
-  var charLen = el.textContent.length;
-  el.style.animationDuration = Math.max(30, Math.floor(charLen / 12)) + 's';
-}
+  function populateStandingsTicker() {
+    const ticker = document.getElementById('standings-ticker');
+    if (!ticker) return;
+    // Try reading from the standings table rows (already rendered)
+    const rows = document.querySelectorAll('#standings-body tr');
+    if (!rows || rows.length === 0) {
+      // Fallback: try again after a short delay
+      setTimeout(populateStandingsTicker, 800);
+      return;
+    }
+    const medals = ['🥇','🥈','🥉'];
+    const items = Array.from(rows).map((row, i) => {
+      const cells = row.querySelectorAll('td');
+      if (cells.length < 4) return '';
+      const name = (cells[1]?.textContent || '').trim().replace(/#Inaugural JBThrowback/,'').trim();
+      const w = (cells[2]?.textContent || '').trim();
+      const l = (cells[3]?.textContent || '').trim();
+      const streak = (cells[10]?.textContent || '').trim();
+      const medal = i < 3 ? medals[i] : '';
+      const streakColor = streak.includes('W') ? '#00d4aa' : streak.includes('L') ? '#ff4d6d' : '#aaa';
+      return `<span class="ticker-item" style="padding:0 12px;border-right:1px solid rgba(255,255,255,.1);display:inline-flex;align-items:center;gap:5px;">${medal}<span style="color:#fff;font-weight:700;font-size:.68rem;">${i+1}.</span><span style="color:var(--accent);font-weight:600;font-size:.7rem;">${name}</span><span style="color:#aaa;font-size:.67rem;">${w}-${l}</span><span style="color:${streakColor};font-size:.65rem;font-weight:600;">${streak}</span></span>`;
+    }).filter(Boolean).join('');
+    if (!items) return;
+    // Double for seamless loop
+    ticker.innerHTML = items + items;
+    const halfW = ticker.scrollWidth / 2;
+    const dur = Math.max(20, rows.length * 2.5);
+    const styleEl = document.createElement('style');
+    styleEl.id = 'standings-ticker-style';
+    const existing = document.getElementById('standings-ticker-style');
+    if (existing) existing.remove();
+    styleEl.textContent = `@keyframes standingsTick{0%{transform:translateX(0)}100%{transform:translateX(-${halfW}px)}}`;
+    document.head.appendChild(styleEl);
+    ticker.style.animation = `standingsTick ${dur}s linear infinite`;
+  }
 
 // ====================================================
 // TRADE MATCHING TOOL
