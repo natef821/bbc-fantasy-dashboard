@@ -333,7 +333,22 @@ tr:hover td{background:rgba(0,212,170,0.04)!important}
   <div class="sub-nav" id="matchups-period-nav" style="margin-bottom:1rem;display:flex;flex-wrap:wrap;gap:6px;"></div>
   <div id="matchup-cards" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem;margin-bottom:2rem;"></div>
   <h3 style="color:var(--accent);margin-bottom:0.75rem;">H2H Record Matrix</h3>
-  <div style="overflow-x:auto;"><table id="h2h-matrix" class="standings-table" style="min-width:600px;font-size:0.75rem;color:var(--text);"></table></div>
+  <div style="overflow-x:auto;"><table <div style="margin-bottom:10px;display:flex;flex-wrap:wrap;gap:6px;font-size:.72rem;">
+          <strong style="color:var(--muted);margin-right:4px;">Key:</strong>
+          <span style="color:var(--muted)">LANK=Wyatt and the Lankers</span><span style="color:var(--border)"> · </span>
+          <span style="color:var(--muted)">TBONR=TBONERS</span><span style="color:var(--border)"> · </span>
+          <span style="color:var(--muted)">HNB=Honey Nut Berrios</span><span style="color:var(--border)"> · </span>
+          <span style="color:var(--muted)">Tank4LB=Tank for LeBron</span><span style="color:var(--border)"> · </span>
+          <span style="color:var(--muted)">LayinWood=Layin Wood</span><span style="color:var(--border)"> · </span>
+          <span style="color:var(--muted)">HNC=Honey Nut Chourio's</span><span style="color:var(--border)"> · </span>
+          <span style="color:var(--muted)">Velo=Say Yes to Velo</span><span style="color:var(--border)"> · </span>
+          <span style="color:var(--muted)">EvilHNC=Evil Honey Nut Chourio's</span><span style="color:var(--border)"> · </span>
+          <span style="color:var(--muted)">Creative=Creative Name</span><span style="color:var(--border)"> · </span>
+          <span style="color:var(--muted)">FPS=First Pitch Swinging</span><span style="color:var(--border)"> · </span>
+          <span style="color:var(--muted)">GGG=Golden Gate Gays</span><span style="color:var(--border)"> · </span>
+          <span style="color:var(--muted)">Jac=Jac-in' It</span>
+        </div>
+        id="h2h-matrix" class="standings-table" style="min-width:600px;font-size:0.75rem;color:var(--text);"></table></div>
 </div>
 <div id="tab-teamwrite" class="tab-content">
   <div class="section-title">📝 Team Season Writeups & Analysis</div>
@@ -811,6 +826,21 @@ const TRADES = [
   {date:'May 9, 2026',teams:['Golden Gate Gays','Layin Wood'],teamA:'Golden Gate Gays',gave:['Dean Kremer'],received:['Kaden Echeman','2029 R4 Pick'],teamB:'Layin Wood',type:'inseason',impact:'Layin Wood acquires SP Dean Kremer (BAL) from GGG for pitcher Kaden Echeman and a future pick.'}
 ];
 
+  const TEAM_OWNERS = {
+    'Honey Nut Berrios #Inaugural JBThrowback': 'Nate F.',
+    'TBONERS': 'Tyler B.',
+    'Wyatt and the Lankers': 'Wyatt L.',
+    'Tank for LeBron': 'Juan D.',
+    "Layin Wood🪵": 'Liam V.',
+    "Honey Nut Chourio's": 'Nick D.',
+    'Say Yes to Velo': 'Vincent D.',
+    "Evil Honey Nut Chourio's": 'Chris H.',
+    'Creative Name': 'Jordan P.',
+    'First Pitch Swinging': 'Hayden R.',
+    'Golden Gate Gays': 'Codie B.',
+    "Jac-in' It": 'Jack A.',
+  };
+
 const WAIVER_DATA = [
   {team:'Creative Name',claims:12,notable:['Luis García Jr','Jack Flaherty','Jakob Junis'],pbl:685.5},
   {team:'Tank for LeBron',claims:11,notable:['Logan Allen','Ryne Stanek','TJ Friedl'],pbl:400.25},
@@ -1182,7 +1212,7 @@ function initRankings(){
     
     const html='<div class="power-card '+cls+' pr-card" data-id="'+t.id+'" data-pr="'+pr+'" data-trend="'+cls+'" onclick="openModal(\''+t.id+'\')">'+
       '<div class="pc-rank"><div class="num"><span class="rank-badge '+getRankBadgeClass(pr)+'" style="width:36px;height:36px;font-size:1rem;">'+pr+'</span></div><div style="margin-top:4px;">'+delta+'</div></div>'+
-      '<div class="pc-info"><h3>'+t.name+'</h3><div class="meta"><span>'+t.w+'-'+t.l+'</span><span>📈 '+t.pf.toLocaleString()+' PF</span><span>🎯 '+t.fpg+' FP/G</span><span>'+t.streak+'</span></div>'+
+      '<div class="pc-info"><h3>'+t.name+'</h3><div style="font-size:.65rem;color:var(--muted);margin:-4px 0 4px;">👤 '+(TEAM_OWNERS[t.name]||'')+'</div><div class="meta"><span>'+t.w+'-'+t.l+'</span><span>📈 '+t.pf.toLocaleString()+' PF</span><span>🎯 '+t.fpg+' FP/G</span><span>'+t.streak+'</span></div>'+
       '<div style="margin-top:6px;">'+tags.join(' ')+'</div>'+
       '<div class="pc-bar"><div class="pc-bar-fill" style="width:'+score+'%;"></div></div></div>'+
       '<div class="pc-score"><div class="score">'+score+'</div><div class="label">PR Score</div></div></div>';
