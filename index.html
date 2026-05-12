@@ -702,28 +702,27 @@ Felix Bautista (RP)
   <div id="news-feed" style="display:grid;gap:0.75rem;"></div>
 </div>
 <div id="tab-galaxy" class="tab-content">
-  <h2 style="font-family:inherit;font-size:1.6rem;font-weight:800;margin-bottom:.25rem;">🌌 Player Similarity Galaxy</h2>
-  <p style="color:var(--muted);font-size:.85rem;margin-bottom:1rem;">3D similarity map of all rostered prospects. Clusters form by position. Within each cluster, grade &amp; ETA spread players. Drag to orbit · Scroll to zoom · Click to select.</p>
-  <div style="display:flex;gap:.5rem;margin-bottom:.75rem;flex-wrap:wrap;align-items:center;">
-    <input id="galaxy-search" type="text" placeholder="Search player..." style="flex:1;min-width:180px;padding:.45rem .75rem;background:var(--card);border:1px solid var(--border);color:var(--text);border-radius:6px;font-size:.85rem;" oninput="galaxySearch(this.value)" />
-    <div id="galaxy-pos-filters" style="display:flex;gap:.35rem;flex-wrap:wrap;"></div>
-    <span id="galaxy-count" style="font-size:.75rem;color:var(--muted);white-space:nowrap;"></span>
+  <h2 style="font-family:inherit;font-size:1.6rem;font-weight:800;margin-bottom:4px">🔭 Prospect Similarity Galaxy</h2>
+  <p style="color:var(--muted);font-size:.85rem;margin-bottom:12px">3D dynasty similarity map — <strong style="color:var(--text)">all rostered prospects</strong> + extended list. Clusters form by PCA on grade, ETA, FV, position &amp; org. <span style="color:var(--accent)">Drag</span> to orbit · <span style="color:var(--accent)">Scroll</span> to zoom · <span style="color:var(--accent)">Click</span> a star to inspect.</p>
+  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px">
+    <input id="gx-search" placeholder="Search prospect, team, org..." style="flex:1;min-width:180px;max-width:340px;padding:6px 12px;background:var(--card);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:.8rem"/>
+    <div id="gx-pos-filters" style="display:flex;gap:4px;flex-wrap:wrap"></div>
+    <div style="display:flex;gap:4px;flex-wrap:wrap" id="gx-grade-filters"></div>
+    <label style="display:flex;align-items:center;gap:5px;font-size:.75rem;color:var(--muted);cursor:pointer"><input type="checkbox" id="gx-labels" checked style="cursor:pointer"/> Labels</label>
+    <span id="gx-count" style="font-size:.75rem;color:var(--muted);margin-left:4px"></span>
   </div>
-  <div style="display:grid;grid-template-columns:1fr;gap:.75rem;" id="galaxy-layout">
-    <div id="galaxy-mount" style="width:100%;height:580px;background:#030508;border:1px solid var(--border);border-radius:8px;overflow:hidden;position:relative;cursor:grab;user-select:none;">
-      <div id="galaxy-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:.75rem;">
-        <div style="width:36px;height:36px;border:3px solid #1a2233;border-top-color:#00d4aa;border-radius:50%;animation:spin .8s linear infinite;"></div>
-        <span style="color:var(--muted);font-size:.85rem;">Building galaxy…</span>
+  <div id="galaxy-layout" style="display:grid;grid-template-columns:1fr 280px;gap:12px;height:620px">
+    <div id="galaxy-mount" style="position:relative;width:100%;height:100%;border-radius:10px;overflow:hidden;background:#020408">
+      <div id="galaxy-loading" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;z-index:10">
+        <div style="width:40px;height:40px;border:3px solid #1e293b;border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite"></div>
+        <div style="color:var(--muted);font-size:.85rem" id="gx-load-msg">Building prospect galaxy...</div>
       </div>
-      <div id="galaxy-legend" style="position:absolute;top:12px;left:12px;display:flex;gap:10px;flex-wrap:wrap;pointer-events:none;"></div>
-      <div id="galaxy-tooltip" style="position:absolute;display:none;background:rgba(3,5,8,.95);border:1px solid var(--border);border-radius:6px;padding:.5rem .75rem;font-size:.8rem;max-width:240px;pointer-events:none;z-index:10;"></div>
-      <div style="position:absolute;bottom:12px;right:12px;font-size:.7rem;color:#2a3441;text-align:right;pointer-events:none;line-height:1.7;">DRAG · ORBIT<br>SCROLL · ZOOM<br>CLICK · SELECT</div>
     </div>
-    <div id="galaxy-detail" style="display:none;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1rem;"></div>
+    <div id="galaxy-detail" style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;overflow-y:auto;font-size:.82rem">
+      <div id="gx-detail-content" style="color:var(--muted);text-align:center;padding-top:60px">✨<br><br>Click any star<br>to inspect prospect</div>
+    </div>
   </div>
-  <div style="margin-top:.75rem;padding:.75rem;background:var(--card);border:1px solid var(--border);border-radius:6px;font-size:.78rem;color:var(--muted);line-height:1.6;">
-    <strong style="color:var(--text);">How it works:</strong> Each prospect gets a 12-dimension feature vector (position one-hot ×5 weight, FG Future Value, dynasty rank, ETA, grade). PCA compresses to 3 axes — the directions of maximum variance. Position weighting dominates axis 1 so SP/RP/C/SS/OF/etc clusters form. Within each cluster, grade and ETA spread players apart. The 6 closest comps are nearest neighbors in the full 12D space.
-  </div>
+  <div id="galaxy-legend" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:10px;font-size:.75rem;color:var(--muted)"></div>
 </div>
 </div>
 <script>
@@ -2898,483 +2897,748 @@ setInterval(function(){
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
-
-// ============ GALAXY MATRIX ============
+// ============ GALAXY MATRIX v2 ============
 (function() {
-  // Baseball position colors
+  'use strict';
+
+  // ---- POSITION COLORS ----
   var POS_COLORS = {
-    'SP': '#ef4444', 'RP': '#f97316', 'C': '#eab308',
-    'SS': '#10b981', '2B': '#06b6d4', '3B': '#3b82f6',
-    '1B': '#8b5cf6', 'OF': '#ec4899', 'DH': '#64748b', '?': '#94a3b8'
+    'OF': '#4ade80', 'SP': '#f87171', 'C': '#fbbf24',
+    'SS': '#fb923c', '2B': '#22d3ee', '3B': '#a78bfa',
+    '1B': '#818cf8', 'RP': '#e879f9', '?': '#94a3b8'
   };
-  var GRADE_VAL = {'A+':100,'A':85,'A-':72,'B+':60,'B':50,'B-':40,'C+':30,'C':20,'C-':12,'D':6};
-  var ALL_PLAYERS = [];
-  var activePos = 'ALL';
-  var selectedPlayer = null;
-  var hoveredPlayer = null;
-  var THREE_LOADED = false;
 
+  // ---- GRADE VALUES ----
+  var GRADE_VAL = {'A+':100,'A':90,'A-':82,'B+':73,'B':63,'B-':54,'C+':45,'C':36};
+
+  // ---- ETA TO YEARS ----
+  function etaYears(e) {
+    var y = parseInt(e) || 2028;
+    return Math.max(0, y - 2026);
+  }
+
+  // ---- EXTRACT POS FROM NAME ----
   function extractPos(name) {
-    var m = name.match(/\(([^,)]+),/);
-    if (!m) return '?';
-    var p = m[1].trim();
-    if (/SP|RP|P$/.test(p)) return p.includes('RP') ? 'RP' : 'SP';
-    if (/^C$|^CA$/.test(p)) return 'C';
-    if (/SS/.test(p)) return 'SS';
-    if (/2B/.test(p)) return '2B';
-    if (/3B/.test(p)) return '3B';
-    if (/1B/.test(p)) return '1B';
-    if (/OF|CF|RF|LF/.test(p)) return 'OF';
-    return p.split('/')[0].trim() || '?';
+    var m = (name||'').match(/\(([^,)]+),/);
+    return m ? m[1].trim() : '?';
   }
 
-  function extractTeam(name) {
-    var m = name.match(/,\s*([A-Z]+)/);
-    return m ? m[1] : '?';
+  // ---- EXTRACT ORG FROM NAME ----
+  function extractOrg(name) {
+    var m = (name||'').match(/,\s*([A-Z]{2,3})\)/);
+    return m ? m[1].trim() : '?';
   }
 
+  // ---- CLEAN NAME (no position suffix) ----
   function cleanName(name) {
-    return name.replace(/s*([^)]+)s*$/, '').trim();
+    return (name||'').replace(/\s*\([^)]+\)\s*$/, '').trim();
   }
 
-  function gradeToVal(grade) {
-    return GRADE_VAL[grade] || 25;
-  }
+  // ---- ORG TO GROUP (for PCA feature) ----
+  var ORG_GROUPS = {
+    LAD:0,SF:0,SD:0,COL:0,ARI:0,
+    ATL:1,NYM:1,PHI:1,MIA:1,WSH:1,
+    CHC:2,STL:2,MIL:2,CIN:2,PIT:2,
+    NYY:3,BOS:3,TB:3,TOR:3,BAL:3,
+    HOU:4,TEX:4,OAK:4,SEA:4,LAA:4,
+    MIN:5,DET:5,CWS:5,CLE:5,KC:5
+  };
 
-  function etaToYears(eta) {
-    if (!eta) return 2;
-    var yr = parseInt(eta);
-    if (isNaN(yr)) return 2;
-    return Math.max(0, yr - 2026);
-  }
+  // ---- EXTRA PROSPECTS (hardcoded additional players) ----
+  var EXTRA = [
+    {name:'Dylan Crews (OF, WSH)',team:'Say Yes to Velo',eta:'2026',grade:'A-',fgDynRank:8,fgFV:55,note:'Premium OF with elite exit velocity.'},
+    {name:'Wyatt Langford (OF, TEX)',team:'Say Yes to Velo',eta:'2026',grade:'A',fgDynRank:4,fgFV:60,note:'All-around dynamo, top-5 dynasty prospect.'},
+    {name:'Jurrangelo Cijntje (SP, CWS)',team:'Say Yes to Velo',eta:'2027',grade:'A-',fgDynRank:44,fgFV:50,note:'Two-way athlete, elite K-rate arm.'},
+    {name:'Dalton Rushing (C, LAD)',team:'Say Yes to Velo',eta:'2027',grade:'A-',fgDynRank:18,fgFV:50,note:'Premium bat behind the dish.'},
+    {name:'Yohandy Morales (3B, MIA)',team:'Say Yes to Velo',eta:'2027',grade:'B',fgDynRank:null,fgFV:40,note:'Raw power from third base.'},
+    {name:'Kumar Rocker (SP, TEX)',team:'Say Yes to Velo',eta:'2026',grade:'B+',fgDynRank:null,fgFV:40,note:'Big frame, power arm from Texas.'},
+    {name:'Samuel Basallo (C, BAL)',team:'Tank for LeBron',eta:'2027',grade:'A',fgDynRank:11,fgFV:55,note:'Elite catching prospect with plus bat.'},
+    {name:'Andrew Painter (SP, PHI)',team:'Tank for LeBron',eta:'2027',grade:'A',fgDynRank:10,fgFV:60,note:'Elite arm, TJ recovery. Top-10 dynasty SP.'},
+    {name:'Coby Mayo (3B, BAL)',team:'Tank for LeBron',eta:'2026',grade:'A-',fgDynRank:25,fgFV:50,note:'Elite power from the hot corner.'},
+    {name:'Bryce Eldridge (1B, SF)',team:'Tank for LeBron',eta:'2027',grade:'A-',fgDynRank:23,fgFV:50,note:'Elite power prospect at first base.'},
+    {name:'Bubba Chandler (SP, PIT)',team:'Tank for LeBron',eta:'2027',grade:'A-',fgDynRank:33,fgFV:50,note:'Two-sport athlete with electric stuff.'},
+    {name:'Edwin Arroyo (SS, CIN)',team:'Tank for LeBron',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'Premium glove with developing bat.'},
+    {name:'Walker Jenkins (OF, MIN)',team:'Golden Gate Gays',eta:'2028',grade:'A',fgDynRank:2,fgFV:65,note:'#2 overall prospect, elite hit tool.'},
+    {name:'Travis Bazzana (2B, CLE)',team:'Golden Gate Gays',eta:'2026',grade:'A-',fgDynRank:12,fgFV:55,note:'Australian import with elite OBP.'},
+    {name:'Jordan Lawlar (SS, ARI)',team:'Golden Gate Gays',eta:'2027',grade:'A-',fgDynRank:20,fgFV:50,note:'Plus defender with upside bat.'},
+    {name:'Ethan Salas (C, SD)',team:'Golden Gate Gays',eta:'2027',grade:'A',fgDynRank:13,fgFV:55,note:'Top catching prospect globally.'},
+    {name:'Zyhir Hope (OF, CLE)',team:'Golden Gate Gays',eta:'2028',grade:'B+',fgDynRank:35,fgFV:45,note:'Athletic OF with big raw tools.'},
+    {name:'Hurston Waldrep (SP, ATL)',team:'Golden Gate Gays',eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'High-floor arm with good command.'},
+    {name:'Charlee Soto (SP, NYM)',team:'Golden Gate Gays',eta:'2028',grade:'B+',fgDynRank:null,fgFV:45,note:'Premium arm in Mets system.'},
+    {name:'Ricky Tiedemann (SP, TOR)',team:'TBONERS',eta:'2026',grade:'A',fgDynRank:9,fgFV:60,note:'Elite lefty — health is the only concern.'},
+    {name:'Kyle Teel (C, BOS)',team:'TBONERS',eta:'2027',grade:'A-',fgDynRank:14,fgFV:50,note:'Polished hitter behind the dish.'},
+    {name:'Carson Williams (SS, TB)',team:'TBONERS',eta:'2027',grade:'A-',fgDynRank:24,fgFV:50,note:'Premium SS with power potential.'},
+    {name:'Nolan McLean (SS, OAK)',team:'TBONERS',eta:'2027',grade:'B+',fgDynRank:46,fgFV:45,note:'Power bat from Oakland system.'},
+    {name:'Tommy Sommer (SP, CWS)',team:'TBONERS',eta:'2027',grade:'B',fgDynRank:null,fgFV:40,note:'Tall lefty with developing stuff.'},
+    {name:'Harry Ford (C, SEA)',team:'Creative Name',eta:'2027',grade:'B+',fgDynRank:30,fgFV:45,note:'Athletic catcher with solid tools.'},
+    {name:'Chase DeLauter (OF, CLE)',team:'Creative Name',eta:'2027',grade:'B+',fgDynRank:40,fgFV:45,note:'Physical OF with plus power.'},
+    {name:'Cole Young (SS, SEA)',team:'Creative Name',eta:'2027',grade:'B+',fgDynRank:42,fgFV:45,note:'Hit-first SS from Seattle.'},
+    {name:'Hagen Smith (SP, OAK)',team:'Creative Name',eta:'2027',grade:'A-',fgDynRank:26,fgFV:50,note:'Best arm in Oakland system.'},
+    {name:'Justin Wrobleski (SP, LAD)',team:'Creative Name',eta:'2026',grade:'B',fgDynRank:null,fgFV:40,note:'Big-league ready lefty from LAD.'},
+    {name:'Joey Estes (SP, OAK)',team:'Creative Name',eta:'2026',grade:'B',fgDynRank:null,fgFV:35,note:'Solid arm getting big-league looks.'},
+    {name:'Emmanuel Rodriguez (OF, MIN)',team:'Layin Wood',eta:'2027',grade:'A-',fgDynRank:22,fgFV:50,note:'Switch-hitting CF with massive upside.'},
+    {name:'Christian Moore (2B, LAA)',team:'Layin Wood',eta:'2026',grade:'A-',fgDynRank:19,fgFV:55,note:'Elite OBP and bat speed combo.'},
+    {name:'Brooks Lee (SS, MIN)',team:'Layin Wood',eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Hit-first SS with solid defense.'},
+    {name:'Colt Keith (1B, DET)',team:'Layin Wood',eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Advanced bat with gap power.'},
+    {name:'Quinn Mathews (SP, STL)',team:'Layin Wood',eta:'2027',grade:'B+',fgDynRank:45,fgFV:45,note:'Advanced command profile.'},
+    {name:'Jace Jung (2B, DET)',team:'Layin Wood',eta:'2026',grade:'B+',fgDynRank:null,fgFV:40,note:'Hit-first 2B from big-league family.'},
+    {name:'Marcelo Mayer (SS, BOS)',team:'Honey Nut Berrios',eta:'2026',grade:'A',fgDynRank:15,fgFV:55,note:'Elite defender and hitter from Boston.'},
+    {name:'Cam Smith (3B, HOU)',team:'Honey Nut Berrios',eta:'2027',grade:'A-',fgDynRank:27,fgFV:50,note:'Elite hit tool from Houston system.'},
+    {name:'Tommy Troy (SS, ARI)',team:'Honey Nut Berrios',eta:'2027',grade:'B+',fgDynRank:48,fgFV:40,note:'Switch-hitter with versatility.'},
+    {name:'George Lombard Jr. (OF, MIA)',team:'Honey Nut Berrios',eta:'2028',grade:'B+',fgDynRank:43,fgFV:45,note:'Athletic OF with raw tools.'},
+    {name:'Trey Sweeney (SS, NYY)',team:'Honey Nut Berrios',eta:'2026',grade:'B',fgDynRank:null,fgFV:35,note:'Patient hitter, approaching MLB.'},
+    {name:'Jackson Chourio (OF, MIL)',team:"Honey Nut Chourio's",eta:'2026',grade:'A',fgDynRank:3,fgFV:60,note:'Already debuted, elite dynasty value.'},
+    {name:'Pete Crow-Armstrong (OF, CHC)',team:"Honey Nut Chourio's",eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Elite defender with developing bat.'},
+    {name:'Tommy White (3B, CLE)',team:"Honey Nut Chourio's",eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Power bat with improving approach.'},
+    {name:'Ivan Melendez (1B, TEX)',team:"Honey Nut Chourio's",eta:'2027',grade:'B',fgDynRank:null,fgFV:35,note:'Masher from the SEC.'},
+    {name:'Matt Mervis (1B, CHC)',team:"Honey Nut Chourio's",eta:'2026',grade:'B-',fgDynRank:null,fgFV:35,note:'Power-first 1B prospect.'},
+    {name:'Lazaro Montes (OF, SEA)',team:"Evil Honey Nut Chourio's",eta:'2027',grade:'A-',fgDynRank:49,fgFV:50,note:'Premium OF with plate discipline.'},
+    {name:'Junior Caminero (3B, TB)',team:"Evil Honey Nut Chourio's",eta:'2026',grade:'A',fgDynRank:7,fgFV:60,note:'Elite bat with elite power — tier 1.'},
+    {name:'Jackson Jobe (SP, DET)',team:"Evil Honey Nut Chourio's",eta:'2026',grade:'A-',fgDynRank:6,fgFV:55,note:'Three-pitch mix, high strikeout upside.'},
+    {name:'Max Clark (OF, DET)',team:"Evil Honey Nut Chourio's",eta:'2028',grade:'A-',fgDynRank:16,fgFV:55,note:'Premium 2024 draft pick, CF upside.'},
+    {name:'Colton Cowser (OF, BAL)',team:"Evil Honey Nut Chourio's",eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Corner OF with developing power.'},
+    {name:'Ronny Mauricio (SS, NYM)',team:"Evil Honey Nut Chourio's",eta:'2026',grade:'B',fgDynRank:null,fgFV:35,note:'Toolsy bat, converting position.'},
+    {name:'Oscar Colas (OF, CWS)',team:"Evil Honey Nut Chourio's",eta:'2026',grade:'B',fgDynRank:null,fgFV:35,note:'Cuban import with raw tools.'},
+    {name:'Roki Sasaki (SP, LAD)',team:'Wyatt and the Lankers',eta:'2026',grade:'A',fgDynRank:5,fgFV:60,note:'Filthy splitter, elite strikeout stuff.'},
+    {name:'Spencer Jones (OF, NYY)',team:'Wyatt and the Lankers',eta:'2027',grade:'A-',fgDynRank:34,fgFV:50,note:'Massive frame, plus raw power.'},
+    {name:'Nolan Schanuel (1B, LAA)',team:'Wyatt and the Lankers',eta:'2026',grade:'B+',fgDynRank:null,fgFV:40,note:'Elite OBP machine, MLB ready.'},
+    {name:'Henry Davis (C, PIT)',team:'Wyatt and the Lankers',eta:'2026',grade:'B+',fgDynRank:null,fgFV:40,note:'Former #1 pick, adjusting at MLB.'},
+    {name:'Caleb Durbin (2B, NYY)',team:'Wyatt and the Lankers',eta:'2026',grade:'B',fgDynRank:null,fgFV:40,note:'Versatile utility infielder.'},
+    {name:'Joey Wiemer (OF, MIL)',team:'First Pitch Swinging',eta:'2026',grade:'B',fgDynRank:null,fgFV:40,note:'Power/speed OF prospect.'},
+    {name:'Victor Scott II (OF, STL)',team:'First Pitch Swinging',eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Elite speed, developing hit tool.'},
+    {name:'Sterlin Thompson (OF, COL)',team:'First Pitch Swinging',eta:'2027',grade:'B',fgDynRank:null,fgFV:40,note:'Athletic OF in thin system.'},
+    {name:'Alexfri Planez (OF, ATL)',team:'First Pitch Swinging',eta:'2027',grade:'B',fgDynRank:null,fgFV:40,note:'Athletic OF in Atlanta system.'},
+    {name:'Rhett Lowder (SP, CIN)',team:'First Pitch Swinging',eta:'2026',grade:'B+',fgDynRank:47,fgFV:45,note:'Advanced command, ready arm.'},
+    {name:'Ezequiel Tovar (SS, COL)',team:'First Pitch Swinging',eta:'2026',grade:'B',fgDynRank:null,fgFV:40,note:'Already debuted, defensive SS.'},
+    {name:'Moises Ballesteros (C, CHC)',team:'Jac-in It',eta:'2027',grade:'B+',fgDynRank:36,fgFV:45,note:'Advanced bat for his age behind plate.'},
+    {name:'Kevin Alcantara (OF, CHC)',team:'Jac-in It',eta:'2027',grade:'B+',fgDynRank:null,fgFV:45,note:'Long, athletic OF with projection.'},
+    {name:'Noble Meyer (SP, MIL)',team:'Jac-in It',eta:'2027',grade:'A-',fgDynRank:28,fgFV:50,note:'Premium arm in Milwaukee system.'},
+    {name:'Logan Henderson (SP, PIT)',team:'Jac-in It',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'Developing arm with strikeout upside.'},
+    {name:'Orelvis Martinez (SS, TOR)',team:'Jac-in It',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'Raw power from the right side.'},
+    {name:'Agustin Ramirez (C, NYY)',team:'Jac-in It',eta:'2027',grade:'B+',fgDynRank:null,fgFV:45,note:'Power bat behind the plate.'}
+  ];
 
+// ---- BUILD ALL PLAYERS ----
+  var ALL_PLAYERS = null;
   function buildPlayers() {
-    if (!FARM_RANKS) return [];
     var players = [];
     var seen = new Set();
-    FARM_RANKS.forEach(function(team) {
-      var tName = team.team || team.teamId;
-      var farmGrade = team.grade || 'C';
-      (team.topProspects || []).forEach(function(p, idx) {
-        var key = p.name;
-        if (seen.has(key)) return;
-        seen.add(key);
-        var pos = extractPos(p.name);
-        var mlbTeam = extractTeam(p.name);
-        var cleanN = cleanName(p.name);
-        var val = gradeToVal(p.grade || p.fgFV ? (p.fgFV >= 60 ? 'A+' : p.fgFV >= 55 ? 'A' : p.fgFV >= 50 ? 'A-' : p.fgFV >= 45 ? 'B+' : p.fgFV >= 40 ? 'B' : 'B-') : p.grade);
-        if (p.fgFV) val = Math.max(val, p.fgFV);
-        var eta = etaToYears(p.eta);
-        var rankBoost = p.fgDynRank ? Math.max(0, 1 - p.fgDynRank / 150) : 0;
-        players.push({
-          name: cleanN,
-          fullName: p.name,
-          pos: pos,
-          mlbTeam: mlbTeam,
-          fantasyTeam: tName,
-          grade: p.grade || 'B',
-          fgFV: p.fgFV || 0,
-          fgDynRank: p.fgDynRank,
-          eta: p.eta || '—',
-          etaYears: eta,
-          val: val,
-          note: p.note || '',
-          rankBoost: rankBoost,
-          prospectRank: idx + 1
+    // From FARM_RANKS topProspects
+    if (typeof FARM_RANKS !== 'undefined') {
+      FARM_RANKS.forEach(function(team) {
+        var tName = team.team || '';
+        var farmGrade = team.grade || 'C';
+        (team.topProspects || []).forEach(function(p) {
+          var key = (p.name||'').toLowerCase();
+          if (seen.has(key)) return;
+          seen.add(key);
+          players.push({
+            name: cleanName(p.name),
+            rawName: p.name || '',
+            pos: extractPos(p.name),
+            org: extractOrg(p.name),
+            team: tName,
+            farmRank: team.farmRank || 12,
+            grade: p.grade || 'B',
+            eta: p.eta || '2027',
+            fgFV: p.fgFV || 35,
+            fgDynRank: p.fgDynRank || null,
+            note: p.note || '',
+            source: 'roster'
+          });
         });
+      });
+    }
+    // From EXTRA (supplemental prospects)
+    EXTRA.forEach(function(p) {
+      var key = (p.name||'').toLowerCase();
+      if (seen.has(key)) return;
+      seen.add(key);
+      // Get farmRank from FARM_RANKS if team matches
+      var farmRank = 12;
+      if (typeof FARM_RANKS !== 'undefined') {
+        var teamEntry = FARM_RANKS.find(function(t){ return t.team === p.team; });
+        if (teamEntry) farmRank = teamEntry.farmRank || 12;
+      }
+      players.push({
+        name: cleanName(p.name),
+        rawName: p.name || '',
+        pos: extractPos(p.name),
+        org: extractOrg(p.name),
+        team: p.team || 'Unknown',
+        farmRank: farmRank,
+        grade: p.grade || 'B',
+        eta: p.eta || '2027',
+        fgFV: p.fgFV || 35,
+        fgDynRank: p.fgDynRank || null,
+        note: p.note || '',
+        source: 'extended'
       });
     });
     return players;
   }
 
-  // PCA helpers
-  function dot(a, b) { var s = 0; for (var i = 0; i < a.length; i++) s += a[i]*b[i]; return s; }
-  function norm(v) { var l = Math.sqrt(dot(v,v)); return l > 1e-9 ? v.map(function(x){return x/l;}) : v.map(function(){return 0;}); }
-  function matVec(M, v) { return M.map(function(r){return dot(r,v);}); }
-
-  function pca3(data) {
+  // ---- PCA IMPLEMENTATION (3D) ----
+  function dot(a, b) {
+    var s = 0; for(var i=0;i<a.length;i++) s += a[i]*b[i]; return s;
+  }
+  function norm(v) {
+    var n = Math.sqrt(dot(v,v)); return n < 1e-9 ? v : v.map(function(x){return x/n;});
+  }
+  function matVec(M, v) {
+    return M.map(function(row){ return dot(row,v); });
+  }
+  function pca3(data, iters) {
+    iters = iters || 150;
     var n = data.length, d = data[0].length;
-    if (n < 2) return data.map(function(){return [0,0,0];});
-    var mean = new Array(d).fill(0);
-    for (var i = 0; i < n; i++) for (var j = 0; j < d; j++) mean[j] += data[i][j]/n;
-    var X = data.map(function(v){return v.map(function(x,i){return x-mean[i];});});
-    var C = Array.from({length:d},function(){return new Array(d).fill(0);});
-    for (var i = 0; i < n; i++) for (var j = 0; j < d; j++) for (var k = 0; k < d; k++) C[j][k]+=X[i][j]*X[i][k]/(n-1||1);
-    var Cd = C.map(function(r){return [...r];});
-    var comps = [];
-    for (var ci = 0; ci < 3; ci++) {
-      var v = norm(new Array(d).fill(0).map(function(_,i){return Math.sin(ci*7+i*13)+Math.cos(ci*3+i*5);}));
-      for (var it = 0; it < 120; it++) {
-        var nv = norm(matVec(Cd, v));
-        if (Math.abs(dot(nv,v)) > 0.9999) { v = nv; break; }
-        v = nv;
+    // center
+    var mu = Array(d).fill(0);
+    data.forEach(function(x){ x.forEach(function(v,i){ mu[i]+=v; }); });
+    mu = mu.map(function(v){ return v/n; });
+    var X = data.map(function(x){ return x.map(function(v,i){ return v-mu[i]; }); });
+    // power iteration for 3 components
+    var W = [];
+    for(var c=0;c<3;c++){
+      var w = norm(Array.from({length:d},function(){ return Math.random()-0.5; }));
+      for(var it=0;it<iters;it++){
+        var acc = Array(d).fill(0);
+        // deflate
+        var Xd = X.map(function(x){
+          var proj = W.reduce(function(r,ww){ return r.map(function(v,j){ return v+dot(x,ww)*ww[j]; }); }, Array(d).fill(0));
+          return x.map(function(v,j){ return v-proj[j]; });
+        });
+        Xd.forEach(function(x){ var p=dot(x,w); acc=acc.map(function(v,j){ return v+p*x[j]; }); });
+        w = norm(acc);
       }
-      comps.push(v);
-      var lam = dot(v, matVec(Cd, v));
-      for (var j = 0; j < d; j++) for (var k = 0; k < d; k++) Cd[j][k] -= lam*v[j]*v[k];
+      W.push(w);
     }
-    return X.map(function(v){return comps.map(function(c){return dot(v,c);});});
+    // project
+    return X.map(function(x){ return W.map(function(w){ return dot(x,w); }); });
   }
 
-  function buildFeatures(p) {
-    var W = 5; // position weight
-    var sp = (p.pos==='SP'?1:0)*W, rp = (p.pos==='RP'?1:0)*W;
-    var c = (p.pos==='C'?1:0)*W, ss = (p.pos==='SS'?1:0)*W;
-    var ib = (p.pos==='1B'?1:0)*W, sb = (p.pos==='2B'?1:0)*W;
-    var tb = (p.pos==='3B'?1:0)*W, of = (p.pos==='OF'?1:0)*W;
-    var valNorm = Math.log10(p.val + 1) / 2;
-    var etaNorm = 1 - Math.min(1, p.etaYears / 4);
-    var rankNorm = p.rankBoost;
-    var fvNorm = p.fgFV / 70;
-    return [sp, rp, c, ss, ib, sb, tb, of, valNorm, etaNorm, rankNorm, fvNorm];
+  // ---- BUILD FEATURE VECTORS ----
+  function buildFeatures(players) {
+    var positions = Object.keys(POS_COLORS);
+    var divGroups = 6;
+    return players.map(function(p) {
+      var gradeV = (GRADE_VAL[p.grade] || 50) / 100;
+      var etaV = 1 - etaYears(p.eta) / 5;
+      var fvV = ((p.fgFV || 35) - 30) / 35;
+      var rankV = p.fgDynRank ? Math.max(0, 1 - (p.fgDynRank - 1) / 100) : 0.3;
+      var farmV = Math.max(0, 1 - (p.farmRank - 1) / 12);
+      // pos one-hot
+      var posVec = positions.map(function(pos){ return p.pos === pos ? 1 : 0; });
+      // division one-hot
+      var divVec = Array(divGroups).fill(0);
+      var dg = ORG_GROUPS[p.org] !== undefined ? ORG_GROUPS[p.org] : 0;
+      divVec[dg] = 1;
+      // compose
+      return [gradeV*2.5, etaV*2, fvV*3, rankV*1.5, farmV*1.2].concat(posVec.map(function(v){return v*2.8;})).concat(divVec.map(function(v){return v*1.2;}));
+    });
   }
 
-  function project(players) {
-    var features = players.map(buildFeatures);
-    var coords = pca3(features);
-    var mins = [Infinity,Infinity,Infinity], maxs = [-Infinity,-Infinity,-Infinity];
-    coords.forEach(function(c){c.forEach(function(v,i){if(v<mins[i])mins[i]=v;if(v>maxs[i])maxs[i]=v;});});
-    var ranges = maxs.map(function(m,i){return Math.max(1e-6,m-mins[i]);});
-    var S = 38;
-    return coords.map(function(c){return c.map(function(v,i){return ((v-mins[i])/ranges[i]-0.5)*2*S;});});
+  // ---- GET NEIGHBORS ----
+  function getNeighbors(players, coords, idx, k) {
+    var target = coords[idx];
+    var dists = coords.map(function(c, i) {
+      var dx=c[0]-target[0], dy=c[1]-target[1], dz=c[2]-target[2];
+      return {i:i, d:Math.sqrt(dx*dx+dy*dy+dz*dz)};
+    });
+    dists.sort(function(a,b){return a.d-b.d;});
+    return dists.slice(1, k+1).map(function(d){ return players[d.i]; });
   }
 
-  function getNeighbors(idx, players, n) {
-    var selF = buildFeatures(players[idx]);
-    return players.map(function(p,i){
-      if (i===idx) return null;
-      var f = buildFeatures(p);
-      var d = Math.sqrt(f.reduce(function(s,x,j){return s+(x-selF[j])**2;},0));
-      return {player:p, dist:d, idx:i};
-    }).filter(Boolean).sort(function(a,b){return a.dist-b.dist;}).slice(0,6);
-  }
-
-  function renderLegend(positions) {
-    var legend = document.getElementById('galaxy-legend');
-    if (!legend) return;
-    var seen = {};
-    var html = positions.map(function(pos) {
-      if (seen[pos]) return '';
-      seen[pos] = true;
-      var col = POS_COLORS[pos] || POS_COLORS['?'];
-      return '<div style="display:flex;align-items:center;gap:5px;font-size:.7rem;">' +
-        '<div style="width:9px;height:9px;border-radius:50%;background:'+col+';box-shadow:0 0 6px '+col+';"></div>' +
-        '<span style="color:#8b95a3;letter-spacing:.5px;">'+pos+'</span></div>';
-    }).join('');
-    legend.innerHTML = html;
-  }
-
-  function renderDetail(player, neighbors) {
-    var detail = document.getElementById('galaxy-detail');
+  // ---- RENDER DETAIL PANEL ----
+  function renderDetail(player, neighbors, allPlayers) {
+    var detail = document.getElementById('gx-detail-content');
     if (!detail) return;
     var col = POS_COLORS[player.pos] || POS_COLORS['?'];
-    var gradeColor = player.grade && player.grade.startsWith('A') ? '#10b981' :
-                     player.grade && player.grade.startsWith('B') ? '#fbbf24' : '#f87171';
-    detail.style.display = 'block';
-    detail.innerHTML =
-      '<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.75rem;">' +
-        '<div style="display:flex;gap:.5rem;align-items:center;">' +
-          '<span style="background:'+col+';color:#fff;font-size:.7rem;font-weight:700;padding:2px 6px;border-radius:3px;">'+player.pos+'</span>' +
-          (player.fgFV ? '<span style="background:#1a2233;font-size:.7rem;padding:2px 6px;border-radius:3px;font-family:monospace;">FV '+player.fgFV+'</span>' : '') +
+    var gradeColor = player.grade.startsWith('A') ? '#4ade80' : player.grade.startsWith('B') ? '#fbbf24' : '#94a3b8';
+    var rankBadge = player.fgDynRank ? '<span style="background:#1e293b;border:1px solid #334155;border-radius:4px;padding:1px 6px;font-size:.7rem;color:#94a3b8">#' + player.fgDynRank + ' FG Dynasty</span>' : '';
+    var srcBadge = player.source === 'roster' ? '<span style="background:rgba(74,222,128,.12);color:#4ade80;border:1px solid rgba(74,222,128,.3);border-radius:4px;padding:1px 6px;font-size:.65rem">ROSTERED</span>' : '<span style="background:rgba(148,163,184,.1);color:#94a3b8;border:1px solid #334155;border-radius:4px;padding:1px 6px;font-size:.65rem">EXTENDED</span>';
+    var nbHtml = neighbors.slice(0,5).map(function(n) {
+      var nc = POS_COLORS[n.pos] || POS_COLORS['?'];
+      return '<div style="display:flex;align-items:center;gap:6px;padding:4px 0;border-bottom:1px solid #1e293b">' +
+        '<div style="width:8px;height:8px;border-radius:50%;background:' + nc + ';flex-shrink:0"></div>' +
+        '<div style="flex:1;min-width:0"><div style="font-size:.75rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">' + n.name + '</div>' +
+        '<div style="font-size:.65rem;color:#64748b">' + n.team.substring(0,22) + ' · ' + n.pos + ' · ' + n.eta + '</div></div>' +
+        '<div style="font-size:.7rem;color:' + gradeColor + ';flex-shrink:0">' + n.grade + '</div></div>';
+    }).join('');
+
+    var fvBar = '<div style="display:flex;align-items:center;gap:6px;margin:4px 0"><span style="font-size:.7rem;color:#64748b;width:55px">FV ' + (player.fgFV||35) + '</span><div style="flex:1;height:4px;background:#1e293b;border-radius:2px"><div style="height:4px;background:' + col + ';border-radius:2px;width:' + Math.round(((player.fgFV||35)-30)/40*100) + '%"></div></div></div>';
+    var etaBar = '<div style="display:flex;align-items:center;gap:6px;margin:4px 0"><span style="font-size:.7rem;color:#64748b;width:55px">ETA ' + player.eta + '</span><div style="flex:1;height:4px;background:#1e293b;border-radius:2px"><div style="height:4px;background:#818cf8;border-radius:2px;width:' + Math.round(Math.max(0,1-etaYears(player.eta)/5)*100) + '%"></div></div></div>';
+
+    detail.innerHTML = '<div>' +
+      '<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:10px">' +
+        '<div style="width:36px;height:36px;border-radius:50%;background:' + col + '22;border:2px solid ' + col + ';display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700;color:' + col + ';flex-shrink:0">' + player.pos + '</div>' +
+        '<div style="flex:1;min-width:0">' +
+          '<div style="font-size:.95rem;font-weight:700;line-height:1.2">' + player.name + '</div>' +
+          '<div style="font-size:.72rem;color:#64748b;margin-top:2px">' + player.org + ' · ' + player.team.substring(0,28) + '</div>' +
         '</div>' +
-        '<button onclick="galaxyDeselect()" style="background:transparent;border:none;color:#8b95a3;font-size:1.1rem;cursor:pointer;padding:0;">✕</button>' +
       '</div>' +
-      '<div style="font-size:1.1rem;font-weight:700;margin-bottom:.25rem;">'+player.name+'</div>' +
-      '<div style="font-size:.78rem;color:#8b95a3;margin-bottom:.75rem;font-family:monospace;">'+player.mlbTeam+' · ETA '+player.eta+'</div>' +
-      '<div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-bottom:.75rem;">' +
-        '<div><div style="font-size:.65rem;color:#8b95a3;letter-spacing:.5px;margin-bottom:2px;">GRADE</div><div style="font-size:1.3rem;font-weight:800;color:'+gradeColor+';">'+player.grade+'</div></div>' +
-        '<div><div style="font-size:.65rem;color:#8b95a3;letter-spacing:.5px;margin-bottom:2px;">OWNER</div><div style="font-size:.8rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+player.fantasyTeam+'</div></div>' +
-        (player.fgDynRank ? '<div><div style="font-size:.65rem;color:#8b95a3;letter-spacing:.5px;margin-bottom:2px;">FG DYN RANK</div><div style="font-size:.9rem;font-family:monospace;">#'+player.fgDynRank+'</div></div>' : '') +
+      '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px">' +
+        '<span style="background:' + col + '22;color:' + col + ';border:1px solid ' + col + '55;border-radius:4px;padding:2px 7px;font-size:.72rem;font-weight:700">' + player.grade + '</span>' +
+        rankBadge + srcBadge +
       '</div>' +
-      (player.note ? '<div style="font-size:.75rem;color:#8b95a3;line-height:1.5;margin-bottom:.75rem;border-left:2px solid '+col+';padding-left:.5rem;">'+player.note.slice(0,120)+(player.note.length>120?'…':'')+'</div>' : '') +
-      '<div style="font-size:.65rem;color:#8b95a3;letter-spacing:.5px;margin-bottom:.5rem;">SIMILAR PROSPECTS</div>' +
-      '<div style="display:flex;flex-direction:column;gap:.35rem;">' +
-        neighbors.map(function(n) {
-          var nc = POS_COLORS[n.player.pos] || POS_COLORS['?'];
-          return '<div onclick="galaxySelectByName(\'+n.player.name+\')" style="padding:.4rem .6rem;background:#0a0d12;border-radius:4px;cursor:pointer;display:flex;align-items:center;gap:.6rem;border-left:2px solid '+nc+';">' +
-            '<div style="width:5px;height:5px;border-radius:50%;background:'+nc+';flex-shrink:0;"></div>' +
-            '<div style="flex:1;min-width:0;">' +
-              '<div style="font-size:.8rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+n.player.name+'</div>' +
-              '<div style="font-size:.68rem;color:#8b95a3;">'+n.player.pos+' · '+n.player.fantasyTeam+'</div>' +
-            '</div>' +
-            '<span style="font-size:.75rem;color:#00d4aa;font-family:monospace;">'+n.player.grade+'</span>' +
-          '</div>';
-        }).join('') +
-      '</div>';
+      fvBar + etaBar +
+      (player.note ? '<div style="font-size:.75rem;color:#94a3b8;margin:8px 0;padding:8px;background:#0f172a;border-radius:6px;line-height:1.5">' + player.note + '</div>' : '') +
+      '<div style="font-size:.7rem;font-weight:600;color:#64748b;margin:10px 0 4px;text-transform:uppercase;letter-spacing:.05em">Similar Prospects</div>' +
+      nbHtml +
+    '</div>';
   }
 
-  // Three.js Galaxy renderer
-  var threeScene, threeCamera, threeRenderer, playerMeshes = [], selRing, hoverRing, camState;
+// ---- INIT THREE.JS GALAXY ----
+  var _renderer, _scene, _camera, _spheres=[], _labels=[], _labelCanvas, _labelCtx;
+  var _camTheta=0.4, _camPhi=1.2, _camR=55, _targetTheta=0.4, _targetPhi=1.2, _targetR=55;
+  var _isDragging=false, _lastMouse={x:0,y:0};
+  var _coords=[], _players=[], _filtered=[], _selectedIdx=-1, _hoveredIdx=-1;
+  var _showLabels=true, _posFilter='ALL', _gradeFilter='ALL';
+  var _searchQuery='';
+  var _clock, _animId;
+  var _TEAM_COLORS = {};
 
-  function initThreeGalaxy(players, positions3d) {
-    var mount = document.getElementById('galaxy-mount');
-    if (!mount || !window.THREE) return;
-    var loading = document.getElementById('galaxy-loading');
-    if (loading) loading.style.display = 'none';
-    var w = mount.clientWidth, h = mount.clientHeight;
+  function initThreeGalaxy() {
+    if (!window.THREE) { setTimeout(initThreeGalaxy, 200); return; }
+    var THREE = window.THREE;
+    ALL_PLAYERS = buildPlayers();
+    var loadMsg = document.getElementById('gx-load-msg');
+    if (loadMsg) loadMsg.textContent = 'Running PCA on ' + ALL_PLAYERS.length + ' prospects...';
 
-    threeScene = new THREE.Scene();
-    threeScene.background = new THREE.Color(0x030508);
-    threeScene.fog = new THREE.FogExp2(0x030508, 0.007);
+    // assign team colors
+    var teamList = Array.from(new Set(ALL_PLAYERS.map(function(p){return p.team;})));
+    var teamPalette = ['#60a5fa','#34d399','#f472b6','#a78bfa','#fb923c','#facc15','#4ade80','#38bdf8','#f87171','#c084fc','#94a3b8','#fbbf24'];
+    teamList.forEach(function(t,i){ _TEAM_COLORS[t] = teamPalette[i % teamPalette.length]; });
 
-    threeCamera = new THREE.PerspectiveCamera(50, w/h, 0.1, 500);
-    camState = { dist: 85, rotX: 0.2, rotY: 0.5, targX: 0.2, targY: 0.5 };
+    setTimeout(function() {
+      var features = buildFeatures(ALL_PLAYERS);
+      _coords = pca3(features, 160);
+      // normalize coords to [-25,25]
+      var maxV = 0;
+      _coords.forEach(function(c){ c.forEach(function(v){ maxV = Math.max(maxV, Math.abs(v)); }); });
+      if (maxV > 0) _coords = _coords.map(function(c){ return c.map(function(v){ return v/maxV*25; }); });
 
-    threeRenderer = new THREE.WebGLRenderer({ antialias: true });
-    threeRenderer.setSize(w, h);
-    threeRenderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    mount.appendChild(threeRenderer.domElement);
+      _players = ALL_PLAYERS;
+      _filtered = ALL_PLAYERS.map(function(_,i){return i;});
 
-    // Stars
-    var starsGeo = new THREE.BufferGeometry();
-    var sp = new Float32Array(2400);
-    for (var i = 0; i < 800; i++) {
-      var r = 120+Math.random()*80, th = Math.random()*Math.PI*2, ph = Math.acos(2*Math.random()-1);
-      sp[i*3]=r*Math.sin(ph)*Math.cos(th); sp[i*3+1]=r*Math.sin(ph)*Math.sin(th); sp[i*3+2]=r*Math.cos(ph);
-    }
-    starsGeo.setAttribute('position', new THREE.BufferAttribute(sp, 3));
-    threeScene.add(new THREE.Points(starsGeo, new THREE.PointsMaterial({color:0xffffff,size:.5,transparent:true,opacity:.35})));
+      var mount = document.getElementById('galaxy-mount');
+      if (!mount) return;
+      var W = mount.clientWidth || 800, H = mount.clientHeight || 580;
 
-    // Cluster glows per position
-    var clusterCenters = {};
-    var uniquePos = [...new Set(players.map(function(p){return p.pos;}))];
-    uniquePos.forEach(function(pos) {
-      var indices = players.map(function(p,i){return p.pos===pos?i:-1;}).filter(function(i){return i>=0;});
-      if (!indices.length) return;
-      var cx=0,cy=0,cz=0;
-      indices.forEach(function(i){cx+=positions3d[i][0];cy+=positions3d[i][1];cz+=positions3d[i][2];});
-      cx/=indices.length;cy/=indices.length;cz/=indices.length;
-      var hexCol = parseInt((POS_COLORS[pos]||'#888888').replace('#',''), 16);
-      var gg = new THREE.Mesh(new THREE.SphereGeometry(10,12,12),
-        new THREE.MeshBasicMaterial({color:hexCol,transparent:true,opacity:.05,blending:THREE.AdditiveBlending,depthWrite:false,side:THREE.BackSide}));
-      gg.position.set(cx,cy,cz);
-      threeScene.add(gg);
-    });
+      // Renderer
+      _renderer = new THREE.WebGLRenderer({antialias:true, alpha:true});
+      _renderer.setPixelRatio(window.devicePixelRatio||1);
+      _renderer.setSize(W, H);
+      _renderer.setClearColor(0x020408, 1);
+      mount.appendChild(_renderer.domElement);
 
-    // Player stars
-    playerMeshes = [];
-    var glowGroup = new THREE.Group();
-    players.forEach(function(p, i) {
-      var xyz = positions3d[i];
-      var col = parseInt((POS_COLORS[p.pos]||'#888888').replace('#',''), 16);
-      var radius = 0.4 + Math.log10(p.val+1) * 0.25;
-      var geo = new THREE.SphereGeometry(radius, 10, 10);
-      var mat = new THREE.MeshBasicMaterial({color:col});
-      var mesh = new THREE.Mesh(geo, mat);
-      mesh.position.set(xyz[0], xyz[1], xyz[2]);
-      mesh.userData = {player:p, idx:i, radius:radius};
-      threeScene.add(mesh);
-      playerMeshes.push(mesh);
-      // Glow
-      var gg = new THREE.Mesh(new THREE.SphereGeometry(radius*3,8,8),
-        new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.2,blending:THREE.AdditiveBlending,depthWrite:false}));
-      gg.position.copy(mesh.position);
-      glowGroup.add(gg);
-    });
-    threeScene.add(glowGroup);
+      // Scene
+      _scene = new THREE.Scene();
 
-    // Selection rings
-    selRing = new THREE.Mesh(new THREE.RingGeometry(1,1.2,32),
-      new THREE.MeshBasicMaterial({color:0x00d4aa,side:THREE.DoubleSide,transparent:true,opacity:.9}));
-    selRing.visible = false;
-    threeScene.add(selRing);
-    hoverRing = new THREE.Mesh(new THREE.RingGeometry(1,1.15,28),
-      new THREE.MeshBasicMaterial({color:0xffffff,side:THREE.DoubleSide,transparent:true,opacity:.5}));
-    hoverRing.visible = false;
-    threeScene.add(hoverRing);
+      // Camera
+      _camera = new THREE.PerspectiveCamera(60, W/H, 0.1, 1000);
+      updateCamera();
 
-    // Input
-    var raycaster = new THREE.Raycaster();
-    var ndc = new THREE.Vector2();
-    var pState = {drag:false,x:0,y:0,dx:0,dy:0,moved:false};
+      // Ambient light
+      _scene.add(new THREE.AmbientLight(0xffffff, 0.6));
+      var dlight = new THREE.DirectionalLight(0xffffff, 0.8);
+      dlight.position.set(1,1,1);
+      _scene.add(dlight);
 
-    function raycast(ex, ey) {
-      var rect = threeRenderer.domElement.getBoundingClientRect();
-      ndc.x = ((ex-rect.left)/rect.width)*2-1;
-      ndc.y = -((ey-rect.top)/rect.height)*2+1;
-      raycaster.setFromCamera(ndc, threeCamera);
-      return raycaster.intersectObjects(playerMeshes);
-    }
-
-    var dom = threeRenderer.domElement;
-    dom.addEventListener('pointerdown', function(e) {
-      pState.drag=true;pState.moved=false;pState.x=e.clientX;pState.y=e.clientY;pState.dx=e.clientX;pState.dy=e.clientY;
-    });
-    window.addEventListener('pointermove', function(e) {
-      if (!pState.drag) {
-        var hits = raycast(e.clientX, e.clientY);
-        var tooltip = document.getElementById('galaxy-tooltip');
-        if (hits.length) {
-          dom.style.cursor='pointer';
-          var p = hits[0].object.userData.player;
-          hoveredPlayer = p;
-          hoverRing.position.copy(hits[0].object.position);
-          hoverRing.scale.setScalar(hits[0].object.userData.radius * 2.5);
-          hoverRing.visible = true;
-          if (tooltip) {
-            var col = POS_COLORS[p.pos]||'#888';
-            tooltip.style.display = 'block';
-            var rect = mount.getBoundingClientRect();
-            tooltip.style.left = Math.min(e.clientX - rect.left + 12, rect.width - 200) + 'px';
-            tooltip.style.top = Math.max(e.clientY - rect.top - 60, 8) + 'px';
-            tooltip.innerHTML = '<div style="display:flex;gap:6px;align-items:center;margin-bottom:4px;">' +
-              '<span style="background:'+col+';color:#fff;font-size:.65rem;font-weight:700;padding:1px 5px;border-radius:2px;">'+p.pos+'</span>' +
-              '<span style="font-weight:700;font-size:.85rem;">'+p.name+'</span></div>' +
-              '<div style="font-size:.7rem;color:#8b95a3;font-family:monospace;">'+p.mlbTeam+' · ETA '+p.eta+' · Grade <span style="color:#00d4aa;">'+p.grade+'</span></div>' +
-              '<div style="font-size:.7rem;color:#8b95a3;margin-top:2px;">'+p.fantasyTeam+'</div>';
-          }
-        } else {
-          dom.style.cursor='grab';
-          hoveredPlayer = null;
-          hoverRing.visible = false;
-          if (tooltip) tooltip.style.display='none';
-        }
-        return;
+      // Background stars (decorative)
+      var starsGeo = new THREE.BufferGeometry();
+      var starPts = [];
+      for(var s=0;s<800;s++){
+        starPts.push((Math.random()-0.5)*300, (Math.random()-0.5)*300, (Math.random()-0.5)*300);
       }
-      var dx = e.clientX-pState.x, dy = e.clientY-pState.y;
-      if (Math.abs(e.clientX-pState.dx)+Math.abs(e.clientY-pState.dy)>4) pState.moved=true;
-      camState.targY += dx*0.005;
-      camState.targX += dy*0.005;
-      camState.targX = Math.max(-Math.PI/2+.05, Math.min(Math.PI/2-.05, camState.targX));
-      pState.x=e.clientX;pState.y=e.clientY;
-    });
-    window.addEventListener('pointerup', function(e) {
-      if (pState.drag && !pState.moved) {
-        var hits = raycast(e.clientX, e.clientY);
-        if (hits.length) {
-          var obj = hits[0].object;
-          selectedPlayer = obj.userData.player;
-          selRing.position.copy(obj.position);
-          selRing.scale.setScalar(obj.userData.radius * 3);
-          selRing.visible = true;
-          var neighbors = getNeighbors(obj.userData.idx, players, 6);
-          renderDetail(selectedPlayer, neighbors);
-          document.getElementById('galaxy-layout').style.gridTemplateColumns = '1fr 300px';
-        } else {
-          selectedPlayer = null;
-          selRing.visible = false;
-          var det = document.getElementById('galaxy-detail');
-          if (det) det.style.display='none';
-          document.getElementById('galaxy-layout').style.gridTemplateColumns = '1fr';
-        }
-      }
-      pState.drag=false;
-    });
-    dom.addEventListener('wheel', function(e) {
-      e.preventDefault();
-      camState.dist = Math.max(20, Math.min(200, camState.dist+e.deltaY*.07));
-    }, {passive:false});
+      starsGeo.setAttribute('position', new THREE.Float32BufferAttribute(starPts, 3));
+      var starMat = new THREE.PointsMaterial({color:0x334155, size:0.3, transparent:true, opacity:0.5});
+      _scene.add(new THREE.Points(starsGeo, starMat));
 
-    window.addEventListener('resize', function() {
-      if (!mount || !threeRenderer) return;
-      var nw=mount.clientWidth, nh=mount.clientHeight;
-      threeCamera.aspect=nw/nh;threeCamera.updateProjectionMatrix();threeRenderer.setSize(nw,nh);
-    });
+      // Cluster glow halos
+      var posGroups = {};
+      _players.forEach(function(p, i) {
+        if (!posGroups[p.pos]) posGroups[p.pos] = [];
+        posGroups[p.pos].push(i);
+      });
+      Object.keys(posGroups).forEach(function(pos) {
+        var idxs = posGroups[pos];
+        if (idxs.length < 2) return;
+        var cx=0, cy=0, cz=0;
+        idxs.forEach(function(i){ cx+=_coords[i][0]; cy+=_coords[i][1]; cz+=_coords[i][2]; });
+        cx/=idxs.length; cy/=idxs.length; cz/=idxs.length;
+        var maxR = 0;
+        idxs.forEach(function(i){
+          var dx=_coords[i][0]-cx, dy=_coords[i][1]-cy, dz=_coords[i][2]-cz;
+          maxR = Math.max(maxR, Math.sqrt(dx*dx+dy*dy+dz*dz));
+        });
+        maxR = Math.max(maxR, 2) + 3;
+        var col = new THREE.Color(POS_COLORS[pos] || '#94a3b8');
+        var haloGeo = new THREE.SphereGeometry(maxR, 16, 12);
+        var haloMat = new THREE.MeshBasicMaterial({color:col, transparent:true, opacity:0.04, side:THREE.BackSide, depthWrite:false});
+        var haloMesh = new THREE.Mesh(haloGeo, haloMat);
+        haloMesh.position.set(cx, cy, cz);
+        _scene.add(haloMesh);
+        // halo ring
+        var ringGeo = new THREE.TorusGeometry(maxR, 0.15, 8, 64);
+        var ringMat = new THREE.MeshBasicMaterial({color:col, transparent:true, opacity:0.18, depthWrite:false});
+        var ring = new THREE.Mesh(ringGeo, ringMat);
+        ring.position.set(cx, cy, cz);
+        ring.rotation.x = Math.PI/2;
+        _scene.add(ring);
+      });
 
-    function animate() {
-      requestAnimationFrame(animate);
-      camState.rotX += (camState.targX-camState.rotX)*0.1;
-      camState.rotY += (camState.targY-camState.rotY)*0.1;
-      if (!pState.drag) camState.targY+=0.0005;
-      var yaw=camState.rotY;
-      threeCamera.position.x=camState.dist*Math.cos(camState.rotX)*Math.sin(yaw);
-      threeCamera.position.y=camState.dist*Math.sin(camState.rotX);
-      threeCamera.position.z=camState.dist*Math.cos(camState.rotX)*Math.cos(yaw);
-      threeCamera.lookAt(0,0,0);
-      if (selRing.visible) selRing.lookAt(threeCamera.position);
-      if (hoverRing.visible) hoverRing.lookAt(threeCamera.position);
-      threeRenderer.render(threeScene,threeCamera);
-    }
-    animate();
+      // Sphere meshes
+      _spheres = [];
+      _players.forEach(function(p, i) {
+        var col = new THREE.Color(POS_COLORS[p.pos] || '#94a3b8');
+        var fv = p.fgFV || 35;
+        var radius = 0.32 + (fv - 30) / 60;
+        var geo = new THREE.SphereGeometry(radius, 12, 8);
+        var mat = new THREE.MeshPhongMaterial({
+          color: col, emissive: col, emissiveIntensity: 0.35,
+          transparent: true, opacity: 0.92, shininess: 40
+        });
+        var mesh = new THREE.Mesh(geo, mat);
+        mesh.position.set(_coords[i][0], _coords[i][1], _coords[i][2]);
+        mesh.userData = {idx: i};
+        _scene.add(mesh);
+        _spheres.push(mesh);
+      });
+
+      // Label canvas overlay
+      _labelCanvas = document.createElement('canvas');
+      _labelCanvas.style.position = 'absolute';
+      _labelCanvas.style.top = '0';
+      _labelCanvas.style.left = '0';
+      _labelCanvas.style.pointerEvents = 'none';
+      _labelCanvas.width = W; _labelCanvas.height = H;
+      mount.appendChild(_labelCanvas);
+      _labelCtx = _labelCanvas.getContext('2d');
+
+      // Clock
+      _clock = new THREE.Clock();
+
+      // Hide loading
+      var loading = document.getElementById('galaxy-loading');
+      if (loading) loading.style.display = 'none';
+
+      // Build UI
+      buildPosFilters();
+      buildGradeFilters();
+      buildLegend();
+      updateCount();
+
+      // Events
+      setupEvents(mount);
+
+      // Start animation
+      animate();
+
+      document.getElementById('gx-search').addEventListener('input', function(e){
+        _searchQuery = e.target.value.toLowerCase();
+        refreshVisibility();
+      });
+      document.getElementById('gx-labels').addEventListener('change', function(e){
+        _showLabels = e.target.checked;
+      });
+
+    }, 50);
   }
 
-  // Public API
-  window.galaxyDeselect = function() {
-    selectedPlayer = null;
-    if (selRing) selRing.visible = false;
-    var det = document.getElementById('galaxy-detail');
-    if (det) det.style.display='none';
-    document.getElementById('galaxy-layout').style.gridTemplateColumns = '1fr';
-  };
-  window.galaxySelectByName = function(name) {
-    var idx = ALL_PLAYERS.findIndex(function(p){return p.name===name;});
-    if (idx<0) return;
-    var obj = playerMeshes[idx];
-    if (!obj) return;
-    selectedPlayer = ALL_PLAYERS[idx];
-    selRing.position.copy(obj.position);
-    selRing.scale.setScalar(obj.userData.radius*3);
-    selRing.visible = true;
-    var neighbors = getNeighbors(idx, ALL_PLAYERS, 6);
-    renderDetail(selectedPlayer, neighbors);
-    document.getElementById('galaxy-layout').style.gridTemplateColumns = '1fr 300px';
-  };
-  window.galaxySearch = function(q) {
-    if (!q || q.length < 2) return;
-    var found = ALL_PLAYERS.findIndex(function(p){return p.name.toLowerCase().includes(q.toLowerCase());});
-    if (found >= 0) window.galaxySelectByName(ALL_PLAYERS[found].name);
-  };
+  function updateCamera() {
+    if (!_camera) return;
+    var x = _camR * Math.sin(_camPhi) * Math.sin(_camTheta);
+    var y = _camR * Math.cos(_camPhi);
+    var z = _camR * Math.sin(_camPhi) * Math.cos(_camTheta);
+    _camera.position.set(x, y, z);
+    _camera.lookAt(0, 0, 0);
+  }
 
-  function buildPosFilters(positions) {
-    var container = document.getElementById('galaxy-pos-filters');
+function buildPosFilters() {
+    var container = document.getElementById('gx-pos-filters');
     if (!container) return;
-    var posSet = [...new Set(positions)].sort();
-    var allBtns = ['ALL'].concat(posSet);
-    container.innerHTML = allBtns.map(function(p) {
-      var col = p === 'ALL' ? '#00d4aa' : (POS_COLORS[p]||'#888');
-      return '<button onclick="galaxyFilterPos(\'+p+\')" id="gfp-'+p+'" style="padding:.3rem .6rem;background:'+(p==='ALL'?col:'var(--card)')+';border:1px solid '+(p==='ALL'?col:'var(--border)')+';color:'+(p==='ALL'?'#000':'var(--muted)')+';border-radius:4px;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;">'+p+'</button>';
+    var positions = ['ALL'].concat(Object.keys(POS_COLORS).filter(function(p){
+      return _players.some(function(pl){ return pl.pos === p; });
+    }));
+    container.innerHTML = positions.map(function(pos) {
+      var count = pos === 'ALL' ? _players.length : _players.filter(function(p){return p.pos===pos;}).length;
+      var col = pos === 'ALL' ? 'var(--accent)' : (POS_COLORS[pos] || '#94a3b8');
+      var isActive = pos === _posFilter;
+      return '<button onclick="galaxySetPos(\'' + pos + '\')" id="gxp-' + pos + '" style="padding:.25rem .55rem;border:1px solid ' + (isActive ? col : '#334155') + ';background:' + (isActive ? col+'22' : 'transparent') + ';color:' + (isActive ? col : '#94a3b8') + ';border-radius:5px;font-size:.7rem;cursor:pointer;font-weight:' + (isActive?'700':'400') + '">' + pos + ' <span style="opacity:.7">' + count + '</span></button>';
     }).join('');
   }
 
-  window.galaxyFilterPos = function(pos) {
-    activePos = pos;
-    var allBtns = document.getElementById('galaxy-pos-filters');
-    if (allBtns) {
-      allBtns.querySelectorAll('button').forEach(function(btn) {
-        var p = btn.id.replace('gfp-','');
-        var col = p==='ALL'?'#00d4aa':(POS_COLORS[p]||'#888');
-        var active = p === pos;
-        btn.style.background = active ? col : 'var(--card)';
-        btn.style.borderColor = active ? col : 'var(--border)';
-        btn.style.color = active ? '#000' : 'var(--muted)';
-      });
-    }
-    if (!playerMeshes.length) return;
-    playerMeshes.forEach(function(m, i) {
-      var p = ALL_PLAYERS[i];
-      var visible = pos === 'ALL' || p.pos === pos;
-      m.visible = visible;
-    });
-  };
-
-  function initGalaxy() {
-    if (!window.THREE) {
-      setTimeout(initGalaxy, 200);
-      return;
-    }
-    ALL_PLAYERS = buildPlayers();
-    if (!ALL_PLAYERS.length) {
-      var loading = document.getElementById('galaxy-loading');
-      if (loading) loading.innerHTML = '<div style="color:var(--muted)">No player data found. Ensure FARM_RANKS is loaded.</div>';
-      return;
-    }
-    var positions3d = project(ALL_PLAYERS);
-    var uniquePos = [...new Set(ALL_PLAYERS.map(function(p){return p.pos;}))];
-    renderLegend(uniquePos);
-    buildPosFilters(uniquePos);
-    var countEl = document.getElementById('galaxy-count');
-    if (countEl) countEl.textContent = ALL_PLAYERS.length + ' STARS';
-    initThreeGalaxy(ALL_PLAYERS, positions3d);
+  function buildGradeFilters() {
+    var container = document.getElementById('gx-grade-filters');
+    if (!container) return;
+    var grades = ['ALL','A+','A','A-','B+','B','B-'];
+    container.innerHTML = grades.map(function(g) {
+      var count = g === 'ALL' ? _players.length : _players.filter(function(p){return p.grade===g;}).length;
+      if (g !== 'ALL' && count === 0) return '';
+      var col = g === 'ALL' ? '#64748b' : (g.startsWith('A') ? '#4ade80' : g.startsWith('B') ? '#fbbf24' : '#94a3b8');
+      var isActive = g === _gradeFilter;
+      return '<button onclick="galaxySetGrade(\'' + g + '\')" id="gxg-' + g.replace('+','p').replace('-','m') + '" style="padding:.25rem .5rem;border:1px solid ' + (isActive ? col : '#334155') + ';background:' + (isActive ? col+'22' : 'transparent') + ';color:' + (isActive ? col : '#64748b') + ';border-radius:5px;font-size:.7rem;cursor:pointer;font-weight:' + (isActive?'700':'400') + '">' + g + (count>0&&g!=='ALL'?' <span style="opacity:.6">'+count+'</span>':'') + '</button>';
+    }).join('');
   }
 
-  // Init when galaxy tab is shown
-  var origShowTab = window.showTab;
+  function buildLegend() {
+    var leg = document.getElementById('galaxy-legend');
+    if (!leg) return;
+    var positions = Object.keys(POS_COLORS).filter(function(p){
+      return _players.some(function(pl){ return pl.pos === p; });
+    });
+    leg.innerHTML = positions.map(function(pos) {
+      var col = POS_COLORS[pos];
+      var count = _players.filter(function(p){return p.pos===pos;}).length;
+      return '<span style="display:flex;align-items:center;gap:4px"><span style="width:9px;height:9px;border-radius:50%;background:' + col + ';display:inline-block"></span>' + pos + ' <span style="opacity:.6">(' + count + ')</span></span>';
+    }).join('');
+  }
+
+  function updateCount() {
+    var el = document.getElementById('gx-count');
+    if (el) {
+      var vis = _spheres.filter(function(s){ return s.visible; }).length;
+      el.textContent = vis + ' / ' + _players.length + ' stars';
+    }
+  }
+
+  function refreshVisibility() {
+    _spheres.forEach(function(s, i) {
+      var p = _players[i];
+      var posOk = _posFilter === 'ALL' || p.pos === _posFilter;
+      var gradeOk = _gradeFilter === 'ALL' || p.grade === _gradeFilter;
+      var searchOk = !_searchQuery || p.name.toLowerCase().includes(_searchQuery) || p.team.toLowerCase().includes(_searchQuery) || p.org.toLowerCase().includes(_searchQuery);
+      s.visible = posOk && gradeOk && searchOk;
+    });
+    updateCount();
+  }
+
+  // Global filter setters
+  window.galaxySetPos = function(pos) {
+    _posFilter = pos;
+    buildPosFilters();
+    refreshVisibility();
+  };
+  window.galaxySetGrade = function(g) {
+    _gradeFilter = g;
+    buildGradeFilters();
+    refreshVisibility();
+  };
+
+  // ---- RAYCASTING ----
+  function doRaycast(clientX, clientY) {
+    if (!_renderer || !_camera || !_scene) return -1;
+    var mount = document.getElementById('galaxy-mount');
+    if (!mount) return -1;
+    var rect = mount.getBoundingClientRect();
+    var THREE = window.THREE;
+    var raycaster = new THREE.Raycaster();
+    raycaster.params.Points = {threshold: 0.5};
+    var mouse = new THREE.Vector2(
+      ((clientX - rect.left) / rect.width) * 2 - 1,
+      -((clientY - rect.top) / rect.height) * 2 + 1
+    );
+    raycaster.setFromCamera(mouse, _camera);
+    var visible = _spheres.filter(function(s){return s.visible;});
+    var hits = raycaster.intersectObjects(visible);
+    if (hits.length > 0) return hits[0].object.userData.idx;
+    return -1;
+  }
+
+  // ---- MOUSE/TOUCH EVENTS ----
+  function setupEvents(mount) {
+    mount.addEventListener('mousedown', function(e) {
+      _isDragging = false;
+      _lastMouse = {x: e.clientX, y: e.clientY};
+    });
+    mount.addEventListener('mousemove', function(e) {
+      if (e.buttons === 1) {
+        _isDragging = true;
+        var dx = e.clientX - _lastMouse.x;
+        var dy = e.clientY - _lastMouse.y;
+        _targetTheta -= dx * 0.006;
+        _targetPhi = Math.max(0.15, Math.min(Math.PI - 0.15, _targetPhi + dy * 0.006));
+        _lastMouse = {x: e.clientX, y: e.clientY};
+      } else {
+        var idx = doRaycast(e.clientX, e.clientY);
+        if (idx !== _hoveredIdx) {
+          _hoveredIdx = idx;
+          if (idx >= 0) mount.style.cursor = 'pointer';
+          else mount.style.cursor = 'grab';
+        }
+      }
+    });
+    mount.addEventListener('mouseup', function(e) {
+      if (!_isDragging) {
+        var idx = doRaycast(e.clientX, e.clientY);
+        if (idx >= 0) {
+          _selectedIdx = idx;
+          var neighbors = getNeighbors(_players, _coords, idx, 8);
+          renderDetail(_players[idx], neighbors, _players);
+        }
+      }
+    });
+    mount.addEventListener('wheel', function(e) {
+      e.preventDefault();
+      _targetR = Math.max(10, Math.min(120, _targetR + e.deltaY * 0.04));
+    }, {passive: false});
+    // Touch support
+    var _lastTouch = null, _lastPinchDist = null;
+    mount.addEventListener('touchstart', function(e) {
+      if (e.touches.length === 1) _lastTouch = {x: e.touches[0].clientX, y: e.touches[0].clientY};
+      else if (e.touches.length === 2) {
+        var dx = e.touches[0].clientX - e.touches[1].clientX;
+        var dy = e.touches[0].clientY - e.touches[1].clientY;
+        _lastPinchDist = Math.sqrt(dx*dx+dy*dy);
+      }
+    }, {passive: true});
+    mount.addEventListener('touchmove', function(e) {
+      e.preventDefault();
+      if (e.touches.length === 1 && _lastTouch) {
+        var dx = e.touches[0].clientX - _lastTouch.x;
+        var dy = e.touches[0].clientY - _lastTouch.y;
+        _targetTheta -= dx * 0.006;
+        _targetPhi = Math.max(0.15, Math.min(Math.PI-0.15, _targetPhi + dy * 0.006));
+        _lastTouch = {x: e.touches[0].clientX, y: e.touches[0].clientY};
+      } else if (e.touches.length === 2 && _lastPinchDist) {
+        var dx2 = e.touches[0].clientX - e.touches[1].clientX;
+        var dy2 = e.touches[0].clientY - e.touches[1].clientY;
+        var dist = Math.sqrt(dx2*dx2+dy2*dy2);
+        _targetR = Math.max(10, Math.min(120, _targetR * (_lastPinchDist/dist)));
+        _lastPinchDist = dist;
+      }
+    }, {passive: false});
+  }
+
+// ---- ANIMATE ----
+  function animate() {
+    _animId = requestAnimationFrame(animate);
+    var THREE = window.THREE;
+    var t = _clock.getElapsedTime();
+
+    // Smooth camera interpolation
+    var alpha = 0.06;
+    _camTheta += (_targetTheta - _camTheta) * alpha;
+    _camPhi += (_targetPhi - _camPhi) * alpha;
+    _camR += (_targetR - _camR) * alpha;
+    updateCamera();
+
+    // Pulsing for hovered/selected
+    _spheres.forEach(function(s, i) {
+      if (!s.visible) return;
+      var p = _players[i];
+      var baseEmissive = 0.35;
+      var baseScale = 1.0;
+      if (i === _selectedIdx) {
+        var pulse = 1.0 + 0.15 * Math.sin(t * 3);
+        s.scale.setScalar(pulse * 1.4);
+        s.material.emissiveIntensity = 0.8 + 0.2 * Math.sin(t * 3);
+      } else if (i === _hoveredIdx) {
+        s.scale.setScalar(1.25);
+        s.material.emissiveIntensity = 0.65;
+      } else {
+        s.scale.setScalar(1.0);
+        s.material.emissiveIntensity = baseEmissive;
+      }
+    });
+
+    // Draw labels
+    if (_labelCanvas && _labelCtx && _camera && _scene) {
+      _labelCtx.clearRect(0, 0, _labelCanvas.width, _labelCanvas.height);
+      if (_showLabels) {
+        _spheres.forEach(function(s, i) {
+          if (!s.visible) return;
+          var p = _players[i];
+          var fv = p.fgFV || 35;
+          // Only show labels for high-value or selected/hovered players
+          var show = i === _selectedIdx || i === _hoveredIdx || fv >= 55 || (p.grade === 'A+' || p.grade === 'A');
+          if (!show) return;
+          // Project to screen
+          var pos3 = s.position.clone();
+          pos3.project(_camera);
+          var x = (pos3.x + 1) / 2 * _labelCanvas.width;
+          var y = (-pos3.y + 1) / 2 * _labelCanvas.height;
+          if (pos3.z > 1) return; // behind camera
+          var col = POS_COLORS[p.pos] || '#94a3b8';
+          var fontSize = i === _selectedIdx ? 12 : 10;
+          _labelCtx.font = 'bold ' + fontSize + 'px system-ui,sans-serif';
+          var label = p.name + (p.fgDynRank ? ' #' + p.fgDynRank : '');
+          var tw = _labelCtx.measureText(label).width;
+          // Background pill
+          _labelCtx.fillStyle = 'rgba(2,4,8,0.78)';
+          _labelCtx.beginPath();
+          _labelCtx.roundRect(x - tw/2 - 4, y - fontSize - 14, tw + 8, fontSize + 6, 4);
+          _labelCtx.fill();
+          // Text
+          _labelCtx.fillStyle = i === _selectedIdx ? '#ffffff' : col;
+          _labelCtx.textAlign = 'center';
+          _labelCtx.textBaseline = 'bottom';
+          _labelCtx.fillText(label, x, y - 8);
+        });
+      }
+      // Always draw tooltip for hovered
+      if (_hoveredIdx >= 0 && _hoveredIdx !== _selectedIdx) {
+        var s = _spheres[_hoveredIdx];
+        var p = _players[_hoveredIdx];
+        var pos3 = s.position.clone().project(_camera);
+        var tx = (pos3.x + 1) / 2 * _labelCanvas.width;
+        var ty = (-pos3.y + 1) / 2 * _labelCanvas.height - 15;
+        var col = POS_COLORS[p.pos] || '#94a3b8';
+        var ttxt = p.name + ' · ' + p.grade + ' · ' + p.org;
+        _labelCtx.font = 'bold 11px system-ui,sans-serif';
+        var ttw = _labelCtx.measureText(ttxt).width;
+        _labelCtx.fillStyle = 'rgba(2,4,8,0.9)';
+        _labelCtx.beginPath();
+        _labelCtx.roundRect(tx - ttw/2 - 6, ty - 16, ttw + 12, 20, 4);
+        _labelCtx.fill();
+        _labelCtx.strokeStyle = col;
+        _labelCtx.lineWidth = 1;
+        _labelCtx.stroke();
+        _labelCtx.fillStyle = '#ffffff';
+        _labelCtx.textAlign = 'center';
+        _labelCtx.textBaseline = 'bottom';
+        _labelCtx.fillText(ttxt, tx, ty + 1);
+      }
+    }
+
+    _renderer.render(_scene, _camera);
+  }
+
+  // ---- INIT GALAXY (called when tab is shown) ----
+  function initGalaxy() {
+    if (!window.THREE) { setTimeout(initGalaxy, 200); return; }
+    initThreeGalaxy();
+  }
+
+  // ---- EXPOSE SEARCH ----
+  window.galaxySearch = function(q) {
+    var el = document.getElementById('gx-search');
+    if (el) { el.value = q; _searchQuery = q.toLowerCase(); refreshVisibility(); }
+  };
+
+  // ---- WRAP showTab FOR LAZY INIT ----
+  var _gxInited = false;
+  var _origShowTab = window.showTab;
   window.showTab = function(tab) {
-    origShowTab(tab);
-    if (tab === 'galaxy' && !THREE_LOADED) {
-      THREE_LOADED = true;
-      setTimeout(initGalaxy, 100);
+    _origShowTab(tab);
+    if (tab === 'galaxy' && !_gxInited) {
+      _gxInited = true;
+      setTimeout(initGalaxy, 80);
     }
   };
+
+  // Handle resize
+  window.addEventListener('resize', function() {
+    if (!_renderer || !_camera) return;
+    var mount = document.getElementById('galaxy-mount');
+    if (!mount) return;
+    var W = mount.clientWidth, H = mount.clientHeight;
+    if (W < 1 || H < 1) return;
+    _renderer.setSize(W, H);
+    _camera.aspect = W/H;
+    _camera.updateProjectionMatrix();
+    if (_labelCanvas) { _labelCanvas.width = W; _labelCanvas.height = H; }
+  });
+
 })();
 </script></body></html>
