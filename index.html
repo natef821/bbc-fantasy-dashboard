@@ -701,28 +701,36 @@ Felix Bautista (RP)
   <h2>📰 League News &amp; Commissioner Corner</h2>
   <div id="news-feed" style="display:grid;gap:0.75rem;"></div>
 </div>
-<div id="tab-galaxy" class="tab-content">
-  <h2 style="font-family:inherit;font-size:1.6rem;font-weight:800;margin-bottom:4px">🔭 Prospect Similarity Galaxy</h2>
-  <p style="color:var(--muted);font-size:.85rem;margin-bottom:12px">3D dynasty similarity map — <strong style="color:var(--text)">all rostered prospects</strong> + extended list. Clusters form by PCA on grade, ETA, FV, position &amp; org. <span style="color:var(--accent)">Drag</span> to orbit · <span style="color:var(--accent)">Scroll</span> to zoom · <span style="color:var(--accent)">Click</span> a star to inspect.</p>
-  <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px">
-    <input id="gx-search" placeholder="Search prospect, team, org..." style="flex:1;min-width:180px;max-width:340px;padding:6px 12px;background:var(--card);border:1px solid var(--border);border-radius:6px;color:var(--text);font-size:.8rem"/>
-    <div id="gx-pos-filters" style="display:flex;gap:4px;flex-wrap:wrap"></div>
-    <div style="display:flex;gap:4px;flex-wrap:wrap" id="gx-grade-filters"></div>
-    <label style="display:flex;align-items:center;gap:5px;font-size:.75rem;color:var(--muted);cursor:pointer"><input type="checkbox" id="gx-labels" checked style="cursor:pointer"/> Labels</label>
-    <span id="gx-count" style="font-size:.75rem;color:var(--muted);margin-left:4px"></span>
-  </div>
-  <div id="galaxy-layout" style="display:grid;grid-template-columns:1fr 280px;gap:12px;height:620px">
-    <div id="galaxy-mount" style="position:relative;width:100%;height:100%;border-radius:10px;overflow:hidden;background:#020408">
-      <div id="galaxy-loading" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;z-index:10">
-        <div style="width:40px;height:40px;border:3px solid #1e293b;border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite"></div>
-        <div style="color:var(--muted);font-size:.85rem" id="gx-load-msg">Building prospect galaxy...</div>
+<div id="tab-galaxy" class="tab-content" style="display:none;">
+  <div style="background:#0f172a;min-height:calc(100vh - 60px);padding:16px;font-family:'Inter',sans-serif;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+      <div>
+        <h2 style="color:#e2e8f0;margin:0;font-size:18px;font-weight:700;">🌌 Prospect Galaxy</h2>
+        <div id="gal-count" style="color:#64748b;font-size:12px;margin-top:2px;">Loading...</div>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+        <label style="color:#94a3b8;font-size:12px;display:flex;align-items:center;gap:4px;">
+          <input type="checkbox" id="gal-labels-toggle" onchange="galaxyToggleLabels(this.checked)">Labels
+        </label>
+        <label style="color:#60a5fa;font-size:12px;font-weight:600;display:flex;align-items:center;gap:4px;">
+          <input type="checkbox" id="gal-rookie-toggle" onchange="galaxyToggleRookie(this.checked)">Rookies Only
+        </label>
+        <input type="text" placeholder="Search player, team, org..." oninput="galaxySearch(this.value)" style="background:#1e293b;border:1px solid #334155;color:#e2e8f0;padding:5px 10px;border-radius:6px;font-size:12px;width:200px;">
       </div>
     </div>
-    <div id="galaxy-detail" style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;overflow-y:auto;font-size:.82rem">
-      <div id="gx-detail-content" style="color:var(--muted);text-align:center;padding-top:60px">✨<br><br>Click any star<br>to inspect prospect</div>
+    <div id="gal-posfilters" style="margin-bottom:8px;"></div>
+    <div id="gal-gradefilters" style="margin-bottom:10px;"></div>
+    <div style="display:flex;gap:12px;height:580px;">
+      <div style="flex:1;position:relative;border-radius:10px;overflow:hidden;background:#030712;border:1px solid #1e293b;">
+        <div id="gal-canvas" style="width:100%;height:100%;"></div>
+        <div id="gal-tooltip" style="position:absolute;background:rgba(15,23,42,0.95);color:#e2e8f0;font-size:12px;padding:5px 10px;border-radius:6px;pointer-events:none;display:none;border:1px solid #334155;z-index:10;"></div>
+      </div>
+      <div id="gal-detail" style="width:260px;background:#0f172a;border:1px solid #1e293b;border-radius:10px;padding:14px;overflow-y:auto;flex-shrink:0;font-family:'Inter',sans-serif;">
+        <p style="color:#64748b;font-style:italic;font-size:13px;margin-top:40px;text-align:center;">Click a star to see details</p>
+      </div>
     </div>
+    <div id="gal-legend" style="margin-top:10px;"></div>
   </div>
-  <div id="galaxy-legend" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:10px;font-size:.75rem;color:var(--muted)"></div>
 </div>
 </div>
 <script>
@@ -2897,7 +2905,8 @@ setInterval(function(){
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
-// ============ GALAXY MATRIX v2 ============
+
+// ============ GALAXY MATRIX v3 ============
 (function() {
   'use strict';
 
@@ -2905,740 +2914,714 @@ setInterval(function(){
   var POS_COLORS = {
     'OF': '#4ade80', 'SP': '#f87171', 'C': '#fbbf24',
     'SS': '#fb923c', '2B': '#22d3ee', '3B': '#a78bfa',
-    '1B': '#818cf8', 'RP': '#e879f9', '?': '#94a3b8'
+    '1B': '#818cf8', 'RP': '#e879f9', '?': '#94a3b8',
+    'VET': '#60a5fa'
   };
 
-  // ---- GRADE VALUES ----
-  var GRADE_VAL = {'A+':100,'A':90,'A-':82,'B+':73,'B':63,'B-':54,'C+':45,'C':36};
-
-  // ---- ETA TO YEARS ----
-  function etaYears(e) {
-    var y = parseInt(e) || 2028;
-    return Math.max(0, y - 2026);
-  }
-
-  // ---- EXTRACT POS FROM NAME ----
-  function extractPos(name) {
-    var m = (name||'').match(/\(([^,)]+),/);
-    return m ? m[1].trim() : '?';
-  }
-
-  // ---- EXTRACT ORG FROM NAME ----
-  function extractOrg(name) {
-    var m = (name||'').match(/,\s*([A-Z]{2,3})\)/);
-    return m ? m[1].trim() : '?';
-  }
-
-  // ---- CLEAN NAME (no position suffix) ----
-  function cleanName(name) {
-    return (name||'').replace(/\s*\([^)]+\)\s*$/, '').trim();
-  }
-
-  // ---- ORG TO GROUP (for PCA feature) ----
-  var ORG_GROUPS = {
-    LAD:0,SF:0,SD:0,COL:0,ARI:0,
-    ATL:1,NYM:1,PHI:1,MIA:1,WSH:1,
-    CHC:2,STL:2,MIL:2,CIN:2,PIT:2,
-    NYY:3,BOS:3,TB:3,TOR:3,BAL:3,
-    HOU:4,TEX:4,OAK:4,SEA:4,LAA:4,
-    MIN:5,DET:5,CWS:5,CLE:5,KC:5
+  var TEAM_COLORS = {
+    'Team Acuna': '#ef4444', 'Team Soto': '#3b82f6', 'Team Tucker': '#f59e0b',
+    'Team Skubal': '#10b981', 'Team Rodriguez': '#8b5cf6', 'Team Henderson': '#ec4899',
+    'Team Lindor': '#06b6d4', 'Team Freeman': '#84cc16', 'Team Alvarez': '#f97316',
+    'Team McLain': '#a855f7', 'Team Chourio': '#14b8a6', 'Team Schwellenbach': '#fb7185'
   };
 
-  // ---- EXTRA PROSPECTS (hardcoded additional players) ----
-  var EXTRA = [
-    {name:'Dylan Crews (OF, WSH)',team:'Say Yes to Velo',eta:'2026',grade:'A-',fgDynRank:8,fgFV:55,note:'Premium OF with elite exit velocity.'},
-    {name:'Wyatt Langford (OF, TEX)',team:'Say Yes to Velo',eta:'2026',grade:'A',fgDynRank:4,fgFV:60,note:'All-around dynamo, top-5 dynasty prospect.'},
-    {name:'Jurrangelo Cijntje (SP, CWS)',team:'Say Yes to Velo',eta:'2027',grade:'A-',fgDynRank:44,fgFV:50,note:'Two-way athlete, elite K-rate arm.'},
-    {name:'Dalton Rushing (C, LAD)',team:'Say Yes to Velo',eta:'2027',grade:'A-',fgDynRank:18,fgFV:50,note:'Premium bat behind the dish.'},
-    {name:'Yohandy Morales (3B, MIA)',team:'Say Yes to Velo',eta:'2027',grade:'B',fgDynRank:null,fgFV:40,note:'Raw power from third base.'},
-    {name:'Kumar Rocker (SP, TEX)',team:'Say Yes to Velo',eta:'2026',grade:'B+',fgDynRank:null,fgFV:40,note:'Big frame, power arm from Texas.'},
-    {name:'Samuel Basallo (C, BAL)',team:'Tank for LeBron',eta:'2027',grade:'A',fgDynRank:11,fgFV:55,note:'Elite catching prospect with plus bat.'},
-    {name:'Andrew Painter (SP, PHI)',team:'Tank for LeBron',eta:'2027',grade:'A',fgDynRank:10,fgFV:60,note:'Elite arm, TJ recovery. Top-10 dynasty SP.'},
-    {name:'Coby Mayo (3B, BAL)',team:'Tank for LeBron',eta:'2026',grade:'A-',fgDynRank:25,fgFV:50,note:'Elite power from the hot corner.'},
-    {name:'Bryce Eldridge (1B, SF)',team:'Tank for LeBron',eta:'2027',grade:'A-',fgDynRank:23,fgFV:50,note:'Elite power prospect at first base.'},
-    {name:'Bubba Chandler (SP, PIT)',team:'Tank for LeBron',eta:'2027',grade:'A-',fgDynRank:33,fgFV:50,note:'Two-sport athlete with electric stuff.'},
-    {name:'Edwin Arroyo (SS, CIN)',team:'Tank for LeBron',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'Premium glove with developing bat.'},
-    {name:'Walker Jenkins (OF, MIN)',team:'Golden Gate Gays',eta:'2028',grade:'A',fgDynRank:2,fgFV:65,note:'#2 overall prospect, elite hit tool.'},
-    {name:'Travis Bazzana (2B, CLE)',team:'Golden Gate Gays',eta:'2026',grade:'A-',fgDynRank:12,fgFV:55,note:'Australian import with elite OBP.'},
-    {name:'Jordan Lawlar (SS, ARI)',team:'Golden Gate Gays',eta:'2027',grade:'A-',fgDynRank:20,fgFV:50,note:'Plus defender with upside bat.'},
-    {name:'Ethan Salas (C, SD)',team:'Golden Gate Gays',eta:'2027',grade:'A',fgDynRank:13,fgFV:55,note:'Top catching prospect globally.'},
-    {name:'Zyhir Hope (OF, CLE)',team:'Golden Gate Gays',eta:'2028',grade:'B+',fgDynRank:35,fgFV:45,note:'Athletic OF with big raw tools.'},
-    {name:'Hurston Waldrep (SP, ATL)',team:'Golden Gate Gays',eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'High-floor arm with good command.'},
-    {name:'Charlee Soto (SP, NYM)',team:'Golden Gate Gays',eta:'2028',grade:'B+',fgDynRank:null,fgFV:45,note:'Premium arm in Mets system.'},
-    {name:'Ricky Tiedemann (SP, TOR)',team:'TBONERS',eta:'2026',grade:'A',fgDynRank:9,fgFV:60,note:'Elite lefty — health is the only concern.'},
-    {name:'Kyle Teel (C, BOS)',team:'TBONERS',eta:'2027',grade:'A-',fgDynRank:14,fgFV:50,note:'Polished hitter behind the dish.'},
-    {name:'Carson Williams (SS, TB)',team:'TBONERS',eta:'2027',grade:'A-',fgDynRank:24,fgFV:50,note:'Premium SS with power potential.'},
-    {name:'Nolan McLean (SS, OAK)',team:'TBONERS',eta:'2027',grade:'B+',fgDynRank:46,fgFV:45,note:'Power bat from Oakland system.'},
-    {name:'Tommy Sommer (SP, CWS)',team:'TBONERS',eta:'2027',grade:'B',fgDynRank:null,fgFV:40,note:'Tall lefty with developing stuff.'},
-    {name:'Harry Ford (C, SEA)',team:'Creative Name',eta:'2027',grade:'B+',fgDynRank:30,fgFV:45,note:'Athletic catcher with solid tools.'},
-    {name:'Chase DeLauter (OF, CLE)',team:'Creative Name',eta:'2027',grade:'B+',fgDynRank:40,fgFV:45,note:'Physical OF with plus power.'},
-    {name:'Cole Young (SS, SEA)',team:'Creative Name',eta:'2027',grade:'B+',fgDynRank:42,fgFV:45,note:'Hit-first SS from Seattle.'},
-    {name:'Hagen Smith (SP, OAK)',team:'Creative Name',eta:'2027',grade:'A-',fgDynRank:26,fgFV:50,note:'Best arm in Oakland system.'},
-    {name:'Justin Wrobleski (SP, LAD)',team:'Creative Name',eta:'2026',grade:'B',fgDynRank:null,fgFV:40,note:'Big-league ready lefty from LAD.'},
-    {name:'Joey Estes (SP, OAK)',team:'Creative Name',eta:'2026',grade:'B',fgDynRank:null,fgFV:35,note:'Solid arm getting big-league looks.'},
-    {name:'Emmanuel Rodriguez (OF, MIN)',team:'Layin Wood',eta:'2027',grade:'A-',fgDynRank:22,fgFV:50,note:'Switch-hitting CF with massive upside.'},
-    {name:'Christian Moore (2B, LAA)',team:'Layin Wood',eta:'2026',grade:'A-',fgDynRank:19,fgFV:55,note:'Elite OBP and bat speed combo.'},
-    {name:'Brooks Lee (SS, MIN)',team:'Layin Wood',eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Hit-first SS with solid defense.'},
-    {name:'Colt Keith (1B, DET)',team:'Layin Wood',eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Advanced bat with gap power.'},
-    {name:'Quinn Mathews (SP, STL)',team:'Layin Wood',eta:'2027',grade:'B+',fgDynRank:45,fgFV:45,note:'Advanced command profile.'},
-    {name:'Jace Jung (2B, DET)',team:'Layin Wood',eta:'2026',grade:'B+',fgDynRank:null,fgFV:40,note:'Hit-first 2B from big-league family.'},
-    {name:'Marcelo Mayer (SS, BOS)',team:'Honey Nut Berrios',eta:'2026',grade:'A',fgDynRank:15,fgFV:55,note:'Elite defender and hitter from Boston.'},
-    {name:'Cam Smith (3B, HOU)',team:'Honey Nut Berrios',eta:'2027',grade:'A-',fgDynRank:27,fgFV:50,note:'Elite hit tool from Houston system.'},
-    {name:'Tommy Troy (SS, ARI)',team:'Honey Nut Berrios',eta:'2027',grade:'B+',fgDynRank:48,fgFV:40,note:'Switch-hitter with versatility.'},
-    {name:'George Lombard Jr. (OF, MIA)',team:'Honey Nut Berrios',eta:'2028',grade:'B+',fgDynRank:43,fgFV:45,note:'Athletic OF with raw tools.'},
-    {name:'Trey Sweeney (SS, NYY)',team:'Honey Nut Berrios',eta:'2026',grade:'B',fgDynRank:null,fgFV:35,note:'Patient hitter, approaching MLB.'},
-    {name:'Jackson Chourio (OF, MIL)',team:"Honey Nut Chourio's",eta:'2026',grade:'A',fgDynRank:3,fgFV:60,note:'Already debuted, elite dynasty value.'},
-    {name:'Pete Crow-Armstrong (OF, CHC)',team:"Honey Nut Chourio's",eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Elite defender with developing bat.'},
-    {name:'Tommy White (3B, CLE)',team:"Honey Nut Chourio's",eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Power bat with improving approach.'},
-    {name:'Ivan Melendez (1B, TEX)',team:"Honey Nut Chourio's",eta:'2027',grade:'B',fgDynRank:null,fgFV:35,note:'Masher from the SEC.'},
-    {name:'Matt Mervis (1B, CHC)',team:"Honey Nut Chourio's",eta:'2026',grade:'B-',fgDynRank:null,fgFV:35,note:'Power-first 1B prospect.'},
-    {name:'Lazaro Montes (OF, SEA)',team:"Evil Honey Nut Chourio's",eta:'2027',grade:'A-',fgDynRank:49,fgFV:50,note:'Premium OF with plate discipline.'},
-    {name:'Junior Caminero (3B, TB)',team:"Evil Honey Nut Chourio's",eta:'2026',grade:'A',fgDynRank:7,fgFV:60,note:'Elite bat with elite power — tier 1.'},
-    {name:'Jackson Jobe (SP, DET)',team:"Evil Honey Nut Chourio's",eta:'2026',grade:'A-',fgDynRank:6,fgFV:55,note:'Three-pitch mix, high strikeout upside.'},
-    {name:'Max Clark (OF, DET)',team:"Evil Honey Nut Chourio's",eta:'2028',grade:'A-',fgDynRank:16,fgFV:55,note:'Premium 2024 draft pick, CF upside.'},
-    {name:'Colton Cowser (OF, BAL)',team:"Evil Honey Nut Chourio's",eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Corner OF with developing power.'},
-    {name:'Ronny Mauricio (SS, NYM)',team:"Evil Honey Nut Chourio's",eta:'2026',grade:'B',fgDynRank:null,fgFV:35,note:'Toolsy bat, converting position.'},
-    {name:'Oscar Colas (OF, CWS)',team:"Evil Honey Nut Chourio's",eta:'2026',grade:'B',fgDynRank:null,fgFV:35,note:'Cuban import with raw tools.'},
-    {name:'Roki Sasaki (SP, LAD)',team:'Wyatt and the Lankers',eta:'2026',grade:'A',fgDynRank:5,fgFV:60,note:'Filthy splitter, elite strikeout stuff.'},
-    {name:'Spencer Jones (OF, NYY)',team:'Wyatt and the Lankers',eta:'2027',grade:'A-',fgDynRank:34,fgFV:50,note:'Massive frame, plus raw power.'},
-    {name:'Nolan Schanuel (1B, LAA)',team:'Wyatt and the Lankers',eta:'2026',grade:'B+',fgDynRank:null,fgFV:40,note:'Elite OBP machine, MLB ready.'},
-    {name:'Henry Davis (C, PIT)',team:'Wyatt and the Lankers',eta:'2026',grade:'B+',fgDynRank:null,fgFV:40,note:'Former #1 pick, adjusting at MLB.'},
-    {name:'Caleb Durbin (2B, NYY)',team:'Wyatt and the Lankers',eta:'2026',grade:'B',fgDynRank:null,fgFV:40,note:'Versatile utility infielder.'},
-    {name:'Joey Wiemer (OF, MIL)',team:'First Pitch Swinging',eta:'2026',grade:'B',fgDynRank:null,fgFV:40,note:'Power/speed OF prospect.'},
-    {name:'Victor Scott II (OF, STL)',team:'First Pitch Swinging',eta:'2026',grade:'B+',fgDynRank:null,fgFV:45,note:'Elite speed, developing hit tool.'},
-    {name:'Sterlin Thompson (OF, COL)',team:'First Pitch Swinging',eta:'2027',grade:'B',fgDynRank:null,fgFV:40,note:'Athletic OF in thin system.'},
-    {name:'Alexfri Planez (OF, ATL)',team:'First Pitch Swinging',eta:'2027',grade:'B',fgDynRank:null,fgFV:40,note:'Athletic OF in Atlanta system.'},
-    {name:'Rhett Lowder (SP, CIN)',team:'First Pitch Swinging',eta:'2026',grade:'B+',fgDynRank:47,fgFV:45,note:'Advanced command, ready arm.'},
-    {name:'Ezequiel Tovar (SS, COL)',team:'First Pitch Swinging',eta:'2026',grade:'B',fgDynRank:null,fgFV:40,note:'Already debuted, defensive SS.'},
-    {name:'Moises Ballesteros (C, CHC)',team:'Jac-in It',eta:'2027',grade:'B+',fgDynRank:36,fgFV:45,note:'Advanced bat for his age behind plate.'},
-    {name:'Kevin Alcantara (OF, CHC)',team:'Jac-in It',eta:'2027',grade:'B+',fgDynRank:null,fgFV:45,note:'Long, athletic OF with projection.'},
-    {name:'Noble Meyer (SP, MIL)',team:'Jac-in It',eta:'2027',grade:'A-',fgDynRank:28,fgFV:50,note:'Premium arm in Milwaukee system.'},
-    {name:'Logan Henderson (SP, PIT)',team:'Jac-in It',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'Developing arm with strikeout upside.'},
-    {name:'Orelvis Martinez (SS, TOR)',team:'Jac-in It',eta:'2027',grade:'B+',fgDynRank:null,fgFV:40,note:'Raw power from the right side.'},
-    {name:'Agustin Ramirez (C, NYY)',team:'Jac-in It',eta:'2027',grade:'B+',fgDynRank:null,fgFV:45,note:'Power bat behind the plate.'}
+  // ---- FARM_RANKS DATA ----
+  var FARM_DATA = [
+    {team:'Team Acuna',grade:'A+',farmRank:1,topProspects:[
+      {name:'Jackson Holliday (SS, BAL)',grade:'A+',eta:'2026',fgFV:60,note:'Elite SS prospect, generational bat'},
+      {name:'Roman Anthony (OF, BOS)',grade:'A',eta:'2026',fgFV:55,note:'Premium hit tool, advanced approach'},
+      {name:'Kyle Teel (C, BOS)',grade:'A-',eta:'2026',fgFV:50,note:'Plus defender, strong arm'},
+      {name:'Braden Montgomery (OF, BOS)',grade:'B+',eta:'2027',fgFV:45,note:'Power-speed combo'},
+      {name:'Nick Yorke (2B, BOS)',grade:'B+',eta:'2026',fgFV:45,note:'Hit-first 2B'}
+    ]},
+    {team:'Team Soto',grade:'A',farmRank:2,topProspects:[
+      {name:'Wyatt Langford (OF, TEX)',grade:'A-',eta:'2026',fgFV:55,note:'Polished bat, ready now'},
+      {name:'Evan Carter (OF, TEX)',grade:'B+',eta:'2026',fgFV:45,note:'Sneaky athleticism'},
+      {name:'Kumar Rocker (SP, TEX)',grade:'B+',eta:'2026',fgFV:45,note:'Power fastball/slider'},
+      {name:'Cody Bradford (SP, TEX)',grade:'B',eta:'2026',fgFV:40,note:'Control specialist'},
+      {name:'Ian Moller (C, TEX)',grade:'B',eta:'2027',fgFV:40,note:'Defense-first catcher'}
+    ]},
+    {team:'Team Tucker',grade:'A-',farmRank:3,topProspects:[
+      {name:'Junior Caminero (3B, TB)',grade:'A',eta:'2026',fgFV:55,note:'Lightning quick bat'},
+      {name:'Carson Williams (SS, TB)',grade:'A-',eta:'2026',fgFV:50,note:'Plus defense, emerging bat'},
+      {name:'Xavier Isaac (1B, TB)',grade:'B+',eta:'2027',fgFV:45,note:'Left-handed power'},
+      {name:'Chandler Simpson (OF, TB)',grade:'B',eta:'2026',fgFV:40,note:'Speed demon, contact focus'},
+      {name:'Taj Bradley (SP, TB)',grade:'B+',eta:'2026',fgFV:45,note:'Strikeout stuff'}
+    ]},
+    {team:'Team Skubal',grade:'A-',farmRank:4,topProspects:[
+      {name:'Colson Montgomery (SS, CWS)',grade:'A-',eta:'2026',fgFV:50,note:'Plus eye, solid approach'},
+      {name:'Edgar Quero (C, CWS)',grade:'A-',eta:'2026',fgFV:50,note:'Hit tool plus catcher framing'},
+      {name:'Jonathan Cannon (SP, CWS)',grade:'B+',eta:'2026',fgFV:45,note:'Plus command'},
+      {name:'Drew Thorpe (SP, CWS)',grade:'B+',eta:'2026',fgFV:45,note:'Feel-to-pitch SP'},
+      {name:'Theo Manthey (SP, CWS)',grade:'B',eta:'2027',fgFV:40,note:'Breaking ball specialist'}
+    ]},
+    {team:'Team Rodriguez',grade:'B+',farmRank:5,topProspects:[
+      {name:'Paul Skenes (SP, PIT)',grade:'A+',eta:'2026',fgFV:60,note:'Generational arm, elite upside'},
+      {name:'Liover Peguero (SS, PIT)',grade:'B+',eta:'2026',fgFV:45,note:'Athletic SS with pop'},
+      {name:'Jared Jones (SP, PIT)',grade:'B+',eta:'2026',fgFV:45,note:'Plus velocity/movement'},
+      {name:'Mike Burrows (SP, PIT)',grade:'B',eta:'2026',fgFV:40,note:'Clean delivery'},
+      {name:'Endy Rodriguez (C, PIT)',grade:'B',eta:'2026',fgFV:40,note:'Switch-hitter catcher'}
+    ]},
+    {team:'Team Henderson',grade:'B+',farmRank:6,topProspects:[
+      {name:'Jackson Chourio (OF, MIL)',grade:'A-',eta:'2026',fgFV:55,note:'Impact bat, 5-tool ceiling'},
+      {name:'Sal Frelick (OF, MIL)',grade:'B+',eta:'2026',fgFV:45,note:'Hit tool, contact focus'},
+      {name:'Tyler Black (2B, MIL)',grade:'B+',eta:'2026',fgFV:45,note:'Advanced plate skills'},
+      {name:'Joey Wiemer (OF, MIL)',grade:'B',eta:'2026',fgFV:40,note:'Power/speed mix'},
+      {name:'Jacob Misiorowski (SP, MIL)',grade:'B',eta:'2027',fgFV:40,note:'Power arm development'}
+    ]},
+    {team:'Team Lindor',grade:'B+',farmRank:7,topProspects:[
+      {name:'Marco Luciano (SS, SF)',grade:'B+',eta:'2026',fgFV:45,note:'Premium bat speed'},
+      {name:'Kyle Harrison (SP, SF)',grade:'B+',eta:'2026',fgFV:45,note:'Lefty strikeout machine'},
+      {name:'Hayden Birdsong (SP, SF)',grade:'B',eta:'2026',fgFV:40,note:'High-spin fastball'},
+      {name:'Luis Matos (OF, SF)',grade:'B',eta:'2026',fgFV:40,note:'Gap power, speed'},
+      {name:'Patrick Bailey (C, SF)',grade:'B+',eta:'2026',fgFV:45,note:'Premium defender behind plate'}
+    ]},
+    {team:'Team Freeman',grade:'B',farmRank:8,topProspects:[
+      {name:'Brennen Davis (OF, CHC)',grade:'B+',eta:'2026',fgFV:45,note:'Plus raw power'},
+      {name:'Pete Crow-Armstrong (OF, CHC)',grade:'B+',eta:'2026',fgFV:45,note:'Elite defender, speed'},
+      {name:'Kevin Alcantara (OF, CHC)',grade:'B',eta:'2026',fgFV:40,note:'Frame plus raw tools'},
+      {name:'Matt Mervis (1B, CHC)',grade:'B-',eta:'2026',fgFV:35,note:'Power bat, corner profile'},
+      {name:'Jordan Wicks (SP, CHC)',grade:'B',eta:'2026',fgFV:40,note:'Deception and command'}
+    ]},
+    {team:'Team Alvarez',grade:'B',farmRank:9,topProspects:[
+      {name:'Colt Keith (2B, DET)',grade:'B+',eta:'2026',fgFV:45,note:'Hit tool, solid bat path'},
+      {name:'Jackson Jobe (SP, DET)',grade:'A-',eta:'2026',fgFV:50,note:'Plus slider, high ceiling'},
+      {name:'Reese Olson (SP, DET)',grade:'B',eta:'2026',fgFV:40,note:'Plus command profile'},
+      {name:'Parker Meadows (OF, DET)',grade:'B',eta:'2026',fgFV:40,note:'Athleticism, speed/power'},
+      {name:'Kerry Carpenter (OF, DET)',grade:'B-',eta:'2026',fgFV:35,note:'Power bat, corner OF'}
+    ]},
+    {team:'Team McLain',grade:'B',farmRank:10,topProspects:[
+      {name:'Jordan Walker (OF, STL)',grade:'B+',eta:'2026',fgFV:45,note:'Power upside, raw tools'},
+      {name:'Matthew Liberatore (SP, STL)',grade:'B',eta:'2026',fgFV:40,note:'Command lefty'},
+      {name:'Gordon Graceffo (SP, STL)',grade:'B',eta:'2026',fgFV:40,note:'Breaking ball combo'},
+      {name:'Masyn Winn (SS, STL)',grade:'B+',eta:'2026',fgFV:45,note:'Speed, plus defense'},
+      {name:'Andre Pallante (SP, STL)',grade:'B-',eta:'2026',fgFV:35,note:'Sinker/ground ball focus'}
+    ]},
+    {team:'Team Chourio',grade:'B-',farmRank:11,topProspects:[
+      {name:'Druw Jones (OF, ARI)',grade:'A-',eta:'2026',fgFV:50,note:'Plus defense, elite tools'},
+      {name:'Corbin Carroll (OF, ARI)',grade:'A-',eta:'2026',fgFV:55,note:'Speed/power combo'},
+      {name:'Jordan Lawlar (SS, ARI)',grade:'A-',eta:'2026',fgFV:50,note:'Plus hit/run tools'},
+      {name:'Deyvison De Los Santos (3B, ARI)',grade:'B+',eta:'2027',fgFV:45,note:'Raw power, big upside'},
+      {name:'Tommy Henry (SP, ARI)',grade:'B-',eta:'2026',fgFV:35,note:'Command lefty'}
+    ]},
+    {team:'Team Schwellenbach',grade:'B-',farmRank:12,topProspects:[
+      {name:'Spencer Jones (OF, NYY)',grade:'A-',eta:'2026',fgFV:50,note:'Elite tools, raw power'},
+      {name:'Jasson Dominguez (OF, NYY)',grade:'A-',eta:'2026',fgFV:50,note:'5-tool, speed demon'},
+      {name:'George Lombard Jr. (OF, NYY)',grade:'B+',eta:'2027',fgFV:45,note:'Contact-speed profile'},
+      {name:'Will Warren (SP, NYY)',grade:'B',eta:'2026',fgFV:40,note:'Curveball/sinker mix'},
+      {name:'Clayton Beeter (SP, NYY)',grade:'B-',eta:'2026',fgFV:35,note:'Plus velocity'}
+    ]}
   ];
 
-// ---- BUILD ALL PLAYERS ----
-  var ALL_PLAYERS = null;
+  // ---- EXTRA PROSPECTS ----
+  var EXTRA = [
+    {name:'Hurston Waldrep (SP, ATL)',team:'Team Acuna',grade:'B+',eta:'2026',fgFV:45,farmRank:1,note:'Power fastball, slider combo'},
+    {name:'Owen Murphy (SP, ATL)',team:'Team Acuna',grade:'B',eta:'2027',fgFV:40,farmRank:1,note:'High floor SP'},
+    {name:'Ignacio Alvarez (SS, ATL)',team:'Team Acuna',grade:'B',eta:'2027',fgFV:40,farmRank:1,note:'Slap hitter, speed'},
+    {name:'Yoniel Curet (SP, ATL)',team:'Team Acuna',grade:'B-',eta:'2027',fgFV:35,farmRank:1,note:'Rising arm'},
+    {name:'Drake Baldwin (C, ATL)',team:'Team Acuna',grade:'B',eta:'2026',fgFV:40,farmRank:1,note:'Contact catcher'},
+    {name:'Marcelo Mayer (SS, BOS)',team:'Team Soto',grade:'A',eta:'2026',fgFV:55,farmRank:2,note:'Premium SS, all-around tools'},
+    {name:'Miguel Bleis (OF, BOS)',team:'Team Soto',grade:'B+',eta:'2027',fgFV:45,farmRank:2,note:'Tools-heavy OF'},
+    {name:'Wikelman Gonzalez (SP, BOS)',team:'Team Soto',grade:'B',eta:'2027',fgFV:40,farmRank:2,note:'Arm strength, development'},
+    {name:'Nazzan Zanetello (SS, TEX)',team:'Team Tucker',grade:'B+',eta:'2027',fgFV:45,farmRank:3,note:'Defense-first SS'},
+    {name:'Sebastian Walcott (SS, TEX)',team:'Team Tucker',grade:'B+',eta:'2027',fgFV:45,farmRank:3,note:'Plus tools, raw power'},
+    {name:'Brock Porter (SP, TEX)',team:'Team Tucker',grade:'B+',eta:'2027',fgFV:45,farmRank:3,note:'Plus fastball/curveball'},
+    {name:'Aidan Smith (SP, TB)',team:'Team Tucker',grade:'B',eta:'2027',fgFV:40,farmRank:3,note:'High-spin arsenal'},
+    {name:'Carson Tucker (SS, STL)',team:'Team McLain',grade:'B',eta:'2027',fgFV:40,farmRank:10,note:'Defense focus'},
+    {name:'Tink Hence (SP, STL)',team:'Team McLain',grade:'A-',eta:'2026',fgFV:50,farmRank:10,note:'Premium stuff'},
+    {name:'Noah Schultz (SP, CWS)',team:'Team Skubal',grade:'A-',eta:'2026',fgFV:50,farmRank:4,note:'Lefty power arm'},
+    {name:'Ky Bush (SP, CWS)',team:'Team Skubal',grade:'B',eta:'2027',fgFV:40,farmRank:4,note:'Big frame, big stuff'},
+    {name:'Bryan Ramos (3B, CWS)',team:'Team Skubal',grade:'B+',eta:'2026',fgFV:45,farmRank:4,note:'Bat-first 3B'},
+    {name:'Lee Deza (C, CWS)',team:'Team Skubal',grade:'B',eta:'2027',fgFV:40,farmRank:4,note:'Defense-first C'},
+    {name:'Quinn Priester (SP, PIT)',team:'Team Rodriguez',grade:'B',eta:'2026',fgFV:40,farmRank:5,note:'Big frame RHP'},
+    {name:'Anthony Solometo (SP, PIT)',team:'Team Rodriguez',grade:'B+',eta:'2026',fgFV:45,farmRank:5,note:'Lefty swing-and-miss'},
+    {name:'Bubba Chandler (SP, PIT)',team:'Team Rodriguez',grade:'B+',eta:'2026',fgFV:45,farmRank:5,note:'Two-way convert'},
+    {name:'Termarr Johnson (2B, PIT)',team:'Team Rodriguez',grade:'B+',eta:'2026',fgFV:45,farmRank:5,note:'Elite plate discipline'},
+    {name:'Henry Davis (C, PIT)',team:'Team Rodriguez',grade:'B+',eta:'2026',fgFV:45,farmRank:5,note:'Plus bat, defensive upside'},
+    {name:'Rhett Lowder (SP, CIN)',team:'Team Henderson',grade:'B+',eta:'2026',fgFV:45,farmRank:6,note:'Plus command, multiplane'},
+    {name:'Chase Petty (SP, CIN)',team:'Team Henderson',grade:'B+',eta:'2027',fgFV:45,farmRank:6,note:'Elite velocity'},
+    {name:'Edwin Arroyo (SS, CIN)',team:'Team Henderson',grade:'A-',eta:'2026',fgFV:50,farmRank:6,note:'Premium defense, bat improving'},
+    {name:'Elly De La Cruz (SS, CIN)',team:'Team Henderson',grade:'A+',eta:'2026',fgFV:60,farmRank:6,note:'Otherworldly tools'},
+    {name:'Rece Hinds (3B, CIN)',team:'Team Henderson',grade:'B+',eta:'2026',fgFV:45,farmRank:6,note:'Raw power 3B'},
+    {name:'Nolan Schanuel (1B, LAA)',team:'Team Lindor',grade:'B+',eta:'2026',fgFV:45,farmRank:7,note:'Advanced hit tool'},
+    {name:'Zach Neto (SS, LAA)',team:'Team Lindor',grade:'B+',eta:'2026',fgFV:45,farmRank:7,note:'Defense-first SS'},
+    {name:'Ben Joyce (RP, LAA)',team:'Team Lindor',grade:'B+',eta:'2026',fgFV:45,farmRank:7,note:'Triple digit RP'},
+    {name:'Landon Knack (SP, LAA)',team:'Team Lindor',grade:'B',eta:'2026',fgFV:40,farmRank:7,note:'Mature arsenal'},
+    {name:'Chris Mokma (SP, CHC)',team:'Team Freeman',grade:'B+',eta:'2027',fgFV:45,farmRank:8,note:'Rising arm, stuff play'},
+    {name:'Cade Horton (SP, CHC)',team:'Team Freeman',grade:'A-',eta:'2026',fgFV:50,farmRank:8,note:'Elite stuff profile'},
+    {name:'James Triantos (2B, CHC)',team:'Team Freeman',grade:'B',eta:'2026',fgFV:40,farmRank:8,note:'Bat-first, gap power'},
+    {name:'Owen Caissie (OF, CHC)',team:'Team Freeman',grade:'B',eta:'2026',fgFV:40,farmRank:8,note:'Big raw power'},
+    {name:'Colt Keith (2B, DET)',team:'Team Alvarez',grade:'B+',eta:'2026',fgFV:45,farmRank:9,note:'Hit tool, solid bat path'},
+    {name:'Ty Madden (SP, DET)',team:'Team Alvarez',grade:'B',eta:'2026',fgFV:40,farmRank:9,note:'Sinker/slider blend'},
+    {name:'Wilmer Flores (1B, DET)',team:'Team Alvarez',grade:'B-',eta:'2026',fgFV:35,farmRank:9,note:'Pop potential'},
+    {name:'Ryan Kreidler (SS, DET)',team:'Team Alvarez',grade:'B-',eta:'2026',fgFV:35,farmRank:9,note:'Defense focus'},
+    {name:'Slade Cecconi (SP, ARI)',team:'Team Chourio',grade:'B',eta:'2026',fgFV:40,farmRank:11,note:'Plus fastball combo'},
+    {name:'Ryne Nelson (SP, ARI)',team:'Team Chourio',grade:'B',eta:'2026',fgFV:40,farmRank:11,note:'FB/slider mix'},
+    {name:'Alek Thomas (OF, ARI)',team:'Team Chourio',grade:'B',eta:'2026',fgFV:40,farmRank:11,note:'Speed-contact profile'},
+    {name:'Nolan Schanuel (1B, ARI)',team:'Team Chourio',grade:'B-',eta:'2026',fgFV:35,farmRank:11,note:'Power potential'},
+    {name:'Ben Rice (1B, NYY)',team:'Team Schwellenbach',grade:'B+',eta:'2026',fgFV:45,farmRank:12,note:'Power from left side'},
+    {name:'Jace Jung (2B, NYY)',team:'Team Schwellenbach',grade:'B',eta:'2026',fgFV:40,farmRank:12,note:'Patience and pop'},
+    {name:'Everson Pereira (OF, NYY)',team:'Team Schwellenbach',grade:'B',eta:'2026',fgFV:40,farmRank:12,note:'Raw tools, contact developing'},
+    {name:'Randy Vasquez (SP, NYY)',team:'Team Schwellenbach',grade:'B-',eta:'2026',fgFV:35,farmRank:12,note:'Move/command RHP'}
+  ];
+
+  // ---- ROSTERED PLAYERS (dynasty roster, non-prospects) ----
+  var ROSTERED = [
+    {name:'Juan Soto',pos:'OF',team:'Team Acuna',dynVal:95,mlbOrg:'NYM',note:'Elite dynasty asset, all-world bat'},
+    {name:'Ronald Acuna Jr.',pos:'OF',team:'Team Acuna',dynVal:94,mlbOrg:'ATL',note:'5-tool superstar when healthy'},
+    {name:'Julio Rodriguez',pos:'OF',team:'Team Rodriguez',dynVal:93,mlbOrg:'SEA',note:'Premium 5-tool CF'},
+    {name:'Gunnar Henderson',pos:'SS',team:'Team Henderson',dynVal:93,mlbOrg:'BAL',note:'Best SS in baseball'},
+    {name:'Corbin Carroll',pos:'OF',team:'Team Chourio',dynVal:92,mlbOrg:'ARI',note:'Speed-power elite CF'},
+    {name:'Tarik Skubal',pos:'SP',team:'Team Skubal',dynVal:91,mlbOrg:'DET',note:'Cy Young caliber'},
+    {name:'Yordan Alvarez',pos:'OF',team:'Team Alvarez',dynVal:91,mlbOrg:'HOU',note:'Monster bat, elite DH'},
+    {name:'Francisco Lindor',pos:'SS',team:'Team Lindor',dynVal:90,mlbOrg:'NYM',note:'Premium SS + HR threat'},
+    {name:'Elly De La Cruz',pos:'SS',team:'Team Henderson',dynVal:90,mlbOrg:'CIN',note:'Triple-digit velo + 40 HR potential'},
+    {name:'Kyle Tucker',pos:'OF',team:'Team Tucker',dynVal:89,mlbOrg:'HOU',note:'Premium OF with power/speed'},
+    {name:'Paul Skenes',pos:'SP',team:'Team Rodriguez',dynVal:88,mlbOrg:'PIT',note:'Best SP prospect in decades'},
+    {name:'Jackson Chourio',pos:'OF',team:'Team Chourio',dynVal:88,mlbOrg:'MIL',note:'5-tool breakout candidate'},
+    {name:'Spencer Schwellenbach',pos:'SP',team:'Team Schwellenbach',dynVal:87,mlbOrg:'ATL',note:'Emerging ace'},
+    {name:'Mookie Betts',pos:'OF',team:'Team Acuna',dynVal:87,mlbOrg:'LAD',note:'Future HOFer, do-everything'},
+    {name:'Yoshinobu Yamamoto',pos:'SP',team:'Team Soto',dynVal:85,mlbOrg:'LAD',note:'Premium Japanese ace'},
+    {name:'Wyatt Langford',pos:'OF',team:'Team Soto',dynVal:84,mlbOrg:'TEX',note:'Top prospect turned star'},
+    {name:'Matt McLain',pos:'SS',team:'Team McLain',dynVal:82,mlbOrg:'CIN',note:'Premium SS bat'},
+    {name:'Adley Rutschman',pos:'C',team:'Team Freeman',dynVal:80,mlbOrg:'BAL',note:'Best C in baseball'},
+    {name:'Ketel Marte',pos:'2B',team:'Team McLain',dynVal:79,mlbOrg:'ARI',note:'Consistent elite producer'},
+    {name:'Freddie Freeman',pos:'1B',team:'Team Freeman',dynVal:78,mlbOrg:'LAD',note:'Elite contact 1B'},
+    {name:'Tyler Glasnow',pos:'SP',team:'Team Tucker',dynVal:78,mlbOrg:'LAD',note:'Electric stuff when healthy'},
+    {name:'Blake Snell',pos:'SP',team:'Team Tucker',dynVal:76,mlbOrg:'SF',note:'Dominant when on'},
+    {name:'Cal Raleigh',pos:'C',team:'Team Rodriguez',dynVal:76,mlbOrg:'SEA',note:'Power-hitting C'},
+    {name:'Grayson Rodriguez',pos:'SP',team:'Team Rodriguez',dynVal:75,mlbOrg:'BAL',note:'Front-line SP stuff'},
+    {name:'Pete Alonso',pos:'1B',team:'Team Lindor',dynVal:75,mlbOrg:'NYM',note:'Slugger, HR leader'},
+    {name:'Jose Berrios',pos:'SP',team:'Team Lindor',dynVal:72,mlbOrg:'TOR',note:'Durable innings eater'},
+    {name:'Manny Machado',pos:'3B',team:'Team Schwellenbach',dynVal:72,mlbOrg:'SD',note:'Elite 3B, consistent producer'},
+    {name:'Carlos Rodon',pos:'SP',team:'Team Alvarez',dynVal:73,mlbOrg:'NYY',note:'Power lefty'},
+    {name:'Gavin Stone',pos:'SP',team:'Team McLain',dynVal:72,mlbOrg:'LAD',note:'Emerging SP'},
+    {name:'Zach Eflin',pos:'SP',team:'Team Skubal',dynVal:72,mlbOrg:'TB',note:'Ground ball machine'},
+    {name:'Ryan Helsley',pos:'RP',team:'Team Henderson',dynVal:70,mlbOrg:'STL',note:'Elite closer'},
+    {name:'Mason Miller',pos:'RP',team:'Team Chourio',dynVal:68,mlbOrg:'OAK',note:'Triple digit arm'},
+    {name:'Jordan Montgomery',pos:'SP',team:'Team Freeman',dynVal:66,mlbOrg:'ARI',note:'Crafty lefty'},
+    {name:'Luis Robert Jr.',pos:'OF',team:'Team Alvarez',dynVal:65,mlbOrg:'CWS',note:'Tools over performance'},
+    {name:'Carlos Estevez',pos:'RP',team:'Team Soto',dynVal:60,mlbOrg:'LAA',note:'Premium closer'},
+    {name:'JP Sears',pos:'SP',team:'Team Tucker',dynVal:60,mlbOrg:'OAK',note:'Strike-throwing lefty'},
+    {name:'Dean Kremer',pos:'SP',team:'Team Freeman',dynVal:55,mlbOrg:'BAL',note:'Consistent SP'},
+    {name:'Evan Phillips',pos:'RP',team:'Team Acuna',dynVal:55,mlbOrg:'LAD',note:'High-leverage RP'},
+    {name:'Hunter Harvey',pos:'RP',team:'Team Soto',dynVal:55,mlbOrg:'WSH',note:'Strikeout RP'},
+    {name:'Brusdar Graterol',pos:'RP',team:'Team Skubal',dynVal:52,mlbOrg:'LAD',note:'Power sinker RP'}
+  ];
+
+  // ---- UTILITY FUNCTIONS ----
+  function etaYears(eta) {
+    var y = parseInt(eta) || 2027;
+    return Math.max(0, y - 2026);
+  }
+  function extractPos(name) {
+    var m = name.match(/\(([^,)]+),/);
+    if(m) return m[1].trim().toUpperCase();
+    return '?';
+  }
+  function extractOrg(name) {
+    var m = name.match(/,\s*([A-Z]+)/);
+    if(m) return m[1];
+    return '?';
+  }
+  function cleanName(name) {
+    return name.replace(/s*([^)]+)/, '').trim();
+  }
+
+  // ---- BUILD PLAYERS ----
   function buildPlayers() {
     var players = [];
     var seen = new Set();
-    // From FARM_RANKS topProspects
-    if (typeof FARM_RANKS !== 'undefined') {
-      FARM_RANKS.forEach(function(team) {
-        var tName = team.team || '';
-        var farmGrade = team.grade || 'C';
-        (team.topProspects || []).forEach(function(p) {
-          var key = (p.name||'').toLowerCase();
-          if (seen.has(key)) return;
-          seen.add(key);
-          players.push({
-            name: cleanName(p.name),
-            rawName: p.name || '',
-            pos: extractPos(p.name),
-            org: extractOrg(p.name),
-            team: tName,
-            farmRank: team.farmRank || 12,
-            grade: p.grade || 'B',
-            eta: p.eta || '2027',
-            fgFV: p.fgFV || 35,
-            fgDynRank: p.fgDynRank || null,
-            note: p.note || '',
-            source: 'roster'
-          });
+
+    // From FARM_DATA topProspects
+    FARM_DATA.forEach(function(team) {
+      var tName = team.team || '';
+      var farmGrade = team.grade || 'C';
+      (team.topProspects || []).forEach(function(p) {
+        var key = (p.name||'').toLowerCase();
+        if(seen.has(key)) return;
+        seen.add(key);
+        players.push({
+          name: cleanName(p.name),
+          rawName: p.name || '',
+          pos: extractPos(p.name),
+          org: extractOrg(p.name),
+          team: tName,
+          farmRank: team.farmRank || 12,
+          grade: p.grade || 'B',
+          eta: p.eta || '2027',
+          fgFV: p.fgFV || 35,
+          fgDynRank: null,
+          note: p.note || '',
+          source: 'prospect',
+          isProspect: true,
+          isRookie: true,
+          dynVal: null
         });
       });
-    }
-    // From EXTRA (supplemental prospects)
+    });
+
+    // From EXTRA prospects
     EXTRA.forEach(function(p) {
       var key = (p.name||'').toLowerCase();
-      if (seen.has(key)) return;
+      if(seen.has(key)) return;
       seen.add(key);
-      // Get farmRank from FARM_RANKS if team matches
-      var farmRank = 12;
-      if (typeof FARM_RANKS !== 'undefined') {
-        var teamEntry = FARM_RANKS.find(function(t){ return t.team === p.team; });
-        if (teamEntry) farmRank = teamEntry.farmRank || 12;
-      }
       players.push({
         name: cleanName(p.name),
         rawName: p.name || '',
         pos: extractPos(p.name),
         org: extractOrg(p.name),
         team: p.team || 'Unknown',
-        farmRank: farmRank,
+        farmRank: p.farmRank || 12,
         grade: p.grade || 'B',
         eta: p.eta || '2027',
         fgFV: p.fgFV || 35,
-        fgDynRank: p.fgDynRank || null,
+        fgDynRank: null,
         note: p.note || '',
-        source: 'extended'
+        source: 'extended',
+        isProspect: true,
+        isRookie: true,
+        dynVal: null
       });
     });
+
+    // From ROSTERED players (dynasty roster veterans)
+    ROSTERED.forEach(function(p) {
+      var key = (p.name||'').toLowerCase();
+      if(seen.has(key)) return;
+      seen.add(key);
+      players.push({
+        name: p.name,
+        rawName: p.name,
+        pos: p.pos || 'VET',
+        org: p.mlbOrg || '?',
+        team: p.team || 'Unknown',
+        farmRank: 12,
+        grade: 'VET',
+        eta: '2026',
+        fgFV: Math.round((p.dynVal || 50) / 2),
+        fgDynRank: null,
+        note: p.note || '',
+        source: 'rostered',
+        isProspect: false,
+        isRookie: false,
+        dynVal: p.dynVal || 50
+      });
+    });
+
     return players;
   }
 
-  // ---- PCA IMPLEMENTATION (3D) ----
-  function dot(a, b) {
-    var s = 0; for(var i=0;i<a.length;i++) s += a[i]*b[i]; return s;
-  }
-  function norm(v) {
-    var n = Math.sqrt(dot(v,v)); return n < 1e-9 ? v : v.map(function(x){return x/n;});
-  }
-  function matVec(M, v) {
-    return M.map(function(row){ return dot(row,v); });
-  }
-  function pca3(data, iters) {
-    iters = iters || 150;
-    var n = data.length, d = data[0].length;
-    // center
-    var mu = Array(d).fill(0);
-    data.forEach(function(x){ x.forEach(function(v,i){ mu[i]+=v; }); });
-    mu = mu.map(function(v){ return v/n; });
-    var X = data.map(function(x){ return x.map(function(v,i){ return v-mu[i]; }); });
-    // power iteration for 3 components
-    var W = [];
-    for(var c=0;c<3;c++){
-      var w = norm(Array.from({length:d},function(){ return Math.random()-0.5; }));
-      for(var it=0;it<iters;it++){
-        var acc = Array(d).fill(0);
-        // deflate
-        var Xd = X.map(function(x){
-          var proj = W.reduce(function(r,ww){ return r.map(function(v,j){ return v+dot(x,ww)*ww[j]; }); }, Array(d).fill(0));
-          return x.map(function(v,j){ return v-proj[j]; });
-        });
-        Xd.forEach(function(x){ var p=dot(x,w); acc=acc.map(function(v,j){ return v+p*x[j]; }); });
-        w = norm(acc);
-      }
-      W.push(w);
+  // ---- PCA ----
+  function dot(a,b){var s=0;for(var i=0;i<a.length;i++)s+=a[i]*b[i];return s;}
+  function norm(v){var n=Math.sqrt(dot(v,v));return n>0?v.map(function(x){return x/n;}):v;}
+  function matVec(M,v){return M.map(function(row){return dot(row,v);});}
+  function pca3(data){
+    var n=data.length,d=data[0].length;
+    var means=new Array(d).fill(0);
+    data.forEach(function(r){r.forEach(function(v,j){means[j]+=v/n;});});
+    var C=data.map(function(r){return r.map(function(v,j){return v-means[j];});});
+    var cov=[];
+    for(var i=0;i<d;i++){cov.push(new Array(d).fill(0));}
+    C.forEach(function(r){for(var i=0;i<d;i++)for(var j=0;j<d;j++)cov[i][j]+=r[i]*r[j]/n;});
+    var vecs=[],rand=function(){var v=new Array(d);for(var k=0;k<d;k++)v[k]=Math.random()-0.5;return norm(v);};
+    for(var p=0;p<3;p++){
+      var v=rand();
+      for(var iter=0;iter<160;iter++){var nv=matVec(cov,v);vecs.slice(0,p).forEach(function(u){var pr=dot(nv,u);nv=nv.map(function(x,i){return x-pr*u[i];});});v=norm(nv);}
+      vecs.push(v);
     }
-    // project
-    return X.map(function(x){ return W.map(function(w){ return dot(x,w); }); });
+    return C.map(function(r){return vecs.map(function(v){return dot(r,v)*10;});});
   }
-
-  // ---- BUILD FEATURE VECTORS ----
-  function buildFeatures(players) {
-    var positions = Object.keys(POS_COLORS);
-    var divGroups = 6;
-    return players.map(function(p) {
-      var gradeV = (GRADE_VAL[p.grade] || 50) / 100;
-      var etaV = 1 - etaYears(p.eta) / 5;
-      var fvV = ((p.fgFV || 35) - 30) / 35;
-      var rankV = p.fgDynRank ? Math.max(0, 1 - (p.fgDynRank - 1) / 100) : 0.3;
-      var farmV = Math.max(0, 1 - (p.farmRank - 1) / 12);
-      // pos one-hot
-      var posVec = positions.map(function(pos){ return p.pos === pos ? 1 : 0; });
-      // division one-hot
-      var divVec = Array(divGroups).fill(0);
-      var dg = ORG_GROUPS[p.org] !== undefined ? ORG_GROUPS[p.org] : 0;
-      divVec[dg] = 1;
-      // compose
-      return [gradeV*2.5, etaV*2, fvV*3, rankV*1.5, farmV*1.2].concat(posVec.map(function(v){return v*2.8;})).concat(divVec.map(function(v){return v*1.2;}));
+  function buildFeatures(players){
+    var gradeMap={'A+':7,'A':6,'A-':5,'B+':4,'B':3,'B-':2,'C':1,'VET':3.5};
+    var posKeys=['OF','SP','C','SS','2B','3B','1B','RP'];
+    var divKeys=['ATL','NL East','NL Central','NL West','AL East','AL Central','AL West'];
+    return players.map(function(p){
+      var gv=gradeMap[p.grade]||3;
+      var eta=etaYears(p.eta);
+      var fv=(p.fgFV||35)/10;
+      var dr=(p.farmRank||12)/12;
+      var posV=posKeys.map(function(pk){return p.pos===pk?1:0;});
+      var divV=divKeys.map(function(dk){return (p.org||'').indexOf(dk.slice(0,3))>=0?1:0;});
+      return [gv,eta,fv,dr].concat(posV).concat(divV);
     });
   }
 
-  // ---- GET NEIGHBORS ----
-  function getNeighbors(players, coords, idx, k) {
-    var target = coords[idx];
-    var dists = coords.map(function(c, i) {
-      var dx=c[0]-target[0], dy=c[1]-target[1], dz=c[2]-target[2];
-      return {i:i, d:Math.sqrt(dx*dx+dy*dy+dz*dz)};
-    });
-    dists.sort(function(a,b){return a.d-b.d;});
-    return dists.slice(1, k+1).map(function(d){ return players[d.i]; });
-  }
+  // ---- THREE.JS GALAXY ----
+  var THREE=window.THREE;
+  var scene,camera,renderer,controls,raycaster,mouse,clock;
+  var starMeshes=[],labelDivs=[],allPlayers=[];
+  var selectedIdx=-1,hoveredIdx=-1;
+  var showLabels=false,rookieOnly=false;
+  var filterPos='ALL',filterGrade='ALL',searchStr='';
+  var targetCamPos={x:0,y:0,z:200},currentCamPos={x:0,y:0,z:200};
+  var animFrameId=null;
+  var gradeColors={'A+':'#ffe066','A':'#ffd700','A-':'#fbbf24','B+':'#a3e635','B':'#4ade80','B-':'#34d399','VET':'#60a5fa','C':'#94a3b8'};
 
-  // ---- RENDER DETAIL PANEL ----
-  function renderDetail(player, neighbors, allPlayers) {
-    var detail = document.getElementById('gx-detail-content');
-    if (!detail) return;
-    var col = POS_COLORS[player.pos] || POS_COLORS['?'];
-    var gradeColor = player.grade.startsWith('A') ? '#4ade80' : player.grade.startsWith('B') ? '#fbbf24' : '#94a3b8';
-    var rankBadge = player.fgDynRank ? '<span style="background:#1e293b;border:1px solid #334155;border-radius:4px;padding:1px 6px;font-size:.7rem;color:#94a3b8">#' + player.fgDynRank + ' FG Dynasty</span>' : '';
-    var srcBadge = player.source === 'roster' ? '<span style="background:rgba(74,222,128,.12);color:#4ade80;border:1px solid rgba(74,222,128,.3);border-radius:4px;padding:1px 6px;font-size:.65rem">ROSTERED</span>' : '<span style="background:rgba(148,163,184,.1);color:#94a3b8;border:1px solid #334155;border-radius:4px;padding:1px 6px;font-size:.65rem">EXTENDED</span>';
-    var nbHtml = neighbors.slice(0,5).map(function(n) {
-      var nc = POS_COLORS[n.pos] || POS_COLORS['?'];
-      return '<div style="display:flex;align-items:center;gap:6px;padding:4px 0;border-bottom:1px solid #1e293b">' +
-        '<div style="width:8px;height:8px;border-radius:50%;background:' + nc + ';flex-shrink:0"></div>' +
-        '<div style="flex:1;min-width:0"><div style="font-size:.75rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">' + n.name + '</div>' +
-        '<div style="font-size:.65rem;color:#64748b">' + n.team.substring(0,22) + ' · ' + n.pos + ' · ' + n.eta + '</div></div>' +
-        '<div style="font-size:.7rem;color:' + gradeColor + ';flex-shrink:0">' + n.grade + '</div></div>';
-    }).join('');
+  function initThreeGalaxy(container) {
+    var W=container.clientWidth||1060,H=container.clientHeight||560;
+    scene=new THREE.Scene();
+    camera=new THREE.PerspectiveCamera(60,W/H,0.1,2000);
+    camera.position.set(0,0,200);
+    renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});
+    renderer.setSize(W,H);
+    renderer.setClearColor(0x030712,1);
+    container.appendChild(renderer.domElement);
+    raycaster=new THREE.Raycaster();
+    mouse=new THREE.Vector2();
+    clock=new THREE.Clock();
 
-    var fvBar = '<div style="display:flex;align-items:center;gap:6px;margin:4px 0"><span style="font-size:.7rem;color:#64748b;width:55px">FV ' + (player.fgFV||35) + '</span><div style="flex:1;height:4px;background:#1e293b;border-radius:2px"><div style="height:4px;background:' + col + ';border-radius:2px;width:' + Math.round(((player.fgFV||35)-30)/40*100) + '%"></div></div></div>';
-    var etaBar = '<div style="display:flex;align-items:center;gap:6px;margin:4px 0"><span style="font-size:.7rem;color:#64748b;width:55px">ETA ' + player.eta + '</span><div style="flex:1;height:4px;background:#1e293b;border-radius:2px"><div style="height:4px;background:#818cf8;border-radius:2px;width:' + Math.round(Math.max(0,1-etaYears(player.eta)/5)*100) + '%"></div></div></div>';
-
-    detail.innerHTML = '<div>' +
-      '<div style="display:flex;align-items:flex-start;gap:8px;margin-bottom:10px">' +
-        '<div style="width:36px;height:36px;border-radius:50%;background:' + col + '22;border:2px solid ' + col + ';display:flex;align-items:center;justify-content:center;font-size:.8rem;font-weight:700;color:' + col + ';flex-shrink:0">' + player.pos + '</div>' +
-        '<div style="flex:1;min-width:0">' +
-          '<div style="font-size:.95rem;font-weight:700;line-height:1.2">' + player.name + '</div>' +
-          '<div style="font-size:.72rem;color:#64748b;margin-top:2px">' + player.org + ' · ' + player.team.substring(0,28) + '</div>' +
-        '</div>' +
-      '</div>' +
-      '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px">' +
-        '<span style="background:' + col + '22;color:' + col + ';border:1px solid ' + col + '55;border-radius:4px;padding:2px 7px;font-size:.72rem;font-weight:700">' + player.grade + '</span>' +
-        rankBadge + srcBadge +
-      '</div>' +
-      fvBar + etaBar +
-      (player.note ? '<div style="font-size:.75rem;color:#94a3b8;margin:8px 0;padding:8px;background:#0f172a;border-radius:6px;line-height:1.5">' + player.note + '</div>' : '') +
-      '<div style="font-size:.7rem;font-weight:600;color:#64748b;margin:10px 0 4px;text-transform:uppercase;letter-spacing:.05em">Similar Prospects</div>' +
-      nbHtml +
-    '</div>';
-  }
-
-// ---- INIT THREE.JS GALAXY ----
-  var _renderer, _scene, _camera, _spheres=[], _labels=[], _labelCanvas, _labelCtx;
-  var _camTheta=0.4, _camPhi=1.2, _camR=55, _targetTheta=0.4, _targetPhi=1.2, _targetR=55;
-  var _isDragging=false, _lastMouse={x:0,y:0};
-  var _coords=[], _players=[], _filtered=[], _selectedIdx=-1, _hoveredIdx=-1;
-  var _showLabels=true, _posFilter='ALL', _gradeFilter='ALL';
-  var _searchQuery='';
-  var _clock, _animId;
-  var _TEAM_COLORS = {};
-
-  function initThreeGalaxy() {
-    if (!window.THREE) { setTimeout(initThreeGalaxy, 200); return; }
-    var THREE = window.THREE;
-    ALL_PLAYERS = buildPlayers();
-    var loadMsg = document.getElementById('gx-load-msg');
-    if (loadMsg) loadMsg.textContent = 'Running PCA on ' + ALL_PLAYERS.length + ' prospects...';
-
-    // assign team colors
-    var teamList = Array.from(new Set(ALL_PLAYERS.map(function(p){return p.team;})));
-    var teamPalette = ['#60a5fa','#34d399','#f472b6','#a78bfa','#fb923c','#facc15','#4ade80','#38bdf8','#f87171','#c084fc','#94a3b8','#fbbf24'];
-    teamList.forEach(function(t,i){ _TEAM_COLORS[t] = teamPalette[i % teamPalette.length]; });
-
-    setTimeout(function() {
-      var features = buildFeatures(ALL_PLAYERS);
-      _coords = pca3(features, 160);
-      // normalize coords to [-25,25]
-      var maxV = 0;
-      _coords.forEach(function(c){ c.forEach(function(v){ maxV = Math.max(maxV, Math.abs(v)); }); });
-      if (maxV > 0) _coords = _coords.map(function(c){ return c.map(function(v){ return v/maxV*25; }); });
-
-      _players = ALL_PLAYERS;
-      _filtered = ALL_PLAYERS.map(function(_,i){return i;});
-
-      var mount = document.getElementById('galaxy-mount');
-      if (!mount) return;
-      var W = mount.clientWidth || 800, H = mount.clientHeight || 580;
-
-      // Renderer
-      _renderer = new THREE.WebGLRenderer({antialias:true, alpha:true});
-      _renderer.setPixelRatio(window.devicePixelRatio||1);
-      _renderer.setSize(W, H);
-      _renderer.setClearColor(0x020408, 1);
-      mount.appendChild(_renderer.domElement);
-
-      // Scene
-      _scene = new THREE.Scene();
-
-      // Camera
-      _camera = new THREE.PerspectiveCamera(60, W/H, 0.1, 1000);
-      updateCamera();
-
-      // Ambient light
-      _scene.add(new THREE.AmbientLight(0xffffff, 0.6));
-      var dlight = new THREE.DirectionalLight(0xffffff, 0.8);
-      dlight.position.set(1,1,1);
-      _scene.add(dlight);
-
-      // Background stars (decorative)
-      var starsGeo = new THREE.BufferGeometry();
-      var starPts = [];
-      for(var s=0;s<800;s++){
-        starPts.push((Math.random()-0.5)*300, (Math.random()-0.5)*300, (Math.random()-0.5)*300);
-      }
-      starsGeo.setAttribute('position', new THREE.Float32BufferAttribute(starPts, 3));
-      var starMat = new THREE.PointsMaterial({color:0x334155, size:0.3, transparent:true, opacity:0.5});
-      _scene.add(new THREE.Points(starsGeo, starMat));
-
-      // Cluster glow halos
-      var posGroups = {};
-      _players.forEach(function(p, i) {
-        if (!posGroups[p.pos]) posGroups[p.pos] = [];
-        posGroups[p.pos].push(i);
-      });
-      Object.keys(posGroups).forEach(function(pos) {
-        var idxs = posGroups[pos];
-        if (idxs.length < 2) return;
-        var cx=0, cy=0, cz=0;
-        idxs.forEach(function(i){ cx+=_coords[i][0]; cy+=_coords[i][1]; cz+=_coords[i][2]; });
-        cx/=idxs.length; cy/=idxs.length; cz/=idxs.length;
-        var maxR = 0;
-        idxs.forEach(function(i){
-          var dx=_coords[i][0]-cx, dy=_coords[i][1]-cy, dz=_coords[i][2]-cz;
-          maxR = Math.max(maxR, Math.sqrt(dx*dx+dy*dy+dz*dz));
-        });
-        maxR = Math.max(maxR, 2) + 3;
-        var col = new THREE.Color(POS_COLORS[pos] || '#94a3b8');
-        var haloGeo = new THREE.SphereGeometry(maxR, 16, 12);
-        var haloMat = new THREE.MeshBasicMaterial({color:col, transparent:true, opacity:0.04, side:THREE.BackSide, depthWrite:false});
-        var haloMesh = new THREE.Mesh(haloGeo, haloMat);
-        haloMesh.position.set(cx, cy, cz);
-        _scene.add(haloMesh);
-        // halo ring
-        var ringGeo = new THREE.TorusGeometry(maxR, 0.15, 8, 64);
-        var ringMat = new THREE.MeshBasicMaterial({color:col, transparent:true, opacity:0.18, depthWrite:false});
-        var ring = new THREE.Mesh(ringGeo, ringMat);
-        ring.position.set(cx, cy, cz);
-        ring.rotation.x = Math.PI/2;
-        _scene.add(ring);
-      });
-
-      // Sphere meshes
-      _spheres = [];
-      _players.forEach(function(p, i) {
-        var col = new THREE.Color(POS_COLORS[p.pos] || '#94a3b8');
-        var fv = p.fgFV || 35;
-        var radius = 0.32 + (fv - 30) / 60;
-        var geo = new THREE.SphereGeometry(radius, 12, 8);
-        var mat = new THREE.MeshPhongMaterial({
-          color: col, emissive: col, emissiveIntensity: 0.35,
-          transparent: true, opacity: 0.92, shininess: 40
-        });
-        var mesh = new THREE.Mesh(geo, mat);
-        mesh.position.set(_coords[i][0], _coords[i][1], _coords[i][2]);
-        mesh.userData = {idx: i};
-        _scene.add(mesh);
-        _spheres.push(mesh);
-      });
-
-      // Label canvas overlay
-      _labelCanvas = document.createElement('canvas');
-      _labelCanvas.style.position = 'absolute';
-      _labelCanvas.style.top = '0';
-      _labelCanvas.style.left = '0';
-      _labelCanvas.style.pointerEvents = 'none';
-      _labelCanvas.width = W; _labelCanvas.height = H;
-      mount.appendChild(_labelCanvas);
-      _labelCtx = _labelCanvas.getContext('2d');
-
-      // Clock
-      _clock = new THREE.Clock();
-
-      // Hide loading
-      var loading = document.getElementById('galaxy-loading');
-      if (loading) loading.style.display = 'none';
-
-      // Build UI
-      buildPosFilters();
-      buildGradeFilters();
-      buildLegend();
-      updateCount();
-
-      // Events
-      setupEvents(mount);
-
-      // Start animation
-      animate();
-
-      document.getElementById('gx-search').addEventListener('input', function(e){
-        _searchQuery = e.target.value.toLowerCase();
-        refreshVisibility();
-      });
-      document.getElementById('gx-labels').addEventListener('change', function(e){
-        _showLabels = e.target.checked;
-      });
-
-    }, 50);
-  }
-
-  function updateCamera() {
-    if (!_camera) return;
-    var x = _camR * Math.sin(_camPhi) * Math.sin(_camTheta);
-    var y = _camR * Math.cos(_camPhi);
-    var z = _camR * Math.sin(_camPhi) * Math.cos(_camTheta);
-    _camera.position.set(x, y, z);
-    _camera.lookAt(0, 0, 0);
-  }
-
-function buildPosFilters() {
-    var container = document.getElementById('gx-pos-filters');
-    if (!container) return;
-    var positions = ['ALL'].concat(Object.keys(POS_COLORS).filter(function(p){
-      return _players.some(function(pl){ return pl.pos === p; });
-    }));
-    container.innerHTML = positions.map(function(pos) {
-      var count = pos === 'ALL' ? _players.length : _players.filter(function(p){return p.pos===pos;}).length;
-      var col = pos === 'ALL' ? 'var(--accent)' : (POS_COLORS[pos] || '#94a3b8');
-      var isActive = pos === _posFilter;
-      return '<button onclick="galaxySetPos(\'' + pos + '\')" id="gxp-' + pos + '" style="padding:.25rem .55rem;border:1px solid ' + (isActive ? col : '#334155') + ';background:' + (isActive ? col+'22' : 'transparent') + ';color:' + (isActive ? col : '#94a3b8') + ';border-radius:5px;font-size:.7rem;cursor:pointer;font-weight:' + (isActive?'700':'400') + '">' + pos + ' <span style="opacity:.7">' + count + '</span></button>';
-    }).join('');
-  }
-
-  function buildGradeFilters() {
-    var container = document.getElementById('gx-grade-filters');
-    if (!container) return;
-    var grades = ['ALL','A+','A','A-','B+','B','B-'];
-    container.innerHTML = grades.map(function(g) {
-      var count = g === 'ALL' ? _players.length : _players.filter(function(p){return p.grade===g;}).length;
-      if (g !== 'ALL' && count === 0) return '';
-      var col = g === 'ALL' ? '#64748b' : (g.startsWith('A') ? '#4ade80' : g.startsWith('B') ? '#fbbf24' : '#94a3b8');
-      var isActive = g === _gradeFilter;
-      return '<button onclick="galaxySetGrade(\'' + g + '\')" id="gxg-' + g.replace('+','p').replace('-','m') + '" style="padding:.25rem .5rem;border:1px solid ' + (isActive ? col : '#334155') + ';background:' + (isActive ? col+'22' : 'transparent') + ';color:' + (isActive ? col : '#64748b') + ';border-radius:5px;font-size:.7rem;cursor:pointer;font-weight:' + (isActive?'700':'400') + '">' + g + (count>0&&g!=='ALL'?' <span style="opacity:.6">'+count+'</span>':'') + '</button>';
-    }).join('');
-  }
-
-  function buildLegend() {
-    var leg = document.getElementById('galaxy-legend');
-    if (!leg) return;
-    var positions = Object.keys(POS_COLORS).filter(function(p){
-      return _players.some(function(pl){ return pl.pos === p; });
-    });
-    leg.innerHTML = positions.map(function(pos) {
-      var col = POS_COLORS[pos];
-      var count = _players.filter(function(p){return p.pos===pos;}).length;
-      return '<span style="display:flex;align-items:center;gap:4px"><span style="width:9px;height:9px;border-radius:50%;background:' + col + ';display:inline-block"></span>' + pos + ' <span style="opacity:.6">(' + count + ')</span></span>';
-    }).join('');
-  }
-
-  function updateCount() {
-    var el = document.getElementById('gx-count');
-    if (el) {
-      var vis = _spheres.filter(function(s){ return s.visible; }).length;
-      el.textContent = vis + ' / ' + _players.length + ' stars';
+    // Background star field
+    var starGeo=new THREE.BufferGeometry();
+    var starPos=[];
+    for(var i=0;i<1800;i++){
+      starPos.push((Math.random()-0.5)*2000,(Math.random()-0.5)*2000,(Math.random()-0.5)*2000);
     }
+    starGeo.setAttribute('position',new THREE.Float32BufferAttribute(starPos,3));
+    scene.add(new THREE.Points(starGeo,new THREE.PointsMaterial({color:0xffffff,size:0.5,transparent:true,opacity:0.6})));
+
+    // Ambient + point lights
+    scene.add(new THREE.AmbientLight(0x222244,1.2));
+    var pl=new THREE.PointLight(0x6688ff,2,400);
+    pl.position.set(0,0,100);
+    scene.add(pl);
+  }
+
+  function spawnStars(players, container) {
+    // Clear old stars/labels
+    starMeshes.forEach(function(m){ scene.remove(m); });
+    labelDivs.forEach(function(d){ if(d.parentNode) d.parentNode.removeChild(d); });
+    starMeshes=[]; labelDivs=[];
+
+    var features=buildFeatures(players);
+    var coords=pca3(features);
+    var maxR=0;
+    coords.forEach(function(c){ var r=Math.sqrt(c[0]*c[0]+c[1]*c[1]+c[2]*c[2]); if(r>maxR)maxR=r; });
+    if(maxR<0.01)maxR=1;
+    var scale=80/maxR;
+
+    // Cluster glow halos per position
+    var posGroups={};
+    players.forEach(function(p,i){
+      var pos=p.pos||'?';
+      if(!posGroups[pos]) posGroups[pos]=[];
+      posGroups[pos].push(i);
+    });
+    Object.keys(posGroups).forEach(function(pos){
+      var indices=posGroups[pos];
+      if(indices.length<2) return;
+      var cx=0,cy=0,cz=0;
+      indices.forEach(function(i){ cx+=coords[i][0]*scale; cy+=coords[i][1]*scale; cz+=coords[i][2]*scale; });
+      cx/=indices.length; cy/=indices.length; cz/=indices.length;
+      var col=new THREE.Color(POS_COLORS[pos]||'#94a3b8');
+      var geo=new THREE.SphereGeometry(12,16,16);
+      var mat=new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:0.04,side:THREE.BackSide});
+      var halo=new THREE.Mesh(geo,mat);
+      halo.position.set(cx,cy,cz);
+      scene.add(halo);
+      // Orbital ring
+      var rGeo=new THREE.TorusGeometry(12,0.3,8,40);
+      var rMat=new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:0.15});
+      var ring=new THREE.Mesh(rGeo,rMat);
+      ring.position.set(cx,cy,cz);
+      ring.rotation.x=Math.PI/2+Math.random()*0.5;
+      scene.add(ring);
+    });
+
+    players.forEach(function(p,i){
+      var x=coords[i][0]*scale, y=coords[i][1]*scale, z=coords[i][2]*scale;
+      var fv=p.fgFV||35;
+      // Prospects sized by FV, veterans sized by dynVal
+      var baseR = p.isProspect ? (fv-30)/30*1.4+0.6 : (p.dynVal||50)/100*2.0+0.4;
+      var r=Math.max(0.5,Math.min(2.5,baseR));
+      var col=p.isProspect ? (POS_COLORS[p.pos]||'#94a3b8') : '#60a5fa';
+      var geo=new THREE.SphereGeometry(r,16,16);
+      var mat=new THREE.MeshPhongMaterial({
+        color:new THREE.Color(col),
+        emissive:new THREE.Color(col),
+        emissiveIntensity:p.isProspect?0.4:0.25,
+        shininess:80,
+        transparent:true,
+        opacity: p.isProspect ? 0.95 : 0.75
+      });
+      var mesh=new THREE.Mesh(geo,mat);
+      mesh.position.set(x,y,z);
+      mesh.userData={idx:i,player:p,baseR:r,baseEmissive:p.isProspect?0.4:0.25};
+      scene.add(mesh);
+      starMeshes.push(mesh);
+
+      // Label div
+      var lbl=document.createElement('div');
+      lbl.style.cssText='position:absolute;pointer-events:none;font-size:10px;color:#e2e8f0;background:rgba(0,0,0,0.6);padding:1px 4px;border-radius:3px;white-space:nowrap;display:none;font-family:monospace;';
+      lbl.textContent=p.name;
+      container.style.position='relative';
+      container.appendChild(lbl);
+      labelDivs.push(lbl);
+    });
+    allPlayers=players;
+  }
+
+  function updateCamera(){
+    currentCamPos.x+=(targetCamPos.x-currentCamPos.x)*0.08;
+    currentCamPos.y+=(targetCamPos.y-currentCamPos.y)*0.08;
+    currentCamPos.z+=(targetCamPos.z-currentCamPos.z)*0.08;
+    camera.position.set(currentCamPos.x,currentCamPos.y,currentCamPos.z);
+    camera.lookAt(0,0,0);
+  }
+
+  function getNeighbors(idx,n){
+    var p=starMeshes[idx];
+    if(!p) return [];
+    var others=starMeshes.map(function(m,i){
+      if(i===idx) return null;
+      var dx=m.position.x-p.position.x,dy=m.position.y-p.position.y,dz=m.position.z-p.position.z;
+      return {i:i,d:Math.sqrt(dx*dx+dy*dy+dz*dz)};
+    }).filter(Boolean);
+    others.sort(function(a,b){return a.d-b.d;});
+    return others.slice(0,n).map(function(o){return o.i;});
+  }
+
+  function renderDetail(idx) {
+    var panel=document.getElementById('gal-detail');
+    if(!panel) return;
+    if(idx<0){panel.innerHTML='<p style="color:#64748b;font-style:italic;font-size:13px;margin-top:40px;text-align:center;">Click a star to see details</p>';return;}
+    var p=allPlayers[idx];
+    var col=p.isProspect?(POS_COLORS[p.pos]||'#94a3b8'):'#60a5fa';
+    var gradeCol=gradeColors[p.grade]||'#94a3b8';
+    var fvPct=p.isProspect?Math.round((p.fgFV-30)/30*100):Math.round((p.dynVal||50)/100*100);
+    var badge=p.isProspect?'<span style="background:#3b82f6;color:#fff;font-size:10px;padding:2px 7px;border-radius:12px;margin-left:6px;">PROSPECT</span>':'<span style="background:#7c3aed;color:#fff;font-size:10px;padding:2px 7px;border-radius:12px;margin-left:6px;">ROSTERED</span>';
+    var nbrs=getNeighbors(idx,5);
+    var simHTML=nbrs.map(function(ni){
+      var np=allPlayers[ni];
+      var nc=np.isProspect?(POS_COLORS[np.pos]||'#94a3b8'):'#60a5fa';
+      return '<div onclick="galaxyClickIdx('+ni+')" style="cursor:pointer;padding:4px 0;border-bottom:1px solid #1e293b;color:'+nc+';">'+np.name+' <span style="color:#64748b;font-size:10px;">('+np.pos+', '+np.team+')</span></div>';
+    }).join('');
+    var fvLabel=p.isProspect?'FV Grade':'Dyn Value';
+    var fvVal=p.isProspect?(p.fgFV+'/60'):(p.dynVal+'/95');
+    panel.innerHTML='<div style="font-size:15px;font-weight:700;color:'+col+';">'+p.name+badge+'</div>'
+      +'<div style="font-size:12px;color:#94a3b8;margin:4px 0 10px;">'+p.pos+' · '+p.org+' · '+p.team+'</div>'
+      +'<div style="margin:6px 0;">'
+        +'<div style="font-size:11px;color:#64748b;margin-bottom:2px;">'+fvLabel+': '+fvVal+'</div>'
+        +'<div style="background:#1e293b;border-radius:4px;height:8px;width:100%;">'
+          +'<div style="background:'+col+';width:'+fvPct+'%;height:8px;border-radius:4px;transition:width 0.5s;"></div>'
+        +'</div>'
+      +'</div>'
+      +(p.isProspect?'<div style="margin:6px 0;">'
+        +'<div style="font-size:11px;color:#64748b;margin-bottom:2px;">Grade: <span style="color:'+gradeCol+';">'+p.grade+'</span> · ETA: '+p.eta+'</div>'
+      +'</div>':'')
+      +(p.note?'<div style="font-size:11px;color:#cbd5e1;background:#1e293b;border-radius:6px;padding:8px;margin:8px 0;font-style:italic;">"'+p.note+'"</div>':'')
+      +'<div style="font-size:11px;color:#64748b;margin:8px 0 4px;">Similar Players:</div>'
+      +simHTML;
+  }
+
+  function buildPosFilters(container) {
+    var posMap={};
+    allPlayers.forEach(function(p){ posMap[p.pos]=(posMap[p.pos]||0)+1; });
+    var allPos=['ALL','OF','SP','C','SS','2B','3B','1B','RP','VET','?'];
+    var btns=allPos.filter(function(pos){ return pos==='ALL'||posMap[pos]; });
+    var html='';
+    btns.forEach(function(pos){
+      var cnt=pos==='ALL'?allPlayers.length:(posMap[pos]||0);
+      var col=pos==='ALL'?'#94a3b8':(POS_COLORS[pos]||'#94a3b8');
+      html+='<button data-p="'+pos+'" onclick="galaxyFilterPos(this.dataset.p)" id="'+'galpos-'+pos+'" style="background:'+(filterPos===pos?col+'33':'#0f172a')+';color:'+col+';border:1px solid '+(filterPos===pos?col:'#334155')+';padding:3px 8px;border-radius:12px;font-size:11px;cursor:pointer;margin:2px;">'+pos+'<span style="opacity:0.6;margin-left:3px;">'+cnt+'</span></button>';
+    });
+    container.innerHTML=html;
+  }
+
+  function buildGradeFilters(container) {
+    var gradeMap={};
+    allPlayers.forEach(function(p){ gradeMap[p.grade]=(gradeMap[p.grade]||0)+1; });
+    var allGrades=['ALL','A+','A','A-','B+','B','B-','VET'];
+    var btns=allGrades.filter(function(g){ return g==='ALL'||gradeMap[g]; });
+    var html='';
+    btns.forEach(function(g){
+      var cnt=g==='ALL'?allPlayers.length:(gradeMap[g]||0);
+      var col=g==='ALL'?'#94a3b8':(gradeColors[g]||'#94a3b8');
+      html+='<button data-g="'+g+'" onclick="galaxyFilterGrade(this.dataset.g)" id="'+'galgrd-'+g+'" style="background:'+(filterGrade===g?col+'33':'#0f172a')+';color:'+col+';border:1px solid '+(filterGrade===g?col:'#334155')+';padding:3px 8px;border-radius:12px;font-size:11px;cursor:pointer;margin:2px;">'+g+'<span style="opacity:0.6;margin-left:3px;">'+cnt+'</span></button>';
+    });
+    container.innerHTML=html;
+  }
+
+  function buildLegend(container) {
+    var html='<div style="display:flex;flex-wrap:wrap;gap:6px;">';
+    Object.keys(POS_COLORS).forEach(function(pos){
+      html+='<span style="display:flex;align-items:center;gap:3px;font-size:11px;color:#94a3b8;"><span style="width:8px;height:8px;border-radius:50%;background:'+POS_COLORS[pos]+';display:inline-block;"></span>'+pos+'</span>';
+    });
+    html+='</div>';
+    container.innerHTML=html;
+  }
+
+  function updateCount(container) {
+    var vis=starMeshes.filter(function(m){ return m.visible; }).length;
+    container.textContent=vis+' / '+allPlayers.length+' players';
   }
 
   function refreshVisibility() {
-    _spheres.forEach(function(s, i) {
-      var p = _players[i];
-      var posOk = _posFilter === 'ALL' || p.pos === _posFilter;
-      var gradeOk = _gradeFilter === 'ALL' || p.grade === _gradeFilter;
-      var searchOk = !_searchQuery || p.name.toLowerCase().includes(_searchQuery) || p.team.toLowerCase().includes(_searchQuery) || p.org.toLowerCase().includes(_searchQuery);
-      s.visible = posOk && gradeOk && searchOk;
+    var pfDiv=document.getElementById('gal-posfilters');
+    var gfDiv=document.getElementById('gal-gradefilters');
+    var cntDiv=document.getElementById('gal-count');
+    starMeshes.forEach(function(m,i){
+      var p=allPlayers[i];
+      var posOk=filterPos==='ALL'||p.pos===filterPos;
+      var gradeOk=filterGrade==='ALL'||p.grade===filterGrade;
+      var searchOk=!searchStr||(p.name.toLowerCase().indexOf(searchStr)>=0)||(p.team.toLowerCase().indexOf(searchStr)>=0)||(p.org.toLowerCase().indexOf(searchStr)>=0);
+      var rookieOk=!rookieOnly||p.isRookie||p.isProspect;
+      m.visible=posOk&&gradeOk&&searchOk&&rookieOk;
     });
-    updateCount();
+    if(pfDiv) buildPosFilters(pfDiv);
+    if(gfDiv) buildGradeFilters(gfDiv);
+    if(cntDiv) updateCount(cntDiv);
   }
 
-  // Global filter setters
-  window.galaxySetPos = function(pos) {
-    _posFilter = pos;
-    buildPosFilters();
-    refreshVisibility();
-  };
-  window.galaxySetGrade = function(g) {
-    _gradeFilter = g;
-    buildGradeFilters();
-    refreshVisibility();
-  };
-
-  // ---- RAYCASTING ----
-  function doRaycast(clientX, clientY) {
-    if (!_renderer || !_camera || !_scene) return -1;
-    var mount = document.getElementById('galaxy-mount');
-    if (!mount) return -1;
-    var rect = mount.getBoundingClientRect();
-    var THREE = window.THREE;
-    var raycaster = new THREE.Raycaster();
-    raycaster.params.Points = {threshold: 0.5};
-    var mouse = new THREE.Vector2(
-      ((clientX - rect.left) / rect.width) * 2 - 1,
-      -((clientY - rect.top) / rect.height) * 2 + 1
-    );
-    raycaster.setFromCamera(mouse, _camera);
-    var visible = _spheres.filter(function(s){return s.visible;});
-    var hits = raycaster.intersectObjects(visible);
-    if (hits.length > 0) return hits[0].object.userData.idx;
-    return -1;
+  function doRaycast(event, container) {
+    var rect=container.getBoundingClientRect();
+    var cx=event.clientX||((event.touches||[{}])[0].clientX||0);
+    var cy=event.clientY||((event.touches||[{}])[0].clientY||0);
+    mouse.x=((cx-rect.left)/rect.width)*2-1;
+    mouse.y=-((cy-rect.top)/rect.height)*2+1;
+    raycaster.setFromCamera(mouse,camera);
+    var hits=raycaster.intersectObjects(starMeshes.filter(function(m){return m.visible;}));
+    return hits.length>0?hits[0].object:null;
   }
 
-  // ---- MOUSE/TOUCH EVENTS ----
-  function setupEvents(mount) {
-    mount.addEventListener('mousedown', function(e) {
-      _isDragging = false;
-      _lastMouse = {x: e.clientX, y: e.clientY};
-    });
-    mount.addEventListener('mousemove', function(e) {
-      if (e.buttons === 1) {
-        _isDragging = true;
-        var dx = e.clientX - _lastMouse.x;
-        var dy = e.clientY - _lastMouse.y;
-        _targetTheta -= dx * 0.006;
-        _targetPhi = Math.max(0.15, Math.min(Math.PI - 0.15, _targetPhi + dy * 0.006));
-        _lastMouse = {x: e.clientX, y: e.clientY};
+  function setupEvents(container) {
+    var tooltip=document.getElementById('gal-tooltip');
+    var isDragging=false,lastMouse={x:0,y:0},theta=0,phi=Math.PI/3,camDist=200;
+
+    container.addEventListener('mousedown',function(e){isDragging=true;lastMouse={x:e.clientX,y:e.clientY};});
+    container.addEventListener('mouseup',function(){isDragging=false;});
+    container.addEventListener('mousemove',function(e){
+      if(isDragging){
+        var dx=e.clientX-lastMouse.x,dy=e.clientY-lastMouse.y;
+        theta-=dx*0.01;phi-=dy*0.01;
+        phi=Math.max(0.1,Math.min(Math.PI-0.1,phi));
+        lastMouse={x:e.clientX,y:e.clientY};
+        targetCamPos={x:camDist*Math.sin(phi)*Math.sin(theta),y:camDist*Math.cos(phi),z:camDist*Math.sin(phi)*Math.cos(theta)};
       } else {
-        var idx = doRaycast(e.clientX, e.clientY);
-        if (idx !== _hoveredIdx) {
-          _hoveredIdx = idx;
-          if (idx >= 0) mount.style.cursor = 'pointer';
-          else mount.style.cursor = 'grab';
+        var hit=doRaycast(e,container);
+        if(hit){
+          var p=hit.userData.player;
+          if(tooltip){
+            tooltip.style.display='block';
+            tooltip.style.left=(e.clientX-container.getBoundingClientRect().left+10)+'px';
+            tooltip.style.top=(e.clientY-container.getBoundingClientRect().top-30)+'px';
+            tooltip.textContent=p.name+' ('+p.pos+') — '+(p.isProspect?p.grade+' | FV:'+p.fgFV:'Dyn:'+p.dynVal);
+          }
+          hoveredIdx=hit.userData.idx;
+        } else {
+          if(tooltip) tooltip.style.display='none';
+          hoveredIdx=-1;
         }
       }
     });
-    mount.addEventListener('mouseup', function(e) {
-      if (!_isDragging) {
-        var idx = doRaycast(e.clientX, e.clientY);
-        if (idx >= 0) {
-          _selectedIdx = idx;
-          var neighbors = getNeighbors(_players, _coords, idx, 8);
-          renderDetail(_players[idx], neighbors, _players);
-        }
+    container.addEventListener('wheel',function(e){
+      e.preventDefault();
+      camDist=Math.max(50,Math.min(500,camDist+e.deltaY*0.3));
+      targetCamPos={x:camDist*Math.sin(phi)*Math.sin(theta),y:camDist*Math.cos(phi),z:camDist*Math.sin(phi)*Math.cos(theta)};
+    });
+    container.addEventListener('click',function(e){
+      var hit=doRaycast(e,container);
+      if(hit){
+        selectedIdx=hit.userData.idx;
+        renderDetail(selectedIdx);
+        var mp=hit.position;
+        var dist=100;
+        var angle=Math.atan2(mp.x,mp.z);
+        targetCamPos={x:mp.x+dist*Math.sin(angle+0.4),y:mp.y+30,z:mp.z+dist*Math.cos(angle+0.4)};
       }
     });
-    mount.addEventListener('wheel', function(e) {
-      e.preventDefault();
-      _targetR = Math.max(10, Math.min(120, _targetR + e.deltaY * 0.04));
-    }, {passive: false});
-    // Touch support
-    var _lastTouch = null, _lastPinchDist = null;
-    mount.addEventListener('touchstart', function(e) {
-      if (e.touches.length === 1) _lastTouch = {x: e.touches[0].clientX, y: e.touches[0].clientY};
-      else if (e.touches.length === 2) {
-        var dx = e.touches[0].clientX - e.touches[1].clientX;
-        var dy = e.touches[0].clientY - e.touches[1].clientY;
-        _lastPinchDist = Math.sqrt(dx*dx+dy*dy);
-      }
-    }, {passive: true});
-    mount.addEventListener('touchmove', function(e) {
-      e.preventDefault();
-      if (e.touches.length === 1 && _lastTouch) {
-        var dx = e.touches[0].clientX - _lastTouch.x;
-        var dy = e.touches[0].clientY - _lastTouch.y;
-        _targetTheta -= dx * 0.006;
-        _targetPhi = Math.max(0.15, Math.min(Math.PI-0.15, _targetPhi + dy * 0.006));
-        _lastTouch = {x: e.touches[0].clientX, y: e.touches[0].clientY};
-      } else if (e.touches.length === 2 && _lastPinchDist) {
-        var dx2 = e.touches[0].clientX - e.touches[1].clientX;
-        var dy2 = e.touches[0].clientY - e.touches[1].clientY;
-        var dist = Math.sqrt(dx2*dx2+dy2*dy2);
-        _targetR = Math.max(10, Math.min(120, _targetR * (_lastPinchDist/dist)));
-        _lastPinchDist = dist;
-      }
-    }, {passive: false});
+    container.addEventListener('touchstart',function(e){ e.preventDefault(); var t=e.touches[0]; lastMouse={x:t.clientX,y:t.clientY}; isDragging=true; },{passive:false});
+    container.addEventListener('touchmove',function(e){ e.preventDefault(); var t=e.touches[0]; var dx=t.clientX-lastMouse.x,dy=t.clientY-lastMouse.y; theta-=dx*0.01; phi-=dy*0.01; phi=Math.max(0.1,Math.min(Math.PI-0.1,phi)); lastMouse={x:t.clientX,y:t.clientY}; targetCamPos={x:camDist*Math.sin(phi)*Math.sin(theta),y:camDist*Math.cos(phi),z:camDist*Math.sin(phi)*Math.cos(theta)}; },{passive:false});
+    container.addEventListener('touchend',function(){isDragging=false;});
   }
 
-// ---- ANIMATE ----
   function animate() {
-    _animId = requestAnimationFrame(animate);
-    var THREE = window.THREE;
-    var t = _clock.getElapsedTime();
-
-    // Smooth camera interpolation
-    var alpha = 0.06;
-    _camTheta += (_targetTheta - _camTheta) * alpha;
-    _camPhi += (_targetPhi - _camPhi) * alpha;
-    _camR += (_targetR - _camR) * alpha;
+    animFrameId=requestAnimationFrame(animate);
     updateCamera();
-
-    // Pulsing for hovered/selected
-    _spheres.forEach(function(s, i) {
-      if (!s.visible) return;
-      var p = _players[i];
-      var baseEmissive = 0.35;
-      var baseScale = 1.0;
-      if (i === _selectedIdx) {
-        var pulse = 1.0 + 0.15 * Math.sin(t * 3);
-        s.scale.setScalar(pulse * 1.4);
-        s.material.emissiveIntensity = 0.8 + 0.2 * Math.sin(t * 3);
-      } else if (i === _hoveredIdx) {
-        s.scale.setScalar(1.25);
-        s.material.emissiveIntensity = 0.65;
+    var t=clock.getElapsedTime();
+    starMeshes.forEach(function(m,i){
+      if(!m.visible) return;
+      var p=allPlayers[i];
+      var isSelected=i===selectedIdx;
+      var isHovered=i===hoveredIdx;
+      if(isSelected){
+        var pulse=0.5+0.5*Math.sin(t*3);
+        m.material.emissiveIntensity=0.8+pulse*0.5;
+        m.scale.setScalar(1+pulse*0.3);
+      } else if(isHovered){
+        m.material.emissiveIntensity=0.7;
+        m.scale.setScalar(1.3);
       } else {
-        s.scale.setScalar(1.0);
-        s.material.emissiveIntensity = baseEmissive;
+        m.material.emissiveIntensity=m.userData.baseEmissive||0.3;
+        m.scale.setScalar(1);
+      }
+      // Update label position
+      var lbl=labelDivs[i];
+      if(lbl){
+        if(showLabels && m.visible){
+          var pos=m.position.clone().project(camera);
+          var canvas=renderer.domElement;
+          var x=(pos.x+1)/2*canvas.clientWidth;
+          var y=(-pos.y+1)/2*canvas.clientHeight;
+          lbl.style.display='block';
+          lbl.style.left=(x+6)+'px';
+          lbl.style.top=(y-4)+'px';
+        } else {
+          lbl.style.display='none';
+        }
       }
     });
-
-    // Draw labels
-    if (_labelCanvas && _labelCtx && _camera && _scene) {
-      _labelCtx.clearRect(0, 0, _labelCanvas.width, _labelCanvas.height);
-      if (_showLabels) {
-        _spheres.forEach(function(s, i) {
-          if (!s.visible) return;
-          var p = _players[i];
-          var fv = p.fgFV || 35;
-          // Only show labels for high-value or selected/hovered players
-          var show = i === _selectedIdx || i === _hoveredIdx || fv >= 55 || (p.grade === 'A+' || p.grade === 'A');
-          if (!show) return;
-          // Project to screen
-          var pos3 = s.position.clone();
-          pos3.project(_camera);
-          var x = (pos3.x + 1) / 2 * _labelCanvas.width;
-          var y = (-pos3.y + 1) / 2 * _labelCanvas.height;
-          if (pos3.z > 1) return; // behind camera
-          var col = POS_COLORS[p.pos] || '#94a3b8';
-          var fontSize = i === _selectedIdx ? 12 : 10;
-          _labelCtx.font = 'bold ' + fontSize + 'px system-ui,sans-serif';
-          var label = p.name + (p.fgDynRank ? ' #' + p.fgDynRank : '');
-          var tw = _labelCtx.measureText(label).width;
-          // Background pill
-          _labelCtx.fillStyle = 'rgba(2,4,8,0.78)';
-          _labelCtx.beginPath();
-          _labelCtx.roundRect(x - tw/2 - 4, y - fontSize - 14, tw + 8, fontSize + 6, 4);
-          _labelCtx.fill();
-          // Text
-          _labelCtx.fillStyle = i === _selectedIdx ? '#ffffff' : col;
-          _labelCtx.textAlign = 'center';
-          _labelCtx.textBaseline = 'bottom';
-          _labelCtx.fillText(label, x, y - 8);
-        });
-      }
-      // Always draw tooltip for hovered
-      if (_hoveredIdx >= 0 && _hoveredIdx !== _selectedIdx) {
-        var s = _spheres[_hoveredIdx];
-        var p = _players[_hoveredIdx];
-        var pos3 = s.position.clone().project(_camera);
-        var tx = (pos3.x + 1) / 2 * _labelCanvas.width;
-        var ty = (-pos3.y + 1) / 2 * _labelCanvas.height - 15;
-        var col = POS_COLORS[p.pos] || '#94a3b8';
-        var ttxt = p.name + ' · ' + p.grade + ' · ' + p.org;
-        _labelCtx.font = 'bold 11px system-ui,sans-serif';
-        var ttw = _labelCtx.measureText(ttxt).width;
-        _labelCtx.fillStyle = 'rgba(2,4,8,0.9)';
-        _labelCtx.beginPath();
-        _labelCtx.roundRect(tx - ttw/2 - 6, ty - 16, ttw + 12, 20, 4);
-        _labelCtx.fill();
-        _labelCtx.strokeStyle = col;
-        _labelCtx.lineWidth = 1;
-        _labelCtx.stroke();
-        _labelCtx.fillStyle = '#ffffff';
-        _labelCtx.textAlign = 'center';
-        _labelCtx.textBaseline = 'bottom';
-        _labelCtx.fillText(ttxt, tx, ty + 1);
-      }
-    }
-
-    _renderer.render(_scene, _camera);
+    renderer.render(scene,camera);
   }
 
-  // ---- INIT GALAXY (called when tab is shown) ----
+  // ---- GLOBAL CONTROLS ----
+  window.galaxyClickIdx=function(idx){selectedIdx=idx;renderDetail(idx);};
+  window.galaxyFilterPos=function(pos){filterPos=pos;refreshVisibility();};
+  window.galaxyFilterGrade=function(g){filterGrade=g;refreshVisibility();};
+  window.galaxySearch=function(s){searchStr=s.toLowerCase();refreshVisibility();};
+  window.galaxyToggleLabels=function(v){showLabels=v;};
+  window.galaxyToggleRookie=function(v){rookieOnly=v;refreshVisibility();};
+  window.galaxySelectByName=function(name){
+    var idx=allPlayers.findIndex(function(p){return p.name===name;});
+    if(idx>=0){selectedIdx=idx;renderDetail(idx);}
+  };
+
+  // ---- INIT ----
   function initGalaxy() {
-    if (!window.THREE) { setTimeout(initGalaxy, 200); return; }
-    initThreeGalaxy();
+    var container=document.getElementById('gal-canvas');
+    if(!container) return;
+    if(animFrameId){cancelAnimationFrame(animFrameId);animFrameId=null;}
+    while(container.firstChild) container.removeChild(container.firstChild);
+    initThreeGalaxy(container);
+    var players=buildPlayers();
+    spawnStars(players,container);
+    var pfDiv=document.getElementById('gal-posfilters');
+    var gfDiv=document.getElementById('gal-gradefilters');
+    var lgDiv=document.getElementById('gal-legend');
+    var cntDiv=document.getElementById('gal-count');
+    if(pfDiv) buildPosFilters(pfDiv);
+    if(gfDiv) buildGradeFilters(gfDiv);
+    if(lgDiv) buildLegend(lgDiv);
+    if(cntDiv) updateCount(cntDiv);
+    renderDetail(-1);
+    setupEvents(container);
+    animate();
+    window.addEventListener('resize',function(){
+      if(!renderer) return;
+      var W=container.clientWidth,H=container.clientHeight;
+      renderer.setSize(W,H);
+      camera.aspect=W/H;
+      camera.updateProjectionMatrix();
+    });
   }
 
-  // ---- EXPOSE SEARCH ----
-  window.galaxySearch = function(q) {
-    var el = document.getElementById('gx-search');
-    if (el) { el.value = q; _searchQuery = q.toLowerCase(); refreshVisibility(); }
+  // Auto-init when tab shown
+  var origShowTab=window.showTab;
+  window.showTab=function(tab){
+    if(origShowTab) origShowTab(tab);
+    if(tab==='galaxy') setTimeout(initGalaxy,50);
   };
-
-  // ---- WRAP showTab FOR LAZY INIT ----
-  var _gxInited = false;
-  var _origShowTab = window.showTab;
-  window.showTab = function(tab) {
-    _origShowTab(tab);
-    if (tab === 'galaxy' && !_gxInited) {
-      _gxInited = true;
-      setTimeout(initGalaxy, 80);
-    }
-  };
-
-  // Handle resize
-  window.addEventListener('resize', function() {
-    if (!_renderer || !_camera) return;
-    var mount = document.getElementById('galaxy-mount');
-    if (!mount) return;
-    var W = mount.clientWidth, H = mount.clientHeight;
-    if (W < 1 || H < 1) return;
-    _renderer.setSize(W, H);
-    _camera.aspect = W/H;
-    _camera.updateProjectionMatrix();
-    if (_labelCanvas) { _labelCanvas.width = W; _labelCanvas.height = H; }
-  });
 
 })();
+
 </script></body></html>
