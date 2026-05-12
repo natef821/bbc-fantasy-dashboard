@@ -2948,7 +2948,7 @@ setInterval(function(){
   }
 
   function buildPlayers() {
-    if (!window.FARM_RANKS) return [];
+    if (!FARM_RANKS) return [];
     var players = [];
     var seen = new Set();
     FARM_RANKS.forEach(function(team) {
