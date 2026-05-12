@@ -702,38 +702,38 @@ Felix Bautista (RP)
   <div id="news-feed" style="display:grid;gap:0.75rem;"></div>
 </div>
 <div id="tab-galaxy" class="tab-content">
-  <div style="background:#0f172a;min-height:calc(100vh - 60px);padding:16px;font-family:'Inter',sans-serif;">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
-      <div>
-        <h2 style="color:#e2e8f0;margin:0;font-size:18px;font-weight:700;">🌌 Prospect Galaxy</h2>
-        <div id="gal-count" style="color:#64748b;font-size:12px;margin-top:2px;">Loading...</div>
+  <div style="background:#0a0e1a;padding:0;">
+    <div style="padding:18px 24px 12px;border-bottom:1px solid #1e293b;">
+      <h2 style="font-size:22px;font-weight:800;color:#f1f5f9;margin:0 0 4px;letter-spacing:-0.5px;">&#127776; Prospect Galaxy</h2>
+      <p id="gal-subtitle" style="font-size:12px;color:#64748b;margin:0;">3D dynasty similarity galaxy &mdash; <span id="gal-count"></span> players plotted. Position clusters emerge from PCA on age, value, rank &amp; experience. Drag to orbit, scroll to zoom, click any star.</p>
+    </div>
+    <div style="padding:8px 24px;display:flex;align-items:center;gap:8px;flex-wrap:wrap;border-bottom:1px solid #1e293b;background:#0d1424;">
+      <input id="gal-searchinput" type="text" placeholder="Search &amp; highlight player..." oninput="galaxySearch(this.value)" style="flex:1;min-width:180px;max-width:480px;padding:7px 12px;background:#1e293b;border:1px solid #334155;border-radius:6px;color:#f1f5f9;font-size:13px;outline:none;">
+      <div id="gal-posfilters" style="display:flex;gap:4px;flex-wrap:wrap;align-items:center;"></div>
+      <span style="font-size:11px;color:#64748b;margin-left:2px;">VET:</span>
+      <input id="gal-vet-slider" type="range" min="0" max="100" value="100" oninput="galaxySetVetOpacity(this.value/100)" style="width:72px;accent-color:#60a5fa;">
+      <label style="display:flex;align-items:center;gap:4px;font-size:12px;color:#94a3b8;cursor:pointer;white-space:nowrap;">
+        <input id="gal-labels-toggle" type="checkbox" onchange="galaxyToggleLabels(this.checked)"> Labels
+      </label>
+      <label style="display:flex;align-items:center;gap:4px;font-size:12px;color:#60a5fa;cursor:pointer;white-space:nowrap;font-weight:600;">
+        <input id="gal-rookie-toggle" type="checkbox" onchange="galaxyToggleRookie(this.checked)"> Rookies Only
+      </label>
+    </div>
+    <div style="padding:7px 24px;display:flex;align-items:center;gap:4px;flex-wrap:wrap;border-bottom:1px solid #1e293b;">
+      <div id="gal-gradefilters" style="display:flex;gap:4px;flex-wrap:wrap;"></div>
+      <div id="gal-legend" style="margin-left:auto;display:flex;gap:10px;align-items:center;flex-wrap:wrap;"></div>
+    </div>
+    <div style="display:flex;position:relative;">
+      <div style="flex:1;position:relative;min-height:560px;">
+        <div id="gal-canvas" style="width:100%;height:560px;background:#020817;"></div>
+        <div id="gal-tooltip" style="position:absolute;display:none;background:rgba(15,23,42,0.95);border:1px solid #334155;border-radius:6px;padding:6px 10px;font-size:12px;color:#f1f5f9;pointer-events:none;z-index:10;max-width:180px;"></div>
       </div>
-      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
-        <label style="color:#94a3b8;font-size:12px;display:flex;align-items:center;gap:4px;">
-          <input type="checkbox" id="gal-labels-toggle" onchange="galaxyToggleLabels(this.checked)">Labels
-        </label>
-        <label style="color:#60a5fa;font-size:12px;font-weight:600;display:flex;align-items:center;gap:4px;">
-          <input type="checkbox" id="gal-rookie-toggle" onchange="galaxyToggleRookie(this.checked)">Rookies Only
-        </label>
-        <input type="text" placeholder="Search player, team, org..." oninput="galaxySearch(this.value)" style="background:#1e293b;border:1px solid #334155;color:#e2e8f0;padding:5px 10px;border-radius:6px;font-size:12px;width:200px;">
+      <div id="gal-detail" style="width:260px;background:#0d1424;border-left:1px solid #1e293b;padding:16px;font-size:13px;min-height:560px;overflow-y:auto;flex-shrink:0;">
+        <p style="color:#475569;font-style:italic;font-size:12px;margin-top:40px;text-align:center;">Click a star to see details</p>
       </div>
     </div>
-    <div id="gal-posfilters" style="margin-bottom:8px;"></div>
-    <div id="gal-gradefilters" style="margin-bottom:10px;"></div>
-    <div style="display:flex;gap:12px;height:580px;">
-      <div style="flex:1;position:relative;border-radius:10px;overflow:hidden;background:#030712;border:1px solid #1e293b;">
-        <div id="gal-canvas" style="width:100%;height:100%;"></div>
-        <div id="gal-tooltip" style="position:absolute;background:rgba(15,23,42,0.95);color:#e2e8f0;font-size:12px;padding:5px 10px;border-radius:6px;pointer-events:none;display:none;border:1px solid #334155;z-index:10;"></div>
-      </div>
-      <div id="gal-detail" style="width:260px;background:#0f172a;border:1px solid #1e293b;border-radius:10px;padding:14px;overflow-y:auto;flex-shrink:0;font-family:'Inter',sans-serif;">
-        <p style="color:#64748b;font-style:italic;font-size:13px;margin-top:40px;text-align:center;">Click a star to see details</p>
-      </div>
-    </div>
-    <div id="gal-legend" style="margin-top:10px;"></div>
   </div>
-</div>
-</div>
-<script>
+</div><script>
 // ===================== LEAGUE DATA =====================
 const LEAGUE = {
   name: 'Brett Baty Fan Club',
@@ -3506,7 +3506,7 @@ setInterval(function(){
     return '?';
   }
   function cleanName(name) {
-    return name.replace(/s*([^)]+)/, '').trim();
+    return name.replace(/\s*\([^)]+\)/g, '').trim();
   }
 
   // ---- BUILD PLAYERS ----
@@ -3967,7 +3967,8 @@ setInterval(function(){
     if(idx>=0){selectedIdx=idx;renderDetail(idx);}
   };
 
-  // ---- INIT ----
+
+  window.galaxySetVetOpacity=function(v){starMeshes.forEach(function(m){if(m.userData&&m.userData.player&&!m.userData.player.isProspect){m.material.opacity=v;m.material.transparent=v<1;}});};  // ---- INIT ----
   function initGalaxy() {
     var container=document.getElementById('gal-canvas');
     if(!container) return;
