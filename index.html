@@ -2928,7 +2928,7 @@ setInterval(function(){
   }
 
   function extractTeam(name) {
-    var m = name.match(/,s*([A-Z]+))/);
+    var m = name.match(/,\s*([A-Z]+)/);
     return m ? m[1] : '?';
   }
 
@@ -3090,7 +3090,7 @@ setInterval(function(){
       '<div style="display:flex;flex-direction:column;gap:.35rem;">' +
         neighbors.map(function(n) {
           var nc = POS_COLORS[n.player.pos] || POS_COLORS['?'];
-          return '<div onclick="galaxySelectByName(''+n.player.name+'')" style="padding:.4rem .6rem;background:#0a0d12;border-radius:4px;cursor:pointer;display:flex;align-items:center;gap:.6rem;border-left:2px solid '+nc+';">' +
+          return '<div onclick="galaxySelectByName(\'+n.player.name+\')" style="padding:.4rem .6rem;background:#0a0d12;border-radius:4px;cursor:pointer;display:flex;align-items:center;gap:.6rem;border-left:2px solid '+nc+';">' +
             '<div style="width:5px;height:5px;border-radius:50%;background:'+nc+';flex-shrink:0;"></div>' +
             '<div style="flex:1;min-width:0;">' +
               '<div style="font-size:.8rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+n.player.name+'</div>' +
@@ -3321,7 +3321,7 @@ setInterval(function(){
     var allBtns = ['ALL'].concat(posSet);
     container.innerHTML = allBtns.map(function(p) {
       var col = p === 'ALL' ? '#00d4aa' : (POS_COLORS[p]||'#888');
-      return '<button onclick="galaxyFilterPos(''+p+'')" id="gfp-'+p+'" style="padding:.3rem .6rem;background:'+(p==='ALL'?col:'var(--card)')+';border:1px solid '+(p==='ALL'?col:'var(--border)')+';color:'+(p==='ALL'?'#000':'var(--muted)')+';border-radius:4px;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;">'+p+'</button>';
+      return '<button onclick="galaxyFilterPos(\'+p+\')" id="gfp-'+p+'" style="padding:.3rem .6rem;background:'+(p==='ALL'?col:'var(--card)')+';border:1px solid '+(p==='ALL'?col:'var(--border)')+';color:'+(p==='ALL'?'#000':'var(--muted)')+';border-radius:4px;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;">'+p+'</button>';
     }).join('');
   }
 
