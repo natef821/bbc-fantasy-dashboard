@@ -2914,7 +2914,7 @@ setInterval(function(){
   var THREE_LOADED = false;
 
   function extractPos(name) {
-    var m = name.match(/(([^,)]+),/);
+    var m = name.match(/\(([^,)]+),/);
     if (!m) return '?';
     var p = m[1].trim();
     if (/SP|RP|P$/.test(p)) return p.includes('RP') ? 'RP' : 'SP';
