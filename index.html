@@ -244,7 +244,8 @@ tr:hover td{background:rgba(0,212,170,0.04)!important}
   <button class="nav-btn" onclick="showTab('injuryil')">🏥 IL Tracker</button>
   <button class="nav-btn" onclick="showTab('playoff')">🏆 Playoff Picture</button>
   <button class="nav-btn" onclick="showTab('tools');document.querySelector('.nav-tabs').classList.remove('open')">🛠️ Tools</button>
-  <button class="nav-btn" onclick="showTab('news');document.querySelector('.nav-tabs').classList.remove('open')">📰 League News</button></div>
+  <button class="nav-btn" onclick="showTab('news');document.querySelector('.nav-tabs').classList.remove('open')">📰 League News</button>
+    <button class="nav-btn" onclick="showTab('galaxy')">🌌 Galaxy</button></div>
 </nav>
   <div id="standings-ticker-wrap" style="background:linear-gradient(90deg,var(--card) 0%,var(--bg) 100%);border-bottom:1px solid var(--border);overflow:hidden;padding:5px 0;display:flex;align-items:center;">
     <span style="font-size:.68rem;font-weight:700;color:var(--accent);padding:0 12px 0 10px;white-space:nowrap;flex-shrink:0;letter-spacing:.05em;">📊 STANDINGS</span>
@@ -699,6 +700,30 @@ Felix Bautista (RP)
 <div id="tab-news" class="tab-content">
   <h2>📰 League News &amp; Commissioner Corner</h2>
   <div id="news-feed" style="display:grid;gap:0.75rem;"></div>
+<div id="tab-galaxy" class="tab-content">
+  <h2 style="font-family:inherit;font-size:1.6rem;font-weight:800;margin-bottom:.25rem;">🌌 Player Similarity Galaxy</h2>
+  <p style="color:var(--muted);font-size:.85rem;margin-bottom:1rem;">3D similarity map of all rostered prospects. Clusters form by position. Within each cluster, grade &amp; ETA spread players. Drag to orbit · Scroll to zoom · Click to select.</p>
+  <div style="display:flex;gap:.5rem;margin-bottom:.75rem;flex-wrap:wrap;align-items:center;">
+    <input id="galaxy-search" type="text" placeholder="Search player..." style="flex:1;min-width:180px;padding:.45rem .75rem;background:var(--card);border:1px solid var(--border);color:var(--text);border-radius:6px;font-size:.85rem;" oninput="galaxySearch(this.value)" />
+    <div id="galaxy-pos-filters" style="display:flex;gap:.35rem;flex-wrap:wrap;"></div>
+    <span id="galaxy-count" style="font-size:.75rem;color:var(--muted);white-space:nowrap;"></span>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr;gap:.75rem;" id="galaxy-layout">
+    <div id="galaxy-mount" style="width:100%;height:580px;background:#030508;border:1px solid var(--border);border-radius:8px;overflow:hidden;position:relative;cursor:grab;user-select:none;">
+      <div id="galaxy-loading" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:.75rem;">
+        <div style="width:36px;height:36px;border:3px solid #1a2233;border-top-color:#00d4aa;border-radius:50%;animation:spin .8s linear infinite;"></div>
+        <span style="color:var(--muted);font-size:.85rem;">Building galaxy…</span>
+      </div>
+      <div id="galaxy-legend" style="position:absolute;top:12px;left:12px;display:flex;gap:10px;flex-wrap:wrap;pointer-events:none;"></div>
+      <div id="galaxy-tooltip" style="position:absolute;display:none;background:rgba(3,5,8,.95);border:1px solid var(--border);border-radius:6px;padding:.5rem .75rem;font-size:.8rem;max-width:240px;pointer-events:none;z-index:10;"></div>
+      <div style="position:absolute;bottom:12px;right:12px;font-size:.7rem;color:#2a3441;text-align:right;pointer-events:none;line-height:1.7;">DRAG · ORBIT<br>SCROLL · ZOOM<br>CLICK · SELECT</div>
+    </div>
+    <div id="galaxy-detail" style="display:none;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1rem;"></div>
+  </div>
+  <div style="margin-top:.75rem;padding:.75rem;background:var(--card);border:1px solid var(--border);border-radius:6px;font-size:.78rem;color:var(--muted);line-height:1.6;">
+    <strong style="color:var(--text);">How it works:</strong> Each prospect gets a 12-dimension feature vector (position one-hot ×5 weight, FG Future Value, dynasty rank, ETA, grade). PCA compresses to 3 axes — the directions of maximum variance. Position weighting dominates axis 1 so SP/RP/C/SS/OF/etc clusters form. Within each cluster, grade and ETA spread players apart. The 6 closest comps are nearest neighbors in the full 12D space.
+  </div>
+</div>
 </div>
 <script>
 // ===================== LEAGUE DATA =====================
@@ -2869,4 +2894,486 @@ setInterval(function(){
     <div id="modal-content"></div>
   </div>
 </div>
-</body></html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+
+// ============ GALAXY MATRIX ============
+(function() {
+  // Baseball position colors
+  var POS_COLORS = {
+    'SP': '#ef4444', 'RP': '#f97316', 'C': '#eab308',
+    'SS': '#10b981', '2B': '#06b6d4', '3B': '#3b82f6',
+    '1B': '#8b5cf6', 'OF': '#ec4899', 'DH': '#64748b', '?': '#94a3b8'
+  };
+  var GRADE_VAL = {'A+':100,'A':85,'A-':72,'B+':60,'B':50,'B-':40,'C+':30,'C':20,'C-':12,'D':6};
+  var ALL_PLAYERS = [];
+  var activePos = 'ALL';
+  var selectedPlayer = null;
+  var hoveredPlayer = null;
+  var THREE_LOADED = false;
+
+  function extractPos(name) {
+    var m = name.match(/(([^,)]+),/);
+    if (!m) return '?';
+    var p = m[1].trim();
+    if (/SP|RP|P$/.test(p)) return p.includes('RP') ? 'RP' : 'SP';
+    if (/^C$|^CA$/.test(p)) return 'C';
+    if (/SS/.test(p)) return 'SS';
+    if (/2B/.test(p)) return '2B';
+    if (/3B/.test(p)) return '3B';
+    if (/1B/.test(p)) return '1B';
+    if (/OF|CF|RF|LF/.test(p)) return 'OF';
+    return p.split('/')[0].trim() || '?';
+  }
+
+  function extractTeam(name) {
+    var m = name.match(/,s*([A-Z]+))/);
+    return m ? m[1] : '?';
+  }
+
+  function cleanName(name) {
+    return name.replace(/s*([^)]+)s*$/, '').trim();
+  }
+
+  function gradeToVal(grade) {
+    return GRADE_VAL[grade] || 25;
+  }
+
+  function etaToYears(eta) {
+    if (!eta) return 2;
+    var yr = parseInt(eta);
+    if (isNaN(yr)) return 2;
+    return Math.max(0, yr - 2026);
+  }
+
+  function buildPlayers() {
+    if (!window.FARM_RANKS) return [];
+    var players = [];
+    var seen = new Set();
+    FARM_RANKS.forEach(function(team) {
+      var tName = team.team || team.teamId;
+      var farmGrade = team.grade || 'C';
+      (team.topProspects || []).forEach(function(p, idx) {
+        var key = p.name;
+        if (seen.has(key)) return;
+        seen.add(key);
+        var pos = extractPos(p.name);
+        var mlbTeam = extractTeam(p.name);
+        var cleanN = cleanName(p.name);
+        var val = gradeToVal(p.grade || p.fgFV ? (p.fgFV >= 60 ? 'A+' : p.fgFV >= 55 ? 'A' : p.fgFV >= 50 ? 'A-' : p.fgFV >= 45 ? 'B+' : p.fgFV >= 40 ? 'B' : 'B-') : p.grade);
+        if (p.fgFV) val = Math.max(val, p.fgFV);
+        var eta = etaToYears(p.eta);
+        var rankBoost = p.fgDynRank ? Math.max(0, 1 - p.fgDynRank / 150) : 0;
+        players.push({
+          name: cleanN,
+          fullName: p.name,
+          pos: pos,
+          mlbTeam: mlbTeam,
+          fantasyTeam: tName,
+          grade: p.grade || 'B',
+          fgFV: p.fgFV || 0,
+          fgDynRank: p.fgDynRank,
+          eta: p.eta || '—',
+          etaYears: eta,
+          val: val,
+          note: p.note || '',
+          rankBoost: rankBoost,
+          prospectRank: idx + 1
+        });
+      });
+    });
+    return players;
+  }
+
+  // PCA helpers
+  function dot(a, b) { var s = 0; for (var i = 0; i < a.length; i++) s += a[i]*b[i]; return s; }
+  function norm(v) { var l = Math.sqrt(dot(v,v)); return l > 1e-9 ? v.map(function(x){return x/l;}) : v.map(function(){return 0;}); }
+  function matVec(M, v) { return M.map(function(r){return dot(r,v);}); }
+
+  function pca3(data) {
+    var n = data.length, d = data[0].length;
+    if (n < 2) return data.map(function(){return [0,0,0];});
+    var mean = new Array(d).fill(0);
+    for (var i = 0; i < n; i++) for (var j = 0; j < d; j++) mean[j] += data[i][j]/n;
+    var X = data.map(function(v){return v.map(function(x,i){return x-mean[i];});});
+    var C = Array.from({length:d},function(){return new Array(d).fill(0);});
+    for (var i = 0; i < n; i++) for (var j = 0; j < d; j++) for (var k = 0; k < d; k++) C[j][k]+=X[i][j]*X[i][k]/(n-1||1);
+    var Cd = C.map(function(r){return [...r];});
+    var comps = [];
+    for (var ci = 0; ci < 3; ci++) {
+      var v = norm(new Array(d).fill(0).map(function(_,i){return Math.sin(ci*7+i*13)+Math.cos(ci*3+i*5);}));
+      for (var it = 0; it < 120; it++) {
+        var nv = norm(matVec(Cd, v));
+        if (Math.abs(dot(nv,v)) > 0.9999) { v = nv; break; }
+        v = nv;
+      }
+      comps.push(v);
+      var lam = dot(v, matVec(Cd, v));
+      for (var j = 0; j < d; j++) for (var k = 0; k < d; k++) Cd[j][k] -= lam*v[j]*v[k];
+    }
+    return X.map(function(v){return comps.map(function(c){return dot(v,c);});});
+  }
+
+  function buildFeatures(p) {
+    var W = 5; // position weight
+    var sp = (p.pos==='SP'?1:0)*W, rp = (p.pos==='RP'?1:0)*W;
+    var c = (p.pos==='C'?1:0)*W, ss = (p.pos==='SS'?1:0)*W;
+    var ib = (p.pos==='1B'?1:0)*W, sb = (p.pos==='2B'?1:0)*W;
+    var tb = (p.pos==='3B'?1:0)*W, of = (p.pos==='OF'?1:0)*W;
+    var valNorm = Math.log10(p.val + 1) / 2;
+    var etaNorm = 1 - Math.min(1, p.etaYears / 4);
+    var rankNorm = p.rankBoost;
+    var fvNorm = p.fgFV / 70;
+    return [sp, rp, c, ss, ib, sb, tb, of, valNorm, etaNorm, rankNorm, fvNorm];
+  }
+
+  function project(players) {
+    var features = players.map(buildFeatures);
+    var coords = pca3(features);
+    var mins = [Infinity,Infinity,Infinity], maxs = [-Infinity,-Infinity,-Infinity];
+    coords.forEach(function(c){c.forEach(function(v,i){if(v<mins[i])mins[i]=v;if(v>maxs[i])maxs[i]=v;});});
+    var ranges = maxs.map(function(m,i){return Math.max(1e-6,m-mins[i]);});
+    var S = 38;
+    return coords.map(function(c){return c.map(function(v,i){return ((v-mins[i])/ranges[i]-0.5)*2*S;});});
+  }
+
+  function getNeighbors(idx, players, n) {
+    var selF = buildFeatures(players[idx]);
+    return players.map(function(p,i){
+      if (i===idx) return null;
+      var f = buildFeatures(p);
+      var d = Math.sqrt(f.reduce(function(s,x,j){return s+(x-selF[j])**2;},0));
+      return {player:p, dist:d, idx:i};
+    }).filter(Boolean).sort(function(a,b){return a.dist-b.dist;}).slice(0,6);
+  }
+
+  function renderLegend(positions) {
+    var legend = document.getElementById('galaxy-legend');
+    if (!legend) return;
+    var seen = {};
+    var html = positions.map(function(pos) {
+      if (seen[pos]) return '';
+      seen[pos] = true;
+      var col = POS_COLORS[pos] || POS_COLORS['?'];
+      return '<div style="display:flex;align-items:center;gap:5px;font-size:.7rem;">' +
+        '<div style="width:9px;height:9px;border-radius:50%;background:'+col+';box-shadow:0 0 6px '+col+';"></div>' +
+        '<span style="color:#8b95a3;letter-spacing:.5px;">'+pos+'</span></div>';
+    }).join('');
+    legend.innerHTML = html;
+  }
+
+  function renderDetail(player, neighbors) {
+    var detail = document.getElementById('galaxy-detail');
+    if (!detail) return;
+    var col = POS_COLORS[player.pos] || POS_COLORS['?'];
+    var gradeColor = player.grade && player.grade.startsWith('A') ? '#10b981' :
+                     player.grade && player.grade.startsWith('B') ? '#fbbf24' : '#f87171';
+    detail.style.display = 'block';
+    detail.innerHTML =
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:.75rem;">' +
+        '<div style="display:flex;gap:.5rem;align-items:center;">' +
+          '<span style="background:'+col+';color:#fff;font-size:.7rem;font-weight:700;padding:2px 6px;border-radius:3px;">'+player.pos+'</span>' +
+          (player.fgFV ? '<span style="background:#1a2233;font-size:.7rem;padding:2px 6px;border-radius:3px;font-family:monospace;">FV '+player.fgFV+'</span>' : '') +
+        '</div>' +
+        '<button onclick="galaxyDeselect()" style="background:transparent;border:none;color:#8b95a3;font-size:1.1rem;cursor:pointer;padding:0;">✕</button>' +
+      '</div>' +
+      '<div style="font-size:1.1rem;font-weight:700;margin-bottom:.25rem;">'+player.name+'</div>' +
+      '<div style="font-size:.78rem;color:#8b95a3;margin-bottom:.75rem;font-family:monospace;">'+player.mlbTeam+' · ETA '+player.eta+'</div>' +
+      '<div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-bottom:.75rem;">' +
+        '<div><div style="font-size:.65rem;color:#8b95a3;letter-spacing:.5px;margin-bottom:2px;">GRADE</div><div style="font-size:1.3rem;font-weight:800;color:'+gradeColor+';">'+player.grade+'</div></div>' +
+        '<div><div style="font-size:.65rem;color:#8b95a3;letter-spacing:.5px;margin-bottom:2px;">OWNER</div><div style="font-size:.8rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+player.fantasyTeam+'</div></div>' +
+        (player.fgDynRank ? '<div><div style="font-size:.65rem;color:#8b95a3;letter-spacing:.5px;margin-bottom:2px;">FG DYN RANK</div><div style="font-size:.9rem;font-family:monospace;">#'+player.fgDynRank+'</div></div>' : '') +
+      '</div>' +
+      (player.note ? '<div style="font-size:.75rem;color:#8b95a3;line-height:1.5;margin-bottom:.75rem;border-left:2px solid '+col+';padding-left:.5rem;">'+player.note.slice(0,120)+(player.note.length>120?'…':'')+'</div>' : '') +
+      '<div style="font-size:.65rem;color:#8b95a3;letter-spacing:.5px;margin-bottom:.5rem;">SIMILAR PROSPECTS</div>' +
+      '<div style="display:flex;flex-direction:column;gap:.35rem;">' +
+        neighbors.map(function(n) {
+          var nc = POS_COLORS[n.player.pos] || POS_COLORS['?'];
+          return '<div onclick="galaxySelectByName(''+n.player.name+'')" style="padding:.4rem .6rem;background:#0a0d12;border-radius:4px;cursor:pointer;display:flex;align-items:center;gap:.6rem;border-left:2px solid '+nc+';">' +
+            '<div style="width:5px;height:5px;border-radius:50%;background:'+nc+';flex-shrink:0;"></div>' +
+            '<div style="flex:1;min-width:0;">' +
+              '<div style="font-size:.8rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">'+n.player.name+'</div>' +
+              '<div style="font-size:.68rem;color:#8b95a3;">'+n.player.pos+' · '+n.player.fantasyTeam+'</div>' +
+            '</div>' +
+            '<span style="font-size:.75rem;color:#00d4aa;font-family:monospace;">'+n.player.grade+'</span>' +
+          '</div>';
+        }).join('') +
+      '</div>';
+  }
+
+  // Three.js Galaxy renderer
+  var threeScene, threeCamera, threeRenderer, playerMeshes = [], selRing, hoverRing, camState;
+
+  function initThreeGalaxy(players, positions3d) {
+    var mount = document.getElementById('galaxy-mount');
+    if (!mount || !window.THREE) return;
+    var loading = document.getElementById('galaxy-loading');
+    if (loading) loading.style.display = 'none';
+    var w = mount.clientWidth, h = mount.clientHeight;
+
+    threeScene = new THREE.Scene();
+    threeScene.background = new THREE.Color(0x030508);
+    threeScene.fog = new THREE.FogExp2(0x030508, 0.007);
+
+    threeCamera = new THREE.PerspectiveCamera(50, w/h, 0.1, 500);
+    camState = { dist: 85, rotX: 0.2, rotY: 0.5, targX: 0.2, targY: 0.5 };
+
+    threeRenderer = new THREE.WebGLRenderer({ antialias: true });
+    threeRenderer.setSize(w, h);
+    threeRenderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    mount.appendChild(threeRenderer.domElement);
+
+    // Stars
+    var starsGeo = new THREE.BufferGeometry();
+    var sp = new Float32Array(2400);
+    for (var i = 0; i < 800; i++) {
+      var r = 120+Math.random()*80, th = Math.random()*Math.PI*2, ph = Math.acos(2*Math.random()-1);
+      sp[i*3]=r*Math.sin(ph)*Math.cos(th); sp[i*3+1]=r*Math.sin(ph)*Math.sin(th); sp[i*3+2]=r*Math.cos(ph);
+    }
+    starsGeo.setAttribute('position', new THREE.BufferAttribute(sp, 3));
+    threeScene.add(new THREE.Points(starsGeo, new THREE.PointsMaterial({color:0xffffff,size:.5,transparent:true,opacity:.35})));
+
+    // Cluster glows per position
+    var clusterCenters = {};
+    var uniquePos = [...new Set(players.map(function(p){return p.pos;}))];
+    uniquePos.forEach(function(pos) {
+      var indices = players.map(function(p,i){return p.pos===pos?i:-1;}).filter(function(i){return i>=0;});
+      if (!indices.length) return;
+      var cx=0,cy=0,cz=0;
+      indices.forEach(function(i){cx+=positions3d[i][0];cy+=positions3d[i][1];cz+=positions3d[i][2];});
+      cx/=indices.length;cy/=indices.length;cz/=indices.length;
+      var hexCol = parseInt((POS_COLORS[pos]||'#888888').replace('#',''), 16);
+      var gg = new THREE.Mesh(new THREE.SphereGeometry(10,12,12),
+        new THREE.MeshBasicMaterial({color:hexCol,transparent:true,opacity:.05,blending:THREE.AdditiveBlending,depthWrite:false,side:THREE.BackSide}));
+      gg.position.set(cx,cy,cz);
+      threeScene.add(gg);
+    });
+
+    // Player stars
+    playerMeshes = [];
+    var glowGroup = new THREE.Group();
+    players.forEach(function(p, i) {
+      var xyz = positions3d[i];
+      var col = parseInt((POS_COLORS[p.pos]||'#888888').replace('#',''), 16);
+      var radius = 0.4 + Math.log10(p.val+1) * 0.25;
+      var geo = new THREE.SphereGeometry(radius, 10, 10);
+      var mat = new THREE.MeshBasicMaterial({color:col});
+      var mesh = new THREE.Mesh(geo, mat);
+      mesh.position.set(xyz[0], xyz[1], xyz[2]);
+      mesh.userData = {player:p, idx:i, radius:radius};
+      threeScene.add(mesh);
+      playerMeshes.push(mesh);
+      // Glow
+      var gg = new THREE.Mesh(new THREE.SphereGeometry(radius*3,8,8),
+        new THREE.MeshBasicMaterial({color:col,transparent:true,opacity:.2,blending:THREE.AdditiveBlending,depthWrite:false}));
+      gg.position.copy(mesh.position);
+      glowGroup.add(gg);
+    });
+    threeScene.add(glowGroup);
+
+    // Selection rings
+    selRing = new THREE.Mesh(new THREE.RingGeometry(1,1.2,32),
+      new THREE.MeshBasicMaterial({color:0x00d4aa,side:THREE.DoubleSide,transparent:true,opacity:.9}));
+    selRing.visible = false;
+    threeScene.add(selRing);
+    hoverRing = new THREE.Mesh(new THREE.RingGeometry(1,1.15,28),
+      new THREE.MeshBasicMaterial({color:0xffffff,side:THREE.DoubleSide,transparent:true,opacity:.5}));
+    hoverRing.visible = false;
+    threeScene.add(hoverRing);
+
+    // Input
+    var raycaster = new THREE.Raycaster();
+    var ndc = new THREE.Vector2();
+    var pState = {drag:false,x:0,y:0,dx:0,dy:0,moved:false};
+
+    function raycast(ex, ey) {
+      var rect = threeRenderer.domElement.getBoundingClientRect();
+      ndc.x = ((ex-rect.left)/rect.width)*2-1;
+      ndc.y = -((ey-rect.top)/rect.height)*2+1;
+      raycaster.setFromCamera(ndc, threeCamera);
+      return raycaster.intersectObjects(playerMeshes);
+    }
+
+    var dom = threeRenderer.domElement;
+    dom.addEventListener('pointerdown', function(e) {
+      pState.drag=true;pState.moved=false;pState.x=e.clientX;pState.y=e.clientY;pState.dx=e.clientX;pState.dy=e.clientY;
+    });
+    window.addEventListener('pointermove', function(e) {
+      if (!pState.drag) {
+        var hits = raycast(e.clientX, e.clientY);
+        var tooltip = document.getElementById('galaxy-tooltip');
+        if (hits.length) {
+          dom.style.cursor='pointer';
+          var p = hits[0].object.userData.player;
+          hoveredPlayer = p;
+          hoverRing.position.copy(hits[0].object.position);
+          hoverRing.scale.setScalar(hits[0].object.userData.radius * 2.5);
+          hoverRing.visible = true;
+          if (tooltip) {
+            var col = POS_COLORS[p.pos]||'#888';
+            tooltip.style.display = 'block';
+            var rect = mount.getBoundingClientRect();
+            tooltip.style.left = Math.min(e.clientX - rect.left + 12, rect.width - 200) + 'px';
+            tooltip.style.top = Math.max(e.clientY - rect.top - 60, 8) + 'px';
+            tooltip.innerHTML = '<div style="display:flex;gap:6px;align-items:center;margin-bottom:4px;">' +
+              '<span style="background:'+col+';color:#fff;font-size:.65rem;font-weight:700;padding:1px 5px;border-radius:2px;">'+p.pos+'</span>' +
+              '<span style="font-weight:700;font-size:.85rem;">'+p.name+'</span></div>' +
+              '<div style="font-size:.7rem;color:#8b95a3;font-family:monospace;">'+p.mlbTeam+' · ETA '+p.eta+' · Grade <span style="color:#00d4aa;">'+p.grade+'</span></div>' +
+              '<div style="font-size:.7rem;color:#8b95a3;margin-top:2px;">'+p.fantasyTeam+'</div>';
+          }
+        } else {
+          dom.style.cursor='grab';
+          hoveredPlayer = null;
+          hoverRing.visible = false;
+          if (tooltip) tooltip.style.display='none';
+        }
+        return;
+      }
+      var dx = e.clientX-pState.x, dy = e.clientY-pState.y;
+      if (Math.abs(e.clientX-pState.dx)+Math.abs(e.clientY-pState.dy)>4) pState.moved=true;
+      camState.targY += dx*0.005;
+      camState.targX += dy*0.005;
+      camState.targX = Math.max(-Math.PI/2+.05, Math.min(Math.PI/2-.05, camState.targX));
+      pState.x=e.clientX;pState.y=e.clientY;
+    });
+    window.addEventListener('pointerup', function(e) {
+      if (pState.drag && !pState.moved) {
+        var hits = raycast(e.clientX, e.clientY);
+        if (hits.length) {
+          var obj = hits[0].object;
+          selectedPlayer = obj.userData.player;
+          selRing.position.copy(obj.position);
+          selRing.scale.setScalar(obj.userData.radius * 3);
+          selRing.visible = true;
+          var neighbors = getNeighbors(obj.userData.idx, players, 6);
+          renderDetail(selectedPlayer, neighbors);
+          document.getElementById('galaxy-layout').style.gridTemplateColumns = '1fr 300px';
+        } else {
+          selectedPlayer = null;
+          selRing.visible = false;
+          var det = document.getElementById('galaxy-detail');
+          if (det) det.style.display='none';
+          document.getElementById('galaxy-layout').style.gridTemplateColumns = '1fr';
+        }
+      }
+      pState.drag=false;
+    });
+    dom.addEventListener('wheel', function(e) {
+      e.preventDefault();
+      camState.dist = Math.max(20, Math.min(200, camState.dist+e.deltaY*.07));
+    }, {passive:false});
+
+    window.addEventListener('resize', function() {
+      if (!mount || !threeRenderer) return;
+      var nw=mount.clientWidth, nh=mount.clientHeight;
+      threeCamera.aspect=nw/nh;threeCamera.updateProjectionMatrix();threeRenderer.setSize(nw,nh);
+    });
+
+    function animate() {
+      requestAnimationFrame(animate);
+      camState.rotX += (camState.targX-camState.rotX)*0.1;
+      camState.rotY += (camState.targY-camState.rotY)*0.1;
+      if (!pState.drag) camState.targY+=0.0005;
+      var yaw=camState.rotY;
+      threeCamera.position.x=camState.dist*Math.cos(camState.rotX)*Math.sin(yaw);
+      threeCamera.position.y=camState.dist*Math.sin(camState.rotX);
+      threeCamera.position.z=camState.dist*Math.cos(camState.rotX)*Math.cos(yaw);
+      threeCamera.lookAt(0,0,0);
+      if (selRing.visible) selRing.lookAt(threeCamera.position);
+      if (hoverRing.visible) hoverRing.lookAt(threeCamera.position);
+      threeRenderer.render(threeScene,threeCamera);
+    }
+    animate();
+  }
+
+  // Public API
+  window.galaxyDeselect = function() {
+    selectedPlayer = null;
+    if (selRing) selRing.visible = false;
+    var det = document.getElementById('galaxy-detail');
+    if (det) det.style.display='none';
+    document.getElementById('galaxy-layout').style.gridTemplateColumns = '1fr';
+  };
+  window.galaxySelectByName = function(name) {
+    var idx = ALL_PLAYERS.findIndex(function(p){return p.name===name;});
+    if (idx<0) return;
+    var obj = playerMeshes[idx];
+    if (!obj) return;
+    selectedPlayer = ALL_PLAYERS[idx];
+    selRing.position.copy(obj.position);
+    selRing.scale.setScalar(obj.userData.radius*3);
+    selRing.visible = true;
+    var neighbors = getNeighbors(idx, ALL_PLAYERS, 6);
+    renderDetail(selectedPlayer, neighbors);
+    document.getElementById('galaxy-layout').style.gridTemplateColumns = '1fr 300px';
+  };
+  window.galaxySearch = function(q) {
+    if (!q || q.length < 2) return;
+    var found = ALL_PLAYERS.findIndex(function(p){return p.name.toLowerCase().includes(q.toLowerCase());});
+    if (found >= 0) window.galaxySelectByName(ALL_PLAYERS[found].name);
+  };
+
+  function buildPosFilters(positions) {
+    var container = document.getElementById('galaxy-pos-filters');
+    if (!container) return;
+    var posSet = [...new Set(positions)].sort();
+    var allBtns = ['ALL'].concat(posSet);
+    container.innerHTML = allBtns.map(function(p) {
+      var col = p === 'ALL' ? '#00d4aa' : (POS_COLORS[p]||'#888');
+      return '<button onclick="galaxyFilterPos(''+p+'')" id="gfp-'+p+'" style="padding:.3rem .6rem;background:'+(p==='ALL'?col:'var(--card)')+';border:1px solid '+(p==='ALL'?col:'var(--border)')+';color:'+(p==='ALL'?'#000':'var(--muted)')+';border-radius:4px;font-size:.7rem;font-weight:700;cursor:pointer;font-family:inherit;">'+p+'</button>';
+    }).join('');
+  }
+
+  window.galaxyFilterPos = function(pos) {
+    activePos = pos;
+    var allBtns = document.getElementById('galaxy-pos-filters');
+    if (allBtns) {
+      allBtns.querySelectorAll('button').forEach(function(btn) {
+        var p = btn.id.replace('gfp-','');
+        var col = p==='ALL'?'#00d4aa':(POS_COLORS[p]||'#888');
+        var active = p === pos;
+        btn.style.background = active ? col : 'var(--card)';
+        btn.style.borderColor = active ? col : 'var(--border)';
+        btn.style.color = active ? '#000' : 'var(--muted)';
+      });
+    }
+    if (!playerMeshes.length) return;
+    playerMeshes.forEach(function(m, i) {
+      var p = ALL_PLAYERS[i];
+      var visible = pos === 'ALL' || p.pos === pos;
+      m.visible = visible;
+    });
+  };
+
+  function initGalaxy() {
+    if (!window.THREE) {
+      setTimeout(initGalaxy, 200);
+      return;
+    }
+    ALL_PLAYERS = buildPlayers();
+    if (!ALL_PLAYERS.length) {
+      var loading = document.getElementById('galaxy-loading');
+      if (loading) loading.innerHTML = '<div style="color:var(--muted)">No player data found. Ensure FARM_RANKS is loaded.</div>';
+      return;
+    }
+    var positions3d = project(ALL_PLAYERS);
+    var uniquePos = [...new Set(ALL_PLAYERS.map(function(p){return p.pos;}))];
+    renderLegend(uniquePos);
+    buildPosFilters(uniquePos);
+    var countEl = document.getElementById('galaxy-count');
+    if (countEl) countEl.textContent = ALL_PLAYERS.length + ' STARS';
+    initThreeGalaxy(ALL_PLAYERS, positions3d);
+  }
+
+  // Init when galaxy tab is shown
+  var origShowTab = window.showTab;
+  window.showTab = function(tab) {
+    origShowTab(tab);
+    if (tab === 'galaxy' && !THREE_LOADED) {
+      THREE_LOADED = true;
+      setTimeout(initGalaxy, 100);
+    }
+  };
+})();
+</script></body></html>
