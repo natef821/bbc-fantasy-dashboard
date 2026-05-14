@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T08:32:03.772404Z",
+  "lastUpdated": "2026-05-14T13:57:40.809523Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -3626,6 +3626,36 @@
   },
   "transactions": [
     {
+      "displayDate": 1778774400000,
+      "teamId": "10100",
+      "id": "7pb3l227mp5jvz9c",
+      "seq": 137711,
+      "desc": "The Twins optioned Wallner to Triple-A St. Paul on Thursday, Betsy Helfand of the St. Paul Pioneer Press reports.",
+      "player": {
+        "teamName": "Minnesota Twins",
+        "urlName": "matt-wallner",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04o78_96_4.png",
+        "scorerId": "04o78",
+        "posShortNames": "RF",
+        "team": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "011"
+        ],
+        "teamId": "10100",
+        "name": "Matt Wallner",
+        "teamShortName": "MIN",
+        "shortName": "M. Wallner"
+      }
+    },
+    {
       "displayDate": 1778688000000,
       "teamId": "10210",
       "id": "mq4zz5bfmp4y23cv",
@@ -3708,15 +3738,8 @@
         "urlName": "hayden-senger",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q63_96_1.png",
         "scorerId": "04q63",
-        "upcomingEventStatusId": "5",
         "posShortNames": "C",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -3824,15 +3847,8 @@
         "teamName": "Baltimore Orioles",
         "urlName": "maverick-handley",
         "scorerId": "0514r",
-        "upcomingEventStatusId": "5",
         "posShortNames": "C",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -3855,15 +3871,8 @@
         "urlName": "bryce-miller",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05vy6_96_3.png",
         "scorerId": "05vy6",
-        "upcomingEventStatusId": "1",
         "posShortNames": "SP",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -3964,15 +3973,8 @@
         "urlName": "endy-rodriguez",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0529l_96_3.png",
         "scorerId": "0529l",
-        "upcomingEventStatusId": "5",
         "posShortNames": "1B,C",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4136,15 +4138,8 @@
         "urlName": "michael-stefanic",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t5r_96_2.png",
         "scorerId": "05t5r",
-        "upcomingEventStatusId": "1",
         "posShortNames": "2B",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4195,16 +4190,10 @@
       "player": {
         "teamName": "Athletics",
         "urlName": "henry-bolte",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y7t_96_1.png",
         "scorerId": "05y7t",
-        "upcomingEventStatusId": "1",
         "posShortNames": "RF,CF",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 5",
-            "typeId": "25"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4342,15 +4331,8 @@
         "urlName": "anthony-volpe",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04y9p_96_5.png",
         "scorerId": "04y9p",
-        "upcomingEventStatusId": "1",
         "posShortNames": "SS",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4373,14 +4355,9 @@
         "urlName": "christian-yelich",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs025dn_96_14.png",
         "scorerId": "025dn",
-        "upcomingEventStatusId": "5",
         "posShortNames": "DH,LF",
         "team": false,
         "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          },
           {
             "tooltip": "Back - Day-to-Day",
             "typeId": "1"
@@ -4450,44 +4427,41 @@
         "name": "Jimmy Herget",
         "teamShortName": "COL",
         "shortName": "J. Herget"
-      }
-    },
-    {
-      "displayDate": 1778601600000,
-      "teamId": "10150",
-      "id": "zwnesoxxmp2wvizb",
-      "seq": 137679,
-      "desc": "Atlanta selected Azocar's contract from Triple-A Gwinnett on Tuesday.",
-      "player": {
-        "teamName": "Atlanta Braves",
-        "urlName": "jose-azocar",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yux_96_5.png",
-        "scorerId": "03yux",
-        "upcomingEventStatusId": "1",
-        "posShortNames": "LF,CF,RF",
-        "team": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "009",
-          "010",
-          "011"
-        ],
-        "teamId": "10150",
-        "name": "Jose Azocar",
-        "teamShortName": "ATL",
-        "shortName": "J. Azocar"
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1778774400000,
+      "teamId": "10100",
+      "id": "7pb3l227mp5jvz9c",
+      "seq": 137711,
+      "desc": "The Twins optioned Wallner to Triple-A St. Paul on Thursday, Betsy Helfand of the St. Paul Pioneer Press reports.",
+      "player": {
+        "teamName": "Minnesota Twins",
+        "urlName": "matt-wallner",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04o78_96_4.png",
+        "scorerId": "04o78",
+        "posShortNames": "RF",
+        "team": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "011"
+        ],
+        "teamId": "10100",
+        "name": "Matt Wallner",
+        "teamShortName": "MIN",
+        "shortName": "M. Wallner"
+      }
+    },
+    {
       "displayDate": 1778688000000,
       "teamId": "10210",
       "id": "mq4zz5bfmp4y23cv",
@@ -4570,15 +4544,8 @@
         "urlName": "hayden-senger",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q63_96_1.png",
         "scorerId": "04q63",
-        "upcomingEventStatusId": "5",
         "posShortNames": "C",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4686,15 +4653,8 @@
         "teamName": "Baltimore Orioles",
         "urlName": "maverick-handley",
         "scorerId": "0514r",
-        "upcomingEventStatusId": "5",
         "posShortNames": "C",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4717,15 +4677,8 @@
         "urlName": "bryce-miller",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05vy6_96_3.png",
         "scorerId": "05vy6",
-        "upcomingEventStatusId": "1",
         "posShortNames": "SP",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4826,15 +4779,8 @@
         "urlName": "endy-rodriguez",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0529l_96_3.png",
         "scorerId": "0529l",
-        "upcomingEventStatusId": "5",
         "posShortNames": "1B,C",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4998,15 +4944,8 @@
         "urlName": "michael-stefanic",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t5r_96_2.png",
         "scorerId": "05t5r",
-        "upcomingEventStatusId": "1",
         "posShortNames": "2B",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -5057,16 +4996,10 @@
       "player": {
         "teamName": "Athletics",
         "urlName": "henry-bolte",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y7t_96_1.png",
         "scorerId": "05y7t",
-        "upcomingEventStatusId": "1",
         "posShortNames": "RF,CF",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 5",
-            "typeId": "25"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -5204,15 +5137,8 @@
         "urlName": "anthony-volpe",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04y9p_96_5.png",
         "scorerId": "04y9p",
-        "upcomingEventStatusId": "1",
         "posShortNames": "SS",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -5235,14 +5161,9 @@
         "urlName": "christian-yelich",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs025dn_96_14.png",
         "scorerId": "025dn",
-        "upcomingEventStatusId": "5",
         "posShortNames": "DH,LF",
         "team": false,
         "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          },
           {
             "tooltip": "Back - Day-to-Day",
             "typeId": "1"
@@ -5312,39 +5233,6 @@
         "name": "Jimmy Herget",
         "teamShortName": "COL",
         "shortName": "J. Herget"
-      }
-    },
-    {
-      "displayDate": 1778601600000,
-      "teamId": "10150",
-      "id": "zwnesoxxmp2wvizb",
-      "seq": 137679,
-      "desc": "Atlanta selected Azocar's contract from Triple-A Gwinnett on Tuesday.",
-      "player": {
-        "teamName": "Atlanta Braves",
-        "urlName": "jose-azocar",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yux_96_5.png",
-        "scorerId": "03yux",
-        "upcomingEventStatusId": "1",
-        "posShortNames": "LF,CF,RF",
-        "team": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "009",
-          "010",
-          "011"
-        ],
-        "teamId": "10150",
-        "name": "Jose Azocar",
-        "teamShortName": "ATL",
-        "shortName": "J. Azocar"
       }
     }
   ],
