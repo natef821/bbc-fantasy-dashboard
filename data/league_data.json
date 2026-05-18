@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T02:48:04.929186Z",
+  "lastUpdated": "2026-05-18T09:52:07.043745Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -31,10 +31,10 @@
       "short": "Lsgob",
       "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp",
       "rank": 3,
-      "fantasyPoints": "3747",
+      "fantasyPoints": "3748.75",
       "fptsPerGame": "5.67",
       "scoringPeriod": "661",
-      "gb": "314.5"
+      "gb": "312.75"
     },
     {
       "id": "8znzrpg1mg7kg72e",
@@ -257,7 +257,7 @@
         "l": 8,
         "t": 29,
         "pf": 3295.75,
-        "pa": 3658.0,
+        "pa": 3659.75,
         "name": "Honey Nut Chourio's",
         "weeklyPF": [
           262.75,
@@ -712,7 +712,7 @@
         "w": 10,
         "l": 5,
         "t": 29,
-        "pf": 3747.0,
+        "pf": 3748.75,
         "pa": 3476.75,
         "name": "Layin Wood\ud83e\udeb5",
         "weeklyPF": [
@@ -730,7 +730,7 @@
           260.5,
           271.5,
           319.0,
-          274.25,
+          276.0,
           0.0,
           0.0,
           0.0,
@@ -1683,7 +1683,7 @@
           {
             "team1": "Layin Wood\ud83e\udeb5",
             "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 274.25,
+            "team1Pts": 276.0,
             "team2": "Honey Nut Chourio's",
             "team2Id": "nbnjqx3cmg7kg72g",
             "team2Pts": 145.5,
@@ -3659,7 +3659,7 @@
       "teamId": "10130",
       "id": "9uwmdcqnmpab56ol",
       "seq": 137800,
-      "desc": "Emerson was called up from Triple-A Tacoma and he's batting ninth in Sunday's series finale versus the Padres, Daniel Kramer of MLB.com reports.",
+      "desc": "Emerson was called up from Triple-A Tacoma and is batting ninth in Sunday's series finale versus the Padres, Daniel Kramer of MLB.com reports.",
       "player": {
         "teamName": "Seattle Mariners",
         "urlName": "colt-emerson",
@@ -3963,15 +3963,8 @@
         "urlName": "grayson-rodriguez",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pko_96_4.png",
         "scorerId": "04pko",
-        "upcomingEventStatusId": "1",
         "posShortNames": "SP",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4133,15 +4126,8 @@
         "urlName": "robert-gasser",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05u6r_96_2.png",
         "scorerId": "05u6r",
-        "upcomingEventStatusId": "1",
         "posShortNames": "SP",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4301,15 +4287,8 @@
         "urlName": "pj-higgins",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qqe_96_7.png",
         "scorerId": "03qqe",
-        "upcomingEventStatusId": "5",
         "posShortNames": "1B,C,3B",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4359,15 +4338,8 @@
         "urlName": "jake-mangum",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05135_96_3.png",
         "scorerId": "05135",
-        "upcomingEventStatusId": "1",
         "posShortNames": "LF",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4421,15 +4393,8 @@
         "urlName": "carson-williams",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t9n_96_2.png",
         "scorerId": "05t9n",
-        "upcomingEventStatusId": "5",
         "posShortNames": "SS",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4507,7 +4472,7 @@
       "teamId": "10130",
       "id": "9uwmdcqnmpab56ol",
       "seq": 137800,
-      "desc": "Emerson was called up from Triple-A Tacoma and he's batting ninth in Sunday's series finale versus the Padres, Daniel Kramer of MLB.com reports.",
+      "desc": "Emerson was called up from Triple-A Tacoma and is batting ninth in Sunday's series finale versus the Padres, Daniel Kramer of MLB.com reports.",
       "player": {
         "teamName": "Seattle Mariners",
         "urlName": "colt-emerson",
@@ -4811,15 +4776,8 @@
         "urlName": "grayson-rodriguez",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pko_96_4.png",
         "scorerId": "04pko",
-        "upcomingEventStatusId": "1",
         "posShortNames": "SP",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -4981,15 +4939,8 @@
         "urlName": "robert-gasser",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05u6r_96_2.png",
         "scorerId": "05u6r",
-        "upcomingEventStatusId": "1",
         "posShortNames": "SP",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -5149,15 +5100,8 @@
         "urlName": "pj-higgins",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qqe_96_7.png",
         "scorerId": "03qqe",
-        "upcomingEventStatusId": "5",
         "posShortNames": "1B,C,3B",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -5207,15 +5151,8 @@
         "urlName": "jake-mangum",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05135_96_3.png",
         "scorerId": "05135",
-        "upcomingEventStatusId": "1",
         "posShortNames": "LF",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
@@ -5269,15 +5206,8 @@
         "urlName": "carson-williams",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t9n_96_2.png",
         "scorerId": "05t9n",
-        "upcomingEventStatusId": "5",
         "posShortNames": "SS",
         "team": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ],
         "rookie": false,
         "minorsEligible": false,
         "posIds": [
