@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T09:52:07.043745Z",
+  "lastUpdated": "2026-05-18T15:18:19.173373Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -3626,6 +3626,59 @@
   },
   "transactions": [
     {
+      "displayDate": 1779120000000,
+      "teamId": "10010",
+      "id": "3jrqngksmpb8uvdm",
+      "seq": 137802,
+      "desc": "The Cubs claimed Roa off waivers from the Orioles on Sunday.",
+      "player": {
+        "teamName": "Chicago Cubs",
+        "urlName": "christian-roa",
+        "scorerId": "05jp5",
+        "posShortNames": "RP",
+        "team": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "016"
+        ],
+        "teamId": "10200",
+        "name": "Christian Roa",
+        "teamShortName": "CHC",
+        "shortName": "C. Roa"
+      }
+    },
+    {
+      "displayDate": 1779033600000,
+      "teamId": "10290",
+      "id": "lpubsue0mpbbm2s2",
+      "seq": 137803,
+      "desc": "The Padres recalled Giolito from Double-A San Antonio to start Sunday's game against the Mariners.",
+      "player": {
+        "teamName": "San Diego Padres",
+        "urlName": "lucas-giolito",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02i37_96_14.png",
+        "scorerId": "02i37",
+        "posShortNames": "SP",
+        "team": false,
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "015"
+        ],
+        "teamId": "10290",
+        "name": "Lucas Giolito",
+        "teamShortName": "SD",
+        "shortName": "L. Giolito"
+      }
+    },
+    {
       "displayDate": 1779033600000,
       "teamId": "10010",
       "id": "h2t5rosympacbq3w",
@@ -4380,65 +4433,64 @@
         "name": "Aaron Brooks",
         "teamShortName": "TB",
         "shortName": "A. Brooks"
-      }
-    },
-    {
-      "displayDate": 1779033600000,
-      "teamId": "10040",
-      "id": "1r3ihnmimp9tf1a9",
-      "seq": 137773,
-      "desc": "The Rays recalled Williams from Triple-A Durham on Sunday.",
-      "player": {
-        "teamName": "Tampa Bay Rays",
-        "urlName": "carson-williams",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t9n_96_2.png",
-        "scorerId": "05t9n",
-        "posShortNames": "SS",
-        "team": false,
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "005"
-        ],
-        "teamId": "10040",
-        "name": "Carson Williams",
-        "teamShortName": "TB",
-        "shortName": "C. Williams"
-      }
-    },
-    {
-      "displayDate": 1778947200000,
-      "teamId": "10140",
-      "id": "tp5jifrqmp93uwu0",
-      "seq": 137771,
-      "desc": "Atlanta signed Gomber to a minor-league contract Saturday and assigned the 32-year-old southpaw to Triple-A Gwinnett, per MLB's transaction log.",
-      "player": {
-        "teamName": "Atlanta Braves",
-        "urlName": "austin-gomber",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dbe_96_15.png",
-        "scorerId": "03dbe",
-        "posShortNames": "SP",
-        "team": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "015"
-        ],
-        "teamId": "10150",
-        "name": "Austin Gomber",
-        "teamShortName": "ATL",
-        "shortName": "A. Gomber"
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1779120000000,
+      "teamId": "10010",
+      "id": "3jrqngksmpb8uvdm",
+      "seq": 137802,
+      "desc": "The Cubs claimed Roa off waivers from the Orioles on Sunday.",
+      "player": {
+        "teamName": "Chicago Cubs",
+        "urlName": "christian-roa",
+        "scorerId": "05jp5",
+        "posShortNames": "RP",
+        "team": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "016"
+        ],
+        "teamId": "10200",
+        "name": "Christian Roa",
+        "teamShortName": "CHC",
+        "shortName": "C. Roa"
+      }
+    },
+    {
+      "displayDate": 1779033600000,
+      "teamId": "10290",
+      "id": "lpubsue0mpbbm2s2",
+      "seq": 137803,
+      "desc": "The Padres recalled Giolito from Double-A San Antonio to start Sunday's game against the Mariners.",
+      "player": {
+        "teamName": "San Diego Padres",
+        "urlName": "lucas-giolito",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02i37_96_14.png",
+        "scorerId": "02i37",
+        "posShortNames": "SP",
+        "team": false,
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "015"
+        ],
+        "teamId": "10290",
+        "name": "Lucas Giolito",
+        "teamShortName": "SD",
+        "shortName": "L. Giolito"
+      }
+    },
+    {
       "displayDate": 1779033600000,
       "teamId": "10010",
       "id": "h2t5rosympacbq3w",
@@ -5193,60 +5245,6 @@
         "name": "Aaron Brooks",
         "teamShortName": "TB",
         "shortName": "A. Brooks"
-      }
-    },
-    {
-      "displayDate": 1779033600000,
-      "teamId": "10040",
-      "id": "1r3ihnmimp9tf1a9",
-      "seq": 137773,
-      "desc": "The Rays recalled Williams from Triple-A Durham on Sunday.",
-      "player": {
-        "teamName": "Tampa Bay Rays",
-        "urlName": "carson-williams",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t9n_96_2.png",
-        "scorerId": "05t9n",
-        "posShortNames": "SS",
-        "team": false,
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "005"
-        ],
-        "teamId": "10040",
-        "name": "Carson Williams",
-        "teamShortName": "TB",
-        "shortName": "C. Williams"
-      }
-    },
-    {
-      "displayDate": 1778947200000,
-      "teamId": "10140",
-      "id": "tp5jifrqmp93uwu0",
-      "seq": 137771,
-      "desc": "Atlanta signed Gomber to a minor-league contract Saturday and assigned the 32-year-old southpaw to Triple-A Gwinnett, per MLB's transaction log.",
-      "player": {
-        "teamName": "Atlanta Braves",
-        "urlName": "austin-gomber",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dbe_96_15.png",
-        "scorerId": "03dbe",
-        "posShortNames": "SP",
-        "team": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "015"
-        ],
-        "teamId": "10150",
-        "name": "Austin Gomber",
-        "teamShortName": "ATL",
-        "shortName": "A. Gomber"
       }
     }
   ],
