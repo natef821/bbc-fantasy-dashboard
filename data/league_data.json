@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T09:33:57.537987Z",
+  "lastUpdated": "2026-05-19T14:49:07.333005Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -3626,6 +3626,37 @@
   },
   "transactions": [
     {
+      "displayDate": 1779206400000,
+      "teamId": "10170",
+      "id": "3gum0an2mpcnifwb",
+      "seq": 137839,
+      "desc": "The Mets designated Slater for assignment Tuesday, Jon Heyman of the New York Post reports.",
+      "player": {
+        "teamName": "New York Mets",
+        "urlName": "austin-slater",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dg7_96_13.png",
+        "scorerId": "03dg7",
+        "posShortNames": "LF,RF",
+        "team": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "009",
+          "011"
+        ],
+        "teamId": "10170",
+        "name": "Austin Slater",
+        "teamShortName": "NYM",
+        "shortName": "A. Slater"
+      }
+    },
+    {
       "displayDate": 1779120000000,
       "teamId": "10190",
       "id": "4cxq7yn5mpc3ll10",
@@ -4411,41 +4442,42 @@
         "name": "Felix Reyes",
         "teamShortName": "PHI",
         "shortName": "F. Reyes"
-      }
-    },
-    {
-      "displayDate": 1779120000000,
-      "teamId": "10280",
-      "id": "jm2cc1bvmpbjvt6l",
-      "seq": 137809,
-      "desc": "The Orioles claimed Siani off waivers from the Dodgers on Monday, Matt Weyrich of The Baltimore Sun reports.",
-      "player": {
-        "teamName": "Baltimore Orioles",
-        "urlName": "mike-siani",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqb_96_3.png",
-        "scorerId": "04pqb",
-        "posShortNames": "CF",
-        "team": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "010"
-        ],
-        "teamId": "10010",
-        "name": "Mike Siani",
-        "teamShortName": "BAL",
-        "shortName": "M. Siani"
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1779206400000,
+      "teamId": "10170",
+      "id": "3gum0an2mpcnifwb",
+      "seq": 137839,
+      "desc": "The Mets designated Slater for assignment Tuesday, Jon Heyman of the New York Post reports.",
+      "player": {
+        "teamName": "New York Mets",
+        "urlName": "austin-slater",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dg7_96_13.png",
+        "scorerId": "03dg7",
+        "posShortNames": "LF,RF",
+        "team": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "posIds": [
+          "009",
+          "011"
+        ],
+        "teamId": "10170",
+        "name": "Austin Slater",
+        "teamShortName": "NYM",
+        "shortName": "A. Slater"
+      }
+    },
+    {
       "displayDate": 1779120000000,
       "teamId": "10190",
       "id": "4cxq7yn5mpc3ll10",
@@ -5231,36 +5263,6 @@
         "name": "Felix Reyes",
         "teamShortName": "PHI",
         "shortName": "F. Reyes"
-      }
-    },
-    {
-      "displayDate": 1779120000000,
-      "teamId": "10280",
-      "id": "jm2cc1bvmpbjvt6l",
-      "seq": 137809,
-      "desc": "The Orioles claimed Siani off waivers from the Dodgers on Monday, Matt Weyrich of The Baltimore Sun reports.",
-      "player": {
-        "teamName": "Baltimore Orioles",
-        "urlName": "mike-siani",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqb_96_3.png",
-        "scorerId": "04pqb",
-        "posShortNames": "CF",
-        "team": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "posIds": [
-          "010"
-        ],
-        "teamId": "10010",
-        "name": "Mike Siani",
-        "teamShortName": "BAL",
-        "shortName": "M. Siani"
       }
     }
   ],
