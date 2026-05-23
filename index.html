@@ -256,7 +256,7 @@ tr:hover td{background:rgba(0,212,170,0.04)!important}
 
 <!-- POWER RANKINGS TAB -->
 <div id="tab-rankings" class="tab-content active">
-  <div class="section-title">🏆 Power Rankings — Week 7 (Through May 8, 2026)</div>
+  <div class="section-title" id="rankings-title">🏆 Power Rankings</div>
   <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:12px;margin-bottom:20px;" id="summary-stats"></div>
   <div class="filter-row">
     <button class="filter-btn active" onclick="filterRankings('all',this)">All Teams</button>
@@ -2540,6 +2540,13 @@ function computeDynamicData(liveData) {
       LEAGUE.currentPeriod = liveData.currentPeriod || completedPeriods.length;
     }
   }
+  // Update rankings title with current period count
+  const titleEl = document.getElementById('rankings-title');
+  if (titleEl && WEEK_RANKS.length > 0) {
+    const lastW = WEEK_RANKS[WEEK_RANKS.length-1];
+    titleEl.textContent = '🏆 Power Rankings — Through ' + lastW.periods;
+  }
+
 }
 
   fetch('data/league_data.json').then(r=>r.json()).then(liveData=>{
