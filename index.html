@@ -742,93 +742,13 @@ const LEAGUE = {
   lastUpdated: '5/8/2026, 9:50:13 PM'
 };
 
-const TEAMS = [
-  {id:'odce8gzsmg7kg72c', name:'Wyatt and the Lankers', short:'Lankers', w:9,l:3,t:0,winPct:.750,div:'4-2-0',gb:0,ww:2,pf:3270.25,pa:2675.25,fpg:5.33,streak:'1(L)',gpHit:613,hitPts:1332.75,pitPts:1937.5,waivers:0,pbl:0},
-  {id:'8znzrpg1mg7kg72e', name:'TBONERS', short:'TBONERS', w:9,l:3,t:0,winPct:.750,div:'3-3-0',gb:0,ww:7,pf:3199.5,pa:2888.25,fpg:5.41,streak:'1(W)',gpHit:591,hitPts:1429.5,pitPts:1770,waivers:7,pbl:70.75},
-  {id:'g8p3r1i9mg7kg72b', name:'Honey Nut Berrios #Inaugural JBThrowback', short:'HNB', w:8,l:4,t:0,winPct:.667,div:'5-1-0',gb:1,ww:10,pf:3156.5,pa:2686,fpg:5.28,streak:'3(W)',gpHit:598,hitPts:1485.5,pitPts:1671,waivers:10,pbl:113.75},
-  {id:'xgktl0otmg7kg72d', name:'Tank for LeBron', short:'Tank4LB', w:8,l:4,t:0,winPct:.667,div:'4-2-0',gb:1,ww:11,pf:2870,pa:2735.5,fpg:5.0,streak:'1(L)',gpHit:574,hitPts:1433,pitPts:1437,waivers:11,pbl:400.25},
-  {id:'w6b31holmg7kg72f', name:'Layin Wood🪵', short:'LayinWood', w:7,l:5,t:0,winPct:.583,div:'5-1-0',gb:2,ww:8,pf:2923.75,pa:2951.75,fpg:5.39,streak:'1(L)',gpHit:542,hitPts:1256.75,pitPts:1667,waivers:8,pbl:346.5},
-  {id:'nbnjqx3cmg7kg72g', name:"Honey Nut Chourio's", short:'HNC', w:6,l:6,t:0,winPct:.500,div:'3-3-0',gb:3,ww:6,pf:2777.5,pa:3016.25,fpg:4.86,streak:'1(W)',gpHit:572,hitPts:1316.5,pitPts:1461,waivers:6,pbl:492.75},
-  {id:'lhaxchcjmg7kg72c', name:'Say Yes to Velo', short:'Velo', w:6,l:6,t:0,winPct:.500,div:'3-3-0',gb:3,ww:5,pf:2532,pa:2557,fpg:5.23,streak:'3(W)',gpHit:484,hitPts:1263,pitPts:1269,waivers:5,pbl:738.25},
-  {id:'7gq3y996mg7kg729', name:"Evil Honey Nut Chourio's", short:'EvilHNC', w:5,l:7,t:0,winPct:.417,div:'2-4-0',gb:4,ww:9,pf:2970.25,pa:3083.75,fpg:5.1,streak:'1(W)',gpHit:582,hitPts:1497.75,pitPts:1472.5,waivers:9,pbl:300},
-  {id:'vhuxfzygmg7kg728', name:'Creative Name', short:'Creative', w:5,l:7,t:0,winPct:.417,div:'3-3-0',gb:4,ww:12,pf:2584.75,pa:2636.25,fpg:4.6,streak:'1(W)',gpHit:562,hitPts:1402.25,pitPts:1182.5,waivers:12,pbl:685.5},
-  {id:'0qrvkt09mg7kg72f', name:'First Pitch Swinging', short:'FPS', w:4,l:8,t:0,winPct:.333,div:'2-4-0',gb:5,ww:1,pf:2924,pa:3063,fpg:5.13,streak:'2(L)',gpHit:570,hitPts:1214.5,pitPts:1709.5,waivers:1,pbl:346.25},
-  {id:'aw407ddlmg7kg72a', name:'Golden Gate Gays', short:'GGG', w:3,l:9,t:0,winPct:.250,div:'2-4-0',gb:6,ww:4,pf:2535.5,pa:3105.25,fpg:4.81,streak:'1(L)',gpHit:527,hitPts:1077,pitPts:1459.5,waivers:4,pbl:733.75},
-  {id:'jwg2zkwzmg7kg72a', name:"Jac-in\' It", short:'JacInIt', w:2,l:10,t:0,winPct:.167,div:'0-6-0',gb:7,ww:3,pf:2466.25,pa:2812,fpg:4.54,streak:'6(L)',gpHit:543,hitPts:1349.25,pitPts:1117,waivers:3,pbl:804}
-];
-
-const WEEK_RANKS = [
-  {week:'W1',label:'W1',periods:'P1',dates:'Apr 3-6',ranks:[3,1,5,4,2,8,12,6,7,10,9,11]},
-  {week:'W2',label:'W2',periods:'P2-P3',dates:'Apr 7-13',ranks:[2,1,4,5,3,9,11,6,8,10,7,12]},
-  {week:'W3',label:'W3',periods:'P4-P5',dates:'Apr 14-20',ranks:[1,2,3,6,4,10,11,5,9,8,7,12]},
-  {week:'W4',label:'W4',periods:'P6-P7',dates:'Apr 21-27',ranks:[1,2,3,7,5,9,10,4,8,6,11,12]},
-  {week:'W5',label:'W5',periods:'P8-P9',dates:'Apr 28-May 3',ranks:[1,2,3,6,4,8,10,5,9,7,11,12]},
-  {week:'W6',label:'W6',periods:'P10-P12',dates:'May 4-7',ranks:[1,2,3,7,5,9,6,8,10,4,11,12]},
-  {week:'W7',label:'W7',periods:'P13',dates:'May 8+',ranks:[1,2,3,4,5,6,7,8,9,10,11,12]}
-];
-// ranks array index matches TEAMS array index
-
-const POWER_SCORES = [92,90,85,80,75,68,65,62,55,54,48,35];
-
-const WEEK_PF = [
-  [518,512,486,432,445,398,378,456,412,438,415,378],
-  [1042,998,976,865,922,788,756,912,812,876,814,762],
-  [1598,1510,1488,1298,1388,1162,1145,1368,1212,1312,1212,1142],
-  [2108,2012,1985,1722,1845,1548,1534,1825,1614,1748,1614,1524],
-  [2620,2510,2490,2168,2312,1948,1912,2285,2024,2192,2024,1906],
-  [3120,3012,2965,2620,2768,2422,2312,2768,2424,2620,2312,2286],
-  [3270.25,3199.5,3156.5,2870,2923.75,2777.5,2532,2970.25,2584.75,2924,2535.5,2466.25]
-];
-const MATCHUPS = [
-  {week:'W1',period:'P1',date:'Apr 3-6',games:[
-    {away:'Wyatt and the Lankers',awayScore:268,home:'Jac-in\' It',homeScore:198,winner:'away'},
-    {away:'TBONERS',awayScore:264,home:'Golden Gate Gays',homeScore:211,winner:'away'},
-    {away:'Honey Nut Berrios',awayScore:256,home:'Creative Name',homeScore:232,winner:'away'},
-    {away:'Evil Honey Nut Chourio\'s',awayScore:248,home:'First Pitch Swinging',homeScore:238,winner:'away'},
-    {away:'Layin Wood',awayScore:245,home:'Say Yes to Velo',homeScore:223,winner:'away'},
-    {away:'Tank for LeBron',awayScore:239,home:'Honey Nut Chourio\'s',homeScore:231,winner:'away'}
-  ]},
-  {week:'W2',period:'P2-P3',date:'Apr 7-13',games:[
-    {away:'Wyatt and the Lankers',awayScore:524,home:'Tank for LeBron',homeScore:433,winner:'away'},
-    {away:'TBONERS',awayScore:486,home:'First Pitch Swinging',homeScore:446,winner:'away'},
-    {away:'Layin Wood',awayScore:477,home:'Creative Name',homeScore:412,winner:'away'},
-    {away:'Honey Nut Berrios',awayScore:490,home:'Say Yes to Velo',homeScore:378,winner:'away'},
-    {away:'Evil Honey Nut Chourio\'s',awayScore:464,home:"Honey Nut Chourio\'s",homeScore:388,winner:'away'},
-    {away:"Jac-in\' It",awayScore:384,home:'Golden Gate Gays',homeScore:396,winner:'home'}
-  ]},
-  {week:'W3',period:'P4-P5',date:'Apr 14-20',games:[
-    {away:'Wyatt and the Lankers',awayScore:510,home:'Golden Gate Gays',homeScore:398,winner:'away'},
-    {away:'TBONERS',awayScore:502,home:'Creative Name',homeScore:421,winner:'away'},
-    {away:'Honey Nut Berrios',awayScore:512,home:'Tank for LeBron',homeScore:433,winner:'away'},
-    {away:'First Pitch Swinging',awayScore:489,home:'Layin Wood',homeScore:466,winner:'away'},
-    {away:'Evil Honey Nut Chourio\'s',awayScore:457,home:"Jac-in\' It",homeScore:382,winner:'away'},
-    {away:"Honey Nut Chourio\'s",awayScore:390,home:'Say Yes to Velo',homeScore:378,winner:'away'}
-  ]},
-  {week:'W4',period:'P6-P7',date:'Apr 21-27',games:[
-    {away:'Wyatt and the Lankers',awayScore:510,home:'First Pitch Swinging',homeScore:476,winner:'away'},
-    {away:'TBONERS',awayScore:502,home:'Evil Honey Nut Chourio\'s',homeScore:457,winner:'away'},
-    {away:'Honey Nut Berrios',awayScore:497,home:'Golden Gate Gays',homeScore:402,winner:'away'},
-    {away:'Layin Wood',awayScore:457,home:"Honey Nut Chourio\'s",homeScore:374,winner:'away'},
-    {away:'Say Yes to Velo',awayScore:378,home:'Creative Name',homeScore:398,winner:'home'},
-    {away:"Jac-in\' It",awayScore:382,home:'Tank for LeBron',homeScore:433,winner:'home'}
-  ]},
-  {week:'W5',period:'P8-P9',date:'Apr 28-May 3',games:[
-    {away:'Wyatt and the Lankers',awayScore:512,home:'Creative Name',homeScore:412,winner:'away'},
-    {away:'TBONERS',awayScore:498,home:'Tank for LeBron',homeScore:452,winner:'away'},
-    {away:'Honey Nut Berrios',awayScore:475,home:'First Pitch Swinging',homeScore:390,winner:'away'},
-    {away:'Evil Honey Nut Chourio\'s',awayScore:457,home:'Layin Wood',homeScore:423,winner:'away'},
-    {away:"Honey Nut Chourio\'s",awayScore:386,home:'Say Yes to Velo',homeScore:434,winner:'home'},
-    {away:'Golden Gate Gays',awayScore:412,home:"Jac-in\' It",homeScore:380,winner:'away'}
-  ]},
-  {week:'W6',period:'P10-P12',date:'May 4-7',games:[
-    {away:'First Pitch Swinging',awayScore:352,home:'Wyatt and the Lankers',homeScore:150.25,winner:'away'},
-    {away:'TBONERS',awayScore:189.5,home:"Honey Nut Chourio\'s",homeScore:355.5,winner:'home'},
-    {away:'Honey Nut Berrios',awayScore:191.5,home:'Tank for LeBron',homeScore:250,winner:'home'},
-    {away:'Evil Honey Nut Chourio\'s',awayScore:248.25,home:'Creative Name',homeScore:160.75,winner:'away'},
-    {away:'Layin Wood',awayScore:155.75,home:'Golden Gate Gays',homeScore:123.5,winner:'away'},
-    {away:"Jac-in\' It",awayScore:180.25,home:'Say Yes to Velo',homeScore:178,winner:'away'}
-  ]}
-];
+// TEAMS, WEEK_RANKS, POWER_SCORES, WEEK_PF, MATCHUPS
+// Mutable arrays auto-populated by computeDynamicData() on each data load
+let TEAMS = [];
+let WEEK_RANKS = [];
+let POWER_SCORES = [];
+let WEEK_PF = [];
+let MATCHUPS = [];
 
 const TRADES = [
   {date:'Pre-Season (Feb 19, 2026)',teams:['First Pitch Swinging','TBONERS'],teamA:'First Pitch Swinging',gave:['Jesus Luzardo','Masataka Yoshida','Tyler Stephenson','Casey Mize','Isaac Paredes'],received:['Eduard Bazardo','Blake Treinen','Jose Alvarado','Alex Bregman','2029 R3 Pick'],teamB:'TBONERS',type:'preseason',impact:'Large pre-season swap — FPS sent multiple young SPs/hitters, TBONERS loaded up on pitching and offensive depth.'},
@@ -1209,7 +1129,26 @@ function closeModal(){document.getElementById('modal').classList.remove('open');
 let allPRCards=[];
 function initRankings(){
   const summaryEl=document.getElementById('summary-stats');
-  summaryEl.innerHTML=['🥇 Leader: Wyatt and the Lankers (9-3)','⬆️ Biggest Riser: FPS ▲6 (W1→W7)','⬇️ Biggest Faller: Say Yes to Velo ▼5','🔥 Hot Streak: Velo 3W / HNB 3W'].map((s,i)=>'<div class="stat-box"><div class="val" style="font-size:1rem;">'+s+'</div></div>').join('');
+  // Build summary stats dynamically
+  const currRanksForSummary = WEEK_RANKS.length ? WEEK_RANKS[WEEK_RANKS.length-1].ranks : [];
+  const prevRanksForSummary = WEEK_RANKS.length > 1 ? WEEK_RANKS[WEEK_RANKS.length-2].ranks : currRanksForSummary;
+  const leader = TEAMS.find((t,i) => currRanksForSummary[i] === 1);
+  let biggestRiser = null, biggestRiserDelta = 0;
+  let biggestFaller = null, biggestFallerDelta = 0;
+  TEAMS.forEach((t,i) => {
+    const curr = currRanksForSummary[i] || (i+1);
+    const prev = prevRanksForSummary[i] || (i+1);
+    const delta = prev - curr; // positive = improved rank
+    if (delta > biggestRiserDelta) { biggestRiserDelta = delta; biggestRiser = t; }
+    if (delta < biggestFallerDelta) { biggestFallerDelta = delta; biggestFaller = t; }
+  });
+  const hotStreak = TEAMS.filter(t => t.streak && t.streak.includes('W')).sort((a,b) => parseInt(b.streak)-parseInt(a.streak))[0];
+  summaryEl.innerHTML=[
+    '🥇 Leader: ' + (leader ? leader.name.replace(' #Inaugural JBThrowback','').trim()+' ('+(leader.w)+'-'+(leader.l)+')' : '—'),
+    (biggestRiser ? '⬆️ Biggest Riser: '+biggestRiser.short+' ▲'+biggestRiserDelta : ''),
+    (biggestFaller ? '⬇️ Biggest Faller: '+biggestFaller.short+' ▼'+Math.abs(biggestFallerDelta) : ''),
+    (hotStreak ? '🔥 Hot Streak: '+hotStreak.short+' '+hotStreak.streak : '')
+  ].filter(Boolean).map((s,i)=>`<div class="stat-box"><div class="val" style="font-size:.9rem">${s}</div></div>`).join('');
   
   const container=document.getElementById('rankings-list');
   container.innerHTML='';
@@ -2465,12 +2404,149 @@ document.addEventListener('DOMContentLoaded',function(){
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
   
   // Init non-data tabs immediately
-  initRankings();
-  initStandings();
+  // rankings + standings inited inside fetch callback after computeDynamicData
   
   // Fetch live data
+
+// ============================================================
+// DYNAMIC DATA COMPUTATION — replaces hardcoded TEAMS, WEEK_RANKS, etc.
+// Auto-computed from liveData fetched from data/league_data.json
+// ============================================================
+function computeDynamicData(liveData) {
+  if (!liveData) return;
+  const sched = liveData.schedule || {};
+  const schedRecords = Array.isArray(sched.records) ? sched.records : [];
+  const periods = sched.periods || [];
+  const standings = liveData.standings || [];
+
+  // Build standings lookup by teamId
+  const standingsMap = {};
+  standings.forEach(function(s) { standingsMap[s.id] = s; });
+
+  // ---- Build TEAMS array from schedule records enriched with standings data ----
+  const newTeams = schedRecords.map(function(rec) {
+    const st = standingsMap[rec.teamId] || {};
+    const w = rec.w || 0, l = rec.l || 0, t = rec.t || 0;
+    const played = w + l + t;
+    const winPct = played > 0 ? (w / played) : 0;
+
+    // Compute streak from periods (iterate in reverse, check this team's outcome)
+    let streakCount = 0, streakType = null;
+    for (let pi = periods.length - 1; pi >= 0; pi--) {
+      const period = periods[pi];
+      const matchup = (period.matchups || []).find(function(m) {
+        return m.team1Id === rec.teamId || m.team2Id === rec.teamId;
+      });
+      if (!matchup) continue;
+      const pts = matchup.team1Id === rec.teamId ? matchup.team1Pts : matchup.team2Pts;
+      const oppPts = matchup.team1Id === rec.teamId ? matchup.team2Pts : matchup.team1Pts;
+      if (pts === 0 && oppPts === 0) continue; // skip future/empty periods
+      const outcome = pts > oppPts ? 'W' : (pts < oppPts ? 'L' : 'T');
+      if (streakType === null) { streakType = outcome; streakCount = 1; }
+      else if (outcome === streakType) { streakCount++; }
+      else break;
+    }
+    const streak = streakCount > 0 ? (streakCount + streakType) : '';
+
+    return {
+      id: rec.teamId,
+      name: rec.name || st.name || '',
+      short: rec.short || st.short || '',
+      logoUrl: rec.logoUrl || st.logoUrl || '',
+      w: w, l: l, t: t,
+      pf: rec.pf || 0,
+      pa: rec.pa || 0,
+      fpg: parseFloat(st.fptsPerGame || '0').toFixed(2),
+      winPct: winPct,
+      gb: parseFloat(st.gb || '0'),
+      rank: st.rank || 0,
+      streak: streak,
+      weeklyPF: rec.weeklyPF || [],
+      ww: st.ww || rec.ww || 0,
+      pbl: st.pbl || rec.pbl || 0,
+      hitPts: st.hitPts || rec.hitPts || 0,
+      pitPts: st.pitPts || rec.pitPts || 0,
+      div: '0-0-0',
+    };
+  });
+
+  // Sort by standings rank, fallback to PF descending
+  newTeams.sort(function(a, b) {
+    if (a.rank && b.rank) return a.rank - b.rank;
+    return b.pf - a.pf;
+  });
+
+  if (newTeams.length > 0) {
+    TEAMS.length = 0;
+    newTeams.forEach(function(t) { TEAMS.push(t); });
+  }
+
+  // ---- Build WEEK_RANKS: one entry per completed scoring period ----
+  const completedPeriods = periods.filter(function(p) {
+    return (p.matchups || []).some(function(m) {
+      return (m.team1Pts || 0) > 0 || (m.team2Pts || 0) > 0;
+    });
+  });
+
+  if (completedPeriods.length > 0) {
+    // Track cumulative PF per team as we go through periods
+    const runningPF = {};
+    TEAMS.forEach(function(t) { runningPF[t.id] = 0; });
+
+    const newWeekRanks = [];
+    const newWeekPF = [];
+
+    completedPeriods.forEach(function(period, pi) {
+      // Add this period's scores
+      (period.matchups || []).forEach(function(m) {
+        if (m.team1Id) runningPF[m.team1Id] = (runningPF[m.team1Id] || 0) + (m.team1Pts || 0);
+        if (m.team2Id) runningPF[m.team2Id] = (runningPF[m.team2Id] || 0) + (m.team2Pts || 0);
+      });
+
+      // Rank teams by cumulative PF (high = rank 1)
+      const sorted = TEAMS.slice().sort(function(a, b) {
+        return (runningPF[b.id] || 0) - (runningPF[a.id] || 0);
+      });
+      const rankMap = {};
+      sorted.forEach(function(t, i) { rankMap[t.id] = i + 1; });
+      const ranks = TEAMS.map(function(t) { return rankMap[t.id] || TEAMS.length; });
+
+      const pNum = pi + 1;
+      const label = 'P' + pNum;
+      const pName = (period.period || '').replace('Scoring Period ', 'P');
+      newWeekRanks.push({ week: label, label: label, periods: pName || label, dates: pName || label, ranks: ranks });
+
+      // Snapshot of cumulative PF per team in TEAMS order
+      newWeekPF.push(TEAMS.map(function(t) { return Math.round((runningPF[t.id] || 0) * 100) / 100; }));
+    });
+
+    WEEK_RANKS.length = 0;
+    newWeekRanks.forEach(function(w) { WEEK_RANKS.push(w); });
+    WEEK_PF.length = 0;
+    newWeekPF.forEach(function(row) { WEEK_PF.push(row); });
+
+    // ---- POWER_SCORES: linear scale rank 1=95 down to rank n=30 ----
+    const n = TEAMS.length;
+    POWER_SCORES.length = 0;
+    TEAMS.forEach(function(t, i) {
+      POWER_SCORES.push(Math.round(95 - (i / Math.max(n - 1, 1)) * 65));
+    });
+
+    // ---- Update LEAGUE info ----
+    if (liveData.lastUpdated) {
+      LEAGUE.lastUpdated = new Date(liveData.lastUpdated).toLocaleString();
+    }
+    if (liveData.currentPeriod || completedPeriods.length > 0) {
+      LEAGUE.currentPeriod = liveData.currentPeriod || completedPeriods.length;
+    }
+  }
+}
+
   fetch('data/league_data.json').then(r=>r.json()).then(liveData=>{
     window._liveData = liveData;
+    computeDynamicData(liveData);
+    initRankings();
+
     populateStandingsTicker();
     
     // Update last updated timestamp
