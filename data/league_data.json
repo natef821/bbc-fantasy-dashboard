@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T02:53:56.773610Z",
+  "lastUpdated": "2026-05-25T09:56:37.053924Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,32 @@
   "transactions": [
     {
       "displayDate": 1779638400000,
+      "teamId": "10010",
+      "id": "kjyagf1lmpkmf4zf",
+      "seq": 137977,
+      "desc": "Suarez was designated for assignment by the Orioles on Sunday, Jake Rill of MLB.com reports.",
+      "player": {
+        "name": "Albert Suarez",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02xid_96_9.png",
+        "scorerId": "02xid",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1779638400000,
       "teamId": "10230",
       "id": "7aydbtdnmpkdrw8w",
       "seq": 137976,
@@ -4288,12 +4314,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4431,12 +4452,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4484,12 +4500,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4728,12 +4739,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4897,39 +4903,38 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1779552000000,
-      "teamId": "10170",
-      "id": "wsuoivdgmpil5e35",
-      "seq": 137946,
-      "desc": "Thornton was optioned to Triple-A Syracuse on Saturday.",
-      "player": {
-        "name": "Zach Thornton",
-        "posShortNames": "SP,RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06ekq",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1779638400000,
+      "teamId": "10010",
+      "id": "kjyagf1lmpkmf4zf",
+      "seq": 137977,
+      "desc": "Suarez was designated for assignment by the Orioles on Sunday, Jake Rill of MLB.com reports.",
+      "player": {
+        "name": "Albert Suarez",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02xid_96_9.png",
+        "scorerId": "02xid",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1779638400000,
       "teamId": "10230",
       "id": "7aydbtdnmpkdrw8w",
       "seq": 137976,
@@ -5021,12 +5026,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5164,12 +5164,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5217,12 +5212,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5461,12 +5451,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5630,33 +5615,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1779552000000,
-      "teamId": "10170",
-      "id": "wsuoivdgmpil5e35",
-      "seq": 137946,
-      "desc": "Thornton was optioned to Triple-A Syracuse on Saturday.",
-      "player": {
-        "name": "Zach Thornton",
-        "posShortNames": "SP,RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06ekq",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
