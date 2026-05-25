@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T09:56:37.053924Z",
+  "lastUpdated": "2026-05-25T14:44:14.768649Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,58 @@
   },
   "transactions": [
     {
+      "displayDate": 1779724800000,
+      "teamId": "10080",
+      "id": "a7nvoq03mpl9q5nf",
+      "seq": 137979,
+      "desc": "The Tigers optioned Sommers to Triple-A Toledo on Monday.",
+      "player": {
+        "name": "Drew Sommers",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066b2_96_1.png",
+        "scorerId": "066b2",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1779724800000,
+      "teamId": "10210",
+      "id": "ak5g8s2bmpl8jmdd",
+      "seq": 137978,
+      "desc": "The Reds optioned Petty to Triple-A Louisville on Sunday.",
+      "player": {
+        "name": "Chase Petty",
+        "posShortNames": "SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05raz_96_1.png",
+        "scorerId": "05raz",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1779638400000,
       "teamId": "10010",
       "id": "kjyagf1lmpkmf4zf",
@@ -4335,7 +4387,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
       }
     },
     {
@@ -4543,7 +4600,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -4854,60 +4916,69 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1779552000000,
-      "teamId": "10140",
-      "id": "aysrgolympio75jg",
-      "seq": 137948,
-      "desc": "The Rangers claimed Crim off waivers from the Rockies on Saturday and optioned him to Triple-A Round Rock.",
-      "player": {
-        "name": "Blaine Crim",
-        "posShortNames": "1B,DH",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051eo_96_2.png",
-        "scorerId": "051eo",
-        "posIds": [
-          "002",
-          "013"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Injured List - 10-day IL - Oblique",
-            "typeId": "2"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1779552000000,
-      "teamId": "10170",
-      "id": "vrj6zez5mpil5e5s",
-      "seq": 137947,
-      "desc": "Pintaro was recalled from Triple-A Syracuse on Saturday.",
-      "player": {
-        "name": "Jonathan Pintaro",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qcs_96_1.png",
-        "scorerId": "06qcs",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1779724800000,
+      "teamId": "10080",
+      "id": "a7nvoq03mpl9q5nf",
+      "seq": 137979,
+      "desc": "The Tigers optioned Sommers to Triple-A Toledo on Monday.",
+      "player": {
+        "name": "Drew Sommers",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066b2_96_1.png",
+        "scorerId": "066b2",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1779724800000,
+      "teamId": "10210",
+      "id": "ak5g8s2bmpl8jmdd",
+      "seq": 137978,
+      "desc": "The Reds optioned Petty to Triple-A Louisville on Sunday.",
+      "player": {
+        "name": "Chase Petty",
+        "posShortNames": "SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05raz_96_1.png",
+        "scorerId": "05raz",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1779638400000,
       "teamId": "10010",
       "id": "kjyagf1lmpkmf4zf",
@@ -5047,7 +5118,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
       }
     },
     {
@@ -5255,7 +5331,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -5566,55 +5647,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1779552000000,
-      "teamId": "10140",
-      "id": "aysrgolympio75jg",
-      "seq": 137948,
-      "desc": "The Rangers claimed Crim off waivers from the Rockies on Saturday and optioned him to Triple-A Round Rock.",
-      "player": {
-        "name": "Blaine Crim",
-        "posShortNames": "1B,DH",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051eo_96_2.png",
-        "scorerId": "051eo",
-        "posIds": [
-          "002",
-          "013"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Injured List - 10-day IL - Oblique",
-            "typeId": "2"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1779552000000,
-      "teamId": "10170",
-      "id": "vrj6zez5mpil5e5s",
-      "seq": 137947,
-      "desc": "Pintaro was recalled from Triple-A Syracuse on Saturday.",
-      "player": {
-        "name": "Jonathan Pintaro",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qcs_96_1.png",
-        "scorerId": "06qcs",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
