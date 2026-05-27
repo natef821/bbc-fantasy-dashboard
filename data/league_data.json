@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T09:36:33.553122Z",
+  "lastUpdated": "2026-05-27T15:25:33.372775Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4327,7 +4327,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
       }
     },
     {
@@ -4594,8 +4599,8 @@
       "player": {
         "name": "Nicky Lopez",
         "posShortNames": "2B,SS,3B",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041sg_96_11.png",
         "scorerId": "041sg",
         "posIds": [
@@ -4827,7 +4832,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 1",
+            "typeId": "21"
+          }
+        ]
       }
     },
     {
@@ -5034,7 +5044,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
       }
     },
     {
@@ -5301,8 +5316,8 @@
       "player": {
         "name": "Nicky Lopez",
         "posShortNames": "2B,SS,3B",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041sg_96_11.png",
         "scorerId": "041sg",
         "posIds": [
@@ -5534,7 +5549,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 1",
+            "typeId": "21"
+          }
+        ]
       }
     },
     {
