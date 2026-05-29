@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T09:43:42.696140Z",
+  "lastUpdated": "2026-05-29T14:51:42.289174Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,59 @@
   },
   "transactions": [
     {
+      "displayDate": 1780070400000,
+      "teamId": "10300",
+      "id": "dugsf98tmpqyp51n",
+      "seq": 138051,
+      "desc": "The Giants optioned Brennan to Triple-A Sacramento on Friday.",
+      "player": {
+        "name": "Will Brennan",
+        "posShortNames": "RF,LF",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05165_96_3.png",
+        "scorerId": "05165",
+        "posIds": [
+          "011",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780070400000,
+      "teamId": "10140",
+      "id": "9j0oj27impqyaz9p",
+      "seq": 138050,
+      "desc": "The Rangers released McCutchen on Thursday.",
+      "player": {
+        "name": "Andrew McCutchen",
+        "posShortNames": "DH",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01c1g_96_15.png",
+        "scorerId": "01c1g",
+        "posIds": [
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1779984000000,
       "teamId": "10280",
       "id": "pu2352m1mpqatbny",
@@ -4441,7 +4494,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
       }
     },
     {
@@ -4825,27 +4883,6 @@
     },
     {
       "displayDate": 1779897600000,
-      "teamId": "10050",
-      "id": "hpm5ryj0mpochhi7",
-      "seq": 138021,
-      "desc": "The Detroit Tigers traded RHP Connor Seabold to the Toronto Blue Jays.",
-      "player": {
-        "name": "Connor Seabold",
-        "posShortNames": "RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
-        "scorerId": "03drx",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1779897600000,
       "teamId": "10080",
       "id": "t25x8r8nmpochgeo",
       "seq": 138021,
@@ -4872,59 +4909,81 @@
     },
     {
       "displayDate": 1779897600000,
-      "teamId": "10010",
-      "id": "rawun07empob56ke",
-      "seq": 138020,
-      "desc": "The Orioles recalled Gibson from Triple-A Norfolk and will have him start Wednesday's game against the Rays.",
+      "teamId": "10050",
+      "id": "hpm5ryj0mpochhi7",
+      "seq": 138021,
+      "desc": "The Detroit Tigers traded RHP Connor Seabold to the Toronto Blue Jays.",
       "player": {
-        "name": "Trey Gibson",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mc1_96_1.png",
-        "scorerId": "06mc1",
+        "name": "Connor Seabold",
+        "posShortNames": "RP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
+        "scorerId": "03drx",
         "posIds": [
-          "015"
+          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1779897600000,
-      "teamId": "10010",
-      "id": "gyj90k7kmpob56j6",
-      "seq": 138019,
-      "desc": "The Orioles optioned Raquet to Triple-A Norfolk on Wednesday.",
-      "player": {
-        "name": "Nick Raquet",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efo_96_1.png",
-        "scorerId": "04efo",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1780070400000,
+      "teamId": "10300",
+      "id": "dugsf98tmpqyp51n",
+      "seq": 138051,
+      "desc": "The Giants optioned Brennan to Triple-A Sacramento on Friday.",
+      "player": {
+        "name": "Will Brennan",
+        "posShortNames": "RF,LF",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05165_96_3.png",
+        "scorerId": "05165",
+        "posIds": [
+          "011",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780070400000,
+      "teamId": "10140",
+      "id": "9j0oj27impqyaz9p",
+      "seq": 138050,
+      "desc": "The Rangers released McCutchen on Thursday.",
+      "player": {
+        "name": "Andrew McCutchen",
+        "posShortNames": "DH",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01c1g_96_15.png",
+        "scorerId": "01c1g",
+        "posIds": [
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1779984000000,
       "teamId": "10280",
       "id": "pu2352m1mpqatbny",
@@ -5170,7 +5229,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
       }
     },
     {
@@ -5554,27 +5618,6 @@
     },
     {
       "displayDate": 1779897600000,
-      "teamId": "10050",
-      "id": "hpm5ryj0mpochhi7",
-      "seq": 138021,
-      "desc": "The Detroit Tigers traded RHP Connor Seabold to the Toronto Blue Jays.",
-      "player": {
-        "name": "Connor Seabold",
-        "posShortNames": "RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
-        "scorerId": "03drx",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1779897600000,
       "teamId": "10080",
       "id": "t25x8r8nmpochgeo",
       "seq": 138021,
@@ -5601,54 +5644,23 @@
     },
     {
       "displayDate": 1779897600000,
-      "teamId": "10010",
-      "id": "rawun07empob56ke",
-      "seq": 138020,
-      "desc": "The Orioles recalled Gibson from Triple-A Norfolk and will have him start Wednesday's game against the Rays.",
+      "teamId": "10050",
+      "id": "hpm5ryj0mpochhi7",
+      "seq": 138021,
+      "desc": "The Detroit Tigers traded RHP Connor Seabold to the Toronto Blue Jays.",
       "player": {
-        "name": "Trey Gibson",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mc1_96_1.png",
-        "scorerId": "06mc1",
+        "name": "Connor Seabold",
+        "posShortNames": "RP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
+        "scorerId": "03drx",
         "posIds": [
-          "015"
+          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1779897600000,
-      "teamId": "10010",
-      "id": "gyj90k7kmpob56j6",
-      "seq": 138019,
-      "desc": "The Orioles optioned Raquet to Triple-A Norfolk on Wednesday.",
-      "player": {
-        "name": "Nick Raquet",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efo_96_1.png",
-        "scorerId": "04efo",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     }
   ],
