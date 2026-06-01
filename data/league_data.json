@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T17:27:42.445833Z",
+  "lastUpdated": "2026-06-01T21:26:07.566229Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,204 @@
   "transactions": [
     {
       "displayDate": 1780329600000,
+      "teamId": "10080",
+      "id": "r7hvett9mpvm1bt4",
+      "seq": 138144,
+      "desc": "The Tigers activated Madden (forearm) from the 15-day injured list Monday.",
+      "player": {
+        "name": "Ty Madden",
+        "posShortNames": "SP,RP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oqe_96_1.png",
+        "scorerId": "05oqe",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10080",
+      "id": "p3oi6ejampvm1bqn",
+      "seq": 138143,
+      "desc": "The Tigers optioned Vanasco to Triple-A Toledo on Monday.",
+      "player": {
+        "name": "Ricky Vanasco",
+        "posShortNames": "SP,RP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eoi_96_3.png",
+        "scorerId": "04eoi",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10260",
+      "id": "5762uyy7mpvkgl8l",
+      "seq": 138142,
+      "desc": "The Diamondbacks reinstated Smith (elbow) from the 60-day injured list Monday, Aaron Hughes of SI.com reports.",
+      "player": {
+        "name": "Pavin Smith",
+        "posShortNames": "1B",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04alq_96_9.png",
+        "scorerId": "04alq",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 5",
+            "typeId": "25"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10300",
+      "id": "sjp1e1tzmpvk2evg",
+      "seq": 138141,
+      "desc": "The Giants selected Ramos' contract from Triple-A Sacramento on Monday, Ari Alexander of 7 News Boston reports.",
+      "player": {
+        "name": "Wilkin Ramos",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "04yk8",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10260",
+      "id": "8k16rz0dmpvk2esv",
+      "seq": 138140,
+      "desc": "The Diamondbacks optioned Tawa to Triple-A Reno on Monday, John Gambadoro of Arizona Sports 98.7 FM reports.",
+      "player": {
+        "name": "Tim Tawa",
+        "posShortNames": "1B,2B,LF",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y4m_96_2.png",
+        "scorerId": "05y4m",
+        "posIds": [
+          "002",
+          "003",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10160",
+      "id": "s28d2w4impvja1rc",
+      "seq": 138139,
+      "desc": "The Marlins selected Zuber's contract from Triple-A Jacksonville on Monday.",
+      "player": {
+        "name": "Tyler Zuber",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ehi_96_6.png",
+        "scorerId": "04ehi",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10160",
+      "id": "2jd0vex1mpvja1pw",
+      "seq": 138138,
+      "desc": "The Marlins optioned White to Triple-A Jacksonville on Monday.",
+      "player": {
+        "name": "Josh White",
+        "posShortNames": "RP,SP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05zyb_96_1.png",
+        "scorerId": "05zyb",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10160",
+      "id": "yfabwez5mpvja1nc",
+      "seq": 138137,
+      "desc": "The Marlins selected Brzykcy's contract from Triple-A Jacksonville on Monday.",
+      "player": {
+        "name": "Zach Brzykcy",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ocn_96_1.png",
+        "scorerId": "05ocn",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780329600000,
       "teamId": "10210",
       "id": "ycdj42o1mpvg4mf7",
       "seq": 138134,
@@ -4214,7 +4412,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
       }
     },
     {
@@ -4727,189 +4930,6 @@
         "posIds": [
           "016",
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10100",
-      "id": "wexm8z3ampu1uml8",
-      "seq": 138112,
-      "desc": "The Twins optioned Klein to Triple-A St. Paul on Sunday.",
-      "player": {
-        "name": "John Klein",
-        "posShortNames": "RP,SP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ian_96_1.png",
-        "scorerId": "06ian",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10230",
-      "id": "icg8paxnmpu1umk3",
-      "seq": 138111,
-      "desc": "The Brewers optioned Rodriguez to Triple-A Nashville on Sunday.",
-      "player": {
-        "name": "Carlos Rodriguez",
-        "posShortNames": "SP,RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yf9_96_1.png",
-        "scorerId": "05yf9",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10230",
-      "id": "pj3toghxmpu1umij",
-      "seq": 138110,
-      "desc": "The Brewers reinstated Zastrzyny (shoulder/ribs) from the 60-day injured list Sunday.",
-      "player": {
-        "name": "Rob Zastryzny",
-        "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0310m_96_8.png",
-        "scorerId": "0310m",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10300",
-      "id": "tem46eqvmpu1umfw",
-      "seq": 138109,
-      "desc": "The Giants selected Cox's contract from Double-A Richmond on Sunday.",
-      "player": {
-        "name": "Jonah Cox",
-        "posShortNames": "CF,LF",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "",
-        "scorerId": "06ek4",
-        "posIds": [
-          "010",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10160",
-      "id": "fcpu6jagmpu128nx",
-      "seq": 138108,
-      "desc": "The Marlins recalled White from Triple-A Jacksonville on Sunday.",
-      "player": {
-        "name": "Josh White",
-        "posShortNames": "RP,SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05zyb_96_1.png",
-        "scorerId": "05zyb",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10240",
-      "id": "jnp1m6e8mpu128lg",
-      "seq": 138107,
-      "desc": "The Pirates reinstated O'Hearn (quadriceps) from the 10-day injured list Sunday, Colin Beazley of the Pittsburgh Post-Gazette reports.",
-      "player": {
-        "name": "Ryan O'Hearn",
-        "posShortNames": "1B,RF",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dgq_96_11.png",
-        "scorerId": "03dgq",
-        "posIds": [
-          "002",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10080",
-      "id": "icp1qw6ymptxwpnm",
-      "seq": 138106,
-      "desc": "The Tigers reinstated Carpenter (shoulder) from the 10-day injured list Sunday. He'll start at designated hitter and bat cleanup in the Tigers' series finale versus the White Sox.",
-      "player": {
-        "name": "Kerry Carpenter",
-        "posShortNames": "RF",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051em_96_4.png",
-        "scorerId": "051em",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10060",
-      "id": "ykotmk6tmptwq6j8",
-      "seq": 138105,
-      "desc": "The White Sox recalled Murphy from Triple-A Charlotte on Sunday.",
-      "player": {
-        "name": "Chris Murphy",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514m_96_3.png",
-        "scorerId": "0514m",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4920,6 +4940,204 @@
   "mlbTransactions": [
     {
       "displayDate": 1780329600000,
+      "teamId": "10080",
+      "id": "r7hvett9mpvm1bt4",
+      "seq": 138144,
+      "desc": "The Tigers activated Madden (forearm) from the 15-day injured list Monday.",
+      "player": {
+        "name": "Ty Madden",
+        "posShortNames": "SP,RP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oqe_96_1.png",
+        "scorerId": "05oqe",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10080",
+      "id": "p3oi6ejampvm1bqn",
+      "seq": 138143,
+      "desc": "The Tigers optioned Vanasco to Triple-A Toledo on Monday.",
+      "player": {
+        "name": "Ricky Vanasco",
+        "posShortNames": "SP,RP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eoi_96_3.png",
+        "scorerId": "04eoi",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10260",
+      "id": "5762uyy7mpvkgl8l",
+      "seq": 138142,
+      "desc": "The Diamondbacks reinstated Smith (elbow) from the 60-day injured list Monday, Aaron Hughes of SI.com reports.",
+      "player": {
+        "name": "Pavin Smith",
+        "posShortNames": "1B",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04alq_96_9.png",
+        "scorerId": "04alq",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 5",
+            "typeId": "25"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10300",
+      "id": "sjp1e1tzmpvk2evg",
+      "seq": 138141,
+      "desc": "The Giants selected Ramos' contract from Triple-A Sacramento on Monday, Ari Alexander of 7 News Boston reports.",
+      "player": {
+        "name": "Wilkin Ramos",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "04yk8",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10260",
+      "id": "8k16rz0dmpvk2esv",
+      "seq": 138140,
+      "desc": "The Diamondbacks optioned Tawa to Triple-A Reno on Monday, John Gambadoro of Arizona Sports 98.7 FM reports.",
+      "player": {
+        "name": "Tim Tawa",
+        "posShortNames": "1B,2B,LF",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y4m_96_2.png",
+        "scorerId": "05y4m",
+        "posIds": [
+          "002",
+          "003",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10160",
+      "id": "s28d2w4impvja1rc",
+      "seq": 138139,
+      "desc": "The Marlins selected Zuber's contract from Triple-A Jacksonville on Monday.",
+      "player": {
+        "name": "Tyler Zuber",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ehi_96_6.png",
+        "scorerId": "04ehi",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10160",
+      "id": "2jd0vex1mpvja1pw",
+      "seq": 138138,
+      "desc": "The Marlins optioned White to Triple-A Jacksonville on Monday.",
+      "player": {
+        "name": "Josh White",
+        "posShortNames": "RP,SP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05zyb_96_1.png",
+        "scorerId": "05zyb",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780329600000,
+      "teamId": "10160",
+      "id": "yfabwez5mpvja1nc",
+      "seq": 138137,
+      "desc": "The Marlins selected Brzykcy's contract from Triple-A Jacksonville on Monday.",
+      "player": {
+        "name": "Zach Brzykcy",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ocn_96_1.png",
+        "scorerId": "05ocn",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780329600000,
       "teamId": "10210",
       "id": "ycdj42o1mpvg4mf7",
       "seq": 138134,
@@ -4937,7 +5155,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
       }
     },
     {
@@ -5450,189 +5673,6 @@
         "posIds": [
           "016",
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10100",
-      "id": "wexm8z3ampu1uml8",
-      "seq": 138112,
-      "desc": "The Twins optioned Klein to Triple-A St. Paul on Sunday.",
-      "player": {
-        "name": "John Klein",
-        "posShortNames": "RP,SP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ian_96_1.png",
-        "scorerId": "06ian",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10230",
-      "id": "icg8paxnmpu1umk3",
-      "seq": 138111,
-      "desc": "The Brewers optioned Rodriguez to Triple-A Nashville on Sunday.",
-      "player": {
-        "name": "Carlos Rodriguez",
-        "posShortNames": "SP,RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yf9_96_1.png",
-        "scorerId": "05yf9",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10230",
-      "id": "pj3toghxmpu1umij",
-      "seq": 138110,
-      "desc": "The Brewers reinstated Zastrzyny (shoulder/ribs) from the 60-day injured list Sunday.",
-      "player": {
-        "name": "Rob Zastryzny",
-        "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0310m_96_8.png",
-        "scorerId": "0310m",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10300",
-      "id": "tem46eqvmpu1umfw",
-      "seq": 138109,
-      "desc": "The Giants selected Cox's contract from Double-A Richmond on Sunday.",
-      "player": {
-        "name": "Jonah Cox",
-        "posShortNames": "CF,LF",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "",
-        "scorerId": "06ek4",
-        "posIds": [
-          "010",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10160",
-      "id": "fcpu6jagmpu128nx",
-      "seq": 138108,
-      "desc": "The Marlins recalled White from Triple-A Jacksonville on Sunday.",
-      "player": {
-        "name": "Josh White",
-        "posShortNames": "RP,SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05zyb_96_1.png",
-        "scorerId": "05zyb",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10240",
-      "id": "jnp1m6e8mpu128lg",
-      "seq": 138107,
-      "desc": "The Pirates reinstated O'Hearn (quadriceps) from the 10-day injured list Sunday, Colin Beazley of the Pittsburgh Post-Gazette reports.",
-      "player": {
-        "name": "Ryan O'Hearn",
-        "posShortNames": "1B,RF",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dgq_96_11.png",
-        "scorerId": "03dgq",
-        "posIds": [
-          "002",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10080",
-      "id": "icp1qw6ymptxwpnm",
-      "seq": 138106,
-      "desc": "The Tigers reinstated Carpenter (shoulder) from the 10-day injured list Sunday. He'll start at designated hitter and bat cleanup in the Tigers' series finale versus the White Sox.",
-      "player": {
-        "name": "Kerry Carpenter",
-        "posShortNames": "RF",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051em_96_4.png",
-        "scorerId": "051em",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780243200000,
-      "teamId": "10060",
-      "id": "ykotmk6tmptwq6j8",
-      "seq": 138105,
-      "desc": "The White Sox recalled Murphy from Triple-A Charlotte on Sunday.",
-      "player": {
-        "name": "Chris Murphy",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514m_96_3.png",
-        "scorerId": "0514m",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
