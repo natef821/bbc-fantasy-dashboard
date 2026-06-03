@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T10:49:08.201946Z",
+  "lastUpdated": "2026-06-03T16:27:34.146239Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -150,7 +150,7 @@
       "gb": "2,117",
       "ww": 2120,
       "pbl": 4.0,
-      "hitPts": 927.75,
+      "hitPts": 927.25,
       "pitPts": 0
     },
     {
@@ -248,7 +248,7 @@
         "l": 7,
         "t": 24,
         "pf": 5038.25,
-        "pa": 4431.75,
+        "pa": 4432.25,
         "name": "Wyatt and the Sankers",
         "weeklyPF": [
           339.75,
@@ -532,7 +532,7 @@
         "w": 10,
         "l": 10,
         "t": 24,
-        "pf": 4237.0,
+        "pf": 4237.5,
         "pa": 4258.5,
         "name": "Say Yes to Velo",
         "weeklyPF": [
@@ -555,7 +555,7 @@
           145.25,
           378.5,
           163.5,
-          174.5,
+          175.0,
           0.0,
           0.0,
           0.0,
@@ -2038,7 +2038,7 @@
             "team1Pts": 245.5,
             "team2": "Say Yes to Velo",
             "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 174.5,
+            "team2Pts": 175.0,
             "winner": "Wyatt and the Sankers"
           },
           {
@@ -4053,7 +4053,7 @@
             "short": "haydenor",
             "rank": "10",
             "values": [
-              "2,120",
+              "2,120.5",
               "",
               "603.1",
               "615",
@@ -4064,7 +4064,7 @@
               "10",
               "41",
               "0",
-              "2",
+              "1",
               "18",
               "0",
               "0",
@@ -4196,6 +4196,101 @@
   },
   "transactions": [
     {
+      "displayDate": 1780502400000,
+      "teamId": "10170",
+      "id": "dg7k8im0mpy9iba3",
+      "seq": 138188,
+      "desc": "The Mets optioned Tong to Triple-A Syracuse on Wednesday, Will Sammon of The Athletic reports.",
+      "player": {
+        "name": "Jonah Tong",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0658b_96_2.png",
+        "scorerId": "0658b",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780502400000,
+      "teamId": "10020",
+      "id": "depkq7f2mpy7qdat",
+      "seq": 138187,
+      "desc": "The Red Sox recalled Seigler from Triple-A Worcester on Wednesday, Chris Henrique of BostonSportsJournal.com reports.",
+      "player": {
+        "name": "Anthony Seigler",
+        "posShortNames": "C,2B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pkq_96_4.png",
+        "scorerId": "04pkq",
+        "posIds": [
+          "001",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780502400000,
+      "teamId": "10040",
+      "id": "dtekxsfhmpy4kuq5",
+      "seq": 138186,
+      "desc": "The Rays recalled Englert from Triple-A Durham on Wednesday.",
+      "player": {
+        "name": "Mason Englert",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqh_96_3.png",
+        "scorerId": "04pqh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780502400000,
+      "teamId": "10040",
+      "id": "jkd96pt3mpy46pc9",
+      "seq": 138185,
+      "desc": "The Rays optioned Martin to Triple-A Durham on Wednesday.",
+      "player": {
+        "name": "Trevor Martin",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "",
+        "scorerId": "06309",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1780416000000,
       "teamId": "10110",
       "id": "mb529vvompx7d28y",
@@ -4478,7 +4573,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 1",
+            "typeId": "21"
+          }
+        ]
       }
     },
     {
@@ -4803,95 +4903,6 @@
         "scorerId": "0518s",
         "posIds": [
           "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10160",
-      "id": "gsylsq0zmpwwq33c",
-      "seq": 138158,
-      "desc": "The Marlins optioned Brzykcy to Triple-A Jacksonville on Tuesday.",
-      "player": {
-        "name": "Zach Brzykcy",
-        "posShortNames": "RP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ocn_96_1.png",
-        "scorerId": "05ocn",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10150",
-      "id": "5nm4cq7hmpwtkooc",
-      "seq": 138157,
-      "desc": "Atlanta re-signed Carrasco to a one-year contract Tuesday.",
-      "player": {
-        "name": "Carlos Carrasco",
-        "posShortNames": "SP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01as6_96_15.png",
-        "scorerId": "01as6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10100",
-      "id": "za0wz0rlmpw4ud5h",
-      "seq": 138156,
-      "desc": "The Pittsburgh Pirates traded RHP Justin Lawrence to the Minnesota Twins.",
-      "player": {
-        "name": "Justin Lawrence",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qq9_96_9.png",
-        "scorerId": "03qq9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780329600000,
-      "teamId": "10100",
-      "id": "9vmaff1impw26mge",
-      "seq": 138155,
-      "desc": "The Twins acquired Lawrence from the Pirates on Monday in exchange for cash considerations.",
-      "player": {
-        "name": "Justin Lawrence",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qq9_96_9.png",
-        "scorerId": "03qq9",
-        "posIds": [
           "016"
         ],
         "rookie": false,
@@ -4902,6 +4913,101 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1780502400000,
+      "teamId": "10170",
+      "id": "dg7k8im0mpy9iba3",
+      "seq": 138188,
+      "desc": "The Mets optioned Tong to Triple-A Syracuse on Wednesday, Will Sammon of The Athletic reports.",
+      "player": {
+        "name": "Jonah Tong",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0658b_96_2.png",
+        "scorerId": "0658b",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780502400000,
+      "teamId": "10020",
+      "id": "depkq7f2mpy7qdat",
+      "seq": 138187,
+      "desc": "The Red Sox recalled Seigler from Triple-A Worcester on Wednesday, Chris Henrique of BostonSportsJournal.com reports.",
+      "player": {
+        "name": "Anthony Seigler",
+        "posShortNames": "C,2B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pkq_96_4.png",
+        "scorerId": "04pkq",
+        "posIds": [
+          "001",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780502400000,
+      "teamId": "10040",
+      "id": "dtekxsfhmpy4kuq5",
+      "seq": 138186,
+      "desc": "The Rays recalled Englert from Triple-A Durham on Wednesday.",
+      "player": {
+        "name": "Mason Englert",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqh_96_3.png",
+        "scorerId": "04pqh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780502400000,
+      "teamId": "10040",
+      "id": "jkd96pt3mpy46pc9",
+      "seq": 138185,
+      "desc": "The Rays optioned Martin to Triple-A Durham on Wednesday.",
+      "player": {
+        "name": "Trevor Martin",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "",
+        "scorerId": "06309",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1780416000000,
       "teamId": "10110",
       "id": "mb529vvompx7d28y",
@@ -5184,7 +5290,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 1",
+            "typeId": "21"
+          }
+        ]
       }
     },
     {
@@ -5509,95 +5620,6 @@
         "scorerId": "0518s",
         "posIds": [
           "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10160",
-      "id": "gsylsq0zmpwwq33c",
-      "seq": 138158,
-      "desc": "The Marlins optioned Brzykcy to Triple-A Jacksonville on Tuesday.",
-      "player": {
-        "name": "Zach Brzykcy",
-        "posShortNames": "RP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ocn_96_1.png",
-        "scorerId": "05ocn",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10150",
-      "id": "5nm4cq7hmpwtkooc",
-      "seq": 138157,
-      "desc": "Atlanta re-signed Carrasco to a one-year contract Tuesday.",
-      "player": {
-        "name": "Carlos Carrasco",
-        "posShortNames": "SP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01as6_96_15.png",
-        "scorerId": "01as6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10100",
-      "id": "za0wz0rlmpw4ud5h",
-      "seq": 138156,
-      "desc": "The Pittsburgh Pirates traded RHP Justin Lawrence to the Minnesota Twins.",
-      "player": {
-        "name": "Justin Lawrence",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qq9_96_9.png",
-        "scorerId": "03qq9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780329600000,
-      "teamId": "10100",
-      "id": "9vmaff1impw26mge",
-      "seq": 138155,
-      "desc": "The Twins acquired Lawrence from the Pirates on Monday in exchange for cash considerations.",
-      "player": {
-        "name": "Justin Lawrence",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qq9_96_9.png",
-        "scorerId": "03qq9",
-        "posIds": [
           "016"
         ],
         "rookie": false,
