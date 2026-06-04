@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T09:49:08.668692Z",
+  "lastUpdated": "2026-06-04T14:46:42.441831Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,74 @@
   },
   "transactions": [
     {
+      "displayDate": 1780588800000,
+      "teamId": "10020",
+      "id": "4fzfhxgnmpzk4lae",
+      "seq": 138202,
+      "desc": "The Red Sox selected Kahnle's contract from Triple-A Worcester on Thursday, Christopher Smith of MassLive.com reports.",
+      "player": {
+        "name": "Tommy Kahnle",
+        "posShortNames": "RP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02ccf_96_16.png",
+        "scorerId": "02ccf",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780588800000,
+      "teamId": "10060",
+      "id": "m8bi9eqampziy2wc",
+      "seq": 138200,
+      "desc": "The White Sox optioned Murphy to Triple-A Charlotte on Thursday.",
+      "player": {
+        "name": "Chris Murphy",
+        "posShortNames": "RP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514m_96_3.png",
+        "scorerId": "0514m",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780502400000,
+      "teamId": "10050",
+      "id": "zlpussqtmpzk4io8",
+      "seq": 138201,
+      "desc": "The Blue Jays acquired Woods Richardson from the Twins on Wednesday in exchange for cash, Mitch Bannon of The Athletic reports.",
+      "player": {
+        "name": "Simeon Woods-Richardson",
+        "posShortNames": "SP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmp_96_5.png",
+        "scorerId": "04pmp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1780502400000,
       "teamId": "10050",
       "id": "f6patogempyu9j0k",
@@ -4350,7 +4418,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4493,7 +4566,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4832,82 +4910,79 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10105",
-      "id": "8findj97mpx28mu2",
-      "seq": 138172,
-      "desc": "The Astros recalled Cole from Triple-A Sugar Land on Tuesday.",
-      "player": {
-        "name": "Zach Cole Jr.",
-        "posShortNames": "RF,LF,CF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066db_96_1.png",
-        "scorerId": "066db",
-        "posIds": [
-          "011",
-          "009",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10105",
-      "id": "0t9atx5ompx28mr8",
-      "seq": 138171,
-      "desc": "The Astros activated Hader (biceps) from the 60-day injured list Tuesday.",
-      "player": {
-        "name": "Josh Hader",
-        "posShortNames": "RP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n96_96_15.png",
-        "scorerId": "02n96",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10090",
-      "id": "jssj7i7dmpx1ufff",
-      "seq": 138170,
-      "desc": "The Royals claimed Lugo off waivers from the Angels on Tuesday.",
-      "player": {
-        "name": "Matthew Lugo",
-        "posShortNames": "CF,LF",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yic_96_2.png",
-        "scorerId": "04yic",
-        "posIds": [
-          "010",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1780588800000,
+      "teamId": "10020",
+      "id": "4fzfhxgnmpzk4lae",
+      "seq": 138202,
+      "desc": "The Red Sox selected Kahnle's contract from Triple-A Worcester on Thursday, Christopher Smith of MassLive.com reports.",
+      "player": {
+        "name": "Tommy Kahnle",
+        "posShortNames": "RP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02ccf_96_16.png",
+        "scorerId": "02ccf",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1780588800000,
+      "teamId": "10060",
+      "id": "m8bi9eqampziy2wc",
+      "seq": 138200,
+      "desc": "The White Sox optioned Murphy to Triple-A Charlotte on Thursday.",
+      "player": {
+        "name": "Chris Murphy",
+        "posShortNames": "RP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514m_96_3.png",
+        "scorerId": "0514m",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780502400000,
+      "teamId": "10050",
+      "id": "zlpussqtmpzk4io8",
+      "seq": 138201,
+      "desc": "The Blue Jays acquired Woods Richardson from the Twins on Wednesday in exchange for cash, Mitch Bannon of The Athletic reports.",
+      "player": {
+        "name": "Simeon Woods-Richardson",
+        "posShortNames": "SP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmp_96_5.png",
+        "scorerId": "04pmp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1780502400000,
       "teamId": "10050",
       "id": "f6patogempyu9j0k",
@@ -5062,7 +5137,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5205,7 +5285,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5544,77 +5629,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10105",
-      "id": "8findj97mpx28mu2",
-      "seq": 138172,
-      "desc": "The Astros recalled Cole from Triple-A Sugar Land on Tuesday.",
-      "player": {
-        "name": "Zach Cole Jr.",
-        "posShortNames": "RF,LF,CF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066db_96_1.png",
-        "scorerId": "066db",
-        "posIds": [
-          "011",
-          "009",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10105",
-      "id": "0t9atx5ompx28mr8",
-      "seq": 138171,
-      "desc": "The Astros activated Hader (biceps) from the 60-day injured list Tuesday.",
-      "player": {
-        "name": "Josh Hader",
-        "posShortNames": "RP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n96_96_15.png",
-        "scorerId": "02n96",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780416000000,
-      "teamId": "10090",
-      "id": "jssj7i7dmpx1ufff",
-      "seq": 138170,
-      "desc": "The Royals claimed Lugo off waivers from the Angels on Tuesday.",
-      "player": {
-        "name": "Matthew Lugo",
-        "posShortNames": "CF,LF",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yic_96_2.png",
-        "scorerId": "04yic",
-        "posIds": [
-          "010",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
