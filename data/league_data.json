@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T10:26:37.105701Z",
+  "lastUpdated": "2026-06-08T15:38:51.805232Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,32 @@
   "transactions": [
     {
       "displayDate": 1780848000000,
+      "teamId": "10200",
+      "id": "ddm6c6qrmq5dffi7",
+      "seq": 138293,
+      "desc": "The Cubs acquired Kelly from the Dodgers on Sunday in exchange for cash considerations, Jared Wyllys of AllCHGO.com reports.",
+      "player": {
+        "name": "Antoine Kelly",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "",
+        "scorerId": "04px1",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780848000000,
       "teamId": "10140",
       "id": "01mqb1l4mq4hmzep",
       "seq": 138292,
@@ -4361,7 +4387,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -4451,7 +4482,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -4873,33 +4909,38 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1780761600000,
-      "teamId": "10010",
-      "id": "dmn5rwjcmq2kwxc2",
-      "seq": 138264,
-      "desc": "The Orioles selected Huff's contract from Triple-A Norfolk on Saturday.",
-      "player": {
-        "name": "Sam Huff",
-        "posShortNames": "C",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041tq_96_7.png",
-        "scorerId": "041tq",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1780848000000,
+      "teamId": "10200",
+      "id": "ddm6c6qrmq5dffi7",
+      "seq": 138293,
+      "desc": "The Cubs acquired Kelly from the Dodgers on Sunday in exchange for cash considerations, Jared Wyllys of AllCHGO.com reports.",
+      "player": {
+        "name": "Antoine Kelly",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "",
+        "scorerId": "04px1",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1780848000000,
       "teamId": "10140",
       "id": "01mqb1l4mq4hmzep",
       "seq": 138292,
@@ -5064,7 +5105,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -5154,7 +5200,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -5576,27 +5627,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1780761600000,
-      "teamId": "10010",
-      "id": "dmn5rwjcmq2kwxc2",
-      "seq": 138264,
-      "desc": "The Orioles selected Huff's contract from Triple-A Norfolk on Saturday.",
-      "player": {
-        "name": "Sam Huff",
-        "posShortNames": "C",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041tq_96_7.png",
-        "scorerId": "041tq",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
