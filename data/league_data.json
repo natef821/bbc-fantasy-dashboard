@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T03:27:39.925391Z",
+  "lastUpdated": "2026-06-08T10:26:37.105701Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -57,10 +57,10 @@
       "fantasyPoints": "",
       "fptsPerGame": "5.58",
       "scoringPeriod": "939",
-      "gb": "2,276",
+      "gb": "2,277",
       "ww": 2960,
       "pbl": 6.0,
-      "hitPts": 225.0,
+      "hitPts": 224.0,
       "pitPts": 0
     },
     {
@@ -132,10 +132,10 @@
       "fantasyPoints": "",
       "fptsPerGame": "5.04",
       "scoringPeriod": "922",
-      "gb": "2,041.25",
+      "gb": "2,043.25",
       "ww": 2606,
       "pbl": 3.0,
-      "hitPts": 813.75,
+      "hitPts": 811.75,
       "pitPts": 0
     },
     {
@@ -248,7 +248,7 @@
         "l": 7,
         "t": 23,
         "pf": 5431.25,
-        "pa": 4747.0,
+        "pa": 4748.0,
         "name": "Wyatt and the Sankers",
         "weeklyPF": [
           339.75,
@@ -590,7 +590,7 @@
         "l": 15,
         "t": 23,
         "pf": 4140.75,
-        "pa": 4886.75,
+        "pa": 4888.75,
         "name": "Creative Name",
         "weeklyPF": [
           184.75,
@@ -703,7 +703,7 @@
         "w": 8,
         "l": 13,
         "t": 23,
-        "pf": 4647.25,
+        "pf": 4649.25,
         "pa": 5133.25,
         "name": "Golden Gate Gays",
         "weeklyPF": [
@@ -727,7 +727,7 @@
           256.5,
           244.5,
           264.0,
-          257.75,
+          259.75,
           0.0,
           0.0,
           0.0,
@@ -760,7 +760,7 @@
         "w": 14,
         "l": 7,
         "t": 23,
-        "pf": 5236.0,
+        "pf": 5237.0,
         "pa": 4866.0,
         "name": "Layin Wood\ud83e\udeb5",
         "weeklyPF": [
@@ -784,7 +784,7 @@
           231.25,
           235.75,
           299.25,
-          199.0,
+          200.0,
           0.0,
           0.0,
           0.0,
@@ -2058,7 +2058,7 @@
           {
             "team1": "Golden Gate Gays",
             "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 257.75,
+            "team1Pts": 259.75,
             "team2": "Creative Name",
             "team2Id": "vhuxfzygmg7kg728",
             "team2Pts": 172.75,
@@ -2097,7 +2097,7 @@
             "team1Pts": 261.75,
             "team2": "Layin Wood\ud83e\udeb5",
             "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 199.0,
+            "team2Pts": 200.0,
             "winner": "Wyatt and the Sankers"
           },
           {
@@ -3670,7 +3670,7 @@
             "short": "Lsgob",
             "rank": "8",
             "values": [
-              "2,276",
+              "2,277",
               "",
               "347",
               "592",
@@ -3679,7 +3679,7 @@
               "277",
               "13",
               "567",
-              "46",
+              "47",
               "17",
               "4",
               "1,025",
@@ -3778,7 +3778,7 @@
             "short": "GGG",
             "rank": "12",
             "values": [
-              "2,041.25",
+              "2,043.25",
               "",
               "292",
               "589",
@@ -3795,7 +3795,7 @@
               "36",
               "3",
               "0",
-              "39",
+              "40",
               "4"
             ]
           }
@@ -4403,12 +4403,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4477,12 +4472,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4649,12 +4639,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 5",
-            "typeId": "25"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4697,12 +4682,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4770,12 +4750,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4918,12 +4893,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     }
   ],
@@ -5136,12 +5106,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5210,12 +5175,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5382,12 +5342,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 5",
-            "typeId": "25"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5430,12 +5385,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5503,12 +5453,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5651,12 +5596,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     }
   ],
