@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T14:37:23.646356Z",
+  "lastUpdated": "2026-06-09T20:01:42.566671Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,304 @@
   "transactions": [
     {
       "displayDate": 1781020800000,
+      "teamId": "10140",
+      "id": "rimi5y2nmq72e2dy",
+      "seq": 138329,
+      "desc": "The Rangers activated Winn from the 15-day injured list Tuesday.",
+      "player": {
+        "name": "Cole Winn",
+        "posShortNames": "RP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04paj_96_5.png",
+        "scorerId": "04paj",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10250",
+      "id": "s72y4hjdmq71lohj",
+      "seq": 138328,
+      "desc": "The Cardinals activated Church (shoulder) from the injured list Tuesday, reports Jim Hayes of FanDuel Sports Network Midwest.",
+      "player": {
+        "name": "Nathan Church",
+        "posShortNames": "CF,LF",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs064n8_96_1.png",
+        "scorerId": "064n8",
+        "posIds": [
+          "010",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10020",
+      "id": "3l2n0335mq717iw1",
+      "seq": 138327,
+      "desc": "The Red Sox reinstated Whitlock (knee) from the 15-day injured list Tuesday, Gabrielle Starr of the Boston Herald reports.",
+      "player": {
+        "name": "Garrett Whitlock",
+        "posShortNames": "RP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eqa_96_8.png",
+        "scorerId": "04eqa",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10020",
+      "id": "940kkgr3mq717itg",
+      "seq": 138326,
+      "desc": "The Red Sox optioned Siegler to Triple-A Worcester on Tuesday, reports Ian Browne of MLB.com.",
+      "player": {
+        "name": "Anthony Seigler",
+        "posShortNames": "C,2B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pkq_96_4.png",
+        "scorerId": "04pkq",
+        "posIds": [
+          "001",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10170",
+      "id": "iscf2xu9mq700yxf",
+      "seq": 138325,
+      "desc": "The Mets optioned Senger to Triple-A Syracuse on Tuesday.",
+      "player": {
+        "name": "Hayden Senger",
+        "posShortNames": "C",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q63_96_1.png",
+        "scorerId": "04q63",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10170",
+      "id": "cp5fzjw8mq6zmr5u",
+      "seq": 138324,
+      "desc": "The Mets reinstated Alvarez (knee) from the 10-day injured list Tuesday, Will Sammon of The Athletic reports. He's starting behind the plate and batting ninth Tuesday against the Cardinals",
+      "player": {
+        "name": "Francisco Alvarez",
+        "posShortNames": "C",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04qnc_96_5.png",
+        "scorerId": "04qnc",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10230",
+      "id": "i0onkdznmq6zmr3f",
+      "seq": 138323,
+      "desc": "The Brewers agreed to a seven-year, $31 million contract extension with Lara on Tuesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Luis Lara",
+        "posShortNames": "CF",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "",
+        "scorerId": "060yn",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10060",
+      "id": "heaxy70kmq6xnudp",
+      "seq": 138322,
+      "desc": "The White Sox optioned Nishida to Triple-A Charlotte on Tuesday.",
+      "player": {
+        "name": "Rikuu Nishida",
+        "posShortNames": "RF,2B,LF",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "",
+        "scorerId": "06gju",
+        "posIds": [
+          "011",
+          "003",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10060",
+      "id": "2e9xouh5mq6x9nqg",
+      "seq": 138321,
+      "desc": "The White Sox recalled Rock from Triple-A Charlotte on Tuesday.",
+      "player": {
+        "name": "Joe Rock",
+        "posShortNames": "SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tdd_96_2.png",
+        "scorerId": "05tdd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10060",
+      "id": "rj1lr0cnmq6x9noj",
+      "seq": 138320,
+      "desc": "The White Sox optioned Sandlin to Triple-A Charlotte on Tuesday.",
+      "player": {
+        "name": "David Sandlin",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs062pn_96_1.png",
+        "scorerId": "062pn",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10060",
+      "id": "7vvc8v3zmq6x9nlt",
+      "seq": 138319,
+      "desc": "The White Sox selected Montgomery's contract from Triple-A Charlotte on Tuesday.",
+      "player": {
+        "name": "Braden Montgomery",
+        "posShortNames": "CF,RF",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "",
+        "scorerId": "05rcg",
+        "posIds": [
+          "010",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10290",
+      "id": "mhzg00w1mq6wvhte",
+      "seq": 138318,
+      "desc": "The Padres recalled Wagner from Triple-A El Paso on Tuesday.",
+      "player": {
+        "name": "Will Wagner",
+        "posShortNames": "3B",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yhg_96_2.png",
+        "scorerId": "05yhg",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781020800000,
       "teamId": "10105",
       "id": "w2x4ux5emq6q43je",
       "seq": 138317,
@@ -4531,7 +4829,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
       }
     },
     {
@@ -4601,7 +4904,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4629,309 +4937,310 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1780934400000,
-      "teamId": "10040",
-      "id": "lr0aqm2gmq5jh35u",
-      "seq": 138298,
-      "desc": "The Rays selected Slater's contract from Triple-A Durham on Monday.",
-      "player": {
-        "name": "Austin Slater",
-        "posShortNames": "LF,RF",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dg7_96_13.png",
-        "scorerId": "03dg7",
-        "posIds": [
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780934400000,
-      "teamId": "10040",
-      "id": "ix0ixxotmq5jh32e",
-      "seq": 138297,
-      "desc": "The Rays optioned Dunn to Triple-A Durham on Monday.",
-      "player": {
-        "name": "Oliver Dunn",
-        "posShortNames": "2B,3B",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0518b_96_2.png",
-        "scorerId": "0518b",
-        "posIds": [
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780934400000,
-      "teamId": "10010",
-      "id": "fh8ucx6cmq5j2xad",
-      "seq": 138296,
-      "desc": "The Orioles recalled Gibson from Triple-A Norfolk and will have him start Monday's game against the Mariners at Camden Yards.",
-      "player": {
-        "name": "Trey Gibson",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mc1_96_1.png",
-        "scorerId": "06mc1",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780934400000,
-      "teamId": "10200",
-      "id": "e7y6ln06mq5j2x7c",
-      "seq": 138295,
-      "desc": "The Cubs claimed Nunez off waivers from the Orioles on Monday.",
-      "player": {
-        "name": "Eduarniel N\u00fa\u00f1ez",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06l0i_96_1.png",
-        "scorerId": "06l0i",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780934400000,
-      "teamId": "10110",
-      "id": "jwhxjtpvmq5gkuku",
-      "seq": 138294,
-      "desc": "The Angels released Walker on Sunday, Jeff Fletcher of The Orange County Register reports.",
-      "player": {
-        "name": "Taijuan Walker",
-        "posShortNames": "SP,RP",
-        "teamShortName": "(N/A)",
-        "teamName": "Not on a team",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs025dq_96_16.png",
-        "scorerId": "025dq",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Free Agent",
-            "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10200",
-      "id": "ddm6c6qrmq5dffi7",
-      "seq": 138293,
-      "desc": "The Cubs acquired Kelly from the Dodgers on Sunday in exchange for cash considerations, Jared Wyllys of AllCHGO.com reports.",
-      "player": {
-        "name": "Antoine Kelly",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "",
-        "scorerId": "04px1",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10140",
-      "id": "01mqb1l4mq4hmzep",
-      "seq": 138292,
-      "desc": "Haggerty was released by the Rangers on Sunday.",
-      "player": {
-        "name": "Sam Haggerty",
-        "posShortNames": "LF,CF",
-        "teamShortName": "(N/A)",
-        "teamName": "Not on a team",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qz9_96_7.png",
-        "scorerId": "03qz9",
-        "posIds": [
-          "009",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Free Agent",
-            "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10190",
-      "id": "ssu5rx91mq4ej0d7",
-      "seq": 138291,
-      "desc": "Petry was promoted to Double-A Harrisburg on Sunday, Kyle Williams of TheBanner.com reports.",
-      "player": {
-        "name": "Ethan Petry",
-        "posShortNames": "LF",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "05yff",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10050",
-      "id": "iigq8hqxmq44am22",
-      "seq": 138290,
-      "desc": "The Blue Jays assigned Andrews to Triple-A Buffalo after he cleared waivers Sunday, Ben Nicholson-Smith of Sportsnet.ca reports.",
-      "player": {
-        "name": "Tanner Andrews",
-        "posShortNames": "RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "04pun",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10110",
-      "id": "8fc0kbs2mq43wg20",
-      "seq": 138289,
-      "desc": "The Angels recalled Aldegheri from Triple-A Salt Lake on Sunday.",
-      "player": {
-        "name": "Samuel Aldegheri",
-        "posShortNames": "SP,RP",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06aw2_96_1.png",
-        "scorerId": "06aw2",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10270",
-      "id": "wkvad9oimq41jf7m",
-      "seq": 138288,
-      "desc": "Colorado optioned Shook to Triple-A Albuquerque on Sunday.",
-      "player": {
-        "name": "TJ Shook",
-        "posShortNames": "RP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "05t66",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10270",
-      "id": "9ja148acmq41582z",
-      "seq": 138287,
-      "desc": "The Rockies recalled Peralta from Triple-A Albuquerque on Sunday.",
-      "player": {
-        "name": "Sammy Peralta",
-        "posShortNames": "RP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051dq_96_1.png",
-        "scorerId": "051dq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1781020800000,
+      "teamId": "10140",
+      "id": "rimi5y2nmq72e2dy",
+      "seq": 138329,
+      "desc": "The Rangers activated Winn from the 15-day injured list Tuesday.",
+      "player": {
+        "name": "Cole Winn",
+        "posShortNames": "RP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04paj_96_5.png",
+        "scorerId": "04paj",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10250",
+      "id": "s72y4hjdmq71lohj",
+      "seq": 138328,
+      "desc": "The Cardinals activated Church (shoulder) from the injured list Tuesday, reports Jim Hayes of FanDuel Sports Network Midwest.",
+      "player": {
+        "name": "Nathan Church",
+        "posShortNames": "CF,LF",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs064n8_96_1.png",
+        "scorerId": "064n8",
+        "posIds": [
+          "010",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10020",
+      "id": "3l2n0335mq717iw1",
+      "seq": 138327,
+      "desc": "The Red Sox reinstated Whitlock (knee) from the 15-day injured list Tuesday, Gabrielle Starr of the Boston Herald reports.",
+      "player": {
+        "name": "Garrett Whitlock",
+        "posShortNames": "RP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eqa_96_8.png",
+        "scorerId": "04eqa",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10020",
+      "id": "940kkgr3mq717itg",
+      "seq": 138326,
+      "desc": "The Red Sox optioned Siegler to Triple-A Worcester on Tuesday, reports Ian Browne of MLB.com.",
+      "player": {
+        "name": "Anthony Seigler",
+        "posShortNames": "C,2B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pkq_96_4.png",
+        "scorerId": "04pkq",
+        "posIds": [
+          "001",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10170",
+      "id": "iscf2xu9mq700yxf",
+      "seq": 138325,
+      "desc": "The Mets optioned Senger to Triple-A Syracuse on Tuesday.",
+      "player": {
+        "name": "Hayden Senger",
+        "posShortNames": "C",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q63_96_1.png",
+        "scorerId": "04q63",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10170",
+      "id": "cp5fzjw8mq6zmr5u",
+      "seq": 138324,
+      "desc": "The Mets reinstated Alvarez (knee) from the 10-day injured list Tuesday, Will Sammon of The Athletic reports. He's starting behind the plate and batting ninth Tuesday against the Cardinals",
+      "player": {
+        "name": "Francisco Alvarez",
+        "posShortNames": "C",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04qnc_96_5.png",
+        "scorerId": "04qnc",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10230",
+      "id": "i0onkdznmq6zmr3f",
+      "seq": 138323,
+      "desc": "The Brewers agreed to a seven-year, $31 million contract extension with Lara on Tuesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Luis Lara",
+        "posShortNames": "CF",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "",
+        "scorerId": "060yn",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10060",
+      "id": "heaxy70kmq6xnudp",
+      "seq": 138322,
+      "desc": "The White Sox optioned Nishida to Triple-A Charlotte on Tuesday.",
+      "player": {
+        "name": "Rikuu Nishida",
+        "posShortNames": "RF,2B,LF",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "",
+        "scorerId": "06gju",
+        "posIds": [
+          "011",
+          "003",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10060",
+      "id": "2e9xouh5mq6x9nqg",
+      "seq": 138321,
+      "desc": "The White Sox recalled Rock from Triple-A Charlotte on Tuesday.",
+      "player": {
+        "name": "Joe Rock",
+        "posShortNames": "SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tdd_96_2.png",
+        "scorerId": "05tdd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10060",
+      "id": "rj1lr0cnmq6x9noj",
+      "seq": 138320,
+      "desc": "The White Sox optioned Sandlin to Triple-A Charlotte on Tuesday.",
+      "player": {
+        "name": "David Sandlin",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs062pn_96_1.png",
+        "scorerId": "062pn",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10060",
+      "id": "7vvc8v3zmq6x9nlt",
+      "seq": 138319,
+      "desc": "The White Sox selected Montgomery's contract from Triple-A Charlotte on Tuesday.",
+      "player": {
+        "name": "Braden Montgomery",
+        "posShortNames": "CF,RF",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "",
+        "scorerId": "05rcg",
+        "posIds": [
+          "010",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781020800000,
+      "teamId": "10290",
+      "id": "mhzg00w1mq6wvhte",
+      "seq": 138318,
+      "desc": "The Padres recalled Wagner from Triple-A El Paso on Tuesday.",
+      "player": {
+        "name": "Will Wagner",
+        "posShortNames": "3B",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yhg_96_2.png",
+        "scorerId": "05yhg",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781020800000,
       "teamId": "10105",
       "id": "w2x4ux5emq6q43je",
       "seq": 138317,
@@ -5266,7 +5575,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
       }
     },
     {
@@ -5336,7 +5650,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5364,303 +5683,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1780934400000,
-      "teamId": "10040",
-      "id": "lr0aqm2gmq5jh35u",
-      "seq": 138298,
-      "desc": "The Rays selected Slater's contract from Triple-A Durham on Monday.",
-      "player": {
-        "name": "Austin Slater",
-        "posShortNames": "LF,RF",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dg7_96_13.png",
-        "scorerId": "03dg7",
-        "posIds": [
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780934400000,
-      "teamId": "10040",
-      "id": "ix0ixxotmq5jh32e",
-      "seq": 138297,
-      "desc": "The Rays optioned Dunn to Triple-A Durham on Monday.",
-      "player": {
-        "name": "Oliver Dunn",
-        "posShortNames": "2B,3B",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0518b_96_2.png",
-        "scorerId": "0518b",
-        "posIds": [
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780934400000,
-      "teamId": "10010",
-      "id": "fh8ucx6cmq5j2xad",
-      "seq": 138296,
-      "desc": "The Orioles recalled Gibson from Triple-A Norfolk and will have him start Monday's game against the Mariners at Camden Yards.",
-      "player": {
-        "name": "Trey Gibson",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mc1_96_1.png",
-        "scorerId": "06mc1",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780934400000,
-      "teamId": "10200",
-      "id": "e7y6ln06mq5j2x7c",
-      "seq": 138295,
-      "desc": "The Cubs claimed Nunez off waivers from the Orioles on Monday.",
-      "player": {
-        "name": "Eduarniel N\u00fa\u00f1ez",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06l0i_96_1.png",
-        "scorerId": "06l0i",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780934400000,
-      "teamId": "10110",
-      "id": "jwhxjtpvmq5gkuku",
-      "seq": 138294,
-      "desc": "The Angels released Walker on Sunday, Jeff Fletcher of The Orange County Register reports.",
-      "player": {
-        "name": "Taijuan Walker",
-        "posShortNames": "SP,RP",
-        "teamShortName": "(N/A)",
-        "teamName": "Not on a team",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs025dq_96_16.png",
-        "scorerId": "025dq",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Free Agent",
-            "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10200",
-      "id": "ddm6c6qrmq5dffi7",
-      "seq": 138293,
-      "desc": "The Cubs acquired Kelly from the Dodgers on Sunday in exchange for cash considerations, Jared Wyllys of AllCHGO.com reports.",
-      "player": {
-        "name": "Antoine Kelly",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "",
-        "scorerId": "04px1",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10140",
-      "id": "01mqb1l4mq4hmzep",
-      "seq": 138292,
-      "desc": "Haggerty was released by the Rangers on Sunday.",
-      "player": {
-        "name": "Sam Haggerty",
-        "posShortNames": "LF,CF",
-        "teamShortName": "(N/A)",
-        "teamName": "Not on a team",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qz9_96_7.png",
-        "scorerId": "03qz9",
-        "posIds": [
-          "009",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Free Agent",
-            "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10190",
-      "id": "ssu5rx91mq4ej0d7",
-      "seq": 138291,
-      "desc": "Petry was promoted to Double-A Harrisburg on Sunday, Kyle Williams of TheBanner.com reports.",
-      "player": {
-        "name": "Ethan Petry",
-        "posShortNames": "LF",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "05yff",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10050",
-      "id": "iigq8hqxmq44am22",
-      "seq": 138290,
-      "desc": "The Blue Jays assigned Andrews to Triple-A Buffalo after he cleared waivers Sunday, Ben Nicholson-Smith of Sportsnet.ca reports.",
-      "player": {
-        "name": "Tanner Andrews",
-        "posShortNames": "RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "04pun",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10110",
-      "id": "8fc0kbs2mq43wg20",
-      "seq": 138289,
-      "desc": "The Angels recalled Aldegheri from Triple-A Salt Lake on Sunday.",
-      "player": {
-        "name": "Samuel Aldegheri",
-        "posShortNames": "SP,RP",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06aw2_96_1.png",
-        "scorerId": "06aw2",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10270",
-      "id": "wkvad9oimq41jf7m",
-      "seq": 138288,
-      "desc": "Colorado optioned Shook to Triple-A Albuquerque on Sunday.",
-      "player": {
-        "name": "TJ Shook",
-        "posShortNames": "RP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "05t66",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1780848000000,
-      "teamId": "10270",
-      "id": "9ja148acmq41582z",
-      "seq": 138287,
-      "desc": "The Rockies recalled Peralta from Triple-A Albuquerque on Sunday.",
-      "player": {
-        "name": "Sammy Peralta",
-        "posShortNames": "RP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051dq_96_1.png",
-        "scorerId": "051dq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
