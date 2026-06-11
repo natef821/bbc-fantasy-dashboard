@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T10:14:57.972641Z",
+  "lastUpdated": "2026-06-11T15:45:27.113211Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,53 @@
   },
   "transactions": [
     {
+      "displayDate": 1781193600000,
+      "teamId": "10170",
+      "id": "kuj58q3amq9lsgrs",
+      "seq": 138374,
+      "desc": "The Mets recalled Duarte from Triple-A Syracuse on Thursday.",
+      "player": {
+        "name": "Daniel Duarte",
+        "posShortNames": "RP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y12_96_4.png",
+        "scorerId": "05y12",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781193600000,
+      "teamId": "10170",
+      "id": "tebjobl5mq9lsgpz",
+      "seq": 138373,
+      "desc": "The Mets optioned Pintaro to Triple-A Syracuse on Thursday.",
+      "player": {
+        "name": "Jonathan Pintaro",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qcs_96_1.png",
+        "scorerId": "06qcs",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1781107200000,
       "teamId": "10080",
       "id": "0hf7tvbsmq8nsthg",
@@ -4308,7 +4355,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -4535,7 +4587,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -4854,59 +4911,58 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1781020800000,
-      "teamId": "10130",
-      "id": "lyvonp5tmq7911dv",
-      "seq": 138344,
-      "desc": "The Pittsburgh Pirates traded RHP Carson Fulmer to the Seattle Mariners.",
-      "player": {
-        "name": "Carson Fulmer",
-        "posShortNames": "RP,SP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n67_96_9.png",
-        "scorerId": "02n67",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781020800000,
-      "teamId": "10121",
-      "id": "3v7qu35xmq78p1bp",
-      "seq": 138343,
-      "desc": "The Athletics recalled  Estes from Triple-A Las Vegas on Tuesday.",
-      "player": {
-        "name": "Joey Estes",
-        "posShortNames": "SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051cl_96_1.png",
-        "scorerId": "051cl",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1781193600000,
+      "teamId": "10170",
+      "id": "kuj58q3amq9lsgrs",
+      "seq": 138374,
+      "desc": "The Mets recalled Duarte from Triple-A Syracuse on Thursday.",
+      "player": {
+        "name": "Daniel Duarte",
+        "posShortNames": "RP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y12_96_4.png",
+        "scorerId": "05y12",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781193600000,
+      "teamId": "10170",
+      "id": "tebjobl5mq9lsgpz",
+      "seq": 138373,
+      "desc": "The Mets optioned Pintaro to Triple-A Syracuse on Thursday.",
+      "player": {
+        "name": "Jonathan Pintaro",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qcs_96_1.png",
+        "scorerId": "06qcs",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1781107200000,
       "teamId": "10080",
       "id": "0hf7tvbsmq8nsthg",
@@ -5019,7 +5075,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -5246,7 +5307,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -5565,54 +5631,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1781020800000,
-      "teamId": "10130",
-      "id": "lyvonp5tmq7911dv",
-      "seq": 138344,
-      "desc": "The Pittsburgh Pirates traded RHP Carson Fulmer to the Seattle Mariners.",
-      "player": {
-        "name": "Carson Fulmer",
-        "posShortNames": "RP,SP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n67_96_9.png",
-        "scorerId": "02n67",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781020800000,
-      "teamId": "10121",
-      "id": "3v7qu35xmq78p1bp",
-      "seq": 138343,
-      "desc": "The Athletics recalled  Estes from Triple-A Las Vegas on Tuesday.",
-      "player": {
-        "name": "Joey Estes",
-        "posShortNames": "SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051cl_96_1.png",
-        "scorerId": "051cl",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
