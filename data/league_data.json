@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T10:02:13.845244Z",
+  "lastUpdated": "2026-06-12T14:47:09.241746Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,33 @@
   },
   "transactions": [
     {
+      "displayDate": 1781280000000,
+      "teamId": "10300",
+      "id": "ptr7rrsumqaznd7m",
+      "seq": 138390,
+      "desc": "The Giants optioned Seymour to Triple-A Sacramento on Thursday.",
+      "player": {
+        "name": "Carson Seymour",
+        "posShortNames": "RP,SP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jqk_96_1.png",
+        "scorerId": "05jqk",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1781193600000,
       "teamId": "10060",
       "id": "e029dhlrmqabx2qg",
@@ -4886,38 +4913,38 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1781107200000,
-      "teamId": "10150",
-      "id": "htmzickymq8febr3",
-      "seq": 138361,
-      "desc": "Atlanta designated Lara for assignment Wednesday.",
-      "player": {
-        "name": "Jhancarlos Lara",
-        "posShortNames": "RP,SP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "",
-        "scorerId": "06cev",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1781280000000,
+      "teamId": "10300",
+      "id": "ptr7rrsumqaznd7m",
+      "seq": 138390,
+      "desc": "The Giants optioned Seymour to Triple-A Sacramento on Thursday.",
+      "player": {
+        "name": "Carson Seymour",
+        "posShortNames": "RP,SP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jqk_96_1.png",
+        "scorerId": "05jqk",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1781193600000,
       "teamId": "10060",
       "id": "e029dhlrmqabx2qg",
@@ -5608,33 +5635,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1781107200000,
-      "teamId": "10150",
-      "id": "htmzickymq8febr3",
-      "seq": 138361,
-      "desc": "Atlanta designated Lara for assignment Wednesday.",
-      "player": {
-        "name": "Jhancarlos Lara",
-        "posShortNames": "RP,SP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "",
-        "scorerId": "06cev",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
