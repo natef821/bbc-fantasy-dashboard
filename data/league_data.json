@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T08:51:28.658737Z",
+  "lastUpdated": "2026-06-13T13:47:58.393128Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -10,10 +10,10 @@
       "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp",
       "rank": 1,
       "fantasyPoints": "",
-      "fptsPerGame": "5.43",
+      "fptsPerGame": "5.38",
       "scoringPeriod": "1090",
       "gb": "2,455.5",
-      "ww": 3458,
+      "ww": 3408,
       "pbl": 2.0,
       "hitPts": 0.0,
       "pitPts": 0
@@ -30,7 +30,7 @@
       "gb": "2,797.75",
       "ww": 3001,
       "pbl": 7.0,
-      "hitPts": 115.25,
+      "hitPts": 65.25,
       "pitPts": 0
     },
     {
@@ -45,7 +45,7 @@
       "gb": "2,811.75",
       "ww": 2873,
       "pbl": 9.0,
-      "hitPts": 228.75,
+      "hitPts": 178.75,
       "pitPts": 0
     },
     {
@@ -60,7 +60,7 @@
       "gb": "2,471.25",
       "ww": 3102,
       "pbl": 6.0,
-      "hitPts": 340.75,
+      "hitPts": 290.75,
       "pitPts": 0
     },
     {
@@ -75,7 +75,7 @@
       "gb": "2,351.5",
       "ww": 3050,
       "pbl": 1.0,
-      "hitPts": 512.5,
+      "hitPts": 462.5,
       "pitPts": 0
     },
     {
@@ -90,7 +90,7 @@
       "gb": "2,500.25",
       "ww": 2789,
       "pbl": 8.0,
-      "hitPts": 624.25,
+      "hitPts": 574.25,
       "pitPts": 0
     },
     {
@@ -105,7 +105,7 @@
       "gb": "2,548",
       "ww": 2722,
       "pbl": 5.0,
-      "hitPts": 644.0,
+      "hitPts": 594.0,
       "pitPts": 0
     },
     {
@@ -120,7 +120,7 @@
       "gb": "2,281.5",
       "ww": 2694,
       "pbl": 11.0,
-      "hitPts": 938.5,
+      "hitPts": 888.5,
       "pitPts": 0
     },
     {
@@ -135,7 +135,7 @@
       "gb": "2,242.25",
       "ww": 2695,
       "pbl": 3.0,
-      "hitPts": 976.25,
+      "hitPts": 926.25,
       "pitPts": 0
     },
     {
@@ -150,7 +150,7 @@
       "gb": "2,417",
       "ww": 2420,
       "pbl": 4.0,
-      "hitPts": 1076.5,
+      "hitPts": 1026.5,
       "pitPts": 0
     },
     {
@@ -165,7 +165,7 @@
       "gb": "2,480.5",
       "ww": 2307,
       "pbl": 12.0,
-      "hitPts": 1126.0,
+      "hitPts": 1076.0,
       "pitPts": 0
     },
     {
@@ -180,7 +180,7 @@
       "gb": "2,211.25",
       "ww": 2201,
       "pbl": 10.0,
-      "hitPts": 1501.25,
+      "hitPts": 1451.25,
       "pitPts": 0
     }
   ],
@@ -248,7 +248,7 @@
         "l": 8,
         "t": 21,
         "pf": 5798.75,
-        "pa": 5179.0,
+        "pa": 5129.0,
         "name": "Wyatt and the Sankers",
         "weeklyPF": [
           339.75,
@@ -418,7 +418,7 @@
         "w": 17,
         "l": 6,
         "t": 21,
-        "pf": 5914.0,
+        "pf": 5864.0,
         "pa": 5165.5,
         "name": "Wyatt and the Lankers",
         "weeklyPF": [
@@ -444,7 +444,7 @@
           284.5,
           179.75,
           280.5,
-          172.5,
+          122.5,
           0.0,
           0.0,
           0.0,
@@ -2212,7 +2212,7 @@
           {
             "team1": "Wyatt and the Lankers",
             "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 172.5,
+            "team1Pts": 122.5,
             "team2": "Wyatt and the Sankers",
             "team2Id": "g8p3r1i9mg7kg72b",
             "team2Pts": 113.75,
@@ -3810,7 +3810,7 @@
             "short": "LANK",
             "rank": "1",
             "values": [
-              "3,458.5",
+              "3,408.5",
               "",
               "1,061",
               "1,001",
@@ -3824,7 +3824,7 @@
               "3",
               "41",
               "1",
-              "1",
+              "0",
               "103",
               "52",
               "11",
@@ -4362,10 +4362,6 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          },
-          {
             "tooltip": "Illness - Day-to-Day",
             "typeId": "1"
           }
@@ -4733,12 +4729,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4759,12 +4750,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4787,12 +4773,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4813,12 +4794,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4865,12 +4841,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 4",
-            "typeId": "24"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4912,12 +4883,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 4",
-            "typeId": "24"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5117,10 +5083,6 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          },
-          {
             "tooltip": "Illness - Day-to-Day",
             "typeId": "1"
           }
@@ -5488,12 +5450,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5514,12 +5471,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5542,12 +5494,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5568,12 +5515,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5620,12 +5562,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 4",
-            "typeId": "24"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5667,12 +5604,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 4",
-            "typeId": "24"
-          }
-        ]
+        "icons": []
       }
     },
     {
