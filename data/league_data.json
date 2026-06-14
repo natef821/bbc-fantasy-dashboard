@@ -1,36 +1,36 @@
 {
-  "lastUpdated": "2026-06-13T19:17:12.645709Z",
+  "lastUpdated": "2026-06-14T03:28:22.163313Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
-    {
-      "id": "odce8gzsmg7kg72c",
-      "name": "Wyatt and the Lankers",
-      "short": "LANK",
-      "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp",
-      "rank": 1,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.38",
-      "scoringPeriod": "1091",
-      "gb": "2,455.5",
-      "ww": 3418,
-      "pbl": 2.0,
-      "hitPts": 0.0,
-      "pitPts": 0
-    },
     {
       "id": "g8p3r1i9mg7kg72b",
       "name": "Wyatt and the Sankers",
       "short": "SANK",
       "logoUrl": "https://fantraximg.com/logos/hju/tmLogo_hju2kpbompob82ov_512.webp",
+      "rank": 1,
+      "fantasyPoints": "",
+      "fptsPerGame": "5.5",
+      "scoringPeriod": "1074",
+      "gb": "2,840",
+      "ww": 3069,
+      "pbl": 7.0,
+      "hitPts": 0.0,
+      "pitPts": 0
+    },
+    {
+      "id": "odce8gzsmg7kg72c",
+      "name": "Wyatt and the Lankers",
+      "short": "LANK",
+      "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp",
       "rank": 2,
       "fantasyPoints": "",
-      "fptsPerGame": "5.48",
-      "scoringPeriod": "1060",
-      "gb": "2,804.25",
-      "ww": 3001,
-      "pbl": 7.0,
-      "hitPts": 68.75,
+      "fptsPerGame": "5.35",
+      "scoringPeriod": "1102",
+      "gb": "2,473",
+      "ww": 3418,
+      "pbl": 2.0,
+      "hitPts": 18.0,
       "pitPts": 0
     },
     {
@@ -40,12 +40,12 @@
       "logoUrl": "https://fantraximg.com/logos/9i1/tmLogo_9i1cc3c2mq44kk57_512.webp",
       "rank": 3,
       "fantasyPoints": "",
-      "fptsPerGame": "5.41",
-      "scoringPeriod": "1052",
-      "gb": "2,820.75",
-      "ww": 2873,
+      "fptsPerGame": "5.44",
+      "scoringPeriod": "1066",
+      "gb": "2,884.5",
+      "ww": 2916,
       "pbl": 9.0,
-      "hitPts": 179.75,
+      "hitPts": 108.0,
       "pitPts": 0
     },
     {
@@ -55,12 +55,12 @@
       "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp",
       "rank": 4,
       "fantasyPoints": "",
-      "fptsPerGame": "5.56",
-      "scoringPeriod": "1003",
-      "gb": "2,471.25",
-      "ww": 3102,
+      "fptsPerGame": "5.54",
+      "scoringPeriod": "1018",
+      "gb": "2,514.75",
+      "ww": 3126,
       "pbl": 6.0,
-      "hitPts": 300.75,
+      "hitPts": 268.25,
       "pitPts": 0
     },
     {
@@ -70,27 +70,12 @@
       "logoUrl": "https://fantraximg.com/logos/u8v/tmLogo_u8vsnkdbml4fnu92_512.webp",
       "rank": 5,
       "fantasyPoints": "",
-      "fptsPerGame": "5.27",
-      "scoringPeriod": "1025",
-      "gb": "2,351.5",
-      "ww": 3050,
+      "fptsPerGame": "5.29",
+      "scoringPeriod": "1038",
+      "gb": "2,387.75",
+      "ww": 3099,
       "pbl": 1.0,
-      "hitPts": 472.5,
-      "pitPts": 0
-    },
-    {
-      "id": "xgktl0otmg7kg72d",
-      "name": "Tank for LeBron",
-      "short": "Vind25",
-      "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp",
-      "rank": 6,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.07",
-      "scoringPeriod": "1043",
-      "gb": "2,503.25",
-      "ww": 2789,
-      "pbl": 8.0,
-      "hitPts": 581.25,
+      "hitPts": 422.25,
       "pitPts": 0
     },
     {
@@ -98,14 +83,29 @@
       "name": "TBONERS",
       "short": "TBONR",
       "logoUrl": "https://fantraximg.com/logos/uov/tmLogo_uovy6hy4mmns0hxb_512.webp",
+      "rank": 6,
+      "fantasyPoints": "",
+      "fptsPerGame": "5.18",
+      "scoringPeriod": "1038",
+      "gb": "2,568.25",
+      "ww": 2809,
+      "pbl": 5.0,
+      "hitPts": 531.25,
+      "pitPts": 0
+    },
+    {
+      "id": "xgktl0otmg7kg72d",
+      "name": "Tank for LeBron",
+      "short": "Vind25",
+      "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp",
       "rank": 7,
       "fantasyPoints": "",
-      "fptsPerGame": "5.16",
-      "scoringPeriod": "1023",
-      "gb": "2,548",
-      "ww": 2726,
-      "pbl": 5.0,
-      "hitPts": 600.0,
+      "fptsPerGame": "5.07",
+      "scoringPeriod": "1053",
+      "gb": "2,522.75",
+      "ww": 2819,
+      "pbl": 8.0,
+      "hitPts": 567.25,
       "pitPts": 0
     },
     {
@@ -115,12 +115,12 @@
       "logoUrl": "https://fantraximg.com/logos/0lf/tmLogo_0lfo2aaymnwg1b7o_512.webp",
       "rank": 8,
       "fantasyPoints": "",
-      "fptsPerGame": "4.85",
-      "scoringPeriod": "1026",
-      "gb": "2,282.5",
-      "ww": 2694,
+      "fptsPerGame": "4.87",
+      "scoringPeriod": "1038",
+      "gb": "2,327.25",
+      "ww": 2724,
       "pbl": 11.0,
-      "hitPts": 897.5,
+      "hitPts": 857.25,
       "pitPts": 0
     },
     {
@@ -130,12 +130,12 @@
       "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/helmet/purple_magenta_256.webp",
       "rank": 9,
       "fantasyPoints": "",
-      "fptsPerGame": "5.03",
-      "scoringPeriod": "981",
-      "gb": "2,242.25",
-      "ww": 2695,
+      "fptsPerGame": "5.01",
+      "scoringPeriod": "994",
+      "gb": "2,268.75",
+      "ww": 2710,
       "pbl": 3.0,
-      "hitPts": 936.25,
+      "hitPts": 930.25,
       "pitPts": 0
     },
     {
@@ -145,12 +145,12 @@
       "logoUrl": "https://fantraximg.com/logos/nsd/tmLogo_nsdzor91mcat5gih_512.webp",
       "rank": 10,
       "fantasyPoints": "",
-      "fptsPerGame": "5.47",
-      "scoringPeriod": "884",
-      "gb": "2,416.5",
-      "ww": 2420,
+      "fptsPerGame": "5.44",
+      "scoringPeriod": "896",
+      "gb": "2,433.25",
+      "ww": 2440,
       "pbl": 4.0,
-      "hitPts": 1037.0,
+      "hitPts": 1035.75,
       "pitPts": 0
     },
     {
@@ -160,12 +160,12 @@
       "logoUrl": "https://fantraximg.com/logos/6oi/tmLogo_6oix2hntmn40p414_512.webp",
       "rank": 11,
       "fantasyPoints": "",
-      "fptsPerGame": "4.81",
-      "scoringPeriod": "996",
-      "gb": "2,480.5",
-      "ww": 2307,
+      "fptsPerGame": "4.8",
+      "scoringPeriod": "1010",
+      "gb": "2,528.5",
+      "ww": 2317,
       "pbl": 12.0,
-      "hitPts": 1086.0,
+      "hitPts": 1063.0,
       "pitPts": 0
     },
     {
@@ -176,22 +176,22 @@
       "rank": 12,
       "fantasyPoints": "",
       "fptsPerGame": "4.45",
-      "scoringPeriod": "991",
-      "gb": "2,211.25",
-      "ww": 2201,
+      "scoringPeriod": "1001",
+      "gb": "2,240.25",
+      "ww": 2216,
       "pbl": 10.0,
-      "hitPts": 1461.25,
+      "hitPts": 1452.25,
       "pitPts": 0
     }
   ],
   "schedule": {
     "records": [
       {
-        "w": 13,
-        "l": 10,
+        "w": 14,
+        "l": 9,
         "t": 21,
-        "pf": 5292.75,
-        "pa": 5186.0,
+        "pf": 5341.75,
+        "pa": 5227.0,
         "name": "Tank for LeBron",
         "weeklyPF": [
           220.25,
@@ -216,7 +216,7 @@
           209.0,
           222.25,
           288.25,
-          66.0,
+          115.0,
           0.0,
           0.0,
           0.0,
@@ -244,11 +244,11 @@
         "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp"
       },
       {
-        "w": 15,
-        "l": 8,
+        "w": 16,
+        "l": 7,
         "t": 21,
-        "pf": 5805.25,
-        "pa": 5139.0,
+        "pf": 5909.0,
+        "pa": 5156.0,
         "name": "Wyatt and the Sankers",
         "weeklyPF": [
           339.75,
@@ -273,7 +273,7 @@
           376.75,
           261.75,
           253.75,
-          120.25,
+          224.0,
           0.0,
           0.0,
           0.0,
@@ -304,8 +304,8 @@
         "w": 11,
         "l": 11,
         "t": 22,
-        "pf": 4976.5,
-        "pa": 5356.75,
+        "pf": 5051.75,
+        "pa": 5400.75,
         "name": "Honey Nut Chourio's",
         "weeklyPF": [
           262.75,
@@ -330,7 +330,7 @@
           297.75,
           141.0,
           234.25,
-          92.0,
+          167.25,
           0.0,
           0.0,
           0.0,
@@ -361,8 +361,8 @@
         "w": 6,
         "l": 16,
         "t": 22,
-        "pf": 4788.0,
-        "pa": 5129.0,
+        "pf": 4846.0,
+        "pa": 5196.5,
         "name": "Jac-in' It",
         "weeklyPF": [
           180.75,
@@ -387,7 +387,7 @@
           222.5,
           355.75,
           220.5,
-          5.25,
+          63.25,
           0.0,
           0.0,
           0.0,
@@ -415,11 +415,11 @@
         "logoUrl": "https://fantraximg.com/logos/6oi/tmLogo_6oix2hntmn40p414_512.webp"
       },
       {
-        "w": 17,
-        "l": 6,
+        "w": 16,
+        "l": 7,
         "t": 21,
-        "pf": 5874.0,
-        "pa": 5172.0,
+        "pf": 5891.0,
+        "pa": 5275.75,
         "name": "Wyatt and the Lankers",
         "weeklyPF": [
           286.75,
@@ -444,7 +444,7 @@
           284.5,
           179.75,
           280.5,
-          132.5,
+          149.5,
           0.0,
           0.0,
           0.0,
@@ -472,11 +472,11 @@
         "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp"
       },
       {
-        "w": 11,
-        "l": 12,
+        "w": 12,
+        "l": 11,
         "t": 21,
-        "pf": 5694.25,
-        "pa": 5423.75,
+        "pf": 5801.0,
+        "pa": 5509.0,
         "name": "Slattlanta",
         "weeklyPF": [
           318.0,
@@ -501,7 +501,7 @@
           227.0,
           225.75,
           304.0,
-          75.25,
+          182.0,
           0.0,
           0.0,
           0.0,
@@ -532,8 +532,8 @@
         "w": 11,
         "l": 12,
         "t": 21,
-        "pf": 4837.0,
-        "pa": 4920.5,
+        "pf": 4873.25,
+        "pa": 5024.25,
         "name": "Say Yes to Velo",
         "weeklyPF": [
           144.25,
@@ -558,7 +558,7 @@
           296.75,
           236.25,
           200.0,
-          41.5,
+          77.75,
           0.0,
           0.0,
           0.0,
@@ -589,8 +589,8 @@
         "w": 7,
         "l": 16,
         "t": 21,
-        "pf": 4412.75,
-        "pa": 5201.25,
+        "pf": 4456.75,
+        "pa": 5276.5,
         "name": "Creative Name",
         "weeklyPF": [
           184.75,
@@ -615,7 +615,7 @@
           162.5,
           172.75,
           228.5,
-          43.5,
+          87.5,
           0.0,
           0.0,
           0.0,
@@ -643,11 +643,11 @@
         "logoUrl": "https://fantraximg.com/logos/nye/tmLogo_nye0oe90mpqbqirz_512.webp"
       },
       {
-        "w": 9,
-        "l": 14,
+        "w": 8,
+        "l": 15,
         "t": 21,
-        "pf": 5401.5,
-        "pa": 5425.0,
+        "pf": 5486.75,
+        "pa": 5531.75,
         "name": "First Pitch Swinging",
         "weeklyPF": [
           306.75,
@@ -672,7 +672,7 @@
           260.25,
           197.5,
           269.75,
-          77.25,
+          162.5,
           0.0,
           0.0,
           0.0,
@@ -700,11 +700,11 @@
         "logoUrl": "https://fantraximg.com/logos/u8v/tmLogo_u8vsnkdbml4fnu92_512.webp"
       },
       {
-        "w": 9,
-        "l": 14,
+        "w": 8,
+        "l": 15,
         "t": 21,
-        "pf": 4937.75,
-        "pa": 5503.25,
+        "pf": 4978.75,
+        "pa": 5552.25,
         "name": "Golden Gate Gays",
         "weeklyPF": [
           197.5,
@@ -729,7 +729,7 @@
           264.0,
           259.75,
           217.0,
-          71.5,
+          112.5,
           0.0,
           0.0,
           0.0,
@@ -760,8 +760,8 @@
         "w": 16,
         "l": 7,
         "t": 21,
-        "pf": 5573.25,
-        "pa": 5071.25,
+        "pf": 5640.75,
+        "pa": 5129.25,
         "name": "Layin Wood\ud83e\udeb5",
         "weeklyPF": [
           286.0,
@@ -786,7 +786,7 @@
           299.25,
           200.0,
           253.0,
-          83.25,
+          150.75,
           0.0,
           0.0,
           0.0,
@@ -817,8 +817,8 @@
         "w": 12,
         "l": 11,
         "t": 21,
-        "pf": 5274.0,
-        "pa": 5339.25,
+        "pf": 5377.75,
+        "pa": 5375.5,
         "name": "TBONERS",
         "weeklyPF": [
           323.5,
@@ -843,7 +843,7 @@
           189.25,
           166.25,
           252.5,
-          55.5,
+          159.25,
           0.0,
           0.0,
           0.0,
@@ -2176,55 +2176,55 @@
           {
             "team1": "Honey Nut Chourio's",
             "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 92.0,
+            "team1Pts": 167.25,
             "team2": "Creative Name",
             "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 43.5,
+            "team2Pts": 87.5,
             "winner": "Honey Nut Chourio's"
           },
           {
             "team1": "First Pitch Swinging",
             "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 77.25,
+            "team1Pts": 162.5,
             "team2": "Slattlanta",
             "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 75.25,
-            "winner": "First Pitch Swinging"
+            "team2Pts": 182.0,
+            "winner": "Slattlanta"
           },
           {
             "team1": "Tank for LeBron",
             "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 66.0,
+            "team1Pts": 115.0,
             "team2": "Golden Gate Gays",
             "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 71.5,
-            "winner": "Golden Gate Gays"
+            "team2Pts": 112.5,
+            "winner": "Tank for LeBron"
           },
           {
             "team1": "Layin Wood\ud83e\udeb5",
             "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 83.25,
+            "team1Pts": 150.75,
             "team2": "Jac-in' It",
             "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 5.25,
+            "team2Pts": 63.25,
             "winner": "Layin Wood\ud83e\udeb5"
           },
           {
             "team1": "Wyatt and the Lankers",
             "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 132.5,
+            "team1Pts": 149.5,
             "team2": "Wyatt and the Sankers",
             "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 120.25,
-            "winner": "Wyatt and the Lankers"
+            "team2Pts": 224.0,
+            "winner": "Wyatt and the Sankers"
           },
           {
             "team1": "TBONERS",
             "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 55.5,
+            "team1Pts": 159.25,
             "team2": "Say Yes to Velo",
             "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 41.5,
+            "team2Pts": 77.75,
             "winner": "TBONERS"
           }
         ]
@@ -3481,25 +3481,25 @@
             "short": "JDPusha",
             "rank": "1",
             "values": [
-              "2,820.75",
+              "2,884.5",
               "",
-              "440",
-              "702",
-              "130",
-              "390",
-              "397",
+              "447",
+              "712",
+              "135",
+              "398",
+              "402",
               "28",
-              "753",
+              "760",
               "60",
               "24",
               "8",
-              "1,246",
+              "1,271",
               "63",
-              "43",
+              "44",
               "5",
               "0",
-              "43",
-              "9"
+              "44",
+              "10"
             ]
           },
           {
@@ -3508,21 +3508,21 @@
             "short": "SANK",
             "rank": "2",
             "values": [
-              "2,804.25",
+              "2,840",
               "",
-              "444",
-              "745",
-              "130",
-              "395",
-              "321",
+              "448",
+              "759",
+              "131",
+              "400",
+              "323",
               "20",
-              "674",
+              "680",
               "36",
               "10",
               "4",
-              "1,288",
+              "1,308",
               "27",
-              "71",
+              "72",
               "4",
               "0",
               "51",
@@ -3535,24 +3535,51 @@
             "short": "TBONR",
             "rank": "3",
             "values": [
-              "2,548",
+              "2,568.25",
               "",
-              "394",
-              "669",
-              "105",
-              "367",
-              "343",
+              "398",
+              "674",
+              "106",
+              "368",
+              "348",
               "21",
-              "647",
-              "70",
+              "658",
+              "71",
               "19",
               "8",
-              "1,130",
-              "44",
-              "67",
+              "1,139",
+              "45",
+              "68",
               "2",
               "0",
-              "50",
+              "51",
+              "8"
+            ]
+          },
+          {
+            "teamId": "jwg2zkwzmg7kg72a",
+            "name": "Jac-in' It",
+            "short": "Jac",
+            "rank": "4",
+            "values": [
+              "2,528.5",
+              "",
+              "418",
+              "699",
+              "96",
+              "369",
+              "317",
+              "5",
+              "695",
+              "49",
+              "18",
+              "7",
+              "1,149",
+              "37",
+              "53",
+              "3",
+              "0",
+              "41",
               "8"
             ]
           },
@@ -3560,54 +3587,27 @@
             "teamId": "xgktl0otmg7kg72d",
             "name": "Tank for LeBron",
             "short": "Vind25",
-            "rank": "4",
-            "values": [
-              "2,503.25",
-              "",
-              "368",
-              "662",
-              "109",
-              "367",
-              "317",
-              "15",
-              "687",
-              "62",
-              "15",
-              "7",
-              "1,161",
-              "36",
-              "55",
-              "1",
-              "0",
-              "52",
-              "6"
-            ]
-          },
-          {
-            "teamId": "jwg2zkwzmg7kg72a",
-            "name": "Jac-in' It",
-            "short": "Jac",
             "rank": "5",
             "values": [
-              "2,480.5",
+              "2,522.75",
               "",
-              "408",
-              "686",
-              "94",
-              "363",
-              "315",
-              "5",
-              "686",
-              "48",
-              "18",
+              "370",
+              "668",
+              "111",
+              "371",
+              "318",
+              "15",
+              "695",
+              "62",
+              "16",
               "7",
-              "1,128",
-              "34",
-              "51",
-              "3",
+              "1,173",
+              "36",
+              "56",
+              "1",
               "0",
-              "40",
-              "8"
+              "53",
+              "6"
             ]
           },
           {
@@ -3616,25 +3616,25 @@
             "short": "Lsgob",
             "rank": "6",
             "values": [
-              "2,471.25",
+              "2,514.75",
               "",
-              "379",
-              "644",
-              "112",
-              "356",
-              "289",
-              "13",
-              "608",
-              "51",
+              "384",
+              "657",
+              "113",
+              "359",
+              "293",
+              "14",
+              "612",
+              "53",
               "18",
               "4",
-              "1,120",
-              "37",
+              "1,140",
+              "38",
               "43",
               "3",
               "0",
               "51",
-              "4"
+              "5"
             ]
           },
           {
@@ -3643,20 +3643,20 @@
             "short": "LANK",
             "rank": "7",
             "values": [
-              "2,455.5",
+              "2,473",
               "",
-              "379",
-              "678",
+              "381",
+              "688",
               "92",
-              "353",
+              "354",
               "345",
               "20",
-              "659",
+              "667",
               "93",
               "23",
               "6",
-              "1,119",
-              "18",
+              "1,133",
+              "20",
               "67",
               "2",
               "0",
@@ -3670,21 +3670,21 @@
             "short": "haydenor",
             "rank": "8",
             "values": [
-              "2,416.5",
+              "2,433.25",
               "",
-              "386",
-              "615",
+              "391",
+              "624",
               "105",
-              "368",
-              "303",
+              "370",
+              "304",
               "9",
-              "615",
-              "54",
+              "622",
+              "55",
               "19",
               "5",
-              "1,059",
+              "1,068",
               "36",
-              "44",
+              "45",
               "2",
               "0",
               "46",
@@ -3697,24 +3697,24 @@
             "short": "FPS",
             "rank": "9",
             "values": [
-              "2,351.5",
+              "2,387.75",
               "",
-              "379",
-              "671",
-              "97",
-              "328",
-              "305",
+              "384",
+              "682",
+              "99",
+              "334",
+              "309",
               "10",
-              "700",
+              "711",
               "80",
               "21",
               "13",
-              "1,109",
-              "34",
-              "46",
+              "1,129",
+              "36",
+              "47",
               "0",
               "0",
-              "37",
+              "38",
               "4"
             ]
           },
@@ -3724,21 +3724,21 @@
             "short": "Watchtow",
             "rank": "10",
             "values": [
-              "2,282.5",
+              "2,327.25",
               "",
-              "356",
-              "693",
-              "92",
-              "370",
-              "231",
+              "363",
+              "700",
+              "95",
+              "377",
+              "235",
               "7",
-              "611",
+              "617",
               "51",
               "11",
               "9",
-              "1,106",
-              "26",
-              "58",
+              "1,122",
+              "27",
+              "59",
               "2",
               "0",
               "46",
@@ -3751,25 +3751,25 @@
             "short": "GGG",
             "rank": "11",
             "values": [
-              "2,242.25",
+              "2,268.75",
               "",
-              "316",
-              "639",
-              "94",
-              "361",
-              "232",
+              "320",
+              "644",
+              "95",
+              "364",
+              "235",
               "5",
-              "610",
-              "25",
+              "613",
+              "26",
               "18",
               "5",
-              "1,078",
-              "39",
+              "1,087",
+              "40",
               "38",
               "4",
               "0",
-              "44",
-              "5"
+              "45",
+              "6"
             ]
           },
           {
@@ -3778,20 +3778,20 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "2,211.25",
+              "2,240.25",
               "",
-              "372",
-              "662",
+              "377",
+              "671",
               "80",
-              "342",
-              "303",
+              "349",
+              "306",
               "12",
-              "645",
-              "35",
+              "651",
+              "36",
               "15",
               "2",
-              "1,059",
-              "15",
+              "1,072",
+              "16",
               "46",
               "0",
               "0",
@@ -3810,12 +3810,12 @@
             "short": "LANK",
             "rank": "1",
             "values": [
-              "3,418.5",
+              "3,418",
               "",
-              "1,065",
-              "1,005",
-              "469",
-              "347",
+              "1,066.1",
+              "1,006",
+              "471",
+              "348",
               "13",
               "9",
               "44",
@@ -3826,7 +3826,7 @@
               "1",
               "0",
               "103",
-              "52",
+              "53",
               "11",
               "50"
             ]
@@ -3837,23 +3837,23 @@
             "short": "Lsgob",
             "rank": "2",
             "values": [
-              "3,102",
+              "3,126",
               "",
-              "970",
-              "908",
-              "422",
-              "326",
+              "977.1",
+              "918",
+              "428",
+              "329",
               "16",
               "13",
-              "42",
+              "45",
               "57",
               "0",
               "3",
-              "38",
+              "39",
               "0",
               "0",
-              "92",
-              "58",
+              "93",
+              "59",
               "14",
               "41"
             ]
@@ -3864,22 +3864,22 @@
             "short": "FPS",
             "rank": "3",
             "values": [
-              "3,050",
+              "3,099",
               "",
-              "912.2",
-              "919",
-              "381",
-              "292",
+              "927",
+              "934",
+              "386",
+              "297",
               "14",
               "14",
               "36",
-              "49",
+              "50",
               "1",
               "1",
-              "22",
+              "23",
               "1",
               "0",
-              "85",
+              "87",
               "51",
               "11",
               "53"
@@ -3891,22 +3891,22 @@
             "short": "SANK",
             "rank": "4",
             "values": [
-              "3,001",
+              "3,069",
               "",
-              "993",
-              "969",
-              "478",
-              "376",
-              "22",
+              "1,012.2",
+              "987",
+              "486",
+              "380",
+              "23",
               "7",
               "21",
-              "56",
+              "58",
               "1",
               "3",
-              "55",
+              "57",
               "1",
               "0",
-              "91",
+              "93",
               "41",
               "6",
               "38"
@@ -3918,13 +3918,13 @@
             "short": "JDPusha",
             "rank": "5",
             "values": [
-              "2,873.5",
+              "2,916.5",
               "",
-              "943",
-              "961",
-              "490",
-              "363",
-              "36",
+              "956.2",
+              "975",
+              "496",
+              "366",
+              "37",
               "10",
               "26",
               "57",
@@ -3933,10 +3933,10 @@
               "39",
               "0",
               "0",
-              "84",
+              "85",
               "46",
               "6",
-              "25"
+              "26"
             ]
           },
           {
@@ -3945,13 +3945,13 @@
             "short": "Vind25",
             "rank": "6",
             "values": [
-              "2,789.5",
+              "2,819",
               "",
-              "899.2",
-              "865",
-              "426",
-              "322",
-              "34",
+              "905.2",
+              "871",
+              "427",
+              "327",
+              "36",
               "10",
               "28",
               "36",
@@ -3961,7 +3961,7 @@
               "0",
               "0",
               "77",
-              "62",
+              "63",
               "13",
               "58"
             ]
@@ -3972,67 +3972,40 @@
             "short": "TBONR",
             "rank": "7",
             "values": [
-              "2,726",
+              "2,809.5",
               "",
-              "810.2",
-              "786",
-              "360",
-              "277",
-              "10",
+              "828",
+              "799",
+              "362",
+              "279",
+              "11",
               "7",
-              "61",
-              "55",
+              "62",
+              "57",
               "1",
               "6",
               "35",
               "1",
               "0",
-              "77",
-              "54",
+              "79",
+              "55",
               "6",
-              "60"
-            ]
-          },
-          {
-            "teamId": "aw407ddlmg7kg72a",
-            "name": "Golden Gate Gays",
-            "short": "GGG",
-            "rank": "8",
-            "values": [
-              "2,695.5",
-              "",
-              "847.1",
-              "793",
-              "357",
-              "310",
-              "12",
-              "11",
-              "34",
-              "48",
-              "1",
-              "1",
-              "53",
-              "1",
-              "0",
-              "74",
-              "61",
-              "5",
-              "35"
+              "63"
             ]
           },
           {
             "teamId": "nbnjqx3cmg7kg72g",
             "name": "Honey Nut Chourio's",
             "short": "Watchtow",
-            "rank": "9",
+            "rank": "8",
             "values": [
-              "2,694",
+              "2,724.5",
               "",
-              "878.1",
-              "805",
-              "415",
-              "292",
-              "45",
+              "888.2",
+              "820",
+              "423",
+              "298",
+              "47",
               "15",
               "19",
               "44",
@@ -4042,9 +4015,36 @@
               "0",
               "0",
               "75",
-              "48",
+              "49",
               "6",
-              "21"
+              "22"
+            ]
+          },
+          {
+            "teamId": "aw407ddlmg7kg72a",
+            "name": "Golden Gate Gays",
+            "short": "GGG",
+            "rank": "9",
+            "values": [
+              "2,710",
+              "",
+              "854",
+              "800",
+              "361",
+              "314",
+              "12",
+              "11",
+              "34",
+              "48",
+              "1",
+              "1",
+              "54",
+              "1",
+              "0",
+              "74",
+              "62",
+              "5",
+              "37"
             ]
           },
           {
@@ -4053,12 +4053,12 @@
             "short": "haydenor",
             "rank": "10",
             "values": [
-              "2,420.5",
+              "2,440",
               "",
-              "693.1",
-              "704",
-              "267",
-              "258",
+              "700",
+              "709",
+              "269",
+              "261",
               "21",
               "5",
               "13",
@@ -4068,7 +4068,7 @@
               "20",
               "0",
               "0",
-              "79",
+              "80",
               "30",
               "6",
               "32"
@@ -4080,23 +4080,23 @@
             "short": "Jac",
             "rank": "11",
             "values": [
-              "2,307.5",
+              "2,317.5",
               "",
-              "706",
-              "690",
-              "311",
-              "283",
+              "719.1",
+              "701",
+              "325",
+              "286",
               "46",
               "12",
               "19",
               "28",
               "0",
               "4",
-              "43",
+              "44",
               "0",
               "0",
-              "64",
-              "50",
+              "65",
+              "51",
               "2",
               "43"
             ]
@@ -4107,15 +4107,15 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "2,201.5",
+              "2,216.5",
               "",
-              "726.1",
-              "668",
+              "728.1",
+              "672",
               "350",
               "326",
               "48",
               "11",
-              "17",
+              "18",
               "24",
               "1",
               "0",
@@ -4123,7 +4123,7 @@
               "0",
               "0",
               "58",
-              "54",
+              "56",
               "4",
               "57"
             ]
@@ -4197,6 +4197,106 @@
   "transactions": [
     {
       "displayDate": 1781366400000,
+      "teamId": "10270",
+      "id": "46cwhcfrmqcw4uwj",
+      "seq": 138442,
+      "desc": "The Rockies sent Bellozo outright to Triple-A Albuquerque on Saturday.",
+      "player": {
+        "name": "Valente Bellozo",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "052c7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781366400000,
+      "teamId": "10270",
+      "id": "9v3xiwq7mqcw4utv",
+      "seq": 138441,
+      "desc": "The Rockies optioned Criswell to Triple-A Albuquerque on Saturday.",
+      "player": {
+        "name": "Jeff Criswell",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gx2_96_1.png",
+        "scorerId": "05gx2",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781366400000,
+      "teamId": "10270",
+      "id": "ea3i0mqmmqcvqolj",
+      "seq": 138440,
+      "desc": "The Rockies selected Castellano's contract from Triple-A Albuquerque on Saturday.",
+      "player": {
+        "name": "Eiberson Castellano",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "06l49",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781366400000,
+      "teamId": "10140",
+      "id": "vwd2x5ammqcr0kek",
+      "seq": 138439,
+      "desc": "Texas recalled Freeman from Triple-A Round Rock on Saturday.",
+      "player": {
+        "name": "Cody Freeman",
+        "posShortNames": "2B,3B",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0513g_96_1.png",
+        "scorerId": "0513g",
+        "posIds": [
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781366400000,
       "teamId": "10240",
       "id": "2i95fop1mqcq88jg",
       "seq": 138438,
@@ -4846,107 +4946,112 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1781280000000,
-      "teamId": "10080",
-      "id": "4de77uw7mqbg5vsd",
-      "seq": 138412,
-      "desc": "The Tigers designated Short for assignment Friday.",
-      "player": {
-        "name": "Zack Short",
-        "posShortNames": "3B,SS",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0420g_96_9.png",
-        "scorerId": "0420g",
-        "posIds": [
-          "004",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781280000000,
-      "teamId": "10080",
-      "id": "03965sqrmqbfrp5d",
-      "seq": 138411,
-      "desc": "The Tigers optioned Hanifee to Triple-A Toledo on Friday.",
-      "player": {
-        "name": "Brenan Hanifee",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rq_96_1.png",
-        "scorerId": "041rq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781280000000,
-      "teamId": "10080",
-      "id": "jk03vbqrmqbfrp3g",
-      "seq": 138410,
-      "desc": "The Tigers optioned Brieske to Triple-A Toledo following Thursday's game against the Twins.",
-      "player": {
-        "name": "Beau Brieske",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t6u_96_5.png",
-        "scorerId": "05t6u",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781280000000,
-      "teamId": "10080",
-      "id": "b5wccltemqbfdiyb",
-      "seq": 138409,
-      "desc": "The Tigers selected Waguespack's contract from Triple-A Toledo on Friday.",
-      "player": {
-        "name": "Jacob Waguespack",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04y78_96_7.png",
-        "scorerId": "04y78",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1781366400000,
+      "teamId": "10270",
+      "id": "46cwhcfrmqcw4uwj",
+      "seq": 138442,
+      "desc": "The Rockies sent Bellozo outright to Triple-A Albuquerque on Saturday.",
+      "player": {
+        "name": "Valente Bellozo",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "052c7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781366400000,
+      "teamId": "10270",
+      "id": "9v3xiwq7mqcw4utv",
+      "seq": 138441,
+      "desc": "The Rockies optioned Criswell to Triple-A Albuquerque on Saturday.",
+      "player": {
+        "name": "Jeff Criswell",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gx2_96_1.png",
+        "scorerId": "05gx2",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781366400000,
+      "teamId": "10270",
+      "id": "ea3i0mqmmqcvqolj",
+      "seq": 138440,
+      "desc": "The Rockies selected Castellano's contract from Triple-A Albuquerque on Saturday.",
+      "player": {
+        "name": "Eiberson Castellano",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "06l49",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781366400000,
+      "teamId": "10140",
+      "id": "vwd2x5ammqcr0kek",
+      "seq": 138439,
+      "desc": "Texas recalled Freeman from Triple-A Round Rock on Saturday.",
+      "player": {
+        "name": "Cody Freeman",
+        "posShortNames": "2B,3B",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0513g_96_1.png",
+        "scorerId": "0513g",
+        "posIds": [
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781366400000,
       "teamId": "10240",
       "id": "2i95fop1mqcq88jg",
       "seq": 138438,
@@ -5596,101 +5701,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1781280000000,
-      "teamId": "10080",
-      "id": "4de77uw7mqbg5vsd",
-      "seq": 138412,
-      "desc": "The Tigers designated Short for assignment Friday.",
-      "player": {
-        "name": "Zack Short",
-        "posShortNames": "3B,SS",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0420g_96_9.png",
-        "scorerId": "0420g",
-        "posIds": [
-          "004",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781280000000,
-      "teamId": "10080",
-      "id": "03965sqrmqbfrp5d",
-      "seq": 138411,
-      "desc": "The Tigers optioned Hanifee to Triple-A Toledo on Friday.",
-      "player": {
-        "name": "Brenan Hanifee",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rq_96_1.png",
-        "scorerId": "041rq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781280000000,
-      "teamId": "10080",
-      "id": "jk03vbqrmqbfrp3g",
-      "seq": 138410,
-      "desc": "The Tigers optioned Brieske to Triple-A Toledo following Thursday's game against the Twins.",
-      "player": {
-        "name": "Beau Brieske",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t6u_96_5.png",
-        "scorerId": "05t6u",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781280000000,
-      "teamId": "10080",
-      "id": "b5wccltemqbfdiyb",
-      "seq": 138409,
-      "desc": "The Tigers selected Waguespack's contract from Triple-A Toledo on Friday.",
-      "player": {
-        "name": "Jacob Waguespack",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04y78_96_7.png",
-        "scorerId": "04y78",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
