@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T11:53:55.922935Z",
+  "lastUpdated": "2026-06-15T17:07:09.781261Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,11 +4196,139 @@
   },
   "transactions": [
     {
+      "displayDate": 1781539200000,
+      "teamId": "10200",
+      "id": "065oyzacmqfgcqky",
+      "seq": 138464,
+      "desc": "The Seattle Mariners traded RHP Yosver Zulueta to the Chicago Cubs.",
+      "player": {
+        "name": "Yosver Zulueta",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05it9_96_2.png",
+        "scorerId": "05it9",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781539200000,
+      "teamId": "10100",
+      "id": "iykeb1tsmqfewj1x",
+      "seq": 138463,
+      "desc": "The Twins selected Fedko's contract from Triple-A St. Paul on Monday.",
+      "player": {
+        "name": "Kyler Fedko",
+        "posShortNames": "CF,1B,LF",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "",
+        "scorerId": "05yhm",
+        "posIds": [
+          "010",
+          "002",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781539200000,
+      "teamId": "10200",
+      "id": "xqat8j9vmqfe46jk",
+      "seq": 138462,
+      "desc": "The Cubs designated Nikhazy for assignment Monday.",
+      "player": {
+        "name": "Doug Nikhazy",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05taw_96_1.png",
+        "scorerId": "05taw",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781539200000,
+      "teamId": "10090",
+      "id": "cf08ic86mqf96orp",
+      "seq": 138461,
+      "desc": "The Royals optioned Morgan to Triple-A Omaha on Monday.",
+      "player": {
+        "name": "Eli Morgan",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eiw_96_7.png",
+        "scorerId": "04eiw",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781539200000,
+      "teamId": "10210",
+      "id": "gji10lofmqf8shto",
+      "seq": 138460,
+      "desc": "Haggerty signed a minor-league contract with the Reds on Sunday.",
+      "player": {
+        "name": "Sam Haggerty",
+        "posShortNames": "LF,CF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qz9_96_7.png",
+        "scorerId": "03qz9",
+        "posIds": [
+          "009",
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1781452800000,
       "teamId": "10230",
       "id": "uhvug61xmqefdp7j",
       "seq": 138459,
-      "desc": "Fischer was promoted to Double-A Biloxi on Sunday.",
+      "desc": "The Brewers promoted Fischer to Double-A Biloxi following High-A Wisconsin's 7-3 win over Great Lakes on Sunday.",
       "player": {
         "name": "Andrew Fischer",
         "posShortNames": "3B",
@@ -4253,7 +4381,7 @@
       "teamId": "10100",
       "id": "ua5qfk70mqefdp0r",
       "seq": 138457,
-      "desc": "Arcia was designated for assignment by the Twins after Sunday's 5-4 win over the Cardinals, Audra Martin of FanDuel Sports Network North reports.",
+      "desc": "The Twins designated Arcia for assignment following Sunday's 5-4 win over the Cardinals, Audra Martin of Twins.tv reports.",
       "player": {
         "name": "Orlando Arcia",
         "posShortNames": "SS,2B,3B",
@@ -4791,132 +4919,144 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1781366400000,
-      "teamId": "10080",
-      "id": "aa9i5kdimqcnv59h",
-      "seq": 138433,
-      "desc": "The Tigers optioned Madden to Triple-A Toledo on Saturday, Evan Woodbery of MLive.com reports.",
-      "player": {
-        "name": "Ty Madden",
-        "posShortNames": "SP,RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oqe_96_1.png",
-        "scorerId": "05oqe",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781366400000,
-      "teamId": "10080",
-      "id": "7ytujt17mqcnv572",
-      "seq": 138432,
-      "desc": "The Tigers reinstated Skubal (elbow) from the injured list ahead of his start Saturday against Cleveland, Evan Woodbery of MLive.com reports.",
-      "player": {
-        "name": "Tarik Skubal",
-        "posShortNames": "SP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ptt_96_9.png",
-        "scorerId": "04ptt",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781366400000,
-      "teamId": "10290",
-      "id": "mzg0qh1emqcngz9v",
-      "seq": 138431,
-      "desc": "The Padres selected Solak's contract from Triple-A El Paso on Saturday.",
-      "player": {
-        "name": "Nick Solak",
-        "posShortNames": "LF",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041q1_96_9.png",
-        "scorerId": "041q1",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781366400000,
-      "teamId": "10190",
-      "id": "gcwzzztqmqclwa5a",
-      "seq": 138430,
-      "desc": "The Nationals recalled Poulin from Triple-A Rochester on Saturday.",
-      "player": {
-        "name": "PJ Poulin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pvq_96_1.png",
-        "scorerId": "04pvq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781366400000,
-      "teamId": "10240",
-      "id": "gaqez8p4mqcl3ykl",
-      "seq": 138429,
-      "desc": "The Pirates optioned Kelly to Triple-A Indianapolis on Saturday, Danny Demilio of PittsburghBaseballNow.com reports.",
-      "player": {
-        "name": "Antwone Kelly",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bpq_96_1.png",
-        "scorerId": "06bpq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1781539200000,
+      "teamId": "10200",
+      "id": "065oyzacmqfgcqky",
+      "seq": 138464,
+      "desc": "The Seattle Mariners traded RHP Yosver Zulueta to the Chicago Cubs.",
+      "player": {
+        "name": "Yosver Zulueta",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05it9_96_2.png",
+        "scorerId": "05it9",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781539200000,
+      "teamId": "10100",
+      "id": "iykeb1tsmqfewj1x",
+      "seq": 138463,
+      "desc": "The Twins selected Fedko's contract from Triple-A St. Paul on Monday.",
+      "player": {
+        "name": "Kyler Fedko",
+        "posShortNames": "CF,1B,LF",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "",
+        "scorerId": "05yhm",
+        "posIds": [
+          "010",
+          "002",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781539200000,
+      "teamId": "10200",
+      "id": "xqat8j9vmqfe46jk",
+      "seq": 138462,
+      "desc": "The Cubs designated Nikhazy for assignment Monday.",
+      "player": {
+        "name": "Doug Nikhazy",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05taw_96_1.png",
+        "scorerId": "05taw",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781539200000,
+      "teamId": "10090",
+      "id": "cf08ic86mqf96orp",
+      "seq": 138461,
+      "desc": "The Royals optioned Morgan to Triple-A Omaha on Monday.",
+      "player": {
+        "name": "Eli Morgan",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eiw_96_7.png",
+        "scorerId": "04eiw",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781539200000,
+      "teamId": "10210",
+      "id": "gji10lofmqf8shto",
+      "seq": 138460,
+      "desc": "Haggerty signed a minor-league contract with the Reds on Sunday.",
+      "player": {
+        "name": "Sam Haggerty",
+        "posShortNames": "LF,CF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qz9_96_7.png",
+        "scorerId": "03qz9",
+        "posIds": [
+          "009",
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1781452800000,
       "teamId": "10230",
       "id": "uhvug61xmqefdp7j",
       "seq": 138459,
-      "desc": "Fischer was promoted to Double-A Biloxi on Sunday.",
+      "desc": "The Brewers promoted Fischer to Double-A Biloxi following High-A Wisconsin's 7-3 win over Great Lakes on Sunday.",
       "player": {
         "name": "Andrew Fischer",
         "posShortNames": "3B",
@@ -4969,7 +5109,7 @@
       "teamId": "10100",
       "id": "ua5qfk70mqefdp0r",
       "seq": 138457,
-      "desc": "Arcia was designated for assignment by the Twins after Sunday's 5-4 win over the Cardinals, Audra Martin of FanDuel Sports Network North reports.",
+      "desc": "The Twins designated Arcia for assignment following Sunday's 5-4 win over the Cardinals, Audra Martin of Twins.tv reports.",
       "player": {
         "name": "Orlando Arcia",
         "posShortNames": "SS,2B,3B",
@@ -5507,122 +5647,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1781366400000,
-      "teamId": "10080",
-      "id": "aa9i5kdimqcnv59h",
-      "seq": 138433,
-      "desc": "The Tigers optioned Madden to Triple-A Toledo on Saturday, Evan Woodbery of MLive.com reports.",
-      "player": {
-        "name": "Ty Madden",
-        "posShortNames": "SP,RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oqe_96_1.png",
-        "scorerId": "05oqe",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781366400000,
-      "teamId": "10080",
-      "id": "7ytujt17mqcnv572",
-      "seq": 138432,
-      "desc": "The Tigers reinstated Skubal (elbow) from the injured list ahead of his start Saturday against Cleveland, Evan Woodbery of MLive.com reports.",
-      "player": {
-        "name": "Tarik Skubal",
-        "posShortNames": "SP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ptt_96_9.png",
-        "scorerId": "04ptt",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781366400000,
-      "teamId": "10290",
-      "id": "mzg0qh1emqcngz9v",
-      "seq": 138431,
-      "desc": "The Padres selected Solak's contract from Triple-A El Paso on Saturday.",
-      "player": {
-        "name": "Nick Solak",
-        "posShortNames": "LF",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041q1_96_9.png",
-        "scorerId": "041q1",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781366400000,
-      "teamId": "10190",
-      "id": "gcwzzztqmqclwa5a",
-      "seq": 138430,
-      "desc": "The Nationals recalled Poulin from Triple-A Rochester on Saturday.",
-      "player": {
-        "name": "PJ Poulin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pvq_96_1.png",
-        "scorerId": "04pvq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781366400000,
-      "teamId": "10240",
-      "id": "gaqez8p4mqcl3ykl",
-      "seq": 138429,
-      "desc": "The Pirates optioned Kelly to Triple-A Indianapolis on Saturday, Danny Demilio of PittsburghBaseballNow.com reports.",
-      "player": {
-        "name": "Antwone Kelly",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bpq_96_1.png",
-        "scorerId": "06bpq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
