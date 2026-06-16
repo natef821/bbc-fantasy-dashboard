@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T11:02:09.925884Z",
+  "lastUpdated": "2026-06-16T16:40:44.618389Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,32 @@
   },
   "transactions": [
     {
+      "displayDate": 1781625600000,
+      "teamId": "10150",
+      "id": "fh17p512mqgsy9m4",
+      "seq": 138492,
+      "desc": "Atlanta selected Hicklen's contract and optioned him to Triple-A Gwinnett on Tuesday, Lindsay Crosby of BravesToday.com reports.",
+      "player": {
+        "name": "Brewer Hicklen",
+        "posShortNames": "RF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eii_96_3.png",
+        "scorerId": "04eii",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1781539200000,
       "teamId": "10121",
       "id": "spggwa0smqft04kc",
@@ -4712,6 +4738,27 @@
     },
     {
       "displayDate": 1781539200000,
+      "teamId": "10090",
+      "id": "2r1hk7ywmqfl9qez",
+      "seq": 138468,
+      "desc": "The Toronto Blue Jays traded RHP Connor Seabold to the Kansas City Royals.",
+      "player": {
+        "name": "Connor Seabold",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
+        "scorerId": "03drx",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781539200000,
       "teamId": "10050",
       "id": "bh80amifmqfl9oxo",
       "seq": 138468,
@@ -4734,27 +4781,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1781539200000,
-      "teamId": "10090",
-      "id": "2r1hk7ywmqfl9qez",
-      "seq": 138468,
-      "desc": "The Toronto Blue Jays traded RHP Connor Seabold to the Kansas City Royals.",
-      "player": {
-        "name": "Connor Seabold",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
-        "scorerId": "03drx",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -4878,37 +4904,37 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1781539200000,
-      "teamId": "10200",
-      "id": "xqat8j9vmqfe46jk",
-      "seq": 138462,
-      "desc": "The Cubs designated Nikhazy for assignment Monday.",
-      "player": {
-        "name": "Doug Nikhazy",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05taw_96_1.png",
-        "scorerId": "05taw",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1781625600000,
+      "teamId": "10150",
+      "id": "fh17p512mqgsy9m4",
+      "seq": 138492,
+      "desc": "Atlanta selected Hicklen's contract and optioned him to Triple-A Gwinnett on Tuesday, Lindsay Crosby of BravesToday.com reports.",
+      "player": {
+        "name": "Brewer Hicklen",
+        "posShortNames": "RF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eii_96_3.png",
+        "scorerId": "04eii",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1781539200000,
       "teamId": "10121",
       "id": "spggwa0smqft04kc",
@@ -5425,6 +5451,27 @@
     },
     {
       "displayDate": 1781539200000,
+      "teamId": "10090",
+      "id": "2r1hk7ywmqfl9qez",
+      "seq": 138468,
+      "desc": "The Toronto Blue Jays traded RHP Connor Seabold to the Kansas City Royals.",
+      "player": {
+        "name": "Connor Seabold",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
+        "scorerId": "03drx",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781539200000,
       "teamId": "10050",
       "id": "bh80amifmqfl9oxo",
       "seq": 138468,
@@ -5447,27 +5494,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1781539200000,
-      "teamId": "10090",
-      "id": "2r1hk7ywmqfl9qez",
-      "seq": 138468,
-      "desc": "The Toronto Blue Jays traded RHP Connor Seabold to the Kansas City Royals.",
-      "player": {
-        "name": "Connor Seabold",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
-        "scorerId": "03drx",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -5591,32 +5617,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1781539200000,
-      "teamId": "10200",
-      "id": "xqat8j9vmqfe46jk",
-      "seq": 138462,
-      "desc": "The Cubs designated Nikhazy for assignment Monday.",
-      "player": {
-        "name": "Doug Nikhazy",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05taw_96_1.png",
-        "scorerId": "05taw",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
