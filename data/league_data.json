@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T10:13:38.612690Z",
+  "lastUpdated": "2026-06-18T14:56:07.260040Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,136 @@
   },
   "transactions": [
     {
+      "displayDate": 1781798400000,
+      "teamId": "10300",
+      "id": "iwqi8td8mqjj409r",
+      "seq": 138543,
+      "desc": "The Giants optioned Whisenhunt to Triple-A Sacramento on Thursday.",
+      "player": {
+        "name": "Carson Whisenhunt",
+        "posShortNames": "SP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y7v_96_1.png",
+        "scorerId": "05y7v",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781798400000,
+      "teamId": "10110",
+      "id": "bwp290afmqjj408j",
+      "seq": 138542,
+      "desc": "The Angels optioned Kerry to Triple-A Salt Lake on Thursday.",
+      "player": {
+        "name": "Brett Kerry",
+        "posShortNames": "SP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "",
+        "scorerId": "05xud",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781798400000,
+      "teamId": "10110",
+      "id": "zi7m7x0dmqjj4076",
+      "seq": 138541,
+      "desc": "The Angels optioned Porter to Triple-A Salt Lake on Thursday.",
+      "player": {
+        "name": "Logan Porter",
+        "posShortNames": "C",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "",
+        "scorerId": "05j94",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781798400000,
+      "teamId": "10150",
+      "id": "c7l4bdzbmqjj404e",
+      "seq": 138540,
+      "desc": "Atlanta optioned Camargo to Triple-A Gwinnett on Thursday.",
+      "player": {
+        "name": "Jair Camargo",
+        "posShortNames": "C",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "",
+        "scorerId": "05ge4",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781798400000,
+      "teamId": "10250",
+      "id": "f6gnmkdhmqjips54",
+      "seq": 138539,
+      "desc": "The Cardinals optioned Roycroft to Triple-A Memphis on Thursday.",
+      "player": {
+        "name": "Chris Roycroft",
+        "posShortNames": "RP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06lqo_96_1.png",
+        "scorerId": "06lqo",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1781712000000,
       "teamId": "10110",
       "id": "idkluahtmqizkvyy",
@@ -4214,6 +4344,32 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
+      }
+    },
+    {
+      "displayDate": 1781712000000,
+      "teamId": "10110",
+      "id": "ajm82clxmqiq9gbn",
+      "seq": 138537,
+      "desc": "The Toronto Blue Jays traded C Alejandro Kirk to the Los Angeles Angels.",
+      "player": {
+        "name": "Alejandro Kirk",
+        "posShortNames": "C",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04t3y_96_9.png",
+        "scorerId": "04t3y",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4240,27 +4396,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1781712000000,
-      "teamId": "10110",
-      "id": "ajm82clxmqiq9gbn",
-      "seq": 138537,
-      "desc": "The Toronto Blue Jays traded C Alejandro Kirk to the Los Angeles Angels.",
-      "player": {
-        "name": "Alejandro Kirk",
-        "posShortNames": "C",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04t3y_96_9.png",
-        "scorerId": "04t3y",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -4524,7 +4659,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -4545,7 +4685,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -4784,122 +4929,6 @@
           {
             "tooltip": "Free Agent",
             "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10280",
-      "id": "x0fxcqi2mqh6qnls",
-      "seq": 138514,
-      "desc": "The Dodgers activated Edman (ankle) from the 60-day injured list Tuesday.",
-      "player": {
-        "name": "Tommy Edman",
-        "posShortNames": "2B,CF",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041sq_96_12.png",
-        "scorerId": "041sq",
-        "posIds": [
-          "003",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10280",
-      "id": "s6iv1pvlmqh6qnjs",
-      "seq": 138513,
-      "desc": "The Dodgers designated Espinal for assignment Tuesday.",
-      "player": {
-        "name": "Santiago Espinal",
-        "posShortNames": "3B",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041vp_96_9.png",
-        "scorerId": "041vp",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10180",
-      "id": "3oiq1dvemqh5k33l",
-      "seq": 138512,
-      "desc": "The Phillies recalled Lazar from Triple-A Lehigh Valley on Tuesday.",
-      "player": {
-        "name": "Max Lazar",
-        "posShortNames": "RP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04el7_96_1.png",
-        "scorerId": "04el7",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10200",
-      "id": "n662uo8qmqh4djgc",
-      "seq": 138511,
-      "desc": "The Cubs recalled Hollowell from Triple-A Iowa on Tuesday, Meghan Montemurro of the Chicago Tribune reports.",
-      "player": {
-        "name": "Gavin Hollowell",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514j_96_3.png",
-        "scorerId": "0514j",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10130",
-      "id": "x7nqx0t5mqh4djei",
-      "seq": 138510,
-      "desc": "The Mariners demoted Pereda to Triple-A Tacoma on Tuesday.",
-      "player": {
-        "name": "Jhonny Pereda",
-        "posShortNames": "C",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yd8_96_3.png",
-        "scorerId": "04yd8",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
@@ -4907,6 +4936,136 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1781798400000,
+      "teamId": "10300",
+      "id": "iwqi8td8mqjj409r",
+      "seq": 138543,
+      "desc": "The Giants optioned Whisenhunt to Triple-A Sacramento on Thursday.",
+      "player": {
+        "name": "Carson Whisenhunt",
+        "posShortNames": "SP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y7v_96_1.png",
+        "scorerId": "05y7v",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781798400000,
+      "teamId": "10110",
+      "id": "bwp290afmqjj408j",
+      "seq": 138542,
+      "desc": "The Angels optioned Kerry to Triple-A Salt Lake on Thursday.",
+      "player": {
+        "name": "Brett Kerry",
+        "posShortNames": "SP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "",
+        "scorerId": "05xud",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781798400000,
+      "teamId": "10110",
+      "id": "zi7m7x0dmqjj4076",
+      "seq": 138541,
+      "desc": "The Angels optioned Porter to Triple-A Salt Lake on Thursday.",
+      "player": {
+        "name": "Logan Porter",
+        "posShortNames": "C",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "",
+        "scorerId": "05j94",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781798400000,
+      "teamId": "10150",
+      "id": "c7l4bdzbmqjj404e",
+      "seq": 138540,
+      "desc": "Atlanta optioned Camargo to Triple-A Gwinnett on Thursday.",
+      "player": {
+        "name": "Jair Camargo",
+        "posShortNames": "C",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "",
+        "scorerId": "05ge4",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781798400000,
+      "teamId": "10250",
+      "id": "f6gnmkdhmqjips54",
+      "seq": 138539,
+      "desc": "The Cardinals optioned Roycroft to Triple-A Memphis on Thursday.",
+      "player": {
+        "name": "Chris Roycroft",
+        "posShortNames": "RP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06lqo_96_1.png",
+        "scorerId": "06lqo",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1781712000000,
       "teamId": "10110",
       "id": "idkluahtmqizkvyy",
@@ -4925,6 +5084,32 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
+      }
+    },
+    {
+      "displayDate": 1781712000000,
+      "teamId": "10110",
+      "id": "ajm82clxmqiq9gbn",
+      "seq": 138537,
+      "desc": "The Toronto Blue Jays traded C Alejandro Kirk to the Los Angeles Angels.",
+      "player": {
+        "name": "Alejandro Kirk",
+        "posShortNames": "C",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04t3y_96_9.png",
+        "scorerId": "04t3y",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4951,27 +5136,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1781712000000,
-      "teamId": "10110",
-      "id": "ajm82clxmqiq9gbn",
-      "seq": 138537,
-      "desc": "The Toronto Blue Jays traded C Alejandro Kirk to the Los Angeles Angels.",
-      "player": {
-        "name": "Alejandro Kirk",
-        "posShortNames": "C",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04t3y_96_9.png",
-        "scorerId": "04t3y",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -5235,7 +5399,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -5256,7 +5425,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -5495,122 +5669,6 @@
           {
             "tooltip": "Free Agent",
             "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10280",
-      "id": "x0fxcqi2mqh6qnls",
-      "seq": 138514,
-      "desc": "The Dodgers activated Edman (ankle) from the 60-day injured list Tuesday.",
-      "player": {
-        "name": "Tommy Edman",
-        "posShortNames": "2B,CF",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041sq_96_12.png",
-        "scorerId": "041sq",
-        "posIds": [
-          "003",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10280",
-      "id": "s6iv1pvlmqh6qnjs",
-      "seq": 138513,
-      "desc": "The Dodgers designated Espinal for assignment Tuesday.",
-      "player": {
-        "name": "Santiago Espinal",
-        "posShortNames": "3B",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041vp_96_9.png",
-        "scorerId": "041vp",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10180",
-      "id": "3oiq1dvemqh5k33l",
-      "seq": 138512,
-      "desc": "The Phillies recalled Lazar from Triple-A Lehigh Valley on Tuesday.",
-      "player": {
-        "name": "Max Lazar",
-        "posShortNames": "RP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04el7_96_1.png",
-        "scorerId": "04el7",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10200",
-      "id": "n662uo8qmqh4djgc",
-      "seq": 138511,
-      "desc": "The Cubs recalled Hollowell from Triple-A Iowa on Tuesday, Meghan Montemurro of the Chicago Tribune reports.",
-      "player": {
-        "name": "Gavin Hollowell",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514j_96_3.png",
-        "scorerId": "0514j",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10130",
-      "id": "x7nqx0t5mqh4djei",
-      "seq": 138510,
-      "desc": "The Mariners demoted Pereda to Triple-A Tacoma on Tuesday.",
-      "player": {
-        "name": "Jhonny Pereda",
-        "posShortNames": "C",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yd8_96_3.png",
-        "scorerId": "04yd8",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
