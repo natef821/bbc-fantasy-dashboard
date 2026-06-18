@@ -1,36 +1,36 @@
 {
-  "lastUpdated": "2026-06-18T03:24:28.742737Z",
+  "lastUpdated": "2026-06-18T10:13:38.612690Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
-    {
-      "id": "odce8gzsmg7kg72c",
-      "name": "Wyatt and the Lankers",
-      "short": "LANK",
-      "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp",
-      "rank": 1,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.4",
-      "scoringPeriod": "1159",
-      "gb": "2,659",
-      "ww": 3602,
-      "pbl": 2.0,
-      "hitPts": 0.0,
-      "pitPts": 0
-    },
     {
       "id": "g8p3r1i9mg7kg72b",
       "name": "Wyatt and the Sankers",
       "short": "SANK",
       "logoUrl": "https://fantraximg.com/logos/hju/tmLogo_hju2kpbompob82ov_512.webp",
+      "rank": 1,
+      "fantasyPoints": "",
+      "fptsPerGame": "5.54",
+      "scoringPeriod": "1131",
+      "gb": "2,979.5",
+      "ww": 3285,
+      "pbl": 7.0,
+      "hitPts": 0.0,
+      "pitPts": 0
+    },
+    {
+      "id": "odce8gzsmg7kg72c",
+      "name": "Wyatt and the Lankers",
+      "short": "LANK",
+      "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp",
       "rank": 2,
       "fantasyPoints": "",
-      "fptsPerGame": "5.52",
-      "scoringPeriod": "1131",
-      "gb": "2,974.5",
-      "ww": 3273,
-      "pbl": 7.0,
-      "hitPts": 14.0,
+      "fptsPerGame": "5.4",
+      "scoringPeriod": "1159",
+      "gb": "2,658.5",
+      "ww": 3605,
+      "pbl": 2.0,
+      "hitPts": 1.0,
       "pitPts": 0
     },
     {
@@ -40,12 +40,12 @@
       "logoUrl": "https://fantraximg.com/logos/9i1/tmLogo_9i1cc3c2mq44kk57_512.webp",
       "rank": 3,
       "fantasyPoints": "",
-      "fptsPerGame": "5.46",
-      "scoringPeriod": "1118",
-      "gb": "3,027.5",
-      "ww": 3075,
+      "fptsPerGame": "5.45",
+      "scoringPeriod": "1119",
+      "gb": "3,030",
+      "ww": 3074,
       "pbl": 9.0,
-      "hitPts": 159.0,
+      "hitPts": 161.0,
       "pitPts": 0
     },
     {
@@ -60,7 +60,7 @@
       "gb": "2,700.75",
       "ww": 3199,
       "pbl": 6.0,
-      "hitPts": 361.25,
+      "hitPts": 364.75,
       "pitPts": 0
     },
     {
@@ -72,25 +72,10 @@
       "fantasyPoints": "",
       "fptsPerGame": "5.24",
       "scoringPeriod": "1090",
-      "gb": "2,540.5",
+      "gb": "2,542",
       "ww": 3169,
       "pbl": 1.0,
-      "hitPts": 552.0,
-      "pitPts": 0
-    },
-    {
-      "id": "xgktl0otmg7kg72d",
-      "name": "Tank for LeBron",
-      "short": "Vind25",
-      "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp",
-      "rank": 6,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.12",
-      "scoringPeriod": "1105",
-      "gb": "2,686.25",
-      "ww": 2968,
-      "pbl": 8.0,
-      "hitPts": 606.75,
+      "hitPts": 554.0,
       "pitPts": 0
     },
     {
@@ -98,14 +83,29 @@
       "name": "TBONERS",
       "short": "TBONR",
       "logoUrl": "https://fantraximg.com/logos/uov/tmLogo_uovy6hy4mmns0hxb_512.webp",
-      "rank": 7,
+      "rank": 6,
       "fantasyPoints": "",
-      "fptsPerGame": "5.2",
+      "fptsPerGame": "5.21",
       "scoringPeriod": "1085",
-      "gb": "2,725.25",
+      "gb": "2,734.75",
       "ww": 2919,
       "pbl": 5.0,
-      "hitPts": 616.75,
+      "hitPts": 610.75,
+      "pitPts": 0
+    },
+    {
+      "id": "xgktl0otmg7kg72d",
+      "name": "Tank for LeBron",
+      "short": "Vind25",
+      "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp",
+      "rank": 7,
+      "fantasyPoints": "",
+      "fptsPerGame": "5.12",
+      "scoringPeriod": "1105",
+      "gb": "2,684.25",
+      "ww": 2968,
+      "pbl": 8.0,
+      "hitPts": 612.25,
       "pitPts": 0
     },
     {
@@ -115,12 +115,12 @@
       "logoUrl": "https://fantraximg.com/logos/0lf/tmLogo_0lfo2aaymnwg1b7o_512.webp",
       "rank": 8,
       "fantasyPoints": "",
-      "fptsPerGame": "4.84",
+      "fptsPerGame": "4.85",
       "scoringPeriod": "1089",
-      "gb": "2,436.5",
+      "gb": "2,444",
       "ww": 2838,
       "pbl": 11.0,
-      "hitPts": 986.5,
+      "hitPts": 982.5,
       "pitPts": 0
     },
     {
@@ -133,9 +133,9 @@
       "fptsPerGame": "4.96",
       "scoringPeriod": "1048",
       "gb": "2,374.25",
-      "ww": 2822,
+      "ww": 2827,
       "pbl": 3.0,
-      "hitPts": 1065.25,
+      "hitPts": 1063.25,
       "pitPts": 0
     },
     {
@@ -145,12 +145,12 @@
       "logoUrl": "https://fantraximg.com/logos/nsd/tmLogo_nsdzor91mcat5gih_512.webp",
       "rank": 10,
       "fantasyPoints": "",
-      "fptsPerGame": "5.45",
+      "fptsPerGame": "5.46",
       "scoringPeriod": "943",
-      "gb": "2,547.5",
+      "gb": "2,550",
       "ww": 2596,
       "pbl": 4.0,
-      "hitPts": 1117.5,
+      "hitPts": 1118.5,
       "pitPts": 0
     },
     {
@@ -160,12 +160,12 @@
       "logoUrl": "https://fantraximg.com/logos/6oi/tmLogo_6oix2hntmn40p414_512.webp",
       "rank": 11,
       "fantasyPoints": "",
-      "fptsPerGame": "4.82",
+      "fptsPerGame": "4.83",
       "scoringPeriod": "1059",
-      "gb": "2,661.25",
+      "gb": "2,667.75",
       "ww": 2447,
       "pbl": 12.0,
-      "hitPts": 1152.75,
+      "hitPts": 1149.75,
       "pitPts": 0
     },
     {
@@ -177,10 +177,10 @@
       "fantasyPoints": "",
       "fptsPerGame": "4.49",
       "scoringPeriod": "1046",
-      "gb": "2,339",
+      "gb": "2,346",
       "ww": 2355,
       "pbl": 10.0,
-      "hitPts": 1567.0,
+      "hitPts": 1563.5,
       "pitPts": 0
     }
   ],
@@ -190,8 +190,8 @@
         "w": 15,
         "l": 9,
         "t": 20,
-        "pf": 5654.75,
-        "pa": 5496.75,
+        "pf": 5652.75,
+        "pa": 5506.25,
         "name": "Tank for LeBron",
         "weeklyPF": [
           220.25,
@@ -217,7 +217,7 @@
           222.25,
           288.25,
           234.75,
-          193.25,
+          191.25,
           0.0,
           0.0,
           0.0,
@@ -247,8 +247,8 @@
         "w": 17,
         "l": 7,
         "t": 20,
-        "pf": 6247.5,
-        "pa": 5442.0,
+        "pf": 6265.0,
+        "pa": 5449.0,
         "name": "Wyatt and the Sankers",
         "weeklyPF": [
           339.75,
@@ -274,7 +274,7 @@
           261.75,
           253.75,
           309.5,
-          253.0,
+          270.5,
           0.0,
           0.0,
           0.0,
@@ -304,8 +304,8 @@
         "w": 12,
         "l": 11,
         "t": 21,
-        "pf": 5275.0,
-        "pa": 5573.25,
+        "pf": 5282.5,
+        "pa": 5578.75,
         "name": "Honey Nut Chourio's",
         "weeklyPF": [
           262.75,
@@ -331,7 +331,7 @@
           141.0,
           234.25,
           220.0,
-          170.5,
+          178.0,
           0.0,
           0.0,
           0.0,
@@ -361,8 +361,8 @@
         "w": 6,
         "l": 17,
         "t": 21,
-        "pf": 5108.75,
-        "pa": 5553.25,
+        "pf": 5115.25,
+        "pa": 5555.75,
         "name": "Jac-in' It",
         "weeklyPF": [
           180.75,
@@ -388,7 +388,7 @@
           355.75,
           220.5,
           121.5,
-          204.5,
+          211.0,
           0.0,
           0.0,
           0.0,
@@ -418,8 +418,8 @@
         "w": 17,
         "l": 7,
         "t": 20,
-        "pf": 6261.5,
-        "pa": 5565.75,
+        "pf": 6264.0,
+        "pa": 5572.25,
         "name": "Wyatt and the Lankers",
         "weeklyPF": [
           286.75,
@@ -445,7 +445,7 @@
           179.75,
           280.5,
           246.75,
-          273.25,
+          275.75,
           0.0,
           0.0,
           0.0,
@@ -475,7 +475,7 @@
         "w": 13,
         "l": 11,
         "t": 20,
-        "pf": 6102.5,
+        "pf": 6104.0,
         "pa": 5730.5,
         "name": "Slattlanta",
         "weeklyPF": [
@@ -502,7 +502,7 @@
           225.75,
           304.0,
           223.25,
-          260.25,
+          261.75,
           0.0,
           0.0,
           0.0,
@@ -532,8 +532,8 @@
         "w": 12,
         "l": 12,
         "t": 20,
-        "pf": 5144.0,
-        "pa": 5292.75,
+        "pf": 5146.5,
+        "pa": 5294.25,
         "name": "Say Yes to Velo",
         "weeklyPF": [
           144.25,
@@ -558,8 +558,8 @@
           296.75,
           236.25,
           200.0,
-          128.5,
-          220.0,
+          129.5,
+          221.5,
           0.0,
           0.0,
           0.0,
@@ -589,8 +589,8 @@
         "w": 7,
         "l": 17,
         "t": 20,
-        "pf": 4694.5,
-        "pa": 5582.25,
+        "pf": 4701.5,
+        "pa": 5599.75,
         "name": "Creative Name",
         "weeklyPF": [
           184.75,
@@ -616,7 +616,7 @@
           172.75,
           228.5,
           136.5,
-          188.75,
+          195.75,
           0.0,
           0.0,
           0.0,
@@ -646,8 +646,8 @@
         "w": 8,
         "l": 16,
         "t": 20,
-        "pf": 5709.5,
-        "pa": 5793.0,
+        "pf": 5711.0,
+        "pa": 5794.5,
         "name": "First Pitch Swinging",
         "weeklyPF": [
           306.75,
@@ -673,7 +673,7 @@
           197.5,
           269.75,
           208.0,
-          177.25,
+          178.75,
           0.0,
           0.0,
           0.0,
@@ -703,8 +703,8 @@
         "w": 8,
         "l": 16,
         "t": 20,
-        "pf": 5196.25,
-        "pa": 5842.5,
+        "pf": 5201.75,
+        "pa": 5850.0,
         "name": "Golden Gate Gays",
         "weeklyPF": [
           197.5,
@@ -730,7 +730,7 @@
           259.75,
           217.0,
           206.5,
-          123.5,
+          129.0,
           0.0,
           0.0,
           0.0,
@@ -761,7 +761,7 @@
         "l": 8,
         "t": 20,
         "pf": 5900.25,
-        "pa": 5447.75,
+        "pa": 5449.25,
         "name": "Layin Wood\ud83e\udeb5",
         "weeklyPF": [
           286.0,
@@ -817,8 +817,8 @@
         "w": 12,
         "l": 12,
         "t": 20,
-        "pf": 5644.75,
-        "pa": 5619.5,
+        "pf": 5654.25,
+        "pa": 5618.5,
         "name": "TBONERS",
         "weeklyPF": [
           323.5,
@@ -844,7 +844,7 @@
           166.25,
           252.5,
           250.5,
-          175.75,
+          185.25,
           0.0,
           0.0,
           0.0,
@@ -2224,7 +2224,7 @@
             "team1Pts": 250.5,
             "team2": "Say Yes to Velo",
             "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 128.5,
+            "team2Pts": 129.5,
             "winner": "TBONERS"
           }
         ]
@@ -2235,43 +2235,43 @@
           {
             "team1": "Wyatt and the Sankers",
             "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 253.0,
+            "team1Pts": 270.5,
             "team2": "Creative Name",
             "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 188.75,
+            "team2Pts": 195.75,
             "winner": "Wyatt and the Sankers"
           },
           {
             "team1": "First Pitch Swinging",
             "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 177.25,
+            "team1Pts": 178.75,
             "team2": "Say Yes to Velo",
             "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 220.0,
+            "team2Pts": 221.5,
             "winner": "Say Yes to Velo"
           },
           {
             "team1": "Honey Nut Chourio's",
             "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 170.5,
+            "team1Pts": 178.0,
             "team2": "Golden Gate Gays",
             "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 123.5,
+            "team2Pts": 129.0,
             "winner": "Honey Nut Chourio's"
           },
           {
             "team1": "Wyatt and the Lankers",
             "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 273.25,
+            "team1Pts": 275.75,
             "team2": "Jac-in' It",
             "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 204.5,
+            "team2Pts": 211.0,
             "winner": "Wyatt and the Lankers"
           },
           {
             "team1": "Slattlanta",
             "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 260.25,
+            "team1Pts": 261.75,
             "team2": "Layin Wood\ud83e\udeb5",
             "team2Id": "w6b31holmg7kg72f",
             "team2Pts": 176.0,
@@ -2280,10 +2280,10 @@
           {
             "team1": "TBONERS",
             "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 175.75,
+            "team1Pts": 185.25,
             "team2": "Tank for LeBron",
             "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 193.25,
+            "team2Pts": 191.25,
             "winner": "Tank for LeBron"
           }
         ]
@@ -3481,19 +3481,19 @@
             "short": "JDPusha",
             "rank": "1",
             "values": [
-              "3,027.5",
+              "3,030",
               "",
-              "468",
-              "747",
+              "469",
+              "748",
               "141",
-              "416",
+              "417",
               "420",
               "30",
-              "794",
+              "795",
               "66",
               "24",
               "8",
-              "1,332",
+              "1,333",
               "68",
               "48",
               "5",
@@ -3508,19 +3508,19 @@
             "short": "SANK",
             "rank": "2",
             "values": [
-              "2,974.5",
+              "2,979.5",
               "",
-              "471",
-              "802",
+              "472",
+              "803",
               "136",
-              "417",
-              "343",
+              "419",
+              "344",
               "20",
               "713",
               "37",
               "12",
               "4",
-              "1,373",
+              "1,374",
               "29",
               "74",
               "4",
@@ -3535,19 +3535,19 @@
             "short": "TBONR",
             "rank": "3",
             "values": [
-              "2,725.25",
+              "2,734.75",
               "",
-              "416",
-              "706",
-              "117",
-              "388",
-              "364",
+              "417",
+              "707",
+              "118",
+              "389",
+              "365",
               "22",
               "697",
               "73",
               "19",
               "8",
-              "1,212",
+              "1,216",
               "48",
               "72",
               "2",
@@ -3589,19 +3589,19 @@
             "short": "Vind25",
             "rank": "5",
             "values": [
-              "2,686.25",
+              "2,684.25",
               "",
               "394",
-              "703",
+              "702",
               "119",
               "402",
               "335",
               "16",
-              "732",
+              "733",
               "64",
               "18",
               "8",
-              "1,238",
+              "1,237",
               "38",
               "61",
               "3",
@@ -3616,15 +3616,15 @@
             "short": "Jac",
             "rank": "6",
             "values": [
-              "2,661.25",
+              "2,667.75",
               "",
-              "441",
+              "442",
               "739",
               "102",
-              "385",
-              "327",
+              "386",
+              "329",
               "5",
-              "731",
+              "733",
               "51",
               "18",
               "7",
@@ -3633,7 +3633,7 @@
               "58",
               "3",
               "0",
-              "41",
+              "42",
               "8"
             ]
           },
@@ -3643,7 +3643,7 @@
             "short": "LANK",
             "rank": "7",
             "values": [
-              "2,659",
+              "2,658.5",
               "",
               "402",
               "733",
@@ -3651,7 +3651,7 @@
               "380",
               "364",
               "20",
-              "697",
+              "698",
               "101",
               "24",
               "6",
@@ -3670,19 +3670,19 @@
             "short": "haydenor",
             "rank": "8",
             "values": [
-              "2,547.5",
+              "2,550",
               "",
               "406",
-              "658",
+              "659",
               "110",
               "387",
               "314",
               "9",
               "655",
-              "58",
+              "59",
               "19",
               "6",
-              "1,123",
+              "1,124",
               "39",
               "47",
               "2",
@@ -3697,7 +3697,7 @@
             "short": "FPS",
             "rank": "9",
             "values": [
-              "2,540.5",
+              "2,542",
               "",
               "402",
               "730",
@@ -3705,7 +3705,7 @@
               "354",
               "325",
               "10",
-              "732",
+              "733",
               "85",
               "21",
               "13",
@@ -3714,7 +3714,7 @@
               "48",
               "0",
               "0",
-              "39",
+              "40",
               "4"
             ]
           },
@@ -3724,19 +3724,19 @@
             "short": "Watchtow",
             "rank": "10",
             "values": [
-              "2,436.5",
+              "2,444",
               "",
-              "375",
-              "731",
-              "99",
-              "395",
+              "376",
+              "732",
+              "100",
+              "396",
               "244",
               "7",
               "642",
               "56",
               "11",
               "10",
-              "1,173",
+              "1,177",
               "29",
               "59",
               "2",
@@ -3778,19 +3778,19 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "2,339",
+              "2,346",
               "",
-              "389",
-              "704",
-              "83",
-              "366",
+              "390",
+              "705",
+              "84",
+              "367",
               "317",
               "12",
               "675",
               "38",
               "17",
               "2",
-              "1,119",
+              "1,123",
               "18",
               "49",
               "0",
@@ -3810,7 +3810,7 @@
             "short": "LANK",
             "rank": "1",
             "values": [
-              "3,602.5",
+              "3,605.5",
               "",
               "1,118.1",
               "1,049",
@@ -3819,7 +3819,7 @@
               "13",
               "10",
               "48",
-              "66",
+              "67",
               "2",
               "3",
               "41",
@@ -3837,16 +3837,16 @@
             "short": "SANK",
             "rank": "2",
             "values": [
-              "3,273",
+              "3,285.5",
               "",
-              "1,077.2",
-              "1,054",
+              "1,079.1",
+              "1,056",
               "519",
-              "400",
+              "401",
               "25",
               "7",
               "21",
-              "62",
+              "63",
               "1",
               "4",
               "60",
@@ -3918,11 +3918,11 @@
             "short": "JDPusha",
             "rank": "5",
             "values": [
-              "3,075",
+              "3,074",
               "",
-              "1,000.2",
-              "1,011",
-              "513",
+              "1,001.2",
+              "1,013",
+              "515",
               "379",
               "39",
               "10",
@@ -4026,16 +4026,16 @@
             "short": "GGG",
             "rank": "9",
             "values": [
-              "2,822",
+              "2,827.5",
               "",
-              "904.1",
-              "836",
-              "391",
-              "329",
+              "905.1",
+              "838",
+              "392",
+              "330",
               "12",
               "11",
               "35",
-              "50",
+              "51",
               "1",
               "1",
               "55",
@@ -4197,6 +4197,27 @@
   "transactions": [
     {
       "displayDate": 1781712000000,
+      "teamId": "10110",
+      "id": "idkluahtmqizkvyy",
+      "seq": 138538,
+      "desc": "The Toronto Blue Jays traded C Tyler Heineman to the Los Angeles Angels.",
+      "player": {
+        "name": "Tyler Heineman",
+        "posShortNames": "C",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n1c_96_14.png",
+        "scorerId": "02n1c",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781712000000,
       "teamId": "10090",
       "id": "xosykddymqiq9dof",
       "seq": 138537,
@@ -4230,8 +4251,8 @@
       "player": {
         "name": "Alejandro Kirk",
         "posShortNames": "C",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04t3y_96_9.png",
         "scorerId": "04t3y",
         "posIds": [
@@ -4239,12 +4260,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 4",
-            "typeId": "24"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4317,12 +4333,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4492,12 +4503,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4657,12 +4663,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4709,12 +4710,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 5",
-            "typeId": "25"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4735,12 +4731,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4816,12 +4807,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 1",
-            "typeId": "21"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4914,32 +4900,6 @@
           {
             "tooltip": "Minor Leagues",
             "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10070",
-      "id": "648zqrjjmqh4djco",
-      "seq": 138509,
-      "desc": "The Guardians recalled Halpin from Triple-A Columbus on Tuesday, reports Cade Cracas of Sports Illustrated.",
-      "player": {
-        "name": "Petey Halpin",
-        "posShortNames": "CF",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwx_96_1.png",
-        "scorerId": "05gwx",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
           }
         ]
       }
@@ -4948,6 +4908,27 @@
   "mlbTransactions": [
     {
       "displayDate": 1781712000000,
+      "teamId": "10110",
+      "id": "idkluahtmqizkvyy",
+      "seq": 138538,
+      "desc": "The Toronto Blue Jays traded C Tyler Heineman to the Los Angeles Angels.",
+      "player": {
+        "name": "Tyler Heineman",
+        "posShortNames": "C",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n1c_96_14.png",
+        "scorerId": "02n1c",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1781712000000,
       "teamId": "10090",
       "id": "xosykddymqiq9dof",
       "seq": 138537,
@@ -4981,8 +4962,8 @@
       "player": {
         "name": "Alejandro Kirk",
         "posShortNames": "C",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04t3y_96_9.png",
         "scorerId": "04t3y",
         "posIds": [
@@ -4990,12 +4971,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 4",
-            "typeId": "24"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5068,12 +5044,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5243,12 +5214,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5408,12 +5374,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5460,12 +5421,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 5",
-            "typeId": "25"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5486,12 +5442,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5567,12 +5518,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 1",
-            "typeId": "21"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5665,32 +5611,6 @@
           {
             "tooltip": "Minor Leagues",
             "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781625600000,
-      "teamId": "10070",
-      "id": "648zqrjjmqh4djco",
-      "seq": 138509,
-      "desc": "The Guardians recalled Halpin from Triple-A Columbus on Tuesday, reports Cade Cracas of Sports Illustrated.",
-      "player": {
-        "name": "Petey Halpin",
-        "posShortNames": "CF",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwx_96_1.png",
-        "scorerId": "05gwx",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
           }
         ]
       }
