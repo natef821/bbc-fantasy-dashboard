@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T10:18:21.781836Z",
+  "lastUpdated": "2026-06-19T14:52:40.626426Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,28 @@
   },
   "transactions": [
     {
+      "displayDate": 1781884800000,
+      "teamId": "10200",
+      "id": "ydftvj1hmql1p7u6",
+      "seq": 138560,
+      "desc": "The Cubs recalled Dean from Triple-A Iowa on Friday, Jared Wyllys of AllCHGO.com reports.",
+      "player": {
+        "name": "Justin Dean",
+        "posShortNames": "CF,RF",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q01_96_4.png",
+        "scorerId": "04q01",
+        "posIds": [
+          "010",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1781798400000,
       "teamId": "10150",
       "id": "t8jfbyy6mqkfciu9",
@@ -4766,27 +4788,6 @@
     },
     {
       "displayDate": 1781712000000,
-      "teamId": "10110",
-      "id": "ajm82clxmqiq9gbn",
-      "seq": 138537,
-      "desc": "The Toronto Blue Jays traded C Alejandro Kirk to the Los Angeles Angels.",
-      "player": {
-        "name": "Alejandro Kirk",
-        "posShortNames": "C",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04t3y_96_9.png",
-        "scorerId": "04t3y",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781712000000,
       "teamId": "10090",
       "id": "xosykddymqiq9dof",
       "seq": 138537,
@@ -4809,6 +4810,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1781712000000,
+      "teamId": "10110",
+      "id": "ajm82clxmqiq9gbn",
+      "seq": 138537,
+      "desc": "The Toronto Blue Jays traded C Alejandro Kirk to the Los Angeles Angels.",
+      "player": {
+        "name": "Alejandro Kirk",
+        "posShortNames": "C",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04t3y_96_9.png",
+        "scorerId": "04t3y",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -4899,32 +4921,6 @@
         "scorerId": "0662m",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781712000000,
-      "teamId": "10270",
-      "id": "99j4k5e6mqilc2sg",
-      "seq": 138532,
-      "desc": "The Rockies optioned Halvorsen to Triple-A Albuquerque on Wednesday.",
-      "player": {
-        "name": "Seth Halvorsen",
-        "posShortNames": "RP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06fqx_96_2.png",
-        "scorerId": "06fqx",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4939,6 +4935,28 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1781884800000,
+      "teamId": "10200",
+      "id": "ydftvj1hmql1p7u6",
+      "seq": 138560,
+      "desc": "The Cubs recalled Dean from Triple-A Iowa on Friday, Jared Wyllys of AllCHGO.com reports.",
+      "player": {
+        "name": "Justin Dean",
+        "posShortNames": "CF,RF",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q01_96_4.png",
+        "scorerId": "04q01",
+        "posIds": [
+          "010",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1781798400000,
       "teamId": "10150",
       "id": "t8jfbyy6mqkfciu9",
@@ -5509,27 +5527,6 @@
     },
     {
       "displayDate": 1781712000000,
-      "teamId": "10110",
-      "id": "ajm82clxmqiq9gbn",
-      "seq": 138537,
-      "desc": "The Toronto Blue Jays traded C Alejandro Kirk to the Los Angeles Angels.",
-      "player": {
-        "name": "Alejandro Kirk",
-        "posShortNames": "C",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04t3y_96_9.png",
-        "scorerId": "04t3y",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1781712000000,
       "teamId": "10090",
       "id": "xosykddymqiq9dof",
       "seq": 138537,
@@ -5552,6 +5549,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1781712000000,
+      "teamId": "10110",
+      "id": "ajm82clxmqiq9gbn",
+      "seq": 138537,
+      "desc": "The Toronto Blue Jays traded C Alejandro Kirk to the Los Angeles Angels.",
+      "player": {
+        "name": "Alejandro Kirk",
+        "posShortNames": "C",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04t3y_96_9.png",
+        "scorerId": "04t3y",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -5642,32 +5660,6 @@
         "scorerId": "0662m",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781712000000,
-      "teamId": "10270",
-      "id": "99j4k5e6mqilc2sg",
-      "seq": 138532,
-      "desc": "The Rockies optioned Halvorsen to Triple-A Albuquerque on Wednesday.",
-      "player": {
-        "name": "Seth Halvorsen",
-        "posShortNames": "RP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06fqx_96_2.png",
-        "scorerId": "06fqx",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
