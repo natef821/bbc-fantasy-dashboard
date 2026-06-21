@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T09:41:41.029537Z",
+  "lastUpdated": "2026-06-21T13:57:07.056638Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,27 @@
   },
   "transactions": [
     {
+      "displayDate": 1782057600000,
+      "teamId": "10030",
+      "id": "vyw8m5e5mqnum5p9",
+      "seq": 138594,
+      "desc": "The Yankees reinstated Wells (headaches) from the 10-day injured list Sunday.",
+      "player": {
+        "name": "Austin Wells",
+        "posShortNames": "C",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahg_96_3.png",
+        "scorerId": "05ahg",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1781971200000,
       "teamId": "10280",
       "id": "kj0f5313mqn3bkcr",
@@ -4267,33 +4288,6 @@
     },
     {
       "displayDate": 1781971200000,
-      "teamId": "10200",
-      "id": "q7irbsbwmqn23ird",
-      "seq": 138590,
-      "desc": "The Houston Astros traded RHP Jayden Murray to the Chicago Cubs.",
-      "player": {
-        "name": "Jayden Murray",
-        "posShortNames": "RP,SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051i0_96_2.png",
-        "scorerId": "051i0",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781971200000,
       "teamId": "10050",
       "id": "h2rfngc5mqn23he1",
       "seq": 138590,
@@ -4308,6 +4302,33 @@
         "posIds": [
           "003",
           "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781971200000,
+      "teamId": "10200",
+      "id": "q7irbsbwmqn23ird",
+      "seq": 138590,
+      "desc": "The Houston Astros traded RHP Jayden Murray to the Chicago Cubs.",
+      "player": {
+        "name": "Jayden Murray",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051i0_96_2.png",
+        "scorerId": "051i0",
+        "posIds": [
+          "016",
+          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4884,38 +4905,32 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1781884800000,
-      "teamId": "10040",
-      "id": "0vnxzjvfmql9pv71",
-      "seq": 138565,
-      "desc": "The Rays designated Slater for assignment Friday, Marc Topkin of the Tampa Bay Times reports.",
-      "player": {
-        "name": "Austin Slater",
-        "posShortNames": "LF,RF",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dg7_96_13.png",
-        "scorerId": "03dg7",
-        "posIds": [
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1782057600000,
+      "teamId": "10030",
+      "id": "vyw8m5e5mqnum5p9",
+      "seq": 138594,
+      "desc": "The Yankees reinstated Wells (headaches) from the 10-day injured list Sunday.",
+      "player": {
+        "name": "Austin Wells",
+        "posShortNames": "C",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahg_96_3.png",
+        "scorerId": "05ahg",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1781971200000,
       "teamId": "10280",
       "id": "kj0f5313mqn3bkcr",
@@ -4987,33 +5002,6 @@
     },
     {
       "displayDate": 1781971200000,
-      "teamId": "10200",
-      "id": "q7irbsbwmqn23ird",
-      "seq": 138590,
-      "desc": "The Houston Astros traded RHP Jayden Murray to the Chicago Cubs.",
-      "player": {
-        "name": "Jayden Murray",
-        "posShortNames": "RP,SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051i0_96_2.png",
-        "scorerId": "051i0",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781971200000,
       "teamId": "10050",
       "id": "h2rfngc5mqn23he1",
       "seq": 138590,
@@ -5028,6 +5016,33 @@
         "posIds": [
           "003",
           "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1781971200000,
+      "teamId": "10200",
+      "id": "q7irbsbwmqn23ird",
+      "seq": 138590,
+      "desc": "The Houston Astros traded RHP Jayden Murray to the Chicago Cubs.",
+      "player": {
+        "name": "Jayden Murray",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051i0_96_2.png",
+        "scorerId": "051i0",
+        "posIds": [
+          "016",
+          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -5604,33 +5619,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1781884800000,
-      "teamId": "10040",
-      "id": "0vnxzjvfmql9pv71",
-      "seq": 138565,
-      "desc": "The Rays designated Slater for assignment Friday, Marc Topkin of the Tampa Bay Times reports.",
-      "player": {
-        "name": "Austin Slater",
-        "posShortNames": "LF,RF",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dg7_96_13.png",
-        "scorerId": "03dg7",
-        "posIds": [
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
