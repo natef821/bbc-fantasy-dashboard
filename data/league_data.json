@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T11:43:23.522686Z",
+  "lastUpdated": "2026-06-22T16:45:12.574081Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,11 +4196,58 @@
   },
   "transactions": [
     {
+      "displayDate": 1782144000000,
+      "teamId": "10060",
+      "id": "0ptuzcjemqpdzq3k",
+      "seq": 138628,
+      "desc": "The White Sox optioned Quero to Triple-A Charlotte on Monday.",
+      "player": {
+        "name": "Edgar Quero",
+        "posShortNames": "C",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05un2_96_2.png",
+        "scorerId": "05un2",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782144000000,
+      "teamId": "10060",
+      "id": "7j39ebmimqpdlkh1",
+      "seq": 138627,
+      "desc": "The White Sox activated Teel (knee/hamstring) from the 60-day injured list Monday.",
+      "player": {
+        "name": "Kyle Teel",
+        "posShortNames": "C",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05wxy_96_2.png",
+        "scorerId": "05wxy",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1782057600000,
       "teamId": "10180",
       "id": "h8ulhc4tmqoot0no",
       "seq": 138626,
-      "desc": "Lazar was optioned to Triple-A Lehigh Valley following Sunday night's 6-2 win over the Mets, Matt Gelb of The Athletic reports.",
+      "desc": "The Phillies optioned Lazar to Triple-A Lehigh Valley following Sunday's 6-2 win over the Mets, Matt Gelb of The Athletic reports.",
       "player": {
         "name": "Max Lazar",
         "posShortNames": "RP",
@@ -4226,7 +4273,7 @@
       "teamId": "10180",
       "id": "1092jvb3mqoot0ls",
       "seq": 138625,
-      "desc": "Wilson was designated for assignment by the Phillies on Sunday night, Matt Gelb of The Athletic reports.",
+      "desc": "The Phillies designated Wilson for assignment following Sunday's 6-2 win over the Mets, Matt Gelb of The Athletic reports.",
       "player": {
         "name": "Bryse Wilson",
         "posShortNames": "RP,SP",
@@ -4279,7 +4326,7 @@
       "teamId": "10040",
       "id": "fwth9nl2mqokywmu",
       "seq": 138621,
-      "desc": "Gillen was promoted to Double-A Montgomery on Sunday, Marc Topkin of the Tampa Bay Times reports.",
+      "desc": "The Rays promoted Gillen from High-A Bowling Green to Double-A Montgomery on Sunday, Marc Topkin of the Tampa Bay Times reports.",
       "player": {
         "name": "Theo Gillen",
         "posShortNames": "CF",
@@ -4305,7 +4352,7 @@
       "teamId": "10150",
       "id": "7xdf8bramqokywkf",
       "seq": 138620,
-      "desc": "Leon was outrighted to Triple-A Gwinnett on Sunday, Lindsay Crosby of BravesToday.com reports.",
+      "desc": "Atlanta outrighted Leon to Triple-A Gwinnett on Sunday.",
       "player": {
         "name": "Sandy Leon",
         "posShortNames": "C",
@@ -4386,7 +4433,7 @@
       "teamId": "10030",
       "id": "ukobv9slmqocbogp",
       "seq": 138617,
-      "desc": "Rodriguez was optioned to Triple-A Scranton/Wilkes-Barre after Sunday's 4-1 loss to the Reds.",
+      "desc": "The Yankees optioned Rodriguez to Triple-A Scranton/Wilkes-Barre following Sunday's 4-1 loss to the Reds.",
       "player": {
         "name": "Elmer Rodriguez",
         "posShortNames": "SP",
@@ -4878,68 +4925,63 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1782057600000,
-      "teamId": "10100",
-      "id": "zbfqfdrfmqnvej0n",
-      "seq": 138596,
-      "desc": "Minnesota designated Lawrence for assignment Sunday.",
-      "player": {
-        "name": "Justin Lawrence",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qq9_96_9.png",
-        "scorerId": "03qq9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782057600000,
-      "teamId": "10030",
-      "id": "kee0laz9mqnv0cdr",
-      "seq": 138595,
-      "desc": "The Yankees recalled Rodriguez from Triple-A Scranton/Wilkes-Barre ahead of his scheduled start Sunday against the Reds in New York.",
-      "player": {
-        "name": "Elmer Rodriguez",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "05xoo",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1782144000000,
+      "teamId": "10060",
+      "id": "0ptuzcjemqpdzq3k",
+      "seq": 138628,
+      "desc": "The White Sox optioned Quero to Triple-A Charlotte on Monday.",
+      "player": {
+        "name": "Edgar Quero",
+        "posShortNames": "C",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05un2_96_2.png",
+        "scorerId": "05un2",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782144000000,
+      "teamId": "10060",
+      "id": "7j39ebmimqpdlkh1",
+      "seq": 138627,
+      "desc": "The White Sox activated Teel (knee/hamstring) from the 60-day injured list Monday.",
+      "player": {
+        "name": "Kyle Teel",
+        "posShortNames": "C",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05wxy_96_2.png",
+        "scorerId": "05wxy",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1782057600000,
       "teamId": "10180",
       "id": "h8ulhc4tmqoot0no",
       "seq": 138626,
-      "desc": "Lazar was optioned to Triple-A Lehigh Valley following Sunday night's 6-2 win over the Mets, Matt Gelb of The Athletic reports.",
+      "desc": "The Phillies optioned Lazar to Triple-A Lehigh Valley following Sunday's 6-2 win over the Mets, Matt Gelb of The Athletic reports.",
       "player": {
         "name": "Max Lazar",
         "posShortNames": "RP",
@@ -4965,7 +5007,7 @@
       "teamId": "10180",
       "id": "1092jvb3mqoot0ls",
       "seq": 138625,
-      "desc": "Wilson was designated for assignment by the Phillies on Sunday night, Matt Gelb of The Athletic reports.",
+      "desc": "The Phillies designated Wilson for assignment following Sunday's 6-2 win over the Mets, Matt Gelb of The Athletic reports.",
       "player": {
         "name": "Bryse Wilson",
         "posShortNames": "RP,SP",
@@ -5018,7 +5060,7 @@
       "teamId": "10040",
       "id": "fwth9nl2mqokywmu",
       "seq": 138621,
-      "desc": "Gillen was promoted to Double-A Montgomery on Sunday, Marc Topkin of the Tampa Bay Times reports.",
+      "desc": "The Rays promoted Gillen from High-A Bowling Green to Double-A Montgomery on Sunday, Marc Topkin of the Tampa Bay Times reports.",
       "player": {
         "name": "Theo Gillen",
         "posShortNames": "CF",
@@ -5044,7 +5086,7 @@
       "teamId": "10150",
       "id": "7xdf8bramqokywkf",
       "seq": 138620,
-      "desc": "Leon was outrighted to Triple-A Gwinnett on Sunday, Lindsay Crosby of BravesToday.com reports.",
+      "desc": "Atlanta outrighted Leon to Triple-A Gwinnett on Sunday.",
       "player": {
         "name": "Sandy Leon",
         "posShortNames": "C",
@@ -5125,7 +5167,7 @@
       "teamId": "10030",
       "id": "ukobv9slmqocbogp",
       "seq": 138617,
-      "desc": "Rodriguez was optioned to Triple-A Scranton/Wilkes-Barre after Sunday's 4-1 loss to the Reds.",
+      "desc": "The Yankees optioned Rodriguez to Triple-A Scranton/Wilkes-Barre following Sunday's 4-1 loss to the Reds.",
       "player": {
         "name": "Elmer Rodriguez",
         "posShortNames": "SP",
@@ -5617,58 +5659,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1782057600000,
-      "teamId": "10100",
-      "id": "zbfqfdrfmqnvej0n",
-      "seq": 138596,
-      "desc": "Minnesota designated Lawrence for assignment Sunday.",
-      "player": {
-        "name": "Justin Lawrence",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qq9_96_9.png",
-        "scorerId": "03qq9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782057600000,
-      "teamId": "10030",
-      "id": "kee0laz9mqnv0cdr",
-      "seq": 138595,
-      "desc": "The Yankees recalled Rodriguez from Triple-A Scranton/Wilkes-Barre ahead of his scheduled start Sunday against the Reds in New York.",
-      "player": {
-        "name": "Elmer Rodriguez",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "05xoo",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
