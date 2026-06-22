@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T03:38:40.482682Z",
+  "lastUpdated": "2026-06-22T11:43:23.522686Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -70,12 +70,12 @@
       "logoUrl": "https://fantraximg.com/logos/u8v/tmLogo_u8vsnkdbml4fnu92_512.webp",
       "rank": 5,
       "fantasyPoints": "",
-      "fptsPerGame": "5.32",
+      "fptsPerGame": "5.33",
       "scoringPeriod": "1119",
       "gb": "2,665.25",
-      "ww": 3284,
+      "ww": 3295,
       "pbl": 1.0,
-      "hitPts": 631.75,
+      "hitPts": 620.75,
       "pitPts": 0
     },
     {
@@ -533,7 +533,7 @@
         "l": 13,
         "t": 19,
         "pf": 5356.0,
-        "pa": 5474.25,
+        "pa": 5485.25,
         "name": "Say Yes to Velo",
         "weeklyPF": [
           144.25,
@@ -646,7 +646,7 @@
         "w": 9,
         "l": 16,
         "t": 19,
-        "pf": 5949.25,
+        "pf": 5960.25,
         "pa": 5999.5,
         "name": "First Pitch Swinging",
         "weeklyPF": [
@@ -673,7 +673,7 @@
           197.5,
           257.75,
           186.0,
-          195.75,
+          206.75,
           255.25,
           0.0,
           0.0,
@@ -2244,7 +2244,7 @@
           {
             "team1": "First Pitch Swinging",
             "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 195.75,
+            "team1Pts": 206.75,
             "team2": "Say Yes to Velo",
             "team2Id": "lhaxchcjmg7kg72c",
             "team2Pts": 294.25,
@@ -3891,11 +3891,11 @@
             "short": "FPS",
             "rank": "4",
             "values": [
-              "3,284",
+              "3,295",
               "",
               "979.1",
               "993",
-              "406",
+              "403",
               "311",
               "13",
               "14",
@@ -3906,7 +3906,7 @@
               "26",
               "1",
               "0",
-              "93",
+              "94",
               "52",
               "11",
               "56"
@@ -4197,6 +4197,85 @@
   "transactions": [
     {
       "displayDate": 1782057600000,
+      "teamId": "10180",
+      "id": "h8ulhc4tmqoot0no",
+      "seq": 138626,
+      "desc": "Lazar was optioned to Triple-A Lehigh Valley following Sunday night's 6-2 win over the Mets, Matt Gelb of The Athletic reports.",
+      "player": {
+        "name": "Max Lazar",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04el7_96_1.png",
+        "scorerId": "04el7",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782057600000,
+      "teamId": "10180",
+      "id": "1092jvb3mqoot0ls",
+      "seq": 138625,
+      "desc": "Wilson was designated for assignment by the Phillies on Sunday night, Matt Gelb of The Athletic reports.",
+      "player": {
+        "name": "Bryse Wilson",
+        "posShortNames": "RP,SP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0429h_96_9.png",
+        "scorerId": "0429h",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782057600000,
+      "teamId": "10280",
+      "id": "wfta5cjxmqoot0iv",
+      "seq": 138624,
+      "desc": "Zazueta was promoted to Double-A Tulsa on Sunday, Kiley McDaniel of ESPN.com reports.",
+      "player": {
+        "name": "Christian Zazueta",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "06207",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782057600000,
       "teamId": "10040",
       "id": "fwth9nl2mqokywmu",
       "seq": 138621,
@@ -4279,7 +4358,7 @@
       "teamId": "10070",
       "id": "v1ea6966mqognaau",
       "seq": 138618,
-      "desc": "The Guardians outrighted Valera to Triple-A Columbus on Sunday, Tim Stebbins of MLB.com reportshttps://x.com/tim_stebbins/status/2068753417804091843",
+      "desc": "The Guardians outrighted Valera to Triple-A Columbus on Sunday, Tim Stebbins of MLB.com reports.",
       "player": {
         "name": "George Valera",
         "posShortNames": "RF,DH,LF",
@@ -4593,12 +4672,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4619,12 +4693,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 6",
-            "typeId": "26"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4667,12 +4736,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4695,12 +4759,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4721,12 +4780,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4866,85 +4920,6 @@
         "headshotUrl": "",
         "scorerId": "05xoo",
         "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782057600000,
-      "teamId": "10030",
-      "id": "vyw8m5e5mqnum5p9",
-      "seq": 138594,
-      "desc": "The Yankees reinstated Wells (headaches) from the 10-day injured list Sunday.",
-      "player": {
-        "name": "Austin Wells",
-        "posShortNames": "C",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahg_96_3.png",
-        "scorerId": "05ahg",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781971200000,
-      "teamId": "10105",
-      "id": "yt95u668mqomklpk",
-      "seq": 138623,
-      "desc": "The Astros acquired Sisneros from the Cubs on Saturday in exchange for right-hander Jayden Murray, Ari Alexander of 7 News Boston reports.",
-      "player": {
-        "name": "Cameron Sisneros",
-        "posShortNames": "1B",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "06nk6",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781971200000,
-      "teamId": "10200",
-      "id": "cm8b6sprmqomkloe",
-      "seq": 138622,
-      "desc": "The Cubs acquired Murray from the Astros on Saturday in exchange for first baseman Cameron Sisneros, Ari Alexander of 7 News Boston reports.",
-      "player": {
-        "name": "Jayden Murray",
-        "posShortNames": "RP,SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051i0_96_2.png",
-        "scorerId": "051i0",
-        "posIds": [
-          "016",
           "015"
         ],
         "rookie": false,
@@ -4961,6 +4936,85 @@
   "mlbTransactions": [
     {
       "displayDate": 1782057600000,
+      "teamId": "10180",
+      "id": "h8ulhc4tmqoot0no",
+      "seq": 138626,
+      "desc": "Lazar was optioned to Triple-A Lehigh Valley following Sunday night's 6-2 win over the Mets, Matt Gelb of The Athletic reports.",
+      "player": {
+        "name": "Max Lazar",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04el7_96_1.png",
+        "scorerId": "04el7",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782057600000,
+      "teamId": "10180",
+      "id": "1092jvb3mqoot0ls",
+      "seq": 138625,
+      "desc": "Wilson was designated for assignment by the Phillies on Sunday night, Matt Gelb of The Athletic reports.",
+      "player": {
+        "name": "Bryse Wilson",
+        "posShortNames": "RP,SP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0429h_96_9.png",
+        "scorerId": "0429h",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782057600000,
+      "teamId": "10280",
+      "id": "wfta5cjxmqoot0iv",
+      "seq": 138624,
+      "desc": "Zazueta was promoted to Double-A Tulsa on Sunday, Kiley McDaniel of ESPN.com reports.",
+      "player": {
+        "name": "Christian Zazueta",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "06207",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782057600000,
       "teamId": "10040",
       "id": "fwth9nl2mqokywmu",
       "seq": 138621,
@@ -5043,7 +5097,7 @@
       "teamId": "10070",
       "id": "v1ea6966mqognaau",
       "seq": 138618,
-      "desc": "The Guardians outrighted Valera to Triple-A Columbus on Sunday, Tim Stebbins of MLB.com reportshttps://x.com/tim_stebbins/status/2068753417804091843",
+      "desc": "The Guardians outrighted Valera to Triple-A Columbus on Sunday, Tim Stebbins of MLB.com reports.",
       "player": {
         "name": "George Valera",
         "posShortNames": "RF,DH,LF",
@@ -5357,12 +5411,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5383,12 +5432,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 6",
-            "typeId": "26"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5431,12 +5475,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5459,12 +5498,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5485,12 +5519,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5630,85 +5659,6 @@
         "headshotUrl": "",
         "scorerId": "05xoo",
         "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782057600000,
-      "teamId": "10030",
-      "id": "vyw8m5e5mqnum5p9",
-      "seq": 138594,
-      "desc": "The Yankees reinstated Wells (headaches) from the 10-day injured list Sunday.",
-      "player": {
-        "name": "Austin Wells",
-        "posShortNames": "C",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahg_96_3.png",
-        "scorerId": "05ahg",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781971200000,
-      "teamId": "10105",
-      "id": "yt95u668mqomklpk",
-      "seq": 138623,
-      "desc": "The Astros acquired Sisneros from the Cubs on Saturday in exchange for right-hander Jayden Murray, Ari Alexander of 7 News Boston reports.",
-      "player": {
-        "name": "Cameron Sisneros",
-        "posShortNames": "1B",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "06nk6",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1781971200000,
-      "teamId": "10200",
-      "id": "cm8b6sprmqomkloe",
-      "seq": 138622,
-      "desc": "The Cubs acquired Murray from the Astros on Saturday in exchange for first baseman Cameron Sisneros, Ari Alexander of 7 News Boston reports.",
-      "player": {
-        "name": "Jayden Murray",
-        "posShortNames": "RP,SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051i0_96_2.png",
-        "scorerId": "051i0",
-        "posIds": [
-          "016",
           "015"
         ],
         "rookie": false,
