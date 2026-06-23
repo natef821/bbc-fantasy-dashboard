@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T09:29:14.085322Z",
+  "lastUpdated": "2026-06-23T14:36:49.044309Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,27 @@
   },
   "transactions": [
     {
+      "displayDate": 1782230400000,
+      "teamId": "10210",
+      "id": "7fyg1pynmqqqo56y",
+      "seq": 138652,
+      "desc": "The Reds activated De La Cruz (hamstring) from the 10-day injured list Tuesday, Charlie Goldsmith of Fox 19 Now Cincinnati reports.",
+      "player": {
+        "name": "Elly De La Cruz",
+        "posShortNames": "SS",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05udp_96_4.png",
+        "scorerId": "05udp",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1782144000000,
       "teamId": "10010",
       "id": "uqx3x0qrmqpyv8hp",
@@ -4877,32 +4898,6 @@
         "scorerId": "05u2m",
         "posIds": [
           "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782057600000,
-      "teamId": "10150",
-      "id": "7xdf8bramqokywkf",
-      "seq": 138620,
-      "desc": "Atlanta outrighted Leon to Triple-A Gwinnett on Sunday.",
-      "player": {
-        "name": "Sandy Leon",
-        "posShortNames": "C",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02jtq_96_12.png",
-        "scorerId": "02jtq",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4917,6 +4912,27 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1782230400000,
+      "teamId": "10210",
+      "id": "7fyg1pynmqqqo56y",
+      "seq": 138652,
+      "desc": "The Reds activated De La Cruz (hamstring) from the 10-day injured list Tuesday, Charlie Goldsmith of Fox 19 Now Cincinnati reports.",
+      "player": {
+        "name": "Elly De La Cruz",
+        "posShortNames": "SS",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05udp_96_4.png",
+        "scorerId": "05udp",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1782144000000,
       "teamId": "10010",
       "id": "uqx3x0qrmqpyv8hp",
@@ -5598,32 +5614,6 @@
         "scorerId": "05u2m",
         "posIds": [
           "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782057600000,
-      "teamId": "10150",
-      "id": "7xdf8bramqokywkf",
-      "seq": 138620,
-      "desc": "Atlanta outrighted Leon to Triple-A Gwinnett on Sunday.",
-      "player": {
-        "name": "Sandy Leon",
-        "posShortNames": "C",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02jtq_96_12.png",
-        "scorerId": "02jtq",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
