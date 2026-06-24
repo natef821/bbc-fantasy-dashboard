@@ -1,36 +1,36 @@
 {
-  "lastUpdated": "2026-06-23T19:53:47.173536Z",
+  "lastUpdated": "2026-06-24T02:44:33.852021Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
-    {
-      "id": "g8p3r1i9mg7kg72b",
-      "name": "Wyatt and the Sankers",
-      "short": "SANK",
-      "logoUrl": "https://fantraximg.com/logos/hju/tmLogo_hju2kpbompob82ov_512.webp",
-      "rank": 1,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.61",
-      "scoringPeriod": "1195",
-      "gb": "3,204.25",
-      "ww": 3500,
-      "pbl": 7.0,
-      "hitPts": 0.0,
-      "pitPts": 0
-    },
     {
       "id": "odce8gzsmg7kg72c",
       "name": "Wyatt and the Lankers",
       "short": "LANK",
       "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp",
+      "rank": 1,
+      "fantasyPoints": "",
+      "fptsPerGame": "5.49",
+      "scoringPeriod": "1238",
+      "gb": "2,850.25",
+      "ww": 3942,
+      "pbl": 2.0,
+      "hitPts": 0.0,
+      "pitPts": 0
+    },
+    {
+      "id": "g8p3r1i9mg7kg72b",
+      "name": "Wyatt and the Sankers",
+      "short": "SANK",
+      "logoUrl": "https://fantraximg.com/logos/hju/tmLogo_hju2kpbompob82ov_512.webp",
       "rank": 2,
       "fantasyPoints": "",
-      "fptsPerGame": "5.43",
-      "scoringPeriod": "1221",
-      "gb": "2,819",
-      "ww": 3808,
-      "pbl": 2.0,
-      "hitPts": 77.25,
+      "fptsPerGame": "5.62",
+      "scoringPeriod": "1208",
+      "gb": "3,235.75",
+      "ww": 3554,
+      "pbl": 7.0,
+      "hitPts": 2.5,
       "pitPts": 0
     },
     {
@@ -40,12 +40,12 @@
       "logoUrl": "https://fantraximg.com/logos/9i1/tmLogo_9i1cc3c2mq44kk57_512.webp",
       "rank": 3,
       "fantasyPoints": "",
-      "fptsPerGame": "5.52",
-      "scoringPeriod": "1189",
-      "gb": "3,233.75",
-      "ww": 3334,
+      "fptsPerGame": "5.48",
+      "scoringPeriod": "1200",
+      "gb": "3,253.75",
+      "ww": 3325,
       "pbl": 9.0,
-      "hitPts": 136.0,
+      "hitPts": 213.5,
       "pitPts": 0
     },
     {
@@ -55,12 +55,12 @@
       "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp",
       "rank": 4,
       "fantasyPoints": "",
-      "fptsPerGame": "5.58",
-      "scoringPeriod": "1117",
-      "gb": "2,868.25",
-      "ww": 3364,
+      "fptsPerGame": "5.56",
+      "scoringPeriod": "1129",
+      "gb": "2,904",
+      "ww": 3378,
       "pbl": 6.0,
-      "hitPts": 472.0,
+      "hitPts": 510.75,
       "pitPts": 0
     },
     {
@@ -70,27 +70,12 @@
       "logoUrl": "https://fantraximg.com/logos/u8v/tmLogo_u8vsnkdbml4fnu92_512.webp",
       "rank": 5,
       "fantasyPoints": "",
-      "fptsPerGame": "5.32",
-      "scoringPeriod": "1131",
-      "gb": "2,690.75",
-      "ww": 3325,
+      "fptsPerGame": "5.3",
+      "scoringPeriod": "1147",
+      "gb": "2,703.25",
+      "ww": 3379,
       "pbl": 1.0,
-      "hitPts": 688.0,
-      "pitPts": 0
-    },
-    {
-      "id": "xgktl0otmg7kg72d",
-      "name": "Tank for LeBron",
-      "short": "Vind25",
-      "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp",
-      "rank": 6,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.05",
-      "scoringPeriod": "1160",
-      "gb": "2,814",
-      "ww": 3042,
-      "pbl": 8.0,
-      "hitPts": 847.75,
+      "hitPts": 710.5,
       "pitPts": 0
     },
     {
@@ -98,14 +83,29 @@
       "name": "TBONERS",
       "short": "TBONR",
       "logoUrl": "https://fantraximg.com/logos/uov/tmLogo_uovy6hy4mmns0hxb_512.webp",
-      "rank": 7,
+      "rank": 6,
       "fantasyPoints": "",
       "fptsPerGame": "5.12",
-      "scoringPeriod": "1139",
-      "gb": "2,805",
-      "ww": 3031,
+      "scoringPeriod": "1151",
+      "gb": "2,833.5",
+      "ww": 3061,
       "pbl": 5.0,
-      "hitPts": 868.25,
+      "hitPts": 898.25,
+      "pitPts": 0
+    },
+    {
+      "id": "xgktl0otmg7kg72d",
+      "name": "Tank for LeBron",
+      "short": "Vind25",
+      "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp",
+      "rank": 7,
+      "fantasyPoints": "",
+      "fptsPerGame": "5.01",
+      "scoringPeriod": "1171",
+      "gb": "2,822.5",
+      "ww": 3046,
+      "pbl": 8.0,
+      "hitPts": 924.25,
       "pitPts": 0
     },
     {
@@ -115,12 +115,12 @@
       "logoUrl": "https://fantraximg.com/logos/0lf/tmLogo_0lfo2aaymnwg1b7o_512.webp",
       "rank": 8,
       "fantasyPoints": "",
-      "fptsPerGame": "4.92",
-      "scoringPeriod": "1156",
-      "gb": "2,592.25",
-      "ww": 3090,
+      "fptsPerGame": "4.97",
+      "scoringPeriod": "1171",
+      "gb": "2,630.25",
+      "ww": 3195,
       "pbl": 11.0,
-      "hitPts": 1022.0,
+      "hitPts": 967.5,
       "pitPts": 0
     },
     {
@@ -131,11 +131,11 @@
       "rank": 9,
       "fantasyPoints": "",
       "fptsPerGame": "4.85",
-      "scoringPeriod": "1123",
-      "gb": "2,824.75",
-      "ww": 2623,
+      "scoringPeriod": "1133",
+      "gb": "2,852.5",
+      "ww": 2640,
       "pbl": 12.0,
-      "hitPts": 1256.5,
+      "hitPts": 1299.75,
       "pitPts": 0
     },
     {
@@ -145,12 +145,12 @@
       "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/helmet/purple_magenta_256.webp",
       "rank": 10,
       "fantasyPoints": "",
-      "fptsPerGame": "4.89",
-      "scoringPeriod": "1103",
-      "gb": "2,480.5",
-      "ww": 2917,
+      "fptsPerGame": "4.88",
+      "scoringPeriod": "1117",
+      "gb": "2,496.5",
+      "ww": 2950,
       "pbl": 3.0,
-      "hitPts": 1306.75,
+      "hitPts": 1345.75,
       "pitPts": 0
     },
     {
@@ -160,12 +160,12 @@
       "logoUrl": "https://fantraximg.com/logos/nsd/tmLogo_nsdzor91mcat5gih_512.webp",
       "rank": 11,
       "fantasyPoints": "",
-      "fptsPerGame": "5.43",
-      "scoringPeriod": "992",
-      "gb": "2,638",
-      "ww": 2746,
+      "fptsPerGame": "5.38",
+      "scoringPeriod": "1004",
+      "gb": "2,644",
+      "ww": 2756,
       "pbl": 4.0,
-      "hitPts": 1319.75,
+      "hitPts": 1392.75,
       "pitPts": 0
     },
     {
@@ -175,12 +175,12 @@
       "logoUrl": "https://fantraximg.com/logos/nye/tmLogo_nye0oe90mpqbqirz_512.webp",
       "rank": 12,
       "fantasyPoints": "",
-      "fptsPerGame": "4.48",
-      "scoringPeriod": "1091",
-      "gb": "2,457.75",
-      "ww": 2430,
+      "fptsPerGame": "4.46",
+      "scoringPeriod": "1100",
+      "gb": "2,481.75",
+      "ww": 2424,
       "pbl": 10.0,
-      "hitPts": 1816.5,
+      "hitPts": 1887.0,
       "pitPts": 0
     }
   ],
@@ -190,8 +190,8 @@
         "w": 14,
         "l": 12,
         "t": 18,
-        "pf": 5856.5,
-        "pa": 5841.0,
+        "pf": 5868.5,
+        "pa": 5886.25,
         "name": "Tank for LeBron",
         "weeklyPF": [
           220.25,
@@ -219,7 +219,7 @@
           221.75,
           185.25,
           204.0,
-          30.25,
+          42.25,
           0.0,
           0.0,
           0.0,
@@ -244,11 +244,11 @@
         "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp"
       },
       {
-        "w": 19,
-        "l": 7,
+        "w": 18,
+        "l": 8,
         "t": 18,
-        "pf": 6704.25,
-        "pa": 5759.75,
+        "pf": 6790.25,
+        "pa": 5902.75,
         "name": "Wyatt and the Sankers",
         "weeklyPF": [
           339.75,
@@ -276,7 +276,7 @@
           309.5,
           334.0,
           252.5,
-          123.25,
+          209.25,
           0.0,
           0.0,
           0.0,
@@ -301,11 +301,11 @@
         "logoUrl": "https://fantraximg.com/logos/hju/tmLogo_hju2kpbompob82ov_512.webp"
       },
       {
-        "w": 12,
-        "l": 13,
+        "w": 13,
+        "l": 12,
         "t": 19,
-        "pf": 5682.25,
-        "pa": 5934.75,
+        "pf": 5825.25,
+        "pa": 6020.75,
         "name": "Honey Nut Chourio's",
         "weeklyPF": [
           262.75,
@@ -333,7 +333,7 @@
           220.0,
           288.5,
           195.75,
-          93.5,
+          236.5,
           0.0,
           0.0,
           0.0,
@@ -361,8 +361,8 @@
         "w": 8,
         "l": 17,
         "t": 19,
-        "pf": 5447.75,
-        "pa": 5859.25,
+        "pf": 5493.0,
+        "pa": 5871.25,
         "name": "Jac-in' It",
         "weeklyPF": [
           180.75,
@@ -390,7 +390,7 @@
           121.5,
           240.5,
           212.25,
-          90.75,
+          136.0,
           0.0,
           0.0,
           0.0,
@@ -418,8 +418,8 @@
         "w": 18,
         "l": 8,
         "t": 18,
-        "pf": 6627.0,
-        "pa": 5918.75,
+        "pf": 6792.75,
+        "pa": 5934.25,
         "name": "Wyatt and the Lankers",
         "weeklyPF": [
           286.75,
@@ -447,7 +447,7 @@
           249.25,
           355.25,
           209.0,
-          72.0,
+          237.75,
           0.0,
           0.0,
           0.0,
@@ -475,8 +475,8 @@
         "w": 15,
         "l": 11,
         "t": 18,
-        "pf": 6568.25,
-        "pa": 5927.75,
+        "pf": 6579.25,
+        "pa": 5945.75,
         "name": "Slattlanta",
         "weeklyPF": [
           318.0,
@@ -504,7 +504,7 @@
           223.25,
           343.75,
           288.5,
-          96.25,
+          107.25,
           0.0,
           0.0,
           0.0,
@@ -532,8 +532,8 @@
         "w": 12,
         "l": 14,
         "t": 18,
-        "pf": 5384.5,
-        "pa": 5557.25,
+        "pf": 5400.0,
+        "pa": 5723.0,
         "name": "Say Yes to Velo",
         "weeklyPF": [
           144.25,
@@ -561,7 +561,7 @@
           129.5,
           294.25,
           136.75,
-          28.5,
+          44.0,
           0.0,
           0.0,
           0.0,
@@ -589,8 +589,8 @@
         "w": 8,
         "l": 18,
         "t": 18,
-        "pf": 4887.75,
-        "pa": 5896.25,
+        "pf": 4905.75,
+        "pa": 5907.25,
         "name": "Creative Name",
         "weeklyPF": [
           184.75,
@@ -618,7 +618,7 @@
           130.5,
           206.5,
           166.0,
-          15.5,
+          33.5,
           0.0,
           0.0,
           0.0,
@@ -643,11 +643,11 @@
         "logoUrl": "https://fantraximg.com/logos/nye/tmLogo_nye0oe90mpqbqirz_512.webp"
       },
       {
-        "w": 9,
-        "l": 17,
+        "w": 10,
+        "l": 16,
         "t": 18,
-        "pf": 6016.25,
-        "pa": 6058.75,
+        "pf": 6082.25,
+        "pa": 6117.25,
         "name": "First Pitch Swinging",
         "weeklyPF": [
           306.75,
@@ -675,7 +675,7 @@
           186.0,
           206.75,
           255.25,
-          56.0,
+          122.0,
           0.0,
           0.0,
           0.0,
@@ -703,8 +703,8 @@
         "w": 8,
         "l": 18,
         "t": 18,
-        "pf": 5397.5,
-        "pa": 6260.75,
+        "pf": 5447.0,
+        "pa": 6310.5,
         "name": "Golden Gate Gays",
         "weeklyPF": [
           197.5,
@@ -732,7 +732,7 @@
           206.5,
           155.5,
           140.75,
-          28.5,
+          78.0,
           0.0,
           0.0,
           0.0,
@@ -760,8 +760,8 @@
         "w": 18,
         "l": 8,
         "t": 18,
-        "pf": 6232.25,
-        "pa": 5678.75,
+        "pf": 6282.0,
+        "pa": 5728.25,
         "name": "Layin Wood\ud83e\udeb5",
         "weeklyPF": [
           286.0,
@@ -789,7 +789,7 @@
           234.75,
           170.75,
           278.75,
-          58.0,
+          107.75,
           0.0,
           0.0,
           0.0,
@@ -814,11 +814,11 @@
         "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp"
       },
       {
-        "w": 14,
-        "l": 12,
+        "w": 13,
+        "l": 13,
         "t": 18,
-        "pf": 5836.0,
-        "pa": 5947.25,
+        "pf": 5894.5,
+        "pa": 6013.25,
         "name": "TBONERS",
         "weeklyPF": [
           323.5,
@@ -846,7 +846,7 @@
           250.5,
           188.75,
           119.0,
-          59.25,
+          117.75,
           0.0,
           0.0,
           0.0,
@@ -2353,55 +2353,55 @@
           {
             "team1": "Honey Nut Chourio's",
             "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 93.5,
+            "team1Pts": 236.5,
             "team2": "Wyatt and the Sankers",
             "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 123.25,
-            "winner": "Wyatt and the Sankers"
+            "team2Pts": 209.25,
+            "winner": "Honey Nut Chourio's"
           },
           {
             "team1": "Jac-in' It",
             "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 90.75,
+            "team1Pts": 136.0,
             "team2": "Tank for LeBron",
             "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 30.25,
+            "team2Pts": 42.25,
             "winner": "Jac-in' It"
           },
           {
             "team1": "Say Yes to Velo",
             "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 28.5,
+            "team1Pts": 44.0,
             "team2": "Wyatt and the Lankers",
             "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 72.0,
+            "team2Pts": 237.75,
             "winner": "Wyatt and the Lankers"
           },
           {
             "team1": "Creative Name",
             "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 15.5,
+            "team1Pts": 33.5,
             "team2": "Slattlanta",
             "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 96.25,
+            "team2Pts": 107.25,
             "winner": "Slattlanta"
           },
           {
             "team1": "First Pitch Swinging",
             "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 56.0,
+            "team1Pts": 122.0,
             "team2": "TBONERS",
             "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 59.25,
-            "winner": "TBONERS"
+            "team2Pts": 117.75,
+            "winner": "First Pitch Swinging"
           },
           {
             "team1": "Layin Wood\ud83e\udeb5",
             "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 58.0,
+            "team1Pts": 107.75,
             "team2": "Golden Gate Gays",
             "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 28.5,
+            "team2Pts": 78.0,
             "winner": "Layin Wood\ud83e\udeb5"
           }
         ]
@@ -3481,20 +3481,20 @@
             "short": "JDPusha",
             "rank": "1",
             "values": [
-              "3,233.75",
+              "3,253.75",
               "",
-              "503",
-              "801",
+              "509",
+              "808",
               "148",
-              "446",
-              "452",
-              "31",
-              "850",
+              "447",
+              "457",
+              "33",
+              "862",
               "70",
               "25",
               "9",
-              "1,423",
-              "71",
+              "1,433",
+              "72",
               "49",
               "5",
               "0",
@@ -3508,19 +3508,19 @@
             "short": "SANK",
             "rank": "2",
             "values": [
-              "3,204.25",
+              "3,235.75",
               "",
-              "498",
-              "860",
-              "148",
-              "450",
-              "368",
+              "502",
+              "868",
+              "150",
+              "457",
+              "371",
               "21",
-              "748",
+              "758",
               "41",
               "12",
               "4",
-              "1,474",
+              "1,490",
               "29",
               "75",
               "5",
@@ -3535,24 +3535,24 @@
             "short": "Lsgob",
             "rank": "3",
             "values": [
-              "2,868.25",
+              "2,904",
               "",
-              "434",
-              "745",
-              "130",
-              "410",
-              "324",
+              "440",
+              "752",
+              "132",
+              "416",
+              "329",
               "15",
-              "682",
+              "691",
               "59",
-              "20",
+              "21",
               "5",
-              "1,294",
-              "38",
+              "1,308",
+              "39",
               "48",
               "3",
               "1",
-              "55",
+              "56",
               "5"
             ]
           },
@@ -3562,21 +3562,21 @@
             "short": "Jac",
             "rank": "4",
             "values": [
-              "2,824.75",
+              "2,852.5",
               "",
-              "467",
-              "783",
-              "113",
-              "411",
-              "343",
+              "472",
+              "795",
+              "114",
+              "414",
+              "344",
               "6",
-              "789",
+              "801",
               "51",
               "19",
               "9",
-              "1,300",
+              "1,317",
               "41",
-              "61",
+              "62",
               "3",
               "0",
               "45",
@@ -3589,47 +3589,74 @@
             "short": "LANK",
             "rank": "5",
             "values": [
-              "2,819",
+              "2,850.25",
               "",
-              "420",
-              "782",
-              "106",
-              "410",
+              "426",
+              "793",
+              "108",
+              "413",
               "383",
               "22",
-              "744",
-              "103",
+              "757",
+              "104",
               "25",
               "7",
-              "1,294",
-              "22",
-              "70",
+              "1,314",
+              "23",
+              "71",
               "2",
               "0",
-              "55",
+              "56",
               "8"
+            ]
+          },
+          {
+            "teamId": "8znzrpg1mg7kg72e",
+            "name": "TBONERS",
+            "short": "TBONR",
+            "rank": "6",
+            "values": [
+              "2,833.5",
+              "",
+              "439",
+              "739",
+              "123",
+              "403",
+              "379",
+              "23",
+              "742",
+              "76",
+              "20",
+              "8",
+              "1,268",
+              "50",
+              "74",
+              "2",
+              "0",
+              "54",
+              "10"
             ]
           },
           {
             "teamId": "xgktl0otmg7kg72d",
             "name": "Tank for LeBron",
             "short": "Vind25",
-            "rank": "6",
+            "rank": "7",
             "values": [
-              "2,814",
+              "2,822.5",
               "",
-              "414",
-              "744",
-              "125",
-              "423",
-              "347",
+              "417",
+              "747",
+              "126",
+              "424",
+              "348",
               "16",
-              "780",
+              "791",
               "65",
               "18",
               "9",
-              "1,310",
-              "40",
+              "1,317",
+              "41",
               "63",
               "3",
               "0",
@@ -3638,51 +3665,24 @@
             ]
           },
           {
-            "teamId": "8znzrpg1mg7kg72e",
-            "name": "TBONERS",
-            "short": "TBONR",
-            "rank": "7",
-            "values": [
-              "2,805",
-              "",
-              "433",
-              "730",
-              "122",
-              "399",
-              "376",
-              "23",
-              "732",
-              "76",
-              "20",
-              "8",
-              "1,254",
-              "50",
-              "74",
-              "2",
-              "0",
-              "53",
-              "10"
-            ]
-          },
-          {
             "teamId": "0qrvkt09mg7kg72f",
             "name": "First Pitch Swinging",
             "short": "FPS",
             "rank": "8",
             "values": [
-              "2,690.75",
+              "2,703.25",
               "",
-              "427",
-              "773",
+              "430",
+              "779",
               "110",
-              "370",
-              "341",
+              "373",
+              "342",
               "11",
-              "766",
+              "775",
               "91",
               "21",
               "13",
-              "1,270",
+              "1,278",
               "39",
               "51",
               "0",
@@ -3697,19 +3697,19 @@
             "short": "haydenor",
             "rank": "9",
             "values": [
-              "2,638",
+              "2,644",
               "",
-              "422",
-              "688",
+              "424",
+              "693",
               "114",
               "396",
-              "329",
+              "332",
               "9",
-              "684",
+              "695",
               "65",
               "21",
               "6",
-              "1,168",
+              "1,174",
               "41",
               "47",
               "2",
@@ -3724,20 +3724,20 @@
             "short": "Watchtow",
             "rank": "10",
             "values": [
-              "2,592.25",
+              "2,630.25",
               "",
-              "402",
-              "767",
-              "106",
-              "420",
-              "262",
+              "408",
+              "775",
+              "107",
+              "426",
+              "267",
               "8",
-              "683",
-              "56",
+              "687",
+              "58",
               "13",
               "11",
-              "1,239",
-              "31",
+              "1,252",
+              "32",
               "61",
               "3",
               "0",
@@ -3751,19 +3751,19 @@
             "short": "GGG",
             "rank": "11",
             "values": [
-              "2,480.5",
+              "2,496.5",
               "",
-              "352",
-              "714",
-              "106",
-              "394",
-              "257",
+              "353",
+              "720",
+              "107",
+              "399",
+              "259",
               "6",
-              "687",
-              "29",
+              "696",
+              "30",
               "18",
               "5",
-              "1,203",
+              "1,213",
               "45",
               "39",
               "4",
@@ -3778,19 +3778,19 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "2,457.75",
+              "2,481.75",
               "",
-              "400",
-              "735",
+              "406",
+              "744",
               "87",
-              "385",
-              "328",
+              "388",
+              "333",
               "12",
-              "691",
+              "696",
               "38",
               "19",
               "3",
-              "1,171",
+              "1,182",
               "22",
               "53",
               "0",
@@ -3810,24 +3810,24 @@
             "short": "LANK",
             "rank": "1",
             "values": [
-              "3,808",
+              "3,942.5",
               "",
-              "1,175",
-              "1,101",
-              "511",
-              "380",
+              "1,211.1",
+              "1,131",
+              "523",
+              "389",
               "13",
               "10",
-              "51",
-              "74",
+              "52",
+              "78",
               "3",
               "3",
               "41",
               "1",
               "0",
-              "116",
+              "121",
               "56",
-              "12",
+              "13",
               "52"
             ]
           },
@@ -3837,39 +3837,66 @@
             "short": "SANK",
             "rank": "2",
             "values": [
-              "3,500",
+              "3,554.5",
               "",
-              "1,133.2",
-              "1,117",
-              "535",
-              "416",
-              "28",
+              "1,148.1",
+              "1,128",
+              "539",
+              "422",
+              "29",
               "7",
               "21",
-              "66",
+              "67",
               "1",
               "4",
               "63",
               "1",
               "0",
-              "105",
-              "47",
+              "107",
+              "48",
               "7",
-              "39"
+              "40"
+            ]
+          },
+          {
+            "teamId": "0qrvkt09mg7kg72f",
+            "name": "First Pitch Swinging",
+            "short": "FPS",
+            "rank": "3",
+            "values": [
+              "3,379",
+              "",
+              "997.1",
+              "1,014",
+              "408",
+              "314",
+              "14",
+              "14",
+              "40",
+              "55",
+              "1",
+              "1",
+              "26",
+              "1",
+              "0",
+              "96",
+              "57",
+              "11",
+              "57"
             ]
           },
           {
             "teamId": "w6b31holmg7kg72f",
             "name": "Layin Wood\ud83e\udeb5",
             "short": "Lsgob",
-            "rank": "3",
+            "rank": "4",
             "values": [
-              "3,364",
+              "3,378",
               "",
-              "1,069",
-              "1,019",
-              "484",
-              "366",
+              "1,074.2",
+              "1,023",
+              "486",
+              "372",
               "16",
               "13",
               "47",
@@ -3879,7 +3906,7 @@
               "45",
               "0",
               "0",
-              "102",
+              "103",
               "60",
               "14",
               "42"
@@ -3889,21 +3916,21 @@
             "teamId": "7gq3y996mg7kg729",
             "name": "Slattlanta",
             "short": "JDPusha",
-            "rank": "4",
+            "rank": "5",
             "values": [
-              "3,334.5",
+              "3,325.5",
               "",
-              "1,063.2",
-              "1,087",
-              "533",
-              "392",
+              "1,064.1",
+              "1,089",
+              "537",
+              "393",
               "42",
               "12",
               "29",
               "65",
               "0",
               "6",
-              "47",
+              "48",
               "0",
               "0",
               "98",
@@ -3913,74 +3940,74 @@
             ]
           },
           {
-            "teamId": "0qrvkt09mg7kg72f",
-            "name": "First Pitch Swinging",
-            "short": "FPS",
-            "rank": "5",
-            "values": [
-              "3,325.5",
-              "",
-              "986.1",
-              "1,004",
-              "405",
-              "312",
-              "13",
-              "14",
-              "38",
-              "54",
-              "1",
-              "1",
-              "26",
-              "1",
-              "0",
-              "95",
-              "54",
-              "11",
-              "56"
-            ]
-          },
-          {
             "teamId": "nbnjqx3cmg7kg72g",
             "name": "Honey Nut Chourio's",
             "short": "Watchtow",
             "rank": "6",
             "values": [
-              "3,090",
+              "3,195",
               "",
-              "1,003.2",
-              "913",
-              "475",
-              "336",
-              "52",
+              "1,024.1",
+              "939",
+              "477",
+              "342",
+              "54",
               "16",
               "21",
-              "51",
+              "52",
               "0",
               "5",
-              "39",
+              "40",
               "0",
               "0",
-              "88",
-              "55",
-              "9",
-              "32"
+              "90",
+              "57",
+              "10",
+              "33"
+            ]
+          },
+          {
+            "teamId": "8znzrpg1mg7kg72e",
+            "name": "TBONERS",
+            "short": "TBONR",
+            "rank": "7",
+            "values": [
+              "3,061",
+              "",
+              "920.2",
+              "889",
+              "416",
+              "318",
+              "15",
+              "8",
+              "64",
+              "61",
+              "1",
+              "7",
+              "38",
+              "1",
+              "0",
+              "85",
+              "59",
+              "6",
+              "67"
             ]
           },
           {
             "teamId": "xgktl0otmg7kg72d",
             "name": "Tank for LeBron",
             "short": "Vind25",
-            "rank": "7",
+            "rank": "8",
             "values": [
-              "3,042.5",
+              "3,046",
               "",
-              "990",
-              "937",
-              "469",
-              "351",
+              "993.2",
+              "940",
+              "473",
+              "354",
               "35",
               "10",
-              "29",
+              "30",
               "40",
               "0",
               "3",
@@ -3994,54 +4021,27 @@
             ]
           },
           {
-            "teamId": "8znzrpg1mg7kg72e",
-            "name": "TBONERS",
-            "short": "TBONR",
-            "rank": "8",
-            "values": [
-              "3,031",
-              "",
-              "907.1",
-              "869",
-              "405",
-              "314",
-              "15",
-              "8",
-              "64",
-              "61",
-              "1",
-              "6",
-              "37",
-              "1",
-              "0",
-              "85",
-              "59",
-              "6",
-              "67"
-            ]
-          },
-          {
             "teamId": "aw407ddlmg7kg72a",
             "name": "Golden Gate Gays",
             "short": "GGG",
             "rank": "9",
             "values": [
-              "2,917",
+              "2,950.5",
               "",
-              "944.1",
-              "873",
-              "418",
-              "346",
+              "956",
+              "891",
+              "425",
+              "348",
               "12",
-              "11",
+              "13",
               "37",
-              "54",
+              "55",
               "1",
               "2",
-              "61",
+              "62",
               "1",
               "0",
-              "81",
+              "82",
               "66",
               "7",
               "37"
@@ -4053,14 +4053,14 @@
             "short": "haydenor",
             "rank": "10",
             "values": [
-              "2,746.5",
+              "2,758",
               "",
-              "777.2",
-              "804",
-              "299",
-              "289",
+              "783.2",
+              "811",
+              "303",
+              "290",
               "24",
-              "6",
+              "7",
               "14",
               "52",
               "1",
@@ -4069,9 +4069,9 @@
               "1",
               "0",
               "89",
-              "34",
+              "35",
               "8",
-              "33"
+              "35"
             ]
           },
           {
@@ -4080,22 +4080,22 @@
             "short": "Jac",
             "rank": "11",
             "values": [
-              "2,623",
+              "2,640.5",
               "",
-              "801.2",
-              "793",
-              "363",
-              "308",
+              "806.2",
+              "799",
+              "364",
+              "312",
               "55",
               "12",
               "19",
               "32",
               "0",
               "4",
-              "47",
+              "48",
               "0",
               "0",
-              "72",
+              "73",
               "56",
               "3",
               "47"
@@ -4107,11 +4107,11 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "2,430",
+              "2,424",
               "",
-              "786.1",
-              "728",
-              "369",
+              "787",
+              "729",
+              "372",
               "346",
               "51",
               "13",
@@ -4197,6 +4197,180 @@
   "transactions": [
     {
       "displayDate": 1782230400000,
+      "teamId": "10290",
+      "id": "xmfbgkhjmqrbjo37",
+      "seq": 138675,
+      "desc": "Hunt was optioned to Triple-A El Paso on Tuesday.",
+      "player": {
+        "name": "Blake Hunt",
+        "posShortNames": "C",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efb_96_5.png",
+        "scorerId": "04efb",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10290",
+      "id": "xrqjkzx2mqrb5hw0",
+      "seq": 138674,
+      "desc": "Fermin (concussion) was reinstated from the 7-day injured list Tuesday.",
+      "player": {
+        "name": "Freddy Fermin",
+        "posShortNames": "C",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05lo5_96_8.png",
+        "scorerId": "05lo5",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10290",
+      "id": "pu4kd3gumqr80174",
+      "seq": 138673,
+      "desc": "The Padres recalled Sears from Triple-A El Paso on Tuesday.",
+      "player": {
+        "name": "J.P. Sears",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eld_96_4.png",
+        "scorerId": "04eld",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10040",
+      "id": "27qmqxl1mqr6mh2z",
+      "seq": 138672,
+      "desc": "The St. Louis Cardinals traded RHP Chris Roycroft to the Tampa Bay Rays. The Rays then optioned him to the minors.",
+      "player": {
+        "name": "Chris Roycroft",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06lqo_96_1.png",
+        "scorerId": "06lqo",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10300",
+      "id": "nea1w1wcmqr4umkf",
+      "seq": 138671,
+      "desc": "The Mets claimed Oliva off waivers from the Giants on Tuesday, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Jared Oliva",
+        "posShortNames": "RF,CF",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eia_96_5.png",
+        "scorerId": "04eia",
+        "posIds": [
+          "011",
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10200",
+      "id": "mv5hpwtemqr4gez4",
+      "seq": 138670,
+      "desc": "The Cubs recalled Murray from Triple-A Iowa on Tuesday.",
+      "player": {
+        "name": "Jayden Murray",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051i0_96_2.png",
+        "scorerId": "051i0",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10200",
+      "id": "zmnjhnfamqr4gewi",
+      "seq": 138669,
+      "desc": "The Cubs optioned Hollowell to Triple-A Iowa on Tuesday.",
+      "player": {
+        "name": "Gavin Hollowell",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514j_96_3.png",
+        "scorerId": "0514j",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782230400000,
       "teamId": "10130",
       "id": "oj0ojkpimqr0il1s",
       "seq": 138667,
@@ -4551,7 +4725,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4651,7 +4830,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4689,8 +4873,8 @@
       "player": {
         "name": "Trey Mancini",
         "posShortNames": "1B",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
+        "teamShortName": "(N/A)",
+        "teamName": "Not on a team",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031c4_96_14.png",
         "scorerId": "031c4",
         "posIds": [
@@ -4700,8 +4884,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
+            "tooltip": "Free Agent",
+            "typeId": "3"
           }
         ]
       }
@@ -4752,7 +4936,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 4",
+            "typeId": "24"
+          }
+        ]
       }
     },
     {
@@ -4778,177 +4967,6 @@
           {
             "tooltip": "Minor Leagues",
             "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10270",
-      "id": "s7bncx2gmqppexp6",
-      "seq": 138644,
-      "desc": "The Rockies activated Moniak (ankle) from the 10-day injured list Monday.",
-      "player": {
-        "name": "Mickey Moniak",
-        "posShortNames": "RF,LF",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041e2_96_10.png",
-        "scorerId": "041e2",
-        "posIds": [
-          "011",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10105",
-      "id": "nr67vxoqmqpo8e0p",
-      "seq": 138643,
-      "desc": "The Astros recalled VanWey from Triple-A Sugar Land on Monday.",
-      "player": {
-        "name": "Logan VanWey",
-        "posShortNames": "RP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "06l4y",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10280",
-      "id": "9ylk26nkmqpnu8hh",
-      "seq": 138642,
-      "desc": "The Dodgers optioned McDermott to Triple-A Oklahoma City on Monday.",
-      "player": {
-        "name": "Chayce McDermott",
-        "posShortNames": "RP,SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uws_96_2.png",
-        "scorerId": "05uws",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10040",
-      "id": "e7i985bemqpng2ab",
-      "seq": 138641,
-      "desc": "Slater elected free agency Monday after clearing waivers, Marc Topkin of the Tampa Bay Times reports.",
-      "player": {
-        "name": "Austin Slater",
-        "posShortNames": "LF,RF",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dg7_96_13.png",
-        "scorerId": "03dg7",
-        "posIds": [
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10280",
-      "id": "37j1hswamqpng27o",
-      "seq": 138640,
-      "desc": "The Dodgers activated Stewart (foot) from the 15-day injured list Monday.",
-      "player": {
-        "name": "Brock Stewart",
-        "posShortNames": "RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03deu_96_8.png",
-        "scorerId": "03deu",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10230",
-      "id": "sg52l1dsmqpmnor1",
-      "seq": 138639,
-      "desc": "Milwaukee reinstated Woodruff (shoulder) from the 15-day injured list ahead of his scheduled start Monday in Cincinnati.",
-      "player": {
-        "name": "Brandon Woodruff",
-        "posShortNames": "SP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bu3_96_12.png",
-        "scorerId": "02bu3",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10050",
-      "id": "mw5xozsimqpm9i8e",
-      "seq": 138638,
-      "desc": "The Blue Jays selected Urias' contract from Triple-A Buffalo on Monday.",
-      "player": {
-        "name": "Luis Urias",
-        "posShortNames": "2B,3B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03o43_96_12.png",
-        "scorerId": "03o43",
-        "posIds": [
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
           }
         ]
       }
@@ -4957,6 +4975,180 @@
   "mlbTransactions": [
     {
       "displayDate": 1782230400000,
+      "teamId": "10290",
+      "id": "xmfbgkhjmqrbjo37",
+      "seq": 138675,
+      "desc": "Hunt was optioned to Triple-A El Paso on Tuesday.",
+      "player": {
+        "name": "Blake Hunt",
+        "posShortNames": "C",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efb_96_5.png",
+        "scorerId": "04efb",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10290",
+      "id": "xrqjkzx2mqrb5hw0",
+      "seq": 138674,
+      "desc": "Fermin (concussion) was reinstated from the 7-day injured list Tuesday.",
+      "player": {
+        "name": "Freddy Fermin",
+        "posShortNames": "C",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05lo5_96_8.png",
+        "scorerId": "05lo5",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10290",
+      "id": "pu4kd3gumqr80174",
+      "seq": 138673,
+      "desc": "The Padres recalled Sears from Triple-A El Paso on Tuesday.",
+      "player": {
+        "name": "J.P. Sears",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eld_96_4.png",
+        "scorerId": "04eld",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10040",
+      "id": "27qmqxl1mqr6mh2z",
+      "seq": 138672,
+      "desc": "The St. Louis Cardinals traded RHP Chris Roycroft to the Tampa Bay Rays. The Rays then optioned him to the minors.",
+      "player": {
+        "name": "Chris Roycroft",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06lqo_96_1.png",
+        "scorerId": "06lqo",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10300",
+      "id": "nea1w1wcmqr4umkf",
+      "seq": 138671,
+      "desc": "The Mets claimed Oliva off waivers from the Giants on Tuesday, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Jared Oliva",
+        "posShortNames": "RF,CF",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eia_96_5.png",
+        "scorerId": "04eia",
+        "posIds": [
+          "011",
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10200",
+      "id": "mv5hpwtemqr4gez4",
+      "seq": 138670,
+      "desc": "The Cubs recalled Murray from Triple-A Iowa on Tuesday.",
+      "player": {
+        "name": "Jayden Murray",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051i0_96_2.png",
+        "scorerId": "051i0",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1782230400000,
+      "teamId": "10200",
+      "id": "zmnjhnfamqr4gewi",
+      "seq": 138669,
+      "desc": "The Cubs optioned Hollowell to Triple-A Iowa on Tuesday.",
+      "player": {
+        "name": "Gavin Hollowell",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514j_96_3.png",
+        "scorerId": "0514j",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782230400000,
       "teamId": "10130",
       "id": "oj0ojkpimqr0il1s",
       "seq": 138667,
@@ -5311,7 +5503,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5411,7 +5608,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5449,8 +5651,8 @@
       "player": {
         "name": "Trey Mancini",
         "posShortNames": "1B",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
+        "teamShortName": "(N/A)",
+        "teamName": "Not on a team",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031c4_96_14.png",
         "scorerId": "031c4",
         "posIds": [
@@ -5460,8 +5662,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
+            "tooltip": "Free Agent",
+            "typeId": "3"
           }
         ]
       }
@@ -5512,7 +5714,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 4",
+            "typeId": "24"
+          }
+        ]
       }
     },
     {
@@ -5538,177 +5745,6 @@
           {
             "tooltip": "Minor Leagues",
             "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10270",
-      "id": "s7bncx2gmqppexp6",
-      "seq": 138644,
-      "desc": "The Rockies activated Moniak (ankle) from the 10-day injured list Monday.",
-      "player": {
-        "name": "Mickey Moniak",
-        "posShortNames": "RF,LF",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041e2_96_10.png",
-        "scorerId": "041e2",
-        "posIds": [
-          "011",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10105",
-      "id": "nr67vxoqmqpo8e0p",
-      "seq": 138643,
-      "desc": "The Astros recalled VanWey from Triple-A Sugar Land on Monday.",
-      "player": {
-        "name": "Logan VanWey",
-        "posShortNames": "RP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "06l4y",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10280",
-      "id": "9ylk26nkmqpnu8hh",
-      "seq": 138642,
-      "desc": "The Dodgers optioned McDermott to Triple-A Oklahoma City on Monday.",
-      "player": {
-        "name": "Chayce McDermott",
-        "posShortNames": "RP,SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uws_96_2.png",
-        "scorerId": "05uws",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10040",
-      "id": "e7i985bemqpng2ab",
-      "seq": 138641,
-      "desc": "Slater elected free agency Monday after clearing waivers, Marc Topkin of the Tampa Bay Times reports.",
-      "player": {
-        "name": "Austin Slater",
-        "posShortNames": "LF,RF",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dg7_96_13.png",
-        "scorerId": "03dg7",
-        "posIds": [
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10280",
-      "id": "37j1hswamqpng27o",
-      "seq": 138640,
-      "desc": "The Dodgers activated Stewart (foot) from the 15-day injured list Monday.",
-      "player": {
-        "name": "Brock Stewart",
-        "posShortNames": "RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03deu_96_8.png",
-        "scorerId": "03deu",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10230",
-      "id": "sg52l1dsmqpmnor1",
-      "seq": 138639,
-      "desc": "Milwaukee reinstated Woodruff (shoulder) from the 15-day injured list ahead of his scheduled start Monday in Cincinnati.",
-      "player": {
-        "name": "Brandon Woodruff",
-        "posShortNames": "SP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bu3_96_12.png",
-        "scorerId": "02bu3",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782144000000,
-      "teamId": "10050",
-      "id": "mw5xozsimqpm9i8e",
-      "seq": 138638,
-      "desc": "The Blue Jays selected Urias' contract from Triple-A Buffalo on Monday.",
-      "player": {
-        "name": "Luis Urias",
-        "posShortNames": "2B,3B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03o43_96_12.png",
-        "scorerId": "03o43",
-        "posIds": [
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
           }
         ]
       }
