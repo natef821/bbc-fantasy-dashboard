@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T08:52:42.353665Z",
+  "lastUpdated": "2026-06-25T14:14:14.657427Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,80 @@
   "transactions": [
     {
       "displayDate": 1782403200000,
+      "teamId": "10200",
+      "id": "a5358l5lmqtkutwl",
+      "seq": 138716,
+      "desc": "The Cubs outrighted Peralta to Triple-A Iowa on Wednesday.",
+      "player": {
+        "name": "Luis Peralta",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060x5_96_1.png",
+        "scorerId": "060x5",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782403200000,
+      "teamId": "10121",
+      "id": "sabrtok6mqtkgnd3",
+      "seq": 138715,
+      "desc": "The Athletics released Barlow on Wednesday.",
+      "player": {
+        "name": "Scott Barlow",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02buh_96_11.png",
+        "scorerId": "02buh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782403200000,
+      "teamId": "10040",
+      "id": "dprdwylzmqtk2gzn",
+      "seq": 138714,
+      "desc": "The Rays recalled Grove from Triple-A Durham on Thursday.",
+      "player": {
+        "name": "Michael Grove",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmk_96_5.png",
+        "scorerId": "04pmk",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1782403200000,
       "teamId": "10170",
       "id": "v2y2hm7vmqt05w4u",
       "seq": 138713,
@@ -4299,7 +4373,7 @@
       "teamId": "10300",
       "id": "2q73fm7mmqsmv9yc",
       "seq": 138710,
-      "desc": "The Giants  reinstated Mahle (hamstring) from the 15-day injured list to start Wednesday's game against the Athletics.",
+      "desc": "The Giants  reinstated Mahle (hamstring) from the 15-day injured list ahead of his start Wednesday against the Athletics in San Francisco.",
       "player": {
         "name": "Tyler Mahle",
         "posShortNames": "SP",
@@ -4312,12 +4386,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4487,12 +4556,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4587,12 +4651,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4640,12 +4699,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4854,87 +4908,87 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10100",
-      "id": "af016cxgmqs9v84u",
-      "seq": 138687,
-      "desc": "The Twins recalled Funderburk from Triple-A St. Paul on Wednesday.",
-      "player": {
-        "name": "Kody Funderburk",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pyp_96_2.png",
-        "scorerId": "04pyp",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10100",
-      "id": "eytga5hnmqs9v82a",
-      "seq": 138686,
-      "desc": "The Twins recalled Raya from Triple-A St. Paul on Wednesday.",
-      "player": {
-        "name": "Marco Raya",
-        "posShortNames": "SP,RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05mrp_96_1.png",
-        "scorerId": "05mrp",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10100",
-      "id": "rwnz7t8imqs9h1k2",
-      "seq": 138685,
-      "desc": "The Twins optioned Rojas to Triple-A St. Paul on Wednesday.",
-      "player": {
-        "name": "Kendry Rojas",
-        "posShortNames": "SP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05rgq_96_1.png",
-        "scorerId": "05rgq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1782403200000,
+      "teamId": "10200",
+      "id": "a5358l5lmqtkutwl",
+      "seq": 138716,
+      "desc": "The Cubs outrighted Peralta to Triple-A Iowa on Wednesday.",
+      "player": {
+        "name": "Luis Peralta",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060x5_96_1.png",
+        "scorerId": "060x5",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782403200000,
+      "teamId": "10121",
+      "id": "sabrtok6mqtkgnd3",
+      "seq": 138715,
+      "desc": "The Athletics released Barlow on Wednesday.",
+      "player": {
+        "name": "Scott Barlow",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02buh_96_11.png",
+        "scorerId": "02buh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782403200000,
+      "teamId": "10040",
+      "id": "dprdwylzmqtk2gzn",
+      "seq": 138714,
+      "desc": "The Rays recalled Grove from Triple-A Durham on Thursday.",
+      "player": {
+        "name": "Michael Grove",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmk_96_5.png",
+        "scorerId": "04pmk",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1782403200000,
       "teamId": "10170",
       "id": "v2y2hm7vmqt05w4u",
       "seq": 138713,
@@ -5037,7 +5091,7 @@
       "teamId": "10300",
       "id": "2q73fm7mmqsmv9yc",
       "seq": 138710,
-      "desc": "The Giants  reinstated Mahle (hamstring) from the 15-day injured list to start Wednesday's game against the Athletics.",
+      "desc": "The Giants  reinstated Mahle (hamstring) from the 15-day injured list ahead of his start Wednesday against the Athletics in San Francisco.",
       "player": {
         "name": "Tyler Mahle",
         "posShortNames": "SP",
@@ -5050,12 +5104,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5225,12 +5274,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5325,12 +5369,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5378,12 +5417,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5592,81 +5626,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10100",
-      "id": "af016cxgmqs9v84u",
-      "seq": 138687,
-      "desc": "The Twins recalled Funderburk from Triple-A St. Paul on Wednesday.",
-      "player": {
-        "name": "Kody Funderburk",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pyp_96_2.png",
-        "scorerId": "04pyp",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10100",
-      "id": "eytga5hnmqs9v82a",
-      "seq": 138686,
-      "desc": "The Twins recalled Raya from Triple-A St. Paul on Wednesday.",
-      "player": {
-        "name": "Marco Raya",
-        "posShortNames": "SP,RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05mrp_96_1.png",
-        "scorerId": "05mrp",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10100",
-      "id": "rwnz7t8imqs9h1k2",
-      "seq": 138685,
-      "desc": "The Twins optioned Rojas to Triple-A St. Paul on Wednesday.",
-      "player": {
-        "name": "Kendry Rojas",
-        "posShortNames": "SP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05rgq_96_1.png",
-        "scorerId": "05rgq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
