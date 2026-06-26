@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T02:49:19.326977Z",
+  "lastUpdated": "2026-06-26T08:55:35.139319Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,58 @@
   "transactions": [
     {
       "displayDate": 1782403200000,
+      "teamId": "10030",
+      "id": "40uho6zpmquekcuj",
+      "seq": 138738,
+      "desc": "The Yankees optioned Escarra to Triple-A Scranton/Wilkes-Barre on Thursday.",
+      "player": {
+        "name": "J.C. Escarra",
+        "posShortNames": "C",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ent_96_1.png",
+        "scorerId": "04ent",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782403200000,
+      "teamId": "10190",
+      "id": "aw65ug7tmquekcrf",
+      "seq": 138737,
+      "desc": "Varland was optioned to Triple-A Rochester after Thursday's 10-5 loss to the Phillies.",
+      "player": {
+        "name": "Gus Varland",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxq_96_5.png",
+        "scorerId": "04pxq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782403200000,
       "teamId": "10160",
       "id": "fwwbtz4umqubr98n",
       "seq": 138736,
@@ -4654,8 +4706,8 @@
       "player": {
         "name": "Chris Paddack",
         "posShortNames": "SP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
+        "teamShortName": "(N/A)",
+        "teamName": "Not on a team",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qne_96_10.png",
         "scorerId": "03qne",
         "posIds": [
@@ -4665,8 +4717,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
+            "tooltip": "Free Agent",
+            "typeId": "3"
           }
         ]
       }
@@ -4747,27 +4799,6 @@
     },
     {
       "displayDate": 1782403200000,
-      "teamId": "10200",
-      "id": "6plgqb3dmqt05y05",
-      "seq": 138713,
-      "desc": "The New York Mets traded LHP David Peterson to the Chicago Cubs.",
-      "player": {
-        "name": "David Peterson",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04g1x_96_10.png",
-        "scorerId": "04g1x",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782403200000,
       "teamId": "10170",
       "id": "v2y2hm7vmqt05w4u",
       "seq": 138713,
@@ -4790,6 +4821,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1782403200000,
+      "teamId": "10200",
+      "id": "6plgqb3dmqt05y05",
+      "seq": 138713,
+      "desc": "The New York Mets traded LHP David Peterson to the Chicago Cubs.",
+      "player": {
+        "name": "David Peterson",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04g1x_96_10.png",
+        "scorerId": "04g1x",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -4884,66 +4936,64 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10170",
-      "id": "i3eamqrdmqskwdcz",
-      "seq": 138709,
-      "desc": "The Mets reinstated Mauricio (thumb) from the 10-day injured list Wednesday and optioned him to Triple-A Syracuse, Andrew Tredinnick of The Bergen Record reports.",
-      "player": {
-        "name": "Ronny Mauricio",
-        "posShortNames": "3B,SS",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04fyo_96_6.png",
-        "scorerId": "04fyo",
-        "posIds": [
-          "004",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10170",
-      "id": "8dykp3abmqski73x",
-      "seq": 138708,
-      "desc": "The Mets designated Short for assignment on Wednesday, Andrew Tredinnick of The Bergen Record reports.",
-      "player": {
-        "name": "Zack Short",
-        "posShortNames": "3B,SS",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0420g_96_9.png",
-        "scorerId": "0420g",
-        "posIds": [
-          "004",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1782403200000,
+      "teamId": "10030",
+      "id": "40uho6zpmquekcuj",
+      "seq": 138738,
+      "desc": "The Yankees optioned Escarra to Triple-A Scranton/Wilkes-Barre on Thursday.",
+      "player": {
+        "name": "J.C. Escarra",
+        "posShortNames": "C",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ent_96_1.png",
+        "scorerId": "04ent",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782403200000,
+      "teamId": "10190",
+      "id": "aw65ug7tmquekcrf",
+      "seq": 138737,
+      "desc": "Varland was optioned to Triple-A Rochester after Thursday's 10-5 loss to the Phillies.",
+      "player": {
+        "name": "Gus Varland",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxq_96_5.png",
+        "scorerId": "04pxq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782403200000,
       "teamId": "10160",
       "id": "fwwbtz4umqubr98n",
       "seq": 138736,
@@ -5401,8 +5451,8 @@
       "player": {
         "name": "Chris Paddack",
         "posShortNames": "SP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
+        "teamShortName": "(N/A)",
+        "teamName": "Not on a team",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qne_96_10.png",
         "scorerId": "03qne",
         "posIds": [
@@ -5412,8 +5462,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
+            "tooltip": "Free Agent",
+            "typeId": "3"
           }
         ]
       }
@@ -5494,27 +5544,6 @@
     },
     {
       "displayDate": 1782403200000,
-      "teamId": "10200",
-      "id": "6plgqb3dmqt05y05",
-      "seq": 138713,
-      "desc": "The New York Mets traded LHP David Peterson to the Chicago Cubs.",
-      "player": {
-        "name": "David Peterson",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04g1x_96_10.png",
-        "scorerId": "04g1x",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782403200000,
       "teamId": "10170",
       "id": "v2y2hm7vmqt05w4u",
       "seq": 138713,
@@ -5537,6 +5566,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1782403200000,
+      "teamId": "10200",
+      "id": "6plgqb3dmqt05y05",
+      "seq": 138713,
+      "desc": "The New York Mets traded LHP David Peterson to the Chicago Cubs.",
+      "player": {
+        "name": "David Peterson",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04g1x_96_10.png",
+        "scorerId": "04g1x",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -5631,60 +5681,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10170",
-      "id": "i3eamqrdmqskwdcz",
-      "seq": 138709,
-      "desc": "The Mets reinstated Mauricio (thumb) from the 10-day injured list Wednesday and optioned him to Triple-A Syracuse, Andrew Tredinnick of The Bergen Record reports.",
-      "player": {
-        "name": "Ronny Mauricio",
-        "posShortNames": "3B,SS",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04fyo_96_6.png",
-        "scorerId": "04fyo",
-        "posIds": [
-          "004",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10170",
-      "id": "8dykp3abmqski73x",
-      "seq": 138708,
-      "desc": "The Mets designated Short for assignment on Wednesday, Andrew Tredinnick of The Bergen Record reports.",
-      "player": {
-        "name": "Zack Short",
-        "posShortNames": "3B,SS",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0420g_96_9.png",
-        "scorerId": "0420g",
-        "posIds": [
-          "004",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
