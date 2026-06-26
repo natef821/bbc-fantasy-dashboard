@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T08:55:35.139319Z",
+  "lastUpdated": "2026-06-26T14:12:07.331304Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,58 @@
   },
   "transactions": [
     {
+      "displayDate": 1782489600000,
+      "teamId": "10200",
+      "id": "0z9ut9d8mquztcpv",
+      "seq": 138740,
+      "desc": "The Cubs optioned Ferguson to Triple-A Iowa on Thursday.",
+      "player": {
+        "name": "Tyler Ferguson",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qlm_96_3.png",
+        "scorerId": "03qlm",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782489600000,
+      "teamId": "10060",
+      "id": "qygjcamsmquymukx",
+      "seq": 138739,
+      "desc": "The White Sox optioned Rock to Triple-A Charlotte on Thursday.",
+      "player": {
+        "name": "Joe Rock",
+        "posShortNames": "SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tdd_96_2.png",
+        "scorerId": "05tdd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1782403200000,
       "teamId": "10030",
       "id": "40uho6zpmquekcuj",
@@ -4362,12 +4414,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4462,12 +4509,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4541,12 +4583,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4642,12 +4679,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4889,58 +4921,63 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10300",
-      "id": "94tlz8dwmqsmva0u",
-      "seq": 138711,
-      "desc": "The Giants optioned Beck to Triple-A Sacramento on Wednesday, Justice delos Santos of The San Jose Mercury News reports.",
-      "player": {
-        "name": "Tristan Beck",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04afk_96_3.png",
-        "scorerId": "04afk",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10300",
-      "id": "2q73fm7mmqsmv9yc",
-      "seq": 138710,
-      "desc": "The Giants  reinstated Mahle (hamstring) from the 15-day injured list ahead of his start Wednesday against the Athletics in San Francisco.",
-      "player": {
-        "name": "Tyler Mahle",
-        "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0312g_96_13.png",
-        "scorerId": "0312g",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1782489600000,
+      "teamId": "10200",
+      "id": "0z9ut9d8mquztcpv",
+      "seq": 138740,
+      "desc": "The Cubs optioned Ferguson to Triple-A Iowa on Thursday.",
+      "player": {
+        "name": "Tyler Ferguson",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qlm_96_3.png",
+        "scorerId": "03qlm",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782489600000,
+      "teamId": "10060",
+      "id": "qygjcamsmquymukx",
+      "seq": 138739,
+      "desc": "The White Sox optioned Rock to Triple-A Charlotte on Thursday.",
+      "player": {
+        "name": "Joe Rock",
+        "posShortNames": "SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tdd_96_2.png",
+        "scorerId": "05tdd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1782403200000,
       "teamId": "10030",
       "id": "40uho6zpmquekcuj",
@@ -5107,12 +5144,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5207,12 +5239,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5286,12 +5313,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5387,12 +5409,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5634,53 +5651,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10300",
-      "id": "94tlz8dwmqsmva0u",
-      "seq": 138711,
-      "desc": "The Giants optioned Beck to Triple-A Sacramento on Wednesday, Justice delos Santos of The San Jose Mercury News reports.",
-      "player": {
-        "name": "Tristan Beck",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04afk_96_3.png",
-        "scorerId": "04afk",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782316800000,
-      "teamId": "10300",
-      "id": "2q73fm7mmqsmv9yc",
-      "seq": 138710,
-      "desc": "The Giants  reinstated Mahle (hamstring) from the 15-day injured list ahead of his start Wednesday against the Athletics in San Francisco.",
-      "player": {
-        "name": "Tyler Mahle",
-        "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0312g_96_13.png",
-        "scorerId": "0312g",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
