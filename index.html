@@ -8,7 +8,7 @@
 :root{--bg:#0a0e1a;--card:#131929;--card2:#1a2238;--border:#1e2d45;--accent:#00d4aa;--accent2:#4f8ef7;--accent3:#f7a44f;--red:#ff4d6d;--gold:#ffd700;--silver:#c0c0c0;--bronze:#cd7f32;--text:#e8eaf6;--muted:#7b8caa;--green:#00e676;--yellow:#ffeb3b;}
 *{box-sizing:border-box;margin:0;padding:0;}
 body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;min-height:100vhh;}
-header{background:linear-gradient(135deg,#0d1b2e 0%,#1a2d4a 50%,#0d1b2e 100%);border-bottom:2px solid var(--accent);padding:20px 30px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);}
+header{background:linear-gradient(135deg,#0d1b2e 0%,#1a2d4a 50%,#0d1b2e 100%h);border-bottom:2px solid var(--accent);padding:20px 30px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;backdrop-filter:blur(10px);}
 .header-left h1{font-size:1.8rem;font-weight:800;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
 .header-left p{color:var(--muted);font-size:.85rem;margin-top:3px;}h
 .live-badge{background:var(--red);color:#fff;padding:4px 10px;border-radius:20px;font-size:.75rem;font-weight:700;animation:pulse 2s infinite;}
@@ -2427,7 +2427,7 @@ function computeDynamicData(liveData) {
   const newTeams = schedRecords.map(function(rec) {
     const st = standingsMap[rec.teamId] || {};
     const w = rec.w || 0, l = rec.l || 0, t = rec.t || 0;
-    const played = w + l + t;
+    const played = w + l;
     const winPct = played > 0 ? (w / played) : 0;
 
     // Compute streak from periods (iterate in reverse, check this team's outcome)
