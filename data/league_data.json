@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T10:46:31.354081Z",
+  "lastUpdated": "2026-06-29T15:37:07.010336Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4223,6 +4223,32 @@
     },
     {
       "displayDate": 1782662400000,
+      "teamId": "10130",
+      "id": "lusgqzaumqz9vmz2",
+      "seq": 138822,
+      "desc": "The San Francisco Giants traded INF Buddy Kennedy to the Seattle Mariners.",
+      "player": {
+        "name": "Buddy Kennedy",
+        "posShortNames": "2B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "",
+        "scorerId": "04egt",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782662400000,
       "teamId": "10100",
       "id": "ddgwbiq3mqyasszh",
       "seq": 138819,
@@ -4395,8 +4421,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
           }
         ]
       }
@@ -4882,32 +4908,6 @@
         "posIds": [
           "015",
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782576000000,
-      "teamId": "10121",
-      "id": "y8ti84i2mqwyxz1u",
-      "seq": 138790,
-      "desc": "The A's designated Harris for assignment on Saturday.",
-      "player": {
-        "name": "Brett Harris",
-        "posShortNames": "3B",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yca_96_1.png",
-        "scorerId": "05yca",
-        "posIds": [
-          "004"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4949,6 +4949,32 @@
     },
     {
       "displayDate": 1782662400000,
+      "teamId": "10130",
+      "id": "lusgqzaumqz9vmz2",
+      "seq": 138822,
+      "desc": "The San Francisco Giants traded INF Buddy Kennedy to the Seattle Mariners.",
+      "player": {
+        "name": "Buddy Kennedy",
+        "posShortNames": "2B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "",
+        "scorerId": "04egt",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782662400000,
       "teamId": "10100",
       "id": "ddgwbiq3mqyasszh",
       "seq": 138819,
@@ -5121,8 +5147,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
           }
         ]
       }
@@ -5608,32 +5634,6 @@
         "posIds": [
           "015",
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782576000000,
-      "teamId": "10121",
-      "id": "y8ti84i2mqwyxz1u",
-      "seq": 138790,
-      "desc": "The A's designated Harris for assignment on Saturday.",
-      "player": {
-        "name": "Brett Harris",
-        "posShortNames": "3B",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yca_96_1.png",
-        "scorerId": "05yca",
-        "posIds": [
-          "004"
         ],
         "rookie": false,
         "minorsEligible": false,
