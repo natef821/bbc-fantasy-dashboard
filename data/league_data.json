@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T02:55:11.205807Z",
+  "lastUpdated": "2026-06-29T10:46:31.354081Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,32 @@
   },
   "transactions": [
     {
+      "displayDate": 1782748800000,
+      "teamId": "10210",
+      "id": "wqad9pofmqyrqkhi",
+      "seq": 138821,
+      "desc": "Duno was promoted to Double-A Chattanooga on Sunday.",
+      "player": {
+        "name": "Alfredo Duno",
+        "posShortNames": "C",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "06626",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1782662400000,
       "teamId": "10100",
       "id": "ddgwbiq3mqyasszh",
@@ -4293,12 +4319,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 5",
-            "typeId": "25"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4541,12 +4562,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4593,12 +4609,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4645,12 +4656,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4699,12 +4705,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 6",
-            "typeId": "26"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4725,12 +4726,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4752,12 +4748,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4799,12 +4790,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4922,32 +4908,6 @@
         "scorerId": "05yca",
         "posIds": [
           "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782576000000,
-      "teamId": "10110",
-      "id": "ek4nvjn3mqwxd9za",
-      "seq": 138789,
-      "desc": "The Angels optioned Moore to Triple-A Salt Lake on Saturday.",
-      "player": {
-        "name": "Christian Moore",
-        "posShortNames": "2B",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06cq8_96_2.png",
-        "scorerId": "06cq8",
-        "posIds": [
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4962,6 +4922,32 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1782748800000,
+      "teamId": "10210",
+      "id": "wqad9pofmqyrqkhi",
+      "seq": 138821,
+      "desc": "Duno was promoted to Double-A Chattanooga on Sunday.",
+      "player": {
+        "name": "Alfredo Duno",
+        "posShortNames": "C",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "06626",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1782662400000,
       "teamId": "10100",
       "id": "ddgwbiq3mqyasszh",
@@ -5059,12 +5045,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 5",
-            "typeId": "25"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5307,12 +5288,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5359,12 +5335,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5411,12 +5382,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5465,12 +5431,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 6",
-            "typeId": "26"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5491,12 +5452,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5518,12 +5474,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5565,12 +5516,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5688,32 +5634,6 @@
         "scorerId": "05yca",
         "posIds": [
           "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782576000000,
-      "teamId": "10110",
-      "id": "ek4nvjn3mqwxd9za",
-      "seq": 138789,
-      "desc": "The Angels optioned Moore to Triple-A Salt Lake on Saturday.",
-      "player": {
-        "name": "Christian Moore",
-        "posShortNames": "2B",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06cq8_96_2.png",
-        "scorerId": "06cq8",
-        "posIds": [
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
