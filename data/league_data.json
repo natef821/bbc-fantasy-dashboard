@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T09:24:19.646416Z",
+  "lastUpdated": "2026-06-30T14:07:02.557977Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,27 @@
   },
   "transactions": [
     {
+      "displayDate": 1782835200000,
+      "teamId": "10030",
+      "id": "v8qz2ib6mr0pko9y",
+      "seq": 138851,
+      "desc": "The Yankees recalled Cruz from Triple-A Scranton/Wilkes-Barre on Tuesday.",
+      "player": {
+        "name": "Yovanny Cruz",
+        "posShortNames": "RP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04w0m_96_1.png",
+        "scorerId": "04w0m",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1782748800000,
       "teamId": "10030",
       "id": "sgjkg0n5mr02ez1j",
@@ -4859,32 +4880,6 @@
         "scorerId": "06hx4",
         "posIds": [
           "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782662400000,
-      "teamId": "10200",
-      "id": "vkonk4emmqyaem5k",
-      "seq": 138817,
-      "desc": "The Orioles claimed Zulueta off waivers from the Cubs on Sunday and optioned him to Triple-A Norfolk, Matt Weyrich of The Baltimore Sun reports.",
-      "player": {
-        "name": "Yosver Zulueta",
-        "posShortNames": "RP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05it9_96_2.png",
-        "scorerId": "05it9",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4899,6 +4894,27 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1782835200000,
+      "teamId": "10030",
+      "id": "v8qz2ib6mr0pko9y",
+      "seq": 138851,
+      "desc": "The Yankees recalled Cruz from Triple-A Scranton/Wilkes-Barre on Tuesday.",
+      "player": {
+        "name": "Yovanny Cruz",
+        "posShortNames": "RP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04w0m_96_1.png",
+        "scorerId": "04w0m",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1782748800000,
       "teamId": "10030",
       "id": "sgjkg0n5mr02ez1j",
@@ -5562,32 +5578,6 @@
         "scorerId": "06hx4",
         "posIds": [
           "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782662400000,
-      "teamId": "10200",
-      "id": "vkonk4emmqyaem5k",
-      "seq": 138817,
-      "desc": "The Orioles claimed Zulueta off waivers from the Cubs on Sunday and optioned him to Triple-A Norfolk, Matt Weyrich of The Baltimore Sun reports.",
-      "player": {
-        "name": "Yosver Zulueta",
-        "posShortNames": "RP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05it9_96_2.png",
-        "scorerId": "05it9",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
