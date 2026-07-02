@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T08:47:39.318840Z",
+  "lastUpdated": "2026-07-02T13:46:45.107888Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,20 +4196,41 @@
   },
   "transactions": [
     {
-      "displayDate": 1782921600000,
-      "teamId": "10190",
-      "id": "jfah4imdmr2whk8s",
-      "seq": 138905,
-      "desc": "The Baltimore Orioles traded RHP Kyle Nicolas to the Washington Nationals and optioned him to the minors.",
+      "displayDate": 1783008000000,
+      "teamId": "10150",
+      "id": "s5g4u1rgmr3j9z62",
+      "seq": 138907,
+      "desc": "Atlanta recalled Jarvis from Triple-A Gwinnett on Thursday.",
       "player": {
-        "name": "Kyle Nicolas",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9g_96_2.png",
-        "scorerId": "05l9g",
+        "name": "Jim Jarvis",
+        "posShortNames": "SS",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "",
+        "scorerId": "06gjo",
         "posIds": [
-          "016"
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783008000000,
+      "teamId": "10150",
+      "id": "q3kek1mkmr3j9z3b",
+      "seq": 138906,
+      "desc": "Atlanta designated Tellez for assignment Thursday.",
+      "player": {
+        "name": "Rowdy Tellez",
+        "posShortNames": "1B",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs032gq_96_14.png",
+        "scorerId": "032gq",
+        "posIds": [
+          "002"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4251,6 +4272,32 @@
     },
     {
       "displayDate": 1782921600000,
+      "teamId": "10190",
+      "id": "jfah4imdmr2whk8s",
+      "seq": 138905,
+      "desc": "The Baltimore Orioles traded RHP Kyle Nicolas to the Washington Nationals and optioned him to the minors.",
+      "player": {
+        "name": "Kyle Nicolas",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9g_96_2.png",
+        "scorerId": "05l9g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782921600000,
       "teamId": "10300",
       "id": "r0sdyliemr2obkb0",
       "seq": 138904,
@@ -4267,12 +4314,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4366,12 +4408,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4534,12 +4571,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4582,12 +4614,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4854,12 +4881,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4878,58 +4900,6 @@
         "posIds": [
           "016",
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10060",
-      "id": "f517410qmr24mhfp",
-      "seq": 138879,
-      "desc": "The White Sox activated Schultz (knee) from the 15-day injured list Wednesday.",
-      "player": {
-        "name": "Noah Schultz",
-        "posShortNames": "SP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uc7_96_1.png",
-        "scorerId": "05uc7",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782835200000,
-      "teamId": "10020",
-      "id": "ftglujykmr1hgc0l",
-      "seq": 138878,
-      "desc": "The Red Sox designated Kahnle for assignment following Tuesday's loss to the Nationals, Chris Cotillo of MassLive.com reports.",
-      "player": {
-        "name": "Tommy Kahnle",
-        "posShortNames": "RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02ccf_96_16.png",
-        "scorerId": "02ccf",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4944,20 +4914,41 @@
   ],
   "mlbTransactions": [
     {
-      "displayDate": 1782921600000,
-      "teamId": "10190",
-      "id": "jfah4imdmr2whk8s",
-      "seq": 138905,
-      "desc": "The Baltimore Orioles traded RHP Kyle Nicolas to the Washington Nationals and optioned him to the minors.",
+      "displayDate": 1783008000000,
+      "teamId": "10150",
+      "id": "s5g4u1rgmr3j9z62",
+      "seq": 138907,
+      "desc": "Atlanta recalled Jarvis from Triple-A Gwinnett on Thursday.",
       "player": {
-        "name": "Kyle Nicolas",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9g_96_2.png",
-        "scorerId": "05l9g",
+        "name": "Jim Jarvis",
+        "posShortNames": "SS",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "",
+        "scorerId": "06gjo",
         "posIds": [
-          "016"
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783008000000,
+      "teamId": "10150",
+      "id": "q3kek1mkmr3j9z3b",
+      "seq": 138906,
+      "desc": "Atlanta designated Tellez for assignment Thursday.",
+      "player": {
+        "name": "Rowdy Tellez",
+        "posShortNames": "1B",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs032gq_96_14.png",
+        "scorerId": "032gq",
+        "posIds": [
+          "002"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4999,6 +4990,32 @@
     },
     {
       "displayDate": 1782921600000,
+      "teamId": "10190",
+      "id": "jfah4imdmr2whk8s",
+      "seq": 138905,
+      "desc": "The Baltimore Orioles traded RHP Kyle Nicolas to the Washington Nationals and optioned him to the minors.",
+      "player": {
+        "name": "Kyle Nicolas",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9g_96_2.png",
+        "scorerId": "05l9g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1782921600000,
       "teamId": "10300",
       "id": "r0sdyliemr2obkb0",
       "seq": 138904,
@@ -5015,12 +5032,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5114,12 +5126,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5282,12 +5289,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5330,12 +5332,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5602,12 +5599,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5626,58 +5618,6 @@
         "posIds": [
           "016",
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10060",
-      "id": "f517410qmr24mhfp",
-      "seq": 138879,
-      "desc": "The White Sox activated Schultz (knee) from the 15-day injured list Wednesday.",
-      "player": {
-        "name": "Noah Schultz",
-        "posShortNames": "SP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uc7_96_1.png",
-        "scorerId": "05uc7",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782835200000,
-      "teamId": "10020",
-      "id": "ftglujykmr1hgc0l",
-      "seq": 138878,
-      "desc": "The Red Sox designated Kahnle for assignment following Tuesday's loss to the Nationals, Chris Cotillo of MassLive.com reports.",
-      "player": {
-        "name": "Tommy Kahnle",
-        "posShortNames": "RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02ccf_96_16.png",
-        "scorerId": "02ccf",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
