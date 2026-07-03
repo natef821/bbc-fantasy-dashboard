@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T13:51:19.339359Z",
+  "lastUpdated": "2026-07-03T19:11:13.850129Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,191 @@
   "transactions": [
     {
       "displayDate": 1783094400000,
+      "teamId": "10030",
+      "id": "lt9gnyg7mr59yplk",
+      "seq": 138939,
+      "desc": "The Yankees optioned Cabrera to Triple-A Scranton/Wilkes-Barre on Friday.",
+      "player": {
+        "name": "Oswaldo Cabrera",
+        "posShortNames": "3B",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs042no_96_5.png",
+        "scorerId": "042no",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10030",
+      "id": "zdhkect0mr59ypjv",
+      "seq": 138938,
+      "desc": "The Yankees activated McMahon (illness) from the 10-day injured list Friday.",
+      "player": {
+        "name": "Ryan McMahon",
+        "posShortNames": "3B",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0310n_96_15.png",
+        "scorerId": "0310n",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10030",
+      "id": "0eqbopmfmr59yphh",
+      "seq": 138937,
+      "desc": "The Yankees activated Grisham (hamstring) from the 10-day injured list Friday.",
+      "player": {
+        "name": "Trent Grisham",
+        "posShortNames": "CF",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pit_96_6.png",
+        "scorerId": "03pit",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10160",
+      "id": "dnhcgr3xmr56tdrk",
+      "seq": 138936,
+      "desc": "The Marlins recalled Kempner from Triple-A Jacksonville on Friday, Christina De Nicola of MLB.com reports.",
+      "player": {
+        "name": "William Kempner",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06308_96_1.png",
+        "scorerId": "06308",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10160",
+      "id": "5hesz90kmr56tdp3",
+      "seq": 138935,
+      "desc": "The Marlins optioned Gusto to Triple-A Jacksonville on Friday, Christina De Nicola of MLB.com reports.",
+      "player": {
+        "name": "Ryan Gusto",
+        "posShortNames": "SP,RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0518s_96_2.png",
+        "scorerId": "0518s",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10200",
+      "id": "8u5v9eo7mr55musu",
+      "seq": 138934,
+      "desc": "The Cubs selected Pomeranz's contract from Triple-A Iowa on Friday, Bruce Levine of 670TheScore.com reports.",
+      "player": {
+        "name": "Drew Pomeranz",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01ucb_96_15.png",
+        "scorerId": "01ucb",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10070",
+      "id": "qobbne5wmr50wqlb",
+      "seq": 138933,
+      "desc": "The Guardians recalled Aleman from Triple-A Columbus on Friday, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Franco Aleman",
+        "posShortNames": "RP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y5l_96_1.png",
+        "scorerId": "05y5l",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10200",
+      "id": "gt2j6emymr504dxh",
+      "seq": 138932,
+      "desc": "The Cubs optioned Wicks to Triple-A Iowa on Thursday.",
+      "player": {
+        "name": "Jordan Wicks",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05r1d_96_2.png",
+        "scorerId": "05r1d",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783094400000,
       "teamId": "10105",
       "id": "sabqwzwxmr4zq84o",
       "seq": 138931,
@@ -4707,201 +4892,6 @@
         "teamName": "New York Mets",
         "headshotUrl": "",
         "scorerId": "05xsf",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783008000000,
-      "teamId": "10150",
-      "id": "s5g4u1rgmr3j9z62",
-      "seq": 138907,
-      "desc": "Atlanta recalled Jarvis from Triple-A Gwinnett on Thursday.",
-      "player": {
-        "name": "Jim Jarvis",
-        "posShortNames": "SS",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "",
-        "scorerId": "06gjo",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783008000000,
-      "teamId": "10150",
-      "id": "q3kek1mkmr3j9z3b",
-      "seq": 138906,
-      "desc": "Atlanta designated Tellez for assignment Thursday.",
-      "player": {
-        "name": "Rowdy Tellez",
-        "posShortNames": "1B",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs032gq_96_14.png",
-        "scorerId": "032gq",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10010",
-      "id": "mlx34el2mr2whm8w",
-      "seq": 138905,
-      "desc": "The Washington Nationals traded INF Randal Diaz to the Baltimore Orioles.",
-      "player": {
-        "name": "Randal Diaz",
-        "posShortNames": "2B,3B,SS",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "06o0b",
-        "posIds": [
-          "003",
-          "004",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10190",
-      "id": "jfah4imdmr2whk8s",
-      "seq": 138905,
-      "desc": "The Baltimore Orioles traded RHP Kyle Nicolas to the Washington Nationals and optioned him to the minors.",
-      "player": {
-        "name": "Kyle Nicolas",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9g_96_2.png",
-        "scorerId": "05l9g",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10300",
-      "id": "r0sdyliemr2obkb0",
-      "seq": 138904,
-      "desc": "The Giants recalled Koss from Triple-A Sacramento on Wednesday.",
-      "player": {
-        "name": "Christian Koss",
-        "posShortNames": "2B",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ydt_96_2.png",
-        "scorerId": "04ydt",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10240",
-      "id": "tujfxoommr2mquuw",
-      "seq": 138903,
-      "desc": "The Pirates optioned Bidois to Triple-A Indianapolis on Wednesday.",
-      "player": {
-        "name": "Brandan Bidois",
-        "posShortNames": "RP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ex9_96_1.png",
-        "scorerId": "06ex9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10240",
-      "id": "cl3t1no6mr2mqut6",
-      "seq": 138902,
-      "desc": "The Pirates recalled Sanders from Triple-A Indianapolis on Wednesday.",
-      "player": {
-        "name": "Cam Sanders",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eqd_96_1.png",
-        "scorerId": "04eqd",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10030",
-      "id": "zzcbxhjbmr2lyikv",
-      "seq": 138901,
-      "desc": "The Yankees optioned Cruz to Triple-A Scranton/Wilkes-Barre on Wednesday.",
-      "player": {
-        "name": "Yovanny Cruz",
-        "posShortNames": "RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04w0m_96_1.png",
-        "scorerId": "04w0m",
         "posIds": [
           "016"
         ],
@@ -4919,6 +4909,191 @@
   "mlbTransactions": [
     {
       "displayDate": 1783094400000,
+      "teamId": "10030",
+      "id": "lt9gnyg7mr59yplk",
+      "seq": 138939,
+      "desc": "The Yankees optioned Cabrera to Triple-A Scranton/Wilkes-Barre on Friday.",
+      "player": {
+        "name": "Oswaldo Cabrera",
+        "posShortNames": "3B",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs042no_96_5.png",
+        "scorerId": "042no",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10030",
+      "id": "zdhkect0mr59ypjv",
+      "seq": 138938,
+      "desc": "The Yankees activated McMahon (illness) from the 10-day injured list Friday.",
+      "player": {
+        "name": "Ryan McMahon",
+        "posShortNames": "3B",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0310n_96_15.png",
+        "scorerId": "0310n",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10030",
+      "id": "0eqbopmfmr59yphh",
+      "seq": 138937,
+      "desc": "The Yankees activated Grisham (hamstring) from the 10-day injured list Friday.",
+      "player": {
+        "name": "Trent Grisham",
+        "posShortNames": "CF",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pit_96_6.png",
+        "scorerId": "03pit",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10160",
+      "id": "dnhcgr3xmr56tdrk",
+      "seq": 138936,
+      "desc": "The Marlins recalled Kempner from Triple-A Jacksonville on Friday, Christina De Nicola of MLB.com reports.",
+      "player": {
+        "name": "William Kempner",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06308_96_1.png",
+        "scorerId": "06308",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10160",
+      "id": "5hesz90kmr56tdp3",
+      "seq": 138935,
+      "desc": "The Marlins optioned Gusto to Triple-A Jacksonville on Friday, Christina De Nicola of MLB.com reports.",
+      "player": {
+        "name": "Ryan Gusto",
+        "posShortNames": "SP,RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0518s_96_2.png",
+        "scorerId": "0518s",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10200",
+      "id": "8u5v9eo7mr55musu",
+      "seq": 138934,
+      "desc": "The Cubs selected Pomeranz's contract from Triple-A Iowa on Friday, Bruce Levine of 670TheScore.com reports.",
+      "player": {
+        "name": "Drew Pomeranz",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01ucb_96_15.png",
+        "scorerId": "01ucb",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10070",
+      "id": "qobbne5wmr50wqlb",
+      "seq": 138933,
+      "desc": "The Guardians recalled Aleman from Triple-A Columbus on Friday, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Franco Aleman",
+        "posShortNames": "RP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y5l_96_1.png",
+        "scorerId": "05y5l",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783094400000,
+      "teamId": "10200",
+      "id": "gt2j6emymr504dxh",
+      "seq": 138932,
+      "desc": "The Cubs optioned Wicks to Triple-A Iowa on Thursday.",
+      "player": {
+        "name": "Jordan Wicks",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05r1d_96_2.png",
+        "scorerId": "05r1d",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783094400000,
       "teamId": "10105",
       "id": "sabqwzwxmr4zq84o",
       "seq": 138931,
@@ -5429,201 +5604,6 @@
         "teamName": "New York Mets",
         "headshotUrl": "",
         "scorerId": "05xsf",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783008000000,
-      "teamId": "10150",
-      "id": "s5g4u1rgmr3j9z62",
-      "seq": 138907,
-      "desc": "Atlanta recalled Jarvis from Triple-A Gwinnett on Thursday.",
-      "player": {
-        "name": "Jim Jarvis",
-        "posShortNames": "SS",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "",
-        "scorerId": "06gjo",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783008000000,
-      "teamId": "10150",
-      "id": "q3kek1mkmr3j9z3b",
-      "seq": 138906,
-      "desc": "Atlanta designated Tellez for assignment Thursday.",
-      "player": {
-        "name": "Rowdy Tellez",
-        "posShortNames": "1B",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs032gq_96_14.png",
-        "scorerId": "032gq",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10010",
-      "id": "mlx34el2mr2whm8w",
-      "seq": 138905,
-      "desc": "The Washington Nationals traded INF Randal Diaz to the Baltimore Orioles.",
-      "player": {
-        "name": "Randal Diaz",
-        "posShortNames": "2B,3B,SS",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "06o0b",
-        "posIds": [
-          "003",
-          "004",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10190",
-      "id": "jfah4imdmr2whk8s",
-      "seq": 138905,
-      "desc": "The Baltimore Orioles traded RHP Kyle Nicolas to the Washington Nationals and optioned him to the minors.",
-      "player": {
-        "name": "Kyle Nicolas",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9g_96_2.png",
-        "scorerId": "05l9g",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10300",
-      "id": "r0sdyliemr2obkb0",
-      "seq": 138904,
-      "desc": "The Giants recalled Koss from Triple-A Sacramento on Wednesday.",
-      "player": {
-        "name": "Christian Koss",
-        "posShortNames": "2B",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ydt_96_2.png",
-        "scorerId": "04ydt",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10240",
-      "id": "tujfxoommr2mquuw",
-      "seq": 138903,
-      "desc": "The Pirates optioned Bidois to Triple-A Indianapolis on Wednesday.",
-      "player": {
-        "name": "Brandan Bidois",
-        "posShortNames": "RP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ex9_96_1.png",
-        "scorerId": "06ex9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10240",
-      "id": "cl3t1no6mr2mqut6",
-      "seq": 138902,
-      "desc": "The Pirates recalled Sanders from Triple-A Indianapolis on Wednesday.",
-      "player": {
-        "name": "Cam Sanders",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eqd_96_1.png",
-        "scorerId": "04eqd",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1782921600000,
-      "teamId": "10030",
-      "id": "zzcbxhjbmr2lyikv",
-      "seq": 138901,
-      "desc": "The Yankees optioned Cruz to Triple-A Scranton/Wilkes-Barre on Wednesday.",
-      "player": {
-        "name": "Yovanny Cruz",
-        "posShortNames": "RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04w0m_96_1.png",
-        "scorerId": "04w0m",
         "posIds": [
           "016"
         ],
