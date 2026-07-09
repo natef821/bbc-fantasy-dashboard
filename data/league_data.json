@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T09:28:30.133383Z",
+  "lastUpdated": "2026-07-09T14:44:53.331423Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,83 @@
   },
   "transactions": [
     {
+      "displayDate": 1783612800000,
+      "teamId": "10060",
+      "id": "bzrwk7o9mrdlpzmd",
+      "seq": 139104,
+      "desc": "The White Sox recalled Davis from Triple-A Charlotte on Thursday.",
+      "player": {
+        "name": "Tyler Davis",
+        "posShortNames": "RP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qxg_96_1.png",
+        "scorerId": "06qxg",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783612800000,
+      "teamId": "10150",
+      "id": "qjp90w4xmrdk5b2p",
+      "seq": 139103,
+      "desc": "Atlanta designated Azocar for assignment Thursday.",
+      "player": {
+        "name": "Jose Azocar",
+        "posShortNames": "LF,CF,RF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yux_96_5.png",
+        "scorerId": "03yux",
+        "posIds": [
+          "009",
+          "010",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783612800000,
+      "teamId": "10150",
+      "id": "bfmxt2mpmrdjr5et",
+      "seq": 139102,
+      "desc": "Atlanta activated White from the paternity leave list Thursday.",
+      "player": {
+        "name": "Eli White",
+        "posShortNames": "RF,LF,CF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041w3_96_9.png",
+        "scorerId": "041w3",
+        "posIds": [
+          "011",
+          "009",
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1783526400000,
       "teamId": "10290",
       "id": "lr56q2rxmrcpklll",
@@ -4357,7 +4434,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
       }
     },
     {
@@ -4844,84 +4926,88 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1783440000000,
-      "teamId": "10290",
-      "id": "3ysn6ujymrb50mns",
-      "seq": 139074,
-      "desc": "The Padres optioned Jacob to Triple-A El Paso on Tuesday.",
-      "player": {
-        "name": "Alek Jacob",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xq0_96_1.png",
-        "scorerId": "05xq0",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783440000000,
-      "teamId": "10170",
-      "id": "akvitpeamrb4mgmo",
-      "seq": 139073,
-      "desc": "The Mets selected Seelinger's contract from Triple-A Syracuse on Tuesday.",
-      "player": {
-        "name": "Matt Seelinger",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06tae",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783440000000,
-      "teamId": "10290",
-      "id": "qkrwmmxqmrb4mgl5",
-      "seq": 139072,
-      "desc": "The Padres recalled Brito from Triple-A El Paso on Tuesday.",
-      "player": {
-        "name": "Jhony Brito",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050ih_96_3.png",
-        "scorerId": "050ih",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1783612800000,
+      "teamId": "10060",
+      "id": "bzrwk7o9mrdlpzmd",
+      "seq": 139104,
+      "desc": "The White Sox recalled Davis from Triple-A Charlotte on Thursday.",
+      "player": {
+        "name": "Tyler Davis",
+        "posShortNames": "RP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qxg_96_1.png",
+        "scorerId": "06qxg",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783612800000,
+      "teamId": "10150",
+      "id": "qjp90w4xmrdk5b2p",
+      "seq": 139103,
+      "desc": "Atlanta designated Azocar for assignment Thursday.",
+      "player": {
+        "name": "Jose Azocar",
+        "posShortNames": "LF,CF,RF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yux_96_5.png",
+        "scorerId": "03yux",
+        "posIds": [
+          "009",
+          "010",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783612800000,
+      "teamId": "10150",
+      "id": "bfmxt2mpmrdjr5et",
+      "seq": 139102,
+      "desc": "Atlanta activated White from the paternity leave list Thursday.",
+      "player": {
+        "name": "Eli White",
+        "posShortNames": "RF,LF,CF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041w3_96_9.png",
+        "scorerId": "041w3",
+        "posIds": [
+          "011",
+          "009",
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1783526400000,
       "teamId": "10290",
       "id": "lr56q2rxmrcpklll",
@@ -5083,7 +5169,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
       }
     },
     {
@@ -5570,79 +5661,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1783440000000,
-      "teamId": "10290",
-      "id": "3ysn6ujymrb50mns",
-      "seq": 139074,
-      "desc": "The Padres optioned Jacob to Triple-A El Paso on Tuesday.",
-      "player": {
-        "name": "Alek Jacob",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xq0_96_1.png",
-        "scorerId": "05xq0",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783440000000,
-      "teamId": "10170",
-      "id": "akvitpeamrb4mgmo",
-      "seq": 139073,
-      "desc": "The Mets selected Seelinger's contract from Triple-A Syracuse on Tuesday.",
-      "player": {
-        "name": "Matt Seelinger",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06tae",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783440000000,
-      "teamId": "10290",
-      "id": "qkrwmmxqmrb4mgl5",
-      "seq": 139072,
-      "desc": "The Padres recalled Brito from Triple-A El Paso on Tuesday.",
-      "player": {
-        "name": "Jhony Brito",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050ih_96_3.png",
-        "scorerId": "050ih",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
