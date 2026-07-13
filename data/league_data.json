@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T02:11:44.235335Z",
+  "lastUpdated": "2026-07-13T08:57:45.879726Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -43,9 +43,9 @@
       "fptsPerGame": "5.52",
       "scoringPeriod": "1469",
       "gb": "3,924.25",
-      "ww": 4187,
+      "ww": 4190,
       "pbl": 9.0,
-      "hitPts": 336.75,
+      "hitPts": 333.75,
       "pitPts": 0
     },
     {
@@ -305,7 +305,7 @@
         "l": 14,
         "t": 14,
         "pf": 7308.25,
-        "pa": 7224.5,
+        "pa": 7227.5,
         "name": "Honey Nut Chourio's",
         "weeklyPF": [
           262.75,
@@ -475,7 +475,7 @@
         "w": 19,
         "l": 12,
         "t": 13,
-        "pf": 8111.75,
+        "pf": 8114.75,
         "pa": 7116.5,
         "name": "Slattlanta",
         "weeklyPF": [
@@ -509,7 +509,7 @@
           273.25,
           352.25,
           289.0,
-          233.5,
+          236.5,
           0.0,
           0.0,
           0.0,
@@ -2675,7 +2675,7 @@
           {
             "team1": "Slattlanta",
             "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 233.5,
+            "team1Pts": 236.5,
             "team2": "Honey Nut Chourio's",
             "team2Id": "nbnjqx3cmg7kg72g",
             "team2Pts": 273.25,
@@ -3864,11 +3864,11 @@
             "short": "JDPusha",
             "rank": "3",
             "values": [
-              "4,187.5",
+              "4,190.5",
               "",
               "1,314.1",
               "1,351",
-              "645",
+              "644",
               "474",
               "57",
               "15",
@@ -4196,6 +4196,32 @@
   },
   "transactions": [
     {
+      "displayDate": 1783958400000,
+      "teamId": "10250",
+      "id": "ra8n6e7umriq5wfj",
+      "seq": 139217,
+      "desc": "Madris was released by the Cardinals on Sunday and is expected to sign a contract with a Korea Baseball Organization team, Brian Walton The Cardinal Nation reports.",
+      "player": {
+        "name": "Bligh Madris",
+        "posShortNames": "1B",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejw_96_2.png",
+        "scorerId": "04ejw",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1783872000000,
       "teamId": "10250",
       "id": "dzy8xhdxmrijv5vh",
@@ -4252,7 +4278,7 @@
       "teamId": "10170",
       "id": "iun04j6nmricc6hd",
       "seq": 139214,
-      "desc": "Oliva cleared waivers and was released by the Mets on Sunday.",
+      "desc": "The Mets released Oliva on Saturday.",
       "player": {
         "name": "Jared Oliva",
         "posShortNames": "RF,CF",
@@ -4295,8 +4321,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
       }
@@ -4332,7 +4358,7 @@
       "teamId": "10190",
       "id": "ewxobe9mmri96nzu",
       "seq": 139211,
-      "desc": "The Nationals assigned Hassell outright to Triple-A Rochester after he cleared waivers Sunday.",
+      "desc": "The Nationals outrighted Hassell to Triple-A Rochester after he cleared waivers Sunday.",
       "player": {
         "name": "Robert Hassell",
         "posShortNames": "CF",
@@ -4638,8 +4664,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
       }
@@ -4902,27 +4928,6 @@
         "teamName": "Los Angeles Dodgers",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9f_96_3.png",
         "scorerId": "05l9f",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783785600000,
-      "teamId": "10290",
-      "id": "vbbxbnvimrgwl0kv",
-      "seq": 139187,
-      "desc": "The Padres reinstated Waldron (forearm) from the injured list Saturday.",
-      "player": {
-        "name": "Matt Waldron",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051e5_96_3.png",
-        "scorerId": "051e5",
         "posIds": [
           "015"
         ],
@@ -4934,6 +4939,32 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1783958400000,
+      "teamId": "10250",
+      "id": "ra8n6e7umriq5wfj",
+      "seq": 139217,
+      "desc": "Madris was released by the Cardinals on Sunday and is expected to sign a contract with a Korea Baseball Organization team, Brian Walton The Cardinal Nation reports.",
+      "player": {
+        "name": "Bligh Madris",
+        "posShortNames": "1B",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejw_96_2.png",
+        "scorerId": "04ejw",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1783872000000,
       "teamId": "10250",
       "id": "dzy8xhdxmrijv5vh",
@@ -4990,7 +5021,7 @@
       "teamId": "10170",
       "id": "iun04j6nmricc6hd",
       "seq": 139214,
-      "desc": "Oliva cleared waivers and was released by the Mets on Sunday.",
+      "desc": "The Mets released Oliva on Saturday.",
       "player": {
         "name": "Jared Oliva",
         "posShortNames": "RF,CF",
@@ -5033,8 +5064,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
       }
@@ -5070,7 +5101,7 @@
       "teamId": "10190",
       "id": "ewxobe9mmri96nzu",
       "seq": 139211,
-      "desc": "The Nationals assigned Hassell outright to Triple-A Rochester after he cleared waivers Sunday.",
+      "desc": "The Nationals outrighted Hassell to Triple-A Rochester after he cleared waivers Sunday.",
       "player": {
         "name": "Robert Hassell",
         "posShortNames": "CF",
@@ -5376,8 +5407,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
       }
@@ -5640,27 +5671,6 @@
         "teamName": "Los Angeles Dodgers",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9f_96_3.png",
         "scorerId": "05l9f",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783785600000,
-      "teamId": "10290",
-      "id": "vbbxbnvimrgwl0kv",
-      "seq": 139187,
-      "desc": "The Padres reinstated Waldron (forearm) from the injured list Saturday.",
-      "player": {
-        "name": "Matt Waldron",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051e5_96_3.png",
-        "scorerId": "051e5",
         "posIds": [
           "015"
         ],
