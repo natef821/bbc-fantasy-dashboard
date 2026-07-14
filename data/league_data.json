@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T13:20:46.376480Z",
+  "lastUpdated": "2026-07-14T19:10:05.319707Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,11 +4196,37 @@
   },
   "transactions": [
     {
+      "displayDate": 1784044800000,
+      "teamId": "10090",
+      "id": "1fx7utp1mrkzu2hq",
+      "seq": 139227,
+      "desc": "The Milwaukee Brewers traded RHP Easton McGee to the Kansas City Royals. The Royals then optioned him to the minors.",
+      "player": {
+        "name": "Easton McGee",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rp_96_2.png",
+        "scorerId": "041rp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1783958400000,
       "teamId": "10010",
       "id": "nf03uwztmrjtzlvm",
       "seq": 139226,
-      "desc": "Raquet was optioned to Triple-A Norfolk on Monday, Roch Kubatko of MASNSports.com reports.",
+      "desc": "The Orioles optioned Raquet to Triple-A Norfolk on Monday, Roch Kubatko of MASNSports.com reports.",
       "player": {
         "name": "Nick Raquet",
         "posShortNames": "SP",
@@ -4905,28 +4931,6 @@
         "scorerId": "05raz",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10230",
-      "id": "ec4yfkssmrhwk7cq",
-      "seq": 139197,
-      "desc": "The Houston Astros traded INF Braden Shewmake to the Milwaukee Brewers.",
-      "player": {
-        "name": "Braden Shewmake",
-        "posShortNames": "SS,2B",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04qri_96_7.png",
-        "scorerId": "04qri",
-        "posIds": [
-          "005",
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4936,11 +4940,37 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1784044800000,
+      "teamId": "10090",
+      "id": "1fx7utp1mrkzu2hq",
+      "seq": 139227,
+      "desc": "The Milwaukee Brewers traded RHP Easton McGee to the Kansas City Royals. The Royals then optioned him to the minors.",
+      "player": {
+        "name": "Easton McGee",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rp_96_2.png",
+        "scorerId": "041rp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1783958400000,
       "teamId": "10010",
       "id": "nf03uwztmrjtzlvm",
       "seq": 139226,
-      "desc": "Raquet was optioned to Triple-A Norfolk on Monday, Roch Kubatko of MASNSports.com reports.",
+      "desc": "The Orioles optioned Raquet to Triple-A Norfolk on Monday, Roch Kubatko of MASNSports.com reports.",
       "player": {
         "name": "Nick Raquet",
         "posShortNames": "SP",
@@ -5645,28 +5675,6 @@
         "scorerId": "05raz",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10230",
-      "id": "ec4yfkssmrhwk7cq",
-      "seq": 139197,
-      "desc": "The Houston Astros traded INF Braden Shewmake to the Milwaukee Brewers.",
-      "player": {
-        "name": "Braden Shewmake",
-        "posShortNames": "SS,2B",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04qri_96_7.png",
-        "scorerId": "04qri",
-        "posIds": [
-          "005",
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
