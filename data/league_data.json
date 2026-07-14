@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T19:17:16.381284Z",
+  "lastUpdated": "2026-07-14T01:57:22.855382Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,32 @@
   "transactions": [
     {
       "displayDate": 1783958400000,
+      "teamId": "10010",
+      "id": "nf03uwztmrjtzlvm",
+      "seq": 139226,
+      "desc": "Raquet was optioned to Triple-A Norfolk on Monday, Roch Kubatko of MASNSports.com reports.",
+      "player": {
+        "name": "Nick Raquet",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efo_96_1.png",
+        "scorerId": "04efo",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783958400000,
       "teamId": "10240",
       "id": "6xjtfgb3mrjlq4go",
       "seq": 139225,
@@ -4408,8 +4434,8 @@
       "player": {
         "name": "Bligh Madris",
         "posShortNames": "1B",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
+        "teamShortName": "(N/A)",
+        "teamName": "Not on a team",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejw_96_2.png",
         "scorerId": "04ejw",
         "posIds": [
@@ -4419,8 +4445,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
+            "tooltip": "Free Agent",
+            "typeId": "3"
           }
         ]
       }
@@ -4918,32 +4944,6 @@
           {
             "tooltip": "Batting Order: 9",
             "typeId": "29"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10230",
-      "id": "asiefmrjmrhvnedd",
-      "seq": 139196,
-      "desc": "The Brewers reinstated Crow (forearm) from the 15-day injured list Sunday and optioned him to Triple-A Nashville.",
-      "player": {
-        "name": "Coleman Crow",
-        "posShortNames": "SP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0569p_96_1.png",
-        "scorerId": "0569p",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
@@ -4952,6 +4952,32 @@
   "mlbTransactions": [
     {
       "displayDate": 1783958400000,
+      "teamId": "10010",
+      "id": "nf03uwztmrjtzlvm",
+      "seq": 139226,
+      "desc": "Raquet was optioned to Triple-A Norfolk on Monday, Roch Kubatko of MASNSports.com reports.",
+      "player": {
+        "name": "Nick Raquet",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efo_96_1.png",
+        "scorerId": "04efo",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783958400000,
       "teamId": "10240",
       "id": "6xjtfgb3mrjlq4go",
       "seq": 139225,
@@ -5163,8 +5189,8 @@
       "player": {
         "name": "Bligh Madris",
         "posShortNames": "1B",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
+        "teamShortName": "(N/A)",
+        "teamName": "Not on a team",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejw_96_2.png",
         "scorerId": "04ejw",
         "posIds": [
@@ -5174,8 +5200,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
+            "tooltip": "Free Agent",
+            "typeId": "3"
           }
         ]
       }
@@ -5673,32 +5699,6 @@
           {
             "tooltip": "Batting Order: 9",
             "typeId": "29"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10230",
-      "id": "asiefmrjmrhvnedd",
-      "seq": 139196,
-      "desc": "The Brewers reinstated Crow (forearm) from the 15-day injured list Sunday and optioned him to Triple-A Nashville.",
-      "player": {
-        "name": "Coleman Crow",
-        "posShortNames": "SP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0569p_96_1.png",
-        "scorerId": "0569p",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
