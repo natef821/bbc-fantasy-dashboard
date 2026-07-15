@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T13:24:00.677751Z",
+  "lastUpdated": "2026-07-15T19:02:22.849719Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,27 @@
   },
   "transactions": [
     {
+      "displayDate": 1784131200000,
+      "teamId": "10190",
+      "id": "06tylb96mrm8yotz",
+      "seq": 139232,
+      "desc": "The Nationals activated Kranick (elbow) from the 60-day injured list Wednesday.",
+      "player": {
+        "name": "Max Kranick",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0429r_96_7.png",
+        "scorerId": "0429r",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1784044800000,
       "teamId": "10190",
       "id": "2ic2gg2wmrl33f4b",
@@ -4915,33 +4936,32 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10170",
-      "id": "dvrp6s2nmri1aypx",
-      "seq": 139202,
-      "desc": "The Mets recalled Thornton from Triple-A Syracuse ahead of his start against the Red Sox on Sunday.",
-      "player": {
-        "name": "Zach Thornton",
-        "posShortNames": "SP,RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06ekq",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1784131200000,
+      "teamId": "10190",
+      "id": "06tylb96mrm8yotz",
+      "seq": 139232,
+      "desc": "The Nationals activated Kranick (elbow) from the 60-day injured list Wednesday.",
+      "player": {
+        "name": "Max Kranick",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0429r_96_7.png",
+        "scorerId": "0429r",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1784044800000,
       "teamId": "10190",
       "id": "2ic2gg2wmrl33f4b",
@@ -5661,28 +5681,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10170",
-      "id": "dvrp6s2nmri1aypx",
-      "seq": 139202,
-      "desc": "The Mets recalled Thornton from Triple-A Syracuse ahead of his start against the Red Sox on Sunday.",
-      "player": {
-        "name": "Zach Thornton",
-        "posShortNames": "SP,RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06ekq",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
