@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T19:10:05.319707Z",
+  "lastUpdated": "2026-07-15T01:53:50.565602Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -163,9 +163,9 @@
       "fptsPerGame": "5.12",
       "scoringPeriod": "1213",
       "gb": "3,026.75",
-      "ww": 3185,
+      "ww": 3182,
       "pbl": 4.0,
-      "hitPts": 2236.75,
+      "hitPts": 2239.75,
       "pitPts": 0
     },
     {
@@ -248,7 +248,7 @@
         "l": 8,
         "t": 13,
         "pf": 8338.25,
-        "pa": 7012.0,
+        "pa": 7009.0,
         "name": "Juan Binary",
         "weeklyPF": [
           339.75,
@@ -532,7 +532,7 @@
         "w": 12,
         "l": 19,
         "t": 13,
-        "pf": 6211.75,
+        "pf": 6208.75,
         "pa": 7044.0,
         "name": "Say Yes to Velo",
         "weeklyPF": [
@@ -566,7 +566,7 @@
           155.75,
           101.75,
           208.25,
-          161.25,
+          158.25,
           0.0,
           0.0,
           0.0,
@@ -2684,7 +2684,7 @@
           {
             "team1": "Say Yes to Velo",
             "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 161.25,
+            "team1Pts": 158.25,
             "team2": "Juan Binary",
             "team2Id": "g8p3r1i9mg7kg72b",
             "team2Pts": 231.0,
@@ -4080,11 +4080,11 @@
             "short": "haydenor",
             "rank": "11",
             "values": [
-              "3,185",
+              "3,182",
               "",
               "938.2",
               "971",
-              "395",
+              "396",
               "343",
               "29",
               "8",
@@ -4197,678 +4197,10 @@
   "transactions": [
     {
       "displayDate": 1784044800000,
-      "teamId": "10090",
-      "id": "1fx7utp1mrkzu2hq",
-      "seq": 139227,
-      "desc": "The Milwaukee Brewers traded RHP Easton McGee to the Kansas City Royals. The Royals then optioned him to the minors.",
-      "player": {
-        "name": "Easton McGee",
-        "posShortNames": "SP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rp_96_2.png",
-        "scorerId": "041rp",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10010",
-      "id": "nf03uwztmrjtzlvm",
-      "seq": 139226,
-      "desc": "The Orioles optioned Raquet to Triple-A Norfolk on Monday, Roch Kubatko of MASNSports.com reports.",
-      "player": {
-        "name": "Nick Raquet",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efo_96_1.png",
-        "scorerId": "04efo",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10240",
-      "id": "6xjtfgb3mrjlq4go",
-      "seq": 139225,
-      "desc": "The Pirates optioned Murdock to Triple-A Indianapolis prior to Sunday's 14-5 win over the Brewers.",
-      "player": {
-        "name": "Noah Murdock",
-        "posShortNames": "RP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "0515a",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10010",
-      "id": "u5dlkbw1mrjil1t5",
-      "seq": 139224,
-      "desc": "The Pittsburgh Pirates traded RHP Cam Sanders to the Baltimore Orioles. The Orioles then optioned him to the minors.",
-      "player": {
-        "name": "Cam Sanders",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eqd_96_1.png",
-        "scorerId": "04eqd",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10105",
-      "id": "4zyhj7lomrjftjiw",
-      "seq": 139223,
-      "desc": "The Astros optioned Santa to Triple-A Sugar Land on Monday, Chandler Rome of The Athletic reports.",
-      "player": {
-        "name": "Alimber Santa",
-        "posShortNames": "RP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "060pi",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10240",
-      "id": "0cvipbqxmrjffcsj",
-      "seq": 139222,
-      "desc": "The Orioles acquired Sanders from the Pirates on Monday in exchange for cash considerations, Roch Kubatko of MASNSports.com reports.",
-      "player": {
-        "name": "Cam Sanders",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eqd_96_1.png",
-        "scorerId": "04eqd",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10105",
-      "id": "z9dmko9nmrjdumqh",
-      "seq": 139221,
-      "desc": "The Astros promoted Neyens from Single-A Fayetteville to High-A Asheville on Monday, Chandler Rome of The Athletic reports.",
-      "player": {
-        "name": "Xavier Neyens",
-        "posShortNames": "3B",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "05yak",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10230",
-      "id": "eqoavk8emrjbvpby",
-      "seq": 139220,
-      "desc": "The Brewers optioned Stallings to Triple-A Nashville on Sunday.",
-      "player": {
-        "name": "Garrett Stallings",
-        "posShortNames": "RP,SP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "",
-        "scorerId": "05142",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10060",
-      "id": "4bnxkemimrjbhi1x",
-      "seq": 139219,
-      "desc": "The White Sox optioned Davis to Triple-A Charlotte following Sunday's 9-1 win over the Athletics.",
-      "player": {
-        "name": "Tyler Davis",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qxg_96_1.png",
-        "scorerId": "06qxg",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10060",
-      "id": "l78jsoiymrjbhi0i",
-      "seq": 139218,
-      "desc": "The White Sox reinstated Richards from the bereavement list following Sunday's 9-1 win over the Athletics.",
-      "player": {
-        "name": "Trevor Richards",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04coa_96_11.png",
-        "scorerId": "04coa",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10250",
-      "id": "ra8n6e7umriq5wfj",
-      "seq": 139217,
-      "desc": "The Cardinals released Madris on Saturday.",
-      "player": {
-        "name": "Bligh Madris",
-        "posShortNames": "1B",
-        "teamShortName": "(N/A)",
-        "teamName": "Not on a team",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejw_96_2.png",
-        "scorerId": "04ejw",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Free Agent",
-            "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10250",
-      "id": "dzy8xhdxmrijv5vh",
-      "seq": 139216,
-      "desc": "Cijntje is expected to be promoted to Triple-A Memphis after the All-Star break, Rob Rains of StLSportsPage.com reports.",
-      "player": {
-        "name": "Jurrangelo Cijntje",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "060m8",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10070",
-      "id": "wcgy2d90mrih2dcx",
-      "seq": 139215,
-      "desc": "Walton was promoted to Double-A Akron on Sunday.",
-      "player": {
-        "name": "Aaron Walton",
-        "posShortNames": "CF",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "",
-        "scorerId": "06yjd",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10170",
-      "id": "iun04j6nmricc6hd",
-      "seq": 139214,
-      "desc": "The Mets released Oliva on Saturday.",
-      "player": {
-        "name": "Jared Oliva",
-        "posShortNames": "RF,CF",
-        "teamShortName": "(N/A)",
-        "teamName": "Not on a team",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eia_96_5.png",
-        "scorerId": "04eia",
-        "posIds": [
-          "011",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Free Agent",
-            "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
       "teamId": "10190",
-      "id": "mcc90u7omribxz3s",
-      "seq": 139213,
-      "desc": "Ortiz was optioned to Triple-A Rochester after Sunday's 5-3 loss to the Yankees, Kyle Williams of TheBanner.com reports.",
-      "player": {
-        "name": "Abimelec Ortiz",
-        "posShortNames": "1B,RF",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uv5_96_1.png",
-        "scorerId": "05uv5",
-        "posIds": [
-          "002",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10240",
-      "id": "x427y68dmribxz1y",
-      "seq": 139212,
-      "desc": "The Pirates optioned Kelly to Triple-A Indianapolis after Sunday's 14-5 win against the Brewers, Alex Stumpf of MLB.com reports.",
-      "player": {
-        "name": "Antwone Kelly",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bpq_96_1.png",
-        "scorerId": "06bpq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10190",
-      "id": "ewxobe9mmri96nzu",
-      "seq": 139211,
-      "desc": "The Nationals outrighted Hassell to Triple-A Rochester after he cleared waivers Sunday.",
-      "player": {
-        "name": "Robert Hassell",
-        "posShortNames": "CF",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gbe_96_1.png",
-        "scorerId": "05gbe",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10121",
-      "id": "rb8xj8lumri96nwx",
-      "seq": 139210,
-      "desc": "The Athletics claimed Walton off waivers from the Angels on Sunday.",
-      "player": {
-        "name": "Donovan Walton",
-        "posShortNames": "2B",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qyb_96_7.png",
-        "scorerId": "03qyb",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10050",
-      "id": "1ho9z5cbmri8eck5",
-      "seq": 139209,
-      "desc": "The Blue Jays selected Van Eyk's contract from Triple-A Buffalo on Sunday.",
-      "player": {
-        "name": "CJ Van Eyk",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "04erh",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10050",
-      "id": "9c0mfzw2mri8echl",
-      "seq": 139208,
-      "desc": "The Blue Jays optioned Dallas to Triple-A Buffalo on Sunday.",
-      "player": {
-        "name": "Chad Dallas",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "05xpp",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10140",
-      "id": "t0z4idjcmri5n15a",
-      "seq": 139207,
-      "desc": "The Rangers recalled Teodo from Triple-A Round Rock on Sunday.",
-      "player": {
-        "name": "Emiliano Teodo",
-        "posShortNames": "RP,SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uo4_96_1.png",
-        "scorerId": "05uo4",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10260",
-      "id": "n4unltatmri58v6f",
-      "seq": 139206,
-      "desc": "The Diamondbacks recalled Bratt from Triple-A Reno to start Sunday's game against the Dodgers.",
-      "player": {
-        "name": "Mitch Bratt",
-        "posShortNames": "SP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xq2_96_1.png",
-        "scorerId": "05xq2",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10300",
-      "id": "qp4s6flzmri39um4",
-      "seq": 139205,
-      "desc": "The Giants optioned Bivens to Triple-A Sacramento on Sunday, Alex Pavlovic of NBC Sports Bay Area reports.",
-      "player": {
-        "name": "Spencer Bivens",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06kvo_96_2.png",
-        "scorerId": "06kvo",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10300",
-      "id": "w6q6r49hmri2hhig",
-      "seq": 139204,
-      "desc": "The Giants reinstated Foley (shoulder) from the 60-day injured list Sunday, Alex Pavlovic of NBC Sports Bay Area reports.",
-      "player": {
-        "name": "Jason Foley",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aoq_96_7.png",
-        "scorerId": "04aoq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10020",
-      "id": "tlg3ylm0mri1p62h",
-      "seq": 139203,
-      "desc": "The Red Sox activated Sogard (oblique) from the 10-day injured list and optioned him to Triple-A Worcester on Sunday.",
-      "player": {
-        "name": "Nick Sogard",
-        "posShortNames": "1B,3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0519f_96_1.png",
-        "scorerId": "0519f",
-        "posIds": [
-          "002",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10170",
-      "id": "dvrp6s2nmri1aypx",
-      "seq": 139202,
-      "desc": "The Mets recalled Thornton from Triple-A Syracuse ahead of his start against the Red Sox on Sunday.",
-      "player": {
-        "name": "Zach Thornton",
-        "posShortNames": "SP,RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06ekq",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10160",
-      "id": "p1xcwdhamri0wsik",
-      "seq": 139201,
-      "desc": "The Marlins recalled Fulton from Triple-A Jacksonville on Sunday.",
-      "player": {
-        "name": "Dax Fulton",
-        "posShortNames": "SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwu_96_1.png",
-        "scorerId": "05gwu",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10190",
-      "id": "j72bvr54mri04gco",
-      "seq": 139200,
-      "desc": "The Nationals designated Krook for assignment Sunday.",
+      "id": "2ic2gg2wmrl33f4b",
+      "seq": 139231,
+      "desc": "The Nationals outrighted Krook to Triple-A Rochester on Tuesday, but he rejected that assignment and declared free agency.",
       "player": {
         "name": "Matt Krook",
         "posShortNames": "RP",
@@ -4890,21 +4222,21 @@
       }
     },
     {
-      "displayDate": 1783872000000,
-      "teamId": "10190",
-      "id": "7eb36wgzmrhzp5pk",
-      "seq": 139199,
-      "desc": "The Nationals recalled Ortiz from Triple-A Rochester on Sunday. He'll start at designated hitter and bat third in the series finale against the Yankees.",
+      "displayDate": 1784044800000,
+      "teamId": "10020",
+      "id": "z3lp97jtmrl2b3ro",
+      "seq": 139230,
+      "desc": "The Red Sox optioned Eaton to Triple-A Worcester on Tuesday, Jen McCaffrey of The Athletic reports.",
       "player": {
-        "name": "Abimelec Ortiz",
-        "posShortNames": "1B,RF",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uv5_96_1.png",
-        "scorerId": "05uv5",
+        "name": "Nate Eaton",
+        "posShortNames": "RF,3B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3n_96_2.png",
+        "scorerId": "04q3n",
         "posIds": [
-          "002",
-          "011"
+          "011",
+          "004"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4917,28 +4249,49 @@
       }
     },
     {
-      "displayDate": 1783872000000,
-      "teamId": "10210",
-      "id": "mzk0j0vgmrhx857j",
-      "seq": 139198,
-      "desc": "The Reds recalled Petty from Triple-A Louisville on Sunday.",
+      "displayDate": 1784044800000,
+      "teamId": "10020",
+      "id": "75uds8dmmrl25tdp",
+      "seq": 139229,
+      "desc": "The Detroit Tigers traded DH Jahmai Jones to the Boston Red Sox.",
       "player": {
-        "name": "Chase Petty",
-        "posShortNames": "SP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05raz_96_1.png",
-        "scorerId": "05raz",
+        "name": "Jahmai Jones",
+        "posShortNames": "RF,DH",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pp6_96_8.png",
+        "scorerId": "03pp6",
         "posIds": [
-          "015"
+          "011",
+          "013"
         ],
         "rookie": false,
         "minorsEligible": false,
         "icons": []
       }
-    }
-  ],
-  "mlbTransactions": [
+    },
+    {
+      "displayDate": 1784044800000,
+      "teamId": "10020",
+      "id": "wlf4tsiumrl1wxwd",
+      "seq": 139228,
+      "desc": "The Red Sox acquired Jones from the Tigers on Tuesday in exchange for a player to be named later, Jen McCaffrey of The Athletic reports.",
+      "player": {
+        "name": "Jahmai Jones",
+        "posShortNames": "RF,DH",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pp6_96_8.png",
+        "scorerId": "03pp6",
+        "posIds": [
+          "011",
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1784044800000,
       "teamId": "10090",
@@ -5585,34 +4938,15 @@
         "minorsEligible": false,
         "icons": []
       }
-    },
+    }
+  ],
+  "mlbTransactions": [
     {
-      "displayDate": 1783872000000,
-      "teamId": "10160",
-      "id": "p1xcwdhamri0wsik",
-      "seq": 139201,
-      "desc": "The Marlins recalled Fulton from Triple-A Jacksonville on Sunday.",
-      "player": {
-        "name": "Dax Fulton",
-        "posShortNames": "SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwu_96_1.png",
-        "scorerId": "05gwu",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783872000000,
+      "displayDate": 1784044800000,
       "teamId": "10190",
-      "id": "j72bvr54mri04gco",
-      "seq": 139200,
-      "desc": "The Nationals designated Krook for assignment Sunday.",
+      "id": "2ic2gg2wmrl33f4b",
+      "seq": 139231,
+      "desc": "The Nationals outrighted Krook to Triple-A Rochester on Tuesday, but he rejected that assignment and declared free agency.",
       "player": {
         "name": "Matt Krook",
         "posShortNames": "RP",
@@ -5634,11 +4968,443 @@
       }
     },
     {
+      "displayDate": 1784044800000,
+      "teamId": "10020",
+      "id": "z3lp97jtmrl2b3ro",
+      "seq": 139230,
+      "desc": "The Red Sox optioned Eaton to Triple-A Worcester on Tuesday, Jen McCaffrey of The Athletic reports.",
+      "player": {
+        "name": "Nate Eaton",
+        "posShortNames": "RF,3B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3n_96_2.png",
+        "scorerId": "04q3n",
+        "posIds": [
+          "011",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784044800000,
+      "teamId": "10020",
+      "id": "75uds8dmmrl25tdp",
+      "seq": 139229,
+      "desc": "The Detroit Tigers traded DH Jahmai Jones to the Boston Red Sox.",
+      "player": {
+        "name": "Jahmai Jones",
+        "posShortNames": "RF,DH",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pp6_96_8.png",
+        "scorerId": "03pp6",
+        "posIds": [
+          "011",
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784044800000,
+      "teamId": "10020",
+      "id": "wlf4tsiumrl1wxwd",
+      "seq": 139228,
+      "desc": "The Red Sox acquired Jones from the Tigers on Tuesday in exchange for a player to be named later, Jen McCaffrey of The Athletic reports.",
+      "player": {
+        "name": "Jahmai Jones",
+        "posShortNames": "RF,DH",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pp6_96_8.png",
+        "scorerId": "03pp6",
+        "posIds": [
+          "011",
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784044800000,
+      "teamId": "10090",
+      "id": "1fx7utp1mrkzu2hq",
+      "seq": 139227,
+      "desc": "The Milwaukee Brewers traded RHP Easton McGee to the Kansas City Royals. The Royals then optioned him to the minors.",
+      "player": {
+        "name": "Easton McGee",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rp_96_2.png",
+        "scorerId": "041rp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783958400000,
+      "teamId": "10010",
+      "id": "nf03uwztmrjtzlvm",
+      "seq": 139226,
+      "desc": "The Orioles optioned Raquet to Triple-A Norfolk on Monday, Roch Kubatko of MASNSports.com reports.",
+      "player": {
+        "name": "Nick Raquet",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efo_96_1.png",
+        "scorerId": "04efo",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783958400000,
+      "teamId": "10240",
+      "id": "6xjtfgb3mrjlq4go",
+      "seq": 139225,
+      "desc": "The Pirates optioned Murdock to Triple-A Indianapolis prior to Sunday's 14-5 win over the Brewers.",
+      "player": {
+        "name": "Noah Murdock",
+        "posShortNames": "RP",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "",
+        "scorerId": "0515a",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783958400000,
+      "teamId": "10010",
+      "id": "u5dlkbw1mrjil1t5",
+      "seq": 139224,
+      "desc": "The Pittsburgh Pirates traded RHP Cam Sanders to the Baltimore Orioles. The Orioles then optioned him to the minors.",
+      "player": {
+        "name": "Cam Sanders",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eqd_96_1.png",
+        "scorerId": "04eqd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783958400000,
+      "teamId": "10105",
+      "id": "4zyhj7lomrjftjiw",
+      "seq": 139223,
+      "desc": "The Astros optioned Santa to Triple-A Sugar Land on Monday, Chandler Rome of The Athletic reports.",
+      "player": {
+        "name": "Alimber Santa",
+        "posShortNames": "RP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "",
+        "scorerId": "060pi",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783958400000,
+      "teamId": "10240",
+      "id": "0cvipbqxmrjffcsj",
+      "seq": 139222,
+      "desc": "The Orioles acquired Sanders from the Pirates on Monday in exchange for cash considerations, Roch Kubatko of MASNSports.com reports.",
+      "player": {
+        "name": "Cam Sanders",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eqd_96_1.png",
+        "scorerId": "04eqd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783958400000,
+      "teamId": "10105",
+      "id": "z9dmko9nmrjdumqh",
+      "seq": 139221,
+      "desc": "The Astros promoted Neyens from Single-A Fayetteville to High-A Asheville on Monday, Chandler Rome of The Athletic reports.",
+      "player": {
+        "name": "Xavier Neyens",
+        "posShortNames": "3B",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "",
+        "scorerId": "05yak",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783958400000,
+      "teamId": "10230",
+      "id": "eqoavk8emrjbvpby",
+      "seq": 139220,
+      "desc": "The Brewers optioned Stallings to Triple-A Nashville on Sunday.",
+      "player": {
+        "name": "Garrett Stallings",
+        "posShortNames": "RP,SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "",
+        "scorerId": "05142",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783958400000,
+      "teamId": "10060",
+      "id": "4bnxkemimrjbhi1x",
+      "seq": 139219,
+      "desc": "The White Sox optioned Davis to Triple-A Charlotte following Sunday's 9-1 win over the Athletics.",
+      "player": {
+        "name": "Tyler Davis",
+        "posShortNames": "RP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qxg_96_1.png",
+        "scorerId": "06qxg",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783958400000,
+      "teamId": "10060",
+      "id": "l78jsoiymrjbhi0i",
+      "seq": 139218,
+      "desc": "The White Sox reinstated Richards from the bereavement list following Sunday's 9-1 win over the Athletics.",
+      "player": {
+        "name": "Trevor Richards",
+        "posShortNames": "RP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04coa_96_11.png",
+        "scorerId": "04coa",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783958400000,
+      "teamId": "10250",
+      "id": "ra8n6e7umriq5wfj",
+      "seq": 139217,
+      "desc": "The Cardinals released Madris on Saturday.",
+      "player": {
+        "name": "Bligh Madris",
+        "posShortNames": "1B",
+        "teamShortName": "(N/A)",
+        "teamName": "Not on a team",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejw_96_2.png",
+        "scorerId": "04ejw",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Free Agent",
+            "typeId": "3"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10250",
+      "id": "dzy8xhdxmrijv5vh",
+      "seq": 139216,
+      "desc": "Cijntje is expected to be promoted to Triple-A Memphis after the All-Star break, Rob Rains of StLSportsPage.com reports.",
+      "player": {
+        "name": "Jurrangelo Cijntje",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "060m8",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10070",
+      "id": "wcgy2d90mrih2dcx",
+      "seq": 139215,
+      "desc": "Walton was promoted to Double-A Akron on Sunday.",
+      "player": {
+        "name": "Aaron Walton",
+        "posShortNames": "CF",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "",
+        "scorerId": "06yjd",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10170",
+      "id": "iun04j6nmricc6hd",
+      "seq": 139214,
+      "desc": "The Mets released Oliva on Saturday.",
+      "player": {
+        "name": "Jared Oliva",
+        "posShortNames": "RF,CF",
+        "teamShortName": "(N/A)",
+        "teamName": "Not on a team",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eia_96_5.png",
+        "scorerId": "04eia",
+        "posIds": [
+          "011",
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Free Agent",
+            "typeId": "3"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1783872000000,
       "teamId": "10190",
-      "id": "7eb36wgzmrhzp5pk",
-      "seq": 139199,
-      "desc": "The Nationals recalled Ortiz from Triple-A Rochester on Sunday. He'll start at designated hitter and bat third in the series finale against the Yankees.",
+      "id": "mcc90u7omribxz3s",
+      "seq": 139213,
+      "desc": "Ortiz was optioned to Triple-A Rochester after Sunday's 5-3 loss to the Yankees, Kyle Williams of TheBanner.com reports.",
       "player": {
         "name": "Abimelec Ortiz",
         "posShortNames": "1B,RF",
@@ -5662,19 +5428,257 @@
     },
     {
       "displayDate": 1783872000000,
-      "teamId": "10210",
-      "id": "mzk0j0vgmrhx857j",
-      "seq": 139198,
-      "desc": "The Reds recalled Petty from Triple-A Louisville on Sunday.",
+      "teamId": "10240",
+      "id": "x427y68dmribxz1y",
+      "seq": 139212,
+      "desc": "The Pirates optioned Kelly to Triple-A Indianapolis after Sunday's 14-5 win against the Brewers, Alex Stumpf of MLB.com reports.",
       "player": {
-        "name": "Chase Petty",
+        "name": "Antwone Kelly",
         "posShortNames": "SP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05raz_96_1.png",
-        "scorerId": "05raz",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bpq_96_1.png",
+        "scorerId": "06bpq",
         "posIds": [
           "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10190",
+      "id": "ewxobe9mmri96nzu",
+      "seq": 139211,
+      "desc": "The Nationals outrighted Hassell to Triple-A Rochester after he cleared waivers Sunday.",
+      "player": {
+        "name": "Robert Hassell",
+        "posShortNames": "CF",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gbe_96_1.png",
+        "scorerId": "05gbe",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10121",
+      "id": "rb8xj8lumri96nwx",
+      "seq": 139210,
+      "desc": "The Athletics claimed Walton off waivers from the Angels on Sunday.",
+      "player": {
+        "name": "Donovan Walton",
+        "posShortNames": "2B",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qyb_96_7.png",
+        "scorerId": "03qyb",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10050",
+      "id": "1ho9z5cbmri8eck5",
+      "seq": 139209,
+      "desc": "The Blue Jays selected Van Eyk's contract from Triple-A Buffalo on Sunday.",
+      "player": {
+        "name": "CJ Van Eyk",
+        "posShortNames": "SP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "04erh",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10050",
+      "id": "9c0mfzw2mri8echl",
+      "seq": 139208,
+      "desc": "The Blue Jays optioned Dallas to Triple-A Buffalo on Sunday.",
+      "player": {
+        "name": "Chad Dallas",
+        "posShortNames": "SP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "05xpp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10140",
+      "id": "t0z4idjcmri5n15a",
+      "seq": 139207,
+      "desc": "The Rangers recalled Teodo from Triple-A Round Rock on Sunday.",
+      "player": {
+        "name": "Emiliano Teodo",
+        "posShortNames": "RP,SP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uo4_96_1.png",
+        "scorerId": "05uo4",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10260",
+      "id": "n4unltatmri58v6f",
+      "seq": 139206,
+      "desc": "The Diamondbacks recalled Bratt from Triple-A Reno to start Sunday's game against the Dodgers.",
+      "player": {
+        "name": "Mitch Bratt",
+        "posShortNames": "SP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xq2_96_1.png",
+        "scorerId": "05xq2",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10300",
+      "id": "qp4s6flzmri39um4",
+      "seq": 139205,
+      "desc": "The Giants optioned Bivens to Triple-A Sacramento on Sunday, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Spencer Bivens",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06kvo_96_2.png",
+        "scorerId": "06kvo",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10300",
+      "id": "w6q6r49hmri2hhig",
+      "seq": 139204,
+      "desc": "The Giants reinstated Foley (shoulder) from the 60-day injured list Sunday, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Jason Foley",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aoq_96_7.png",
+        "scorerId": "04aoq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10020",
+      "id": "tlg3ylm0mri1p62h",
+      "seq": 139203,
+      "desc": "The Red Sox activated Sogard (oblique) from the 10-day injured list and optioned him to Triple-A Worcester on Sunday.",
+      "player": {
+        "name": "Nick Sogard",
+        "posShortNames": "1B,3B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0519f_96_1.png",
+        "scorerId": "0519f",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1783872000000,
+      "teamId": "10170",
+      "id": "dvrp6s2nmri1aypx",
+      "seq": 139202,
+      "desc": "The Mets recalled Thornton from Triple-A Syracuse ahead of his start against the Red Sox on Sunday.",
+      "player": {
+        "name": "Zach Thornton",
+        "posShortNames": "SP,RP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "",
+        "scorerId": "06ekq",
+        "posIds": [
+          "015",
+          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
