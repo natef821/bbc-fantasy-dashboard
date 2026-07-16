@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T13:38:19.708838Z",
+  "lastUpdated": "2026-07-16T19:01:38.414178Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,74 @@
   },
   "transactions": [
     {
+      "displayDate": 1784217600000,
+      "teamId": "10170",
+      "id": "ay2eyd3vmrnv8uai",
+      "seq": 139248,
+      "desc": "The Mets reinstated Semien (hip) from the injured list Thursday.",
+      "player": {
+        "name": "Marcus Semien",
+        "posShortNames": "2B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bu9_96_16.png",
+        "scorerId": "02bu9",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784217600000,
+      "teamId": "10190",
+      "id": "ahpjuorxmrnv8u7y",
+      "seq": 139247,
+      "desc": "The Pirates acquired Hassell from the Nationals on Thursday in exchange for cash considerations or a player to be named later.",
+      "player": {
+        "name": "Robert Hassell",
+        "posShortNames": "CF",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gbe_96_1.png",
+        "scorerId": "05gbe",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784217600000,
+      "teamId": "10210",
+      "id": "an4qam9umrnqwwxl",
+      "seq": 139246,
+      "desc": "The Reds have agreed to terms with Burns on a seven-year, $105 million contract extension, Jon Morosi of MLB Network reports.",
+      "player": {
+        "name": "Chase Burns",
+        "posShortNames": "SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05rb3_96_2.png",
+        "scorerId": "05rb3",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1784131200000,
       "teamId": "10121",
       "id": "9t94c33umrmvscg2",
@@ -4411,6 +4479,32 @@
     },
     {
       "displayDate": 1784131200000,
+      "teamId": "10230",
+      "id": "2we7wzsqmrmj16d3",
+      "seq": 139236,
+      "desc": "The Houston Astros traded LHP Colton Gordon to the Milwaukee Brewers.",
+      "player": {
+        "name": "Colton Gordon",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfi_96_2.png",
+        "scorerId": "05yfi",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784131200000,
       "teamId": "10105",
       "id": "3ma66h2hmrmj17ek",
       "seq": 139236,
@@ -4457,32 +4551,6 @@
           {
             "tooltip": "Injured List - 15-day IL - Shoulder",
             "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784131200000,
-      "teamId": "10230",
-      "id": "2we7wzsqmrmj16d3",
-      "seq": 139236,
-      "desc": "The Houston Astros traded LHP Colton Gordon to the Milwaukee Brewers.",
-      "player": {
-        "name": "Colton Gordon",
-        "posShortNames": "SP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfi_96_2.png",
-        "scorerId": "05yfi",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
@@ -4862,79 +4930,6 @@
           {
             "tooltip": "Minor Leagues",
             "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10060",
-      "id": "4bnxkemimrjbhi1x",
-      "seq": 139219,
-      "desc": "The White Sox optioned Davis to Triple-A Charlotte following Sunday's 9-1 win over the Athletics.",
-      "player": {
-        "name": "Tyler Davis",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qxg_96_1.png",
-        "scorerId": "06qxg",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10060",
-      "id": "l78jsoiymrjbhi0i",
-      "seq": 139218,
-      "desc": "The White Sox reinstated Richards from the bereavement list following Sunday's 9-1 win over the Athletics.",
-      "player": {
-        "name": "Trevor Richards",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04coa_96_11.png",
-        "scorerId": "04coa",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10250",
-      "id": "ra8n6e7umriq5wfj",
-      "seq": 139217,
-      "desc": "The Cardinals released Madris on Saturday.",
-      "player": {
-        "name": "Bligh Madris",
-        "posShortNames": "1B",
-        "teamShortName": "(N/A)",
-        "teamName": "Not on a team",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejw_96_2.png",
-        "scorerId": "04ejw",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Free Agent",
-            "typeId": "3"
           }
         ]
       }
@@ -4942,6 +4937,74 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1784217600000,
+      "teamId": "10170",
+      "id": "ay2eyd3vmrnv8uai",
+      "seq": 139248,
+      "desc": "The Mets reinstated Semien (hip) from the injured list Thursday.",
+      "player": {
+        "name": "Marcus Semien",
+        "posShortNames": "2B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bu9_96_16.png",
+        "scorerId": "02bu9",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784217600000,
+      "teamId": "10190",
+      "id": "ahpjuorxmrnv8u7y",
+      "seq": 139247,
+      "desc": "The Pirates acquired Hassell from the Nationals on Thursday in exchange for cash considerations or a player to be named later.",
+      "player": {
+        "name": "Robert Hassell",
+        "posShortNames": "CF",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gbe_96_1.png",
+        "scorerId": "05gbe",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784217600000,
+      "teamId": "10210",
+      "id": "an4qam9umrnqwwxl",
+      "seq": 139246,
+      "desc": "The Reds have agreed to terms with Burns on a seven-year, $105 million contract extension, Jon Morosi of MLB Network reports.",
+      "player": {
+        "name": "Chase Burns",
+        "posShortNames": "SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05rb3_96_2.png",
+        "scorerId": "05rb3",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1784131200000,
       "teamId": "10121",
       "id": "9t94c33umrmvscg2",
@@ -5157,6 +5220,32 @@
     },
     {
       "displayDate": 1784131200000,
+      "teamId": "10230",
+      "id": "2we7wzsqmrmj16d3",
+      "seq": 139236,
+      "desc": "The Houston Astros traded LHP Colton Gordon to the Milwaukee Brewers.",
+      "player": {
+        "name": "Colton Gordon",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfi_96_2.png",
+        "scorerId": "05yfi",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784131200000,
       "teamId": "10105",
       "id": "3ma66h2hmrmj17ek",
       "seq": 139236,
@@ -5203,32 +5292,6 @@
           {
             "tooltip": "Injured List - 15-day IL - Shoulder",
             "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784131200000,
-      "teamId": "10230",
-      "id": "2we7wzsqmrmj16d3",
-      "seq": 139236,
-      "desc": "The Houston Astros traded LHP Colton Gordon to the Milwaukee Brewers.",
-      "player": {
-        "name": "Colton Gordon",
-        "posShortNames": "SP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfi_96_2.png",
-        "scorerId": "05yfi",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
@@ -5608,79 +5671,6 @@
           {
             "tooltip": "Minor Leagues",
             "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10060",
-      "id": "4bnxkemimrjbhi1x",
-      "seq": 139219,
-      "desc": "The White Sox optioned Davis to Triple-A Charlotte following Sunday's 9-1 win over the Athletics.",
-      "player": {
-        "name": "Tyler Davis",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qxg_96_1.png",
-        "scorerId": "06qxg",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10060",
-      "id": "l78jsoiymrjbhi0i",
-      "seq": 139218,
-      "desc": "The White Sox reinstated Richards from the bereavement list following Sunday's 9-1 win over the Athletics.",
-      "player": {
-        "name": "Trevor Richards",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04coa_96_11.png",
-        "scorerId": "04coa",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1783958400000,
-      "teamId": "10250",
-      "id": "ra8n6e7umriq5wfj",
-      "seq": 139217,
-      "desc": "The Cardinals released Madris on Saturday.",
-      "player": {
-        "name": "Bligh Madris",
-        "posShortNames": "1B",
-        "teamShortName": "(N/A)",
-        "teamName": "Not on a team",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejw_96_2.png",
-        "scorerId": "04ejw",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Free Agent",
-            "typeId": "3"
           }
         ]
       }
