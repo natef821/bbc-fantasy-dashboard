@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T02:04:27.124493Z",
+  "lastUpdated": "2026-07-16T08:02:49.865831Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4198,6 +4198,27 @@
     {
       "displayDate": 1784131200000,
       "teamId": "10121",
+      "id": "9t94c33umrmvscg2",
+      "seq": 139245,
+      "desc": "The Athletics selected White's contract from Triple-A Las Vegas on Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Tommy White",
+        "posShortNames": "3B",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "05tp7",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784131200000,
+      "teamId": "10121",
       "id": "xmpyf2c4mrmuzyul",
       "seq": 139244,
       "desc": "The Athletics optioned Meneses to Triple-A Las Vegas on Wednesday, Jason Burke of Roundtable.io reports.",
@@ -4390,19 +4411,19 @@
     },
     {
       "displayDate": 1784131200000,
-      "teamId": "10230",
-      "id": "2we7wzsqmrmj16d3",
+      "teamId": "10105",
+      "id": "3ma66h2hmrmj17ek",
       "seq": 139236,
-      "desc": "The Houston Astros traded LHP Colton Gordon to the Milwaukee Brewers.",
+      "desc": "The Milwaukee Brewers traded INF Jadyn Fielder to the Houston Astros.",
       "player": {
-        "name": "Colton Gordon",
-        "posShortNames": "SP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfi_96_2.png",
-        "scorerId": "05yfi",
+        "name": "Jadyn Fielder",
+        "posShortNames": "LF",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "",
+        "scorerId": "06ql2",
         "posIds": [
-          "015"
+          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4442,19 +4463,19 @@
     },
     {
       "displayDate": 1784131200000,
-      "teamId": "10105",
-      "id": "3ma66h2hmrmj17ek",
+      "teamId": "10230",
+      "id": "2we7wzsqmrmj16d3",
       "seq": 139236,
-      "desc": "The Milwaukee Brewers traded INF Jadyn Fielder to the Houston Astros.",
+      "desc": "The Houston Astros traded LHP Colton Gordon to the Milwaukee Brewers.",
       "player": {
-        "name": "Jadyn Fielder",
-        "posShortNames": "LF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "06ql2",
+        "name": "Colton Gordon",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfi_96_2.png",
+        "scorerId": "05yfi",
         "posIds": [
-          "009"
+          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4914,32 +4935,6 @@
           {
             "tooltip": "Free Agent",
             "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10250",
-      "id": "dzy8xhdxmrijv5vh",
-      "seq": 139216,
-      "desc": "Cijntje is expected to be promoted to Triple-A Memphis after the All-Star break, Rob Rains of StLSportsPage.com reports.",
-      "player": {
-        "name": "Jurrangelo Cijntje",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "060m8",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
@@ -4949,6 +4944,27 @@
     {
       "displayDate": 1784131200000,
       "teamId": "10121",
+      "id": "9t94c33umrmvscg2",
+      "seq": 139245,
+      "desc": "The Athletics selected White's contract from Triple-A Las Vegas on Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Tommy White",
+        "posShortNames": "3B",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "05tp7",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784131200000,
+      "teamId": "10121",
       "id": "xmpyf2c4mrmuzyul",
       "seq": 139244,
       "desc": "The Athletics optioned Meneses to Triple-A Las Vegas on Wednesday, Jason Burke of Roundtable.io reports.",
@@ -5141,19 +5157,19 @@
     },
     {
       "displayDate": 1784131200000,
-      "teamId": "10230",
-      "id": "2we7wzsqmrmj16d3",
+      "teamId": "10105",
+      "id": "3ma66h2hmrmj17ek",
       "seq": 139236,
-      "desc": "The Houston Astros traded LHP Colton Gordon to the Milwaukee Brewers.",
+      "desc": "The Milwaukee Brewers traded INF Jadyn Fielder to the Houston Astros.",
       "player": {
-        "name": "Colton Gordon",
-        "posShortNames": "SP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfi_96_2.png",
-        "scorerId": "05yfi",
+        "name": "Jadyn Fielder",
+        "posShortNames": "LF",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "",
+        "scorerId": "06ql2",
         "posIds": [
-          "015"
+          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -5193,19 +5209,19 @@
     },
     {
       "displayDate": 1784131200000,
-      "teamId": "10105",
-      "id": "3ma66h2hmrmj17ek",
+      "teamId": "10230",
+      "id": "2we7wzsqmrmj16d3",
       "seq": 139236,
-      "desc": "The Milwaukee Brewers traded INF Jadyn Fielder to the Houston Astros.",
+      "desc": "The Houston Astros traded LHP Colton Gordon to the Milwaukee Brewers.",
       "player": {
-        "name": "Jadyn Fielder",
-        "posShortNames": "LF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "06ql2",
+        "name": "Colton Gordon",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfi_96_2.png",
+        "scorerId": "05yfi",
         "posIds": [
-          "009"
+          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -5665,32 +5681,6 @@
           {
             "tooltip": "Free Agent",
             "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1783872000000,
-      "teamId": "10250",
-      "id": "dzy8xhdxmrijv5vh",
-      "seq": 139216,
-      "desc": "Cijntje is expected to be promoted to Triple-A Memphis after the All-Star break, Rob Rains of StLSportsPage.com reports.",
-      "player": {
-        "name": "Jurrangelo Cijntje",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "060m8",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
