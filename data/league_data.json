@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T08:48:16.133204Z",
+  "lastUpdated": "2026-07-20T13:54:20.431573Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,58 @@
   },
   "transactions": [
     {
+      "displayDate": 1784563200000,
+      "teamId": "10040",
+      "id": "wa8zy76zmrt9laou",
+      "seq": 139327,
+      "desc": "The Rays optioned Englert to Triple-A Durham on Saturday.",
+      "player": {
+        "name": "Mason Englert",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqh_96_3.png",
+        "scorerId": "04pqh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10030",
+      "id": "ne3e3ciwmrt80o1m",
+      "seq": 139326,
+      "desc": "The Yankees optioned Rodriguez to Triple-A Scranton/Wilkes-Barre on Monday.",
+      "player": {
+        "name": "Elmer Rodriguez",
+        "posShortNames": "SP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "",
+        "scorerId": "05xoo",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1784476800000,
       "teamId": "10130",
       "id": "17cowy38mrsmk9vv",
@@ -4367,8 +4419,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
       }
@@ -4628,12 +4680,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4656,8 +4703,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
       }
@@ -4706,12 +4753,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4867,27 +4909,6 @@
     },
     {
       "displayDate": 1784390400000,
-      "teamId": "10080",
-      "id": "zvevy7y1mrqysbwz",
-      "seq": 139297,
-      "desc": "The Tigers reinstated Valdez from the bereavement list Saturday.",
-      "player": {
-        "name": "Framber Valdez",
-        "posShortNames": "SP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04auj_96_10.png",
-        "scorerId": "04auj",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1784390400000,
       "teamId": "10200",
       "id": "1vpajrl0mrqysbxk",
       "seq": 139297,
@@ -4906,18 +4927,62 @@
         "minorsEligible": false,
         "icons": []
       }
-    },
-    {
-      "displayDate": 1784390400000,
-      "teamId": "10121",
-      "id": "lki13gjymrqys9nd",
-      "seq": 139297,
-      "desc": "The Chicago Cubs traded RHP Aiden Moffett to the  Athletics.",
-      "player": null
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1784563200000,
+      "teamId": "10040",
+      "id": "wa8zy76zmrt9laou",
+      "seq": 139327,
+      "desc": "The Rays optioned Englert to Triple-A Durham on Saturday.",
+      "player": {
+        "name": "Mason Englert",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqh_96_3.png",
+        "scorerId": "04pqh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10030",
+      "id": "ne3e3ciwmrt80o1m",
+      "seq": 139326,
+      "desc": "The Yankees optioned Rodriguez to Triple-A Scranton/Wilkes-Barre on Monday.",
+      "player": {
+        "name": "Elmer Rodriguez",
+        "posShortNames": "SP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "",
+        "scorerId": "05xoo",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1784476800000,
       "teamId": "10130",
       "id": "17cowy38mrsmk9vv",
@@ -5089,8 +5154,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
       }
@@ -5350,12 +5415,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5378,8 +5438,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
       }
@@ -5428,12 +5488,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5589,27 +5644,6 @@
     },
     {
       "displayDate": 1784390400000,
-      "teamId": "10080",
-      "id": "zvevy7y1mrqysbwz",
-      "seq": 139297,
-      "desc": "The Tigers reinstated Valdez from the bereavement list Saturday.",
-      "player": {
-        "name": "Framber Valdez",
-        "posShortNames": "SP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04auj_96_10.png",
-        "scorerId": "04auj",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1784390400000,
       "teamId": "10200",
       "id": "1vpajrl0mrqysbxk",
       "seq": 139297,
@@ -5628,14 +5662,6 @@
         "minorsEligible": false,
         "icons": []
       }
-    },
-    {
-      "displayDate": 1784390400000,
-      "teamId": "10121",
-      "id": "lki13gjymrqys9nd",
-      "seq": 139297,
-      "desc": "The Chicago Cubs traded RHP Aiden Moffett to the  Athletics.",
-      "player": null
     }
   ],
   "rosters": {},
