@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T13:54:20.431573Z",
+  "lastUpdated": "2026-07-20T19:37:15.785856Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -28,9 +28,9 @@
       "fptsPerGame": "5.58",
       "scoringPeriod": "1551",
       "gb": "3,771.75",
-      "ww": 4888,
+      "ww": 4885,
       "pbl": 2.0,
-      "hitPts": 14.0,
+      "hitPts": 17.0,
       "pitPts": 0
     },
     {
@@ -418,7 +418,7 @@
         "w": 23,
         "l": 9,
         "t": 12,
-        "pf": 8659.75,
+        "pf": 8656.75,
         "pa": 7381.0,
         "name": "Wyatt and the Lankers",
         "weeklyPF": [
@@ -453,7 +453,7 @@
           327.25,
           364.75,
           188.5,
-          211.25,
+          208.25,
           0.0,
           0.0,
           0.0,
@@ -647,7 +647,7 @@
         "l": 18,
         "t": 12,
         "pf": 7681.0,
-        "pa": 7615.75,
+        "pa": 7612.75,
         "name": "First Pitch Swinging",
         "weeklyPF": [
           306.75,
@@ -2719,7 +2719,7 @@
             "team1Pts": 222.75,
             "team2": "Wyatt and the Lankers",
             "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 211.25,
+            "team2Pts": 208.25,
             "winner": "First Pitch Swinging"
           },
           {
@@ -3810,11 +3810,11 @@
             "short": "LANK",
             "rank": "1",
             "values": [
-              "4,888",
+              "4,885",
               "",
               "1,496.1",
               "1,375",
-              "639",
+              "640",
               "471",
               "17",
               "11",
@@ -4197,6 +4197,181 @@
   "transactions": [
     {
       "displayDate": 1784563200000,
+      "teamId": "10170",
+      "id": "djsd6liimrtmkvqg",
+      "seq": 139335,
+      "desc": "The Mets optioned Wagaman to Triple-A Syracuse on Monday.",
+      "player": {
+        "name": "Eric Wagaman",
+        "posShortNames": "1B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04emu_96_2.png",
+        "scorerId": "04emu",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10170",
+      "id": "oyp4c1nwmrtmkvnq",
+      "seq": 139334,
+      "desc": "The Mets reinstated Robert (back) from the 60-day injured list Monday.",
+      "player": {
+        "name": "Luis Robert Jr.",
+        "posShortNames": "CF",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047l7_96_10.png",
+        "scorerId": "047l7",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10280",
+      "id": "l6t9z05wmrtleb73",
+      "seq": 139333,
+      "desc": "The Dodgers optioned Hurt to Triple-A Oklahoma City on Monday.",
+      "player": {
+        "name": "Kyle Hurt",
+        "posShortNames": "SP,RP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jq7_96_2.png",
+        "scorerId": "05jq7",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10180",
+      "id": "wskhoe43mrtk7rg6",
+      "seq": 139332,
+      "desc": "The Phillies optioned Rangel to Triple-A Lehigh Valley on Monday.",
+      "player": {
+        "name": "Alan Rangel",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04otv_96_2.png",
+        "scorerId": "04otv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10180",
+      "id": "2z89gs7jmrtk7rdp",
+      "seq": 139331,
+      "desc": "The Phillies recalled McFarlane from Double-A Reading on Monday.",
+      "player": {
+        "name": "Alex McFarlane",
+        "posShortNames": "SP,RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051jg_96_1.png",
+        "scorerId": "051jg",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10100",
+      "id": "0fhiy8a4mrtfhssu",
+      "seq": 139330,
+      "desc": "The Twins optioned Gray to Triple-A St. Paul on Monday.",
+      "player": {
+        "name": "Tristan Gray",
+        "posShortNames": "2B,3B",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eme_96_4.png",
+        "scorerId": "04eme",
+        "posIds": [
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10100",
+      "id": "pc8tssp6mrtfhsrx",
+      "seq": 139329,
+      "desc": "The Twins activated Buxton (hip) from the 10-day injured list Monday.",
+      "player": {
+        "name": "Byron Buxton",
+        "posShortNames": "CF",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02i2k_96_16.png",
+        "scorerId": "02i2k",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 2",
+            "typeId": "22"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
       "teamId": "10040",
       "id": "wa8zy76zmrt9laou",
       "seq": 139327,
@@ -4491,7 +4666,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -4750,178 +4930,6 @@
         "scorerId": "066lr",
         "posIds": [
           "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10240",
-      "id": "01idnn5cmrrumexg",
-      "seq": 139303,
-      "desc": "The Pirates optioned Curtis to Triple-A Indianapolis on Sunday, Danny Demilio of PittsburghBaseballNow.com reports.",
-      "player": {
-        "name": "Khristian Curtis",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "06fwg",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10150",
-      "id": "oltfktwemrrumeuw",
-      "seq": 139302,
-      "desc": "Atlanta selected Hernandez's contract from Triple-A Gwinnett on Sunday.",
-      "player": {
-        "name": "Elieser Hernandez",
-        "posShortNames": "RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yx9_96_11.png",
-        "scorerId": "03yx9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10150",
-      "id": "vbl3xmc3mrru899g",
-      "seq": 139301,
-      "desc": "Atlanta optioned Murphy to Triple-A Gwinnett on Sunday.",
-      "player": {
-        "name": "Owen Murphy",
-        "posShortNames": "SP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "",
-        "scorerId": "062pm",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784390400000,
-      "teamId": "10240",
-      "id": "cinr2arymrr9evrv",
-      "seq": 139300,
-      "desc": "The Pirates signed Fletcher to a minor-league contract Friday.",
-      "player": {
-        "name": "Dominic Fletcher",
-        "posShortNames": "RF",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04y45_96_3.png",
-        "scorerId": "04y45",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784390400000,
-      "teamId": "10020",
-      "id": "ckfq83kjmrr7u8qd",
-      "seq": 139299,
-      "desc": "The Red Sox released Coulombe on Saturday.",
-      "player": {
-        "name": "Danny Coulombe",
-        "posShortNames": "RP",
-        "teamShortName": "(N/A)",
-        "teamName": "Not on a team",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hxd_96_16.png",
-        "scorerId": "02hxd",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Free Agent",
-            "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784390400000,
-      "teamId": "10080",
-      "id": "k48unrzhmrqysby6",
-      "seq": 139298,
-      "desc": "The Tigers optioned Brieske to Triple-A Toledo on Saturday.",
-      "player": {
-        "name": "Beau Brieske",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t6u_96_5.png",
-        "scorerId": "05t6u",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784390400000,
-      "teamId": "10200",
-      "id": "1vpajrl0mrqysbxk",
-      "seq": 139297,
-      "desc": "The  Athletics traded RHP Aaron Civale to the Chicago Cubs.",
-      "player": {
-        "name": "Aaron Civale",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qr_96_9.png",
-        "scorerId": "041qr",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4932,6 +4940,181 @@
   "mlbTransactions": [
     {
       "displayDate": 1784563200000,
+      "teamId": "10170",
+      "id": "djsd6liimrtmkvqg",
+      "seq": 139335,
+      "desc": "The Mets optioned Wagaman to Triple-A Syracuse on Monday.",
+      "player": {
+        "name": "Eric Wagaman",
+        "posShortNames": "1B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04emu_96_2.png",
+        "scorerId": "04emu",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10170",
+      "id": "oyp4c1nwmrtmkvnq",
+      "seq": 139334,
+      "desc": "The Mets reinstated Robert (back) from the 60-day injured list Monday.",
+      "player": {
+        "name": "Luis Robert Jr.",
+        "posShortNames": "CF",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047l7_96_10.png",
+        "scorerId": "047l7",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10280",
+      "id": "l6t9z05wmrtleb73",
+      "seq": 139333,
+      "desc": "The Dodgers optioned Hurt to Triple-A Oklahoma City on Monday.",
+      "player": {
+        "name": "Kyle Hurt",
+        "posShortNames": "SP,RP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jq7_96_2.png",
+        "scorerId": "05jq7",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10180",
+      "id": "wskhoe43mrtk7rg6",
+      "seq": 139332,
+      "desc": "The Phillies optioned Rangel to Triple-A Lehigh Valley on Monday.",
+      "player": {
+        "name": "Alan Rangel",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04otv_96_2.png",
+        "scorerId": "04otv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10180",
+      "id": "2z89gs7jmrtk7rdp",
+      "seq": 139331,
+      "desc": "The Phillies recalled McFarlane from Double-A Reading on Monday.",
+      "player": {
+        "name": "Alex McFarlane",
+        "posShortNames": "SP,RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051jg_96_1.png",
+        "scorerId": "051jg",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10100",
+      "id": "0fhiy8a4mrtfhssu",
+      "seq": 139330,
+      "desc": "The Twins optioned Gray to Triple-A St. Paul on Monday.",
+      "player": {
+        "name": "Tristan Gray",
+        "posShortNames": "2B,3B",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eme_96_4.png",
+        "scorerId": "04eme",
+        "posIds": [
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
+      "teamId": "10100",
+      "id": "pc8tssp6mrtfhsrx",
+      "seq": 139329,
+      "desc": "The Twins activated Buxton (hip) from the 10-day injured list Monday.",
+      "player": {
+        "name": "Byron Buxton",
+        "posShortNames": "CF",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02i2k_96_16.png",
+        "scorerId": "02i2k",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 2",
+            "typeId": "22"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784563200000,
       "teamId": "10040",
       "id": "wa8zy76zmrt9laou",
       "seq": 139327,
@@ -5226,7 +5409,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -5485,178 +5673,6 @@
         "scorerId": "066lr",
         "posIds": [
           "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10240",
-      "id": "01idnn5cmrrumexg",
-      "seq": 139303,
-      "desc": "The Pirates optioned Curtis to Triple-A Indianapolis on Sunday, Danny Demilio of PittsburghBaseballNow.com reports.",
-      "player": {
-        "name": "Khristian Curtis",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "06fwg",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10150",
-      "id": "oltfktwemrrumeuw",
-      "seq": 139302,
-      "desc": "Atlanta selected Hernandez's contract from Triple-A Gwinnett on Sunday.",
-      "player": {
-        "name": "Elieser Hernandez",
-        "posShortNames": "RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yx9_96_11.png",
-        "scorerId": "03yx9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10150",
-      "id": "vbl3xmc3mrru899g",
-      "seq": 139301,
-      "desc": "Atlanta optioned Murphy to Triple-A Gwinnett on Sunday.",
-      "player": {
-        "name": "Owen Murphy",
-        "posShortNames": "SP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "",
-        "scorerId": "062pm",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784390400000,
-      "teamId": "10240",
-      "id": "cinr2arymrr9evrv",
-      "seq": 139300,
-      "desc": "The Pirates signed Fletcher to a minor-league contract Friday.",
-      "player": {
-        "name": "Dominic Fletcher",
-        "posShortNames": "RF",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04y45_96_3.png",
-        "scorerId": "04y45",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784390400000,
-      "teamId": "10020",
-      "id": "ckfq83kjmrr7u8qd",
-      "seq": 139299,
-      "desc": "The Red Sox released Coulombe on Saturday.",
-      "player": {
-        "name": "Danny Coulombe",
-        "posShortNames": "RP",
-        "teamShortName": "(N/A)",
-        "teamName": "Not on a team",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hxd_96_16.png",
-        "scorerId": "02hxd",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Free Agent",
-            "typeId": "3"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784390400000,
-      "teamId": "10080",
-      "id": "k48unrzhmrqysby6",
-      "seq": 139298,
-      "desc": "The Tigers optioned Brieske to Triple-A Toledo on Saturday.",
-      "player": {
-        "name": "Beau Brieske",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t6u_96_5.png",
-        "scorerId": "05t6u",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784390400000,
-      "teamId": "10200",
-      "id": "1vpajrl0mrqysbxk",
-      "seq": 139297,
-      "desc": "The  Athletics traded RHP Aaron Civale to the Chicago Cubs.",
-      "player": {
-        "name": "Aaron Civale",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qr_96_9.png",
-        "scorerId": "041qr",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
