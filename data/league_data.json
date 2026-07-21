@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T13:25:57.348207Z",
+  "lastUpdated": "2026-07-21T19:11:09.008359Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,11 +4196,152 @@
   },
   "transactions": [
     {
+      "displayDate": 1784649600000,
+      "teamId": "10150",
+      "id": "id8yb2v7mrv0g20p",
+      "seq": 139356,
+      "desc": "Atlanta released Farmer on Tuesday.",
+      "player": {
+        "name": "Kyle Farmer",
+        "posShortNames": "2B,3B,DH",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0312h_96_13.png",
+        "scorerId": "0312h",
+        "posIds": [
+          "003",
+          "004",
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784649600000,
+      "teamId": "10150",
+      "id": "u3n7hbiemrv01vec",
+      "seq": 139355,
+      "desc": "Atlanta activated Yastrzemski (elbow) from the 10-day injured list Tuesday.",
+      "player": {
+        "name": "Mike Yastrzemski",
+        "posShortNames": "RF,LF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031dw_96_10.png",
+        "scorerId": "031dw",
+        "posIds": [
+          "011",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784649600000,
+      "teamId": "10100",
+      "id": "85w7hqyumruznomx",
+      "seq": 139354,
+      "desc": "The Twins recalled Anderson from Triple-A St. Paul on Tuesday.",
+      "player": {
+        "name": "Jack Anderson",
+        "posShortNames": "RP,SP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "",
+        "scorerId": "060uk",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784649600000,
+      "teamId": "10060",
+      "id": "gz2nww77mruyvb4p",
+      "seq": 139353,
+      "desc": "The White Sox recalled Quero from Triple-A Charlotte on Tuesday.",
+      "player": {
+        "name": "Edgar Quero",
+        "posShortNames": "C",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05un2_96_2.png",
+        "scorerId": "05un2",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784649600000,
+      "teamId": "10140",
+      "id": "nipngidkmruu58pg",
+      "seq": 139352,
+      "desc": "Double-A Frisco activated Walcott (elbow) from the 60-day injured list July 17.",
+      "player": {
+        "name": "Sebastian Walcott",
+        "posShortNames": "SS",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0662o_96_2.png",
+        "scorerId": "0662o",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784649600000,
+      "teamId": "10020",
+      "id": "njk1652emruqzx7m",
+      "seq": 139351,
+      "desc": "The Red Sox optioned Gamboa to Triple-A Worcester on Saturday.",
+      "player": {
+        "name": "Alec Gamboa",
+        "posShortNames": "P,RP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "",
+        "scorerId": "05173",
+        "posIds": [
+          "017",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1784563200000,
       "teamId": "10121",
       "id": "s2k27y64mru2bk1c",
       "seq": 139350,
-      "desc": "Meneses was sent outright to Triple-A Las Vegas on Monday.",
+      "desc": "The Athletics outrighted Meneses to Triple-A Las Vegas on Monday.",
       "player": {
         "name": "Joey Meneses",
         "posShortNames": "1B",
@@ -4507,19 +4648,18 @@
     {
       "displayDate": 1784563200000,
       "teamId": "10270",
-      "id": "zcludm2lmrto6v1u",
+      "id": "o7ct1m1ymrto6u9a",
       "seq": 139338,
-      "desc": "The Los Angeles Dodgers traded RHP Nick Frasso to the Colorado Rockies.",
+      "desc": "The Los Angeles Dodgers traded OF Landyn Vidourek to the Colorado Rockies.",
       "player": {
-        "name": "Nick Frasso",
-        "posShortNames": "RP,SP",
+        "name": "Landyn Vidourek",
+        "posShortNames": "RF",
         "teamShortName": "COL",
         "teamName": "Colorado Rockies",
         "headshotUrl": "",
-        "scorerId": "05jpo",
+        "scorerId": "06yqy",
         "posIds": [
-          "016",
-          "015"
+          "011"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4534,18 +4674,19 @@
     {
       "displayDate": 1784563200000,
       "teamId": "10270",
-      "id": "o7ct1m1ymrto6u9a",
+      "id": "zcludm2lmrto6v1u",
       "seq": 139338,
-      "desc": "The Los Angeles Dodgers traded OF Landyn Vidourek to the Colorado Rockies.",
+      "desc": "The Los Angeles Dodgers traded RHP Nick Frasso to the Colorado Rockies.",
       "player": {
-        "name": "Landyn Vidourek",
-        "posShortNames": "RF",
+        "name": "Nick Frasso",
+        "posShortNames": "RP,SP",
         "teamShortName": "COL",
         "teamName": "Colorado Rockies",
         "headshotUrl": "",
-        "scorerId": "06yqy",
+        "scorerId": "05jpo",
         "posIds": [
-          "011"
+          "016",
+          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4772,173 +4913,157 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1784563200000,
-      "teamId": "10040",
-      "id": "wa8zy76zmrt9laou",
-      "seq": 139327,
-      "desc": "The Rays optioned Englert to Triple-A Durham on Saturday.",
-      "player": {
-        "name": "Mason Englert",
-        "posShortNames": "RP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqh_96_3.png",
-        "scorerId": "04pqh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784563200000,
-      "teamId": "10030",
-      "id": "ne3e3ciwmrt80o1m",
-      "seq": 139326,
-      "desc": "The Yankees optioned Rodriguez to Triple-A Scranton/Wilkes-Barre on Monday.",
-      "player": {
-        "name": "Elmer Rodriguez",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "05xoo",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10130",
-      "id": "17cowy38mrsmk9vv",
-      "seq": 139324,
-      "desc": "Celesten was promoted to Double-A Arkansas on Sunday, Adam Jude of The Seattle Times reports.",
-      "player": {
-        "name": "Felnin Celesten",
-        "posShortNames": "SS",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "",
-        "scorerId": "05mx9",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10110",
-      "id": "cfkfz5jpmrsldsc5",
-      "seq": 139323,
-      "desc": "The Angels reinstated Campero (hand) from the 10-day injured list and optioned him to Triple-A Salt Lake on Sunday.",
-      "player": {
-        "name": "Gustavo Campero",
-        "posShortNames": "RF",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "",
-        "scorerId": "06dpu",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 10-day IL - Hand",
-            "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10170",
-      "id": "pq0hfn9gmrsjt5o7",
-      "seq": 139322,
-      "desc": "The Mets outrighted Short to Triple-A Syracuse on Sunday.",
-      "player": {
-        "name": "Zack Short",
-        "posShortNames": "3B,SS",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0420g_96_9.png",
-        "scorerId": "0420g",
-        "posIds": [
-          "004",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10105",
-      "id": "mvv7o9u5mrseox3c",
-      "seq": 139321,
-      "desc": "The Astros optioned King to Triple-A Sugar Land after Sunday's 5-2 loss to the Orioles, Matt Kawahara of the Houston Chronicle reports.",
-      "player": {
-        "name": "Bryan King",
-        "posShortNames": "RP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mi0_96_3.png",
-        "scorerId": "06mi0",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1784649600000,
+      "teamId": "10150",
+      "id": "id8yb2v7mrv0g20p",
+      "seq": 139356,
+      "desc": "Atlanta released Farmer on Tuesday.",
+      "player": {
+        "name": "Kyle Farmer",
+        "posShortNames": "2B,3B,DH",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0312h_96_13.png",
+        "scorerId": "0312h",
+        "posIds": [
+          "003",
+          "004",
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784649600000,
+      "teamId": "10150",
+      "id": "u3n7hbiemrv01vec",
+      "seq": 139355,
+      "desc": "Atlanta activated Yastrzemski (elbow) from the 10-day injured list Tuesday.",
+      "player": {
+        "name": "Mike Yastrzemski",
+        "posShortNames": "RF,LF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031dw_96_10.png",
+        "scorerId": "031dw",
+        "posIds": [
+          "011",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784649600000,
+      "teamId": "10100",
+      "id": "85w7hqyumruznomx",
+      "seq": 139354,
+      "desc": "The Twins recalled Anderson from Triple-A St. Paul on Tuesday.",
+      "player": {
+        "name": "Jack Anderson",
+        "posShortNames": "RP,SP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "",
+        "scorerId": "060uk",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784649600000,
+      "teamId": "10060",
+      "id": "gz2nww77mruyvb4p",
+      "seq": 139353,
+      "desc": "The White Sox recalled Quero from Triple-A Charlotte on Tuesday.",
+      "player": {
+        "name": "Edgar Quero",
+        "posShortNames": "C",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05un2_96_2.png",
+        "scorerId": "05un2",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1784649600000,
+      "teamId": "10140",
+      "id": "nipngidkmruu58pg",
+      "seq": 139352,
+      "desc": "Double-A Frisco activated Walcott (elbow) from the 60-day injured list July 17.",
+      "player": {
+        "name": "Sebastian Walcott",
+        "posShortNames": "SS",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0662o_96_2.png",
+        "scorerId": "0662o",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784649600000,
+      "teamId": "10020",
+      "id": "njk1652emruqzx7m",
+      "seq": 139351,
+      "desc": "The Red Sox optioned Gamboa to Triple-A Worcester on Saturday.",
+      "player": {
+        "name": "Alec Gamboa",
+        "posShortNames": "P,RP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "",
+        "scorerId": "05173",
+        "posIds": [
+          "017",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1784563200000,
       "teamId": "10121",
       "id": "s2k27y64mru2bk1c",
       "seq": 139350,
-      "desc": "Meneses was sent outright to Triple-A Las Vegas on Monday.",
+      "desc": "The Athletics outrighted Meneses to Triple-A Las Vegas on Monday.",
       "player": {
         "name": "Joey Meneses",
         "posShortNames": "1B",
@@ -5245,19 +5370,18 @@
     {
       "displayDate": 1784563200000,
       "teamId": "10270",
-      "id": "zcludm2lmrto6v1u",
+      "id": "o7ct1m1ymrto6u9a",
       "seq": 139338,
-      "desc": "The Los Angeles Dodgers traded RHP Nick Frasso to the Colorado Rockies.",
+      "desc": "The Los Angeles Dodgers traded OF Landyn Vidourek to the Colorado Rockies.",
       "player": {
-        "name": "Nick Frasso",
-        "posShortNames": "RP,SP",
+        "name": "Landyn Vidourek",
+        "posShortNames": "RF",
         "teamShortName": "COL",
         "teamName": "Colorado Rockies",
         "headshotUrl": "",
-        "scorerId": "05jpo",
+        "scorerId": "06yqy",
         "posIds": [
-          "016",
-          "015"
+          "011"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -5272,18 +5396,19 @@
     {
       "displayDate": 1784563200000,
       "teamId": "10270",
-      "id": "o7ct1m1ymrto6u9a",
+      "id": "zcludm2lmrto6v1u",
       "seq": 139338,
-      "desc": "The Los Angeles Dodgers traded OF Landyn Vidourek to the Colorado Rockies.",
+      "desc": "The Los Angeles Dodgers traded RHP Nick Frasso to the Colorado Rockies.",
       "player": {
-        "name": "Landyn Vidourek",
-        "posShortNames": "RF",
+        "name": "Nick Frasso",
+        "posShortNames": "RP,SP",
         "teamShortName": "COL",
         "teamName": "Colorado Rockies",
         "headshotUrl": "",
-        "scorerId": "06yqy",
+        "scorerId": "05jpo",
         "posIds": [
-          "011"
+          "016",
+          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -5510,163 +5635,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1784563200000,
-      "teamId": "10040",
-      "id": "wa8zy76zmrt9laou",
-      "seq": 139327,
-      "desc": "The Rays optioned Englert to Triple-A Durham on Saturday.",
-      "player": {
-        "name": "Mason Englert",
-        "posShortNames": "RP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqh_96_3.png",
-        "scorerId": "04pqh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784563200000,
-      "teamId": "10030",
-      "id": "ne3e3ciwmrt80o1m",
-      "seq": 139326,
-      "desc": "The Yankees optioned Rodriguez to Triple-A Scranton/Wilkes-Barre on Monday.",
-      "player": {
-        "name": "Elmer Rodriguez",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "05xoo",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10130",
-      "id": "17cowy38mrsmk9vv",
-      "seq": 139324,
-      "desc": "Celesten was promoted to Double-A Arkansas on Sunday, Adam Jude of The Seattle Times reports.",
-      "player": {
-        "name": "Felnin Celesten",
-        "posShortNames": "SS",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "",
-        "scorerId": "05mx9",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10110",
-      "id": "cfkfz5jpmrsldsc5",
-      "seq": 139323,
-      "desc": "The Angels reinstated Campero (hand) from the 10-day injured list and optioned him to Triple-A Salt Lake on Sunday.",
-      "player": {
-        "name": "Gustavo Campero",
-        "posShortNames": "RF",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "",
-        "scorerId": "06dpu",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 10-day IL - Hand",
-            "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10170",
-      "id": "pq0hfn9gmrsjt5o7",
-      "seq": 139322,
-      "desc": "The Mets outrighted Short to Triple-A Syracuse on Sunday.",
-      "player": {
-        "name": "Zack Short",
-        "posShortNames": "3B,SS",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0420g_96_9.png",
-        "scorerId": "0420g",
-        "posIds": [
-          "004",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784476800000,
-      "teamId": "10105",
-      "id": "mvv7o9u5mrseox3c",
-      "seq": 139321,
-      "desc": "The Astros optioned King to Triple-A Sugar Land after Sunday's 5-2 loss to the Orioles, Matt Kawahara of the Houston Chronicle reports.",
-      "player": {
-        "name": "Bryan King",
-        "posShortNames": "RP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mi0_96_3.png",
-        "scorerId": "06mi0",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
