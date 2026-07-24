@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T02:08:22.320159Z",
+  "lastUpdated": "2026-07-24T08:15:39.847139Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,32 @@
   },
   "transactions": [
     {
+      "displayDate": 1784908800000,
+      "teamId": "10121",
+      "id": "dt4vr0ndmryfz21i",
+      "seq": 139410,
+      "desc": "The Athletics optioned Tur to Triple-A Las Vegas on Thursday.",
+      "player": {
+        "name": "Yunior Tur",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "06jbm",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1784822400000,
       "teamId": "10020",
       "id": "4d5tw80nmry9o6fs",
@@ -4440,12 +4466,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4693,12 +4714,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 1",
-            "typeId": "21"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4770,12 +4786,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4922,33 +4933,37 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1784736000000,
-      "teamId": "10150",
-      "id": "6s3xzmb8mrw9l9k5",
-      "seq": 139380,
-      "desc": "Atlanta reinstated Perez (forearm) from the 15-day injured list ahead of his start Wednesday against the Padres at Truist Park.",
-      "player": {
-        "name": "Martin Perez",
-        "posShortNames": "SP,RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01fhm_96_16.png",
-        "scorerId": "01fhm",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1784908800000,
+      "teamId": "10121",
+      "id": "dt4vr0ndmryfz21i",
+      "seq": 139410,
+      "desc": "The Athletics optioned Tur to Triple-A Las Vegas on Thursday.",
+      "player": {
+        "name": "Yunior Tur",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "06jbm",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1784822400000,
       "teamId": "10020",
       "id": "4d5tw80nmry9o6fs",
@@ -5193,12 +5208,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5446,12 +5456,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 1",
-            "typeId": "21"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5523,12 +5528,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5675,28 +5675,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1784736000000,
-      "teamId": "10150",
-      "id": "6s3xzmb8mrw9l9k5",
-      "seq": 139380,
-      "desc": "Atlanta reinstated Perez (forearm) from the 15-day injured list ahead of his start Wednesday against the Padres at Truist Park.",
-      "player": {
-        "name": "Martin Perez",
-        "posShortNames": "SP,RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01fhm_96_16.png",
-        "scorerId": "01fhm",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
