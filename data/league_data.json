@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T02:12:45.894255Z",
+  "lastUpdated": "2026-07-26T08:16:39.730598Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -10,10 +10,10 @@
       "logoUrl": "https://fantraximg.com/logos/zwr/tmLogo_zwr4wx6wmr1fgiwc_512.webp",
       "rank": 1,
       "fantasyPoints": "",
-      "fptsPerGame": "5.77",
+      "fptsPerGame": "5.78",
       "scoringPeriod": "1588",
       "gb": "4,242",
-      "ww": 4927,
+      "ww": 4930,
       "pbl": 11.0,
       "hitPts": 0.0,
       "pitPts": 0
@@ -30,7 +30,7 @@
       "gb": "4,004.5",
       "ww": 5087,
       "pbl": 2.0,
-      "hitPts": 77.5,
+      "hitPts": 80.5,
       "pitPts": 0
     },
     {
@@ -45,7 +45,7 @@
       "gb": "4,233.25",
       "ww": 4702,
       "pbl": 7.0,
-      "hitPts": 234.25,
+      "hitPts": 237.25,
       "pitPts": 0
     },
     {
@@ -60,7 +60,7 @@
       "gb": "3,869.75",
       "ww": 4577,
       "pbl": 12.0,
-      "hitPts": 722.25,
+      "hitPts": 725.25,
       "pitPts": 0
     },
     {
@@ -75,7 +75,7 @@
       "gb": "3,696.25",
       "ww": 4544,
       "pbl": 1.0,
-      "hitPts": 928.75,
+      "hitPts": 931.75,
       "pitPts": 0
     },
     {
@@ -90,7 +90,7 @@
       "gb": "3,416",
       "ww": 4598,
       "pbl": 10.0,
-      "hitPts": 1155.5,
+      "hitPts": 1158.5,
       "pitPts": 0
     },
     {
@@ -103,7 +103,7 @@
       "fptsPerGame": "5.14",
       "scoringPeriod": "1503",
       "gb": "3,657",
-      "ww": 4071,
+      "ww": 4074,
       "pbl": 5.0,
       "hitPts": 1441.0,
       "pitPts": 0
@@ -120,7 +120,7 @@
       "gb": "3,605.75",
       "ww": 3902,
       "pbl": 6.0,
-      "hitPts": 1661.25,
+      "hitPts": 1664.25,
       "pitPts": 0
     },
     {
@@ -135,7 +135,7 @@
       "gb": "3,683",
       "ww": 3627,
       "pbl": 9.0,
-      "hitPts": 1859.0,
+      "hitPts": 1862.0,
       "pitPts": 0
     },
     {
@@ -150,7 +150,7 @@
       "gb": "3,327.5",
       "ww": 3681,
       "pbl": 3.0,
-      "hitPts": 2161.0,
+      "hitPts": 2164.0,
       "pitPts": 0
     },
     {
@@ -165,7 +165,7 @@
       "gb": "3,351.25",
       "ww": 3515,
       "pbl": 4.0,
-      "hitPts": 2303.25,
+      "hitPts": 2306.25,
       "pitPts": 0
     },
     {
@@ -180,7 +180,7 @@
       "gb": "3,125.75",
       "ww": 2931,
       "pbl": 8.0,
-      "hitPts": 3112.75,
+      "hitPts": 3115.75,
       "pitPts": 0
     }
   ],
@@ -4197,6 +4197,86 @@
   "transactions": [
     {
       "displayDate": 1784995200000,
+      "teamId": "10020",
+      "id": "jls8bzw6ms1d5234",
+      "seq": 139447,
+      "desc": "The Washington Nationals traded INF Curtis Mead to the Boston Red Sox.",
+      "player": {
+        "name": "Curtis Mead",
+        "posShortNames": "1B,3B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_3.png",
+        "scorerId": "05ahe",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 2",
+            "typeId": "22"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784995200000,
+      "teamId": "10190",
+      "id": "774u4v0lms1d52mp",
+      "seq": 139447,
+      "desc": "The Boston Red Sox traded LHP Connelly Early to the Washington Nationals.",
+      "player": {
+        "name": "Connelly Early",
+        "posShortNames": "SP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06f1r_96_2.png",
+        "scorerId": "06f1r",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 15-day IL - Elbow",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784995200000,
+      "teamId": "10190",
+      "id": "jk3ky9mems18se2o",
+      "seq": 139446,
+      "desc": "The Red Sox acquired Mead from the Nationals on Saturday in exchange for Connelly Early (elbow), Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Curtis Mead",
+        "posShortNames": "1B,3B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_3.png",
+        "scorerId": "05ahe",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 2",
+            "typeId": "22"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784995200000,
       "teamId": "10100",
       "id": "j7hl3vtlms0w64zc",
       "seq": 139445,
@@ -4855,80 +4935,6 @@
           {
             "tooltip": "Not in starting lineup",
             "typeId": "15"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784908800000,
-      "teamId": "10090",
-      "id": "s1p3j7w8mrzbm07y",
-      "seq": 139418,
-      "desc": "The Royals optioned Morgan to Triple-A Omaha on Friday.",
-      "player": {
-        "name": "Eli Morgan",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eiw_96_7.png",
-        "scorerId": "04eiw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784908800000,
-      "teamId": "10010",
-      "id": "f8hlrt1bmrza181a",
-      "seq": 139417,
-      "desc": "The Orioles recalled Walker from Triple-A Norfolk on Friday.",
-      "player": {
-        "name": "Josh Walker",
-        "posShortNames": "RP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05u2x_96_3.png",
-        "scorerId": "05u2x",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1784908800000,
-      "teamId": "10230",
-      "id": "j581cdcvmrz827ui",
-      "seq": 139416,
-      "desc": "The Brewers designated Shewmake for assignment Friday, Hunter Baumgardt of Fox Sports 920 Milwaukee reports.",
-      "player": {
-        "name": "Braden Shewmake",
-        "posShortNames": "SS,2B",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04qri_96_7.png",
-        "scorerId": "04qri",
-        "posIds": [
-          "005",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
@@ -4937,6 +4943,86 @@
   "mlbTransactions": [
     {
       "displayDate": 1784995200000,
+      "teamId": "10020",
+      "id": "jls8bzw6ms1d5234",
+      "seq": 139447,
+      "desc": "The Washington Nationals traded INF Curtis Mead to the Boston Red Sox.",
+      "player": {
+        "name": "Curtis Mead",
+        "posShortNames": "1B,3B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_3.png",
+        "scorerId": "05ahe",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 2",
+            "typeId": "22"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784995200000,
+      "teamId": "10190",
+      "id": "774u4v0lms1d52mp",
+      "seq": 139447,
+      "desc": "The Boston Red Sox traded LHP Connelly Early to the Washington Nationals.",
+      "player": {
+        "name": "Connelly Early",
+        "posShortNames": "SP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06f1r_96_2.png",
+        "scorerId": "06f1r",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 15-day IL - Elbow",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784995200000,
+      "teamId": "10190",
+      "id": "jk3ky9mems18se2o",
+      "seq": 139446,
+      "desc": "The Red Sox acquired Mead from the Nationals on Saturday in exchange for Connelly Early (elbow), Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Curtis Mead",
+        "posShortNames": "1B,3B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_3.png",
+        "scorerId": "05ahe",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 2",
+            "typeId": "22"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1784995200000,
       "teamId": "10100",
       "id": "j7hl3vtlms0w64zc",
       "seq": 139445,
@@ -5595,80 +5681,6 @@
           {
             "tooltip": "Not in starting lineup",
             "typeId": "15"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784908800000,
-      "teamId": "10090",
-      "id": "s1p3j7w8mrzbm07y",
-      "seq": 139418,
-      "desc": "The Royals optioned Morgan to Triple-A Omaha on Friday.",
-      "player": {
-        "name": "Eli Morgan",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eiw_96_7.png",
-        "scorerId": "04eiw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784908800000,
-      "teamId": "10010",
-      "id": "f8hlrt1bmrza181a",
-      "seq": 139417,
-      "desc": "The Orioles recalled Walker from Triple-A Norfolk on Friday.",
-      "player": {
-        "name": "Josh Walker",
-        "posShortNames": "RP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05u2x_96_3.png",
-        "scorerId": "05u2x",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1784908800000,
-      "teamId": "10230",
-      "id": "j581cdcvmrz827ui",
-      "seq": 139416,
-      "desc": "The Brewers designated Shewmake for assignment Friday, Hunter Baumgardt of Fox Sports 920 Milwaukee reports.",
-      "player": {
-        "name": "Braden Shewmake",
-        "posShortNames": "SS,2B",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04qri_96_7.png",
-        "scorerId": "04qri",
-        "posIds": [
-          "005",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
