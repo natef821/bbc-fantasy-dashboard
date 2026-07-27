@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T02:25:55.810396Z",
+  "lastUpdated": "2026-07-27T09:39:30.351630Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,32 @@
   },
   "transactions": [
     {
+      "displayDate": 1785168000000,
+      "teamId": "10121",
+      "id": "ykxgg1wnms2rrbiv",
+      "seq": 139470,
+      "desc": "Hartlieb was designated for assignment by the Athletics on Sunday, Jason Burke of Roundtable.io reports.",
+      "player": {
+        "name": "Geoff Hartlieb",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yk6_96_6.png",
+        "scorerId": "04yk6",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1785081600000,
       "teamId": "10140",
       "id": "s68gxs1wms2lgcr0",
@@ -4293,12 +4319,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4574,12 +4595,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4621,12 +4637,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4647,12 +4658,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4673,12 +4679,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4699,12 +4700,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 5",
-            "typeId": "25"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4725,12 +4721,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4805,12 +4796,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4832,12 +4818,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4886,12 +4867,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4930,33 +4906,6 @@
         "scorerId": "04emu",
         "posIds": [
           "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784995200000,
-      "teamId": "10070",
-      "id": "aid9b64pms0qniqc",
-      "seq": 139441,
-      "desc": "The Guardians recalled Dion from Triple-A Columbus on Saturday.",
-      "player": {
-        "name": "Will Dion",
-        "posShortNames": "RP,SP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "",
-        "scorerId": "05xtu",
-        "posIds": [
-          "016",
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4966,6 +4915,32 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1785168000000,
+      "teamId": "10121",
+      "id": "ykxgg1wnms2rrbiv",
+      "seq": 139470,
+      "desc": "Hartlieb was designated for assignment by the Athletics on Sunday, Jason Burke of Roundtable.io reports.",
+      "player": {
+        "name": "Geoff Hartlieb",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yk6_96_6.png",
+        "scorerId": "04yk6",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1785081600000,
       "teamId": "10140",
       "id": "s68gxs1wms2lgcr0",
@@ -5063,12 +5038,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5344,12 +5314,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5391,12 +5356,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5417,12 +5377,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5443,12 +5398,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5469,12 +5419,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 5",
-            "typeId": "25"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5495,12 +5440,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5575,12 +5515,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5602,12 +5537,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5656,12 +5586,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5700,33 +5625,6 @@
         "scorerId": "04emu",
         "posIds": [
           "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784995200000,
-      "teamId": "10070",
-      "id": "aid9b64pms0qniqc",
-      "seq": 139441,
-      "desc": "The Guardians recalled Dion from Triple-A Columbus on Saturday.",
-      "player": {
-        "name": "Will Dion",
-        "posShortNames": "RP,SP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "",
-        "scorerId": "05xtu",
-        "posIds": [
-          "016",
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
