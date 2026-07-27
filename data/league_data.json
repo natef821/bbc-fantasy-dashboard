@@ -1,36 +1,36 @@
 {
-  "lastUpdated": "2026-07-27T14:19:21.433578Z",
+  "lastUpdated": "2026-07-27T19:18:28.868929Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
-    {
-      "id": "odce8gzsmg7kg72c",
-      "name": "Wyatt and the Lankers",
-      "short": "LANK",
-      "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp",
-      "rank": 1,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.62",
-      "scoringPeriod": "1642",
-      "gb": "4,047.5",
-      "ww": 5186,
-      "pbl": 2.0,
-      "hitPts": 0.0,
-      "pitPts": 0
-    },
     {
       "id": "g8p3r1i9mg7kg72b",
       "name": "Juan Binary",
       "short": "JUAN",
       "logoUrl": "https://fantraximg.com/logos/zwr/tmLogo_zwr4wx6wmr1fgiwc_512.webp",
-      "rank": 2,
+      "rank": 1,
       "fantasyPoints": "",
       "fptsPerGame": "5.76",
       "scoringPeriod": "1603",
       "gb": "4,269",
       "ww": 4964,
       "pbl": 11.0,
-      "hitPts": 0.5,
+      "hitPts": 0.0,
+      "pitPts": 0
+    },
+    {
+      "id": "odce8gzsmg7kg72c",
+      "name": "Wyatt and the Lankers",
+      "short": "LANK",
+      "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp",
+      "rank": 2,
+      "fantasyPoints": "",
+      "fptsPerGame": "5.61",
+      "scoringPeriod": "1644",
+      "gb": "4,047",
+      "ww": 5181,
+      "pbl": 2.0,
+      "hitPts": 5.5,
       "pitPts": 0
     },
     {
@@ -45,7 +45,7 @@
       "gb": "4,286.5",
       "ww": 4738,
       "pbl": 7.0,
-      "hitPts": 209.5,
+      "hitPts": 209.0,
       "pitPts": 0
     },
     {
@@ -60,7 +60,7 @@
       "gb": "3,935.75",
       "ww": 4624,
       "pbl": 12.0,
-      "hitPts": 673.75,
+      "hitPts": 673.25,
       "pitPts": 0
     },
     {
@@ -70,12 +70,12 @@
       "logoUrl": "https://fantraximg.com/logos/u8v/tmLogo_u8vsnkdbml4fnu92_512.webp",
       "rank": 5,
       "fantasyPoints": "",
-      "fptsPerGame": "5.38",
-      "scoringPeriod": "1545",
-      "gb": "3,737.75",
+      "fptsPerGame": "5.39",
+      "scoringPeriod": "1546",
+      "gb": "3,744.75",
       "ww": 4581,
       "pbl": 1.0,
-      "hitPts": 915.25,
+      "hitPts": 907.75,
       "pitPts": 0
     },
     {
@@ -90,7 +90,7 @@
       "gb": "3,443",
       "ww": 4612,
       "pbl": 10.0,
-      "hitPts": 1178.5,
+      "hitPts": 1178.0,
       "pitPts": 0
     },
     {
@@ -101,8 +101,8 @@
       "rank": 7,
       "fantasyPoints": "",
       "fptsPerGame": "5.12",
-      "scoringPeriod": "1515",
-      "gb": "3,682.75",
+      "scoringPeriod": "1516",
+      "gb": "3,682.25",
       "ww": 4080,
       "pbl": 5.0,
       "hitPts": 1470.75,
@@ -116,11 +116,11 @@
       "rank": 8,
       "fantasyPoints": "",
       "fptsPerGame": "4.91",
-      "scoringPeriod": "1540",
+      "scoringPeriod": "1541",
       "gb": "3,639.5",
       "ww": 3924,
       "pbl": 6.0,
-      "hitPts": 1670.0,
+      "hitPts": 1669.5,
       "pitPts": 0
     },
     {
@@ -131,11 +131,11 @@
       "rank": 9,
       "fantasyPoints": "",
       "fptsPerGame": "4.86",
-      "scoringPeriod": "1510",
+      "scoringPeriod": "1512",
       "gb": "3,700.5",
-      "ww": 3638,
+      "ww": 3641,
       "pbl": 9.0,
-      "hitPts": 1895.5,
+      "hitPts": 1891.5,
       "pitPts": 0
     },
     {
@@ -150,7 +150,7 @@
       "gb": "3,350.5",
       "ww": 3721,
       "pbl": 3.0,
-      "hitPts": 2162.0,
+      "hitPts": 2161.5,
       "pitPts": 0
     },
     {
@@ -160,12 +160,12 @@
       "logoUrl": "https://fantraximg.com/logos/nsd/tmLogo_nsdzor91mcat5gih_512.webp",
       "rank": 11,
       "fantasyPoints": "",
-      "fptsPerGame": "5.24",
-      "scoringPeriod": "1333",
-      "gb": "3,430.25",
+      "fptsPerGame": "5.23",
+      "scoringPeriod": "1334",
+      "gb": "3,431.25",
       "ww": 3549,
       "pbl": 4.0,
-      "hitPts": 2254.75,
+      "hitPts": 2253.25,
       "pitPts": 0
     },
     {
@@ -176,11 +176,11 @@
       "rank": 12,
       "fantasyPoints": "",
       "fptsPerGame": "4.34",
-      "scoringPeriod": "1406",
-      "gb": "3,159.75",
+      "scoringPeriod": "1407",
+      "gb": "3,160.75",
       "ww": 2943,
       "pbl": 8.0,
-      "hitPts": 3131.25,
+      "hitPts": 3129.75,
       "pitPts": 0
     }
   ],
@@ -245,10 +245,10 @@
       },
       {
         "w": 26,
-        "l": 8,
-        "t": 10,
+        "l": 9,
+        "t": 9,
         "pf": 9233.5,
-        "pa": 7682.5,
+        "pa": 7686.0,
         "name": "Juan Binary",
         "weeklyPF": [
           339.75,
@@ -358,10 +358,10 @@
         "logoUrl": "https://fantraximg.com/logos/0lf/tmLogo_0lfo2aaymnwg1b7o_512.webp"
       },
       {
-        "w": 12,
+        "w": 13,
         "l": 21,
-        "t": 11,
-        "pf": 7338.5,
+        "t": 10,
+        "pf": 7342.0,
         "pa": 7701.5,
         "name": "Jac-in' It",
         "weeklyPF": [
@@ -399,7 +399,7 @@
           191.25,
           263.5,
           141.5,
-          0.0,
+          3.5,
           0.0,
           0.0,
           0.0,
@@ -416,10 +416,10 @@
       },
       {
         "w": 24,
-        "l": 10,
-        "t": 10,
-        "pf": 9234.0,
-        "pa": 7994.75,
+        "l": 11,
+        "t": 9,
+        "pf": 9228.0,
+        "pa": 7995.75,
         "name": "Wyatt and the Lankers",
         "weeklyPF": [
           286.75,
@@ -456,7 +456,7 @@
           208.25,
           265.25,
           312.0,
-          0.0,
+          -6.0,
           0.0,
           0.0,
           0.0,
@@ -473,10 +473,10 @@
       },
       {
         "w": 22,
-        "l": 12,
-        "t": 10,
+        "l": 13,
+        "t": 9,
         "pf": 9024.5,
-        "pa": 7705.0,
+        "pa": 7706.0,
         "name": "Slattlanta",
         "weeklyPF": [
           318.0,
@@ -529,10 +529,10 @@
         "logoUrl": "https://fantraximg.com/logos/9i1/tmLogo_9i1cc3c2mq44kk57_512.webp"
       },
       {
-        "w": 14,
+        "w": 15,
         "l": 20,
-        "t": 10,
-        "pf": 6979.25,
+        "t": 9,
+        "pf": 6980.25,
         "pa": 7642.25,
         "name": "Say Yes to Velo",
         "weeklyPF": [
@@ -570,7 +570,7 @@
           237.75,
           284.0,
           248.75,
-          0.0,
+          1.0,
           0.0,
           0.0,
           0.0,
@@ -586,11 +586,11 @@
         "logoUrl": "https://fantraximg.com/logos/nsd/tmLogo_nsdzor91mcat5gih_512.webp"
       },
       {
-        "w": 8,
+        "w": 9,
         "l": 26,
-        "t": 10,
-        "pf": 6102.75,
-        "pa": 7979.75,
+        "t": 9,
+        "pf": 6103.75,
+        "pa": 7973.75,
         "name": "Creative Name",
         "weeklyPF": [
           184.75,
@@ -627,7 +627,7 @@
           168.5,
           72.0,
           132.0,
-          0.0,
+          1.0,
           0.0,
           0.0,
           0.0,
@@ -643,10 +643,10 @@
         "logoUrl": "https://fantraximg.com/logos/nye/tmLogo_nye0oe90mpqbqirz_512.webp"
       },
       {
-        "w": 16,
+        "w": 17,
         "l": 18,
-        "t": 10,
-        "pf": 8318.75,
+        "t": 9,
+        "pf": 8325.75,
         "pa": 7945.5,
         "name": "First Pitch Swinging",
         "weeklyPF": [
@@ -684,7 +684,7 @@
           222.75,
           392.0,
           245.75,
-          0.0,
+          7.0,
           0.0,
           0.0,
           0.0,
@@ -700,11 +700,11 @@
         "logoUrl": "https://fantraximg.com/logos/u8v/tmLogo_u8vsnkdbml4fnu92_512.webp"
       },
       {
-        "w": 10,
+        "w": 11,
         "l": 24,
-        "t": 10,
+        "t": 9,
         "pf": 7072.0,
-        "pa": 8466.0,
+        "pa": 8465.5,
         "name": "Golden Gate Gays",
         "weeklyPF": [
           197.5,
@@ -758,10 +758,10 @@
       },
       {
         "w": 23,
-        "l": 11,
-        "t": 10,
+        "l": 12,
+        "t": 9,
         "pf": 8560.25,
-        "pa": 7784.75,
+        "pa": 7791.75,
         "name": "Layin Wood\ud83e\udeb5",
         "weeklyPF": [
           286.0,
@@ -815,9 +815,9 @@
       },
       {
         "w": 15,
-        "l": 19,
-        "t": 10,
-        "pf": 7763.25,
+        "l": 20,
+        "t": 9,
+        "pf": 7762.75,
         "pa": 8354.75,
         "name": "Soft Balls",
         "weeklyPF": [
@@ -855,7 +855,7 @@
           247.0,
           209.0,
           177.75,
-          0.0,
+          -0.5,
           0.0,
           0.0,
           0.0,
@@ -2884,11 +2884,11 @@
           {
             "team1": "Jac-in' It",
             "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 0.0,
+            "team1Pts": 3.5,
             "team2": "Juan Binary",
             "team2Id": "g8p3r1i9mg7kg72b",
             "team2Pts": 0.0,
-            "winner": "Tie"
+            "winner": "Jac-in' It"
           },
           {
             "team1": "Tank for LeBron",
@@ -2902,11 +2902,11 @@
           {
             "team1": "Creative Name",
             "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 0.0,
+            "team1Pts": 1.0,
             "team2": "Wyatt and the Lankers",
             "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 0.0,
-            "winner": "Tie"
+            "team2Pts": -6.0,
+            "winner": "Creative Name"
           },
           {
             "team1": "Slattlanta",
@@ -2914,8 +2914,8 @@
             "team1Pts": 0.0,
             "team2": "Say Yes to Velo",
             "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 0.0,
-            "winner": "Tie"
+            "team2Pts": 1.0,
+            "winner": "Say Yes to Velo"
           },
           {
             "team1": "Layin Wood\ud83e\udeb5",
@@ -2923,8 +2923,8 @@
             "team1Pts": 0.0,
             "team2": "First Pitch Swinging",
             "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 0.0,
-            "winner": "Tie"
+            "team2Pts": 7.0,
+            "winner": "First Pitch Swinging"
           },
           {
             "team1": "Golden Gate Gays",
@@ -2932,8 +2932,8 @@
             "team1Pts": 0.0,
             "team2": "Soft Balls",
             "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 0.0,
-            "winner": "Tie"
+            "team2Pts": -0.5,
+            "winner": "Golden Gate Gays"
           }
         ]
       },
@@ -3535,7 +3535,7 @@
             "short": "LANK",
             "rank": "3",
             "values": [
-              "4,047.5",
+              "4,047",
               "",
               "603",
               "1,107",
@@ -3543,7 +3543,7 @@
               "598",
               "500",
               "28",
-              "1,005",
+              "1,006",
               "120",
               "32",
               "9",
@@ -3589,19 +3589,19 @@
             "short": "FPS",
             "rank": "5",
             "values": [
-              "3,737.75",
+              "3,744.75",
               "",
-              "595",
-              "1,045",
-              "156",
-              "516",
+              "596",
+              "1,046",
+              "157",
+              "517",
               "437",
               "16",
               "1,034",
               "115",
               "28",
               "15",
-              "1,740",
+              "1,744",
               "66",
               "74",
               "3",
@@ -3643,7 +3643,7 @@
             "short": "SOBALLS",
             "rank": "7",
             "values": [
-              "3,682.75",
+              "3,682.25",
               "",
               "559",
               "982",
@@ -3651,7 +3651,7 @@
               "535",
               "473",
               "32",
-              "980",
+              "981",
               "99",
               "32",
               "9",
@@ -3724,12 +3724,12 @@
             "short": "haydenor",
             "rank": "10",
             "values": [
-              "3,430.25",
+              "3,431.25",
               "",
               "543",
               "943",
               "146",
-              "508",
+              "509",
               "434",
               "10",
               "937",
@@ -3778,10 +3778,10 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "3,159.75",
+              "3,160.75",
               "",
               "505",
-              "962",
+              "963",
               "114",
               "508",
               "406",
@@ -3790,7 +3790,7 @@
               "44",
               "21",
               "4",
-              "1,534",
+              "1,535",
               "30",
               "70",
               "0",
@@ -3810,11 +3810,11 @@
             "short": "LANK",
             "rank": "1",
             "values": [
-              "5,186.5",
+              "5,181",
               "",
-              "1,583.1",
-              "1,459",
-              "671",
+              "1,585.1",
+              "1,460",
+              "675",
               "493",
               "18",
               "12",
@@ -3822,7 +3822,7 @@
               "101",
               "3",
               "4",
-              "56",
+              "57",
               "1",
               "0",
               "157",
@@ -4053,12 +4053,12 @@
             "short": "Jac",
             "rank": "10",
             "values": [
-              "3,638",
+              "3,641.5",
               "",
-              "1,156",
-              "1,144",
-              "558",
-              "432",
+              "1,158.1",
+              "1,147",
+              "560",
+              "433",
               "70",
               "13",
               "22",
@@ -4197,6 +4197,200 @@
   "transactions": [
     {
       "displayDate": 1785168000000,
+      "teamId": "10190",
+      "id": "shjvpmavms3kcntz",
+      "seq": 139482,
+      "desc": "The Nationals recalled Schultz from Triple-A Rochester on Monday.",
+      "player": {
+        "name": "Paxton Schultz",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051b2_96_1.png",
+        "scorerId": "051b2",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10010",
+      "id": "59e6483bms3kcnsj",
+      "seq": 139481,
+      "desc": "The Orioles designated Huff for assignment Monday.",
+      "player": {
+        "name": "Sam Huff",
+        "posShortNames": "C",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041tq_96_7.png",
+        "scorerId": "041tq",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10190",
+      "id": "fureeo7zms3kcnpx",
+      "seq": 139480,
+      "desc": "The Nationals designated Krook for assignment Monday.",
+      "player": {
+        "name": "Matt Krook",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0310j_96_2.png",
+        "scorerId": "0310j",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10010",
+      "id": "iqj7gz1zms3jyge6",
+      "seq": 139479,
+      "desc": "The Orioles recalled Pozo from Double-A Chesapeake on Monday.",
+      "player": {
+        "name": "Yohel Pozo",
+        "posShortNames": "C",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yr2_96_1.png",
+        "scorerId": "03yr2",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10210",
+      "id": "ylbv0ljums3irvpg",
+      "seq": 139478,
+      "desc": "The Reds recalled Johnson from Triple-A Louisville on Monday.",
+      "player": {
+        "name": "Ivan Johnson",
+        "posShortNames": "LF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "0513f",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10060",
+      "id": "0zvgayesms3irvoa",
+      "seq": 139477,
+      "desc": "The White Sox reinstated Pereira (concussion) from the 7-day injured list Monday.",
+      "player": {
+        "name": "Everson Pereira",
+        "posShortNames": "CF,RF",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04is5_96_4.png",
+        "scorerId": "04is5",
+        "posIds": [
+          "010",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10150",
+      "id": "zq6rflijms3e1ksf",
+      "seq": 139476,
+      "desc": "Atlanta optioned Hicklen to Triple-A Gwinnett on Monday.",
+      "player": {
+        "name": "Brewer Hicklen",
+        "posShortNames": "RF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eii_96_3.png",
+        "scorerId": "04eii",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10150",
+      "id": "wxlslvvims3dnd80",
+      "seq": 139475,
+      "desc": "Atlanta activated Acuna (hamstring) from the 10-day injured list Monday.",
+      "player": {
+        "name": "Ronald Acuna Jr.",
+        "posShortNames": "RF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03wha_96_11.png",
+        "scorerId": "03wha",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785168000000,
       "teamId": "10230",
       "id": "g74g0o9mms39bd2f",
       "seq": 139473,
@@ -4277,9 +4471,9 @@
     {
       "displayDate": 1785081600000,
       "teamId": "10121",
-      "id": "dvq39m3nms38hfl6",
-      "seq": 139471,
-      "desc": "The St. Louis Cardinals traded RHP Scott Blewett to the  Athletics.",
+      "id": "vf7g02rgms3boi6s",
+      "seq": 139474,
+      "desc": "The Athletics acquired Blewett from the Cardinals on Sunday in exchange for cash considerations Martin Gallegos of MLB.com reports.",
       "player": {
         "name": "Scott Blewett",
         "posShortNames": "RP",
@@ -4292,12 +4486,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4306,7 +4495,20 @@
       "id": "3xnn2kb8ms38hhrb",
       "seq": 139471,
       "desc": "The Chicago White Sox traded RHP Felix Doroteo to the Pittsburgh Pirates.",
-      "player": null
+      "player": {
+        "name": "Declan McKernan",
+        "posShortNames": "LS",
+        "teamShortName": "ColSt",
+        "teamName": "Colorado State Rams",
+        "headshotUrl": "https://fantraximg.com/assets/images/logos/sportsteam/ncaaf/colorado-state-rams_logo_96.webp",
+        "scorerId": "077xl",
+        "posIds": [
+          "133"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
     },
     {
       "displayDate": 1785081600000,
@@ -4332,6 +4534,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1785081600000,
+      "teamId": "10121",
+      "id": "dvq39m3nms38hfl6",
+      "seq": 139471,
+      "desc": "The St. Louis Cardinals traded RHP Scott Blewett to the  Athletics.",
+      "player": {
+        "name": "Scott Blewett",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03d7c_96_7.png",
+        "scorerId": "03d7c",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -4366,7 +4589,7 @@
       "teamId": "10170",
       "id": "s5woynswms2k9tcr",
       "seq": 139468,
-      "desc": "Santucci is being promoted to Triple-A Syracuse, Joe DeMayo of SNY reports.",
+      "desc": "The Mets promoted Santucci from Double-A Binghamton to Triple-A Syracuse on Sunday, 2TheBigs.com reports.",
       "player": {
         "name": "Jonathan Santucci",
         "posShortNames": "SP",
@@ -4418,7 +4641,7 @@
       "teamId": "10020",
       "id": "r1ale0rhms2f5gty",
       "seq": 139466,
-      "desc": "Mead was activated to the major-league roster by the Red Sox following Sunday's 6-1 win over Toronto.",
+      "desc": "The Red Sox activated Mead following Sunday's 6-1 win over Toronto.",
       "player": {
         "name": "Curtis Mead",
         "posShortNames": "1B,3B",
@@ -4709,213 +4932,206 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10100",
-      "id": "t323x0vrms20yrm5",
-      "seq": 139454,
-      "desc": "The Twins reinstated Sands (forearm) from the 15-day injured list Sunday.",
-      "player": {
-        "name": "Cole Sands",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qxr_96_5.png",
-        "scorerId": "03qxr",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10300",
-      "id": "zpzdq3zoms20kkqz",
-      "seq": 139453,
-      "desc": "The Giants recalled Whisenhunt from Triple-A Sacramento ahead of his scheduled start Sunday versus the Angels in San Francisco.",
-      "player": {
-        "name": "Carson Whisenhunt",
-        "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y7v_96_1.png",
-        "scorerId": "05y7v",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10100",
-      "id": "4pfwsrjvms206ez5",
-      "seq": 139452,
-      "desc": "The Twins reinstated Prielipp (finger) from the 15-day injured list ahead of his scheduled start Sunday versus the Athletics at Target Field.",
-      "player": {
-        "name": "Connor Prielipp",
-        "posShortNames": "SP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05joq_96_1.png",
-        "scorerId": "05joq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10121",
-      "id": "0cj8h1ifms1y7fr2",
-      "seq": 139451,
-      "desc": "The Athletics recalled Serven from Triple-A Las Vegas on Sunday.",
-      "player": {
-        "name": "Brian Serven",
-        "posShortNames": "C",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rz_96_7.png",
-        "scorerId": "041rz",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10190",
-      "id": "hwcts01wms1wmogo",
-      "seq": 139450,
-      "desc": "The Nationals recalled House from Triple-A Rochester on Sunday. He'll start at third base and bat fifth in the Nationals' series finale versus the Diamondbacks.",
-      "player": {
-        "name": "Brady House",
-        "posShortNames": "3B",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs059bx_96_2.png",
-        "scorerId": "059bx",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10020",
-      "id": "iu74346tms1w8hdf",
-      "seq": 139449,
-      "desc": "The Red Sox activated Suarez (groin/illness) from the 15-day injured list to start Sunday's game against the Blue Jays, Gabrielle Starr of the Boston Herald reports.",
-      "player": {
-        "name": "Ranger Suarez",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03et8_96_10.png",
-        "scorerId": "03et8",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10020",
-      "id": "pjo8n0u7ms1w8hao",
-      "seq": 139448,
-      "desc": "The Red Sox optioned Gamboa to Triple-A Worcester.",
-      "player": {
-        "name": "Alec Gamboa",
-        "posShortNames": "P,RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "",
-        "scorerId": "05173",
-        "posIds": [
-          "017",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784995200000,
-      "teamId": "10020",
-      "id": "jls8bzw6ms1d5234",
-      "seq": 139447,
-      "desc": "The Washington Nationals traded INF Curtis Mead to the Boston Red Sox.",
-      "player": {
-        "name": "Curtis Mead",
-        "posShortNames": "1B,3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_3.png",
-        "scorerId": "05ahe",
-        "posIds": [
-          "002",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1784995200000,
-      "teamId": "10190",
-      "id": "774u4v0lms1d52mp",
-      "seq": 139447,
-      "desc": "The Boston Red Sox traded LHP Connelly Early to the Washington Nationals.",
-      "player": {
-        "name": "Connelly Early",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06f1r_96_2.png",
-        "scorerId": "06f1r",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 15-day IL - Elbow",
-            "typeId": "2"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1785168000000,
+      "teamId": "10190",
+      "id": "shjvpmavms3kcntz",
+      "seq": 139482,
+      "desc": "The Nationals recalled Schultz from Triple-A Rochester on Monday.",
+      "player": {
+        "name": "Paxton Schultz",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051b2_96_1.png",
+        "scorerId": "051b2",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10010",
+      "id": "59e6483bms3kcnsj",
+      "seq": 139481,
+      "desc": "The Orioles designated Huff for assignment Monday.",
+      "player": {
+        "name": "Sam Huff",
+        "posShortNames": "C",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041tq_96_7.png",
+        "scorerId": "041tq",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10190",
+      "id": "fureeo7zms3kcnpx",
+      "seq": 139480,
+      "desc": "The Nationals designated Krook for assignment Monday.",
+      "player": {
+        "name": "Matt Krook",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0310j_96_2.png",
+        "scorerId": "0310j",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10010",
+      "id": "iqj7gz1zms3jyge6",
+      "seq": 139479,
+      "desc": "The Orioles recalled Pozo from Double-A Chesapeake on Monday.",
+      "player": {
+        "name": "Yohel Pozo",
+        "posShortNames": "C",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yr2_96_1.png",
+        "scorerId": "03yr2",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10210",
+      "id": "ylbv0ljums3irvpg",
+      "seq": 139478,
+      "desc": "The Reds recalled Johnson from Triple-A Louisville on Monday.",
+      "player": {
+        "name": "Ivan Johnson",
+        "posShortNames": "LF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "0513f",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10060",
+      "id": "0zvgayesms3irvoa",
+      "seq": 139477,
+      "desc": "The White Sox reinstated Pereira (concussion) from the 7-day injured list Monday.",
+      "player": {
+        "name": "Everson Pereira",
+        "posShortNames": "CF,RF",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04is5_96_4.png",
+        "scorerId": "04is5",
+        "posIds": [
+          "010",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10150",
+      "id": "zq6rflijms3e1ksf",
+      "seq": 139476,
+      "desc": "Atlanta optioned Hicklen to Triple-A Gwinnett on Monday.",
+      "player": {
+        "name": "Brewer Hicklen",
+        "posShortNames": "RF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eii_96_3.png",
+        "scorerId": "04eii",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785168000000,
+      "teamId": "10150",
+      "id": "wxlslvvims3dnd80",
+      "seq": 139475,
+      "desc": "Atlanta activated Acuna (hamstring) from the 10-day injured list Monday.",
+      "player": {
+        "name": "Ronald Acuna Jr.",
+        "posShortNames": "RF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03wha_96_11.png",
+        "scorerId": "03wha",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785168000000,
       "teamId": "10230",
       "id": "g74g0o9mms39bd2f",
       "seq": 139473,
@@ -4996,9 +5212,9 @@
     {
       "displayDate": 1785081600000,
       "teamId": "10121",
-      "id": "dvq39m3nms38hfl6",
-      "seq": 139471,
-      "desc": "The St. Louis Cardinals traded RHP Scott Blewett to the  Athletics.",
+      "id": "vf7g02rgms3boi6s",
+      "seq": 139474,
+      "desc": "The Athletics acquired Blewett from the Cardinals on Sunday in exchange for cash considerations Martin Gallegos of MLB.com reports.",
       "player": {
         "name": "Scott Blewett",
         "posShortNames": "RP",
@@ -5011,12 +5227,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5025,7 +5236,20 @@
       "id": "3xnn2kb8ms38hhrb",
       "seq": 139471,
       "desc": "The Chicago White Sox traded RHP Felix Doroteo to the Pittsburgh Pirates.",
-      "player": null
+      "player": {
+        "name": "Declan McKernan",
+        "posShortNames": "LS",
+        "teamShortName": "ColSt",
+        "teamName": "Colorado State Rams",
+        "headshotUrl": "https://fantraximg.com/assets/images/logos/sportsteam/ncaaf/colorado-state-rams_logo_96.webp",
+        "scorerId": "077xl",
+        "posIds": [
+          "133"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
     },
     {
       "displayDate": 1785081600000,
@@ -5051,6 +5275,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1785081600000,
+      "teamId": "10121",
+      "id": "dvq39m3nms38hfl6",
+      "seq": 139471,
+      "desc": "The St. Louis Cardinals traded RHP Scott Blewett to the  Athletics.",
+      "player": {
+        "name": "Scott Blewett",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03d7c_96_7.png",
+        "scorerId": "03d7c",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -5085,7 +5330,7 @@
       "teamId": "10170",
       "id": "s5woynswms2k9tcr",
       "seq": 139468,
-      "desc": "Santucci is being promoted to Triple-A Syracuse, Joe DeMayo of SNY reports.",
+      "desc": "The Mets promoted Santucci from Double-A Binghamton to Triple-A Syracuse on Sunday, 2TheBigs.com reports.",
       "player": {
         "name": "Jonathan Santucci",
         "posShortNames": "SP",
@@ -5137,7 +5382,7 @@
       "teamId": "10020",
       "id": "r1ale0rhms2f5gty",
       "seq": 139466,
-      "desc": "Mead was activated to the major-league roster by the Red Sox following Sunday's 6-1 win over Toronto.",
+      "desc": "The Red Sox activated Mead following Sunday's 6-1 win over Toronto.",
       "player": {
         "name": "Curtis Mead",
         "posShortNames": "1B,3B",
@@ -5428,207 +5673,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10100",
-      "id": "t323x0vrms20yrm5",
-      "seq": 139454,
-      "desc": "The Twins reinstated Sands (forearm) from the 15-day injured list Sunday.",
-      "player": {
-        "name": "Cole Sands",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qxr_96_5.png",
-        "scorerId": "03qxr",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10300",
-      "id": "zpzdq3zoms20kkqz",
-      "seq": 139453,
-      "desc": "The Giants recalled Whisenhunt from Triple-A Sacramento ahead of his scheduled start Sunday versus the Angels in San Francisco.",
-      "player": {
-        "name": "Carson Whisenhunt",
-        "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y7v_96_1.png",
-        "scorerId": "05y7v",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10100",
-      "id": "4pfwsrjvms206ez5",
-      "seq": 139452,
-      "desc": "The Twins reinstated Prielipp (finger) from the 15-day injured list ahead of his scheduled start Sunday versus the Athletics at Target Field.",
-      "player": {
-        "name": "Connor Prielipp",
-        "posShortNames": "SP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05joq_96_1.png",
-        "scorerId": "05joq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10121",
-      "id": "0cj8h1ifms1y7fr2",
-      "seq": 139451,
-      "desc": "The Athletics recalled Serven from Triple-A Las Vegas on Sunday.",
-      "player": {
-        "name": "Brian Serven",
-        "posShortNames": "C",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rz_96_7.png",
-        "scorerId": "041rz",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10190",
-      "id": "hwcts01wms1wmogo",
-      "seq": 139450,
-      "desc": "The Nationals recalled House from Triple-A Rochester on Sunday. He'll start at third base and bat fifth in the Nationals' series finale versus the Diamondbacks.",
-      "player": {
-        "name": "Brady House",
-        "posShortNames": "3B",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs059bx_96_2.png",
-        "scorerId": "059bx",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10020",
-      "id": "iu74346tms1w8hdf",
-      "seq": 139449,
-      "desc": "The Red Sox activated Suarez (groin/illness) from the 15-day injured list to start Sunday's game against the Blue Jays, Gabrielle Starr of the Boston Herald reports.",
-      "player": {
-        "name": "Ranger Suarez",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03et8_96_10.png",
-        "scorerId": "03et8",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10020",
-      "id": "pjo8n0u7ms1w8hao",
-      "seq": 139448,
-      "desc": "The Red Sox optioned Gamboa to Triple-A Worcester.",
-      "player": {
-        "name": "Alec Gamboa",
-        "posShortNames": "P,RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "",
-        "scorerId": "05173",
-        "posIds": [
-          "017",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1784995200000,
-      "teamId": "10020",
-      "id": "jls8bzw6ms1d5234",
-      "seq": 139447,
-      "desc": "The Washington Nationals traded INF Curtis Mead to the Boston Red Sox.",
-      "player": {
-        "name": "Curtis Mead",
-        "posShortNames": "1B,3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_3.png",
-        "scorerId": "05ahe",
-        "posIds": [
-          "002",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1784995200000,
-      "teamId": "10190",
-      "id": "774u4v0lms1d52mp",
-      "seq": 139447,
-      "desc": "The Boston Red Sox traded LHP Connelly Early to the Washington Nationals.",
-      "player": {
-        "name": "Connelly Early",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06f1r_96_2.png",
-        "scorerId": "06f1r",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 15-day IL - Elbow",
-            "typeId": "2"
-          }
-        ]
       }
     }
   ],
