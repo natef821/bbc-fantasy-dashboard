@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T13:51:11.562989Z",
+  "lastUpdated": "2026-07-28T19:15:09.222645Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -26,11 +26,11 @@
       "rank": 2,
       "fantasyPoints": "",
       "fptsPerGame": "5.6",
-      "scoringPeriod": "1653",
-      "gb": "4,053",
+      "scoringPeriod": "1656",
+      "gb": "4,073.5",
       "ww": 5197,
       "pbl": 2.0,
-      "hitPts": 32.0,
+      "hitPts": 11.5,
       "pitPts": 0
     },
     {
@@ -115,12 +115,12 @@
       "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp",
       "rank": 8,
       "fantasyPoints": "",
-      "fptsPerGame": "4.92",
-      "scoringPeriod": "1552",
-      "gb": "3,701",
+      "fptsPerGame": "4.91",
+      "scoringPeriod": "1555",
+      "gb": "3,700",
       "ww": 3941,
       "pbl": 6.0,
-      "hitPts": 1640.0,
+      "hitPts": 1641.0,
       "pitPts": 0
     },
     {
@@ -161,11 +161,11 @@
       "rank": 11,
       "fantasyPoints": "",
       "fptsPerGame": "5.22",
-      "scoringPeriod": "1342",
+      "scoringPeriod": "1343",
       "gb": "3,450.75",
-      "ww": 3549,
+      "ww": 3563,
       "pbl": 4.0,
-      "hitPts": 2282.75,
+      "hitPts": 2268.75,
       "pitPts": 0
     },
     {
@@ -190,7 +190,7 @@
         "w": 17,
         "l": 18,
         "t": 9,
-        "pf": 7642.5,
+        "pf": 7641.5,
         "pa": 8028.75,
         "name": "Tank for LeBron",
         "weeklyPF": [
@@ -228,7 +228,7 @@
           214.25,
           267.75,
           142.75,
-          78.5,
+          77.5,
           0.0,
           0.0,
           0.0,
@@ -305,7 +305,7 @@
         "l": 17,
         "t": 10,
         "pf": 8103.75,
-        "pa": 8087.5,
+        "pa": 8086.5,
         "name": "Honey Nut Chourio's",
         "weeklyPF": [
           262.75,
@@ -418,7 +418,7 @@
         "w": 24,
         "l": 11,
         "t": 9,
-        "pf": 9250.5,
+        "pf": 9271.0,
         "pa": 8062.25,
         "name": "Wyatt and the Lankers",
         "weeklyPF": [
@@ -456,7 +456,7 @@
           208.25,
           265.25,
           312.0,
-          16.5,
+          37.0,
           0.0,
           0.0,
           0.0,
@@ -476,7 +476,7 @@
         "l": 12,
         "t": 9,
         "pf": 9098.75,
-        "pa": 7725.5,
+        "pa": 7739.5,
         "name": "Slattlanta",
         "weeklyPF": [
           318.0,
@@ -532,7 +532,7 @@
         "w": 14,
         "l": 21,
         "t": 9,
-        "pf": 6999.75,
+        "pf": 7013.75,
         "pa": 7716.5,
         "name": "Say Yes to Velo",
         "weeklyPF": [
@@ -570,7 +570,7 @@
           237.75,
           284.0,
           248.75,
-          20.5,
+          34.5,
           0.0,
           0.0,
           0.0,
@@ -590,7 +590,7 @@
         "l": 26,
         "t": 9,
         "pf": 6170.25,
-        "pa": 7996.25,
+        "pa": 8016.75,
         "name": "Creative Name",
         "weeklyPF": [
           184.75,
@@ -2893,7 +2893,7 @@
           {
             "team1": "Tank for LeBron",
             "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 78.5,
+            "team1Pts": 77.5,
             "team2": "Honey Nut Chourio's",
             "team2Id": "nbnjqx3cmg7kg72g",
             "team2Pts": 48.25,
@@ -2905,7 +2905,7 @@
             "team1Pts": 67.5,
             "team2": "Wyatt and the Lankers",
             "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 16.5,
+            "team2Pts": 37.0,
             "winner": "Creative Name"
           },
           {
@@ -2914,7 +2914,7 @@
             "team1Pts": 74.25,
             "team2": "Say Yes to Velo",
             "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 20.5,
+            "team2Pts": 34.5,
             "winner": "Slattlanta"
           },
           {
@@ -3535,25 +3535,25 @@
             "short": "LANK",
             "rank": "3",
             "values": [
-              "4,053",
+              "4,073.5",
               "",
-              "604",
-              "1,111",
-              "160",
-              "598",
-              "502",
+              "607",
+              "1,114",
+              "161",
+              "601",
+              "503",
               "28",
               "1,015",
-              "120",
+              "121",
               "32",
               "9",
-              "1,875",
+              "1,881",
               "28",
               "89",
               "3",
               "0",
               "82",
-              "9"
+              "10"
             ]
           },
           {
@@ -3670,7 +3670,7 @@
             "short": "Vind25",
             "rank": "8",
             "values": [
-              "3,701",
+              "3,700",
               "",
               "557",
               "997",
@@ -3678,7 +3678,7 @@
               "568",
               "433",
               "18",
-              "1,033",
+              "1,035",
               "82",
               "23",
               "10",
@@ -4080,12 +4080,12 @@
             "short": "haydenor",
             "rank": "11",
             "values": [
-              "3,549",
+              "3,563",
               "",
-              "1,040.1",
-              "1,098",
+              "1,044.1",
+              "1,101",
               "440",
-              "376",
+              "378",
               "32",
               "10",
               "19",
@@ -4196,6 +4196,48 @@
   },
   "transactions": [
     {
+      "displayDate": 1785254400000,
+      "teamId": "10190",
+      "id": "nobrlmjxms4vscc2",
+      "seq": 139494,
+      "desc": "The Nationals recalled Varland from Triple-A Rochester on Tuesday, Grant Paulsen of 106.7 The Fan reports.",
+      "player": {
+        "name": "Gus Varland",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxq_96_5.png",
+        "scorerId": "04pxq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785254400000,
+      "teamId": "10210",
+      "id": "txv5ivutms4sawg1",
+      "seq": 139493,
+      "desc": "The Reds recalled Franco from Triple-A Louisville on Tuesday, Charlie Goldsmith of Fox 19 Now Cincinnati reports.",
+      "player": {
+        "name": "Jose Franco",
+        "posShortNames": "SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "05j93",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1785168000000,
       "teamId": "10150",
       "id": "8o8mlclvms44g1o0",
@@ -4226,7 +4268,7 @@
       "teamId": "10190",
       "id": "l0jk35r5ms41oos5",
       "seq": 139491,
-      "desc": "Alvarez was optioned to Triple-A Rochester following Monday's 3-2 loss to Toronto. He allowed one run on four hits and three walks while striking out three across 4.1 innings.",
+      "desc": "The Nationals optioned Alvarez to Triple-A Rochester following Monday's 3-2 loss to Toronto. He allowed one earned run on four hits and three walks while striking out three across 4.1 innings in bulk relief.",
       "player": {
         "name": "Andrew Alvarez",
         "posShortNames": "SP",
@@ -4318,12 +4360,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4391,12 +4428,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4444,12 +4476,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4543,12 +4570,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4596,12 +4618,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4648,12 +4665,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 1",
-            "typeId": "21"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4714,7 +4726,7 @@
       "teamId": "10121",
       "id": "ykxgg1wnms2rrbiv",
       "seq": 139470,
-      "desc": "Hartlieb was designated for assignment by the Athletics on Sunday, Jason Burke of Roundtable.io reports.",
+      "desc": "The Athletics designated Hartlieb for assignment Sunday, Jason Burke of Roundtable.io reports.",
       "player": {
         "name": "Geoff Hartlieb",
         "posShortNames": "RP",
@@ -4750,6 +4762,27 @@
         "scorerId": "03d7c",
         "posIds": [
           "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785081600000,
+      "teamId": "10240",
+      "id": "3xnn2kb8ms38hhrb",
+      "seq": 139471,
+      "desc": "The Chicago White Sox traded RHP Felix Doroteo to the Pittsburgh Pirates.",
+      "player": {
+        "name": "Declan McKernan",
+        "posShortNames": "LS",
+        "teamShortName": "ColSt",
+        "teamName": "Colorado State Rams",
+        "headshotUrl": "https://fantraximg.com/assets/images/logos/sportsteam/ncaaf/colorado-state-rams_logo_96.webp",
+        "scorerId": "077xl",
+        "posIds": [
+          "133"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4797,27 +4830,6 @@
         "scorerId": "03d7c",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10240",
-      "id": "3xnn2kb8ms38hhrb",
-      "seq": 139471,
-      "desc": "The Chicago White Sox traded RHP Felix Doroteo to the Pittsburgh Pirates.",
-      "player": {
-        "name": "Declan McKernan",
-        "posShortNames": "LS",
-        "teamShortName": "ColSt",
-        "teamName": "Colorado State Rams",
-        "headshotUrl": "https://fantraximg.com/assets/images/logos/sportsteam/ncaaf/colorado-state-rams_logo_96.webp",
-        "scorerId": "077xl",
-        "posIds": [
-          "133"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4892,64 +4904,6 @@
         "scorerId": "06rry",
         "posIds": [
           "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10020",
-      "id": "r1ale0rhms2f5gty",
-      "seq": 139466,
-      "desc": "The Red Sox activated Mead following Sunday's 6-1 win over Toronto.",
-      "player": {
-        "name": "Curtis Mead",
-        "posShortNames": "1B,3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_3.png",
-        "scorerId": "05ahe",
-        "posIds": [
-          "002",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          },
-          {
-            "tooltip": "Wrist - Day-to-Day",
-            "typeId": "1"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10020",
-      "id": "6a0kjgi7ms2erapp",
-      "seq": 139465,
-      "desc": "Cheng was optioned to Triple-A Worcester after Sunday's 6-1 win over the Blue Jays, Chris Cotillo of MassLive.com reports.",
-      "player": {
-        "name": "Tsung-Che Cheng",
-        "posShortNames": "SS,2B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y34_96_2.png",
-        "scorerId": "05y34",
-        "posIds": [
-          "005",
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4964,6 +4918,48 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1785254400000,
+      "teamId": "10190",
+      "id": "nobrlmjxms4vscc2",
+      "seq": 139494,
+      "desc": "The Nationals recalled Varland from Triple-A Rochester on Tuesday, Grant Paulsen of 106.7 The Fan reports.",
+      "player": {
+        "name": "Gus Varland",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxq_96_5.png",
+        "scorerId": "04pxq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785254400000,
+      "teamId": "10210",
+      "id": "txv5ivutms4sawg1",
+      "seq": 139493,
+      "desc": "The Reds recalled Franco from Triple-A Louisville on Tuesday, Charlie Goldsmith of Fox 19 Now Cincinnati reports.",
+      "player": {
+        "name": "Jose Franco",
+        "posShortNames": "SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "05j93",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1785168000000,
       "teamId": "10150",
       "id": "8o8mlclvms44g1o0",
@@ -4994,7 +4990,7 @@
       "teamId": "10190",
       "id": "l0jk35r5ms41oos5",
       "seq": 139491,
-      "desc": "Alvarez was optioned to Triple-A Rochester following Monday's 3-2 loss to Toronto. He allowed one run on four hits and three walks while striking out three across 4.1 innings.",
+      "desc": "The Nationals optioned Alvarez to Triple-A Rochester following Monday's 3-2 loss to Toronto. He allowed one earned run on four hits and three walks while striking out three across 4.1 innings in bulk relief.",
       "player": {
         "name": "Andrew Alvarez",
         "posShortNames": "SP",
@@ -5086,12 +5082,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5159,12 +5150,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5212,12 +5198,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5311,12 +5292,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5364,12 +5340,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5416,12 +5387,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 1",
-            "typeId": "21"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5482,7 +5448,7 @@
       "teamId": "10121",
       "id": "ykxgg1wnms2rrbiv",
       "seq": 139470,
-      "desc": "Hartlieb was designated for assignment by the Athletics on Sunday, Jason Burke of Roundtable.io reports.",
+      "desc": "The Athletics designated Hartlieb for assignment Sunday, Jason Burke of Roundtable.io reports.",
       "player": {
         "name": "Geoff Hartlieb",
         "posShortNames": "RP",
@@ -5518,6 +5484,27 @@
         "scorerId": "03d7c",
         "posIds": [
           "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785081600000,
+      "teamId": "10240",
+      "id": "3xnn2kb8ms38hhrb",
+      "seq": 139471,
+      "desc": "The Chicago White Sox traded RHP Felix Doroteo to the Pittsburgh Pirates.",
+      "player": {
+        "name": "Declan McKernan",
+        "posShortNames": "LS",
+        "teamShortName": "ColSt",
+        "teamName": "Colorado State Rams",
+        "headshotUrl": "https://fantraximg.com/assets/images/logos/sportsteam/ncaaf/colorado-state-rams_logo_96.webp",
+        "scorerId": "077xl",
+        "posIds": [
+          "133"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -5565,27 +5552,6 @@
         "scorerId": "03d7c",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10240",
-      "id": "3xnn2kb8ms38hhrb",
-      "seq": 139471,
-      "desc": "The Chicago White Sox traded RHP Felix Doroteo to the Pittsburgh Pirates.",
-      "player": {
-        "name": "Declan McKernan",
-        "posShortNames": "LS",
-        "teamShortName": "ColSt",
-        "teamName": "Colorado State Rams",
-        "headshotUrl": "https://fantraximg.com/assets/images/logos/sportsteam/ncaaf/colorado-state-rams_logo_96.webp",
-        "scorerId": "077xl",
-        "posIds": [
-          "133"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -5660,64 +5626,6 @@
         "scorerId": "06rry",
         "posIds": [
           "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10020",
-      "id": "r1ale0rhms2f5gty",
-      "seq": 139466,
-      "desc": "The Red Sox activated Mead following Sunday's 6-1 win over Toronto.",
-      "player": {
-        "name": "Curtis Mead",
-        "posShortNames": "1B,3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_3.png",
-        "scorerId": "05ahe",
-        "posIds": [
-          "002",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          },
-          {
-            "tooltip": "Wrist - Day-to-Day",
-            "typeId": "1"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785081600000,
-      "teamId": "10020",
-      "id": "6a0kjgi7ms2erapp",
-      "seq": 139465,
-      "desc": "Cheng was optioned to Triple-A Worcester after Sunday's 6-1 win over the Blue Jays, Chris Cotillo of MassLive.com reports.",
-      "player": {
-        "name": "Tsung-Che Cheng",
-        "posShortNames": "SS,2B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y34_96_2.png",
-        "scorerId": "05y34",
-        "posIds": [
-          "005",
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
