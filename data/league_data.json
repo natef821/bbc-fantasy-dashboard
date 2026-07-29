@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T08:29:56.269148Z",
+  "lastUpdated": "2026-07-29T13:56:00.918542Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,32 @@
   },
   "transactions": [
     {
+      "displayDate": 1785340800000,
+      "teamId": "10150",
+      "id": "a4lg20w3ms64zczz",
+      "seq": 139515,
+      "desc": "Atlanta activated Smith-Shawver (elbow) from the 60-day injured list Wednesday.",
+      "player": {
+        "name": "AJ Smith-Shawver",
+        "posShortNames": "SP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uy5_96_2.png",
+        "scorerId": "05uy5",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1785254400000,
       "teamId": "10190",
       "id": "2e1svxlvms5k83dz",
@@ -4241,12 +4267,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4365,12 +4386,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4445,12 +4461,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4588,8 +4599,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
           }
         ]
       }
@@ -4639,12 +4650,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4839,12 +4845,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4913,37 +4914,37 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1785168000000,
-      "teamId": "10240",
-      "id": "cokufkefms3mpsao",
-      "seq": 139484,
-      "desc": "The Pirates optioned Ross to Triple-A Indianapolis on Monday, Danny Demilio of PittsburghBaseballNow.com reports.",
-      "player": {
-        "name": "Shawn Ross",
-        "posShortNames": "C",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "068xz",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1785340800000,
+      "teamId": "10150",
+      "id": "a4lg20w3ms64zczz",
+      "seq": 139515,
+      "desc": "Atlanta activated Smith-Shawver (elbow) from the 60-day injured list Wednesday.",
+      "player": {
+        "name": "AJ Smith-Shawver",
+        "posShortNames": "SP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uy5_96_2.png",
+        "scorerId": "05uy5",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1785254400000,
       "teamId": "10190",
       "id": "2e1svxlvms5k83dz",
@@ -4989,12 +4990,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5113,12 +5109,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5193,12 +5184,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5336,8 +5322,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
           }
         ]
       }
@@ -5387,12 +5373,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5587,12 +5568,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5661,32 +5637,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1785168000000,
-      "teamId": "10240",
-      "id": "cokufkefms3mpsao",
-      "seq": 139484,
-      "desc": "The Pirates optioned Ross to Triple-A Indianapolis on Monday, Danny Demilio of PittsburghBaseballNow.com reports.",
-      "player": {
-        "name": "Shawn Ross",
-        "posShortNames": "C",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "068xz",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
