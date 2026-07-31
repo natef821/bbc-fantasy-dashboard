@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T08:40:40.201191Z",
+  "lastUpdated": "2026-07-31T13:50:26.796151Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,212 +4197,17 @@
   "transactions": [
     {
       "displayDate": 1785513600000,
-      "teamId": "10100",
-      "id": "fjhvcyqrms8fcljj",
-      "seq": 139560,
-      "desc": "The Mets acquired Amick and Bruin Agbayani from the Twins on Thursday in exchange for A.J. Minter, Will Sammon of The Athletic reports.",
-      "player": {
-        "name": "Billy Amick",
-        "posShortNames": "1B,3B",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06cgg",
-        "posIds": [
-          "002",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10100",
-      "id": "siojcgb6ms8ig7lf",
-      "seq": 139561,
-      "desc": "The New York Mets traded LHP A.J. Minter to the Minnesota Twins.",
-      "player": {
-        "name": "A.J. Minter",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ppa_96_14.png",
-        "scorerId": "03ppa",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785427200000,
       "teamId": "10170",
-      "id": "9qrhy5wvms8ig0ry",
-      "seq": 139561,
-      "desc": "The Minnesota Twins traded INF Billy Amick to the New York Mets.",
+      "id": "suwanlybms8z2ywa",
+      "seq": 139562,
+      "desc": "The Mets optioned Pintaro to Triple-A Syracuse on Thursday.",
       "player": {
-        "name": "Billy Amick",
-        "posShortNames": "1B,3B",
+        "name": "Jonathan Pintaro",
+        "posShortNames": "SP",
         "teamShortName": "NYM",
         "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06cgg",
-        "posIds": [
-          "002",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10170",
-      "id": "mctv61d3ms8igald",
-      "seq": 139561,
-      "desc": "The Minnesota Twins traded INF Bruin Agbayani to the New York Mets.",
-      "player": {
-        "name": "Bruin Agbayani",
-        "posShortNames": "2B",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06zgv",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10100",
-      "id": "lh65ib8kms8eyfqb",
-      "seq": 139559,
-      "desc": "The Twins acquired Minter from the Mets on Thursday in exchange for Bruin Agbayani and Billy Amick, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "A.J. Minter",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ppa_96_14.png",
-        "scorerId": "03ppa",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10080",
-      "id": "ibvxri40ms813dqm",
-      "seq": 139558,
-      "desc": "The Baltimore Orioles traded RHP Zane Barnhart to the Detroit Tigers.",
-      "player": {
-        "name": "Zane Barnhart",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "",
-        "scorerId": "06hpr",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10010",
-      "id": "id64qhj3ms813dd3",
-      "seq": 139558,
-      "desc": "The Detroit Tigers traded C Jake Rogers to the Baltimore Orioles.",
-      "player": {
-        "name": "Jake Rogers",
-        "posShortNames": "C",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03av1_96_12.png",
-        "scorerId": "03av1",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10150",
-      "id": "1tetzqq2ms7u2e9g",
-      "seq": 139557,
-      "desc": "The Athletics claimed Thomas off waivers from Atlanta on Thursday.",
-      "player": {
-        "name": "Connor Thomas",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0513x_96_1.png",
-        "scorerId": "0513x",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10210",
-      "id": "98v3l1frms7qwui9",
-      "seq": 139556,
-      "desc": "The Reds optioned Petty to Triple-A Louisville on Thursday.",
-      "player": {
-        "name": "Chase Petty",
-        "posShortNames": "SP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05raz_96_1.png",
-        "scorerId": "05raz",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qcs_96_1.png",
+        "scorerId": "06qcs",
         "posIds": [
           "015"
         ],
@@ -4416,517 +4221,6 @@
         ]
       }
     },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10210",
-      "id": "0mj0ndcums7qwufm",
-      "seq": 139555,
-      "desc": "The Reds optioned Arroyo to Triple-A Louisville on Thursday.",
-      "player": {
-        "name": "Edwin Arroyo",
-        "posShortNames": "SS,2B",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05rcj_96_1.png",
-        "scorerId": "05rcj",
-        "posIds": [
-          "005",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10210",
-      "id": "wdei4nqtms7qini3",
-      "seq": 139554,
-      "desc": "The Reds recalled McCambley from Triple-A Louisville on Thursday.",
-      "player": {
-        "name": "Zach McCambley",
-        "posShortNames": "RP,SP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05lb8_96_1.png",
-        "scorerId": "05lb8",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10210",
-      "id": "sibaz56sms7qinfj",
-      "seq": 139553,
-      "desc": "The Reds activated McLain (calf) from the 10-day injured list Thursday.",
-      "player": {
-        "name": "Matt McLain",
-        "posShortNames": "2B",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pks_96_5.png",
-        "scorerId": "04pks",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10190",
-      "id": "kw64reqgms7oxwlt",
-      "seq": 139552,
-      "desc": "The Nationals activated Irvin (shoulder) from the 60-day injured list Thursday.",
-      "player": {
-        "name": "Jake Irvin",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ppz_96_4.png",
-        "scorerId": "04ppz",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785427200000,
-      "teamId": "10140",
-      "id": "3qtp9fbrms7nooxf",
-      "seq": 139550,
-      "desc": "The Rangers recalled Santos from Triple-A Round Rock on Thursday.",
-      "player": {
-        "name": "Winston Santos",
-        "posShortNames": "SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061lj_96_1.png",
-        "scorerId": "061lj",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10110",
-      "id": "o4m1ctdcms7o0w8s",
-      "seq": 139551,
-      "desc": "The Texas Rangers traded INF Angel Arredondo to the Los Angeles Angels.",
-      "player": {
-        "name": "Angel Arredondo",
-        "posShortNames": "3B",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "",
-        "scorerId": "06jfj",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10140",
-      "id": "7fq2yrmfms7mwaf3",
-      "seq": 139549,
-      "desc": "The Rangers acquired Silseth and catcher Logan O'Hoppe from the Angels on Wednesday in exchange for infielder Angel Arredondo, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "Chase Silseth",
-        "posShortNames": "RP,SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xsm_96_3.png",
-        "scorerId": "05xsm",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10140",
-      "id": "3a2aco9bms6zl9zn",
-      "seq": 139548,
-      "desc": "The Los Angeles Angels traded RHP Chase Silseth to the Texas Rangers.",
-      "player": {
-        "name": "Chase Silseth",
-        "posShortNames": "RP,SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xsm_96_3.png",
-        "scorerId": "05xsm",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10140",
-      "id": "ik9map5ums6zl5wn",
-      "seq": 139548,
-      "desc": "The Los Angeles Angels traded C Logan O'Hoppe to the Texas Rangers.",
-      "player": {
-        "name": "Logan O'Hoppe",
-        "posShortNames": "C",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q56_96_3.png",
-        "scorerId": "04q56",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10150",
-      "id": "vfpuhi72ms6x5kau",
-      "seq": 139547,
-      "desc": "Atlanta optioned Smith-Shawver to Triple-A Gwinnett after Wednesday's game against the Mets.",
-      "player": {
-        "name": "AJ Smith-Shawver",
-        "posShortNames": "SP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uy5_96_2.png",
-        "scorerId": "05uy5",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10110",
-      "id": "2xy8hs0ums6vku6q",
-      "seq": 139546,
-      "desc": "The Angels reinstated d'Arnaud (foot) from the injured list Wednesday.",
-      "player": {
-        "name": "Travis d'Arnaud",
-        "posShortNames": "C",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01s99_96_14.png",
-        "scorerId": "01s99",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10280",
-      "id": "82pr744nms6quiuq",
-      "seq": 139545,
-      "desc": "The Dodgers designated Barnes for assignment Wednesday.",
-      "player": {
-        "name": "Charlie Barnes",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eg2_96_3.png",
-        "scorerId": "04eg2",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10280",
-      "id": "m4gc7j10ms6qgbbs",
-      "seq": 139544,
-      "desc": "The Dodgers activated Diaz (elbow) from the 60-day injured list Wednesday.",
-      "player": {
-        "name": "Edwin Diaz",
-        "posShortNames": "RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02my5_96_13.png",
-        "scorerId": "02my5",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10020",
-      "id": "f4yhs03dms6ohd1t",
-      "seq": 139543,
-      "desc": "The Red Sox recalled Sogard from Triple-A Worcester on Wednesday.",
-      "player": {
-        "name": "Nick Sogard",
-        "posShortNames": "1B,3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0519f_96_1.png",
-        "scorerId": "0519f",
-        "posIds": [
-          "002",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10100",
-      "id": "0u82tpnxms6np0f4",
-      "seq": 139542,
-      "desc": "The Twins recalled Gray from Triple-A St. Paul on Wednesday.",
-      "player": {
-        "name": "Tristan Gray",
-        "posShortNames": "2B,3B",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eme_96_4.png",
-        "scorerId": "04eme",
-        "posIds": [
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10200",
-      "id": "z8936q81ms6nasgv",
-      "seq": 139541,
-      "desc": "The Cubs selected Woodford's contract from Triple-A Iowa on Wednesday.",
-      "player": {
-        "name": "Jake Woodford",
-        "posShortNames": "SP,RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pol_96_13.png",
-        "scorerId": "03pol",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10200",
-      "id": "xv1a2f11ms6nase7",
-      "seq": 139540,
-      "desc": "The Cubs designated Wantz for assignment on Wednesday.",
-      "player": {
-        "name": "Andrew Wantz",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04psq_96_4.png",
-        "scorerId": "04psq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10105",
-      "id": "9vov4d9oms6mica2",
-      "seq": 139539,
-      "desc": "The Astros reinstated Wesneski (elbow) from the injured list ahead of his start Wednesday against the Angels.",
-      "player": {
-        "name": "Hayden Wesneski",
-        "posShortNames": "SP,RP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514f_96_2.png",
-        "scorerId": "0514f",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10105",
-      "id": "weo6caahms6m46h5",
-      "seq": 139538,
-      "desc": "The Astros optioned Ullola to Triple-A Sugar Land on Wednesday.",
-      "player": {
-        "name": "Miguel Ullola",
-        "posShortNames": "SP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061xq_96_1.png",
-        "scorerId": "061xq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10190",
-      "id": "ntqsh8jyms6m46g7",
-      "seq": 139537,
-      "desc": "Krook elected to enter free agency Wednesday after declining his outright assignment from the Nationals to Triple-A Rochester.",
-      "player": {
-        "name": "Matt Krook",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0310j_96_2.png",
-        "scorerId": "0310j",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10190",
-      "id": "y7ydoi0jms6m46f1",
-      "seq": 139536,
-      "desc": "The Nationals optioned Schultz to Triple-A Rochester on Wednesday.",
-      "player": {
-        "name": "Paxton Schultz",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051b2_96_1.png",
-        "scorerId": "051b2",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    }
-  ],
-  "mlbTransactions": [
     {
       "displayDate": 1785513600000,
       "teamId": "10100",
@@ -4956,27 +4250,6 @@
     },
     {
       "displayDate": 1785427200000,
-      "teamId": "10100",
-      "id": "siojcgb6ms8ig7lf",
-      "seq": 139561,
-      "desc": "The New York Mets traded LHP A.J. Minter to the Minnesota Twins.",
-      "player": {
-        "name": "A.J. Minter",
-        "posShortNames": "RP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ppa_96_14.png",
-        "scorerId": "03ppa",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785427200000,
       "teamId": "10170",
       "id": "9qrhy5wvms8ig0ry",
       "seq": 139561,
@@ -5000,6 +4273,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10100",
+      "id": "siojcgb6ms8ig7lf",
+      "seq": 139561,
+      "desc": "The New York Mets traded LHP A.J. Minter to the Minnesota Twins.",
+      "player": {
+        "name": "A.J. Minter",
+        "posShortNames": "RP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ppa_96_14.png",
+        "scorerId": "03ppa",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -5215,12 +4509,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5241,12 +4530,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5321,28 +4605,6 @@
     {
       "displayDate": 1785340800000,
       "teamId": "10140",
-      "id": "3a2aco9bms6zl9zn",
-      "seq": 139548,
-      "desc": "The Los Angeles Angels traded RHP Chase Silseth to the Texas Rangers.",
-      "player": {
-        "name": "Chase Silseth",
-        "posShortNames": "RP,SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xsm_96_3.png",
-        "scorerId": "05xsm",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785340800000,
-      "teamId": "10140",
       "id": "ik9map5ums6zl5wn",
       "seq": 139548,
       "desc": "The Los Angeles Angels traded C Logan O'Hoppe to the Texas Rangers.",
@@ -5364,6 +4626,28 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10140",
+      "id": "3a2aco9bms6zl9zn",
+      "seq": 139548,
+      "desc": "The Los Angeles Angels traded RHP Chase Silseth to the Texas Rangers.",
+      "player": {
+        "name": "Chase Silseth",
+        "posShortNames": "RP,SP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xsm_96_3.png",
+        "scorerId": "05xsm",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -5479,12 +4763,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5506,12 +4785,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5630,20 +4904,706 @@
           }
         ]
       }
+    }
+  ],
+  "mlbTransactions": [
+    {
+      "displayDate": 1785513600000,
+      "teamId": "10170",
+      "id": "suwanlybms8z2ywa",
+      "seq": 139562,
+      "desc": "The Mets optioned Pintaro to Triple-A Syracuse on Thursday.",
+      "player": {
+        "name": "Jonathan Pintaro",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qcs_96_1.png",
+        "scorerId": "06qcs",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785513600000,
+      "teamId": "10100",
+      "id": "fjhvcyqrms8fcljj",
+      "seq": 139560,
+      "desc": "The Mets acquired Amick and Bruin Agbayani from the Twins on Thursday in exchange for A.J. Minter, Will Sammon of The Athletic reports.",
+      "player": {
+        "name": "Billy Amick",
+        "posShortNames": "1B,3B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "",
+        "scorerId": "06cgg",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10170",
+      "id": "9qrhy5wvms8ig0ry",
+      "seq": 139561,
+      "desc": "The Minnesota Twins traded INF Billy Amick to the New York Mets.",
+      "player": {
+        "name": "Billy Amick",
+        "posShortNames": "1B,3B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "",
+        "scorerId": "06cgg",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10100",
+      "id": "siojcgb6ms8ig7lf",
+      "seq": 139561,
+      "desc": "The New York Mets traded LHP A.J. Minter to the Minnesota Twins.",
+      "player": {
+        "name": "A.J. Minter",
+        "posShortNames": "RP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ppa_96_14.png",
+        "scorerId": "03ppa",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10170",
+      "id": "mctv61d3ms8igald",
+      "seq": 139561,
+      "desc": "The Minnesota Twins traded INF Bruin Agbayani to the New York Mets.",
+      "player": {
+        "name": "Bruin Agbayani",
+        "posShortNames": "2B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "",
+        "scorerId": "06zgv",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10100",
+      "id": "lh65ib8kms8eyfqb",
+      "seq": 139559,
+      "desc": "The Twins acquired Minter from the Mets on Thursday in exchange for Bruin Agbayani and Billy Amick, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "A.J. Minter",
+        "posShortNames": "RP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ppa_96_14.png",
+        "scorerId": "03ppa",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10080",
+      "id": "ibvxri40ms813dqm",
+      "seq": 139558,
+      "desc": "The Baltimore Orioles traded RHP Zane Barnhart to the Detroit Tigers.",
+      "player": {
+        "name": "Zane Barnhart",
+        "posShortNames": "RP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "",
+        "scorerId": "06hpr",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10010",
+      "id": "id64qhj3ms813dd3",
+      "seq": 139558,
+      "desc": "The Detroit Tigers traded C Jake Rogers to the Baltimore Orioles.",
+      "player": {
+        "name": "Jake Rogers",
+        "posShortNames": "C",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03av1_96_12.png",
+        "scorerId": "03av1",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10150",
+      "id": "1tetzqq2ms7u2e9g",
+      "seq": 139557,
+      "desc": "The Athletics claimed Thomas off waivers from Atlanta on Thursday.",
+      "player": {
+        "name": "Connor Thomas",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0513x_96_1.png",
+        "scorerId": "0513x",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10210",
+      "id": "98v3l1frms7qwui9",
+      "seq": 139556,
+      "desc": "The Reds optioned Petty to Triple-A Louisville on Thursday.",
+      "player": {
+        "name": "Chase Petty",
+        "posShortNames": "SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05raz_96_1.png",
+        "scorerId": "05raz",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10210",
+      "id": "0mj0ndcums7qwufm",
+      "seq": 139555,
+      "desc": "The Reds optioned Arroyo to Triple-A Louisville on Thursday.",
+      "player": {
+        "name": "Edwin Arroyo",
+        "posShortNames": "SS,2B",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05rcj_96_1.png",
+        "scorerId": "05rcj",
+        "posIds": [
+          "005",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10210",
+      "id": "wdei4nqtms7qini3",
+      "seq": 139554,
+      "desc": "The Reds recalled McCambley from Triple-A Louisville on Thursday.",
+      "player": {
+        "name": "Zach McCambley",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05lb8_96_1.png",
+        "scorerId": "05lb8",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10210",
+      "id": "sibaz56sms7qinfj",
+      "seq": 139553,
+      "desc": "The Reds activated McLain (calf) from the 10-day injured list Thursday.",
+      "player": {
+        "name": "Matt McLain",
+        "posShortNames": "2B",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pks_96_5.png",
+        "scorerId": "04pks",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10190",
+      "id": "kw64reqgms7oxwlt",
+      "seq": 139552,
+      "desc": "The Nationals activated Irvin (shoulder) from the 60-day injured list Thursday.",
+      "player": {
+        "name": "Jake Irvin",
+        "posShortNames": "SP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ppz_96_4.png",
+        "scorerId": "04ppz",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785427200000,
+      "teamId": "10140",
+      "id": "3qtp9fbrms7nooxf",
+      "seq": 139550,
+      "desc": "The Rangers recalled Santos from Triple-A Round Rock on Thursday.",
+      "player": {
+        "name": "Winston Santos",
+        "posShortNames": "SP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061lj_96_1.png",
+        "scorerId": "061lj",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10110",
+      "id": "o4m1ctdcms7o0w8s",
+      "seq": 139551,
+      "desc": "The Texas Rangers traded INF Angel Arredondo to the Los Angeles Angels.",
+      "player": {
+        "name": "Angel Arredondo",
+        "posShortNames": "3B",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "",
+        "scorerId": "06jfj",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10140",
+      "id": "7fq2yrmfms7mwaf3",
+      "seq": 139549,
+      "desc": "The Rangers acquired Silseth and catcher Logan O'Hoppe from the Angels on Wednesday in exchange for infielder Angel Arredondo, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Chase Silseth",
+        "posShortNames": "RP,SP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xsm_96_3.png",
+        "scorerId": "05xsm",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10140",
+      "id": "ik9map5ums6zl5wn",
+      "seq": 139548,
+      "desc": "The Los Angeles Angels traded C Logan O'Hoppe to the Texas Rangers.",
+      "player": {
+        "name": "Logan O'Hoppe",
+        "posShortNames": "C",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q56_96_3.png",
+        "scorerId": "04q56",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10140",
+      "id": "3a2aco9bms6zl9zn",
+      "seq": 139548,
+      "desc": "The Los Angeles Angels traded RHP Chase Silseth to the Texas Rangers.",
+      "player": {
+        "name": "Chase Silseth",
+        "posShortNames": "RP,SP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xsm_96_3.png",
+        "scorerId": "05xsm",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10150",
+      "id": "vfpuhi72ms6x5kau",
+      "seq": 139547,
+      "desc": "Atlanta optioned Smith-Shawver to Triple-A Gwinnett after Wednesday's game against the Mets.",
+      "player": {
+        "name": "AJ Smith-Shawver",
+        "posShortNames": "SP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uy5_96_2.png",
+        "scorerId": "05uy5",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10110",
+      "id": "2xy8hs0ums6vku6q",
+      "seq": 139546,
+      "desc": "The Angels reinstated d'Arnaud (foot) from the injured list Wednesday.",
+      "player": {
+        "name": "Travis d'Arnaud",
+        "posShortNames": "C",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01s99_96_14.png",
+        "scorerId": "01s99",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10280",
+      "id": "82pr744nms6quiuq",
+      "seq": 139545,
+      "desc": "The Dodgers designated Barnes for assignment Wednesday.",
+      "player": {
+        "name": "Charlie Barnes",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eg2_96_3.png",
+        "scorerId": "04eg2",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10280",
+      "id": "m4gc7j10ms6qgbbs",
+      "seq": 139544,
+      "desc": "The Dodgers activated Diaz (elbow) from the 60-day injured list Wednesday.",
+      "player": {
+        "name": "Edwin Diaz",
+        "posShortNames": "RP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02my5_96_13.png",
+        "scorerId": "02my5",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10020",
+      "id": "f4yhs03dms6ohd1t",
+      "seq": 139543,
+      "desc": "The Red Sox recalled Sogard from Triple-A Worcester on Wednesday.",
+      "player": {
+        "name": "Nick Sogard",
+        "posShortNames": "1B,3B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0519f_96_1.png",
+        "scorerId": "0519f",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10100",
+      "id": "0u82tpnxms6np0f4",
+      "seq": 139542,
+      "desc": "The Twins recalled Gray from Triple-A St. Paul on Wednesday.",
+      "player": {
+        "name": "Tristan Gray",
+        "posShortNames": "2B,3B",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eme_96_4.png",
+        "scorerId": "04eme",
+        "posIds": [
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10200",
+      "id": "z8936q81ms6nasgv",
+      "seq": 139541,
+      "desc": "The Cubs selected Woodford's contract from Triple-A Iowa on Wednesday.",
+      "player": {
+        "name": "Jake Woodford",
+        "posShortNames": "SP,RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pol_96_13.png",
+        "scorerId": "03pol",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10200",
+      "id": "xv1a2f11ms6nase7",
+      "seq": 139540,
+      "desc": "The Cubs designated Wantz for assignment on Wednesday.",
+      "player": {
+        "name": "Andrew Wantz",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04psq_96_4.png",
+        "scorerId": "04psq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10105",
+      "id": "9vov4d9oms6mica2",
+      "seq": 139539,
+      "desc": "The Astros reinstated Wesneski (elbow) from the injured list ahead of his start Wednesday against the Angels.",
+      "player": {
+        "name": "Hayden Wesneski",
+        "posShortNames": "SP,RP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514f_96_2.png",
+        "scorerId": "0514f",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785340800000,
+      "teamId": "10105",
+      "id": "weo6caahms6m46h5",
+      "seq": 139538,
+      "desc": "The Astros optioned Ullola to Triple-A Sugar Land on Wednesday.",
+      "player": {
+        "name": "Miguel Ullola",
+        "posShortNames": "SP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061xq_96_1.png",
+        "scorerId": "061xq",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
     },
     {
       "displayDate": 1785340800000,
       "teamId": "10190",
-      "id": "y7ydoi0jms6m46f1",
-      "seq": 139536,
-      "desc": "The Nationals optioned Schultz to Triple-A Rochester on Wednesday.",
+      "id": "ntqsh8jyms6m46g7",
+      "seq": 139537,
+      "desc": "Krook elected to enter free agency Wednesday after declining his outright assignment from the Nationals to Triple-A Rochester.",
       "player": {
-        "name": "Paxton Schultz",
+        "name": "Matt Krook",
         "posShortNames": "RP",
         "teamShortName": "WSH",
         "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051b2_96_1.png",
-        "scorerId": "051b2",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0310j_96_2.png",
+        "scorerId": "0310j",
         "posIds": [
           "016"
         ],
