@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T13:06:09.522370Z",
+  "lastUpdated": "2026-08-01T19:00:09.485316Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,325 @@
   },
   "transactions": [
     {
+      "displayDate": 1785600000000,
+      "teamId": "10100",
+      "id": "ima071srmsaoa0m1",
+      "seq": 139609,
+      "desc": "The Twins reinstated Acton (shoulder) from the 60-day injured list Saturday and optioned him to Triple-A St. Paul, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Garrett Acton",
+        "posShortNames": "RP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ybh_96_1.png",
+        "scorerId": "05ybh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10100",
+      "id": "1m7u3cvtmsanvtdd",
+      "seq": 139608,
+      "desc": "The Twins optioned Matthews to Triple-A St. Paul on Saturday, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Zebby Matthews",
+        "posShortNames": "SP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066cf_96_2.png",
+        "scorerId": "066cf",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10170",
+      "id": "9krykq1nmsanhoe9",
+      "seq": 139607,
+      "desc": "The Mets selected Herget's contract from Triple-A Syracuse on Saturday.",
+      "player": {
+        "name": "Kevin Herget",
+        "posShortNames": "RP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03at0_96_1.png",
+        "scorerId": "03at0",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10170",
+      "id": "55yko7i1msanhoax",
+      "seq": 139606,
+      "desc": "The Mets optioned Curry to Triple-A Syracuse on Saturday.",
+      "player": {
+        "name": "Xzavion Curry",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515h_96_2.png",
+        "scorerId": "0515h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10150",
+      "id": "vpwtgy9mmsalwvze",
+      "seq": 139605,
+      "desc": "Atlanta designated Hernandez for assignment Saturday.",
+      "player": {
+        "name": "Elieser Hernandez",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yx9_96_11.png",
+        "scorerId": "03yx9",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10150",
+      "id": "7xv1zfinmsalinmb",
+      "seq": 139604,
+      "desc": "Atlanta recalled Karinchak from Triple-A Gwinnett on Saturday.",
+      "player": {
+        "name": "James Karinchak",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejp_96_8.png",
+        "scorerId": "04ejp",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10250",
+      "id": "zfp9fwx5msal4hsy",
+      "seq": 139603,
+      "desc": "The Cardinals optioned Svanson to Triple-A Memphis on Saturday.",
+      "player": {
+        "name": "Matt Svanson",
+        "posShortNames": "RP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06elo_96_2.png",
+        "scorerId": "06elo",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10250",
+      "id": "2fvi8gjemsakqa51",
+      "seq": 139602,
+      "desc": "The Cardinals designated Hence for assignment Saturday.",
+      "player": {
+        "name": "Tink Hence",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jpx_96_1.png",
+        "scorerId": "05jpx",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10250",
+      "id": "vhbimegsmsakqa2f",
+      "seq": 139601,
+      "desc": "The Cardinals selected Mathews' contract from Triple-A Memphis on Saturday.",
+      "player": {
+        "name": "Quinn Mathews",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060gd_96_1.png",
+        "scorerId": "060gd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10230",
+      "id": "99cwkmm2msaig1e2",
+      "seq": 139600,
+      "desc": "The Cleveland Guardians traded C Bo Naylor to the Milwaukee Brewers.",
+      "player": {
+        "name": "Bo Naylor",
+        "posShortNames": "C",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mrn_96_5.png",
+        "scorerId": "04mrn",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10070",
+      "id": "sowv6jabmsaig1nc",
+      "seq": 139600,
+      "desc": "The Milwaukee Brewers traded RHP Craig Yoho to the Cleveland Guardians.",
+      "player": {
+        "name": "Craig Yoho",
+        "posShortNames": "SP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06fzq_96_1.png",
+        "scorerId": "06fzq",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10230",
+      "id": "d2urozrmmsaig1wl",
+      "seq": 139600,
+      "desc": "The Cleveland Guardians traded RHP Codi Heuer to the Milwaukee Brewers.",
+      "player": {
+        "name": "Codi Heuer",
+        "posShortNames": "RP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04prq_96_7.png",
+        "scorerId": "04prq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10070",
+      "id": "cmuaslhimsaig22b",
+      "seq": 139600,
+      "desc": "The Milwaukee Brewers traded OF Blake Perkins to the Cleveland Guardians.",
+      "player": {
+        "name": "Blake Perkins",
+        "posShortNames": "CF,LF",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pp5_96_4.png",
+        "scorerId": "03pp5",
+        "posIds": [
+          "010",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1785513600000,
       "teamId": "10010",
       "id": "smraswqrms9zbjsf",
@@ -4309,7 +4628,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4600,318 +4924,330 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10140",
-      "id": "geq8awa0ms9d9jvy",
-      "seq": 139582,
-      "desc": "The Rangers recalled Curvelo from Triple-A Round Rock on Friday.",
-      "player": {
-        "name": "Luis Curvelo",
-        "posShortNames": "RP,SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ymh_96_1.png",
-        "scorerId": "05ymh",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10140",
-      "id": "dw4f0hcxms9d9jui",
-      "seq": 139581,
-      "desc": "The Rangers optioned Santos to Triple-A Round Rock on Friday.",
-      "player": {
-        "name": "Winston Santos",
-        "posShortNames": "SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061lj_96_1.png",
-        "scorerId": "061lj",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10140",
-      "id": "3lghfwknms9d9jsr",
-      "seq": 139580,
-      "desc": "The Rangers designated Gonzales for assignment Friday.",
-      "player": {
-        "name": "Marco Gonzales",
-        "posShortNames": "SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03111_96_15.png",
-        "scorerId": "03111",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10140",
-      "id": "hcacadhoms9d9jq2",
-      "seq": 139579,
-      "desc": "The Rangers reinstated Seager from the 10-day injured list Friday.",
-      "player": {
-        "name": "Corey Seager",
-        "posShortNames": "SS",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02mw6_96_16.png",
-        "scorerId": "02mw6",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10110",
-      "id": "brwj84k0ms9cvcim",
-      "seq": 139578,
-      "desc": "The Angels selected Murphy's contract from Double-A Rocket City on Friday.",
-      "player": {
-        "name": "Luke Murphy",
-        "posShortNames": "RP",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "",
-        "scorerId": "05wbc",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10240",
-      "id": "ajt3p6y5ms9ch3hx",
-      "seq": 139577,
-      "desc": "The Pirates recalled Kelly from Triple-A Indianapolis on Friday, Jason Mackey of MLB.com reports.",
-      "player": {
-        "name": "Antwone Kelly",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bpq_96_1.png",
-        "scorerId": "06bpq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10180",
-      "id": "0tjgia55ms9ch3gl",
-      "seq": 139576,
-      "desc": "The Phillies optioned Keller to Triple-A Lehigh Valley on Friday.",
-      "player": {
-        "name": "Brian Keller",
-        "posShortNames": "SP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "",
-        "scorerId": "04aqf",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10240",
-      "id": "uptp3fg5ms9ch3f7",
-      "seq": 139575,
-      "desc": "The Pirates optioned Barco to Triple-A Indianapolis on Friday, Jason Mackey of MLB.com reports.",
-      "player": {
-        "name": "Hunter Barco",
-        "posShortNames": "RP,SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04nb5_96_1.png",
-        "scorerId": "04nb5",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10180",
-      "id": "3d7jj8x2ms9ch3cn",
-      "seq": 139574,
-      "desc": "The Phillies recalled Painter from Triple-A Lehigh Valley on Friday.",
-      "player": {
-        "name": "Andrew Painter",
-        "posShortNames": "SP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05r3i_96_2.png",
-        "scorerId": "05r3i",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10050",
-      "id": "fig1k50oms9c2wlp",
-      "seq": 139573,
-      "desc": "The Blue Jays activated Fisher from the bereavement list Friday, Keegan Matheson of MLB.com reports.",
-      "player": {
-        "name": "Braydon Fisher",
-        "posShortNames": "RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqo_96_2.png",
-        "scorerId": "04pqo",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10050",
-      "id": "f7weqld6ms9c2wkb",
-      "seq": 139572,
-      "desc": "The Blue Jays optioned Pinango to Triple-A Buffalo on Friday.",
-      "player": {
-        "name": "Yohendrick Pinango",
-        "posShortNames": "LF,RF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04z8z_96_1.png",
-        "scorerId": "04z8z",
-        "posIds": [
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10050",
-      "id": "ipoahj6yms9c2wiq",
-      "seq": 139571,
-      "desc": "The Blue Jays optioned Macko to Triple-A Buffalo on Friday, Keegan Matheson of MLB.com reports.",
-      "player": {
-        "name": "Adam Macko",
-        "posShortNames": "SP,RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515q_96_1.png",
-        "scorerId": "0515q",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10050",
-      "id": "czqfd58nms9c2wfy",
-      "seq": 139570,
-      "desc": "The Blue Jays reinstated Sanchez (ankle) from the IL Friday, Shi Davidi of Sportsnet.ca reports.",
-      "player": {
-        "name": "Jesus Sanchez",
-        "posShortNames": "RF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nru_96_11.png",
-        "scorerId": "03nru",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1785600000000,
+      "teamId": "10100",
+      "id": "ima071srmsaoa0m1",
+      "seq": 139609,
+      "desc": "The Twins reinstated Acton (shoulder) from the 60-day injured list Saturday and optioned him to Triple-A St. Paul, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Garrett Acton",
+        "posShortNames": "RP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ybh_96_1.png",
+        "scorerId": "05ybh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10100",
+      "id": "1m7u3cvtmsanvtdd",
+      "seq": 139608,
+      "desc": "The Twins optioned Matthews to Triple-A St. Paul on Saturday, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Zebby Matthews",
+        "posShortNames": "SP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066cf_96_2.png",
+        "scorerId": "066cf",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10170",
+      "id": "9krykq1nmsanhoe9",
+      "seq": 139607,
+      "desc": "The Mets selected Herget's contract from Triple-A Syracuse on Saturday.",
+      "player": {
+        "name": "Kevin Herget",
+        "posShortNames": "RP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03at0_96_1.png",
+        "scorerId": "03at0",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10170",
+      "id": "55yko7i1msanhoax",
+      "seq": 139606,
+      "desc": "The Mets optioned Curry to Triple-A Syracuse on Saturday.",
+      "player": {
+        "name": "Xzavion Curry",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515h_96_2.png",
+        "scorerId": "0515h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10150",
+      "id": "vpwtgy9mmsalwvze",
+      "seq": 139605,
+      "desc": "Atlanta designated Hernandez for assignment Saturday.",
+      "player": {
+        "name": "Elieser Hernandez",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yx9_96_11.png",
+        "scorerId": "03yx9",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10150",
+      "id": "7xv1zfinmsalinmb",
+      "seq": 139604,
+      "desc": "Atlanta recalled Karinchak from Triple-A Gwinnett on Saturday.",
+      "player": {
+        "name": "James Karinchak",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejp_96_8.png",
+        "scorerId": "04ejp",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10250",
+      "id": "zfp9fwx5msal4hsy",
+      "seq": 139603,
+      "desc": "The Cardinals optioned Svanson to Triple-A Memphis on Saturday.",
+      "player": {
+        "name": "Matt Svanson",
+        "posShortNames": "RP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06elo_96_2.png",
+        "scorerId": "06elo",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10250",
+      "id": "2fvi8gjemsakqa51",
+      "seq": 139602,
+      "desc": "The Cardinals designated Hence for assignment Saturday.",
+      "player": {
+        "name": "Tink Hence",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jpx_96_1.png",
+        "scorerId": "05jpx",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10250",
+      "id": "vhbimegsmsakqa2f",
+      "seq": 139601,
+      "desc": "The Cardinals selected Mathews' contract from Triple-A Memphis on Saturday.",
+      "player": {
+        "name": "Quinn Mathews",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060gd_96_1.png",
+        "scorerId": "060gd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10230",
+      "id": "99cwkmm2msaig1e2",
+      "seq": 139600,
+      "desc": "The Cleveland Guardians traded C Bo Naylor to the Milwaukee Brewers.",
+      "player": {
+        "name": "Bo Naylor",
+        "posShortNames": "C",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mrn_96_5.png",
+        "scorerId": "04mrn",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10070",
+      "id": "sowv6jabmsaig1nc",
+      "seq": 139600,
+      "desc": "The Milwaukee Brewers traded RHP Craig Yoho to the Cleveland Guardians.",
+      "player": {
+        "name": "Craig Yoho",
+        "posShortNames": "SP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06fzq_96_1.png",
+        "scorerId": "06fzq",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10230",
+      "id": "d2urozrmmsaig1wl",
+      "seq": 139600,
+      "desc": "The Cleveland Guardians traded RHP Codi Heuer to the Milwaukee Brewers.",
+      "player": {
+        "name": "Codi Heuer",
+        "posShortNames": "RP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04prq_96_7.png",
+        "scorerId": "04prq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785600000000,
+      "teamId": "10070",
+      "id": "cmuaslhimsaig22b",
+      "seq": 139600,
+      "desc": "The Milwaukee Brewers traded OF Blake Perkins to the Cleveland Guardians.",
+      "player": {
+        "name": "Blake Perkins",
+        "posShortNames": "CF,LF",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pp5_96_4.png",
+        "scorerId": "03pp5",
+        "posIds": [
+          "010",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1785513600000,
       "teamId": "10010",
       "id": "smraswqrms9zbjsf",
@@ -5025,7 +5361,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5316,313 +5657,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10140",
-      "id": "geq8awa0ms9d9jvy",
-      "seq": 139582,
-      "desc": "The Rangers recalled Curvelo from Triple-A Round Rock on Friday.",
-      "player": {
-        "name": "Luis Curvelo",
-        "posShortNames": "RP,SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ymh_96_1.png",
-        "scorerId": "05ymh",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10140",
-      "id": "dw4f0hcxms9d9jui",
-      "seq": 139581,
-      "desc": "The Rangers optioned Santos to Triple-A Round Rock on Friday.",
-      "player": {
-        "name": "Winston Santos",
-        "posShortNames": "SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061lj_96_1.png",
-        "scorerId": "061lj",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10140",
-      "id": "3lghfwknms9d9jsr",
-      "seq": 139580,
-      "desc": "The Rangers designated Gonzales for assignment Friday.",
-      "player": {
-        "name": "Marco Gonzales",
-        "posShortNames": "SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03111_96_15.png",
-        "scorerId": "03111",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10140",
-      "id": "hcacadhoms9d9jq2",
-      "seq": 139579,
-      "desc": "The Rangers reinstated Seager from the 10-day injured list Friday.",
-      "player": {
-        "name": "Corey Seager",
-        "posShortNames": "SS",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02mw6_96_16.png",
-        "scorerId": "02mw6",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10110",
-      "id": "brwj84k0ms9cvcim",
-      "seq": 139578,
-      "desc": "The Angels selected Murphy's contract from Double-A Rocket City on Friday.",
-      "player": {
-        "name": "Luke Murphy",
-        "posShortNames": "RP",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "",
-        "scorerId": "05wbc",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10240",
-      "id": "ajt3p6y5ms9ch3hx",
-      "seq": 139577,
-      "desc": "The Pirates recalled Kelly from Triple-A Indianapolis on Friday, Jason Mackey of MLB.com reports.",
-      "player": {
-        "name": "Antwone Kelly",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bpq_96_1.png",
-        "scorerId": "06bpq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10180",
-      "id": "0tjgia55ms9ch3gl",
-      "seq": 139576,
-      "desc": "The Phillies optioned Keller to Triple-A Lehigh Valley on Friday.",
-      "player": {
-        "name": "Brian Keller",
-        "posShortNames": "SP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "",
-        "scorerId": "04aqf",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10240",
-      "id": "uptp3fg5ms9ch3f7",
-      "seq": 139575,
-      "desc": "The Pirates optioned Barco to Triple-A Indianapolis on Friday, Jason Mackey of MLB.com reports.",
-      "player": {
-        "name": "Hunter Barco",
-        "posShortNames": "RP,SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04nb5_96_1.png",
-        "scorerId": "04nb5",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10180",
-      "id": "3d7jj8x2ms9ch3cn",
-      "seq": 139574,
-      "desc": "The Phillies recalled Painter from Triple-A Lehigh Valley on Friday.",
-      "player": {
-        "name": "Andrew Painter",
-        "posShortNames": "SP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05r3i_96_2.png",
-        "scorerId": "05r3i",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10050",
-      "id": "fig1k50oms9c2wlp",
-      "seq": 139573,
-      "desc": "The Blue Jays activated Fisher from the bereavement list Friday, Keegan Matheson of MLB.com reports.",
-      "player": {
-        "name": "Braydon Fisher",
-        "posShortNames": "RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqo_96_2.png",
-        "scorerId": "04pqo",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10050",
-      "id": "f7weqld6ms9c2wkb",
-      "seq": 139572,
-      "desc": "The Blue Jays optioned Pinango to Triple-A Buffalo on Friday.",
-      "player": {
-        "name": "Yohendrick Pinango",
-        "posShortNames": "LF,RF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04z8z_96_1.png",
-        "scorerId": "04z8z",
-        "posIds": [
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10050",
-      "id": "ipoahj6yms9c2wiq",
-      "seq": 139571,
-      "desc": "The Blue Jays optioned Macko to Triple-A Buffalo on Friday, Keegan Matheson of MLB.com reports.",
-      "player": {
-        "name": "Adam Macko",
-        "posShortNames": "SP,RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515q_96_1.png",
-        "scorerId": "0515q",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785513600000,
-      "teamId": "10050",
-      "id": "czqfd58nms9c2wfy",
-      "seq": 139570,
-      "desc": "The Blue Jays reinstated Sanchez (ankle) from the IL Friday, Shi Davidi of Sportsnet.ca reports.",
-      "player": {
-        "name": "Jesus Sanchez",
-        "posShortNames": "RF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nru_96_11.png",
-        "scorerId": "03nru",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
