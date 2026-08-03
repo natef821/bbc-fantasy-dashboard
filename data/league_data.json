@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T14:26:03.730283Z",
+  "lastUpdated": "2026-08-03T19:23:10.672618Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,17 +4197,17 @@
   "transactions": [
     {
       "displayDate": 1785772800000,
-      "teamId": "10180",
-      "id": "flrp37otmsdbcak2",
-      "seq": 139689,
-      "desc": "The Giants acquired Marquez and right-hander Marty Gair from the Phillies on Monday in exchange for infielder Luis Arraez and right-hander Caleb Kilian, Mark Feinsand of MLB.com reports.",
+      "teamId": "10010",
+      "id": "7gjfvcf1msdm9mfu",
+      "seq": 139717,
+      "desc": "The Boston Red Sox traded RHP Kyson Witherspoon to the Baltimore Orioles.",
       "player": {
-        "name": "Ramon Marquez",
+        "name": "Kyson Witherspoon",
         "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
         "headshotUrl": "",
-        "scorerId": "06y0k",
+        "scorerId": "06ms5",
         "posIds": [
           "015"
         ],
@@ -4223,38 +4223,17 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10050",
-      "id": "7x5v06n7msdaya5e",
-      "seq": 139688,
-      "desc": "The Los Angeles Angels traded RHP Jos\u00e9 Soriano to the Toronto Blue Jays.",
+      "teamId": "10300",
+      "id": "aebtavi1msdm9pxh",
+      "seq": 139717,
+      "desc": "The San Diego Padres traded INF Joniel Hernandez to the San Francisco Giants.",
       "player": {
-        "name": "Jose Soriano",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04c0o_96_7.png",
-        "scorerId": "04c0o",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785772800000,
-      "teamId": "10110",
-      "id": "zgm0ir8bmsday95m",
-      "seq": 139688,
-      "desc": "The Toronto Blue Jays traded INF Arjun Nimmala to the Los Angeles Angels.",
-      "player": {
-        "name": "Arjun Nimmala",
+        "name": "Joniel Hernandez",
         "posShortNames": "SS",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
         "headshotUrl": "",
-        "scorerId": "05y3p",
+        "scorerId": "072hf",
         "posIds": [
           "005"
         ],
@@ -4270,20 +4249,19 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10110",
-      "id": "rqsayqxzmsday861",
-      "seq": 139688,
-      "desc": "The Toronto Blue Jays traded OF Eddie Micheletti to the Los Angeles Angels.",
+      "teamId": "10160",
+      "id": "18fh7p5lmsdm9l7l",
+      "seq": 139717,
+      "desc": "The Chicago Cubs traded RHP Jace Beck to the Miami Marlins.",
       "player": {
-        "name": "Eddie Micheletti Jr.",
-        "posShortNames": "RF,LF",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
+        "name": "Jace Beck",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
         "headshotUrl": "",
-        "scorerId": "06pid",
+        "scorerId": "051gy",
         "posIds": [
-          "011",
-          "009"
+          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4297,20 +4275,19 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10300",
-      "id": "a0d8y3nlmsday3j3",
-      "seq": 139687,
-      "desc": "The Phillies acquired Arraez and right-hander Caleb Kilian from the Giants on Monday in exchange for right-handers Ramon Marquez and Marty Gair, Mark Feinsand of MLB.com reports.",
+      "teamId": "10020",
+      "id": "oyninarsmsdm9tc4",
+      "seq": 139717,
+      "desc": "The Baltimore Orioles traded C Jake Rogers to the Boston Red Sox.",
       "player": {
-        "name": "Luis Arraez",
-        "posShortNames": "1B,2B",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03mew_96_10.png",
-        "scorerId": "03mew",
+        "name": "Jake Rogers",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03av1_96_12.png",
+        "scorerId": "03av1",
         "posIds": [
-          "002",
-          "003"
+          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4319,17 +4296,17 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10050",
-      "id": "4nqrshjcmsdakt95",
-      "seq": 139686,
-      "desc": "The Angels acquired Nimmala, Eddie Micheletti and Angel Rivero from the Blue Jays on Monday in exchange for Jose Soriano, Jeff Passan of ESPN.com reports.",
+      "teamId": "10170",
+      "id": "32644t34msdm9i0f",
+      "seq": 139717,
+      "desc": "The Pittsburgh Pirates traded INF Sammy Stafura to the New York Mets.",
       "player": {
-        "name": "Arjun Nimmala",
+        "name": "Sammy Stafura",
         "posShortNames": "SS",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
         "headshotUrl": "",
-        "scorerId": "05y3p",
+        "scorerId": "06c1m",
         "posIds": [
           "005"
         ],
@@ -4345,90 +4322,43 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10170",
-      "id": "kd82yv8cmsdaeo1j",
-      "seq": 139685,
-      "desc": "The Chicago White Sox traded RHP Zach Franklin to the New York Mets.",
+      "teamId": "10200",
+      "id": "yb2prbhumsdm9vep",
+      "seq": 139717,
+      "desc": "The Miami Marlins traded LHP Braxton Garrett to the Chicago Cubs.",
       "player": {
-        "name": "Zach Franklin",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06giw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785772800000,
-      "teamId": "10170",
-      "id": "dsvsuowwmsdaentg",
-      "seq": 139685,
-      "desc": "The Chicago White Sox traded RHP Gabe Davis to the New York Mets.",
-      "player": {
-        "name": "Gabe Davis",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06mwe",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785772800000,
-      "teamId": "10060",
-      "id": "yd4yrhfmmsdaeo8g",
-      "seq": 139685,
-      "desc": "The New York Mets traded RHP Huascar Brazob\u00e1n to the Chicago White Sox.",
-      "player": {
-        "name": "Huascar Brazoban",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060ml_96_3.png",
-        "scorerId": "060ml",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785772800000,
-      "teamId": "10110",
-      "id": "9zd337ozmsda6m68",
-      "seq": 139684,
-      "desc": "The Blue Jays acquired Soriano from the Angels on Monday in exchange for infielder Arjun Nimmala, outfielder Eddie Micheletti and right-hander Angel Rivero, Mark Feinsand and Jonathan Mayo of MLB.com report.",
-      "player": {
-        "name": "Jose Soriano",
+        "name": "Braxton Garrett",
         "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04c0o_96_7.png",
-        "scorerId": "04c0o",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041e3_96_9.png",
+        "scorerId": "041e3",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10230",
+      "id": "nmzj3lccmsdm9mlf",
+      "seq": 139717,
+      "desc": "The St. Louis Cardinals traded RHP Dustin May to the Milwaukee Brewers.",
+      "player": {
+        "name": "Dustin May",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041r5_96_10.png",
+        "scorerId": "041r5",
         "posIds": [
           "015"
         ],
@@ -4439,17 +4369,69 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10060",
-      "id": "ha603xlxmsd8lsxi",
-      "seq": 139682,
-      "desc": "The Mets acquired Franklin and right-hander Gabe Davis from the White Sox on Monday in exchange for right-hander Huascar Brazoban, Ken Rosenthal of The Athletic reports.",
+      "teamId": "10280",
+      "id": "qtkgjkpkmsdm9oz7",
+      "seq": 139717,
+      "desc": "The Kansas City Royals traded LHP Kris Bubic to the Los Angeles Dodgers.",
       "player": {
-        "name": "Zach Franklin",
+        "name": "Kris Bubic",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmb_96_9.png",
+        "scorerId": "04pmb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 60-day IL - Shoulder",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10020",
+      "id": "m7q2gsj2msdm9tt4",
+      "seq": 139717,
+      "desc": "The Baltimore Orioles traded C Adley Rutschman to the Boston Red Sox.",
+      "player": {
+        "name": "Adley Rutschman",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q2n_96_9.png",
+        "scorerId": "04q2n",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 10-day IL - Wrist",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10230",
+      "id": "l9wixsflmsdm9k45",
+      "seq": 139717,
+      "desc": "The St. Louis Cardinals traded LHP JoJo Romero to the Milwaukee Brewers.",
+      "player": {
+        "name": "JoJo Romero",
         "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06giw",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rj_96_9.png",
+        "scorerId": "041rj",
         "posIds": [
           "016"
         ],
@@ -4457,53 +4439,69 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
+            "tooltip": "Injured List - 15-day IL - Abdomen",
+            "typeId": "2"
           }
         ]
       }
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10060",
-      "id": "9v1ei00jmsd7f7xd",
-      "seq": 139681,
-      "desc": "The Mets acquired Davis and right-hander Zach Franklin from the White Sox on Monday in exchange for right-hander Huascar Brazoban, Ken Rosenthal of The Athletic reports.",
+      "teamId": "10240",
+      "id": "7w31vtxgmsdm9kub",
+      "seq": 139717,
+      "desc": "The New York Mets traded RHP Luke Weaver to the Pittsburgh Pirates.",
       "player": {
-        "name": "Gabe Davis",
+        "name": "Luke Weaver",
         "posShortNames": "RP",
         "teamShortName": "NYM",
         "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06mwe",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02c5l_96_15.png",
+        "scorerId": "02c5l",
         "posIds": [
           "016"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10170",
-      "id": "bl8e51qdmsd7f7vo",
-      "seq": 139680,
-      "desc": "The White Sox acquired Brazoban from the Mets on Monday in exchange for right-handers Zach Franklin and Gabe Davis, Ken Rosenthal of The Athletic reports.",
+      "teamId": "10290",
+      "id": "nvd396dpmsdm9tzz",
+      "seq": 139717,
+      "desc": "The San Francisco Giants traded LHP Robbie Ray to the San Diego Padres.",
       "player": {
-        "name": "Huascar Brazoban",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060ml_96_3.png",
-        "scorerId": "060ml",
+        "name": "Robbie Ray",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs025j1_96_16.png",
+        "scorerId": "025j1",
         "posIds": [
-          "016"
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10010",
+      "id": "z0prtbqqmsdm9ka8",
+      "seq": 139717,
+      "desc": "The Boston Red Sox traded C Carlos Narv\u00e1ez to the Baltimore Orioles.",
+      "player": {
+        "name": "Carlos Narvaez",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs048tn_96_3.png",
+        "scorerId": "048tn",
+        "posIds": [
+          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4513,16 +4511,16 @@
     {
       "displayDate": 1785772800000,
       "teamId": "10300",
-      "id": "vdfx4sd3mscqwc7a",
-      "seq": 139679,
-      "desc": "The Atlanta Braves traded RHP Anthony Molina to the San Francisco Giants.",
+      "id": "cf4eqjaumsdm9oe3",
+      "seq": 139717,
+      "desc": "The San Diego Padres traded RHP Miguel Mendez to the San Francisco Giants.",
       "player": {
-        "name": "Anthony Molina",
+        "name": "Miguel Mendez",
         "posShortNames": "RP",
         "teamShortName": "SF",
         "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06879_96_1.png",
-        "scorerId": "06879",
+        "headshotUrl": "",
+        "scorerId": "06r8f",
         "posIds": [
           "016"
         ],
@@ -4538,40 +4536,19 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10150",
-      "id": "otd77v3smscqwdjw",
-      "seq": 139679,
-      "desc": "The San Francisco Giants traded RHP Tyler Mahle to the Atlanta Braves.\r\n",
+      "teamId": "10010",
+      "id": "ruk0qkbzmsdm9n3m",
+      "seq": 139717,
+      "desc": "The Boston Red Sox traded RHP Anthony Eyanson to the Baltimore Orioles.",
       "player": {
-        "name": "Tyler Mahle",
+        "name": "Anthony Eyanson",
         "posShortNames": "SP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0312g_96_13.png",
-        "scorerId": "0312g",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06mph",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785772800000,
-      "teamId": "10050",
-      "id": "19p8dzfdmscqwbub",
-      "seq": 139679,
-      "desc": "The Chicago Cubs traded INF Ty Southisene to the Toronto Blue Jays.",
-      "player": {
-        "name": "Ty Southisene",
-        "posShortNames": "2B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "062d1",
-        "posIds": [
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4585,17 +4562,43 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10050",
-      "id": "29khd55tmscqwd1l",
-      "seq": 139679,
-      "desc": "The Chicago Cubs traded OF Brett Bateman to the Toronto Blue Jays.",
+      "teamId": "10160",
+      "id": "ny3jmi8vmsdm9qrk",
+      "seq": 139717,
+      "desc": "The Chicago Cubs traded INF Jonathon Long to the Miami Marlins.",
       "player": {
-        "name": "Brett Bateman",
+        "name": "Jonathon Long",
+        "posShortNames": "1B",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "",
+        "scorerId": "06fwm",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10010",
+      "id": "v0efx1xomsdm9rdw",
+      "seq": 139717,
+      "desc": "The Boston Red Sox traded OF Enddy Azocar to the Baltimore Orioles.",
+      "player": {
+        "name": "Enddy Azocar",
         "posShortNames": "CF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
         "headshotUrl": "",
-        "scorerId": "06fpn",
+        "scorerId": "06nln",
         "posIds": [
           "010"
         ],
@@ -4611,18 +4614,71 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10200",
-      "id": "u9okx519mscqwhik",
-      "seq": 139679,
-      "desc": "The Toronto Blue Jays traded RHP Kevin Gausman to the Chicago Cubs.",
+      "teamId": "10090",
+      "id": "98eo372nmsdm9qy1",
+      "seq": 139717,
+      "desc": "The Los Angeles Dodgers traded RHP Carlos Duran to the Kansas City Royals.",
       "player": {
-        "name": "Kevin Gausman",
+        "name": "Carlos Duran",
         "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hi7_96_16.png",
-        "scorerId": "02hi7",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "",
+        "scorerId": "04yi6",
         "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10020",
+      "id": "m2kmrqvemsdlxpv5",
+      "seq": 139716,
+      "desc": "The Orioles acquired Eyanson, right-hander Kyson Witherspoon, outfielders Enddy Azocar and Harold Rivas and catcher Carlos Narvaez from the Red Sox on Monday in exchange for catcher Adley Rutschman, Jacob Calvin Meyer of The Baltimore Sun reports.",
+      "player": {
+        "name": "Anthony Eyanson",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06mph",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10110",
+      "id": "hjncm93amsdljixi",
+      "seq": 139715,
+      "desc": "The Cubs acquired Detmers from the Angels on Monday, Michael Cerami of Bleacher Report reports.",
+      "player": {
+        "name": "Reid Detmers",
+        "posShortNames": "RP,SP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0596g_96_5.png",
+        "scorerId": "0596g",
+        "posIds": [
+          "016",
           "015"
         ],
         "rookie": false,
@@ -4631,115 +4687,37 @@
       }
     },
     {
-      "displayDate": 1785686400000,
-      "teamId": "10300",
-      "id": "zdy6v1z2msd9sem3",
-      "seq": 139683,
-      "desc": "The Giants acquired Molina from Atlanta on Sunday in exchange for right-hander Tyler Mahle, Ken Rosenthal of The Athletic reports.",
-      "player": {
-        "name": "Anthony Molina",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06879_96_1.png",
-        "scorerId": "06879",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10140",
-      "id": "ks75lz02mscla1a8",
-      "seq": 139674,
-      "desc": "The Rangers outrighted Gonzales to Triple-A Round Rock on Sunday.",
-      "player": {
-        "name": "Marco Gonzales",
-        "posShortNames": "SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03111_96_15.png",
-        "scorerId": "03111",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "11yqysaemsckvu4v",
-      "seq": 139673,
-      "desc": "The Nationals acquired Bird and right-handers Yovanny Cruz, Ben Grable and Jack Cebert (undisclosed) from the Yankees on Sunday in exchange for first baseman Luis Garcia, Mark Feinsand of MLB.com reports. Washington optioned him to Triple-A Rochester.",
-      "player": {
-        "name": "Jake Bird",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqs_96_3.png",
-        "scorerId": "04pqs",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10170",
-      "id": "oi1w01j9mscjpbmg",
-      "seq": 139670,
-      "desc": "The Mets released Gerber on Sunday.",
-      "player": {
-        "name": "Joey Gerber",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pta_96_6.png",
-        "scorerId": "04pta",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
+      "displayDate": 1785772800000,
       "teamId": "10040",
-      "id": "edxrimldmschqct9",
-      "seq": 139669,
-      "desc": "Kimbrel was designated for assignment by the Rays on Sunday, Marc Topkin of the Tampa Bay Times reports.",
+      "id": "nv5aaaa6msdl5bxj",
+      "seq": 139714,
+      "desc": "The Rays optioned Cook to Triple-A Durham on Monday.",
+      "player": {
+        "name": "Alex Cook",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs065j5_96_1.png",
+        "scorerId": "065j5",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10040",
+      "id": "z16hihuxmsdl5bvq",
+      "seq": 139713,
+      "desc": "The Rays designated Kimbrel for assignment Monday.",
       "player": {
         "name": "Craig Kimbrel",
         "posShortNames": "RP",
@@ -4756,18 +4734,44 @@
       }
     },
     {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "s6vh2360mscfd9cs",
-      "seq": 139668,
-      "desc": "The Nationals optioned Cornelio to Triple-A Rochester following Sunday's 4-2 loss to Atlanta.",
+      "displayDate": 1785772800000,
+      "teamId": "10290",
+      "id": "6h09s7jsmsdl5bth",
+      "seq": 139712,
+      "desc": "The Giants acquired Hernandez and right-hander Miguel Mendez from the Padres on Monday in exchange for left-hander Robbie Ray, Alex Pavlovic of NBC Sports Bay Area reports.",
       "player": {
-        "name": "Riley Cornelio",
+        "name": "Joniel Hernandez",
+        "posShortNames": "SS",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "072hf",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10090",
+      "id": "v45olebzmsdl5bq9",
+      "seq": 139711,
+      "desc": "The Royals acquired Duran from the Dodgers on Monday in exchange for Kris Bubic (elbow/shoulder), Mark Feinsand of MLB.com reports.",
+      "player": {
+        "name": "Carlos Duran",
         "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yij_96_1.png",
-        "scorerId": "04yij",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "",
+        "scorerId": "04yi6",
         "posIds": [
           "015"
         ],
@@ -4782,167 +4786,158 @@
       }
     },
     {
-      "displayDate": 1785686400000,
-      "teamId": "10030",
-      "id": "nit7rlshmscekceb",
-      "seq": 139667,
-      "desc": "The Washington Nationals traded INF Luis Garc\u00eda to the New York Yankees.",
+      "displayDate": 1785772800000,
+      "teamId": "10060",
+      "id": "dkki5itvmsdkr5bv",
+      "seq": 139710,
+      "desc": "The White Sox designated Davitt for assignment Monday.",
       "player": {
-        "name": "Luis Garcia Jr.",
-        "posShortNames": "2B,1B",
+        "name": "Duncan Davitt",
+        "posShortNames": "SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066f4_96_1.png",
+        "scorerId": "066f4",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10190",
+      "id": "u4kcs7r4msdkr59a",
+      "seq": 139709,
+      "desc": "The Nationals recalled Ortiz from Triple-A Rochester on Monday.",
+      "player": {
+        "name": "Abimelec Ortiz",
+        "posShortNames": "1B,RF",
         "teamShortName": "WSH",
         "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0414g_96_9.png",
-        "scorerId": "0414g",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uv5_96_1.png",
+        "scorerId": "05uv5",
         "posIds": [
-          "003",
+          "002",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10290",
+      "id": "gm3zzgcemsdkcy6v",
+      "seq": 139708,
+      "desc": "The Padres acquired Ray from the Giants on Monday in exchange for right-hander Miguel Mendez and shortstop Joniel Hernandez, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Robbie Ray",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs025j1_96_16.png",
+        "scorerId": "025j1",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10010",
+      "id": "h6u6f7kbmsdjx2pq",
+      "seq": 139707,
+      "desc": "The Seattle Mariners traded RHP Harrison Kreiling to the Baltimore Orioles.",
+      "player": {
+        "name": "Harrison Kreiling",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06qpr",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10130",
+      "id": "vegmc46umsdjxagy",
+      "seq": 139707,
+      "desc": "The Baltimore Orioles traded OF Taylor Ward to the Seattle Mariners.",
+      "player": {
+        "name": "Taylor Ward",
+        "posShortNames": "LF",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pje_96_15.png",
+        "scorerId": "03pje",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10040",
+      "id": "xl5tqsenmsdjx8yl",
+      "seq": 139707,
+      "desc": "The Miami Marlins traded C Liam Hicks to the Tampa Bay Rays.",
+      "player": {
+        "name": "Liam Hicks",
+        "posShortNames": "C,1B",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ynb_96_1.png",
+        "scorerId": "05ynb",
+        "posIds": [
+          "001",
           "002"
         ],
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "fwuvsfi8msceke7j",
-      "seq": 139667,
-      "desc": "The New York Yankees traded RHP Ben Grable to the Washington Nationals.",
-      "player": {
-        "name": "Ben Grable",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "06yyq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "m7v1xjspmscekd6j",
-      "seq": 139667,
-      "desc": "The New York Yankees traded RHP Jake Bird to the Washington Nationals. The Nationals then optioned him to the minors.",
-      "player": {
-        "name": "Jake Bird",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqs_96_3.png",
-        "scorerId": "04pqs",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "04ybnxnamscek9zt",
-      "seq": 139667,
-      "desc": "The New York Yankees traded RHP Jack Cebert to the Washington Nationals.",
-      "player": {
-        "name": "Jack Cebert",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "06yze",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "skl581gpmscekco1",
-      "seq": 139667,
-      "desc": "The New York Yankees traded RHP Yovanny Cruz to the Washington Nationals.",
-      "player": {
-        "name": "Yovanny Cruz",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04w0m_96_1.png",
-        "scorerId": "04w0m",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10080",
-      "id": "l9tx6sohmscdeetw",
-      "seq": 139666,
-      "desc": "The Tigers released Guenther on Friday.",
-      "player": {
-        "name": "Sean Guenther",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ei8_96_1.png",
-        "scorerId": "04ei8",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1785772800000,
-      "teamId": "10180",
-      "id": "flrp37otmsdbcak2",
-      "seq": 139689,
-      "desc": "The Giants acquired Marquez and right-hander Marty Gair from the Phillies on Monday in exchange for infielder Luis Arraez and right-hander Caleb Kilian, Mark Feinsand of MLB.com reports.",
+      "teamId": "10010",
+      "id": "7gjfvcf1msdm9mfu",
+      "seq": 139717,
+      "desc": "The Boston Red Sox traded RHP Kyson Witherspoon to the Baltimore Orioles.",
       "player": {
-        "name": "Ramon Marquez",
+        "name": "Kyson Witherspoon",
         "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
         "headshotUrl": "",
-        "scorerId": "06y0k",
+        "scorerId": "06ms5",
         "posIds": [
           "015"
         ],
@@ -4958,38 +4953,17 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10050",
-      "id": "7x5v06n7msdaya5e",
-      "seq": 139688,
-      "desc": "The Los Angeles Angels traded RHP Jos\u00e9 Soriano to the Toronto Blue Jays.",
+      "teamId": "10300",
+      "id": "aebtavi1msdm9pxh",
+      "seq": 139717,
+      "desc": "The San Diego Padres traded INF Joniel Hernandez to the San Francisco Giants.",
       "player": {
-        "name": "Jose Soriano",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04c0o_96_7.png",
-        "scorerId": "04c0o",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785772800000,
-      "teamId": "10110",
-      "id": "zgm0ir8bmsday95m",
-      "seq": 139688,
-      "desc": "The Toronto Blue Jays traded INF Arjun Nimmala to the Los Angeles Angels.",
-      "player": {
-        "name": "Arjun Nimmala",
+        "name": "Joniel Hernandez",
         "posShortNames": "SS",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
         "headshotUrl": "",
-        "scorerId": "05y3p",
+        "scorerId": "072hf",
         "posIds": [
           "005"
         ],
@@ -5005,20 +4979,19 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10110",
-      "id": "rqsayqxzmsday861",
-      "seq": 139688,
-      "desc": "The Toronto Blue Jays traded OF Eddie Micheletti to the Los Angeles Angels.",
+      "teamId": "10160",
+      "id": "18fh7p5lmsdm9l7l",
+      "seq": 139717,
+      "desc": "The Chicago Cubs traded RHP Jace Beck to the Miami Marlins.",
       "player": {
-        "name": "Eddie Micheletti Jr.",
-        "posShortNames": "RF,LF",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
+        "name": "Jace Beck",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
         "headshotUrl": "",
-        "scorerId": "06pid",
+        "scorerId": "051gy",
         "posIds": [
-          "011",
-          "009"
+          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -5032,20 +5005,19 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10300",
-      "id": "a0d8y3nlmsday3j3",
-      "seq": 139687,
-      "desc": "The Phillies acquired Arraez and right-hander Caleb Kilian from the Giants on Monday in exchange for right-handers Ramon Marquez and Marty Gair, Mark Feinsand of MLB.com reports.",
+      "teamId": "10020",
+      "id": "oyninarsmsdm9tc4",
+      "seq": 139717,
+      "desc": "The Baltimore Orioles traded C Jake Rogers to the Boston Red Sox.",
       "player": {
-        "name": "Luis Arraez",
-        "posShortNames": "1B,2B",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03mew_96_10.png",
-        "scorerId": "03mew",
+        "name": "Jake Rogers",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03av1_96_12.png",
+        "scorerId": "03av1",
         "posIds": [
-          "002",
-          "003"
+          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -5054,17 +5026,17 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10050",
-      "id": "4nqrshjcmsdakt95",
-      "seq": 139686,
-      "desc": "The Angels acquired Nimmala, Eddie Micheletti and Angel Rivero from the Blue Jays on Monday in exchange for Jose Soriano, Jeff Passan of ESPN.com reports.",
+      "teamId": "10170",
+      "id": "32644t34msdm9i0f",
+      "seq": 139717,
+      "desc": "The Pittsburgh Pirates traded INF Sammy Stafura to the New York Mets.",
       "player": {
-        "name": "Arjun Nimmala",
+        "name": "Sammy Stafura",
         "posShortNames": "SS",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
         "headshotUrl": "",
-        "scorerId": "05y3p",
+        "scorerId": "06c1m",
         "posIds": [
           "005"
         ],
@@ -5080,90 +5052,43 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10170",
-      "id": "kd82yv8cmsdaeo1j",
-      "seq": 139685,
-      "desc": "The Chicago White Sox traded RHP Zach Franklin to the New York Mets.",
+      "teamId": "10200",
+      "id": "yb2prbhumsdm9vep",
+      "seq": 139717,
+      "desc": "The Miami Marlins traded LHP Braxton Garrett to the Chicago Cubs.",
       "player": {
-        "name": "Zach Franklin",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06giw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785772800000,
-      "teamId": "10170",
-      "id": "dsvsuowwmsdaentg",
-      "seq": 139685,
-      "desc": "The Chicago White Sox traded RHP Gabe Davis to the New York Mets.",
-      "player": {
-        "name": "Gabe Davis",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06mwe",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785772800000,
-      "teamId": "10060",
-      "id": "yd4yrhfmmsdaeo8g",
-      "seq": 139685,
-      "desc": "The New York Mets traded RHP Huascar Brazob\u00e1n to the Chicago White Sox.",
-      "player": {
-        "name": "Huascar Brazoban",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060ml_96_3.png",
-        "scorerId": "060ml",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785772800000,
-      "teamId": "10110",
-      "id": "9zd337ozmsda6m68",
-      "seq": 139684,
-      "desc": "The Blue Jays acquired Soriano from the Angels on Monday in exchange for infielder Arjun Nimmala, outfielder Eddie Micheletti and right-hander Angel Rivero, Mark Feinsand and Jonathan Mayo of MLB.com report.",
-      "player": {
-        "name": "Jose Soriano",
+        "name": "Braxton Garrett",
         "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04c0o_96_7.png",
-        "scorerId": "04c0o",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041e3_96_9.png",
+        "scorerId": "041e3",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10230",
+      "id": "nmzj3lccmsdm9mlf",
+      "seq": 139717,
+      "desc": "The St. Louis Cardinals traded RHP Dustin May to the Milwaukee Brewers.",
+      "player": {
+        "name": "Dustin May",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041r5_96_10.png",
+        "scorerId": "041r5",
         "posIds": [
           "015"
         ],
@@ -5174,17 +5099,69 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10060",
-      "id": "ha603xlxmsd8lsxi",
-      "seq": 139682,
-      "desc": "The Mets acquired Franklin and right-hander Gabe Davis from the White Sox on Monday in exchange for right-hander Huascar Brazoban, Ken Rosenthal of The Athletic reports.",
+      "teamId": "10280",
+      "id": "qtkgjkpkmsdm9oz7",
+      "seq": 139717,
+      "desc": "The Kansas City Royals traded LHP Kris Bubic to the Los Angeles Dodgers.",
       "player": {
-        "name": "Zach Franklin",
+        "name": "Kris Bubic",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmb_96_9.png",
+        "scorerId": "04pmb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 60-day IL - Shoulder",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10020",
+      "id": "m7q2gsj2msdm9tt4",
+      "seq": 139717,
+      "desc": "The Baltimore Orioles traded C Adley Rutschman to the Boston Red Sox.",
+      "player": {
+        "name": "Adley Rutschman",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q2n_96_9.png",
+        "scorerId": "04q2n",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 10-day IL - Wrist",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10230",
+      "id": "l9wixsflmsdm9k45",
+      "seq": 139717,
+      "desc": "The St. Louis Cardinals traded LHP JoJo Romero to the Milwaukee Brewers.",
+      "player": {
+        "name": "JoJo Romero",
         "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06giw",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rj_96_9.png",
+        "scorerId": "041rj",
         "posIds": [
           "016"
         ],
@@ -5192,53 +5169,69 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
+            "tooltip": "Injured List - 15-day IL - Abdomen",
+            "typeId": "2"
           }
         ]
       }
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10060",
-      "id": "9v1ei00jmsd7f7xd",
-      "seq": 139681,
-      "desc": "The Mets acquired Davis and right-hander Zach Franklin from the White Sox on Monday in exchange for right-hander Huascar Brazoban, Ken Rosenthal of The Athletic reports.",
+      "teamId": "10240",
+      "id": "7w31vtxgmsdm9kub",
+      "seq": 139717,
+      "desc": "The New York Mets traded RHP Luke Weaver to the Pittsburgh Pirates.",
       "player": {
-        "name": "Gabe Davis",
+        "name": "Luke Weaver",
         "posShortNames": "RP",
         "teamShortName": "NYM",
         "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "06mwe",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02c5l_96_15.png",
+        "scorerId": "02c5l",
         "posIds": [
           "016"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10170",
-      "id": "bl8e51qdmsd7f7vo",
-      "seq": 139680,
-      "desc": "The White Sox acquired Brazoban from the Mets on Monday in exchange for right-handers Zach Franklin and Gabe Davis, Ken Rosenthal of The Athletic reports.",
+      "teamId": "10290",
+      "id": "nvd396dpmsdm9tzz",
+      "seq": 139717,
+      "desc": "The San Francisco Giants traded LHP Robbie Ray to the San Diego Padres.",
       "player": {
-        "name": "Huascar Brazoban",
-        "posShortNames": "RP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060ml_96_3.png",
-        "scorerId": "060ml",
+        "name": "Robbie Ray",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs025j1_96_16.png",
+        "scorerId": "025j1",
         "posIds": [
-          "016"
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10010",
+      "id": "z0prtbqqmsdm9ka8",
+      "seq": 139717,
+      "desc": "The Boston Red Sox traded C Carlos Narv\u00e1ez to the Baltimore Orioles.",
+      "player": {
+        "name": "Carlos Narvaez",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs048tn_96_3.png",
+        "scorerId": "048tn",
+        "posIds": [
+          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -5248,16 +5241,16 @@
     {
       "displayDate": 1785772800000,
       "teamId": "10300",
-      "id": "vdfx4sd3mscqwc7a",
-      "seq": 139679,
-      "desc": "The Atlanta Braves traded RHP Anthony Molina to the San Francisco Giants.",
+      "id": "cf4eqjaumsdm9oe3",
+      "seq": 139717,
+      "desc": "The San Diego Padres traded RHP Miguel Mendez to the San Francisco Giants.",
       "player": {
-        "name": "Anthony Molina",
+        "name": "Miguel Mendez",
         "posShortNames": "RP",
         "teamShortName": "SF",
         "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06879_96_1.png",
-        "scorerId": "06879",
+        "headshotUrl": "",
+        "scorerId": "06r8f",
         "posIds": [
           "016"
         ],
@@ -5273,40 +5266,19 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10150",
-      "id": "otd77v3smscqwdjw",
-      "seq": 139679,
-      "desc": "The San Francisco Giants traded RHP Tyler Mahle to the Atlanta Braves.\r\n",
+      "teamId": "10010",
+      "id": "ruk0qkbzmsdm9n3m",
+      "seq": 139717,
+      "desc": "The Boston Red Sox traded RHP Anthony Eyanson to the Baltimore Orioles.",
       "player": {
-        "name": "Tyler Mahle",
+        "name": "Anthony Eyanson",
         "posShortNames": "SP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0312g_96_13.png",
-        "scorerId": "0312g",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06mph",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785772800000,
-      "teamId": "10050",
-      "id": "19p8dzfdmscqwbub",
-      "seq": 139679,
-      "desc": "The Chicago Cubs traded INF Ty Southisene to the Toronto Blue Jays.",
-      "player": {
-        "name": "Ty Southisene",
-        "posShortNames": "2B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "062d1",
-        "posIds": [
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -5320,17 +5292,43 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10050",
-      "id": "29khd55tmscqwd1l",
-      "seq": 139679,
-      "desc": "The Chicago Cubs traded OF Brett Bateman to the Toronto Blue Jays.",
+      "teamId": "10160",
+      "id": "ny3jmi8vmsdm9qrk",
+      "seq": 139717,
+      "desc": "The Chicago Cubs traded INF Jonathon Long to the Miami Marlins.",
       "player": {
-        "name": "Brett Bateman",
+        "name": "Jonathon Long",
+        "posShortNames": "1B",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "",
+        "scorerId": "06fwm",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10010",
+      "id": "v0efx1xomsdm9rdw",
+      "seq": 139717,
+      "desc": "The Boston Red Sox traded OF Enddy Azocar to the Baltimore Orioles.",
+      "player": {
+        "name": "Enddy Azocar",
         "posShortNames": "CF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
         "headshotUrl": "",
-        "scorerId": "06fpn",
+        "scorerId": "06nln",
         "posIds": [
           "010"
         ],
@@ -5346,18 +5344,71 @@
     },
     {
       "displayDate": 1785772800000,
-      "teamId": "10200",
-      "id": "u9okx519mscqwhik",
-      "seq": 139679,
-      "desc": "The Toronto Blue Jays traded RHP Kevin Gausman to the Chicago Cubs.",
+      "teamId": "10090",
+      "id": "98eo372nmsdm9qy1",
+      "seq": 139717,
+      "desc": "The Los Angeles Dodgers traded RHP Carlos Duran to the Kansas City Royals.",
       "player": {
-        "name": "Kevin Gausman",
+        "name": "Carlos Duran",
         "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hi7_96_16.png",
-        "scorerId": "02hi7",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "",
+        "scorerId": "04yi6",
         "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10020",
+      "id": "m2kmrqvemsdlxpv5",
+      "seq": 139716,
+      "desc": "The Orioles acquired Eyanson, right-hander Kyson Witherspoon, outfielders Enddy Azocar and Harold Rivas and catcher Carlos Narvaez from the Red Sox on Monday in exchange for catcher Adley Rutschman, Jacob Calvin Meyer of The Baltimore Sun reports.",
+      "player": {
+        "name": "Anthony Eyanson",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06mph",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10110",
+      "id": "hjncm93amsdljixi",
+      "seq": 139715,
+      "desc": "The Cubs acquired Detmers from the Angels on Monday, Michael Cerami of Bleacher Report reports.",
+      "player": {
+        "name": "Reid Detmers",
+        "posShortNames": "RP,SP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0596g_96_5.png",
+        "scorerId": "0596g",
+        "posIds": [
+          "016",
           "015"
         ],
         "rookie": false,
@@ -5366,115 +5417,37 @@
       }
     },
     {
-      "displayDate": 1785686400000,
-      "teamId": "10300",
-      "id": "zdy6v1z2msd9sem3",
-      "seq": 139683,
-      "desc": "The Giants acquired Molina from Atlanta on Sunday in exchange for right-hander Tyler Mahle, Ken Rosenthal of The Athletic reports.",
-      "player": {
-        "name": "Anthony Molina",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06879_96_1.png",
-        "scorerId": "06879",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10140",
-      "id": "ks75lz02mscla1a8",
-      "seq": 139674,
-      "desc": "The Rangers outrighted Gonzales to Triple-A Round Rock on Sunday.",
-      "player": {
-        "name": "Marco Gonzales",
-        "posShortNames": "SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03111_96_15.png",
-        "scorerId": "03111",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "11yqysaemsckvu4v",
-      "seq": 139673,
-      "desc": "The Nationals acquired Bird and right-handers Yovanny Cruz, Ben Grable and Jack Cebert (undisclosed) from the Yankees on Sunday in exchange for first baseman Luis Garcia, Mark Feinsand of MLB.com reports. Washington optioned him to Triple-A Rochester.",
-      "player": {
-        "name": "Jake Bird",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqs_96_3.png",
-        "scorerId": "04pqs",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10170",
-      "id": "oi1w01j9mscjpbmg",
-      "seq": 139670,
-      "desc": "The Mets released Gerber on Sunday.",
-      "player": {
-        "name": "Joey Gerber",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pta_96_6.png",
-        "scorerId": "04pta",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
+      "displayDate": 1785772800000,
       "teamId": "10040",
-      "id": "edxrimldmschqct9",
-      "seq": 139669,
-      "desc": "Kimbrel was designated for assignment by the Rays on Sunday, Marc Topkin of the Tampa Bay Times reports.",
+      "id": "nv5aaaa6msdl5bxj",
+      "seq": 139714,
+      "desc": "The Rays optioned Cook to Triple-A Durham on Monday.",
+      "player": {
+        "name": "Alex Cook",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs065j5_96_1.png",
+        "scorerId": "065j5",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10040",
+      "id": "z16hihuxmsdl5bvq",
+      "seq": 139713,
+      "desc": "The Rays designated Kimbrel for assignment Monday.",
       "player": {
         "name": "Craig Kimbrel",
         "posShortNames": "RP",
@@ -5491,18 +5464,44 @@
       }
     },
     {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "s6vh2360mscfd9cs",
-      "seq": 139668,
-      "desc": "The Nationals optioned Cornelio to Triple-A Rochester following Sunday's 4-2 loss to Atlanta.",
+      "displayDate": 1785772800000,
+      "teamId": "10290",
+      "id": "6h09s7jsmsdl5bth",
+      "seq": 139712,
+      "desc": "The Giants acquired Hernandez and right-hander Miguel Mendez from the Padres on Monday in exchange for left-hander Robbie Ray, Alex Pavlovic of NBC Sports Bay Area reports.",
       "player": {
-        "name": "Riley Cornelio",
+        "name": "Joniel Hernandez",
+        "posShortNames": "SS",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "072hf",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10090",
+      "id": "v45olebzmsdl5bq9",
+      "seq": 139711,
+      "desc": "The Royals acquired Duran from the Dodgers on Monday in exchange for Kris Bubic (elbow/shoulder), Mark Feinsand of MLB.com reports.",
+      "player": {
+        "name": "Carlos Duran",
         "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yij_96_1.png",
-        "scorerId": "04yij",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "",
+        "scorerId": "04yi6",
         "posIds": [
           "015"
         ],
@@ -5517,150 +5516,141 @@
       }
     },
     {
-      "displayDate": 1785686400000,
-      "teamId": "10030",
-      "id": "nit7rlshmscekceb",
-      "seq": 139667,
-      "desc": "The Washington Nationals traded INF Luis Garc\u00eda to the New York Yankees.",
+      "displayDate": 1785772800000,
+      "teamId": "10060",
+      "id": "dkki5itvmsdkr5bv",
+      "seq": 139710,
+      "desc": "The White Sox designated Davitt for assignment Monday.",
       "player": {
-        "name": "Luis Garcia Jr.",
-        "posShortNames": "2B,1B",
+        "name": "Duncan Davitt",
+        "posShortNames": "SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066f4_96_1.png",
+        "scorerId": "066f4",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10190",
+      "id": "u4kcs7r4msdkr59a",
+      "seq": 139709,
+      "desc": "The Nationals recalled Ortiz from Triple-A Rochester on Monday.",
+      "player": {
+        "name": "Abimelec Ortiz",
+        "posShortNames": "1B,RF",
         "teamShortName": "WSH",
         "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0414g_96_9.png",
-        "scorerId": "0414g",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uv5_96_1.png",
+        "scorerId": "05uv5",
         "posIds": [
-          "003",
+          "002",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10290",
+      "id": "gm3zzgcemsdkcy6v",
+      "seq": 139708,
+      "desc": "The Padres acquired Ray from the Giants on Monday in exchange for right-hander Miguel Mendez and shortstop Joniel Hernandez, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Robbie Ray",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs025j1_96_16.png",
+        "scorerId": "025j1",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10010",
+      "id": "h6u6f7kbmsdjx2pq",
+      "seq": 139707,
+      "desc": "The Seattle Mariners traded RHP Harrison Kreiling to the Baltimore Orioles.",
+      "player": {
+        "name": "Harrison Kreiling",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06qpr",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10130",
+      "id": "vegmc46umsdjxagy",
+      "seq": 139707,
+      "desc": "The Baltimore Orioles traded OF Taylor Ward to the Seattle Mariners.",
+      "player": {
+        "name": "Taylor Ward",
+        "posShortNames": "LF",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pje_96_15.png",
+        "scorerId": "03pje",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1785772800000,
+      "teamId": "10040",
+      "id": "xl5tqsenmsdjx8yl",
+      "seq": 139707,
+      "desc": "The Miami Marlins traded C Liam Hicks to the Tampa Bay Rays.",
+      "player": {
+        "name": "Liam Hicks",
+        "posShortNames": "C,1B",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ynb_96_1.png",
+        "scorerId": "05ynb",
+        "posIds": [
+          "001",
           "002"
         ],
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "fwuvsfi8msceke7j",
-      "seq": 139667,
-      "desc": "The New York Yankees traded RHP Ben Grable to the Washington Nationals.",
-      "player": {
-        "name": "Ben Grable",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "06yyq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "m7v1xjspmscekd6j",
-      "seq": 139667,
-      "desc": "The New York Yankees traded RHP Jake Bird to the Washington Nationals. The Nationals then optioned him to the minors.",
-      "player": {
-        "name": "Jake Bird",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqs_96_3.png",
-        "scorerId": "04pqs",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "04ybnxnamscek9zt",
-      "seq": 139667,
-      "desc": "The New York Yankees traded RHP Jack Cebert to the Washington Nationals.",
-      "player": {
-        "name": "Jack Cebert",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "06yze",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10190",
-      "id": "skl581gpmscekco1",
-      "seq": 139667,
-      "desc": "The New York Yankees traded RHP Yovanny Cruz to the Washington Nationals.",
-      "player": {
-        "name": "Yovanny Cruz",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04w0m_96_1.png",
-        "scorerId": "04w0m",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1785686400000,
-      "teamId": "10080",
-      "id": "l9tx6sohmscdeetw",
-      "seq": 139666,
-      "desc": "The Tigers released Guenther on Friday.",
-      "player": {
-        "name": "Sean Guenther",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ei8_96_1.png",
-        "scorerId": "04ei8",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
