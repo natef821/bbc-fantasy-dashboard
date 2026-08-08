@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T12:35:22.459636Z",
+  "lastUpdated": "2026-08-08T18:28:14.325268Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,53 @@
   },
   "transactions": [
     {
+      "displayDate": 1786204800000,
+      "teamId": "10121",
+      "id": "90hk6lalmskmhl0f",
+      "seq": 139973,
+      "desc": "The Athletics optioned Juenger to Triple-A Las Vegas on Saturday.",
+      "player": {
+        "name": "Hayden Juenger",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "05xsv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786204800000,
+      "teamId": "10121",
+      "id": "c6egzidgmskmhkxn",
+      "seq": 139972,
+      "desc": "The Athletics recalled Tur from Triple-A Las Vegas on Saturday.",
+      "player": {
+        "name": "Yunior Tur",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "06jbm",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1786118400000,
       "teamId": "10080",
       "id": "cleob67rmsjnhv5t",
@@ -4239,7 +4286,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
       }
     },
     {
@@ -4842,53 +4894,6 @@
         "scorerId": "0414h",
         "posIds": [
           "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1786118400000,
-      "teamId": "10060",
-      "id": "ma7ez4yjmsjavukz",
-      "seq": 139942,
-      "desc": "The White Sox released Hays on Friday, Scott Merkin of MLB.com reports.",
-      "player": {
-        "name": "Austin Hays",
-        "posShortNames": "LF",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qs_96_12.png",
-        "scorerId": "041qs",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 60-day IL - Calf",
-            "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786118400000,
-      "teamId": "10110",
-      "id": "e1vbh9l5msj9p9js",
-      "seq": 139941,
-      "desc": "The Angels claimed Watson off waivers from the Red Sox on Friday.",
-      "player": {
-        "name": "Ryan Watson",
-        "posShortNames": "RP",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061cq_96_1.png",
-        "scorerId": "061cq",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4898,6 +4903,53 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1786204800000,
+      "teamId": "10121",
+      "id": "90hk6lalmskmhl0f",
+      "seq": 139973,
+      "desc": "The Athletics optioned Juenger to Triple-A Las Vegas on Saturday.",
+      "player": {
+        "name": "Hayden Juenger",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "05xsv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786204800000,
+      "teamId": "10121",
+      "id": "c6egzidgmskmhkxn",
+      "seq": 139972,
+      "desc": "The Athletics recalled Tur from Triple-A Las Vegas on Saturday.",
+      "player": {
+        "name": "Yunior Tur",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "06jbm",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1786118400000,
       "teamId": "10080",
       "id": "cleob67rmsjnhv5t",
@@ -4941,7 +4993,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
       }
     },
     {
@@ -5544,53 +5601,6 @@
         "scorerId": "0414h",
         "posIds": [
           "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1786118400000,
-      "teamId": "10060",
-      "id": "ma7ez4yjmsjavukz",
-      "seq": 139942,
-      "desc": "The White Sox released Hays on Friday, Scott Merkin of MLB.com reports.",
-      "player": {
-        "name": "Austin Hays",
-        "posShortNames": "LF",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qs_96_12.png",
-        "scorerId": "041qs",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 60-day IL - Calf",
-            "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786118400000,
-      "teamId": "10110",
-      "id": "e1vbh9l5msj9p9js",
-      "seq": 139941,
-      "desc": "The Angels claimed Watson off waivers from the Red Sox on Friday.",
-      "player": {
-        "name": "Ryan Watson",
-        "posShortNames": "RP",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061cq_96_1.png",
-        "scorerId": "061cq",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
