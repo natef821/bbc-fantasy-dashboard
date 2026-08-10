@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T12:54:53.657840Z",
+  "lastUpdated": "2026-08-10T18:48:27.734810Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,136 @@
   },
   "transactions": [
     {
+      "displayDate": 1786377600000,
+      "teamId": "10260",
+      "id": "irv3mvdvmsnl32wj",
+      "seq": 140022,
+      "desc": "The Diamondbacks designated Sewald for assignment Monday, John Gambadoro of Arizona Sports 98.7 FM reports.",
+      "player": {
+        "name": "Paul Sewald",
+        "posShortNames": "RP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n2x_96_15.png",
+        "scorerId": "02n2x",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786377600000,
+      "teamId": "10050",
+      "id": "bs9s1rdnmsniboyk",
+      "seq": 140021,
+      "desc": "The Blue Jays promoted Parker from Single-A Dunedin to High-A Vancouver on Monday.",
+      "player": {
+        "name": "JoJo Parker",
+        "posShortNames": "SS",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "06se6",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786377600000,
+      "teamId": "10130",
+      "id": "ghsb4thqmsnh54b4",
+      "seq": 140020,
+      "desc": "Fairchild has gone 2-for-8 with an RBI, a run and a stolen base in two games for Triple-A Tacoma since re-signing with Seattle on a minor-league contract Saturday.",
+      "player": {
+        "name": "Stuart Fairchild",
+        "posShortNames": "RF",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eel_96_7.png",
+        "scorerId": "04eel",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786377600000,
+      "teamId": "10130",
+      "id": "md8srhpnmsngcsuq",
+      "seq": 140019,
+      "desc": "The Mariners released Lawrence on Saturday.",
+      "player": {
+        "name": "Casey Lawrence",
+        "posShortNames": "SP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04awd_96_6.png",
+        "scorerId": "04awd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786377600000,
+      "teamId": "10210",
+      "id": "dvugy1scmsndf9ib",
+      "seq": 140018,
+      "desc": "The Reds optioned Johnson to Triple-A Louisville on Monday.",
+      "player": {
+        "name": "Ivan Johnson",
+        "posShortNames": "LF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "0513f",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1786291200000,
       "teamId": "10110",
       "id": "ztwd4masmsmnziqz",
@@ -4405,7 +4535,7 @@
       "teamId": "10260",
       "id": "cenadjnbmsmal7m9",
       "seq": 140007,
-      "desc": "Littell agreed to a contract with the Diamondbacks on Sunday, Nick Piecoro of the Arizona Republic reports.",
+      "desc": "Littell agreed to a one-year contract with the Diamondbacks on Sunday, Nick Piecoro of The Arizona Republic reports.",
       "player": {
         "name": "Zack Littell",
         "posShortNames": "SP",
@@ -4418,12 +4548,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4633,12 +4758,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4803,132 +4923,6 @@
         "scorerId": "04pqs",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1786204800000,
-      "teamId": "10190",
-      "id": "5yx37knmmsl66wig",
-      "seq": 139990,
-      "desc": "Washington optioned Palmquist to Triple-A Rochester on Saturday.",
-      "player": {
-        "name": "Carson Palmquist",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ybw_96_2.png",
-        "scorerId": "05ybw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786204800000,
-      "teamId": "10020",
-      "id": "u630kp3dmsl12ie5",
-      "seq": 139989,
-      "desc": "Boston optioned Burgos to Triple-A Worcester after Saturday's matchup with the Athletics, Christopher Smith of MassLive.com reports.",
-      "player": {
-        "name": "Raymond Burgos",
-        "posShortNames": "SP,RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "",
-        "scorerId": "0421m",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786204800000,
-      "teamId": "10270",
-      "id": "c98p5vanmsktz4hv",
-      "seq": 139988,
-      "desc": "The Rockies reinstated Castano (pectoral) from the injured list Saturday and optioned him to Triple-A Albuquerque.",
-      "player": {
-        "name": "Blas Castano",
-        "posShortNames": "RP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ak0_96_1.png",
-        "scorerId": "06ak0",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 15-day IL - Pectorals",
-            "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786204800000,
-      "teamId": "10200",
-      "id": "1rxzy1famsktkxah",
-      "seq": 139987,
-      "desc": "The Cubs optioned Garrett to Triple-A Iowa on Saturday, Vinnie Duber of the Chicago Sun-Times reports.",
-      "player": {
-        "name": "Braxton Garrett",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041e3_96_9.png",
-        "scorerId": "041e3",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786204800000,
-      "teamId": "10200",
-      "id": "bj4gqkrcmsktkx7w",
-      "seq": 139986,
-      "desc": "The Cubs reinstated Holmes (fibula) from the 60-day injured list ahead of his start Saturday against the Royals, Vinnie Duber of the Chicago Sun-Times reports.",
-      "player": {
-        "name": "Clay Holmes",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bx4_96_13.png",
-        "scorerId": "02bx4",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4938,6 +4932,136 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1786377600000,
+      "teamId": "10260",
+      "id": "irv3mvdvmsnl32wj",
+      "seq": 140022,
+      "desc": "The Diamondbacks designated Sewald for assignment Monday, John Gambadoro of Arizona Sports 98.7 FM reports.",
+      "player": {
+        "name": "Paul Sewald",
+        "posShortNames": "RP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n2x_96_15.png",
+        "scorerId": "02n2x",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786377600000,
+      "teamId": "10050",
+      "id": "bs9s1rdnmsniboyk",
+      "seq": 140021,
+      "desc": "The Blue Jays promoted Parker from Single-A Dunedin to High-A Vancouver on Monday.",
+      "player": {
+        "name": "JoJo Parker",
+        "posShortNames": "SS",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "06se6",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786377600000,
+      "teamId": "10130",
+      "id": "ghsb4thqmsnh54b4",
+      "seq": 140020,
+      "desc": "Fairchild has gone 2-for-8 with an RBI, a run and a stolen base in two games for Triple-A Tacoma since re-signing with Seattle on a minor-league contract Saturday.",
+      "player": {
+        "name": "Stuart Fairchild",
+        "posShortNames": "RF",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eel_96_7.png",
+        "scorerId": "04eel",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786377600000,
+      "teamId": "10130",
+      "id": "md8srhpnmsngcsuq",
+      "seq": 140019,
+      "desc": "The Mariners released Lawrence on Saturday.",
+      "player": {
+        "name": "Casey Lawrence",
+        "posShortNames": "SP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04awd_96_6.png",
+        "scorerId": "04awd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786377600000,
+      "teamId": "10210",
+      "id": "dvugy1scmsndf9ib",
+      "seq": 140018,
+      "desc": "The Reds optioned Johnson to Triple-A Louisville on Monday.",
+      "player": {
+        "name": "Ivan Johnson",
+        "posShortNames": "LF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "0513f",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1786291200000,
       "teamId": "10110",
       "id": "ztwd4masmsmnziqz",
@@ -5147,7 +5271,7 @@
       "teamId": "10260",
       "id": "cenadjnbmsmal7m9",
       "seq": 140007,
-      "desc": "Littell agreed to a contract with the Diamondbacks on Sunday, Nick Piecoro of the Arizona Republic reports.",
+      "desc": "Littell agreed to a one-year contract with the Diamondbacks on Sunday, Nick Piecoro of The Arizona Republic reports.",
       "player": {
         "name": "Zack Littell",
         "posShortNames": "SP",
@@ -5160,12 +5284,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5375,12 +5494,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5545,132 +5659,6 @@
         "scorerId": "04pqs",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1786204800000,
-      "teamId": "10190",
-      "id": "5yx37knmmsl66wig",
-      "seq": 139990,
-      "desc": "Washington optioned Palmquist to Triple-A Rochester on Saturday.",
-      "player": {
-        "name": "Carson Palmquist",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ybw_96_2.png",
-        "scorerId": "05ybw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786204800000,
-      "teamId": "10020",
-      "id": "u630kp3dmsl12ie5",
-      "seq": 139989,
-      "desc": "Boston optioned Burgos to Triple-A Worcester after Saturday's matchup with the Athletics, Christopher Smith of MassLive.com reports.",
-      "player": {
-        "name": "Raymond Burgos",
-        "posShortNames": "SP,RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "",
-        "scorerId": "0421m",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786204800000,
-      "teamId": "10270",
-      "id": "c98p5vanmsktz4hv",
-      "seq": 139988,
-      "desc": "The Rockies reinstated Castano (pectoral) from the injured list Saturday and optioned him to Triple-A Albuquerque.",
-      "player": {
-        "name": "Blas Castano",
-        "posShortNames": "RP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ak0_96_1.png",
-        "scorerId": "06ak0",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 15-day IL - Pectorals",
-            "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786204800000,
-      "teamId": "10200",
-      "id": "1rxzy1famsktkxah",
-      "seq": 139987,
-      "desc": "The Cubs optioned Garrett to Triple-A Iowa on Saturday, Vinnie Duber of the Chicago Sun-Times reports.",
-      "player": {
-        "name": "Braxton Garrett",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041e3_96_9.png",
-        "scorerId": "041e3",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786204800000,
-      "teamId": "10200",
-      "id": "bj4gqkrcmsktkx7w",
-      "seq": 139986,
-      "desc": "The Cubs reinstated Holmes (fibula) from the 60-day injured list ahead of his start Saturday against the Royals, Vinnie Duber of the Chicago Sun-Times reports.",
-      "player": {
-        "name": "Clay Holmes",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bx4_96_13.png",
-        "scorerId": "02bx4",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
