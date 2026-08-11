@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T12:50:35.969217Z",
+  "lastUpdated": "2026-08-11T18:54:18.057023Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,53 @@
   },
   "transactions": [
     {
+      "displayDate": 1786464000000,
+      "teamId": "10121",
+      "id": "y6s3e570msoyy8kk",
+      "seq": 140053,
+      "desc": "The Athletics claimed Rom off waivers Tuesday.",
+      "player": {
+        "name": "Drew Rom",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqd_96_2.png",
+        "scorerId": "04pqd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786464000000,
+      "teamId": "10160",
+      "id": "6mgc36m4msoum3a4",
+      "seq": 140052,
+      "desc": "The Marlins recalled Pauley from Triple-A Jacksonville on Tuesday, Kevin Barral of FishonFirst.com reports.",
+      "player": {
+        "name": "Graham Pauley",
+        "posShortNames": "3B",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066lr_96_2.png",
+        "scorerId": "066lr",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1786377600000,
       "teamId": "10040",
       "id": "lox2botemso1bmtn",
@@ -4253,7 +4300,7 @@
       "teamId": "10300",
       "id": "odvjhkc8msnykb7g",
       "seq": 140048,
-      "desc": "Morgan's contract was selected from Triple-A Sacramento ahead of Monday's game against the Astros, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "desc": "The Giants selected Morgan's contract from Triple-A Sacramento ahead of Monday's game against the Astros, Alex Pavlovic of NBC Sports Bay Area reports.",
       "player": {
         "name": "Zach Morgan",
         "posShortNames": "C",
@@ -4300,7 +4347,7 @@
       "teamId": "10280",
       "id": "ygqz0lyjmsnveqdf",
       "seq": 140046,
-      "desc": "Hurt was optioned to Triple-A Oklahoma City on Monday.",
+      "desc": "The Dodgers optioned Hurt to Triple-A Oklahoma City on Monday.",
       "player": {
         "name": "Kyle Hurt",
         "posShortNames": "SP,RP",
@@ -4438,7 +4485,7 @@
       "teamId": "10260",
       "id": "yaquy04xmsnr2njc",
       "seq": 140040,
-      "desc": "The Diamondbacks optioned Strowd to Triple-A Reno following Sunday's game against the Dodgers.",
+      "desc": "The Diamondbacks optioned Strowd to Triple-A Reno on Monday.",
       "player": {
         "name": "Kade Strowd",
         "posShortNames": "RP",
@@ -4850,58 +4897,6 @@
         "scorerId": "054p6",
         "posIds": [
           "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786377600000,
-      "teamId": "10260",
-      "id": "irv3mvdvmsnl32wj",
-      "seq": 140022,
-      "desc": "The Diamondbacks designated Sewald for assignment Monday, John Gambadoro of Arizona Sports 98.7 FM reports.",
-      "player": {
-        "name": "Paul Sewald",
-        "posShortNames": "RP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n2x_96_15.png",
-        "scorerId": "02n2x",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786377600000,
-      "teamId": "10050",
-      "id": "bs9s1rdnmsniboyk",
-      "seq": 140021,
-      "desc": "The Blue Jays promoted Parker from Single-A Dunedin to High-A Vancouver on Monday.",
-      "player": {
-        "name": "JoJo Parker",
-        "posShortNames": "SS",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "06se6",
-        "posIds": [
-          "005"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4916,6 +4911,53 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1786464000000,
+      "teamId": "10121",
+      "id": "y6s3e570msoyy8kk",
+      "seq": 140053,
+      "desc": "The Athletics claimed Rom off waivers Tuesday.",
+      "player": {
+        "name": "Drew Rom",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqd_96_2.png",
+        "scorerId": "04pqd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1786464000000,
+      "teamId": "10160",
+      "id": "6mgc36m4msoum3a4",
+      "seq": 140052,
+      "desc": "The Marlins recalled Pauley from Triple-A Jacksonville on Tuesday, Kevin Barral of FishonFirst.com reports.",
+      "player": {
+        "name": "Graham Pauley",
+        "posShortNames": "3B",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066lr_96_2.png",
+        "scorerId": "066lr",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1786377600000,
       "teamId": "10040",
       "id": "lox2botemso1bmtn",
@@ -4973,7 +5015,7 @@
       "teamId": "10300",
       "id": "odvjhkc8msnykb7g",
       "seq": 140048,
-      "desc": "Morgan's contract was selected from Triple-A Sacramento ahead of Monday's game against the Astros, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "desc": "The Giants selected Morgan's contract from Triple-A Sacramento ahead of Monday's game against the Astros, Alex Pavlovic of NBC Sports Bay Area reports.",
       "player": {
         "name": "Zach Morgan",
         "posShortNames": "C",
@@ -5020,7 +5062,7 @@
       "teamId": "10280",
       "id": "ygqz0lyjmsnveqdf",
       "seq": 140046,
-      "desc": "Hurt was optioned to Triple-A Oklahoma City on Monday.",
+      "desc": "The Dodgers optioned Hurt to Triple-A Oklahoma City on Monday.",
       "player": {
         "name": "Kyle Hurt",
         "posShortNames": "SP,RP",
@@ -5158,7 +5200,7 @@
       "teamId": "10260",
       "id": "yaquy04xmsnr2njc",
       "seq": 140040,
-      "desc": "The Diamondbacks optioned Strowd to Triple-A Reno following Sunday's game against the Dodgers.",
+      "desc": "The Diamondbacks optioned Strowd to Triple-A Reno on Monday.",
       "player": {
         "name": "Kade Strowd",
         "posShortNames": "RP",
@@ -5570,58 +5612,6 @@
         "scorerId": "054p6",
         "posIds": [
           "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786377600000,
-      "teamId": "10260",
-      "id": "irv3mvdvmsnl32wj",
-      "seq": 140022,
-      "desc": "The Diamondbacks designated Sewald for assignment Monday, John Gambadoro of Arizona Sports 98.7 FM reports.",
-      "player": {
-        "name": "Paul Sewald",
-        "posShortNames": "RP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n2x_96_15.png",
-        "scorerId": "02n2x",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1786377600000,
-      "teamId": "10050",
-      "id": "bs9s1rdnmsniboyk",
-      "seq": 140021,
-      "desc": "The Blue Jays promoted Parker from Single-A Dunedin to High-A Vancouver on Monday.",
-      "player": {
-        "name": "JoJo Parker",
-        "posShortNames": "SS",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "06se6",
-        "posIds": [
-          "005"
         ],
         "rookie": false,
         "minorsEligible": false,
