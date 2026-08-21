@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T12:34:36.111236Z",
+  "lastUpdated": "2026-08-21T18:27:45.944324Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,53 @@
   },
   "transactions": [
     {
+      "displayDate": 1787328000000,
+      "teamId": "10160",
+      "id": "o7oprp9jmt377e1u",
+      "seq": 140299,
+      "desc": "The Marlins selected Driscoll's contract from Triple-A Jacksonville on Friday, Kevin Barral of FishonFirst.com reports.",
+      "player": {
+        "name": "Logan Driscoll",
+        "posShortNames": "C",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "",
+        "scorerId": "0512b",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787328000000,
+      "teamId": "10090",
+      "id": "cjo4kjmcmt36t6wb",
+      "seq": 140298,
+      "desc": "The Royals released Barlow on Thursday.",
+      "player": {
+        "name": "Scott Barlow",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02buh_96_11.png",
+        "scorerId": "02buh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1787241600000,
       "teamId": "10260",
       "id": "7ga7wr8amt2618dn",
@@ -4381,12 +4428,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4855,58 +4897,58 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1787155200000,
-      "teamId": "10230",
-      "id": "t56lkodwmt0hu5k6",
-      "seq": 140269,
-      "desc": "The Brewers optioned Lockridge to Triple-A Nashville on Wednesday.",
-      "player": {
-        "name": "Brandon Lockridge",
-        "posShortNames": "LF",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04prc_96_1.png",
-        "scorerId": "04prc",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787155200000,
-      "teamId": "10230",
-      "id": "w0ueps8zmt0hu5ia",
-      "seq": 140268,
-      "desc": "The Brewers activated Pratt (hamstring) from the 10-day injured list. He'll start at shortstop and bat ninth Wednesday against the Mariners.",
-      "player": {
-        "name": "Cooper Pratt",
-        "posShortNames": "SS",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs067xj_96_1.png",
-        "scorerId": "067xj",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1787328000000,
+      "teamId": "10160",
+      "id": "o7oprp9jmt377e1u",
+      "seq": 140299,
+      "desc": "The Marlins selected Driscoll's contract from Triple-A Jacksonville on Friday, Kevin Barral of FishonFirst.com reports.",
+      "player": {
+        "name": "Logan Driscoll",
+        "posShortNames": "C",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "",
+        "scorerId": "0512b",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787328000000,
+      "teamId": "10090",
+      "id": "cjo4kjmcmt36t6wb",
+      "seq": 140298,
+      "desc": "The Royals released Barlow on Thursday.",
+      "player": {
+        "name": "Scott Barlow",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02buh_96_11.png",
+        "scorerId": "02buh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1787241600000,
       "teamId": "10260",
       "id": "7ga7wr8amt2618dn",
@@ -5092,12 +5134,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5566,53 +5603,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1787155200000,
-      "teamId": "10230",
-      "id": "t56lkodwmt0hu5k6",
-      "seq": 140269,
-      "desc": "The Brewers optioned Lockridge to Triple-A Nashville on Wednesday.",
-      "player": {
-        "name": "Brandon Lockridge",
-        "posShortNames": "LF",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04prc_96_1.png",
-        "scorerId": "04prc",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787155200000,
-      "teamId": "10230",
-      "id": "w0ueps8zmt0hu5ia",
-      "seq": 140268,
-      "desc": "The Brewers activated Pratt (hamstring) from the 10-day injured list. He'll start at shortstop and bat ninth Wednesday against the Mariners.",
-      "player": {
-        "name": "Cooper Pratt",
-        "posShortNames": "SS",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs067xj_96_1.png",
-        "scorerId": "067xj",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
