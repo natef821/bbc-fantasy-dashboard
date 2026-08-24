@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T12:37:00.979289Z",
+  "lastUpdated": "2026-08-24T18:31:12.165938Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,32 @@
   },
   "transactions": [
     {
+      "displayDate": 1787587200000,
+      "teamId": "10130",
+      "id": "mj50as5lmt7jp68v",
+      "seq": 140365,
+      "desc": "The Mariners outrighted Diaz to Triple-A Tacoma on Monday.",
+      "player": {
+        "name": "Jhonathan Diaz",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04oc6_96_4.png",
+        "scorerId": "04oc6",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1787500800000,
       "teamId": "10040",
       "id": "aenv5hukmt6md4gl",
@@ -4866,27 +4892,6 @@
         "scorerId": "06cq8",
         "posIds": [
           "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10190",
-      "id": "kevzxj2smt4sybix",
-      "seq": 140335,
-      "desc": "The Nationals claimed Waldron off waivers from the Blue Jays on Saturday.",
-      "player": {
-        "name": "Matt Waldron",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051e5_96_3.png",
-        "scorerId": "051e5",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4896,6 +4901,32 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1787587200000,
+      "teamId": "10130",
+      "id": "mj50as5lmt7jp68v",
+      "seq": 140365,
+      "desc": "The Mariners outrighted Diaz to Triple-A Tacoma on Monday.",
+      "player": {
+        "name": "Jhonathan Diaz",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04oc6_96_4.png",
+        "scorerId": "04oc6",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1787500800000,
       "teamId": "10040",
       "id": "aenv5hukmt6md4gl",
@@ -5566,27 +5597,6 @@
         "scorerId": "06cq8",
         "posIds": [
           "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10190",
-      "id": "kevzxj2smt4sybix",
-      "seq": 140335,
-      "desc": "The Nationals claimed Waldron off waivers from the Blue Jays on Saturday.",
-      "player": {
-        "name": "Matt Waldron",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051e5_96_3.png",
-        "scorerId": "051e5",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
