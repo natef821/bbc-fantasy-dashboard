@@ -1,4200 +1,349 @@
 {
-  "lastUpdated": "2026-08-23T18:20:08.080970Z",
+  "lastUpdated": "2026-08-24T00:56:14.329985Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
-  "standings": [
-    {
-      "id": "odce8gzsmg7kg72c",
-      "name": "Wyatt and the Lankers",
-      "short": "LANK",
-      "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp",
-      "rank": 1,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.56",
-      "scoringPeriod": "2030",
-      "gb": "4,958.5",
-      "ww": 6332,
-      "pbl": 2.0,
-      "hitPts": 0.0,
-      "pitPts": 0
-    },
-    {
-      "id": "g8p3r1i9mg7kg72b",
-      "name": "Juan Binary",
-      "short": "JUAN",
-      "logoUrl": "https://fantraximg.com/logos/zwr/tmLogo_zwr4wx6wmr1fgiwc_512.webp",
-      "rank": 2,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.74",
-      "scoringPeriod": "1963",
-      "gb": "5,211.5",
-      "ww": 6063,
-      "pbl": 10.0,
-      "hitPts": 16.0,
-      "pitPts": 0
-    },
-    {
-      "id": "7gq3y996mg7kg729",
-      "name": "Slattlanta",
-      "short": "JDPusha",
-      "logoUrl": "https://fantraximg.com/logos/9i1/tmLogo_9i1cc3c2mq44kk57_512.webp",
-      "rank": 3,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.63",
-      "scoringPeriod": "1991",
-      "gb": "5,232.75",
-      "ww": 5986,
-      "pbl": 6.0,
-      "hitPts": 71.25,
-      "pitPts": 0
-    },
-    {
-      "id": "w6b31holmg7kg72f",
-      "name": "Layin Wood\ud83e\udeb5",
-      "short": "Lsgob",
-      "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp",
-      "rank": 4,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.52",
-      "scoringPeriod": "1896",
-      "gb": "4,807.75",
-      "ww": 5666,
-      "pbl": 12.0,
-      "hitPts": 816.25,
-      "pitPts": 0
-    },
-    {
-      "id": "0qrvkt09mg7kg72f",
-      "name": "First Pitch Swinging",
-      "short": "FPS",
-      "logoUrl": "https://fantraximg.com/logos/u8v/tmLogo_u8vsnkdbml4fnu92_512.webp",
-      "rank": 5,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.41",
-      "scoringPeriod": "1902",
-      "gb": "4,768",
-      "ww": 5530,
-      "pbl": 1.0,
-      "hitPts": 992.0,
-      "pitPts": 0
-    },
-    {
-      "id": "nbnjqx3cmg7kg72g",
-      "name": "Honey Nut Chourio's",
-      "short": "Watchtow",
-      "logoUrl": "https://fantraximg.com/logos/0lf/tmLogo_0lfo2aaymnwg1b7o_512.webp",
-      "rank": 6,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.25",
-      "scoringPeriod": "1917",
-      "gb": "4,272.75",
-      "ww": 5789,
-      "pbl": 9.0,
-      "hitPts": 1228.75,
-      "pitPts": 0
-    },
-    {
-      "id": "8znzrpg1mg7kg72e",
-      "name": "Soft Balls",
-      "short": "SOBALLS",
-      "logoUrl": "https://fantraximg.com/logos/vdw/tmLogo_vdw0160qmr25grme_512.webp",
-      "rank": 7,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.06",
-      "scoringPeriod": "1907",
-      "gb": "4,537.25",
-      "ww": 5117,
-      "pbl": 4.0,
-      "hitPts": 1636.25,
-      "pitPts": 0
-    },
-    {
-      "id": "jwg2zkwzmg7kg72a",
-      "name": "Jac-in' It",
-      "short": "Jac",
-      "logoUrl": "https://fantraximg.com/logos/6oi/tmLogo_6oix2hntmn40p414_512.webp",
-      "rank": 8,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.02",
-      "scoringPeriod": "1871",
-      "gb": "4,496.5",
-      "ww": 4900,
-      "pbl": 8.0,
-      "hitPts": 1894.0,
-      "pitPts": 0
-    },
-    {
-      "id": "xgktl0otmg7kg72d",
-      "name": "Tank for LeBron",
-      "short": "Vind25",
-      "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp",
-      "rank": 9,
-      "fantasyPoints": "",
-      "fptsPerGame": "4.94",
-      "scoringPeriod": "1901",
-      "gb": "4,455.75",
-      "ww": 4931,
-      "pbl": 5.0,
-      "hitPts": 1903.25,
-      "pitPts": 0
-    },
-    {
-      "id": "aw407ddlmg7kg72a",
-      "name": "Golden Gate Gays",
-      "short": "GGG",
-      "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/helmet/purple_magenta_256.webp",
-      "rank": 10,
-      "fantasyPoints": "",
-      "fptsPerGame": "4.59",
-      "scoringPeriod": "1851",
-      "gb": "4,056",
-      "ww": 4449,
-      "pbl": 3.0,
-      "hitPts": 2785.5,
-      "pitPts": 0
-    },
-    {
-      "id": "lhaxchcjmg7kg72c",
-      "name": "Say Yes to Velo",
-      "short": "haydenor",
-      "logoUrl": "https://fantraximg.com/logos/nsd/tmLogo_nsdzor91mcat5gih_512.webp",
-      "rank": 11,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.06",
-      "scoringPeriod": "1643",
-      "gb": "4,103.75",
-      "ww": 4204,
-      "pbl": 11.0,
-      "hitPts": 2982.75,
-      "pitPts": 0
-    },
-    {
-      "id": "vhuxfzygmg7kg728",
-      "name": "Creative Name",
-      "short": "CN",
-      "logoUrl": "https://fantraximg.com/logos/nye/tmLogo_nye0oe90mpqbqirz_512.webp",
-      "rank": 12,
-      "fantasyPoints": "",
-      "fptsPerGame": "4.27",
-      "scoringPeriod": "1729",
-      "gb": "3,855.75",
-      "ww": 3520,
-      "pbl": 7.0,
-      "hitPts": 3914.75,
-      "pitPts": 0
-    }
-  ],
-  "schedule": {
-    "records": [
-      {
-        "w": 18,
-        "l": 24,
-        "t": 2,
-        "pf": 9387.25,
-        "pa": 9973.0,
-        "name": "Tank for LeBron",
-        "weeklyPF": [
-          220.25,
-          243.75,
-          205.0,
-          212.0,
-          222.75,
-          330.5,
-          250.25,
-          279.5,
-          176.75,
-          215.0,
-          278.75,
-          212.0,
-          169.5,
-          232.0,
-          202.0,
-          241.5,
-          233.75,
-          263.5,
-          318.5,
-          209.0,
-          219.25,
-          279.75,
-          221.75,
-          185.25,
-          204.0,
-          184.0,
-          149.5,
-          176.0,
-          134.25,
-          243.5,
-          225.75,
-          214.25,
-          267.75,
-          142.75,
-          219.5,
-          275.5,
-          215.25,
-          205.25,
-          263.25,
-          166.5,
-          241.0,
-          237.0,
-          0.0,
-          0.0
-        ],
-        "teamId": "xgktl0otmg7kg72d",
-        "short": "Vind25",
-        "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp"
-      },
-      {
-        "w": 30,
-        "l": 12,
-        "t": 2,
-        "pf": 11274.5,
-        "pa": 9656.5,
-        "name": "Juan Binary",
-        "weeklyPF": [
-          339.75,
-          277.25,
-          195.0,
-          312.75,
-          133.0,
-          355.25,
-          153.0,
-          267.75,
-          168.75,
-          346.25,
-          222.0,
-          350.0,
-          239.25,
-          260.5,
-          203.0,
-          375.25,
-          161.75,
-          219.75,
-          212.5,
-          376.75,
-          261.75,
-          253.75,
-          309.5,
-          334.0,
-          252.5,
-          370.0,
-          267.25,
-          318.0,
-          286.75,
-          284.25,
-          231.0,
-          335.5,
-          288.75,
-          275.0,
-          292.5,
-          168.25,
-          269.25,
-          258.5,
-          295.25,
-          251.5,
-          331.25,
-          170.5,
-          0.0,
-          0.0
-        ],
-        "teamId": "g8p3r1i9mg7kg72b",
-        "short": "JUAN",
-        "logoUrl": "https://fantraximg.com/logos/zwr/tmLogo_zwr4wx6wmr1fgiwc_512.webp"
-      },
-      {
-        "w": 22,
-        "l": 19,
-        "t": 3,
-        "pf": 10061.75,
-        "pa": 9829.0,
-        "name": "Honey Nut Chourio's",
-        "weeklyPF": [
-          262.75,
-          168.25,
-          240.5,
-          268.75,
-          102.75,
-          269.0,
-          148.75,
-          275.25,
-          273.5,
-          218.25,
-          173.0,
-          324.25,
-          207.0,
-          218.25,
-          145.5,
-          236.5,
-          210.0,
-          259.75,
-          209.5,
-          297.75,
-          141.0,
-          234.25,
-          220.0,
-          288.5,
-          195.75,
-          337.25,
-          294.0,
-          254.25,
-          257.5,
-          303.25,
-          273.25,
-          355.0,
-          204.5,
-          187.75,
-          257.5,
-          233.5,
-          308.25,
-          253.25,
-          341.75,
-          189.5,
-          286.5,
-          136.0,
-          0.0,
-          0.0
-        ],
-        "teamId": "nbnjqx3cmg7kg72g",
-        "short": "Watchtow",
-        "logoUrl": "https://fantraximg.com/logos/0lf/tmLogo_0lfo2aaymnwg1b7o_512.webp"
-      },
-      {
-        "w": 18,
-        "l": 23,
-        "t": 3,
-        "pf": 9396.5,
-        "pa": 9325.75,
-        "name": "Jac-in' It",
-        "weeklyPF": [
-          180.75,
-          169.25,
-          192.75,
-          243.25,
-          158.25,
-          283.75,
-          171.75,
-          262.5,
-          254.5,
-          206.75,
-          154.0,
-          123.25,
-          202.5,
-          187.0,
-          244.0,
-          259.75,
-          210.0,
-          272.25,
-          207.75,
-          222.5,
-          355.75,
-          220.5,
-          121.5,
-          240.5,
-          212.25,
-          289.25,
-          77.75,
-          332.25,
-          193.5,
-          275.75,
-          216.75,
-          191.25,
-          263.5,
-          141.5,
-          297.5,
-          181.25,
-          311.25,
-          202.75,
-          296.5,
-          285.75,
-          298.0,
-          185.0,
-          0.0,
-          0.0
-        ],
-        "teamId": "jwg2zkwzmg7kg72a",
-        "short": "Jac",
-        "logoUrl": "https://fantraximg.com/logos/6oi/tmLogo_6oix2hntmn40p414_512.webp"
-      },
-      {
-        "w": 31,
-        "l": 11,
-        "t": 2,
-        "pf": 11290.5,
-        "pa": 9781.0,
-        "name": "Wyatt and the Lankers",
-        "weeklyPF": [
-          286.75,
-          301.25,
-          232.0,
-          297.0,
-          255.5,
-          342.25,
-          203.0,
-          302.25,
-          241.0,
-          283.5,
-          203.75,
-          245.0,
-          245.25,
-          373.0,
-          250.0,
-          278.25,
-          207.75,
-          219.0,
-          230.25,
-          284.5,
-          179.75,
-          280.5,
-          249.25,
-          355.25,
-          209.0,
-          360.25,
-          273.0,
-          379.75,
-          327.25,
-          364.75,
-          188.5,
-          208.25,
-          265.25,
-          312.0,
-          277.25,
-          308.25,
-          285.25,
-          245.25,
-          267.5,
-          284.75,
-          270.0,
-          118.25,
-          0.0,
-          0.0
-        ],
-        "teamId": "odce8gzsmg7kg72c",
-        "short": "LANK",
-        "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp"
-      },
-      {
-        "w": 28,
-        "l": 14,
-        "t": 2,
-        "pf": 11219.25,
-        "pa": 9527.5,
-        "name": "Slattlanta",
-        "weeklyPF": [
-          318.0,
-          243.0,
-          154.5,
-          207.75,
-          305.75,
-          244.75,
-          212.0,
-          281.25,
-          221.75,
-          242.25,
-          208.75,
-          249.25,
-          309.25,
-          227.5,
-          209.5,
-          409.25,
-          206.75,
-          338.25,
-          272.75,
-          227.0,
-          223.25,
-          304.0,
-          223.25,
-          343.75,
-          288.5,
-          285.5,
-          206.25,
-          273.25,
-          352.25,
-          289.0,
-          236.5,
-          243.5,
-          365.0,
-          301.25,
-          292.25,
-          265.0,
-          312.5,
-          200.0,
-          384.0,
-          218.75,
-          329.0,
-          193.25,
-          0.0,
-          0.0
-        ],
-        "teamId": "7gq3y996mg7kg729",
-        "short": "JDPusha",
-        "logoUrl": "https://fantraximg.com/logos/9i1/tmLogo_9i1cc3c2mq44kk57_512.webp"
-      },
-      {
-        "w": 16,
-        "l": 26,
-        "t": 2,
-        "pf": 8307.75,
-        "pa": 9418.75,
-        "name": "Say Yes to Velo",
-        "weeklyPF": [
-          144.25,
-          169.25,
-          196.5,
-          176.5,
-          197.5,
-          223.25,
-          245.75,
-          241.75,
-          139.0,
-          317.0,
-          263.75,
-          194.75,
-          236.75,
-          192.25,
-          176.5,
-          260.5,
-          145.25,
-          378.5,
-          163.5,
-          296.75,
-          236.25,
-          200.0,
-          129.5,
-          294.25,
-          136.75,
-          127.75,
-          101.0,
-          155.75,
-          101.75,
-          208.25,
-          158.25,
-          237.75,
-          284.0,
-          248.75,
-          178.5,
-          163.75,
-          142.75,
-          256.5,
-          221.0,
-          140.75,
-          158.5,
-          66.75,
-          0.0,
-          0.0
-        ],
-        "teamId": "lhaxchcjmg7kg72c",
-        "short": "haydenor",
-        "logoUrl": "https://fantraximg.com/logos/nsd/tmLogo_nsdzor91mcat5gih_512.webp"
-      },
-      {
-        "w": 9,
-        "l": 33,
-        "t": 2,
-        "pf": 7375.75,
-        "pa": 9763.0,
-        "name": "Creative Name",
-        "weeklyPF": [
-          184.75,
-          194.75,
-          205.0,
-          198.5,
-          273.5,
-          240.75,
-          164.25,
-          223.0,
-          156.0,
-          262.0,
-          125.25,
-          259.5,
-          219.5,
-          242.5,
-          160.5,
-          167.75,
-          163.5,
-          175.0,
-          189.5,
-          162.5,
-          172.75,
-          228.5,
-          130.5,
-          206.5,
-          171.0,
-          106.25,
-          210.5,
-          159.0,
-          65.5,
-          194.0,
-          117.75,
-          168.5,
-          72.0,
-          130.0,
-          207.25,
-          81.25,
-          243.25,
-          166.25,
-          161.0,
-          164.0,
-          120.0,
-          132.0,
-          0.0,
-          0.0
-        ],
-        "teamId": "vhuxfzygmg7kg728",
-        "short": "CN",
-        "logoUrl": "https://fantraximg.com/logos/nye/tmLogo_nye0oe90mpqbqirz_512.webp"
-      },
-      {
-        "w": 19,
-        "l": 23,
-        "t": 2,
-        "pf": 10298.5,
-        "pa": 10036.75,
-        "name": "First Pitch Swinging",
-        "weeklyPF": [
-          306.75,
-          241.5,
-          168.25,
-          267.75,
-          254.75,
-          202.75,
-          313.25,
-          202.5,
-          155.25,
-          309.25,
-          196.0,
-          249.0,
-          210.75,
-          199.25,
-          222.0,
-          231.5,
-          263.5,
-          405.75,
-          197.0,
-          260.25,
-          197.5,
-          257.75,
-          186.0,
-          206.75,
-          255.25,
-          304.75,
-          183.5,
-          266.0,
-          229.5,
-          308.75,
-          205.5,
-          222.75,
-          392.0,
-          245.75,
-          319.5,
-          291.0,
-          276.25,
-          200.5,
-          269.5,
-          195.75,
-          270.75,
-          156.5,
-          0.0,
-          0.0
-        ],
-        "teamId": "0qrvkt09mg7kg72f",
-        "short": "FPS",
-        "logoUrl": "https://fantraximg.com/logos/u8v/tmLogo_u8vsnkdbml4fnu92_512.webp"
-      },
-      {
-        "w": 11,
-        "l": 31,
-        "t": 2,
-        "pf": 8505.0,
-        "pa": 10407.5,
-        "name": "Golden Gate Gays",
-        "weeklyPF": [
-          197.5,
-          260.5,
-          192.0,
-          193.75,
-          227.75,
-          196.25,
-          127.75,
-          271.5,
-          243.5,
-          168.5,
-          243.0,
-          162.5,
-          191.0,
-          191.75,
-          265.75,
-          298.75,
-          192.75,
-          256.5,
-          244.5,
-          264.0,
-          259.75,
-          217.0,
-          206.5,
-          155.5,
-          140.75,
-          228.5,
-          215.5,
-          235.75,
-          226.25,
-          151.25,
-          141.5,
-          178.25,
-          155.0,
-          171.0,
-          184.5,
-          140.5,
-          233.5,
-          163.5,
-          198.5,
-          110.25,
-          250.75,
-          151.5,
-          0.0,
-          0.0
-        ],
-        "teamId": "aw407ddlmg7kg72a",
-        "short": "GGG",
-        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/helmet/purple_magenta_256.webp"
-      },
-      {
-        "w": 29,
-        "l": 13,
-        "t": 2,
-        "pf": 10474.25,
-        "pa": 9527.75,
-        "name": "Layin Wood\ud83e\udeb5",
-        "weeklyPF": [
-          286.0,
-          291.75,
-          171.5,
-          211.5,
-          176.0,
-          205.75,
-          224.0,
-          267.0,
-          256.5,
-          318.25,
-          213.5,
-          260.5,
-          271.5,
-          319.0,
-          276.0,
-          325.25,
-          196.75,
-          231.25,
-          235.75,
-          299.25,
-          200.0,
-          253.0,
-          234.75,
-          170.75,
-          278.75,
-          285.0,
-          254.75,
-          294.0,
-          195.5,
-          316.75,
-          244.75,
-          218.0,
-          331.25,
-          243.0,
-          227.75,
-          188.75,
-          316.5,
-          294.25,
-          279.25,
-          204.75,
-          251.25,
-          154.5,
-          0.0,
-          0.0
-        ],
-        "teamId": "w6b31holmg7kg72f",
-        "short": "Lsgob",
-        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp"
-      },
-      {
-        "w": 20,
-        "l": 22,
-        "t": 2,
-        "pf": 9654.25,
-        "pa": 9998.75,
-        "name": "Soft Balls",
-        "weeklyPF": [
-          323.5,
-          319.5,
-          223.5,
-          272.25,
-          210.5,
-          306.25,
-          225.5,
-          286.0,
-          194.25,
-          304.0,
-          229.25,
-          272.5,
-          153.0,
-          231.75,
-          155.25,
-          294.25,
-          186.75,
-          272.75,
-          149.75,
-          189.25,
-          166.25,
-          252.5,
-          250.5,
-          188.75,
-          119.0,
-          217.75,
-          265.0,
-          193.5,
-          295.5,
-          224.0,
-          157.0,
-          247.0,
-          209.0,
-          177.75,
-          286.0,
-          249.0,
-          213.0,
-          279.5,
-          324.25,
-          165.75,
-          245.5,
-          128.0,
-          0.0,
-          0.0
-        ],
-        "teamId": "8znzrpg1mg7kg72e",
-        "short": "SOBALLS",
-        "logoUrl": "https://fantraximg.com/logos/vdw/tmLogo_vdw0160qmr25grme_512.webp"
-      }
-    ],
-    "periods": [
-      {
-        "period": "Scoring Period 1",
-        "matchups": [
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 220.25,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 339.75,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 262.75,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 180.75,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 286.75,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 318.0,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 144.25,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 184.75,
-            "winner": "Creative Name"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 306.75,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 197.5,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 286.0,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 323.5,
-            "winner": "Soft Balls"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 2",
-        "matchups": [
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 168.25,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 277.25,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 169.25,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 243.75,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 169.25,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 301.25,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 194.75,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 243.0,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 241.5,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 319.5,
-            "winner": "Soft Balls"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 291.75,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 260.5,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 3",
-        "matchups": [
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 192.75,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 195.0,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 205.0,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 240.5,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 205.0,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 232.0,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 154.5,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 196.5,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 171.5,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 168.25,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 192.0,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 223.5,
-            "winner": "Soft Balls"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 4",
-        "matchups": [
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 243.25,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 198.5,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 297.0,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 267.75,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 193.75,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 212.0,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 268.75,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 272.25,
-            "winner": "Soft Balls"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 312.75,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 207.75,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 176.5,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 211.5,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 5",
-        "matchups": [
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 273.5,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 176.0,
-            "winner": "Creative Name"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 254.75,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 222.75,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 227.75,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 305.75,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 158.25,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 210.5,
-            "winner": "Soft Balls"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 197.5,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 102.75,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 255.5,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 133.0,
-            "winner": "Wyatt and the Lankers"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 6",
-        "matchups": [
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 269.0,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 240.75,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 355.25,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 202.75,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 196.25,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 342.25,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 205.75,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 283.75,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 306.25,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 223.25,
-            "winner": "Soft Balls"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 330.5,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 244.75,
-            "winner": "Tank for LeBron"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 7",
-        "matchups": [
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 313.25,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 164.25,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 127.75,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 250.25,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 203.0,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 171.75,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 225.5,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 148.75,
-            "winner": "Soft Balls"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 153.0,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 245.75,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 212.0,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 224.0,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 8",
-        "matchups": [
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 271.5,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 223.0,
-            "winner": "Golden Gate Gays"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 202.5,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 302.25,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 281.25,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 262.5,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 241.75,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 275.25,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 267.75,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 286.0,
-            "winner": "Soft Balls"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 279.5,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 267.0,
-            "winner": "Tank for LeBron"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 9",
-        "matchups": [
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 168.75,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 176.75,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 273.5,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 254.5,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 221.75,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 241.0,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 156.0,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 139.0,
-            "winner": "Creative Name"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 243.5,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 155.25,
-            "winner": "Golden Gate Gays"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 194.25,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 256.5,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 10",
-        "matchups": [
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 218.25,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 346.25,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 206.75,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 215.0,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 317.0,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 283.5,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 262.0,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 242.25,
-            "winner": "Creative Name"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 309.25,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 304.0,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 168.5,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 318.25,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 11",
-        "matchups": [
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 154.0,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 222.0,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 278.75,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 173.0,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 125.25,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 203.75,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 208.75,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 263.75,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 213.5,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 196.0,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 243.0,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 229.25,
-            "winner": "Golden Gate Gays"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 12",
-        "matchups": [
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 259.5,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 123.25,
-            "winner": "Creative Name"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 249.0,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 249.25,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 162.5,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 194.75,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 245.0,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 324.25,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 350.0,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 260.5,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 272.5,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 212.0,
-            "winner": "Soft Balls"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 13",
-        "matchups": [
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 239.25,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 219.5,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 210.75,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 236.75,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 207.0,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 191.0,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 271.5,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 202.5,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 153.0,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 309.25,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 245.25,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 169.5,
-            "winner": "Wyatt and the Lankers"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 14",
-        "matchups": [
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 242.5,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 319.0,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 260.5,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 199.25,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 187.0,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 191.75,
-            "winner": "Golden Gate Gays"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 227.5,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 218.25,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 232.0,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 192.25,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 373.0,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 231.75,
-            "winner": "Wyatt and the Lankers"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 15",
-        "matchups": [
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 160.5,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 202.0,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 244.0,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 222.0,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 265.75,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 209.5,
-            "winner": "Golden Gate Gays"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 276.0,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 145.5,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 203.0,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 250.0,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 155.25,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 176.5,
-            "winner": "Say Yes to Velo"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 16",
-        "matchups": [
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 167.75,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 294.25,
-            "winner": "Soft Balls"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 236.5,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 231.5,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 375.25,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 298.75,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 260.5,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 259.75,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 278.25,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 325.25,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 241.5,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 409.25,
-            "winner": "Slattlanta"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 17",
-        "matchups": [
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 161.75,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 233.75,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 210.0,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 210.0,
-            "winner": "Tie"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 206.75,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 207.75,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 163.5,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 145.25,
-            "winner": "Creative Name"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 192.75,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 263.5,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 186.75,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 196.75,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 18",
-        "matchups": [
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 259.75,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 219.75,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 272.25,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 263.5,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 378.5,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 219.0,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 175.0,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 338.25,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 405.75,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 272.75,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 231.25,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 256.5,
-            "winner": "Golden Gate Gays"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 19",
-        "matchups": [
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 207.75,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 212.5,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 318.5,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 209.5,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 189.5,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 230.25,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 272.75,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 163.5,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 235.75,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 197.0,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 244.5,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 149.75,
-            "winner": "Golden Gate Gays"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 20",
-        "matchups": [
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 260.25,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 162.5,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 284.5,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 264.0,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 189.25,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 222.5,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 227.0,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 297.75,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 376.75,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 296.75,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 209.0,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 299.25,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 21",
-        "matchups": [
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 259.75,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 172.75,
-            "winner": "Golden Gate Gays"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 197.5,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 179.75,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 223.25,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 355.75,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 166.25,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 141.0,
-            "winner": "Soft Balls"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 261.75,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 200.0,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 219.25,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 236.25,
-            "winner": "Say Yes to Velo"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 22",
-        "matchups": [
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 220.5,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 228.5,
-            "winner": "Creative Name"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 257.75,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 279.75,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 217.0,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 304.0,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 280.5,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 234.25,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 253.75,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 252.5,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 200.0,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 253.0,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 23",
-        "matchups": [
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 220.0,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 130.5,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 186.0,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 223.25,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 221.75,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 206.5,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 234.75,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 121.5,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 249.25,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 309.5,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 250.5,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 129.5,
-            "winner": "Soft Balls"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 24",
-        "matchups": [
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 334.0,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 206.5,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 206.75,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 294.25,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 288.5,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 155.5,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 355.25,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 240.5,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 343.75,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 170.75,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 188.75,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 185.25,
-            "winner": "Soft Balls"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 25",
-        "matchups": [
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 252.5,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 204.0,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 195.75,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 212.25,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 288.5,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 209.0,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 171.0,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 136.75,
-            "winner": "Creative Name"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 140.75,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 255.25,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 119.0,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 278.75,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 26",
-        "matchups": [
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 337.25,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 370.0,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 289.25,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 184.0,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 127.75,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 360.25,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 106.25,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 285.5,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 304.75,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 217.75,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 285.0,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 228.5,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 27",
-        "matchups": [
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 77.75,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 267.25,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 149.5,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 294.0,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 210.5,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 273.0,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 206.25,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 101.0,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 254.75,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 183.5,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 215.5,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 265.0,
-            "winner": "Soft Balls"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 28",
-        "matchups": [
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 294.0,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 159.0,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 318.0,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 266.0,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 332.25,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 235.75,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 155.75,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 254.25,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 193.5,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 273.25,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 379.75,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 176.0,
-            "winner": "Wyatt and the Lankers"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 29",
-        "matchups": [
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 65.5,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 134.25,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 193.5,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 229.5,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 101.75,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 226.25,
-            "winner": "Golden Gate Gays"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 195.5,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 257.5,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 286.75,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 352.25,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 327.25,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 295.5,
-            "winner": "Wyatt and the Lankers"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 30",
-        "matchups": [
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 194.0,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 224.0,
-            "winner": "Soft Balls"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 303.25,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 308.75,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 284.25,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 151.25,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 208.25,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 275.75,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 364.75,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 316.75,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 243.5,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 289.0,
-            "winner": "Slattlanta"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 31",
-        "matchups": [
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 205.5,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 117.75,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 188.5,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 141.5,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 157.0,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 216.75,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 236.5,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 273.25,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 158.25,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 231.0,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 225.75,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 244.75,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 32",
-        "matchups": [
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 178.25,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 168.5,
-            "winner": "Golden Gate Gays"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 222.75,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 208.25,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 243.5,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 191.25,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 247.0,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 355.0,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 218.0,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 335.5,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 214.25,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 237.75,
-            "winner": "Say Yes to Velo"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 33",
-        "matchups": [
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 267.75,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 288.75,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 204.5,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 263.5,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 365.0,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 265.25,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 284.0,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 72.0,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 155.0,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 392.0,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 209.0,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 331.25,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 34",
-        "matchups": [
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 187.75,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 275.0,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 141.5,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 142.75,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 248.75,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 312.0,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 130.0,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 301.25,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 245.75,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 177.75,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 243.0,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 171.0,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 35",
-        "matchups": [
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 297.5,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 292.5,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 219.5,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 257.5,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 207.25,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 277.25,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 292.25,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 178.5,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 227.75,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 319.5,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 184.5,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 286.0,
-            "winner": "Soft Balls"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 36",
-        "matchups": [
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 181.25,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 81.25,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 291.0,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 275.5,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 265.0,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 140.5,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 308.25,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 233.5,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 249.0,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 168.25,
-            "winner": "Soft Balls"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 163.75,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 188.75,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 37",
-        "matchups": [
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 308.25,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 243.25,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 276.25,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 312.5,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 215.25,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 233.5,
-            "winner": "Golden Gate Gays"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 316.5,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 311.25,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 285.25,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 269.25,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 213.0,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 142.75,
-            "winner": "Soft Balls"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 38",
-        "matchups": [
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 258.5,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 166.25,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 200.5,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 256.5,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 253.25,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 163.5,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 245.25,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 202.75,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 200.0,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 294.25,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 279.5,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 205.25,
-            "winner": "Soft Balls"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 39",
-        "matchups": [
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 279.25,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 161.0,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 295.25,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 269.5,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 296.5,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 198.5,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 221.0,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 341.75,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 324.25,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 384.0,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 267.5,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 263.25,
-            "winner": "Wyatt and the Lankers"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 40",
-        "matchups": [
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 166.5,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 164.0,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 285.75,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 195.75,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 140.75,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 110.25,
-            "winner": "Say Yes to Velo"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 204.75,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 189.5,
-            "winner": "Layin Wood\ud83e\udeb5"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 218.75,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 251.5,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 284.75,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 165.75,
-            "winner": "Wyatt and the Lankers"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 41",
-        "matchups": [
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 245.5,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 120.0,
-            "winner": "Soft Balls"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 286.5,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 270.75,
-            "winner": "Honey Nut Chourio's"
-          },
-          {
-            "team1": "Juan Binary",
-            "team1Id": "g8p3r1i9mg7kg72b",
-            "team1Pts": 331.25,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 250.75,
-            "winner": "Juan Binary"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 158.5,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 298.0,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Wyatt and the Lankers",
-            "team1Id": "odce8gzsmg7kg72c",
-            "team1Pts": 270.0,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 251.25,
-            "winner": "Wyatt and the Lankers"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 241.0,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 329.0,
-            "winner": "Slattlanta"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 42",
-        "matchups": [
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 237.0,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 170.5,
-            "winner": "Tank for LeBron"
-          },
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 136.0,
-            "team2": "Jac-in' It",
-            "team2Id": "jwg2zkwzmg7kg72a",
-            "team2Pts": 185.0,
-            "winner": "Jac-in' It"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 193.25,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 118.25,
-            "winner": "Slattlanta"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 66.75,
-            "team2": "Creative Name",
-            "team2Id": "vhuxfzygmg7kg728",
-            "team2Pts": 132.0,
-            "winner": "Creative Name"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 151.5,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 156.5,
-            "winner": "First Pitch Swinging"
-          },
-          {
-            "team1": "Soft Balls",
-            "team1Id": "8znzrpg1mg7kg72e",
-            "team1Pts": 128.0,
-            "team2": "Layin Wood\ud83e\udeb5",
-            "team2Id": "w6b31holmg7kg72f",
-            "team2Pts": 154.5,
-            "winner": "Layin Wood\ud83e\udeb5"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 43",
-        "matchups": [
-          {
-            "team1": "Honey Nut Chourio's",
-            "team1Id": "nbnjqx3cmg7kg72g",
-            "team1Pts": 0.0,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          },
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 0.0,
-            "team2": "Tank for LeBron",
-            "team2Id": "xgktl0otmg7kg72d",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          },
-          {
-            "team1": "Say Yes to Velo",
-            "team1Id": "lhaxchcjmg7kg72c",
-            "team1Pts": 0.0,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 0.0,
-            "team2": "Slattlanta",
-            "team2Id": "7gq3y996mg7kg729",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          },
-          {
-            "team1": "First Pitch Swinging",
-            "team1Id": "0qrvkt09mg7kg72f",
-            "team1Pts": 0.0,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 0.0,
-            "team2": "Golden Gate Gays",
-            "team2Id": "aw407ddlmg7kg72a",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          }
-        ]
-      },
-      {
-        "period": "Scoring Period 44",
-        "matchups": [
-          {
-            "team1": "Jac-in' It",
-            "team1Id": "jwg2zkwzmg7kg72a",
-            "team1Pts": 0.0,
-            "team2": "Juan Binary",
-            "team2Id": "g8p3r1i9mg7kg72b",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          },
-          {
-            "team1": "Tank for LeBron",
-            "team1Id": "xgktl0otmg7kg72d",
-            "team1Pts": 0.0,
-            "team2": "Honey Nut Chourio's",
-            "team2Id": "nbnjqx3cmg7kg72g",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          },
-          {
-            "team1": "Creative Name",
-            "team1Id": "vhuxfzygmg7kg728",
-            "team1Pts": 0.0,
-            "team2": "Wyatt and the Lankers",
-            "team2Id": "odce8gzsmg7kg72c",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          },
-          {
-            "team1": "Slattlanta",
-            "team1Id": "7gq3y996mg7kg729",
-            "team1Pts": 0.0,
-            "team2": "Say Yes to Velo",
-            "team2Id": "lhaxchcjmg7kg72c",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          },
-          {
-            "team1": "Layin Wood\ud83e\udeb5",
-            "team1Id": "w6b31holmg7kg72f",
-            "team1Pts": 0.0,
-            "team2": "First Pitch Swinging",
-            "team2Id": "0qrvkt09mg7kg72f",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          },
-          {
-            "team1": "Golden Gate Gays",
-            "team1Id": "aw407ddlmg7kg72a",
-            "team1Pts": 0.0,
-            "team2": "Soft Balls",
-            "team2Id": "8znzrpg1mg7kg72e",
-            "team2Pts": 0.0,
-            "winner": "Tie"
-          }
-        ]
-      }
-    ]
-  },
-  "seasonStats": {
-    "categories": [
-      {
-        "name": "Standings - Statistics - Hitting",
-        "rows": [
-          {
-            "teamId": "7gq3y996mg7kg729",
-            "name": "Slattlanta",
-            "short": "JDPusha",
-            "rank": "1",
-            "values": [
-              "5,232.75",
-              "",
-              "828",
-              "1,360",
-              "239",
-              "750",
-              "670",
-              "53",
-              "1,439",
-              "95",
-              "41",
-              "15",
-              "2,371",
-              "96",
-              "91",
-              "6",
-              "0",
-              "85",
-              "13"
-            ]
-          },
-          {
-            "teamId": "g8p3r1i9mg7kg72b",
-            "name": "Juan Binary",
-            "short": "JUAN",
-            "rank": "2",
-            "values": [
-              "5,211.5",
-              "",
-              "776",
-              "1,394",
-              "242",
-              "737",
-              "599",
-              "45",
-              "1,226",
-              "77",
-              "21",
-              "5",
-              "2,406",
-              "60",
-              "120",
-              "6",
-              "0",
-              "95",
-              "23"
-            ]
-          },
-          {
-            "teamId": "odce8gzsmg7kg72c",
-            "name": "Wyatt and the Lankers",
-            "short": "LANK",
-            "rank": "3",
-            "values": [
-              "4,958.5",
-              "",
-              "753",
-              "1,362",
-              "193",
-              "725",
-              "633",
-              "36",
-              "1,234",
-              "150",
-              "41",
-              "11",
-              "2,273",
-              "37",
-              "114",
-              "4",
-              "0",
-              "101",
-              "10"
-            ]
-          },
-          {
-            "teamId": "w6b31holmg7kg72f",
-            "name": "Layin Wood\ud83e\udeb5",
-            "short": "Lsgob",
-            "rank": "4",
-            "values": [
-              "4,807.75",
-              "",
-              "716",
-              "1,247",
-              "212",
-              "682",
-              "572",
-              "30",
-              "1,157",
-              "99",
-              "29",
-              "8",
-              "2,158",
-              "61",
-              "82",
-              "6",
-              "1",
-              "96",
-              "11"
-            ]
-          },
-          {
-            "teamId": "0qrvkt09mg7kg72f",
-            "name": "First Pitch Swinging",
-            "short": "FPS",
-            "rank": "5",
-            "values": [
-              "4,768",
-              "",
-              "768",
-              "1,282",
-              "206",
-              "654",
-              "551",
-              "20",
-              "1,233",
-              "142",
-              "36",
-              "18",
-              "2,175",
-              "75",
-              "98",
-              "5",
-              "0",
-              "80",
-              "7"
-            ]
-          },
-          {
-            "teamId": "8znzrpg1mg7kg72e",
-            "name": "Soft Balls",
-            "short": "SOBALLS",
-            "rank": "6",
-            "values": [
-              "4,537.25",
-              "",
-              "680",
-              "1,217",
-              "194",
-              "661",
-              "600",
-              "39",
-              "1,232",
-              "116",
-              "38",
-              "12",
-              "2,048",
-              "82",
-              "113",
-              "2",
-              "0",
-              "89",
-              "13"
-            ]
-          },
-          {
-            "teamId": "jwg2zkwzmg7kg72a",
-            "name": "Jac-in' It",
-            "short": "Jac",
-            "rank": "7",
-            "values": [
-              "4,496.5",
-              "",
-              "734",
-              "1,288",
-              "177",
-              "660",
-              "527",
-              "17",
-              "1,265",
-              "84",
-              "28",
-              "11",
-              "2,109",
-              "63",
-              "101",
-              "3",
-              "0",
-              "70",
-              "12"
-            ]
-          },
-          {
-            "teamId": "xgktl0otmg7kg72d",
-            "name": "Tank for LeBron",
-            "short": "Vind25",
-            "rank": "8",
-            "values": [
-              "4,455.75",
-              "",
-              "679",
-              "1,212",
-              "201",
-              "677",
-              "521",
-              "20",
-              "1,256",
-              "105",
-              "28",
-              "12",
-              "2,110",
-              "67",
-              "91",
-              "5",
-              "1",
-              "83",
-              "10"
-            ]
-          },
-          {
-            "teamId": "nbnjqx3cmg7kg72g",
-            "name": "Honey Nut Chourio's",
-            "short": "Watchtow",
-            "rank": "9",
-            "values": [
-              "4,272.75",
-              "",
-              "680",
-              "1,247",
-              "178",
-              "666",
-              "467",
-              "18",
-              "1,149",
-              "95",
-              "27",
-              "13",
-              "2,047",
-              "49",
-              "113",
-              "6",
-              "0",
-              "84",
-              "9"
-            ]
-          },
-          {
-            "teamId": "lhaxchcjmg7kg72c",
-            "name": "Say Yes to Velo",
-            "short": "haydenor",
-            "rank": "10",
-            "values": [
-              "4,103.75",
-              "",
-              "660",
-              "1,137",
-              "175",
-              "605",
-              "530",
-              "13",
-              "1,206",
-              "89",
-              "27",
-              "6",
-              "1,900",
-              "73",
-              "72",
-              "4",
-              "0",
-              "71",
-              "12"
-            ]
-          },
-          {
-            "teamId": "aw407ddlmg7kg72a",
-            "name": "Golden Gate Gays",
-            "short": "GGG",
-            "rank": "11",
-            "values": [
-              "4,056",
-              "",
-              "596",
-              "1,191",
-              "181",
-              "635",
-              "445",
-              "12",
-              "1,206",
-              "62",
-              "26",
-              "10",
-              "2,003",
-              "62",
-              "70",
-              "5",
-              "0",
-              "72",
-              "10"
-            ]
-          },
-          {
-            "teamId": "vhuxfzygmg7kg728",
-            "name": "Creative Name",
-            "short": "CN",
-            "rank": "12",
-            "values": [
-              "3,855.75",
-              "",
-              "626",
-              "1,168",
-              "139",
-              "615",
-              "521",
-              "16",
-              "1,143",
-              "58",
-              "26",
-              "6",
-              "1,861",
-              "37",
-              "93",
-              "0",
-              "1",
-              "61",
-              "8"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Standings - Statistics - Pitching",
-        "rows": [
-          {
-            "teamId": "odce8gzsmg7kg72c",
-            "name": "Wyatt and the Lankers",
-            "short": "LANK",
-            "rank": "1",
-            "values": [
-              "6,332",
-              "",
-              "1,949.2",
-              "1,785",
-              "835",
-              "594",
-              "25",
-              "16",
-              "86",
-              "123",
-              "4",
-              "5",
-              "72",
-              "1",
-              "0",
-              "187",
-              "94",
-              "16",
-              "81"
-            ]
-          },
-          {
-            "teamId": "g8p3r1i9mg7kg72b",
-            "name": "Juan Binary",
-            "short": "JUAN",
-            "rank": "2",
-            "values": [
-              "6,063",
-              "",
-              "1,860.1",
-              "1,857",
-              "827",
-              "688",
-              "57",
-              "17",
-              "40",
-              "123",
-              "1",
-              "9",
-              "92",
-              "1",
-              "0",
-              "186",
-              "84",
-              "10",
-              "63"
-            ]
-          },
-          {
-            "teamId": "7gq3y996mg7kg729",
-            "name": "Slattlanta",
-            "short": "JDPusha",
-            "rank": "3",
-            "values": [
-              "5,986.5",
-              "",
-              "1,805.1",
-              "1,843",
-              "836",
-              "656",
-              "87",
-              "18",
-              "45",
-              "116",
-              "1",
-              "12",
-              "74",
-              "1",
-              "0",
-              "169",
-              "94",
-              "14",
-              "43"
-            ]
-          },
-          {
-            "teamId": "nbnjqx3cmg7kg72g",
-            "name": "Honey Nut Chourio's",
-            "short": "Watchtow",
-            "rank": "4",
-            "values": [
-              "5,789",
-              "",
-              "1,759.1",
-              "1,609",
-              "744",
-              "565",
-              "88",
-              "26",
-              "30",
-              "104",
-              "1",
-              "8",
-              "69",
-              "0",
-              "0",
-              "163",
-              "103",
-              "18",
-              "56"
-            ]
-          },
-          {
-            "teamId": "w6b31holmg7kg72f",
-            "name": "Layin Wood\ud83e\udeb5",
-            "short": "Lsgob",
-            "rank": "5",
-            "values": [
-              "5,666.5",
-              "",
-              "1,788.2",
-              "1,671",
-              "809",
-              "594",
-              "21",
-              "18",
-              "90",
-              "109",
-              "0",
-              "4",
-              "69",
-              "0",
-              "0",
-              "167",
-              "119",
-              "19",
-              "80"
-            ]
-          },
-          {
-            "teamId": "0qrvkt09mg7kg72f",
-            "name": "First Pitch Swinging",
-            "short": "FPS",
-            "rank": "6",
-            "values": [
-              "5,530.5",
-              "",
-              "1,593.2",
-              "1,657",
-              "651",
-              "530",
-              "49",
-              "22",
-              "64",
-              "83",
-              "1",
-              "2",
-              "51",
-              "1",
-              "0",
-              "148",
-              "108",
-              "15",
-              "82"
-            ]
-          },
-          {
-            "teamId": "8znzrpg1mg7kg72e",
-            "name": "Soft Balls",
-            "short": "SOBALLS",
-            "rank": "7",
-            "values": [
-              "5,117",
-              "",
-              "1,591",
-              "1,483",
-              "721",
-              "552",
-              "28",
-              "15",
-              "87",
-              "97",
-              "2",
-              "8",
-              "59",
-              "1",
-              "0",
-              "146",
-              "97",
-              "13",
-              "105"
-            ]
-          },
-          {
-            "teamId": "xgktl0otmg7kg72d",
-            "name": "Tank for LeBron",
-            "short": "Vind25",
-            "rank": "8",
-            "values": [
-              "4,931.5",
-              "",
-              "1,591",
-              "1,480",
-              "737",
-              "538",
-              "50",
-              "18",
-              "59",
-              "69",
-              "0",
-              "5",
-              "70",
-              "0",
-              "0",
-              "144",
-              "104",
-              "14",
-              "90"
-            ]
-          },
-          {
-            "teamId": "jwg2zkwzmg7kg72a",
-            "name": "Jac-in' It",
-            "short": "Jac",
-            "rank": "9",
-            "values": [
-              "4,900",
-              "",
-              "1,499",
-              "1,478",
-              "673",
-              "556",
-              "90",
-              "15",
-              "26",
-              "68",
-              "0",
-              "8",
-              "84",
-              "0",
-              "0",
-              "144",
-              "90",
-              "7",
-              "64"
-            ]
-          },
-          {
-            "teamId": "aw407ddlmg7kg72a",
-            "name": "Golden Gate Gays",
-            "short": "GGG",
-            "rank": "10",
-            "values": [
-              "4,449",
-              "",
-              "1,510.2",
-              "1,404",
-              "711",
-              "557",
-              "16",
-              "20",
-              "55",
-              "74",
-              "2",
-              "5",
-              "92",
-              "1",
-              "0",
-              "125",
-              "101",
-              "12",
-              "56"
-            ]
-          },
-          {
-            "teamId": "lhaxchcjmg7kg72c",
-            "name": "Say Yes to Velo",
-            "short": "haydenor",
-            "rank": "11",
-            "values": [
-              "4,204",
-              "",
-              "1,260.2",
-              "1,307",
-              "546",
-              "475",
-              "37",
-              "12",
-              "22",
-              "78",
-              "2",
-              "3",
-              "39",
-              "1",
-              "0",
-              "135",
-              "57",
-              "15",
-              "49"
-            ]
-          },
-          {
-            "teamId": "vhuxfzygmg7kg728",
-            "name": "Creative Name",
-            "short": "CN",
-            "rank": "12",
-            "values": [
-              "3,520",
-              "",
-              "1,155.1",
-              "1,102",
-              "559",
-              "501",
-              "62",
-              "22",
-              "37",
-              "46",
-              "1",
-              "0",
-              "60",
-              "0",
-              "0",
-              "95",
-              "81",
-              "7",
-              "87"
-            ]
-          }
-        ]
-      }
-    ],
-    "teamInfo": {
-      "vhuxfzygmg7kg728": {
-        "name": "Creative Name",
-        "short": "CN",
-        "logoUrl": "https://fantraximg.com/logos/nye/tmLogo_nye0oe90mpqbqirz_512.webp"
-      },
-      "8znzrpg1mg7kg72e": {
-        "name": "Soft Balls",
-        "short": "SOBALLS",
-        "logoUrl": "https://fantraximg.com/logos/vdw/tmLogo_vdw0160qmr25grme_512.webp"
-      },
-      "aw407ddlmg7kg72a": {
-        "name": "Golden Gate Gays",
-        "short": "GGG",
-        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/helmet/purple_magenta_256.webp"
-      },
-      "nbnjqx3cmg7kg72g": {
-        "name": "Honey Nut Chourio's",
-        "short": "Watchtow",
-        "logoUrl": "https://fantraximg.com/logos/0lf/tmLogo_0lfo2aaymnwg1b7o_512.webp"
-      },
-      "xgktl0otmg7kg72d": {
-        "name": "Tank for LeBron",
-        "short": "Vind25",
-        "logoUrl": "https://fantraximg.com/logos/uol/tmLogo_uoldjt8hm97ks4n0_512.webp"
-      },
-      "0qrvkt09mg7kg72f": {
-        "name": "First Pitch Swinging",
-        "short": "FPS",
-        "logoUrl": "https://fantraximg.com/logos/u8v/tmLogo_u8vsnkdbml4fnu92_512.webp"
-      },
-      "lhaxchcjmg7kg72c": {
-        "name": "Say Yes to Velo",
-        "short": "haydenor",
-        "logoUrl": "https://fantraximg.com/logos/nsd/tmLogo_nsdzor91mcat5gih_512.webp"
-      },
-      "odce8gzsmg7kg72c": {
-        "name": "Wyatt and the Lankers",
-        "short": "LANK",
-        "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp"
-      },
-      "g8p3r1i9mg7kg72b": {
-        "name": "Juan Binary",
-        "short": "JUAN",
-        "logoUrl": "https://fantraximg.com/logos/zwr/tmLogo_zwr4wx6wmr1fgiwc_512.webp"
-      },
-      "jwg2zkwzmg7kg72a": {
-        "name": "Jac-in' It",
-        "short": "Jac",
-        "logoUrl": "https://fantraximg.com/logos/6oi/tmLogo_6oix2hntmn40p414_512.webp"
-      },
-      "w6b31holmg7kg72f": {
-        "name": "Layin Wood\ud83e\udeb5",
-        "short": "Lsgob",
-        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp"
-      },
-      "7gq3y996mg7kg729": {
-        "name": "Slattlanta",
-        "short": "JDPusha",
-        "logoUrl": "https://fantraximg.com/logos/9i1/tmLogo_9i1cc3c2mq44kk57_512.webp"
-      }
-    }
-  },
+  "standings": [],
+  "schedule": {},
+  "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10160",
+      "id": "3bd2pes9mt6cwmc2",
+      "seq": 140363,
+      "desc": "De Los Santos is being optioned back to Triple-A Jacksonville following Sunday's 6-2 win over the Nationals, Isaac Azout of FishOnFirst.com reports.",
+      "player": {
+        "name": "Deyvison De Los Santos",
+        "posShortNames": "3B,1B",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05nsq_96_1.png",
+        "scorerId": "05nsq",
+        "posIds": [
+          "004",
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10230",
+      "id": "tjk00qvvmt6cwmab",
+      "seq": 140362,
+      "desc": "The Brewers recalled Naylor from Triple-A Nashville to serve as the 27th player for Sunday's Little League Classic against Atlanta, Todd Rosiak of the Milwaukee Journal Sentinel reports.",
+      "player": {
+        "name": "Bo Naylor",
+        "posShortNames": "C",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mrn_96_5.png",
+        "scorerId": "04mrn",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10130",
+      "id": "b7rqzdv4mt6bq1x8",
+      "seq": 140361,
+      "desc": "The Mariners recalled Wisdom from Triple-A Tacoma on Sunday, Daniel Kramer of MLB.com reports.",
+      "player": {
+        "name": "Patrick Wisdom",
+        "posShortNames": "3B,1B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02mws_96_13.png",
+        "scorerId": "02mws",
+        "posIds": [
+          "004",
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10260",
+      "id": "g3m97xnsmt6bbwh7",
+      "seq": 140360,
+      "desc": "The Diamondbacks recalled Carrillo from Triple-A Reno on Sunday.",
+      "player": {
+        "name": "Gerardo Carrillo",
+        "posShortNames": "RP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04qnh_96_5.png",
+        "scorerId": "04qnh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10260",
+      "id": "snhi6r4qmt6axp5m",
+      "seq": 140359,
+      "desc": "The Diamondbacks designated Littell for assignment Sunday.",
+      "player": {
+        "name": "Zack Littell",
+        "posShortNames": "SP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031d4_96_10.png",
+        "scorerId": "031d4",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10260",
+      "id": "wi08ibunmt6aji3g",
+      "seq": 140358,
+      "desc": "The Diamondbacks reinstated Jameson from the 15-day injured list Sunday.",
+      "player": {
+        "name": "Drey Jameson",
+        "posShortNames": "RP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0511r_96_3.png",
+        "scorerId": "0511r",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10210",
+      "id": "5vuxeqcemt6a5clp",
+      "seq": 140357,
+      "desc": "The Reds recalled Johnson from Triple-A Louisville on Sunday.",
+      "player": {
+        "name": "Ivan Johnson",
+        "posShortNames": "LF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "0513f",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10240",
+      "id": "qxlsua7zmt68m4bo",
+      "seq": 140356,
+      "desc": "The Pirates optioned Kelly to Triple-A Indianapolis on Sunday.",
+      "player": {
+        "name": "Antwone Kelly",
+        "posShortNames": "SP",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bpq_96_1.png",
+        "scorerId": "06bpq",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10270",
+      "id": "mo530v5pmt68m4ai",
+      "seq": 140355,
+      "desc": "The Rockies reinstated Freeman (back) from the 10-day injured list and optioned him to Triple-A Albuquerque on Sunday.",
+      "player": {
+        "name": "Tyler Freeman",
+        "posShortNames": "RF",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efc_96_7.png",
+        "scorerId": "04efc",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 10-day IL - Back",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10240",
+      "id": "6rhibrtvmt68m48u",
+      "seq": 140354,
+      "desc": "The Pirates recalled Curtis from Triple-A Indianapolis on Sunday.",
+      "player": {
+        "name": "Khristian Curtis",
+        "posShortNames": "SP",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "",
+        "scorerId": "06fwg",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10140",
+      "id": "tkq4wec0mt687yd7",
+      "seq": 140353,
+      "desc": "The Rangers designated Kelenic for assignment Sunday.",
+      "player": {
+        "name": "Jarred Kelenic",
+        "posShortNames": "LF,RF",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ggr_96_9.png",
+        "scorerId": "04ggr",
+        "posIds": [
+          "009",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10270",
+      "id": "zjirktxgmt66n503",
+      "seq": 140352,
+      "desc": "The Rockies recalled Ritter from Triple-A Albuquerque, and he's starting at second base and batting eighth Sunday against the Guardians.",
+      "player": {
+        "name": "Ryan Ritter",
+        "posShortNames": "SS,2B",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xu2_96_2.png",
+        "scorerId": "05xu2",
+        "posIds": [
+          "005",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10140",
+      "id": "5lwtbkilmt65gm5n",
+      "seq": 140351,
+      "desc": "The Rangers recalled O'Hoppe from Triple-A Round Rock on Sunday. He'll start at designated hitter and bat seventh in the series finale versus the Angels.",
+      "player": {
+        "name": "Logan O'Hoppe",
+        "posShortNames": "C",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q56_96_3.png",
+        "scorerId": "04q56",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10110",
+      "id": "ztwlsv7hmt652fag",
+      "seq": 140350,
+      "desc": "The Angels designated Fulmer for assignment Sunday.",
+      "player": {
+        "name": "Michael Fulmer",
+        "posShortNames": "RP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bqj_96_10.png",
+        "scorerId": "02bqj",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1787500800000,
       "teamId": "10080",
@@ -4394,7 +543,7 @@
       "teamId": "10030",
       "id": "lwy7uoewmt5xz0nw",
       "seq": 140341,
-      "desc": "The Yankees reinstated Bellinger (hamstring) from the 10-day injured list Sunday. He'll start in left field and bat cleanup in the team's series finale versus the Blue Jays.",
+      "desc": "The Yankees reinstated Bellinger (hamstring) from the 10-day injured list Sunday. He'll start in left field and bat cleanup in the series finale versus the Blue Jays.",
       "player": {
         "name": "Cody Bellinger",
         "posShortNames": "LF",
@@ -4460,7 +609,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4586,348 +740,6 @@
           {
             "tooltip": "Batting Order: 8",
             "typeId": "28"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10250",
-      "id": "zs51wrpcmt4rrqbh",
-      "seq": 140333,
-      "desc": "The Cardinals recalled Mathews from Triple-A Memphis on Saturday ahead of his start against the Phillies.",
-      "player": {
-        "name": "Quinn Mathews",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060gd_96_1.png",
-        "scorerId": "060gd",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10130",
-      "id": "y5nl6wu4mt4p0eps",
-      "seq": 140332,
-      "desc": "The Mariners designated Diaz for assignment Saturday.",
-      "player": {
-        "name": "Jhonathan Diaz",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04oc6_96_4.png",
-        "scorerId": "04oc6",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10130",
-      "id": "un91auegmt4p0en9",
-      "seq": 140331,
-      "desc": "The Mariners selected Anderson's contract from Double-A Arkansas ahead of his start Saturday against the Cubs.",
-      "player": {
-        "name": "Kade Anderson",
-        "posShortNames": "SP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "",
-        "scorerId": "05ydp",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10050",
-      "id": "kyn546k6mt4mn6pt",
-      "seq": 140330,
-      "desc": "The Blue Jays optioned Schneider to Triple-A Buffalo on Saturday.",
-      "player": {
-        "name": "Davis Schneider",
-        "posShortNames": "LF,2B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04o2x_96_3.png",
-        "scorerId": "04o2x",
-        "posIds": [
-          "009",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10050",
-      "id": "xb4ro4t1mt4m8zs6",
-      "seq": 140329,
-      "desc": "The Blue Jays reinstated Guerrero (concussion) from the injured list Saturday.",
-      "player": {
-        "name": "Vladimir Guerrero Jr.",
-        "posShortNames": "1B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ojr_96_10.png",
-        "scorerId": "03ojr",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10160",
-      "id": "orce7yrimt4lgn1z",
-      "seq": 140328,
-      "desc": "The Marlins recalled De Los Santos from Triple-A Jacksonville on Saturday.",
-      "player": {
-        "name": "Deyvison De Los Santos",
-        "posShortNames": "3B,1B",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05nsq_96_1.png",
-        "scorerId": "05nsq",
-        "posIds": [
-          "004",
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10160",
-      "id": "ibxw6fwzmt4lgmys",
-      "seq": 140327,
-      "desc": "The Marlins optioned Driscoll to Triple-A Jacksonville on Saturday.",
-      "player": {
-        "name": "Logan Driscoll",
-        "posShortNames": "C",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "",
-        "scorerId": "0512b",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10130",
-      "id": "162h8ni2mt3l01ba",
-      "seq": 140326,
-      "desc": "The Mariners optioned Davila to Triple-A Tacoma on Friday.",
-      "player": {
-        "name": "Nick Davila",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oyw_96_1.png",
-        "scorerId": "05oyw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10130",
-      "id": "o6g04hujmt3klupt",
-      "seq": 140325,
-      "desc": "The Mariners reinstated Vargas (lat) from the 60-day injured list Friday.",
-      "player": {
-        "name": "Carlos Vargas",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04rhl_96_6.png",
-        "scorerId": "04rhl",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10200",
-      "id": "wkzpwiwmmt3k7ncu",
-      "seq": 140324,
-      "desc": "The Cubs designated Miller for assignment Friday, Taylor McGregor of Marquee Sports Network reports.",
-      "player": {
-        "name": "Owen Miller",
-        "posShortNames": "1B",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ppl_96_7.png",
-        "scorerId": "04ppl",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10200",
-      "id": "0evs71fnmt3k7nbf",
-      "seq": 140323,
-      "desc": "The Cubs optioned Assad to Triple-A Iowa on Friday, Taylor McGregor of Marquee Sports Network reports.",
-      "player": {
-        "name": "Javier Assad",
-        "posShortNames": "SP,RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04fq2_96_4.png",
-        "scorerId": "04fq2",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10200",
-      "id": "xmer10nlmt3k7n8t",
-      "seq": 140322,
-      "desc": "The Cubs activated Palencia (elbow) from the 60-day injured list Friday, Taylor McGregor of Marquee Sports Network reports.",
-      "player": {
-        "name": "Daniel Palencia",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05u4l_96_2.png",
-        "scorerId": "05u4l",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10280",
-      "id": "h5u6or8smt3g9ptc",
-      "seq": 140321,
-      "desc": "The Dodgers recalled Gervase from Triple-A Oklahoma City on Friday.",
-      "player": {
-        "name": "Paul Gervase",
-        "posShortNames": "RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0648k_96_1.png",
-        "scorerId": "0648k",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10280",
-      "id": "bntxtv3umt3g9pqx",
-      "seq": 140320,
-      "desc": "The Dodgers optioned Sheehan to Triple-A Oklahoma City on Friday.",
-      "player": {
-        "name": "Emmet Sheehan",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y2l_96_2.png",
-        "scorerId": "05y2l",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
@@ -4936,6 +748,344 @@
   "mlbTransactions": [
     {
       "displayDate": 1787500800000,
+      "teamId": "10160",
+      "id": "3bd2pes9mt6cwmc2",
+      "seq": 140363,
+      "desc": "De Los Santos is being optioned back to Triple-A Jacksonville following Sunday's 6-2 win over the Nationals, Isaac Azout of FishOnFirst.com reports.",
+      "player": {
+        "name": "Deyvison De Los Santos",
+        "posShortNames": "3B,1B",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05nsq_96_1.png",
+        "scorerId": "05nsq",
+        "posIds": [
+          "004",
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10230",
+      "id": "tjk00qvvmt6cwmab",
+      "seq": 140362,
+      "desc": "The Brewers recalled Naylor from Triple-A Nashville to serve as the 27th player for Sunday's Little League Classic against Atlanta, Todd Rosiak of the Milwaukee Journal Sentinel reports.",
+      "player": {
+        "name": "Bo Naylor",
+        "posShortNames": "C",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mrn_96_5.png",
+        "scorerId": "04mrn",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10130",
+      "id": "b7rqzdv4mt6bq1x8",
+      "seq": 140361,
+      "desc": "The Mariners recalled Wisdom from Triple-A Tacoma on Sunday, Daniel Kramer of MLB.com reports.",
+      "player": {
+        "name": "Patrick Wisdom",
+        "posShortNames": "3B,1B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02mws_96_13.png",
+        "scorerId": "02mws",
+        "posIds": [
+          "004",
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10260",
+      "id": "g3m97xnsmt6bbwh7",
+      "seq": 140360,
+      "desc": "The Diamondbacks recalled Carrillo from Triple-A Reno on Sunday.",
+      "player": {
+        "name": "Gerardo Carrillo",
+        "posShortNames": "RP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04qnh_96_5.png",
+        "scorerId": "04qnh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10260",
+      "id": "snhi6r4qmt6axp5m",
+      "seq": 140359,
+      "desc": "The Diamondbacks designated Littell for assignment Sunday.",
+      "player": {
+        "name": "Zack Littell",
+        "posShortNames": "SP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031d4_96_10.png",
+        "scorerId": "031d4",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10260",
+      "id": "wi08ibunmt6aji3g",
+      "seq": 140358,
+      "desc": "The Diamondbacks reinstated Jameson from the 15-day injured list Sunday.",
+      "player": {
+        "name": "Drey Jameson",
+        "posShortNames": "RP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0511r_96_3.png",
+        "scorerId": "0511r",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10210",
+      "id": "5vuxeqcemt6a5clp",
+      "seq": 140357,
+      "desc": "The Reds recalled Johnson from Triple-A Louisville on Sunday.",
+      "player": {
+        "name": "Ivan Johnson",
+        "posShortNames": "LF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "0513f",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10240",
+      "id": "qxlsua7zmt68m4bo",
+      "seq": 140356,
+      "desc": "The Pirates optioned Kelly to Triple-A Indianapolis on Sunday.",
+      "player": {
+        "name": "Antwone Kelly",
+        "posShortNames": "SP",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bpq_96_1.png",
+        "scorerId": "06bpq",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10270",
+      "id": "mo530v5pmt68m4ai",
+      "seq": 140355,
+      "desc": "The Rockies reinstated Freeman (back) from the 10-day injured list and optioned him to Triple-A Albuquerque on Sunday.",
+      "player": {
+        "name": "Tyler Freeman",
+        "posShortNames": "RF",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efc_96_7.png",
+        "scorerId": "04efc",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 10-day IL - Back",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10240",
+      "id": "6rhibrtvmt68m48u",
+      "seq": 140354,
+      "desc": "The Pirates recalled Curtis from Triple-A Indianapolis on Sunday.",
+      "player": {
+        "name": "Khristian Curtis",
+        "posShortNames": "SP",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "",
+        "scorerId": "06fwg",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10140",
+      "id": "tkq4wec0mt687yd7",
+      "seq": 140353,
+      "desc": "The Rangers designated Kelenic for assignment Sunday.",
+      "player": {
+        "name": "Jarred Kelenic",
+        "posShortNames": "LF,RF",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ggr_96_9.png",
+        "scorerId": "04ggr",
+        "posIds": [
+          "009",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10270",
+      "id": "zjirktxgmt66n503",
+      "seq": 140352,
+      "desc": "The Rockies recalled Ritter from Triple-A Albuquerque, and he's starting at second base and batting eighth Sunday against the Guardians.",
+      "player": {
+        "name": "Ryan Ritter",
+        "posShortNames": "SS,2B",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xu2_96_2.png",
+        "scorerId": "05xu2",
+        "posIds": [
+          "005",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10140",
+      "id": "5lwtbkilmt65gm5n",
+      "seq": 140351,
+      "desc": "The Rangers recalled O'Hoppe from Triple-A Round Rock on Sunday. He'll start at designated hitter and bat seventh in the series finale versus the Angels.",
+      "player": {
+        "name": "Logan O'Hoppe",
+        "posShortNames": "C",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q56_96_3.png",
+        "scorerId": "04q56",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
+      "teamId": "10110",
+      "id": "ztwlsv7hmt652fag",
+      "seq": 140350,
+      "desc": "The Angels designated Fulmer for assignment Sunday.",
+      "player": {
+        "name": "Michael Fulmer",
+        "posShortNames": "RP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bqj_96_10.png",
+        "scorerId": "02bqj",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1787500800000,
       "teamId": "10080",
       "id": "tk21s4nemt64a0ut",
       "seq": 140349,
@@ -5133,7 +1283,7 @@
       "teamId": "10030",
       "id": "lwy7uoewmt5xz0nw",
       "seq": 140341,
-      "desc": "The Yankees reinstated Bellinger (hamstring) from the 10-day injured list Sunday. He'll start in left field and bat cleanup in the team's series finale versus the Blue Jays.",
+      "desc": "The Yankees reinstated Bellinger (hamstring) from the 10-day injured list Sunday. He'll start in left field and bat cleanup in the series finale versus the Blue Jays.",
       "player": {
         "name": "Cody Bellinger",
         "posShortNames": "LF",
@@ -5199,7 +1349,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5325,348 +1480,6 @@
           {
             "tooltip": "Batting Order: 8",
             "typeId": "28"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10250",
-      "id": "zs51wrpcmt4rrqbh",
-      "seq": 140333,
-      "desc": "The Cardinals recalled Mathews from Triple-A Memphis on Saturday ahead of his start against the Phillies.",
-      "player": {
-        "name": "Quinn Mathews",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060gd_96_1.png",
-        "scorerId": "060gd",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10130",
-      "id": "y5nl6wu4mt4p0eps",
-      "seq": 140332,
-      "desc": "The Mariners designated Diaz for assignment Saturday.",
-      "player": {
-        "name": "Jhonathan Diaz",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04oc6_96_4.png",
-        "scorerId": "04oc6",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10130",
-      "id": "un91auegmt4p0en9",
-      "seq": 140331,
-      "desc": "The Mariners selected Anderson's contract from Double-A Arkansas ahead of his start Saturday against the Cubs.",
-      "player": {
-        "name": "Kade Anderson",
-        "posShortNames": "SP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "",
-        "scorerId": "05ydp",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10050",
-      "id": "kyn546k6mt4mn6pt",
-      "seq": 140330,
-      "desc": "The Blue Jays optioned Schneider to Triple-A Buffalo on Saturday.",
-      "player": {
-        "name": "Davis Schneider",
-        "posShortNames": "LF,2B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04o2x_96_3.png",
-        "scorerId": "04o2x",
-        "posIds": [
-          "009",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10050",
-      "id": "xb4ro4t1mt4m8zs6",
-      "seq": 140329,
-      "desc": "The Blue Jays reinstated Guerrero (concussion) from the injured list Saturday.",
-      "player": {
-        "name": "Vladimir Guerrero Jr.",
-        "posShortNames": "1B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ojr_96_10.png",
-        "scorerId": "03ojr",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 2",
-            "typeId": "22"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10160",
-      "id": "orce7yrimt4lgn1z",
-      "seq": 140328,
-      "desc": "The Marlins recalled De Los Santos from Triple-A Jacksonville on Saturday.",
-      "player": {
-        "name": "Deyvison De Los Santos",
-        "posShortNames": "3B,1B",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05nsq_96_1.png",
-        "scorerId": "05nsq",
-        "posIds": [
-          "004",
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787414400000,
-      "teamId": "10160",
-      "id": "ibxw6fwzmt4lgmys",
-      "seq": 140327,
-      "desc": "The Marlins optioned Driscoll to Triple-A Jacksonville on Saturday.",
-      "player": {
-        "name": "Logan Driscoll",
-        "posShortNames": "C",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "",
-        "scorerId": "0512b",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10130",
-      "id": "162h8ni2mt3l01ba",
-      "seq": 140326,
-      "desc": "The Mariners optioned Davila to Triple-A Tacoma on Friday.",
-      "player": {
-        "name": "Nick Davila",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oyw_96_1.png",
-        "scorerId": "05oyw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10130",
-      "id": "o6g04hujmt3klupt",
-      "seq": 140325,
-      "desc": "The Mariners reinstated Vargas (lat) from the 60-day injured list Friday.",
-      "player": {
-        "name": "Carlos Vargas",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04rhl_96_6.png",
-        "scorerId": "04rhl",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10200",
-      "id": "wkzpwiwmmt3k7ncu",
-      "seq": 140324,
-      "desc": "The Cubs designated Miller for assignment Friday, Taylor McGregor of Marquee Sports Network reports.",
-      "player": {
-        "name": "Owen Miller",
-        "posShortNames": "1B",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ppl_96_7.png",
-        "scorerId": "04ppl",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10200",
-      "id": "0evs71fnmt3k7nbf",
-      "seq": 140323,
-      "desc": "The Cubs optioned Assad to Triple-A Iowa on Friday, Taylor McGregor of Marquee Sports Network reports.",
-      "player": {
-        "name": "Javier Assad",
-        "posShortNames": "SP,RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04fq2_96_4.png",
-        "scorerId": "04fq2",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10200",
-      "id": "xmer10nlmt3k7n8t",
-      "seq": 140322,
-      "desc": "The Cubs activated Palencia (elbow) from the 60-day injured list Friday, Taylor McGregor of Marquee Sports Network reports.",
-      "player": {
-        "name": "Daniel Palencia",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05u4l_96_2.png",
-        "scorerId": "05u4l",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10280",
-      "id": "h5u6or8smt3g9ptc",
-      "seq": 140321,
-      "desc": "The Dodgers recalled Gervase from Triple-A Oklahoma City on Friday.",
-      "player": {
-        "name": "Paul Gervase",
-        "posShortNames": "RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0648k_96_1.png",
-        "scorerId": "0648k",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1787328000000,
-      "teamId": "10280",
-      "id": "bntxtv3umt3g9pqx",
-      "seq": 140320,
-      "desc": "The Dodgers optioned Sheehan to Triple-A Oklahoma City on Friday.",
-      "player": {
-        "name": "Emmet Sheehan",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y2l_96_2.png",
-        "scorerId": "05y2l",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
           }
         ]
       }
