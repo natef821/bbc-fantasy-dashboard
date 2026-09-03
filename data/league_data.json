@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T10:32:55.902489Z",
+  "lastUpdated": "2026-09-03T15:38:21.006617Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,54 @@
   },
   "transactions": [
     {
+      "displayDate": 1788451200000,
+      "teamId": "10240",
+      "id": "0u1pdlv3mtlmsug5",
+      "seq": 140653,
+      "desc": "The Pirates optioned Sisk to Triple-A Indianapolis on Thursday, Aiden Stepansky of MLB.com reports.",
+      "player": {
+        "name": "Evan Sisk",
+        "posShortNames": "RP",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pzi_96_1.png",
+        "scorerId": "04pzi",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788451200000,
+      "teamId": "10240",
+      "id": "4fj87vswmtlment0",
+      "seq": 140652,
+      "desc": "The Pirates recalled Dotel from Triple-A Indianapolis on Thursday, Aiden Stepansky of MLB.com reports.",
+      "player": {
+        "name": "Wilber Dotel",
+        "posShortNames": "SP,RP",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t5k_96_1.png",
+        "scorerId": "05t5k",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1788364800000,
       "teamId": "10280",
       "id": "qfid2e04mtksndw3",
@@ -4815,7 +4863,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4854,54 +4907,6 @@
         "scorerId": "050s3",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788278400000,
-      "teamId": "10030",
-      "id": "jlfidm5smtj6kct8",
-      "seq": 140622,
-      "desc": "Topa signed a minor-league contract with the Yankees on Tuesday, Gary Phillips of the New York Daily News reports.",
-      "player": {
-        "name": "Justin Topa",
-        "posShortNames": "RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0318i_96_7.png",
-        "scorerId": "0318i",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788278400000,
-      "teamId": "10110",
-      "id": "s7232l5tmtj6kcrt",
-      "seq": 140621,
-      "desc": "The Angels recalled Paris from Triple-A Salt Lake on Tuesday.",
-      "player": {
-        "name": "Kyren Paris",
-        "posShortNames": "CF,2B",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050s0_96_3.png",
-        "scorerId": "050s0",
-        "posIds": [
-          "010",
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4911,6 +4916,54 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1788451200000,
+      "teamId": "10240",
+      "id": "0u1pdlv3mtlmsug5",
+      "seq": 140653,
+      "desc": "The Pirates optioned Sisk to Triple-A Indianapolis on Thursday, Aiden Stepansky of MLB.com reports.",
+      "player": {
+        "name": "Evan Sisk",
+        "posShortNames": "RP",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pzi_96_1.png",
+        "scorerId": "04pzi",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788451200000,
+      "teamId": "10240",
+      "id": "4fj87vswmtlment0",
+      "seq": 140652,
+      "desc": "The Pirates recalled Dotel from Triple-A Indianapolis on Thursday, Aiden Stepansky of MLB.com reports.",
+      "player": {
+        "name": "Wilber Dotel",
+        "posShortNames": "SP,RP",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t5k_96_1.png",
+        "scorerId": "05t5k",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1788364800000,
       "teamId": "10280",
       "id": "qfid2e04mtksndw3",
@@ -5530,7 +5583,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5569,54 +5627,6 @@
         "scorerId": "050s3",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788278400000,
-      "teamId": "10030",
-      "id": "jlfidm5smtj6kct8",
-      "seq": 140622,
-      "desc": "Topa signed a minor-league contract with the Yankees on Tuesday, Gary Phillips of the New York Daily News reports.",
-      "player": {
-        "name": "Justin Topa",
-        "posShortNames": "RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0318i_96_7.png",
-        "scorerId": "0318i",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788278400000,
-      "teamId": "10110",
-      "id": "s7232l5tmtj6kcrt",
-      "seq": 140621,
-      "desc": "The Angels recalled Paris from Triple-A Salt Lake on Tuesday.",
-      "player": {
-        "name": "Kyren Paris",
-        "posShortNames": "CF,2B",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050s0_96_3.png",
-        "scorerId": "050s0",
-        "posIds": [
-          "010",
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
