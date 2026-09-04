@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T15:36:36.174796Z",
+  "lastUpdated": "2026-09-04T20:09:39.188904Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -71,11 +71,11 @@
       "rank": 5,
       "fantasyPoints": "",
       "fptsPerGame": "5.43",
-      "scoringPeriod": "2038",
-      "gb": "5,164.75",
+      "scoringPeriod": "2040",
+      "gb": "5,167.75",
       "ww": 5902,
       "pbl": 1.0,
-      "hitPts": 1106.5,
+      "hitPts": 1103.5,
       "pitPts": 0
     },
     {
@@ -86,11 +86,11 @@
       "rank": 6,
       "fantasyPoints": "",
       "fptsPerGame": "5.25",
-      "scoringPeriod": "2066",
+      "scoringPeriod": "2067",
       "gb": "4,674.75",
-      "ww": 6178,
+      "ww": 6183,
       "pbl": 9.0,
-      "hitPts": 1320.5,
+      "hitPts": 1315.5,
       "pitPts": 0
     },
     {
@@ -100,8 +100,8 @@
       "logoUrl": "https://fantraximg.com/logos/vdw/tmLogo_vdw0160qmr25grme_512.webp",
       "rank": 7,
       "fantasyPoints": "",
-      "fptsPerGame": "5.04",
-      "scoringPeriod": "2070",
+      "fptsPerGame": "5.03",
+      "scoringPeriod": "2071",
       "gb": "4,885.75",
       "ww": 5541,
       "pbl": 4.0,
@@ -115,12 +115,12 @@
       "logoUrl": "https://fantraximg.com/logos/6oi/tmLogo_6oix2hntmn40p414_512.webp",
       "rank": 8,
       "fantasyPoints": "",
-      "fptsPerGame": "5.09",
-      "scoringPeriod": "2007",
-      "gb": "4,903.25",
+      "fptsPerGame": "5.08",
+      "scoringPeriod": "2008",
+      "gb": "4,904.25",
       "ww": 5305,
       "pbl": 8.0,
-      "hitPts": 1964.5,
+      "hitPts": 1963.5,
       "pitPts": 0
     },
     {
@@ -3562,19 +3562,19 @@
             "short": "FPS",
             "rank": "4",
             "values": [
-              "5,164.75",
+              "5,167.75",
               "",
-              "824",
-              "1,370",
+              "825",
+              "1,371",
               "227",
               "712",
-              "583",
+              "584",
               "23",
               "1,311",
               "151",
               "39",
               "19",
-              "2,345",
+              "2,346",
               "80",
               "111",
               "6",
@@ -3616,12 +3616,12 @@
             "short": "Jac",
             "rank": "6",
             "values": [
-              "4,903.25",
+              "4,904.25",
               "",
               "801",
               "1,403",
               "191",
-              "716",
+              "717",
               "574",
               "18",
               "1,360",
@@ -3891,11 +3891,11 @@
             "short": "Watchtow",
             "rank": "4",
             "values": [
-              "6,178",
+              "6,183",
               "",
-              "1,889.2",
-              "1,734",
-              "805",
+              "1,891.2",
+              "1,736",
+              "806",
               "610",
               "92",
               "27",
@@ -4197,6 +4197,225 @@
   "transactions": [
     {
       "displayDate": 1788537600000,
+      "teamId": "10105",
+      "id": "m8eq2timmtndtr8v",
+      "seq": 140673,
+      "desc": "The Astros recalled King from Triple-A Sugar Land on Friday, Chandler Rome of The Athletic reports.",
+      "player": {
+        "name": "Bryan King",
+        "posShortNames": "RP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mi0_96_3.png",
+        "scorerId": "06mi0",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10130",
+      "id": "67fx70egmtncn7el",
+      "seq": 140672,
+      "desc": "The Mariners recalled Taylor from Triple-A Tacoma on Friday.",
+      "player": {
+        "name": "Troy Taylor",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs065ns_96_1.png",
+        "scorerId": "065ns",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10240",
+      "id": "j0e4snkimtnb2fyd",
+      "seq": 140671,
+      "desc": "The Pirates optioned Eisert to Triple-A Indianapolis on Friday, Danny Demilio of PittsburghBaseballNow.com reports.",
+      "player": {
+        "name": "Brandon Eisert",
+        "posShortNames": "RP",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051dw_96_1.png",
+        "scorerId": "051dw",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10240",
+      "id": "doo49tvnmtnb2fvn",
+      "seq": 140670,
+      "desc": "The Pirates designated Bethancourt for assignment Friday, Danny Demilio of PittsburghBaseballNow.com reports.",
+      "player": {
+        "name": "Christian Bethancourt",
+        "posShortNames": "C",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01sci_96_10.png",
+        "scorerId": "01sci",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10210",
+      "id": "v6oeasiymtnaa2le",
+      "seq": 140668,
+      "desc": "The Reds optioned Johnson to Triple-A Louisville on Friday.",
+      "player": {
+        "name": "Ivan Johnson",
+        "posShortNames": "LF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "0513f",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10270",
+      "id": "ggth1orxmtn9vv13",
+      "seq": 140667,
+      "desc": "The Rockies claimed Harris off waivers from Atlanta on Friday.",
+      "player": {
+        "name": "Hayden Harris",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0664g_96_1.png",
+        "scorerId": "0664g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10300",
+      "id": "fzph7beamtn8p9up",
+      "seq": 140666,
+      "desc": "The Giants claimed Kuhnel off waivers from the Brewers on Friday, Adam McCalvy of MLB.com reports.",
+      "player": {
+        "name": "Joel Kuhnel",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041wc_96_5.png",
+        "scorerId": "041wc",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10060",
+      "id": "qaodenjxmtn503n7",
+      "seq": 140665,
+      "desc": "The White Sox optioned Romo to Triple-A Charlotte on Friday.",
+      "player": {
+        "name": "Drew Romo",
+        "posShortNames": "C",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwr_96_2.png",
+        "scorerId": "05gwr",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10060",
+      "id": "wcnk9og8mtn503jx",
+      "seq": 140664,
+      "desc": "The White Sox activated Teel (ankle) from the 10-day injured list Friday.",
+      "player": {
+        "name": "Kyle Teel",
+        "posShortNames": "C",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05wxy_96_2.png",
+        "scorerId": "05wxy",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
       "teamId": "10070",
       "id": "ohcwcnvsmtn3thcf",
       "seq": 140663,
@@ -4355,7 +4574,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -4537,8 +4761,8 @@
       "player": {
         "name": "Joel Kuhnel",
         "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041wc_96_5.png",
         "scorerId": "041wc",
         "posIds": [
@@ -4546,12 +4770,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 15-day IL - Shoulder",
-            "typeId": "2"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4646,7 +4865,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -4695,223 +4919,231 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10060",
-      "id": "ee66wodnmtkdo9b0",
-      "seq": 140642,
-      "desc": "The White Sox activated Martin (finger) from the 15-day injured list Wednesday, James Fegan of the Chicago Sun-Times reports.",
-      "player": {
-        "name": "Davis Martin",
-        "posShortNames": "SP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxf_96_2.png",
-        "scorerId": "04pxf",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10121",
-      "id": "x6miic4fmtkbb6oc",
-      "seq": 140641,
-      "desc": "The Athletics selected Hartlieb's contract from Triple-A Las Vegas on Wednesday.",
-      "player": {
-        "name": "Geoff Hartlieb",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yk6_96_6.png",
-        "scorerId": "04yk6",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10121",
-      "id": "f8cftcjimtkax0kw",
-      "seq": 140640,
-      "desc": "The Athletics designated Suarez for assignment Wednesday.",
-      "player": {
-        "name": "Jose Suarez",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nqc_96_10.png",
-        "scorerId": "03nqc",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10020",
-      "id": "l1k2a5h9mtk7rhfa",
-      "seq": 140639,
-      "desc": "The Red Sox recalled Burgos from Triple-A Worcester on Wednesday, Chris Cotillo of MassLive.com reports.",
-      "player": {
-        "name": "Raymond Burgos",
-        "posShortNames": "SP,RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "",
-        "scorerId": "0421m",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10020",
-      "id": "1sebbckqmtk7rhcx",
-      "seq": 140638,
-      "desc": "The Red Sox optioned Paez to Triple-A Worcester on Wednesday, Chris Cotillo of MassLive.com reports.",
-      "player": {
-        "name": "Jedixson Paez",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xzr_96_1.png",
-        "scorerId": "05xzr",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10190",
-      "id": "9g3ekcyrmtk7daol",
-      "seq": 140637,
-      "desc": "The Nationals designated Cosgrove for assignment Wednesday.",
-      "player": {
-        "name": "Tom Cosgrove",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04elu_96_2.png",
-        "scorerId": "04elu",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10190",
-      "id": "wg0ilvr4mtk7dana",
-      "seq": 140636,
-      "desc": "The Nationals recalled Cornelio from Triple-A Rochester on Wednesday.",
-      "player": {
-        "name": "Riley Cornelio",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yij_96_1.png",
-        "scorerId": "04yij",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10190",
-      "id": "a9h1raqomtk7dam3",
-      "seq": 140635,
-      "desc": "The Nationals activated Wood (oblique) from the 10-day injured list Wednesday.",
-      "player": {
-        "name": "James Wood",
-        "posShortNames": "LF,RF",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05rat_96_3.png",
-        "scorerId": "05rat",
-        "posIds": [
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10150",
-      "id": "0o0prgrzmtk66qpl",
-      "seq": 140634,
-      "desc": "Atlanta designated Harris for assignment Wednesday.",
-      "player": {
-        "name": "Hayden Harris",
-        "posShortNames": "RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0664g_96_1.png",
-        "scorerId": "0664g",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1788537600000,
+      "teamId": "10105",
+      "id": "m8eq2timmtndtr8v",
+      "seq": 140673,
+      "desc": "The Astros recalled King from Triple-A Sugar Land on Friday, Chandler Rome of The Athletic reports.",
+      "player": {
+        "name": "Bryan King",
+        "posShortNames": "RP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mi0_96_3.png",
+        "scorerId": "06mi0",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10130",
+      "id": "67fx70egmtncn7el",
+      "seq": 140672,
+      "desc": "The Mariners recalled Taylor from Triple-A Tacoma on Friday.",
+      "player": {
+        "name": "Troy Taylor",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs065ns_96_1.png",
+        "scorerId": "065ns",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10240",
+      "id": "j0e4snkimtnb2fyd",
+      "seq": 140671,
+      "desc": "The Pirates optioned Eisert to Triple-A Indianapolis on Friday, Danny Demilio of PittsburghBaseballNow.com reports.",
+      "player": {
+        "name": "Brandon Eisert",
+        "posShortNames": "RP",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051dw_96_1.png",
+        "scorerId": "051dw",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10240",
+      "id": "doo49tvnmtnb2fvn",
+      "seq": 140670,
+      "desc": "The Pirates designated Bethancourt for assignment Friday, Danny Demilio of PittsburghBaseballNow.com reports.",
+      "player": {
+        "name": "Christian Bethancourt",
+        "posShortNames": "C",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01sci_96_10.png",
+        "scorerId": "01sci",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10210",
+      "id": "v6oeasiymtnaa2le",
+      "seq": 140668,
+      "desc": "The Reds optioned Johnson to Triple-A Louisville on Friday.",
+      "player": {
+        "name": "Ivan Johnson",
+        "posShortNames": "LF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "0513f",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10270",
+      "id": "ggth1orxmtn9vv13",
+      "seq": 140667,
+      "desc": "The Rockies claimed Harris off waivers from Atlanta on Friday.",
+      "player": {
+        "name": "Hayden Harris",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0664g_96_1.png",
+        "scorerId": "0664g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10300",
+      "id": "fzph7beamtn8p9up",
+      "seq": 140666,
+      "desc": "The Giants claimed Kuhnel off waivers from the Brewers on Friday, Adam McCalvy of MLB.com reports.",
+      "player": {
+        "name": "Joel Kuhnel",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041wc_96_5.png",
+        "scorerId": "041wc",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10060",
+      "id": "qaodenjxmtn503n7",
+      "seq": 140665,
+      "desc": "The White Sox optioned Romo to Triple-A Charlotte on Friday.",
+      "player": {
+        "name": "Drew Romo",
+        "posShortNames": "C",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwr_96_2.png",
+        "scorerId": "05gwr",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
+      "teamId": "10060",
+      "id": "wcnk9og8mtn503jx",
+      "seq": 140664,
+      "desc": "The White Sox activated Teel (ankle) from the 10-day injured list Friday.",
+      "player": {
+        "name": "Kyle Teel",
+        "posShortNames": "C",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05wxy_96_2.png",
+        "scorerId": "05wxy",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788537600000,
       "teamId": "10070",
       "id": "ohcwcnvsmtn3thcf",
       "seq": 140663,
@@ -5070,7 +5302,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -5252,8 +5489,8 @@
       "player": {
         "name": "Joel Kuhnel",
         "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041wc_96_5.png",
         "scorerId": "041wc",
         "posIds": [
@@ -5261,12 +5498,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 15-day IL - Shoulder",
-            "typeId": "2"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5361,7 +5593,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -5410,217 +5647,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10060",
-      "id": "ee66wodnmtkdo9b0",
-      "seq": 140642,
-      "desc": "The White Sox activated Martin (finger) from the 15-day injured list Wednesday, James Fegan of the Chicago Sun-Times reports.",
-      "player": {
-        "name": "Davis Martin",
-        "posShortNames": "SP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxf_96_2.png",
-        "scorerId": "04pxf",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10121",
-      "id": "x6miic4fmtkbb6oc",
-      "seq": 140641,
-      "desc": "The Athletics selected Hartlieb's contract from Triple-A Las Vegas on Wednesday.",
-      "player": {
-        "name": "Geoff Hartlieb",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yk6_96_6.png",
-        "scorerId": "04yk6",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10121",
-      "id": "f8cftcjimtkax0kw",
-      "seq": 140640,
-      "desc": "The Athletics designated Suarez for assignment Wednesday.",
-      "player": {
-        "name": "Jose Suarez",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nqc_96_10.png",
-        "scorerId": "03nqc",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10020",
-      "id": "l1k2a5h9mtk7rhfa",
-      "seq": 140639,
-      "desc": "The Red Sox recalled Burgos from Triple-A Worcester on Wednesday, Chris Cotillo of MassLive.com reports.",
-      "player": {
-        "name": "Raymond Burgos",
-        "posShortNames": "SP,RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "",
-        "scorerId": "0421m",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10020",
-      "id": "1sebbckqmtk7rhcx",
-      "seq": 140638,
-      "desc": "The Red Sox optioned Paez to Triple-A Worcester on Wednesday, Chris Cotillo of MassLive.com reports.",
-      "player": {
-        "name": "Jedixson Paez",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xzr_96_1.png",
-        "scorerId": "05xzr",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10190",
-      "id": "9g3ekcyrmtk7daol",
-      "seq": 140637,
-      "desc": "The Nationals designated Cosgrove for assignment Wednesday.",
-      "player": {
-        "name": "Tom Cosgrove",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04elu_96_2.png",
-        "scorerId": "04elu",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10190",
-      "id": "wg0ilvr4mtk7dana",
-      "seq": 140636,
-      "desc": "The Nationals recalled Cornelio from Triple-A Rochester on Wednesday.",
-      "player": {
-        "name": "Riley Cornelio",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yij_96_1.png",
-        "scorerId": "04yij",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10190",
-      "id": "a9h1raqomtk7dam3",
-      "seq": 140635,
-      "desc": "The Nationals activated Wood (oblique) from the 10-day injured list Wednesday.",
-      "player": {
-        "name": "James Wood",
-        "posShortNames": "LF,RF",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05rat_96_3.png",
-        "scorerId": "05rat",
-        "posIds": [
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10150",
-      "id": "0o0prgrzmtk66qpl",
-      "seq": 140634,
-      "desc": "Atlanta designated Harris for assignment Wednesday.",
-      "player": {
-        "name": "Hayden Harris",
-        "posShortNames": "RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0664g_96_1.png",
-        "scorerId": "0664g",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
