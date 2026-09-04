@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T02:30:48.998837Z",
+  "lastUpdated": "2026-09-04T10:22:52.313684Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -25,12 +25,12 @@
       "logoUrl": "https://fantraximg.com/logos/zwr/tmLogo_zwr4wx6wmr1fgiwc_512.webp",
       "rank": 2,
       "fantasyPoints": "",
-      "fptsPerGame": "5.76",
+      "fptsPerGame": "5.77",
       "scoringPeriod": "2109",
       "gb": "5,651.25",
-      "ww": 6502,
+      "ww": 6520,
       "pbl": 10.0,
-      "hitPts": 20.0,
+      "hitPts": 1.5,
       "pitPts": 0
     },
     {
@@ -40,12 +40,12 @@
       "logoUrl": "https://fantraximg.com/logos/9i1/tmLogo_9i1cc3c2mq44kk57_512.webp",
       "rank": 3,
       "fantasyPoints": "",
-      "fptsPerGame": "5.63",
-      "scoringPeriod": "2144",
-      "gb": "5,649.25",
+      "fptsPerGame": "5.64",
+      "scoringPeriod": "2145",
+      "gb": "5,662.75",
       "ww": 6428,
       "pbl": 6.0,
-      "hitPts": 95.5,
+      "hitPts": 82.0,
       "pitPts": 0
     },
     {
@@ -71,9 +71,9 @@
       "rank": 5,
       "fantasyPoints": "",
       "fptsPerGame": "5.43",
-      "scoringPeriod": "2037",
-      "gb": "5,166.25",
-      "ww": 5900,
+      "scoringPeriod": "2038",
+      "gb": "5,164.75",
+      "ww": 5902,
       "pbl": 1.0,
       "hitPts": 1106.5,
       "pitPts": 0
@@ -86,11 +86,11 @@
       "rank": 6,
       "fantasyPoints": "",
       "fptsPerGame": "5.25",
-      "scoringPeriod": "2065",
-      "gb": "4,673.25",
-      "ww": 6172,
+      "scoringPeriod": "2066",
+      "gb": "4,674.75",
+      "ww": 6178,
       "pbl": 9.0,
-      "hitPts": 1328.0,
+      "hitPts": 1320.5,
       "pitPts": 0
     },
     {
@@ -101,11 +101,11 @@
       "rank": 7,
       "fantasyPoints": "",
       "fptsPerGame": "5.04",
-      "scoringPeriod": "2069",
-      "gb": "4,885.25",
-      "ww": 5535,
+      "scoringPeriod": "2070",
+      "gb": "4,885.75",
+      "ww": 5541,
       "pbl": 4.0,
-      "hitPts": 1753.0,
+      "hitPts": 1746.0,
       "pitPts": 0
     },
     {
@@ -116,11 +116,11 @@
       "rank": 8,
       "fantasyPoints": "",
       "fptsPerGame": "5.09",
-      "scoringPeriod": "2006",
-      "gb": "4,889.75",
-      "ww": 5314,
+      "scoringPeriod": "2007",
+      "gb": "4,903.25",
+      "ww": 5305,
       "pbl": 8.0,
-      "hitPts": 1969.5,
+      "hitPts": 1964.5,
       "pitPts": 0
     },
     {
@@ -131,11 +131,11 @@
       "rank": 9,
       "fantasyPoints": "",
       "fptsPerGame": "4.86",
-      "scoringPeriod": "2045",
+      "scoringPeriod": "2046",
       "gb": "4,689",
-      "ww": 5239,
+      "ww": 5246,
       "pbl": 5.0,
-      "hitPts": 2244.75,
+      "hitPts": 2237.75,
       "pitPts": 0
     },
     {
@@ -147,10 +147,10 @@
       "fantasyPoints": "",
       "fptsPerGame": "4.58",
       "scoringPeriod": "1993",
-      "gb": "4,391",
+      "gb": "4,397",
       "ww": 4735,
       "pbl": 3.0,
-      "hitPts": 3047.25,
+      "hitPts": 3041.25,
       "pitPts": 0
     },
     {
@@ -162,10 +162,10 @@
       "fantasyPoints": "",
       "fptsPerGame": "4.97",
       "scoringPeriod": "1766",
-      "gb": "4,416.75",
+      "gb": "4,421.75",
       "ww": 4358,
       "pbl": 11.0,
-      "hitPts": 3398.0,
+      "hitPts": 3393.0,
       "pitPts": 0
     },
     {
@@ -176,11 +176,11 @@
       "rank": 12,
       "fantasyPoints": "",
       "fptsPerGame": "4.34",
-      "scoringPeriod": "1857",
-      "gb": "4,258.5",
-      "ww": 3800,
+      "scoringPeriod": "1858",
+      "gb": "4,258",
+      "ww": 3808,
       "pbl": 7.0,
-      "hitPts": 4114.75,
+      "hitPts": 4106.75,
       "pitPts": 0
     }
   ],
@@ -3476,10 +3476,37 @@
         "name": "Standings - Statistics - Hitting",
         "rows": [
           {
+            "teamId": "7gq3y996mg7kg729",
+            "name": "Slattlanta",
+            "short": "JDPusha",
+            "rank": "1",
+            "values": [
+              "5,662.75",
+              "",
+              "891",
+              "1,474",
+              "256",
+              "800",
+              "738",
+              "62",
+              "1,552",
+              "109",
+              "41",
+              "16",
+              "2,556",
+              "103",
+              "98",
+              "6",
+              "0",
+              "89",
+              "15"
+            ]
+          },
+          {
             "teamId": "g8p3r1i9mg7kg72b",
             "name": "Juan Binary",
             "short": "JUAN",
-            "rank": "1",
+            "rank": "2",
             "values": [
               "5,651.25",
               "",
@@ -3500,33 +3527,6 @@
               "0",
               "103",
               "25"
-            ]
-          },
-          {
-            "teamId": "7gq3y996mg7kg729",
-            "name": "Slattlanta",
-            "short": "JDPusha",
-            "rank": "2",
-            "values": [
-              "5,649.25",
-              "",
-              "889",
-              "1,471",
-              "256",
-              "800",
-              "737",
-              "62",
-              "1,551",
-              "108",
-              "41",
-              "16",
-              "2,552",
-              "103",
-              "98",
-              "6",
-              "0",
-              "89",
-              "15"
             ]
           },
           {
@@ -3562,25 +3562,25 @@
             "short": "FPS",
             "rank": "4",
             "values": [
-              "5,166.25",
+              "5,164.75",
               "",
-              "823",
-              "1,369",
+              "824",
+              "1,370",
               "227",
               "712",
               "583",
               "23",
-              "1,309",
+              "1,311",
               "151",
               "39",
               "19",
-              "2,343",
-              "81",
+              "2,345",
+              "80",
               "111",
               "6",
               "0",
               "84",
-              "10"
+              "9"
             ]
           },
           {
@@ -3616,21 +3616,21 @@
             "short": "Jac",
             "rank": "6",
             "values": [
-              "4,889.75",
+              "4,903.25",
               "",
-              "798",
-              "1,398",
+              "801",
+              "1,403",
               "191",
               "716",
-              "571",
+              "574",
               "18",
-              "1,357",
-              "89",
+              "1,360",
+              "90",
               "29",
-              "11",
-              "2,285",
+              "12",
+              "2,291",
               "69",
-              "109",
+              "110",
               "3",
               "0",
               "77",
@@ -3643,20 +3643,20 @@
             "short": "SOBALLS",
             "rank": "7",
             "values": [
-              "4,885.25",
+              "4,885.75",
               "",
               "739",
-              "1,327",
+              "1,328",
               "204",
               "701",
               "654",
               "40",
-              "1,331",
+              "1,334",
               "126",
               "41",
               "12",
-              "2,209",
-              "87",
+              "2,210",
+              "88",
               "120",
               "2",
               "0",
@@ -3697,19 +3697,19 @@
             "short": "Watchtow",
             "rank": "9",
             "values": [
-              "4,673.25",
+              "4,674.75",
               "",
               "743",
-              "1,363",
+              "1,364",
               "192",
               "726",
-              "500",
+              "501",
               "18",
-              "1,237",
+              "1,238",
               "110",
               "29",
               "13",
-              "2,231",
+              "2,232",
               "53",
               "121",
               "6",
@@ -3724,16 +3724,16 @@
             "short": "haydenor",
             "rank": "10",
             "values": [
-              "4,416.75",
+              "4,421.75",
               "",
               "712",
               "1,226",
               "186",
-              "651",
-              "580",
+              "652",
+              "581",
               "15",
-              "1,305",
-              "98",
+              "1,306",
+              "100",
               "28",
               "6",
               "2,036",
@@ -3751,24 +3751,24 @@
             "short": "GGG",
             "rank": "11",
             "values": [
-              "4,391",
+              "4,397",
               "",
               "650",
-              "1,299",
+              "1,301",
               "190",
-              "690",
+              "692",
               "490",
               "13",
-              "1,311",
+              "1,312",
               "68",
               "30",
               "10",
-              "2,161",
+              "2,163",
               "66",
               "74",
               "5",
               "0",
-              "79",
+              "80",
               "10"
             ]
           },
@@ -3778,19 +3778,19 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "4,258.5",
+              "4,258",
               "",
               "687",
-              "1,266",
+              "1,267",
               "155",
               "667",
-              "569",
+              "570",
               "17",
-              "1,208",
+              "1,214",
               "66",
               "29",
               "6",
-              "2,031",
+              "2,032",
               "40",
               "99",
               "0",
@@ -3837,12 +3837,12 @@
             "short": "JUAN",
             "rank": "2",
             "values": [
-              "6,502",
+              "6,520.5",
               "",
-              "2,006",
-              "1,998",
-              "901",
-              "741",
+              "2,010.2",
+              "2,003",
+              "902",
+              "742",
               "61",
               "19",
               "42",
@@ -3852,9 +3852,9 @@
               "98",
               "1",
               "0",
-              "200",
+              "201",
               "87",
-              "10",
+              "11",
               "65"
             ]
           },
@@ -3891,10 +3891,10 @@
             "short": "Watchtow",
             "rank": "4",
             "values": [
-              "6,172",
+              "6,178",
               "",
-              "1,888.2",
-              "1,732",
+              "1,889.2",
+              "1,734",
               "805",
               "610",
               "92",
@@ -3907,7 +3907,7 @@
               "0",
               "0",
               "177",
-              "110",
+              "111",
               "19",
               "57"
             ]
@@ -3945,12 +3945,12 @@
             "short": "FPS",
             "rank": "6",
             "values": [
-              "5,900.5",
+              "5,902",
               "",
-              "1,689.1",
-              "1,756",
-              "684",
-              "560",
+              "1,690.1",
+              "1,758",
+              "685",
+              "561",
               "54",
               "22",
               "70",
@@ -3972,12 +3972,12 @@
             "short": "SOBALLS",
             "rank": "7",
             "values": [
-              "5,535",
+              "5,541.5",
               "",
-              "1,712.1",
-              "1,601",
+              "1,713.2",
+              "1,603",
               "767",
-              "595",
+              "596",
               "31",
               "15",
               "92",
@@ -3988,7 +3988,7 @@
               "1",
               "0",
               "157",
-              "105",
+              "106",
               "14",
               "116"
             ]
@@ -3999,14 +3999,14 @@
             "short": "Jac",
             "rank": "8",
             "values": [
-              "5,314",
+              "5,305.5",
               "",
-              "1,619",
+              "1,619.1",
               "1,594",
-              "723",
-              "596",
+              "725",
+              "597",
               "96",
-              "16",
+              "17",
               "27",
               "77",
               "0",
@@ -4026,19 +4026,19 @@
             "short": "Vind25",
             "rank": "9",
             "values": [
-              "5,239.5",
+              "5,246.5",
               "",
-              "1,680.1",
-              "1,564",
-              "770",
-              "569",
+              "1,684.1",
+              "1,566",
+              "772",
+              "570",
               "52",
               "22",
               "67",
               "74",
               "0",
               "5",
-              "72",
+              "73",
               "0",
               "0",
               "151",
@@ -4107,19 +4107,19 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "3,800",
+              "3,808.5",
               "",
-              "1,254",
-              "1,187",
+              "1,255.2",
+              "1,191",
               "602",
-              "558",
+              "560",
               "63",
               "23",
               "41",
               "50",
               "1",
               "0",
-              "67",
+              "66",
               "0",
               "0",
               "105",
@@ -4197,6 +4197,32 @@
   "transactions": [
     {
       "displayDate": 1788451200000,
+      "teamId": "10210",
+      "id": "77090xq0mtmfca7p",
+      "seq": 140660,
+      "desc": "The Reds signed Fletcher to a minor-league contract Thursday.",
+      "player": {
+        "name": "Dominic Fletcher",
+        "posShortNames": "RF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04y45_96_3.png",
+        "scorerId": "04y45",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788451200000,
       "teamId": "10130",
       "id": "boxgspcxmtm496i5",
       "seq": 140659,
@@ -4261,12 +4287,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4557,12 +4578,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 6",
-            "typeId": "26"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4885,32 +4901,6 @@
         "teamName": "Baltimore Orioles",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efo_96_1.png",
         "scorerId": "04efo",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10010",
-      "id": "b48gdyq8mtjlh665",
-      "seq": 140630,
-      "desc": "The Orioles designated Weston for assignment Tuesday.",
-      "player": {
-        "name": "Cameron Weston",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "066b1",
         "posIds": [
           "015"
         ],
@@ -4928,6 +4918,32 @@
   "mlbTransactions": [
     {
       "displayDate": 1788451200000,
+      "teamId": "10210",
+      "id": "77090xq0mtmfca7p",
+      "seq": 140660,
+      "desc": "The Reds signed Fletcher to a minor-league contract Thursday.",
+      "player": {
+        "name": "Dominic Fletcher",
+        "posShortNames": "RF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04y45_96_3.png",
+        "scorerId": "04y45",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788451200000,
       "teamId": "10130",
       "id": "boxgspcxmtm496i5",
       "seq": 140659,
@@ -4992,12 +5008,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5288,12 +5299,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 6",
-            "typeId": "26"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5616,32 +5622,6 @@
         "teamName": "Baltimore Orioles",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efo_96_1.png",
         "scorerId": "04efo",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788364800000,
-      "teamId": "10010",
-      "id": "b48gdyq8mtjlh665",
-      "seq": 140630,
-      "desc": "The Orioles designated Weston for assignment Tuesday.",
-      "player": {
-        "name": "Cameron Weston",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "066b1",
         "posIds": [
           "015"
         ],
