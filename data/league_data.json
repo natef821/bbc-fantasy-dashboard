@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T14:24:31.245001Z",
+  "lastUpdated": "2026-09-05T19:48:37.541621Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,158 @@
   },
   "transactions": [
     {
+      "displayDate": 1788624000000,
+      "teamId": "10030",
+      "id": "f4d4jlkbmtorqzmw",
+      "seq": 140691,
+      "desc": "Dominguez was recalled from Triple-A Scranton/Wilkes-Barre on Saturday.",
+      "player": {
+        "name": "Jasson Dominguez",
+        "posShortNames": "LF",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050c3_96_3.png",
+        "scorerId": "050c3",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788624000000,
+      "teamId": "10050",
+      "id": "zon76gv8mtoq66m2",
+      "seq": 140690,
+      "desc": "The Blue Jays claimed Ross off waivers from the Mets on Saturday and optioned him to Triple-A Buffalo.",
+      "player": {
+        "name": "Shawn Ross",
+        "posShortNames": "C",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "068xz",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788624000000,
+      "teamId": "10110",
+      "id": "6vuu4wv1mton0n9z",
+      "seq": 140689,
+      "desc": "The Angels signed Anderson to a minor-league contract Friday and assigned him to Triple-A Salt Lake.",
+      "player": {
+        "name": "Shaun Anderson",
+        "posShortNames": "RP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qm_96_3.png",
+        "scorerId": "041qm",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788624000000,
+      "teamId": "10200",
+      "id": "2wbx19jtmton0n6a",
+      "seq": 140688,
+      "desc": "The Cubs recalled Assad from Triple-A Iowa ahead of his start Saturday against Miami, Vinnie Duber of the Chicago Sun-Times reports.",
+      "player": {
+        "name": "Javier Assad",
+        "posShortNames": "SP,RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04fq2_96_4.png",
+        "scorerId": "04fq2",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788624000000,
+      "teamId": "10200",
+      "id": "8mig823pmtomm6i1",
+      "seq": 140687,
+      "desc": "The Cubs optioned Ferguson to Triple-A Iowa on Saturday, Vinnie Duber of the Chicago Sun-Times reports.",
+      "player": {
+        "name": "Tyler Ferguson",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qlm_96_3.png",
+        "scorerId": "03qlm",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788624000000,
+      "teamId": "10300",
+      "id": "rx5jt3v0mtom7zmo",
+      "seq": 140686,
+      "desc": "The Giants optioned Walker to Triple-A Sacramento on Saturday, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Ryan Walker",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066n3_96_2.png",
+        "scorerId": "066n3",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1788537600000,
       "teamId": "10121",
       "id": "xhzrsaewmtnna4wj",
@@ -4768,155 +4920,163 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10130",
-      "id": "boxgspcxmtm496i5",
-      "seq": 140659,
-      "desc": "The Mariners selected Fairchild's contract from Triple-A Tacoma on Thursday.",
-      "player": {
-        "name": "Stuart Fairchild",
-        "posShortNames": "RF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eel_96_7.png",
-        "scorerId": "04eel",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10300",
-      "id": "e1xouvigmtlzx665",
-      "seq": 140658,
-      "desc": "The Giants claimed Harris off waivers from the Red Sox on Thursday and optioned him to Triple-A Sacramento.",
-      "player": {
-        "name": "Brett Harris",
-        "posShortNames": "3B",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yca_96_1.png",
-        "scorerId": "05yca",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10160",
-      "id": "clszgw0emtlwrof1",
-      "seq": 140657,
-      "desc": "The Marlins recalled De Los Santos from Triple-A Jacksonville on Thursday.",
-      "player": {
-        "name": "Deyvison De Los Santos",
-        "posShortNames": "3B,1B",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05nsq_96_1.png",
-        "scorerId": "05nsq",
-        "posIds": [
-          "004",
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10160",
-      "id": "rg7bojmtmtlwdhek",
-      "seq": 140656,
-      "desc": "The Marlins designated Jimenez for assignment Thursday.",
-      "player": {
-        "name": "Leo Jimenez",
-        "posShortNames": "SS,2B,3B",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ni4_96_4.png",
-        "scorerId": "04ni4",
-        "posIds": [
-          "005",
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10170",
-      "id": "v4kwy5bqmtlvl3em",
-      "seq": 140655,
-      "desc": "The Mets claimed Weston off waivers from the Orioles on Thursday and optioned him to Triple-A Syracuse.",
-      "player": {
-        "name": "Cameron Weston",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "066b1",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10240",
-      "id": "vbldmw38mtlqut0b",
-      "seq": 140654,
-      "desc": "The Pirates recalled Curtis from Triple-A Indianapolis on Thursday.",
-      "player": {
-        "name": "Khristian Curtis",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "06fwg",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1788624000000,
+      "teamId": "10030",
+      "id": "f4d4jlkbmtorqzmw",
+      "seq": 140691,
+      "desc": "Dominguez was recalled from Triple-A Scranton/Wilkes-Barre on Saturday.",
+      "player": {
+        "name": "Jasson Dominguez",
+        "posShortNames": "LF",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050c3_96_3.png",
+        "scorerId": "050c3",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788624000000,
+      "teamId": "10050",
+      "id": "zon76gv8mtoq66m2",
+      "seq": 140690,
+      "desc": "The Blue Jays claimed Ross off waivers from the Mets on Saturday and optioned him to Triple-A Buffalo.",
+      "player": {
+        "name": "Shawn Ross",
+        "posShortNames": "C",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "068xz",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788624000000,
+      "teamId": "10110",
+      "id": "6vuu4wv1mton0n9z",
+      "seq": 140689,
+      "desc": "The Angels signed Anderson to a minor-league contract Friday and assigned him to Triple-A Salt Lake.",
+      "player": {
+        "name": "Shaun Anderson",
+        "posShortNames": "RP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qm_96_3.png",
+        "scorerId": "041qm",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788624000000,
+      "teamId": "10200",
+      "id": "2wbx19jtmton0n6a",
+      "seq": 140688,
+      "desc": "The Cubs recalled Assad from Triple-A Iowa ahead of his start Saturday against Miami, Vinnie Duber of the Chicago Sun-Times reports.",
+      "player": {
+        "name": "Javier Assad",
+        "posShortNames": "SP,RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04fq2_96_4.png",
+        "scorerId": "04fq2",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788624000000,
+      "teamId": "10200",
+      "id": "8mig823pmtomm6i1",
+      "seq": 140687,
+      "desc": "The Cubs optioned Ferguson to Triple-A Iowa on Saturday, Vinnie Duber of the Chicago Sun-Times reports.",
+      "player": {
+        "name": "Tyler Ferguson",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qlm_96_3.png",
+        "scorerId": "03qlm",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788624000000,
+      "teamId": "10300",
+      "id": "rx5jt3v0mtom7zmo",
+      "seq": 140686,
+      "desc": "The Giants optioned Walker to Triple-A Sacramento on Saturday, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Ryan Walker",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066n3_96_2.png",
+        "scorerId": "066n3",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1788537600000,
       "teamId": "10121",
       "id": "xhzrsaewmtnna4wj",
@@ -5489,150 +5649,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10130",
-      "id": "boxgspcxmtm496i5",
-      "seq": 140659,
-      "desc": "The Mariners selected Fairchild's contract from Triple-A Tacoma on Thursday.",
-      "player": {
-        "name": "Stuart Fairchild",
-        "posShortNames": "RF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eel_96_7.png",
-        "scorerId": "04eel",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10300",
-      "id": "e1xouvigmtlzx665",
-      "seq": 140658,
-      "desc": "The Giants claimed Harris off waivers from the Red Sox on Thursday and optioned him to Triple-A Sacramento.",
-      "player": {
-        "name": "Brett Harris",
-        "posShortNames": "3B",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yca_96_1.png",
-        "scorerId": "05yca",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10160",
-      "id": "clszgw0emtlwrof1",
-      "seq": 140657,
-      "desc": "The Marlins recalled De Los Santos from Triple-A Jacksonville on Thursday.",
-      "player": {
-        "name": "Deyvison De Los Santos",
-        "posShortNames": "3B,1B",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05nsq_96_1.png",
-        "scorerId": "05nsq",
-        "posIds": [
-          "004",
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10160",
-      "id": "rg7bojmtmtlwdhek",
-      "seq": 140656,
-      "desc": "The Marlins designated Jimenez for assignment Thursday.",
-      "player": {
-        "name": "Leo Jimenez",
-        "posShortNames": "SS,2B,3B",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ni4_96_4.png",
-        "scorerId": "04ni4",
-        "posIds": [
-          "005",
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10170",
-      "id": "v4kwy5bqmtlvl3em",
-      "seq": 140655,
-      "desc": "The Mets claimed Weston off waivers from the Orioles on Thursday and optioned him to Triple-A Syracuse.",
-      "player": {
-        "name": "Cameron Weston",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "066b1",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788451200000,
-      "teamId": "10240",
-      "id": "vbldmw38mtlqut0b",
-      "seq": 140654,
-      "desc": "The Pirates recalled Curtis from Triple-A Indianapolis on Thursday.",
-      "player": {
-        "name": "Khristian Curtis",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "06fwg",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
