@@ -1,36 +1,36 @@
 {
-  "lastUpdated": "2026-09-05T02:31:28.056487Z",
+  "lastUpdated": "2026-09-05T09:50:09.924806Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
-    {
-      "id": "odce8gzsmg7kg72c",
-      "name": "Wyatt and the Lankers",
-      "short": "LANK",
-      "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp",
-      "rank": 1,
-      "fantasyPoints": "",
-      "fptsPerGame": "5.61",
-      "scoringPeriod": "2182",
-      "gb": "5,500.25",
-      "ww": 6738,
-      "pbl": 2.0,
-      "hitPts": 0.0,
-      "pitPts": 0
-    },
     {
       "id": "g8p3r1i9mg7kg72b",
       "name": "Juan Binary",
       "short": "JUAN",
       "logoUrl": "https://fantraximg.com/logos/zwr/tmLogo_zwr4wx6wmr1fgiwc_512.webp",
-      "rank": 2,
+      "rank": 1,
       "fantasyPoints": "",
       "fptsPerGame": "5.77",
-      "scoringPeriod": "2122",
-      "gb": "5,682.25",
-      "ww": 6556,
+      "scoringPeriod": "2123",
+      "gb": "5,684.25",
+      "ww": 6558,
       "pbl": 10.0,
-      "hitPts": 0.5,
+      "hitPts": 0.0,
+      "pitPts": 0
+    },
+    {
+      "id": "odce8gzsmg7kg72c",
+      "name": "Wyatt and the Lankers",
+      "short": "LANK",
+      "logoUrl": "https://fantraximg.com/logos/hxy/tmLogo_hxyvihkymntfhvcw_512.webp",
+      "rank": 2,
+      "fantasyPoints": "",
+      "fptsPerGame": "5.61",
+      "scoringPeriod": "2182",
+      "gb": "5,499.75",
+      "ww": 6738,
+      "pbl": 2.0,
+      "hitPts": 4.0,
       "pitPts": 0
     },
     {
@@ -40,12 +40,12 @@
       "logoUrl": "https://fantraximg.com/logos/9i1/tmLogo_9i1cc3c2mq44kk57_512.webp",
       "rank": 3,
       "fantasyPoints": "",
-      "fptsPerGame": "5.63",
-      "scoringPeriod": "2160",
-      "gb": "5,680.75",
-      "ww": 6490,
+      "fptsPerGame": "5.64",
+      "scoringPeriod": "2162",
+      "gb": "5,695.75",
+      "ww": 6488,
       "pbl": 6.0,
-      "hitPts": 68.0,
+      "hitPts": 58.5,
       "pitPts": 0
     },
     {
@@ -56,11 +56,11 @@
       "rank": 4,
       "fantasyPoints": "",
       "fptsPerGame": "5.52",
-      "scoringPeriod": "2059",
-      "gb": "5,153",
-      "ww": 6206,
+      "scoringPeriod": "2061",
+      "gb": "5,158",
+      "ww": 6228,
       "pbl": 12.0,
-      "hitPts": 879.75,
+      "hitPts": 855.75,
       "pitPts": 0
     },
     {
@@ -70,12 +70,12 @@
       "logoUrl": "https://fantraximg.com/logos/u8v/tmLogo_u8vsnkdbml4fnu92_512.webp",
       "rank": 5,
       "fantasyPoints": "",
-      "fptsPerGame": "5.42",
-      "scoringPeriod": "2054",
-      "gb": "5,177.5",
-      "ww": 5958,
+      "fptsPerGame": "5.43",
+      "scoringPeriod": "2055",
+      "gb": "5,180",
+      "ww": 5970,
       "pbl": 1.0,
-      "hitPts": 1103.25,
+      "hitPts": 1092.25,
       "pitPts": 0
     },
     {
@@ -86,11 +86,11 @@
       "rank": 6,
       "fantasyPoints": "",
       "fptsPerGame": "5.24",
-      "scoringPeriod": "2078",
+      "scoringPeriod": "2079",
       "gb": "4,707.75",
-      "ww": 6180,
+      "ww": 6185,
       "pbl": 9.0,
-      "hitPts": 1350.5,
+      "hitPts": 1349.0,
       "pitPts": 0
     },
     {
@@ -101,11 +101,11 @@
       "rank": 7,
       "fantasyPoints": "",
       "fptsPerGame": "5.03",
-      "scoringPeriod": "2088",
-      "gb": "4,898.25",
-      "ww": 5606,
+      "scoringPeriod": "2091",
+      "gb": "4,910.5",
+      "ww": 5614,
       "pbl": 4.0,
-      "hitPts": 1734.0,
+      "hitPts": 1717.25,
       "pitPts": 0
     },
     {
@@ -115,12 +115,12 @@
       "logoUrl": "https://fantraximg.com/logos/6oi/tmLogo_6oix2hntmn40p414_512.webp",
       "rank": 8,
       "fantasyPoints": "",
-      "fptsPerGame": "5.08",
-      "scoringPeriod": "2024",
-      "gb": "4,915.75",
-      "ww": 5371,
+      "fptsPerGame": "5.1",
+      "scoringPeriod": "2025",
+      "gb": "4,941.5",
+      "ww": 5380,
       "pbl": 8.0,
-      "hitPts": 1952.0,
+      "hitPts": 1920.75,
       "pitPts": 0
     },
     {
@@ -131,11 +131,11 @@
       "rank": 9,
       "fantasyPoints": "",
       "fptsPerGame": "4.85",
-      "scoringPeriod": "2054",
-      "gb": "4,711.5",
-      "ww": 5246,
+      "scoringPeriod": "2055",
+      "gb": "4,716.5",
+      "ww": 5254,
       "pbl": 5.0,
-      "hitPts": 2280.75,
+      "hitPts": 2271.75,
       "pitPts": 0
     },
     {
@@ -147,10 +147,10 @@
       "fantasyPoints": "",
       "fptsPerGame": "4.58",
       "scoringPeriod": "2003",
-      "gb": "4,435.5",
+      "gb": "4,438.5",
       "ww": 4740,
       "pbl": 3.0,
-      "hitPts": 3063.25,
+      "hitPts": 3063.75,
       "pitPts": 0
     },
     {
@@ -160,12 +160,12 @@
       "logoUrl": "https://fantraximg.com/logos/nsd/tmLogo_nsdzor91mcat5gih_512.webp",
       "rank": 11,
       "fantasyPoints": "",
-      "fptsPerGame": "4.96",
-      "scoringPeriod": "1776",
-      "gb": "4,427.75",
-      "ww": 4386,
+      "fptsPerGame": "4.97",
+      "scoringPeriod": "1777",
+      "gb": "4,438.5",
+      "ww": 4400,
       "pbl": 11.0,
-      "hitPts": 3425.0,
+      "hitPts": 3403.75,
       "pitPts": 0
     },
     {
@@ -176,11 +176,11 @@
       "rank": 12,
       "fantasyPoints": "",
       "fptsPerGame": "4.34",
-      "scoringPeriod": "1866",
-      "gb": "4,271",
-      "ww": 3819,
+      "scoringPeriod": "1868",
+      "gb": "4,285",
+      "ww": 3825,
       "pbl": 7.0,
-      "hitPts": 4148.25,
+      "hitPts": 4131.75,
       "pitPts": 0
     }
   ],
@@ -3476,24 +3476,51 @@
         "name": "Standings - Statistics - Hitting",
         "rows": [
           {
+            "teamId": "7gq3y996mg7kg729",
+            "name": "Slattlanta",
+            "short": "JDPusha",
+            "rank": "1",
+            "values": [
+              "5,695.75",
+              "",
+              "895",
+              "1,486",
+              "257",
+              "804",
+              "742",
+              "62",
+              "1,563",
+              "109",
+              "41",
+              "16",
+              "2,573",
+              "103",
+              "98",
+              "6",
+              "0",
+              "90",
+              "15"
+            ]
+          },
+          {
             "teamId": "g8p3r1i9mg7kg72b",
             "name": "Juan Binary",
             "short": "JUAN",
-            "rank": "1",
+            "rank": "2",
             "values": [
-              "5,682.25",
+              "5,684.25",
               "",
               "850",
-              "1,523",
+              "1,524",
               "260",
-              "801",
+              "802",
               "644",
               "53",
-              "1,320",
+              "1,321",
               "86",
               "22",
               "7",
-              "2,623",
+              "2,624",
               "67",
               "124",
               "6",
@@ -3503,39 +3530,12 @@
             ]
           },
           {
-            "teamId": "7gq3y996mg7kg729",
-            "name": "Slattlanta",
-            "short": "JDPusha",
-            "rank": "2",
-            "values": [
-              "5,680.75",
-              "",
-              "894",
-              "1,484",
-              "256",
-              "801",
-              "741",
-              "62",
-              "1,560",
-              "109",
-              "41",
-              "16",
-              "2,568",
-              "103",
-              "98",
-              "6",
-              "0",
-              "89",
-              "15"
-            ]
-          },
-          {
             "teamId": "odce8gzsmg7kg72c",
             "name": "Wyatt and the Lankers",
             "short": "LANK",
             "rank": "3",
             "values": [
-              "5,500.25",
+              "5,499.75",
               "",
               "832",
               "1,498",
@@ -3543,7 +3543,7 @@
               "803",
               "702",
               "43",
-              "1,339",
+              "1,340",
               "158",
               "45",
               "14",
@@ -3562,20 +3562,20 @@
             "short": "FPS",
             "rank": "4",
             "values": [
-              "5,177.5",
+              "5,180",
               "",
-              "826",
+              "827",
               "1,378",
               "227",
               "713",
-              "585",
+              "586",
               "23",
-              "1,316",
+              "1,317",
               "151",
               "39",
               "20",
               "2,355",
-              "80",
+              "81",
               "111",
               "6",
               "0",
@@ -3589,19 +3589,19 @@
             "short": "Lsgob",
             "rank": "5",
             "values": [
-              "5,153",
+              "5,158",
               "",
               "768",
-              "1,350",
+              "1,351",
               "227",
-              "730",
+              "731",
               "611",
               "30",
-              "1,256",
+              "1,257",
               "107",
               "29",
               "8",
-              "2,325",
+              "2,329",
               "65",
               "89",
               "6",
@@ -3616,24 +3616,24 @@
             "short": "Jac",
             "rank": "6",
             "values": [
-              "4,915.75",
+              "4,941.5",
               "",
-              "802",
-              "1,408",
-              "192",
-              "720",
-              "574",
+              "806",
+              "1,412",
+              "193",
+              "723",
+              "576",
               "18",
-              "1,368",
+              "1,369",
               "91",
               "29",
               "12",
-              "2,300",
+              "2,309",
               "69",
-              "110",
+              "111",
               "3",
               "0",
-              "77",
+              "79",
               "13"
             ]
           },
@@ -3643,20 +3643,20 @@
             "short": "SOBALLS",
             "rank": "7",
             "values": [
-              "4,898.25",
+              "4,910.5",
               "",
               "742",
-              "1,332",
-              "204",
-              "703",
-              "657",
-              "40",
               "1,338",
+              "204",
+              "704",
+              "659",
+              "40",
+              "1,340",
               "126",
-              "41",
+              "42",
               "12",
-              "2,216",
-              "88",
+              "2,224",
+              "89",
               "120",
               "2",
               "0",
@@ -3670,19 +3670,19 @@
             "short": "Vind25",
             "rank": "8",
             "values": [
-              "4,711.5",
+              "4,716.5",
               "",
-              "715",
-              "1,301",
+              "716",
+              "1,302",
               "209",
               "719",
-              "559",
+              "560",
               "21",
-              "1,368",
+              "1,369",
               "117",
               "31",
               "12",
-              "2,238",
+              "2,239",
               "71",
               "93",
               "5",
@@ -3724,19 +3724,19 @@
             "short": "GGG",
             "rank": "10",
             "values": [
-              "4,435.5",
+              "4,438.5",
               "",
-              "657",
-              "1,311",
+              "658",
+              "1,313",
               "193",
-              "698",
+              "699",
               "491",
               "13",
-              "1,318",
+              "1,320",
               "68",
               "30",
               "10",
-              "2,183",
+              "2,185",
               "66",
               "74",
               "5",
@@ -3749,23 +3749,23 @@
             "teamId": "lhaxchcjmg7kg72c",
             "name": "Say Yes to Velo",
             "short": "haydenor",
-            "rank": "11",
+            "rank": "10",
             "values": [
-              "4,427.75",
+              "4,438.5",
               "",
-              "714",
-              "1,228",
-              "186",
-              "652",
+              "715",
+              "1,230",
+              "187",
+              "654",
               "583",
               "15",
-              "1,312",
+              "1,315",
               "100",
               "28",
               "6",
-              "2,040",
+              "2,045",
               "78",
-              "81",
+              "82",
               "5",
               "0",
               "79",
@@ -3778,24 +3778,24 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "4,271",
+              "4,285",
               "",
-              "688",
-              "1,271",
-              "156",
-              "669",
-              "571",
+              "691",
+              "1,273",
+              "157",
+              "671",
+              "572",
               "17",
-              "1,217",
+              "1,220",
               "67",
               "29",
               "6",
-              "2,039",
+              "2,045",
               "40",
               "99",
               "0",
               "1",
-              "67",
+              "68",
               "10"
             ]
           }
@@ -3837,9 +3837,9 @@
             "short": "JUAN",
             "rank": "2",
             "values": [
-              "6,556",
+              "6,558",
               "",
-              "2,018.1",
+              "2,018.2",
               "2,011",
               "903",
               "744",
@@ -3855,7 +3855,7 @@
               "202",
               "89",
               "11",
-              "65"
+              "67"
             ]
           },
           {
@@ -3864,12 +3864,12 @@
             "short": "JDPusha",
             "rank": "3",
             "values": [
-              "6,490",
+              "6,488",
               "",
-              "1,950.2",
-              "2,005",
-              "904",
-              "708",
+              "1,954.1",
+              "2,014",
+              "912",
+              "712",
               "97",
               "18",
               "47",
@@ -3880,7 +3880,7 @@
               "1",
               "0",
               "182",
-              "105",
+              "106",
               "15",
               "43"
             ]
@@ -3891,25 +3891,25 @@
             "short": "Lsgob",
             "rank": "4",
             "values": [
-              "6,206",
+              "6,228.5",
               "",
-              "1,974",
-              "1,810",
+              "1,976.1",
+              "1,811",
               "893",
               "656",
-              "24",
+              "25",
               "21",
-              "97",
-              "121",
+              "98",
+              "122",
               "0",
               "4",
               "81",
               "0",
               "0",
               "186",
-              "128",
+              "131",
               "19",
-              "91"
+              "92"
             ]
           },
           {
@@ -3918,10 +3918,10 @@
             "short": "Watchtow",
             "rank": "5",
             "values": [
-              "6,180.5",
+              "6,185.5",
               "",
-              "1,894.2",
-              "1,740",
+              "1,895.2",
+              "1,741",
               "811",
               "611",
               "92",
@@ -3934,7 +3934,7 @@
               "0",
               "0",
               "177",
-              "111",
+              "112",
               "19",
               "57"
             ]
@@ -3945,13 +3945,13 @@
             "short": "FPS",
             "rank": "6",
             "values": [
-              "5,958",
+              "5,970",
               "",
-              "1,704.1",
-              "1,772",
+              "1,705.1",
+              "1,775",
               "690",
               "567",
-              "55",
+              "56",
               "22",
               "71",
               "87",
@@ -3961,7 +3961,7 @@
               "1",
               "0",
               "155",
-              "124",
+              "125",
               "17",
               "91"
             ]
@@ -3972,22 +3972,22 @@
             "short": "SOBALLS",
             "rank": "7",
             "values": [
-              "5,606.5",
+              "5,614.5",
               "",
-              "1,738.2",
-              "1,615",
-              "777",
-              "603",
+              "1,743.2",
+              "1,617",
+              "781",
+              "606",
               "32",
-              "15",
-              "92",
-              "103",
+              "16",
+              "93",
+              "104",
               "2",
               "8",
-              "66",
+              "67",
               "1",
               "0",
-              "159",
+              "160",
               "108",
               "14",
               "116"
@@ -3999,14 +3999,14 @@
             "short": "Jac",
             "rank": "8",
             "values": [
-              "5,372",
+              "5,380",
               "",
-              "1,643.2",
-              "1,612",
+              "1,645",
+              "1,614",
               "735",
               "604",
-              "96",
-              "17",
+              "97",
+              "18",
               "27",
               "78",
               "0",
@@ -4026,12 +4026,12 @@
             "short": "Vind25",
             "rank": "9",
             "values": [
-              "5,246.5",
+              "5,254",
               "",
-              "1,684.1",
+              "1,686.2",
               "1,566",
               "772",
-              "570",
+              "571",
               "52",
               "22",
               "67",
@@ -4042,7 +4042,7 @@
               "0",
               "0",
               "151",
-              "113",
+              "114",
               "14",
               "97"
             ]
@@ -4080,15 +4080,15 @@
             "short": "haydenor",
             "rank": "11",
             "values": [
-              "4,386",
+              "4,400",
               "",
-              "1,350.1",
-              "1,399",
+              "1,352.1",
+              "1,403",
               "607",
               "520",
               "37",
               "14",
-              "22",
+              "23",
               "82",
               "2",
               "3",
@@ -4096,7 +4096,7 @@
               "1",
               "0",
               "142",
-              "58",
+              "59",
               "15",
               "54"
             ]
@@ -4107,9 +4107,9 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "3,819.5",
+              "3,825.5",
               "",
-              "1,257.2",
+              "1,259",
               "1,192",
               "602",
               "560",
@@ -4123,9 +4123,9 @@
               "0",
               "0",
               "105",
-              "87",
+              "88",
               "7",
-              "95"
+              "97"
             ]
           }
         ]
@@ -4308,12 +4308,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4334,7 +4329,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -4357,12 +4357,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          },
-          {
-            "tooltip": "Elbow - Day-to-Day",
-            "typeId": "1"
+            "tooltip": "Elbow - Out Indefinitely",
+            "typeId": "30"
           }
         ]
       }
@@ -4677,12 +4673,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4797,12 +4788,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4850,12 +4836,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5048,12 +5029,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5074,7 +5050,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -5097,12 +5078,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          },
-          {
-            "tooltip": "Elbow - Day-to-Day",
-            "typeId": "1"
+            "tooltip": "Elbow - Out Indefinitely",
+            "typeId": "30"
           }
         ]
       }
@@ -5417,12 +5394,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5537,12 +5509,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5590,12 +5557,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
