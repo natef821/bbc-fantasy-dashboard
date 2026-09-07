@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T02:25:19.721854Z",
+  "lastUpdated": "2026-09-07T11:21:12.164774Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -55,12 +55,12 @@
       "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp",
       "rank": 4,
       "fantasyPoints": "",
-      "fptsPerGame": "5.53",
+      "fptsPerGame": "5.54",
       "scoringPeriod": "2091",
-      "gb": "5,233",
+      "gb": "5,237.25",
       "ww": 6339,
       "pbl": 12.0,
-      "hitPts": 850.0,
+      "hitPts": 845.75,
       "pitPts": 0
     },
     {
@@ -117,10 +117,10 @@
       "fantasyPoints": "",
       "fptsPerGame": "5.09",
       "scoringPeriod": "2049",
-      "gb": "4,981.75",
+      "gb": "4,994.75",
       "ww": 5444,
       "pbl": 8.0,
-      "hitPts": 1996.75,
+      "hitPts": 1983.75,
       "pitPts": 0
     },
     {
@@ -162,10 +162,10 @@
       "fantasyPoints": "",
       "fptsPerGame": "4.97",
       "scoringPeriod": "1800",
-      "gb": "4,474",
+      "gb": "4,481.5",
       "ww": 4465,
       "pbl": 11.0,
-      "hitPts": 3483.5,
+      "hitPts": 3476.0,
       "pitPts": 0
     },
     {
@@ -177,10 +177,10 @@
       "fantasyPoints": "",
       "fptsPerGame": "4.32",
       "scoringPeriod": "1892",
-      "gb": "4,334.25",
-      "ww": 3831,
+      "gb": "4,338.25",
+      "ww": 3834,
       "pbl": 7.0,
-      "hitPts": 4256.75,
+      "hitPts": 4249.75,
       "pitPts": 0
     }
   ],
@@ -3562,17 +3562,17 @@
             "short": "Lsgob",
             "rank": "4",
             "values": [
-              "5,233",
+              "5,237.25",
               "",
               "779",
               "1,367",
               "232",
               "746",
-              "618",
-              "30",
+              "621",
+              "31",
               "1,269",
               "109",
-              "29",
+              "30",
               "8",
               "2,361",
               "67",
@@ -3616,24 +3616,24 @@
             "short": "Jac",
             "rank": "6",
             "values": [
-              "4,981.75",
+              "4,994.75",
               "",
-              "813",
-              "1,429",
-              "194",
-              "727",
+              "814",
+              "1,430",
+              "195",
+              "731",
               "579",
               "18",
               "1,390",
               "93",
               "29",
               "13",
-              "2,333",
+              "2,337",
               "70",
               "111",
               "3",
               "0",
-              "79",
+              "80",
               "14"
             ]
           },
@@ -3751,19 +3751,19 @@
             "short": "haydenor",
             "rank": "11",
             "values": [
-              "4,474",
+              "4,481.5",
               "",
-              "722",
-              "1,243",
-              "188",
-              "663",
-              "586",
+              "723",
+              "1,244",
+              "189",
+              "664",
+              "587",
               "16",
-              "1,333",
+              "1,334",
               "101",
               "28",
               "6",
-              "2,064",
+              "2,068",
               "79",
               "84",
               "5",
@@ -3778,19 +3778,19 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "4,334.25",
+              "4,338.25",
               "",
-              "701",
-              "1,291",
+              "702",
+              "1,293",
               "158",
               "677",
               "579",
               "17",
-              "1,232",
+              "1,235",
               "67",
               "29",
               "6",
-              "2,070",
+              "2,074",
               "41",
               "100",
               "0",
@@ -4107,12 +4107,12 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "3,831.5",
+              "3,834.5",
               "",
-              "1,268.2",
-              "1,199",
-              "610",
-              "566",
+              "1,272",
+              "1,202",
+              "613",
+              "568",
               "63",
               "24",
               "42",
@@ -4197,6 +4197,32 @@
   "transactions": [
     {
       "displayDate": 1788710400000,
+      "teamId": "10030",
+      "id": "awjh3yi7mtqmt8kn",
+      "seq": 140730,
+      "desc": "The Yankees optioned Rodriguez to Triple-A Scranton/Wilkes-Barre following Sunday's game.",
+      "player": {
+        "name": "Elmer Rodriguez",
+        "posShortNames": "SP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "",
+        "scorerId": "05xoo",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788710400000,
       "teamId": "10280",
       "id": "drgee2s3mtqe3u3r",
       "seq": 140729,
@@ -4213,12 +4239,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4364,12 +4385,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4458,12 +4474,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4631,12 +4642,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 6",
-            "typeId": "26"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4707,12 +4713,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4733,12 +4734,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4793,7 +4789,7 @@
       "teamId": "10210",
       "id": "77pqe6jhmtpwqgct",
       "seq": 140705,
-      "desc": "The Red designated Moll for assignment Sunday.",
+      "desc": "The Reds designated Moll for assignment Sunday.",
       "player": {
         "name": "Sam Moll",
         "posShortNames": "RP",
@@ -4908,33 +4904,38 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1788624000000,
-      "teamId": "10280",
-      "id": "01m3fmeumtp00wkz",
-      "seq": 140700,
-      "desc": "The Dodgers activated Miller (shoulder) from the 60-day injured list Saturday.",
-      "player": {
-        "name": "Bobby Miller",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwz_96_5.png",
-        "scorerId": "05gwz",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1788710400000,
+      "teamId": "10030",
+      "id": "awjh3yi7mtqmt8kn",
+      "seq": 140730,
+      "desc": "The Yankees optioned Rodriguez to Triple-A Scranton/Wilkes-Barre following Sunday's game.",
+      "player": {
+        "name": "Elmer Rodriguez",
+        "posShortNames": "SP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "",
+        "scorerId": "05xoo",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788710400000,
       "teamId": "10280",
       "id": "drgee2s3mtqe3u3r",
       "seq": 140729,
@@ -4951,12 +4952,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5102,12 +5098,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 8",
-            "typeId": "28"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5196,12 +5187,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5369,12 +5355,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 6",
-            "typeId": "26"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5445,12 +5426,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5471,12 +5447,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5531,7 +5502,7 @@
       "teamId": "10210",
       "id": "77pqe6jhmtpwqgct",
       "seq": 140705,
-      "desc": "The Red designated Moll for assignment Sunday.",
+      "desc": "The Reds designated Moll for assignment Sunday.",
       "player": {
         "name": "Sam Moll",
         "posShortNames": "RP",
@@ -5646,27 +5617,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1788624000000,
-      "teamId": "10280",
-      "id": "01m3fmeumtp00wkz",
-      "seq": 140700,
-      "desc": "The Dodgers activated Miller (shoulder) from the 60-day injured list Saturday.",
-      "player": {
-        "name": "Bobby Miller",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwz_96_5.png",
-        "scorerId": "05gwz",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
