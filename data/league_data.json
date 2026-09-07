@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T11:21:12.164774Z",
+  "lastUpdated": "2026-09-07T17:04:00.609411Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,179 @@
   },
   "transactions": [
     {
+      "displayDate": 1788796800000,
+      "teamId": "10270",
+      "id": "14oedme0mtrezfwe",
+      "seq": 140737,
+      "desc": "The Rockies optioned Ritter to Triple-A Albuquerque on Monday.",
+      "player": {
+        "name": "Ryan Ritter",
+        "posShortNames": "SS,2B",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xu2_96_2.png",
+        "scorerId": "05xu2",
+        "posIds": [
+          "005",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10270",
+      "id": "ovwe0f0ymtrel95t",
+      "seq": 140736,
+      "desc": "The Rockies activated Karros (concussion) from the 7-day injured list Monday.",
+      "player": {
+        "name": "Kyle Karros",
+        "posShortNames": "3B",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06dsa_96_1.png",
+        "scorerId": "06dsa",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10230",
+      "id": "jalh1k11mtrdep5s",
+      "seq": 140735,
+      "desc": "The Brewers recalled Sproat from Triple-A Nashville on Monday, Adam McCalvy of MLB.com reports.",
+      "player": {
+        "name": "Brandon Sproat",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515o_96_2.png",
+        "scorerId": "0515o",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10170",
+      "id": "x4pwcgf8mtrbs6qo",
+      "seq": 140734,
+      "desc": "The Mets optioned Hagenman to Triple-A Syracuse on Monday.",
+      "player": {
+        "name": "Justin Hagenman",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q54_96_1.png",
+        "scorerId": "04q54",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10170",
+      "id": "zpayxbtjmtrbs6oi",
+      "seq": 140733,
+      "desc": "The Mets recalled Tong from Triple-A Syracuse on Monday.",
+      "player": {
+        "name": "Jonah Tong",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0658b_96_2.png",
+        "scorerId": "0658b",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10100",
+      "id": "sxbuul09mtrbdzlu",
+      "seq": 140732,
+      "desc": "The Twins optioned Acton to Triple-A St. Paul on Monday.",
+      "player": {
+        "name": "Garrett Acton",
+        "posShortNames": "RP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ybh_96_1.png",
+        "scorerId": "05ybh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10100",
+      "id": "qfi3bcy8mtrazsql",
+      "seq": 140731,
+      "desc": "The Twins activated Ryan (glute) from the 15-day injured list Monday.",
+      "player": {
+        "name": "Joe Ryan",
+        "posShortNames": "SP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ps7_96_8.png",
+        "scorerId": "04ps7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1788710400000,
       "teamId": "10030",
       "id": "awjh3yi7mtqmt8kn",
@@ -4363,7 +4536,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4642,7 +4820,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
       }
     },
     {
@@ -4713,7 +4896,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4735,180 +4923,184 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10070",
-      "id": "oaza0maamtpx4ub2",
-      "seq": 140707,
-      "desc": "Cleveland optioned Peterson to Triple-A Columbus on Sunday, Tim Stebbins of MLB.com reports.",
-      "player": {
-        "name": "Austin Peterson",
-        "posShortNames": "SP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061bn_96_1.png",
-        "scorerId": "061bn",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10070",
-      "id": "bsuwmnccmtpx4u5p",
-      "seq": 140706,
-      "desc": "The Guardians recalled Aleman from Triple-A Columbus on Sunday, Tim Stebbins of MLB.com reports.",
-      "player": {
-        "name": "Franco Aleman",
-        "posShortNames": "RP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y5l_96_1.png",
-        "scorerId": "05y5l",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10210",
-      "id": "77pqe6jhmtpwqgct",
-      "seq": 140705,
-      "desc": "The Reds designated Moll for assignment Sunday.",
-      "player": {
-        "name": "Sam Moll",
-        "posShortNames": "RP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0311r_96_12.png",
-        "scorerId": "0311r",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10210",
-      "id": "0ylh2pxcmtpwqg9o",
-      "seq": 140704,
-      "desc": "The Reds reinstated Ashcraft (elbow) from the 60-day injured list Sunday.",
-      "player": {
-        "name": "Graham Ashcraft",
-        "posShortNames": "RP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041x9_96_4.png",
-        "scorerId": "041x9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788624000000,
-      "teamId": "10121",
-      "id": "l078xxbomtp3yp42",
-      "seq": 140703,
-      "desc": "The Athletics recalled Perkins from Triple-A Las Vegas on Saturday.",
-      "player": {
-        "name": "Jack Perkins",
-        "posShortNames": "RP,SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0657l_96_2.png",
-        "scorerId": "0657l",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788624000000,
-      "teamId": "10280",
-      "id": "plunrgabmtp0t9fc",
-      "seq": 140702,
-      "desc": "The Dodgers designated Thomas for assignment Saturday.",
-      "player": {
-        "name": "Alek Thomas",
-        "posShortNames": "CF",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmw_96_5.png",
-        "scorerId": "04pmw",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788624000000,
-      "teamId": "10280",
-      "id": "qb0513numtp0t9ck",
-      "seq": 140701,
-      "desc": "The Dodgers optioned Hurt to Triple-A Oklahoma City on Saturday, David Vassegh of AM 570 LA Sports reports.",
-      "player": {
-        "name": "Kyle Hurt",
-        "posShortNames": "SP,RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jq7_96_2.png",
-        "scorerId": "05jq7",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1788796800000,
+      "teamId": "10270",
+      "id": "14oedme0mtrezfwe",
+      "seq": 140737,
+      "desc": "The Rockies optioned Ritter to Triple-A Albuquerque on Monday.",
+      "player": {
+        "name": "Ryan Ritter",
+        "posShortNames": "SS,2B",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xu2_96_2.png",
+        "scorerId": "05xu2",
+        "posIds": [
+          "005",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10270",
+      "id": "ovwe0f0ymtrel95t",
+      "seq": 140736,
+      "desc": "The Rockies activated Karros (concussion) from the 7-day injured list Monday.",
+      "player": {
+        "name": "Kyle Karros",
+        "posShortNames": "3B",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06dsa_96_1.png",
+        "scorerId": "06dsa",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10230",
+      "id": "jalh1k11mtrdep5s",
+      "seq": 140735,
+      "desc": "The Brewers recalled Sproat from Triple-A Nashville on Monday, Adam McCalvy of MLB.com reports.",
+      "player": {
+        "name": "Brandon Sproat",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515o_96_2.png",
+        "scorerId": "0515o",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10170",
+      "id": "x4pwcgf8mtrbs6qo",
+      "seq": 140734,
+      "desc": "The Mets optioned Hagenman to Triple-A Syracuse on Monday.",
+      "player": {
+        "name": "Justin Hagenman",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q54_96_1.png",
+        "scorerId": "04q54",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10170",
+      "id": "zpayxbtjmtrbs6oi",
+      "seq": 140733,
+      "desc": "The Mets recalled Tong from Triple-A Syracuse on Monday.",
+      "player": {
+        "name": "Jonah Tong",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0658b_96_2.png",
+        "scorerId": "0658b",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10100",
+      "id": "sxbuul09mtrbdzlu",
+      "seq": 140732,
+      "desc": "The Twins optioned Acton to Triple-A St. Paul on Monday.",
+      "player": {
+        "name": "Garrett Acton",
+        "posShortNames": "RP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ybh_96_1.png",
+        "scorerId": "05ybh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788796800000,
+      "teamId": "10100",
+      "id": "qfi3bcy8mtrazsql",
+      "seq": 140731,
+      "desc": "The Twins activated Ryan (glute) from the 15-day injured list Monday.",
+      "player": {
+        "name": "Joe Ryan",
+        "posShortNames": "SP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ps7_96_8.png",
+        "scorerId": "04ps7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1788710400000,
       "teamId": "10030",
       "id": "awjh3yi7mtqmt8kn",
@@ -5076,7 +5268,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5355,7 +5552,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
       }
     },
     {
@@ -5426,7 +5628,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5448,175 +5655,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10070",
-      "id": "oaza0maamtpx4ub2",
-      "seq": 140707,
-      "desc": "Cleveland optioned Peterson to Triple-A Columbus on Sunday, Tim Stebbins of MLB.com reports.",
-      "player": {
-        "name": "Austin Peterson",
-        "posShortNames": "SP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061bn_96_1.png",
-        "scorerId": "061bn",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10070",
-      "id": "bsuwmnccmtpx4u5p",
-      "seq": 140706,
-      "desc": "The Guardians recalled Aleman from Triple-A Columbus on Sunday, Tim Stebbins of MLB.com reports.",
-      "player": {
-        "name": "Franco Aleman",
-        "posShortNames": "RP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y5l_96_1.png",
-        "scorerId": "05y5l",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10210",
-      "id": "77pqe6jhmtpwqgct",
-      "seq": 140705,
-      "desc": "The Reds designated Moll for assignment Sunday.",
-      "player": {
-        "name": "Sam Moll",
-        "posShortNames": "RP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0311r_96_12.png",
-        "scorerId": "0311r",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10210",
-      "id": "0ylh2pxcmtpwqg9o",
-      "seq": 140704,
-      "desc": "The Reds reinstated Ashcraft (elbow) from the 60-day injured list Sunday.",
-      "player": {
-        "name": "Graham Ashcraft",
-        "posShortNames": "RP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041x9_96_4.png",
-        "scorerId": "041x9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788624000000,
-      "teamId": "10121",
-      "id": "l078xxbomtp3yp42",
-      "seq": 140703,
-      "desc": "The Athletics recalled Perkins from Triple-A Las Vegas on Saturday.",
-      "player": {
-        "name": "Jack Perkins",
-        "posShortNames": "RP,SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0657l_96_2.png",
-        "scorerId": "0657l",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788624000000,
-      "teamId": "10280",
-      "id": "plunrgabmtp0t9fc",
-      "seq": 140702,
-      "desc": "The Dodgers designated Thomas for assignment Saturday.",
-      "player": {
-        "name": "Alek Thomas",
-        "posShortNames": "CF",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmw_96_5.png",
-        "scorerId": "04pmw",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788624000000,
-      "teamId": "10280",
-      "id": "qb0513numtp0t9ck",
-      "seq": 140701,
-      "desc": "The Dodgers optioned Hurt to Triple-A Oklahoma City on Saturday, David Vassegh of AM 570 LA Sports reports.",
-      "player": {
-        "name": "Kyle Hurt",
-        "posShortNames": "SP,RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jq7_96_2.png",
-        "scorerId": "05jq7",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
