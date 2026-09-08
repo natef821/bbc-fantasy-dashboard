@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T15:50:28.288223Z",
+  "lastUpdated": "2026-09-08T20:34:55.888618Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,85 @@
   },
   "transactions": [
     {
+      "displayDate": 1788883200000,
+      "teamId": "10260",
+      "id": "2j5c4wrjmtt4m63k",
+      "seq": 140755,
+      "desc": "The Diamondbacks reinstated Burnes (elbow) from the 60-day injured list to start Tuesday's game against the Royals.",
+      "player": {
+        "name": "Corbin Burnes",
+        "posShortNames": "SP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rd_96_14.png",
+        "scorerId": "041rd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788883200000,
+      "teamId": "10040",
+      "id": "9nmjcw9vmtt4m60q",
+      "seq": 140754,
+      "desc": "The Rays designated Bigge for assignment Tuesday.",
+      "player": {
+        "name": "Hunter Bigge",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0519h_96_2.png",
+        "scorerId": "0519h",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788883200000,
+      "teamId": "10040",
+      "id": "7v0s5phlmtt47zae",
+      "seq": 140753,
+      "desc": "The Rays selected Madrigal's contract from Triple-A Durham on Tuesday, Ryan Bass of Rays.tv reports.",
+      "player": {
+        "name": "Nick Madrigal",
+        "posShortNames": "3B,2B",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qu7_96_9.png",
+        "scorerId": "03qu7",
+        "posIds": [
+          "004",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1788796800000,
       "teamId": "10030",
       "id": "nkf58wy6mtrxalt5",
@@ -4239,7 +4318,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 3",
+            "typeId": "23"
+          }
+        ]
       }
     },
     {
@@ -4596,7 +4680,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
+          }
+        ]
       }
     },
     {
@@ -4807,7 +4896,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4835,81 +4929,90 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10250",
-      "id": "6jlb2zndmtq7dkdw",
-      "seq": 140725,
-      "desc": "The Cardinals optioned Rincon to Triple-A Memphis on Sunday.",
-      "player": {
-        "name": "Hancel Rincon",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "06mil",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10260",
-      "id": "nqzvl135mtq67225",
-      "seq": 140724,
-      "desc": "The Diamondbacks recalled Del Castillo from Triple-A Reno on Sunday.",
-      "player": {
-        "name": "Adrian Del Castillo",
-        "posShortNames": "C,DH",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jn0_96_2.png",
-        "scorerId": "05jn0",
-        "posIds": [
-          "001",
-          "013"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10130",
-      "id": "ep6o5s5vmtq5eqx1",
-      "seq": 140723,
-      "desc": "The Mariners selected Arroyo's contract from Triple-A Tacoma, and he'll start at second base and bat eighth Sunday against the Athletics.",
-      "player": {
-        "name": "Michael Arroyo",
-        "posShortNames": "2B,LF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "",
-        "scorerId": "05yid",
-        "posIds": [
-          "003",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1788883200000,
+      "teamId": "10260",
+      "id": "2j5c4wrjmtt4m63k",
+      "seq": 140755,
+      "desc": "The Diamondbacks reinstated Burnes (elbow) from the 60-day injured list to start Tuesday's game against the Royals.",
+      "player": {
+        "name": "Corbin Burnes",
+        "posShortNames": "SP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rd_96_14.png",
+        "scorerId": "041rd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788883200000,
+      "teamId": "10040",
+      "id": "9nmjcw9vmtt4m60q",
+      "seq": 140754,
+      "desc": "The Rays designated Bigge for assignment Tuesday.",
+      "player": {
+        "name": "Hunter Bigge",
+        "posShortNames": "RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0519h_96_2.png",
+        "scorerId": "0519h",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1788883200000,
+      "teamId": "10040",
+      "id": "7v0s5phlmtt47zae",
+      "seq": 140753,
+      "desc": "The Rays selected Madrigal's contract from Triple-A Durham on Tuesday, Ryan Bass of Rays.tv reports.",
+      "player": {
+        "name": "Nick Madrigal",
+        "posShortNames": "3B,2B",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qu7_96_9.png",
+        "scorerId": "03qu7",
+        "posIds": [
+          "004",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1788796800000,
       "teamId": "10030",
       "id": "nkf58wy6mtrxalt5",
@@ -4953,7 +5056,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 3",
+            "typeId": "23"
+          }
+        ]
       }
     },
     {
@@ -5310,7 +5418,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
+          }
+        ]
       }
     },
     {
@@ -5521,7 +5634,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5549,76 +5667,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10250",
-      "id": "6jlb2zndmtq7dkdw",
-      "seq": 140725,
-      "desc": "The Cardinals optioned Rincon to Triple-A Memphis on Sunday.",
-      "player": {
-        "name": "Hancel Rincon",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "06mil",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10260",
-      "id": "nqzvl135mtq67225",
-      "seq": 140724,
-      "desc": "The Diamondbacks recalled Del Castillo from Triple-A Reno on Sunday.",
-      "player": {
-        "name": "Adrian Del Castillo",
-        "posShortNames": "C,DH",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jn0_96_2.png",
-        "scorerId": "05jn0",
-        "posIds": [
-          "001",
-          "013"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1788710400000,
-      "teamId": "10130",
-      "id": "ep6o5s5vmtq5eqx1",
-      "seq": 140723,
-      "desc": "The Mariners selected Arroyo's contract from Triple-A Tacoma, and he'll start at second base and bat eighth Sunday against the Athletics.",
-      "player": {
-        "name": "Michael Arroyo",
-        "posShortNames": "2B,LF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "",
-        "scorerId": "05yid",
-        "posIds": [
-          "003",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
