@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T10:24:38.658903Z",
+  "lastUpdated": "2026-09-10T15:41:25.739501Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,32 @@
   },
   "transactions": [
     {
+      "displayDate": 1789056000000,
+      "teamId": "10230",
+      "id": "f5qt5rt7mtvou77n",
+      "seq": 140788,
+      "desc": "The Brewers optioned Sproat to Triple-A Nashville on Thursday, Adam McCalvy of MLB.com reports.",
+      "player": {
+        "name": "Brandon Sproat",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515o_96_2.png",
+        "scorerId": "0515o",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1788969600000,
       "teamId": "10300",
       "id": "wixuz6x6mtupyrio",
@@ -4887,32 +4913,6 @@
         "scorerId": "05192",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788883200000,
-      "teamId": "10300",
-      "id": "sd2og0f8mtt66wc6",
-      "seq": 140758,
-      "desc": "The Giants optioned Morgan to Triple-A Sacramento on Tuesday.",
-      "player": {
-        "name": "Zach Morgan",
-        "posShortNames": "C",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "",
-        "scorerId": "0657p",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4927,6 +4927,32 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1789056000000,
+      "teamId": "10230",
+      "id": "f5qt5rt7mtvou77n",
+      "seq": 140788,
+      "desc": "The Brewers optioned Sproat to Triple-A Nashville on Thursday, Adam McCalvy of MLB.com reports.",
+      "player": {
+        "name": "Brandon Sproat",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515o_96_2.png",
+        "scorerId": "0515o",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1788969600000,
       "teamId": "10300",
       "id": "wixuz6x6mtupyrio",
@@ -5618,32 +5644,6 @@
         "scorerId": "05192",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788883200000,
-      "teamId": "10300",
-      "id": "sd2og0f8mtt66wc6",
-      "seq": 140758,
-      "desc": "The Giants optioned Morgan to Triple-A Sacramento on Tuesday.",
-      "player": {
-        "name": "Zach Morgan",
-        "posShortNames": "C",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "",
-        "scorerId": "0657p",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
