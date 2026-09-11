@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T02:34:13.222547Z",
+  "lastUpdated": "2026-09-11T10:26:58.808387Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -13,7 +13,7 @@
       "fptsPerGame": "5.79",
       "scoringPeriod": "2197",
       "gb": "5,900.5",
-      "ww": 6827,
+      "ww": 6830,
       "pbl": 10.0,
       "hitPts": 0.0,
       "pitPts": 0
@@ -27,10 +27,10 @@
       "fantasyPoints": "",
       "fptsPerGame": "5.66",
       "scoringPeriod": "2244",
-      "gb": "5,920.25",
+      "gb": "5,917.75",
       "ww": 6791,
       "pbl": 6.0,
-      "hitPts": 16.25,
+      "hitPts": 21.75,
       "pitPts": 0
     },
     {
@@ -45,7 +45,7 @@
       "gb": "5,711.5",
       "ww": 6884,
       "pbl": 2.0,
-      "hitPts": 132.0,
+      "hitPts": 135.0,
       "pitPts": 0
     },
     {
@@ -60,7 +60,7 @@
       "gb": "5,350",
       "ww": 6407,
       "pbl": 12.0,
-      "hitPts": 970.0,
+      "hitPts": 973.0,
       "pitPts": 0
     },
     {
@@ -75,7 +75,7 @@
       "gb": "5,333",
       "ww": 6060,
       "pbl": 1.0,
-      "hitPts": 1334.5,
+      "hitPts": 1337.5,
       "pitPts": 0
     },
     {
@@ -90,7 +90,7 @@
       "gb": "4,902.25",
       "ww": 6378,
       "pbl": 9.0,
-      "hitPts": 1447.25,
+      "hitPts": 1450.25,
       "pitPts": 0
     },
     {
@@ -105,7 +105,7 @@
       "gb": "5,012.25",
       "ww": 5679,
       "pbl": 4.0,
-      "hitPts": 2036.25,
+      "hitPts": 2039.25,
       "pitPts": 0
     },
     {
@@ -120,7 +120,7 @@
       "gb": "5,083.25",
       "ww": 5509,
       "pbl": 8.0,
-      "hitPts": 2135.25,
+      "hitPts": 2138.25,
       "pitPts": 0
     },
     {
@@ -135,7 +135,7 @@
       "gb": "4,819.5",
       "ww": 5471,
       "pbl": 5.0,
-      "hitPts": 2437.0,
+      "hitPts": 2440.0,
       "pitPts": 0
     },
     {
@@ -150,7 +150,7 @@
       "gb": "4,591.5",
       "ww": 4819,
       "pbl": 3.0,
-      "hitPts": 3316.5,
+      "hitPts": 3319.5,
       "pitPts": 0
     },
     {
@@ -165,7 +165,7 @@
       "gb": "4,528.75",
       "ww": 4537,
       "pbl": 11.0,
-      "hitPts": 3661.25,
+      "hitPts": 3664.25,
       "pitPts": 0
     },
     {
@@ -175,12 +175,12 @@
       "logoUrl": "https://fantraximg.com/logos/nye/tmLogo_nye0oe90mpqbqirz_512.webp",
       "rank": 12,
       "fantasyPoints": "",
-      "fptsPerGame": "4.32",
+      "fptsPerGame": "4.31",
       "scoringPeriod": "1932",
-      "gb": "4,422",
+      "gb": "4,419.5",
       "ww": 3916,
       "pbl": 7.0,
-      "hitPts": 4389.0,
+      "hitPts": 4394.5,
       "pitPts": 0
     }
   ],
@@ -3481,10 +3481,10 @@
             "short": "JDPusha",
             "rank": "1",
             "values": [
-              "5,920.25",
+              "5,917.75",
               "",
               "929",
-              "1,542",
+              "1,541",
               "270",
               "838",
               "769",
@@ -3493,7 +3493,7 @@
               "110",
               "43",
               "18",
-              "2,678",
+              "2,677",
               "106",
               "102",
               "6",
@@ -3778,19 +3778,19 @@
             "short": "CN",
             "rank": "12",
             "values": [
-              "4,422",
+              "4,419.5",
               "",
               "717",
-              "1,319",
+              "1,318",
               "160",
-              "690",
+              "689",
               "590",
               "17",
               "1,260",
               "68",
               "30",
               "7",
-              "2,112",
+              "2,111",
               "42",
               "105",
               "0",
@@ -3837,11 +3837,11 @@
             "short": "JUAN",
             "rank": "2",
             "values": [
-              "6,827",
+              "6,830",
               "",
               "2,096",
               "2,086",
-              "938",
+              "937",
               "765",
               "66",
               "19",
@@ -4197,6 +4197,32 @@
   "transactions": [
     {
       "displayDate": 1789056000000,
+      "teamId": "10030",
+      "id": "guzko19tmtwe2jgt",
+      "seq": 140795,
+      "desc": "The Yankees optioned Dominguez to Triple-A Scranton/Wilkes-Barre on Thursday.",
+      "player": {
+        "name": "Jasson Dominguez",
+        "posShortNames": "LF",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050c3_96_3.png",
+        "scorerId": "050c3",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789056000000,
       "teamId": "10100",
       "id": "5xwouxn8mtw3fdne",
       "seq": 140794,
@@ -4305,12 +4331,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4333,12 +4354,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4889,44 +4905,39 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788883200000,
-      "teamId": "10130",
-      "id": "mwt5xtz6mtt8k1lc",
-      "seq": 140765,
-      "desc": "The Mariners designated Fairchild for assignment Tuesday.",
-      "player": {
-        "name": "Stuart Fairchild",
-        "posShortNames": "RF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eel_96_7.png",
-        "scorerId": "04eel",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1789056000000,
+      "teamId": "10030",
+      "id": "guzko19tmtwe2jgt",
+      "seq": 140795,
+      "desc": "The Yankees optioned Dominguez to Triple-A Scranton/Wilkes-Barre on Thursday.",
+      "player": {
+        "name": "Jasson Dominguez",
+        "posShortNames": "LF",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050c3_96_3.png",
+        "scorerId": "050c3",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789056000000,
       "teamId": "10100",
       "id": "5xwouxn8mtw3fdne",
       "seq": 140794,
@@ -5035,12 +5046,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 9",
-            "typeId": "29"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5063,12 +5069,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5619,38 +5620,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1788883200000,
-      "teamId": "10130",
-      "id": "mwt5xtz6mtt8k1lc",
-      "seq": 140765,
-      "desc": "The Mariners designated Fairchild for assignment Tuesday.",
-      "player": {
-        "name": "Stuart Fairchild",
-        "posShortNames": "RF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eel_96_7.png",
-        "scorerId": "04eel",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     }
   ],
