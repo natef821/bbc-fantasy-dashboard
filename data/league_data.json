@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T10:56:42.876243Z",
+  "lastUpdated": "2026-09-13T15:28:20.081973Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4226,7 +4226,7 @@
       "teamId": "10190",
       "id": "5v86ww8omtz1h5az",
       "seq": 140827,
-      "desc": "The Nationals optioned Yean to Triple-A Rochester on Sunday.",
+      "desc": "The Nationals optioned Yean to Triple-A Rochester on Saturday.",
       "player": {
         "name": "Eddy Yean",
         "posShortNames": "RP",
@@ -4662,7 +4662,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -4710,7 +4715,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
+          }
+        ]
       }
     },
     {
@@ -4754,7 +4764,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Wrist - Day-to-Day",
+            "typeId": "1"
+          }
+        ]
       }
     },
     {
@@ -4874,7 +4889,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4931,7 +4951,7 @@
       "teamId": "10190",
       "id": "5v86ww8omtz1h5az",
       "seq": 140827,
-      "desc": "The Nationals optioned Yean to Triple-A Rochester on Sunday.",
+      "desc": "The Nationals optioned Yean to Triple-A Rochester on Saturday.",
       "player": {
         "name": "Eddy Yean",
         "posShortNames": "RP",
@@ -5367,7 +5387,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -5415,7 +5440,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
+          }
+        ]
       }
     },
     {
@@ -5459,7 +5489,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Wrist - Day-to-Day",
+            "typeId": "1"
+          }
+        ]
       }
     },
     {
@@ -5579,7 +5614,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
