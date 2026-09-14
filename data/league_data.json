@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T11:30:49.193069Z",
+  "lastUpdated": "2026-09-14T17:27:06.719775Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,129 @@
   },
   "transactions": [
     {
+      "displayDate": 1789401600000,
+      "teamId": "10150",
+      "id": "56jexzbjmu1aobk2",
+      "seq": 140847,
+      "desc": "Atlanta designated Falter for assignment Monday.",
+      "player": {
+        "name": "Bailey Falter",
+        "posShortNames": "SP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ql8_96_8.png",
+        "scorerId": "03ql8",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789401600000,
+      "teamId": "10150",
+      "id": "3syjjw8jmu1aobha",
+      "seq": 140846,
+      "desc": "Atlanta recalled Murphy from Triple-A Gwinnett on Monday.",
+      "player": {
+        "name": "Owen Murphy",
+        "posShortNames": "SP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "",
+        "scorerId": "062pm",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789401600000,
+      "teamId": "10180",
+      "id": "9kfue4wtmu1aa4h9",
+      "seq": 140845,
+      "desc": "The Phillies optioned Holman to Triple-A Lehigh Valley on Sunday.",
+      "player": {
+        "name": "Grant Holman",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xpw_96_2.png",
+        "scorerId": "05xpw",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789401600000,
+      "teamId": "10180",
+      "id": "m2b4rz74mu1aa4fj",
+      "seq": 140844,
+      "desc": "The Phillies activated Banks (forearm) from the 60-day injured list Monday.",
+      "player": {
+        "name": "Tanner Banks",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dqv_96_4.png",
+        "scorerId": "03dqv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789401600000,
+      "teamId": "10180",
+      "id": "2dmqh67cmu1aa4cj",
+      "seq": 140843,
+      "desc": "The Phillies designated Cairo for assignment Sunday.",
+      "player": {
+        "name": "Christian Cairo",
+        "posShortNames": "3B,2B,LF,SS",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "",
+        "scorerId": "0513m",
+        "posIds": [
+          "004",
+          "003",
+          "009",
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1789315200000,
       "teamId": "10140",
       "id": "opa333gemu0bju9u",
@@ -4783,121 +4906,134 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1789228800000,
-      "teamId": "10040",
-      "id": "ue6lkr73mtyqty9a",
-      "seq": 140816,
-      "desc": "The Rays optioned Cook to Triple-A Durham on Saturday.",
-      "player": {
-        "name": "Alex Cook",
-        "posShortNames": "RP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs065j5_96_1.png",
-        "scorerId": "065j5",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789228800000,
-      "teamId": "10240",
-      "id": "460p71otmtyo2p89",
-      "seq": 140815,
-      "desc": "The Pirates recalled Simon from Triple-A Indianapolis on Saturday.",
-      "player": {
-        "name": "Ronny Simon",
-        "posShortNames": "LF",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "05t25",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789228800000,
-      "teamId": "10200",
-      "id": "8nfpykzlmtymhxw7",
-      "seq": 140814,
-      "desc": "The Cubs reinstated Cabrera (finger) from the injured list Saturday, Patrick Mooney of The Athletic reports.",
-      "player": {
-        "name": "Edward Cabrera",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ali_96_9.png",
-        "scorerId": "04ali",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789228800000,
-      "teamId": "10040",
-      "id": "x5mr3vibmtymhxto",
-      "seq": 140813,
-      "desc": "The Rays selected Hopkins' contract from Triple-A Durham on Saturday, Marc Topkin of the Tampa Bay Times reports.",
-      "player": {
-        "name": "Brody Hopkins",
-        "posShortNames": "SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "06f1b",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789228800000,
-      "teamId": "10190",
-      "id": "t0qcsujymtylb88j",
-      "seq": 140812,
-      "desc": "The Nationals reinstated Lovelady (triceps) from the 60-day injured list Saturday.",
-      "player": {
-        "name": "Richard Lovelady",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041w0_96_10.png",
-        "scorerId": "041w0",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1789401600000,
+      "teamId": "10150",
+      "id": "56jexzbjmu1aobk2",
+      "seq": 140847,
+      "desc": "Atlanta designated Falter for assignment Monday.",
+      "player": {
+        "name": "Bailey Falter",
+        "posShortNames": "SP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ql8_96_8.png",
+        "scorerId": "03ql8",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789401600000,
+      "teamId": "10150",
+      "id": "3syjjw8jmu1aobha",
+      "seq": 140846,
+      "desc": "Atlanta recalled Murphy from Triple-A Gwinnett on Monday.",
+      "player": {
+        "name": "Owen Murphy",
+        "posShortNames": "SP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "",
+        "scorerId": "062pm",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789401600000,
+      "teamId": "10180",
+      "id": "9kfue4wtmu1aa4h9",
+      "seq": 140845,
+      "desc": "The Phillies optioned Holman to Triple-A Lehigh Valley on Sunday.",
+      "player": {
+        "name": "Grant Holman",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xpw_96_2.png",
+        "scorerId": "05xpw",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789401600000,
+      "teamId": "10180",
+      "id": "m2b4rz74mu1aa4fj",
+      "seq": 140844,
+      "desc": "The Phillies activated Banks (forearm) from the 60-day injured list Monday.",
+      "player": {
+        "name": "Tanner Banks",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dqv_96_4.png",
+        "scorerId": "03dqv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789401600000,
+      "teamId": "10180",
+      "id": "2dmqh67cmu1aa4cj",
+      "seq": 140843,
+      "desc": "The Phillies designated Cairo for assignment Sunday.",
+      "player": {
+        "name": "Christian Cairo",
+        "posShortNames": "3B,2B,LF,SS",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "",
+        "scorerId": "0513m",
+        "posIds": [
+          "004",
+          "003",
+          "009",
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1789315200000,
       "teamId": "10140",
       "id": "opa333gemu0bju9u",
@@ -5485,116 +5621,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1789228800000,
-      "teamId": "10040",
-      "id": "ue6lkr73mtyqty9a",
-      "seq": 140816,
-      "desc": "The Rays optioned Cook to Triple-A Durham on Saturday.",
-      "player": {
-        "name": "Alex Cook",
-        "posShortNames": "RP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs065j5_96_1.png",
-        "scorerId": "065j5",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789228800000,
-      "teamId": "10240",
-      "id": "460p71otmtyo2p89",
-      "seq": 140815,
-      "desc": "The Pirates recalled Simon from Triple-A Indianapolis on Saturday.",
-      "player": {
-        "name": "Ronny Simon",
-        "posShortNames": "LF",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "05t25",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789228800000,
-      "teamId": "10200",
-      "id": "8nfpykzlmtymhxw7",
-      "seq": 140814,
-      "desc": "The Cubs reinstated Cabrera (finger) from the injured list Saturday, Patrick Mooney of The Athletic reports.",
-      "player": {
-        "name": "Edward Cabrera",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ali_96_9.png",
-        "scorerId": "04ali",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789228800000,
-      "teamId": "10040",
-      "id": "x5mr3vibmtymhxto",
-      "seq": 140813,
-      "desc": "The Rays selected Hopkins' contract from Triple-A Durham on Saturday, Marc Topkin of the Tampa Bay Times reports.",
-      "player": {
-        "name": "Brody Hopkins",
-        "posShortNames": "SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "06f1b",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789228800000,
-      "teamId": "10190",
-      "id": "t0qcsujymtylb88j",
-      "seq": 140812,
-      "desc": "The Nationals reinstated Lovelady (triceps) from the 60-day injured list Saturday.",
-      "player": {
-        "name": "Richard Lovelady",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041w0_96_10.png",
-        "scorerId": "041w0",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
