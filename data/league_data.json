@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T10:52:05.228030Z",
+  "lastUpdated": "2026-09-15T16:03:43.654622Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -52,7 +52,7 @@
       "id": "w6b31holmg7kg72f",
       "name": "Layin Wood\ud83e\udeb5",
       "short": "Lsgob",
-      "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp",
+      "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_512.webp",
       "rank": 4,
       "fantasyPoints": "",
       "fptsPerGame": "5.43",
@@ -142,7 +142,7 @@
       "id": "aw407ddlmg7kg72a",
       "name": "Golden Gate Gays",
       "short": "GGG",
-      "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/helmet/purple_magenta_256.webp",
+      "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/helmet/purple_magenta_512.webp",
       "rank": 10,
       "fantasyPoints": "",
       "fptsPerGame": "4.55",
@@ -754,7 +754,7 @@
         ],
         "teamId": "aw407ddlmg7kg72a",
         "short": "GGG",
-        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/helmet/purple_magenta_256.webp"
+        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/helmet/purple_magenta_512.webp"
       },
       {
         "w": 29,
@@ -811,7 +811,7 @@
         ],
         "teamId": "w6b31holmg7kg72f",
         "short": "Lsgob",
-        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp"
+        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_512.webp"
       },
       {
         "w": 21,
@@ -4145,7 +4145,7 @@
       "aw407ddlmg7kg72a": {
         "name": "Golden Gate Gays",
         "short": "GGG",
-        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/helmet/purple_magenta_256.webp"
+        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/helmet/purple_magenta_512.webp"
       },
       "nbnjqx3cmg7kg72g": {
         "name": "Honey Nut Chourio's",
@@ -4185,7 +4185,7 @@
       "w6b31holmg7kg72f": {
         "name": "Layin Wood\ud83e\udeb5",
         "short": "Lsgob",
-        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_256.webp"
+        "logoUrl": "https://fantraximg.com/assets/images/icons/fantasyteams/baseball/glove/brown_white_512.webp"
       },
       "7gq3y996mg7kg729": {
         "name": "Slattlanta",
@@ -4196,6 +4196,27 @@
   },
   "transactions": [
     {
+      "displayDate": 1789488000000,
+      "teamId": "10150",
+      "id": "rq063umemu2s335e",
+      "seq": 140863,
+      "desc": "Atlanta recalled Ritchie from Triple-A Gwinnett on Tuesday.",
+      "player": {
+        "name": "J.R. Ritchie",
+        "posShortNames": "SP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzo_96_1.png",
+        "scorerId": "05tzo",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1789401600000,
       "teamId": "10060",
       "id": "g4n2ywj5mu249ezv",
@@ -4878,32 +4899,32 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1789315200000,
-      "teamId": "10121",
-      "id": "q9yjywvlmu039t4g",
-      "seq": 140832,
-      "desc": "The Athletics recalled Rom from Triple-A Las Vegas on Sunday.",
-      "player": {
-        "name": "Drew Rom",
-        "posShortNames": "SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqd_96_2.png",
-        "scorerId": "04pqd",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1789488000000,
+      "teamId": "10150",
+      "id": "rq063umemu2s335e",
+      "seq": 140863,
+      "desc": "Atlanta recalled Ritchie from Triple-A Gwinnett on Tuesday.",
+      "player": {
+        "name": "J.R. Ritchie",
+        "posShortNames": "SP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzo_96_1.png",
+        "scorerId": "05tzo",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1789401600000,
       "teamId": "10060",
       "id": "g4n2ywj5mu249ezv",
@@ -5586,27 +5607,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1789315200000,
-      "teamId": "10121",
-      "id": "q9yjywvlmu039t4g",
-      "seq": 140832,
-      "desc": "The Athletics recalled Rom from Triple-A Las Vegas on Sunday.",
-      "player": {
-        "name": "Drew Rom",
-        "posShortNames": "SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqd_96_2.png",
-        "scorerId": "04pqd",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
