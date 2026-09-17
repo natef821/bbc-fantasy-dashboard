@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T10:49:13.103264Z",
+  "lastUpdated": "2026-09-17T16:03:20.528050Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,132 @@
   },
   "transactions": [
     {
+      "displayDate": 1789660800000,
+      "teamId": "10280",
+      "id": "o2ybaulemu5nr9p2",
+      "seq": 140906,
+      "desc": "The Dodgers recalled Knack from Triple-A Oklahoma City on Thursday.",
+      "player": {
+        "name": "Landon Knack",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9f_96_3.png",
+        "scorerId": "05l9f",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789660800000,
+      "teamId": "10280",
+      "id": "4bzo8rq6mu5nr9md",
+      "seq": 140905,
+      "desc": "The Dodgers optioned Miller to Triple-A Oklahoma City on Thursday.",
+      "player": {
+        "name": "Bobby Miller",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwz_96_5.png",
+        "scorerId": "05gwz",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789660800000,
+      "teamId": "10230",
+      "id": "1m001k96mu5lsb8d",
+      "seq": 140904,
+      "desc": "The Brewers activated Zastryzny (shoulder) from the 60-day injured list Thursday and designated him for assignment, Todd Rosiak of the Milwaukee Journal-Sentinel reports.",
+      "player": {
+        "name": "Rob Zastryzny",
+        "posShortNames": "RP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0310m_96_8.png",
+        "scorerId": "0310m",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 60-day IL - Shoulder",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789660800000,
+      "teamId": "10040",
+      "id": "tkrq64himu5lsb60",
+      "seq": 140903,
+      "desc": "The Rays optioned Madrigal to Triple-A Durham on Thursday.",
+      "player": {
+        "name": "Nick Madrigal",
+        "posShortNames": "3B,2B",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qu7_96_9.png",
+        "scorerId": "03qu7",
+        "posIds": [
+          "004",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789660800000,
+      "teamId": "10040",
+      "id": "xiiwkjmtmu5le4uj",
+      "seq": 140902,
+      "desc": "The Rays activated Walls (hip) from the 10-day injured list Thursday.",
+      "player": {
+        "name": "Taylor Walls",
+        "posShortNames": "SS",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04bpj_96_9.png",
+        "scorerId": "04bpj",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1789574400000,
       "teamId": "10190",
       "id": "9e308oylmu4wi8e6",
@@ -4794,127 +4920,137 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1789488000000,
-      "teamId": "10270",
-      "id": "qlkqsy26mu387hdx",
-      "seq": 140876,
-      "desc": "The Rockies recalled Fulford from Triple-A Albuquerque on Tuesday.",
-      "player": {
-        "name": "Braxton Fulford",
-        "posShortNames": "C",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yc9_96_1.png",
-        "scorerId": "05yc9",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789488000000,
-      "teamId": "10180",
-      "id": "yjdh48yimu37f2rk",
-      "seq": 140875,
-      "desc": "The Phillies recalled Holman from Triple-A Lehigh Valley on Tuesday.",
-      "player": {
-        "name": "Grant Holman",
-        "posShortNames": "RP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xpw_96_2.png",
-        "scorerId": "05xpw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789488000000,
-      "teamId": "10090",
-      "id": "io66j926mu35nv8y",
-      "seq": 140874,
-      "desc": "The Royals optioned Lugo to Triple-A Omaha on Tuesday.",
-      "player": {
-        "name": "Matthew Lugo",
-        "posShortNames": "CF,LF",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yic_96_2.png",
-        "scorerId": "04yic",
-        "posIds": [
-          "010",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789488000000,
-      "teamId": "10105",
-      "id": "glfihevqmu34viis",
-      "seq": 140873,
-      "desc": "The Astros recalled Loperfido from Triple-A Sugar Land on Tuesday.",
-      "player": {
-        "name": "Joey Loperfido",
-        "posShortNames": "LF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfl_96_2.png",
-        "scorerId": "05yfl",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789488000000,
-      "teamId": "10090",
-      "id": "bsw92122mu34hbpw",
-      "seq": 140872,
-      "desc": "The Royals reinstated Garcia (hamstring) from the 10-day injured list Tuesday.",
-      "player": {
-        "name": "Maikel Garcia",
-        "posShortNames": "3B",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05g3x_96_5.png",
-        "scorerId": "05g3x",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1789660800000,
+      "teamId": "10280",
+      "id": "o2ybaulemu5nr9p2",
+      "seq": 140906,
+      "desc": "The Dodgers recalled Knack from Triple-A Oklahoma City on Thursday.",
+      "player": {
+        "name": "Landon Knack",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9f_96_3.png",
+        "scorerId": "05l9f",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789660800000,
+      "teamId": "10280",
+      "id": "4bzo8rq6mu5nr9md",
+      "seq": 140905,
+      "desc": "The Dodgers optioned Miller to Triple-A Oklahoma City on Thursday.",
+      "player": {
+        "name": "Bobby Miller",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwz_96_5.png",
+        "scorerId": "05gwz",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789660800000,
+      "teamId": "10230",
+      "id": "1m001k96mu5lsb8d",
+      "seq": 140904,
+      "desc": "The Brewers activated Zastryzny (shoulder) from the 60-day injured list Thursday and designated him for assignment, Todd Rosiak of the Milwaukee Journal-Sentinel reports.",
+      "player": {
+        "name": "Rob Zastryzny",
+        "posShortNames": "RP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0310m_96_8.png",
+        "scorerId": "0310m",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 60-day IL - Shoulder",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789660800000,
+      "teamId": "10040",
+      "id": "tkrq64himu5lsb60",
+      "seq": 140903,
+      "desc": "The Rays optioned Madrigal to Triple-A Durham on Thursday.",
+      "player": {
+        "name": "Nick Madrigal",
+        "posShortNames": "3B,2B",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qu7_96_9.png",
+        "scorerId": "03qu7",
+        "posIds": [
+          "004",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789660800000,
+      "teamId": "10040",
+      "id": "xiiwkjmtmu5le4uj",
+      "seq": 140902,
+      "desc": "The Rays activated Walls (hip) from the 10-day injured list Thursday.",
+      "player": {
+        "name": "Taylor Walls",
+        "posShortNames": "SS",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04bpj_96_9.png",
+        "scorerId": "04bpj",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1789574400000,
       "teamId": "10190",
       "id": "9e308oylmu4wi8e6",
@@ -5513,122 +5649,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1789488000000,
-      "teamId": "10270",
-      "id": "qlkqsy26mu387hdx",
-      "seq": 140876,
-      "desc": "The Rockies recalled Fulford from Triple-A Albuquerque on Tuesday.",
-      "player": {
-        "name": "Braxton Fulford",
-        "posShortNames": "C",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yc9_96_1.png",
-        "scorerId": "05yc9",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789488000000,
-      "teamId": "10180",
-      "id": "yjdh48yimu37f2rk",
-      "seq": 140875,
-      "desc": "The Phillies recalled Holman from Triple-A Lehigh Valley on Tuesday.",
-      "player": {
-        "name": "Grant Holman",
-        "posShortNames": "RP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xpw_96_2.png",
-        "scorerId": "05xpw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789488000000,
-      "teamId": "10090",
-      "id": "io66j926mu35nv8y",
-      "seq": 140874,
-      "desc": "The Royals optioned Lugo to Triple-A Omaha on Tuesday.",
-      "player": {
-        "name": "Matthew Lugo",
-        "posShortNames": "CF,LF",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yic_96_2.png",
-        "scorerId": "04yic",
-        "posIds": [
-          "010",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789488000000,
-      "teamId": "10105",
-      "id": "glfihevqmu34viis",
-      "seq": 140873,
-      "desc": "The Astros recalled Loperfido from Triple-A Sugar Land on Tuesday.",
-      "player": {
-        "name": "Joey Loperfido",
-        "posShortNames": "LF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfl_96_2.png",
-        "scorerId": "05yfl",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789488000000,
-      "teamId": "10090",
-      "id": "bsw92122mu34hbpw",
-      "seq": 140872,
-      "desc": "The Royals reinstated Garcia (hamstring) from the 10-day injured list Tuesday.",
-      "player": {
-        "name": "Maikel Garcia",
-        "posShortNames": "3B",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05g3x_96_5.png",
-        "scorerId": "05g3x",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
