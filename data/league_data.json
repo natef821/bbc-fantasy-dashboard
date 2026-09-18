@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T15:39:12.871163Z",
+  "lastUpdated": "2026-09-18T20:16:52.241651Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,306 @@
   },
   "transactions": [
     {
+      "displayDate": 1789747200000,
+      "teamId": "10250",
+      "id": "oxhamppkmu7ebi51",
+      "seq": 140925,
+      "desc": "The Cardinals recalled Prieto from Triple-A Memphis on Friday.",
+      "player": {
+        "name": "Cesar Prieto",
+        "posShortNames": "2B,3B",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gdq_96_1.png",
+        "scorerId": "05gdq",
+        "posIds": [
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10200",
+      "id": "49bkf4oamu7dj491",
+      "seq": 140924,
+      "desc": "The Cubs optioned Murray to Triple-A Iowa on Friday, Meghan Montemurro of the Chicago Tribune reports.",
+      "player": {
+        "name": "BJ Murray Jr.",
+        "posShortNames": "1B,3B",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y6v_96_1.png",
+        "scorerId": "05y6v",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10200",
+      "id": "d67w9f2qmu7dj47p",
+      "seq": 140923,
+      "desc": "The Cubs activated Swanson (oblique) from the 10-day injured list Friday, Meghan Montemurro of the Chicago Tribune reports.",
+      "player": {
+        "name": "Dansby Swanson",
+        "posShortNames": "SS",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ae8_96_14.png",
+        "scorerId": "03ae8",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10190",
+      "id": "y17bcgkpmu7dj451",
+      "seq": 140922,
+      "desc": "The Nationals signed Cavalli to a four-year contract extension Friday with a club option for 2031.",
+      "player": {
+        "name": "Cade Cavalli",
+        "posShortNames": "SP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gef_96_4.png",
+        "scorerId": "05gef",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10230",
+      "id": "6w80e0jymu7d4xcd",
+      "seq": 140921,
+      "desc": "The Brewers recalled Gordon from Triple-A Nashville on Friday.",
+      "player": {
+        "name": "Colton Gordon",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfi_96_2.png",
+        "scorerId": "05yfi",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10230",
+      "id": "wwgg0z8jmu7d4x9v",
+      "seq": 140920,
+      "desc": "The Brewers optioned Stallings to Triple-A Nashville on Friday.",
+      "player": {
+        "name": "Garrett Stallings",
+        "posShortNames": "RP,SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05142_96_1.png",
+        "scorerId": "05142",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10210",
+      "id": "auc2hv5wmu7b5ytg",
+      "seq": 140919,
+      "desc": "The Reds recalled Aguiar from Triple-A Louisville on Friday.",
+      "player": {
+        "name": "Julian Aguiar",
+        "posShortNames": "SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yg3_96_1.png",
+        "scorerId": "05yg3",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10210",
+      "id": "td7waeo4mu7b5ysk",
+      "seq": 140918,
+      "desc": "The Reds claimed Cabrera off waivers from the Yankees on Friday.",
+      "player": {
+        "name": "Oswaldo Cabrera",
+        "posShortNames": "3B",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs042no_96_5.png",
+        "scorerId": "042no",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10121",
+      "id": "u7f0eprymu79zeme",
+      "seq": 140917,
+      "desc": "The Athletics optioned Rock to Triple-A Las Vegas on Friday.",
+      "player": {
+        "name": "Joe Rock",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tdd_96_2.png",
+        "scorerId": "05tdd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10121",
+      "id": "nb6u07uxmu79zejr",
+      "seq": 140916,
+      "desc": "The Athletics recalled Barnett from Triple-A Las Vegas on Friday.",
+      "player": {
+        "name": "Mason Barnett",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0630h_96_1.png",
+        "scorerId": "0630h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10010",
+      "id": "41r7hgfcmu780g02",
+      "seq": 140915,
+      "desc": "The Orioles optioned Heuer to Triple-A Norfolk on Friday.",
+      "player": {
+        "name": "Codi Heuer",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04prq_96_7.png",
+        "scorerId": "04prq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10010",
+      "id": "sj9ebd9emu780fx6",
+      "seq": 140914,
+      "desc": "The Orioles recalled Povich from Triple-A Norfolk on Friday.",
+      "player": {
+        "name": "Cade Povich",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xop_96_2.png",
+        "scorerId": "05xop",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1789660800000,
       "teamId": "10080",
       "id": "n0gr37l2mu65caku",
@@ -4477,7 +4777,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
       }
     },
     {
@@ -4527,7 +4832,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4624,302 +4934,311 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10170",
-      "id": "01w96m32mu4g9ghd",
-      "seq": 140895,
-      "desc": "The Mets recalled Yan from Triple-A Syracuse on Wednesday.",
-      "player": {
-        "name": "Jefry Yan",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "05xsf",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10170",
-      "id": "wmshuh5fmu4fvbtd",
-      "seq": 140894,
-      "desc": "The Mets recalled Curry from Triple-A Syracuse and will have him start Wednesday's game against the Orioles.",
-      "player": {
-        "name": "Xzavion Curry",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515h_96_3.png",
-        "scorerId": "0515h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10260",
-      "id": "709tfeximu4bxg5j",
-      "seq": 140893,
-      "desc": "The Diamondbacks designated Law for assignment Wednesday, John Gambadoro of Arizona Sports 98.7 FM reports.",
-      "player": {
-        "name": "Derek Law",
-        "posShortNames": "SP,RP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bx6_96_14.png",
-        "scorerId": "02bx6",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10260",
-      "id": "1pxsorrxmu4bxg2z",
-      "seq": 140892,
-      "desc": "The Diamondbacks activated Nelson (elbow) from the 60-day injured list Wednesday, John Gambadoro of Arizona Sports 98.7 FM reports.",
-      "player": {
-        "name": "Ryne Nelson",
-        "posShortNames": "SP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yid_96_4.png",
-        "scorerId": "04yid",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10100",
-      "id": "0t1pfz52mu4b54le",
-      "seq": 140891,
-      "desc": "The Twins recalled Ross from Triple-A St. Paul on Wednesday.",
-      "player": {
-        "name": "Ben Ross",
-        "posShortNames": "SS,3B,CF",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "",
-        "scorerId": "06658",
-        "posIds": [
-          "005",
-          "004",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10030",
-      "id": "rm8bqxcomu4aqug3",
-      "seq": 140890,
-      "desc": "The Yankees activated Schmidt (elbow) from the 60-day injured list Wednesday.",
-      "player": {
-        "name": "Clarke Schmidt",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ee7_96_9.png",
-        "scorerId": "04ee7",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10030",
-      "id": "rs4k7eg0mu4acmkh",
-      "seq": 140889,
-      "desc": "The Yankees designated Cabrera for assignment Wednesday.",
-      "player": {
-        "name": "Oswaldo Cabrera",
-        "posShortNames": "3B",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs042no_96_5.png",
-        "scorerId": "042no",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10060",
-      "id": "2l9s92y5mu4962em",
-      "seq": 140888,
-      "desc": "The White Sox optioned Quero to Triple-A Charlotte on Wednesday.",
-      "player": {
-        "name": "Edgar Quero",
-        "posShortNames": "C",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05un2_96_2.png",
-        "scorerId": "05un2",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10060",
-      "id": "3xmqb7comu4962bs",
-      "seq": 140887,
-      "desc": "The White Sox activated Thorpe (elbow) from the 60-day injured list and optioned him to Triple-A Charlotte on Wednesday.",
-      "player": {
-        "name": "Drew Thorpe",
-        "posShortNames": "SP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yb1_96_2.png",
-        "scorerId": "05yb1",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10060",
-      "id": "r62yo703mu48pn69",
-      "seq": 140886,
-      "desc": "The White Sox activated Pham (calf) from the 10-day injured list Wednesday.",
-      "player": {
-        "name": "Tommy Pham",
-        "posShortNames": "LF",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs025fx_96_16.png",
-        "scorerId": "025fx",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10250",
-      "id": "fwgpcqbxmu48bge2",
-      "seq": 140885,
-      "desc": "The Cardinals activated Strzelecki (forearm) from the 15-day injured list Wednesday and designated him for assignment.",
-      "player": {
-        "name": "Peter Strzelecki",
-        "posShortNames": "RP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061mp_96_1.png",
-        "scorerId": "061mp",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10250",
-      "id": "h5tw1narmu47x9m0",
-      "seq": 140884,
-      "desc": "The Cardinals designated Urias for assignment Wednesday.",
-      "player": {
-        "name": "Ramon Urias",
-        "posShortNames": "3B,2B",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04de0_96_10.png",
-        "scorerId": "04de0",
-        "posIds": [
-          "004",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1789747200000,
+      "teamId": "10250",
+      "id": "oxhamppkmu7ebi51",
+      "seq": 140925,
+      "desc": "The Cardinals recalled Prieto from Triple-A Memphis on Friday.",
+      "player": {
+        "name": "Cesar Prieto",
+        "posShortNames": "2B,3B",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gdq_96_1.png",
+        "scorerId": "05gdq",
+        "posIds": [
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10200",
+      "id": "49bkf4oamu7dj491",
+      "seq": 140924,
+      "desc": "The Cubs optioned Murray to Triple-A Iowa on Friday, Meghan Montemurro of the Chicago Tribune reports.",
+      "player": {
+        "name": "BJ Murray Jr.",
+        "posShortNames": "1B,3B",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y6v_96_1.png",
+        "scorerId": "05y6v",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10200",
+      "id": "d67w9f2qmu7dj47p",
+      "seq": 140923,
+      "desc": "The Cubs activated Swanson (oblique) from the 10-day injured list Friday, Meghan Montemurro of the Chicago Tribune reports.",
+      "player": {
+        "name": "Dansby Swanson",
+        "posShortNames": "SS",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03ae8_96_14.png",
+        "scorerId": "03ae8",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10190",
+      "id": "y17bcgkpmu7dj451",
+      "seq": 140922,
+      "desc": "The Nationals signed Cavalli to a four-year contract extension Friday with a club option for 2031.",
+      "player": {
+        "name": "Cade Cavalli",
+        "posShortNames": "SP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gef_96_4.png",
+        "scorerId": "05gef",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10230",
+      "id": "6w80e0jymu7d4xcd",
+      "seq": 140921,
+      "desc": "The Brewers recalled Gordon from Triple-A Nashville on Friday.",
+      "player": {
+        "name": "Colton Gordon",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yfi_96_2.png",
+        "scorerId": "05yfi",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10230",
+      "id": "wwgg0z8jmu7d4x9v",
+      "seq": 140920,
+      "desc": "The Brewers optioned Stallings to Triple-A Nashville on Friday.",
+      "player": {
+        "name": "Garrett Stallings",
+        "posShortNames": "RP,SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05142_96_1.png",
+        "scorerId": "05142",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10210",
+      "id": "auc2hv5wmu7b5ytg",
+      "seq": 140919,
+      "desc": "The Reds recalled Aguiar from Triple-A Louisville on Friday.",
+      "player": {
+        "name": "Julian Aguiar",
+        "posShortNames": "SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yg3_96_1.png",
+        "scorerId": "05yg3",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10210",
+      "id": "td7waeo4mu7b5ysk",
+      "seq": 140918,
+      "desc": "The Reds claimed Cabrera off waivers from the Yankees on Friday.",
+      "player": {
+        "name": "Oswaldo Cabrera",
+        "posShortNames": "3B",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs042no_96_5.png",
+        "scorerId": "042no",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10121",
+      "id": "u7f0eprymu79zeme",
+      "seq": 140917,
+      "desc": "The Athletics optioned Rock to Triple-A Las Vegas on Friday.",
+      "player": {
+        "name": "Joe Rock",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tdd_96_2.png",
+        "scorerId": "05tdd",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10121",
+      "id": "nb6u07uxmu79zejr",
+      "seq": 140916,
+      "desc": "The Athletics recalled Barnett from Triple-A Las Vegas on Friday.",
+      "player": {
+        "name": "Mason Barnett",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0630h_96_1.png",
+        "scorerId": "0630h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10010",
+      "id": "41r7hgfcmu780g02",
+      "seq": 140915,
+      "desc": "The Orioles optioned Heuer to Triple-A Norfolk on Friday.",
+      "player": {
+        "name": "Codi Heuer",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04prq_96_7.png",
+        "scorerId": "04prq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789747200000,
+      "teamId": "10010",
+      "id": "sj9ebd9emu780fx6",
+      "seq": 140914,
+      "desc": "The Orioles recalled Povich from Triple-A Norfolk on Friday.",
+      "player": {
+        "name": "Cade Povich",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xop_96_2.png",
+        "scorerId": "05xop",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1789660800000,
       "teamId": "10080",
       "id": "n0gr37l2mu65caku",
@@ -5201,7 +5520,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
       }
     },
     {
@@ -5251,7 +5575,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5348,297 +5677,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10170",
-      "id": "01w96m32mu4g9ghd",
-      "seq": 140895,
-      "desc": "The Mets recalled Yan from Triple-A Syracuse on Wednesday.",
-      "player": {
-        "name": "Jefry Yan",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "",
-        "scorerId": "05xsf",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10170",
-      "id": "wmshuh5fmu4fvbtd",
-      "seq": 140894,
-      "desc": "The Mets recalled Curry from Triple-A Syracuse and will have him start Wednesday's game against the Orioles.",
-      "player": {
-        "name": "Xzavion Curry",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515h_96_3.png",
-        "scorerId": "0515h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10260",
-      "id": "709tfeximu4bxg5j",
-      "seq": 140893,
-      "desc": "The Diamondbacks designated Law for assignment Wednesday, John Gambadoro of Arizona Sports 98.7 FM reports.",
-      "player": {
-        "name": "Derek Law",
-        "posShortNames": "SP,RP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bx6_96_14.png",
-        "scorerId": "02bx6",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10260",
-      "id": "1pxsorrxmu4bxg2z",
-      "seq": 140892,
-      "desc": "The Diamondbacks activated Nelson (elbow) from the 60-day injured list Wednesday, John Gambadoro of Arizona Sports 98.7 FM reports.",
-      "player": {
-        "name": "Ryne Nelson",
-        "posShortNames": "SP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yid_96_4.png",
-        "scorerId": "04yid",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10100",
-      "id": "0t1pfz52mu4b54le",
-      "seq": 140891,
-      "desc": "The Twins recalled Ross from Triple-A St. Paul on Wednesday.",
-      "player": {
-        "name": "Ben Ross",
-        "posShortNames": "SS,3B,CF",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "",
-        "scorerId": "06658",
-        "posIds": [
-          "005",
-          "004",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10030",
-      "id": "rm8bqxcomu4aqug3",
-      "seq": 140890,
-      "desc": "The Yankees activated Schmidt (elbow) from the 60-day injured list Wednesday.",
-      "player": {
-        "name": "Clarke Schmidt",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ee7_96_9.png",
-        "scorerId": "04ee7",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10030",
-      "id": "rs4k7eg0mu4acmkh",
-      "seq": 140889,
-      "desc": "The Yankees designated Cabrera for assignment Wednesday.",
-      "player": {
-        "name": "Oswaldo Cabrera",
-        "posShortNames": "3B",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs042no_96_5.png",
-        "scorerId": "042no",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10060",
-      "id": "2l9s92y5mu4962em",
-      "seq": 140888,
-      "desc": "The White Sox optioned Quero to Triple-A Charlotte on Wednesday.",
-      "player": {
-        "name": "Edgar Quero",
-        "posShortNames": "C",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05un2_96_2.png",
-        "scorerId": "05un2",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10060",
-      "id": "3xmqb7comu4962bs",
-      "seq": 140887,
-      "desc": "The White Sox activated Thorpe (elbow) from the 60-day injured list and optioned him to Triple-A Charlotte on Wednesday.",
-      "player": {
-        "name": "Drew Thorpe",
-        "posShortNames": "SP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yb1_96_2.png",
-        "scorerId": "05yb1",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10060",
-      "id": "r62yo703mu48pn69",
-      "seq": 140886,
-      "desc": "The White Sox activated Pham (calf) from the 10-day injured list Wednesday.",
-      "player": {
-        "name": "Tommy Pham",
-        "posShortNames": "LF",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs025fx_96_16.png",
-        "scorerId": "025fx",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10250",
-      "id": "fwgpcqbxmu48bge2",
-      "seq": 140885,
-      "desc": "The Cardinals activated Strzelecki (forearm) from the 15-day injured list Wednesday and designated him for assignment.",
-      "player": {
-        "name": "Peter Strzelecki",
-        "posShortNames": "RP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061mp_96_1.png",
-        "scorerId": "061mp",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789574400000,
-      "teamId": "10250",
-      "id": "h5tw1narmu47x9m0",
-      "seq": 140884,
-      "desc": "The Cardinals designated Urias for assignment Wednesday.",
-      "player": {
-        "name": "Ramon Urias",
-        "posShortNames": "3B,2B",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04de0_96_10.png",
-        "scorerId": "04de0",
-        "posIds": [
-          "004",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
