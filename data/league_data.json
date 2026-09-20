@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T10:27:30.154308Z",
+  "lastUpdated": "2026-09-20T15:16:29.463291Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,148 @@
   },
   "transactions": [
     {
+      "displayDate": 1789920000000,
+      "teamId": "10020",
+      "id": "pokvcigrmu9ygyqp",
+      "seq": 140964,
+      "desc": "The Red Sox activated Guerrero (shoulder) from the 15-day injured list Sunday, per Ian Browne of MLB.com.",
+      "player": {
+        "name": "Tyron Guerrero",
+        "posShortNames": "RP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs026t9_96_13.png",
+        "scorerId": "026t9",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789920000000,
+      "teamId": "10210",
+      "id": "tty7h3sumu9xoml1",
+      "seq": 140963,
+      "desc": "Cincinnati designated Friedl for assignment Sunday.",
+      "player": {
+        "name": "TJ Friedl",
+        "posShortNames": "CF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs045gu_96_8.png",
+        "scorerId": "045gu",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789920000000,
+      "teamId": "10210",
+      "id": "xmpyixw0mu9xomh5",
+      "seq": 140962,
+      "desc": "Cincinnati promoted Spiers from Triple-A Louisville on Sunday.",
+      "player": {
+        "name": "Carson Spiers",
+        "posShortNames": "SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "05r3k",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789920000000,
+      "teamId": "10040",
+      "id": "estqzumomu9xafka",
+      "seq": 140961,
+      "desc": "Tampa Bay designated Fraley for assignment Sunday.",
+      "player": {
+        "name": "Jake Fraley",
+        "posShortNames": "RF",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qd_96_10.png",
+        "scorerId": "041qd",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789920000000,
+      "teamId": "10040",
+      "id": "mggo74tlmu9ww88d",
+      "seq": 140960,
+      "desc": "Tampa Bay reinstated Williamson (hamstring) from the 10-day injured list Sunday.",
+      "player": {
+        "name": "Ben Williamson",
+        "posShortNames": "3B,2B",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06dqd_96_4.png",
+        "scorerId": "06dqd",
+        "posIds": [
+          "004",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789920000000,
+      "teamId": "10180",
+      "id": "jvau5ydqmu9ww85e",
+      "seq": 140959,
+      "desc": "Philadelphia recalled Lazar from Triple-A Lehigh Valley on Sunday.",
+      "player": {
+        "name": "Max Lazar",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04el7_96_1.png",
+        "scorerId": "04el7",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1789833600000,
       "teamId": "10300",
       "id": "zxgcqy3xmu90kqje",
@@ -4428,7 +4570,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -4746,152 +4893,6 @@
         "scorerId": "0617q",
         "posIds": [
           "010",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10280",
-      "id": "w94s3bx5mu7hv59r",
-      "seq": 140934,
-      "desc": "The Dodgers promoted Sirota from Double-A Tulsa to Triple-A Oklahoma City on Friday, broadcaster Alex Freedman of the OKC Comets reports.",
-      "player": {
-        "name": "Mike Sirota",
-        "posShortNames": "CF",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "066ip",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10140",
-      "id": "4qr1k73zmu7hgylw",
-      "seq": 140933,
-      "desc": "The Rangers promoted Otanez from Triple-A Round Rock on Friday, per Evan Grant of The Dallas Morning News.",
-      "player": {
-        "name": "Michel Otanez",
-        "posShortNames": "RP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs057p2_96_1.png",
-        "scorerId": "057p2",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 15-day IL - Illness",
-            "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10140",
-      "id": "4yejsk35mu7hgyje",
-      "seq": 140932,
-      "desc": "Texas optioned Ahlstrom to Triple-A Round Rock on Friday, per Evan Grant of The Dallas Morning News.",
-      "player": {
-        "name": "Robby Ahlstrom",
-        "posShortNames": "RP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y7j_96_3.png",
-        "scorerId": "05y7j",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10280",
-      "id": "3fb6bzn2mu7h2rqq",
-      "seq": 140931,
-      "desc": "The Dodgers optioned Knack to Triple-A Oklahoma City on Friday.",
-      "player": {
-        "name": "Landon Knack",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9f_96_3.png",
-        "scorerId": "05l9f",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10280",
-      "id": "29tzuoimmu7gol15",
-      "seq": 140930,
-      "desc": "The Dodgers activated Diaz (neck) from the 15-day injured list Friday.",
-      "player": {
-        "name": "Edwin Diaz",
-        "posShortNames": "RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02my5_96_13.png",
-        "scorerId": "02my5",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10100",
-      "id": "on53lpqdmu7fi166",
-      "seq": 140929,
-      "desc": "The Twins recalled Roden from Triple-A St. Paul on Friday, Aaron Gleeman of AaronGleeman.com reports.",
-      "player": {
-        "name": "Alan Roden",
-        "posShortNames": "LF",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061yt_96_2.png",
-        "scorerId": "061yt",
-        "posIds": [
           "009"
         ],
         "rookie": false,
@@ -4902,6 +4903,148 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1789920000000,
+      "teamId": "10020",
+      "id": "pokvcigrmu9ygyqp",
+      "seq": 140964,
+      "desc": "The Red Sox activated Guerrero (shoulder) from the 15-day injured list Sunday, per Ian Browne of MLB.com.",
+      "player": {
+        "name": "Tyron Guerrero",
+        "posShortNames": "RP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs026t9_96_13.png",
+        "scorerId": "026t9",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789920000000,
+      "teamId": "10210",
+      "id": "tty7h3sumu9xoml1",
+      "seq": 140963,
+      "desc": "Cincinnati designated Friedl for assignment Sunday.",
+      "player": {
+        "name": "TJ Friedl",
+        "posShortNames": "CF",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs045gu_96_8.png",
+        "scorerId": "045gu",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789920000000,
+      "teamId": "10210",
+      "id": "xmpyixw0mu9xomh5",
+      "seq": 140962,
+      "desc": "Cincinnati promoted Spiers from Triple-A Louisville on Sunday.",
+      "player": {
+        "name": "Carson Spiers",
+        "posShortNames": "SP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "",
+        "scorerId": "05r3k",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1789920000000,
+      "teamId": "10040",
+      "id": "estqzumomu9xafka",
+      "seq": 140961,
+      "desc": "Tampa Bay designated Fraley for assignment Sunday.",
+      "player": {
+        "name": "Jake Fraley",
+        "posShortNames": "RF",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qd_96_10.png",
+        "scorerId": "041qd",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789920000000,
+      "teamId": "10040",
+      "id": "mggo74tlmu9ww88d",
+      "seq": 140960,
+      "desc": "Tampa Bay reinstated Williamson (hamstring) from the 10-day injured list Sunday.",
+      "player": {
+        "name": "Ben Williamson",
+        "posShortNames": "3B,2B",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06dqd_96_4.png",
+        "scorerId": "06dqd",
+        "posIds": [
+          "004",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1789920000000,
+      "teamId": "10180",
+      "id": "jvau5ydqmu9ww85e",
+      "seq": 140959,
+      "desc": "Philadelphia recalled Lazar from Triple-A Lehigh Valley on Sunday.",
+      "player": {
+        "name": "Max Lazar",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04el7_96_1.png",
+        "scorerId": "04el7",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1789833600000,
       "teamId": "10300",
       "id": "zxgcqy3xmu90kqje",
@@ -5134,7 +5277,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -5452,152 +5600,6 @@
         "scorerId": "0617q",
         "posIds": [
           "010",
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10280",
-      "id": "w94s3bx5mu7hv59r",
-      "seq": 140934,
-      "desc": "The Dodgers promoted Sirota from Double-A Tulsa to Triple-A Oklahoma City on Friday, broadcaster Alex Freedman of the OKC Comets reports.",
-      "player": {
-        "name": "Mike Sirota",
-        "posShortNames": "CF",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "066ip",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10140",
-      "id": "4qr1k73zmu7hgylw",
-      "seq": 140933,
-      "desc": "The Rangers promoted Otanez from Triple-A Round Rock on Friday, per Evan Grant of The Dallas Morning News.",
-      "player": {
-        "name": "Michel Otanez",
-        "posShortNames": "RP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs057p2_96_1.png",
-        "scorerId": "057p2",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 15-day IL - Illness",
-            "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10140",
-      "id": "4yejsk35mu7hgyje",
-      "seq": 140932,
-      "desc": "Texas optioned Ahlstrom to Triple-A Round Rock on Friday, per Evan Grant of The Dallas Morning News.",
-      "player": {
-        "name": "Robby Ahlstrom",
-        "posShortNames": "RP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y7j_96_3.png",
-        "scorerId": "05y7j",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10280",
-      "id": "3fb6bzn2mu7h2rqq",
-      "seq": 140931,
-      "desc": "The Dodgers optioned Knack to Triple-A Oklahoma City on Friday.",
-      "player": {
-        "name": "Landon Knack",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9f_96_3.png",
-        "scorerId": "05l9f",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10280",
-      "id": "29tzuoimmu7gol15",
-      "seq": 140930,
-      "desc": "The Dodgers activated Diaz (neck) from the 15-day injured list Friday.",
-      "player": {
-        "name": "Edwin Diaz",
-        "posShortNames": "RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02my5_96_13.png",
-        "scorerId": "02my5",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789747200000,
-      "teamId": "10100",
-      "id": "on53lpqdmu7fi166",
-      "seq": 140929,
-      "desc": "The Twins recalled Roden from Triple-A St. Paul on Friday, Aaron Gleeman of AaronGleeman.com reports.",
-      "player": {
-        "name": "Alan Roden",
-        "posShortNames": "LF",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061yt_96_2.png",
-        "scorerId": "061yt",
-        "posIds": [
           "009"
         ],
         "rookie": false,
