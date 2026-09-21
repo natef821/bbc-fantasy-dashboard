@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T11:44:52.553795Z",
+  "lastUpdated": "2026-09-21T17:40:57.964399Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,32 @@
   },
   "transactions": [
     {
+      "displayDate": 1790006400000,
+      "teamId": "10100",
+      "id": "rb0zp2w8mubj1cfi",
+      "seq": 140975,
+      "desc": "The Twins designated Jackson for assignment Monday.",
+      "player": {
+        "name": "Alex Jackson",
+        "posShortNames": "C",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02yoi_96_10.png",
+        "scorerId": "02yoi",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1789920000000,
       "teamId": "10190",
       "id": "ygntvd10muaeh0zy",
@@ -4867,37 +4893,37 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10170",
-      "id": "ql5eyfbpmu8o5ggp",
-      "seq": 140945,
-      "desc": "The Mets optioned Weston to Triple-A Syracuse on Saturday.",
-      "player": {
-        "name": "Cameron Weston",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066b1_96_1.png",
-        "scorerId": "066b1",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1790006400000,
+      "teamId": "10100",
+      "id": "rb0zp2w8mubj1cfi",
+      "seq": 140975,
+      "desc": "The Twins designated Jackson for assignment Monday.",
+      "player": {
+        "name": "Alex Jackson",
+        "posShortNames": "C",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02yoi_96_10.png",
+        "scorerId": "02yoi",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1789920000000,
       "teamId": "10190",
       "id": "ygntvd10muaeh0zy",
@@ -5569,32 +5595,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10170",
-      "id": "ql5eyfbpmu8o5ggp",
-      "seq": 140945,
-      "desc": "The Mets optioned Weston to Triple-A Syracuse on Saturday.",
-      "player": {
-        "name": "Cameron Weston",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066b1_96_1.png",
-        "scorerId": "066b1",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
