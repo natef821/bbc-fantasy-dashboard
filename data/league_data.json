@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T02:54:28.489296Z",
+  "lastUpdated": "2026-09-22T10:47:43.037845Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,152 @@
   "transactions": [
     {
       "displayDate": 1790006400000,
+      "teamId": "10050",
+      "id": "cypqhplkmuc5i7ws",
+      "seq": 140994,
+      "desc": "Lorenzen elected free agency Monday.",
+      "player": {
+        "name": "Michael Lorenzen",
+        "posShortNames": "SP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hir_96_15.png",
+        "scorerId": "02hir",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10090",
+      "id": "152ypug5muc3xgg6",
+      "seq": 140993,
+      "desc": "Bivens was optioned to Triple-A Omaha on Monday.",
+      "player": {
+        "name": "Spencer Bivens",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06kvo_96_2.png",
+        "scorerId": "06kvo",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10050",
+      "id": "tf3gn7dlmuc3j9na",
+      "seq": 140992,
+      "desc": "Lorenzen was sent outright to Triple-A Buffalo on Monday.",
+      "player": {
+        "name": "Michael Lorenzen",
+        "posShortNames": "SP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hir_96_15.png",
+        "scorerId": "02hir",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10280",
+      "id": "0ebr3dijmuc351hi",
+      "seq": 140991,
+      "desc": "Alfonzo was optioned to Triple-A Oklahoma City on Monday.",
+      "player": {
+        "name": "Eliezer Alfonzo",
+        "posShortNames": "C",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ug3_96_2.png",
+        "scorerId": "04ug3",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10280",
+      "id": "nmjgjg8zmuc351fu",
+      "seq": 140990,
+      "desc": "Sasaki (finger) was activated from the 15-day injured list Monday.",
+      "player": {
+        "name": "Roki Sasaki",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gdz_96_2.png",
+        "scorerId": "05gdz",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10280",
+      "id": "ealwho18muc351d6",
+      "seq": 140989,
+      "desc": "Pages (hand) was activated from the 10-day injured list Monday.",
+      "player": {
+        "name": "Andy Pages",
+        "posShortNames": "CF",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ru5_96_8.png",
+        "scorerId": "04ru5",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790006400000,
       "teamId": "10090",
       "id": "53oya744muc2qvuq",
       "seq": 140988,
@@ -4286,12 +4432,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4313,12 +4454,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 4",
-            "typeId": "24"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4360,12 +4496,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4379,7 +4510,7 @@
         "posShortNames": "SP",
         "teamShortName": "TOR",
         "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xpp_96_1.png",
         "scorerId": "05xpp",
         "posIds": [
           "015"
@@ -4433,12 +4564,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4485,12 +4611,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4504,19 +4625,14 @@
         "posShortNames": "1B",
         "teamShortName": "MIN",
         "teamName": "Minnesota Twins",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ge2_96_1.png",
         "scorerId": "05ge2",
         "posIds": [
           "002"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4684,7 +4800,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -4779,149 +4900,158 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10020",
-      "id": "pokvcigrmu9ygyqp",
-      "seq": 140964,
-      "desc": "The Red Sox activated Guerrero (shoulder) from the 15-day injured list Sunday, per Ian Browne of MLB.com.",
-      "player": {
-        "name": "Tyron Guerrero",
-        "posShortNames": "RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs026t9_96_13.png",
-        "scorerId": "026t9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10210",
-      "id": "tty7h3sumu9xoml1",
-      "seq": 140963,
-      "desc": "Cincinnati designated Friedl for assignment Sunday.",
-      "player": {
-        "name": "TJ Friedl",
-        "posShortNames": "CF",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs045gu_96_8.png",
-        "scorerId": "045gu",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10210",
-      "id": "xmpyixw0mu9xomh5",
-      "seq": 140962,
-      "desc": "Cincinnati promoted Spiers from Triple-A Louisville on Sunday.",
-      "player": {
-        "name": "Carson Spiers",
-        "posShortNames": "SP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "",
-        "scorerId": "05r3k",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10040",
-      "id": "estqzumomu9xafka",
-      "seq": 140961,
-      "desc": "Tampa Bay designated Fraley for assignment Sunday.",
-      "player": {
-        "name": "Jake Fraley",
-        "posShortNames": "RF",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qd_96_10.png",
-        "scorerId": "041qd",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10040",
-      "id": "mggo74tlmu9ww88d",
-      "seq": 140960,
-      "desc": "Tampa Bay reinstated Williamson (hamstring) from the 10-day injured list Sunday.",
-      "player": {
-        "name": "Ben Williamson",
-        "posShortNames": "3B,2B",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06dqd_96_4.png",
-        "scorerId": "06dqd",
-        "posIds": [
-          "004",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10180",
-      "id": "jvau5ydqmu9ww85e",
-      "seq": 140959,
-      "desc": "Philadelphia recalled Lazar from Triple-A Lehigh Valley on Sunday.",
-      "player": {
-        "name": "Max Lazar",
-        "posShortNames": "RP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04el7_96_1.png",
-        "scorerId": "04el7",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1790006400000,
+      "teamId": "10050",
+      "id": "cypqhplkmuc5i7ws",
+      "seq": 140994,
+      "desc": "Lorenzen elected free agency Monday.",
+      "player": {
+        "name": "Michael Lorenzen",
+        "posShortNames": "SP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hir_96_15.png",
+        "scorerId": "02hir",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10090",
+      "id": "152ypug5muc3xgg6",
+      "seq": 140993,
+      "desc": "Bivens was optioned to Triple-A Omaha on Monday.",
+      "player": {
+        "name": "Spencer Bivens",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06kvo_96_2.png",
+        "scorerId": "06kvo",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10050",
+      "id": "tf3gn7dlmuc3j9na",
+      "seq": 140992,
+      "desc": "Lorenzen was sent outright to Triple-A Buffalo on Monday.",
+      "player": {
+        "name": "Michael Lorenzen",
+        "posShortNames": "SP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hir_96_15.png",
+        "scorerId": "02hir",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10280",
+      "id": "0ebr3dijmuc351hi",
+      "seq": 140991,
+      "desc": "Alfonzo was optioned to Triple-A Oklahoma City on Monday.",
+      "player": {
+        "name": "Eliezer Alfonzo",
+        "posShortNames": "C",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ug3_96_2.png",
+        "scorerId": "04ug3",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10280",
+      "id": "nmjgjg8zmuc351fu",
+      "seq": 140990,
+      "desc": "Sasaki (finger) was activated from the 15-day injured list Monday.",
+      "player": {
+        "name": "Roki Sasaki",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gdz_96_2.png",
+        "scorerId": "05gdz",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10280",
+      "id": "ealwho18muc351d6",
+      "seq": 140989,
+      "desc": "Pages (hand) was activated from the 10-day injured list Monday.",
+      "player": {
+        "name": "Andy Pages",
+        "posShortNames": "CF",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ru5_96_8.png",
+        "scorerId": "04ru5",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790006400000,
       "teamId": "10090",
       "id": "53oya744muc2qvuq",
       "seq": 140988,
@@ -5011,12 +5141,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 3",
-            "typeId": "23"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5038,12 +5163,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 4",
-            "typeId": "24"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5085,12 +5205,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5104,7 +5219,7 @@
         "posShortNames": "SP",
         "teamShortName": "TOR",
         "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xpp_96_1.png",
         "scorerId": "05xpp",
         "posIds": [
           "015"
@@ -5158,12 +5273,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5210,12 +5320,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "In starting lineup",
-            "typeId": "12"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5229,19 +5334,14 @@
         "posShortNames": "1B",
         "teamShortName": "MIN",
         "teamName": "Minnesota Twins",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ge2_96_1.png",
         "scorerId": "05ge2",
         "posIds": [
           "002"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 7",
-            "typeId": "27"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5409,7 +5509,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -5504,143 +5609,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10020",
-      "id": "pokvcigrmu9ygyqp",
-      "seq": 140964,
-      "desc": "The Red Sox activated Guerrero (shoulder) from the 15-day injured list Sunday, per Ian Browne of MLB.com.",
-      "player": {
-        "name": "Tyron Guerrero",
-        "posShortNames": "RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs026t9_96_13.png",
-        "scorerId": "026t9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10210",
-      "id": "tty7h3sumu9xoml1",
-      "seq": 140963,
-      "desc": "Cincinnati designated Friedl for assignment Sunday.",
-      "player": {
-        "name": "TJ Friedl",
-        "posShortNames": "CF",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs045gu_96_8.png",
-        "scorerId": "045gu",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10210",
-      "id": "xmpyixw0mu9xomh5",
-      "seq": 140962,
-      "desc": "Cincinnati promoted Spiers from Triple-A Louisville on Sunday.",
-      "player": {
-        "name": "Carson Spiers",
-        "posShortNames": "SP",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "",
-        "scorerId": "05r3k",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10040",
-      "id": "estqzumomu9xafka",
-      "seq": 140961,
-      "desc": "Tampa Bay designated Fraley for assignment Sunday.",
-      "player": {
-        "name": "Jake Fraley",
-        "posShortNames": "RF",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qd_96_10.png",
-        "scorerId": "041qd",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10040",
-      "id": "mggo74tlmu9ww88d",
-      "seq": 140960,
-      "desc": "Tampa Bay reinstated Williamson (hamstring) from the 10-day injured list Sunday.",
-      "player": {
-        "name": "Ben Williamson",
-        "posShortNames": "3B,2B",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06dqd_96_4.png",
-        "scorerId": "06dqd",
-        "posIds": [
-          "004",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10180",
-      "id": "jvau5ydqmu9ww85e",
-      "seq": 140959,
-      "desc": "Philadelphia recalled Lazar from Triple-A Lehigh Valley on Sunday.",
-      "player": {
-        "name": "Max Lazar",
-        "posShortNames": "RP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04el7_96_1.png",
-        "scorerId": "04el7",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
