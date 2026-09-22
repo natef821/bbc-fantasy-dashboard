@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T21:34:40.645091Z",
+  "lastUpdated": "2026-09-22T02:54:28.489296Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,179 @@
   "transactions": [
     {
       "displayDate": 1790006400000,
+      "teamId": "10090",
+      "id": "53oya744muc2qvuq",
+      "seq": 140988,
+      "desc": "Gonsolin (elbow) was activated from the 15-day injured list Monday.",
+      "player": {
+        "name": "Tony Gonsolin",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041v6_96_9.png",
+        "scorerId": "041v6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10180",
+      "id": "x4m3hhd5muc0rvjl",
+      "seq": 140987,
+      "desc": "Cortes (undisclosed) was activated from the 7-day injured list Sept. 8.",
+      "player": {
+        "name": "Nestor Cortes Jr.",
+        "posShortNames": "SP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03bin_96_10.png",
+        "scorerId": "03bin",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10300",
+      "id": "9ihoqn6kmubvnh3z",
+      "seq": 140986,
+      "desc": "Abner was designated for assignment by San Francisco on Monday.",
+      "player": {
+        "name": "Philip Abner",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uab_96_1.png",
+        "scorerId": "05uab",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10300",
+      "id": "jctg4j22mubv9a6u",
+      "seq": 140985,
+      "desc": "The Giants selected Davidson's contract from Triple-A Sacramento on Monday, Justice delos Santos of The San Jose Mercury News reports.",
+      "player": {
+        "name": "Bo Davidson",
+        "posShortNames": "CF",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "06hua",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 3",
+            "typeId": "23"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10300",
+      "id": "6d8jeyh8mubugvna",
+      "seq": 140984,
+      "desc": "The Giants activated Mayer (forearm/foot) from the 10-day injured list Monday, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Marcelo Mayer",
+        "posShortNames": "3B,2B",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05r9j_96_2.png",
+        "scorerId": "05r9j",
+        "posIds": [
+          "004",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 4",
+            "typeId": "24"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10080",
+      "id": "s8iscr5dmubtohhf",
+      "seq": 140983,
+      "desc": "The Tigers recalled Jung from Triple-A Toledo on Monday.",
+      "player": {
+        "name": "Jace Jung",
+        "posShortNames": "3B",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzg_96_1.png",
+        "scorerId": "05tzg",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10080",
+      "id": "c7yxc2s9mubtohey",
+      "seq": 140982,
+      "desc": "The Tigers recalled Ryan from Triple-A Toledo on Monday.",
+      "player": {
+        "name": "River Ryan",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ynx_96_1.png",
+        "scorerId": "05ynx",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
       "teamId": "10050",
       "id": "iprq8bikmubmz9ku",
       "seq": 140981,
@@ -4338,7 +4511,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -4734,169 +4912,6 @@
         "scorerId": "04el7",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10300",
-      "id": "zxgcqy3xmu90kqje",
-      "seq": 140958,
-      "desc": "Hentges (forearm) was activated from the 15-day injured list Saturday, Justice delos Santos of The San Jose Mercury News reports.",
-      "player": {
-        "name": "Sam Hentges",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dbu_96_8.png",
-        "scorerId": "03dbu",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10105",
-      "id": "vn2pyiuamu906jo3",
-      "seq": 140957,
-      "desc": "The Astros recalled VanWey from Triple-A Sugar Land on Saturday, Matt Kawahara of the Houston Chronicle reports.",
-      "player": {
-        "name": "Logan VanWey",
-        "posShortNames": "RP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "06l4y",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10140",
-      "id": "an8m2animu8x7vym",
-      "seq": 140956,
-      "desc": "The Rangers recalled Macko from Triple-A Round Rock on Saturday.",
-      "player": {
-        "name": "Adam Macko",
-        "posShortNames": "SP,RP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515q_96_1.png",
-        "scorerId": "0515q",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10270",
-      "id": "s2cn6xl2mu8x7vwp",
-      "seq": 140955,
-      "desc": "The Rockies optioned Hughes to Triple-A Albuquerque on Saturday.",
-      "player": {
-        "name": "Gabriel Hughes",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ubl_96_1.png",
-        "scorerId": "05ubl",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10090",
-      "id": "ybx0on9umu8u2a9y",
-      "seq": 140954,
-      "desc": "The Royals recalled Bivens from Triple-A Omaha on Saturday.",
-      "player": {
-        "name": "Spencer Bivens",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06kvo_96_2.png",
-        "scorerId": "06kvo",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10105",
-      "id": "lax2ei28mu8u2a70",
-      "seq": 140953,
-      "desc": "The Astros designated Barrosa for assignment Saturday, Matt Kawahara of the Houston Chronicle reports.",
-      "player": {
-        "name": "Jorge Barrosa",
-        "posShortNames": "CF,LF,RF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mrb_96_3.png",
-        "scorerId": "04mrb",
-        "posIds": [
-          "010",
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10105",
-      "id": "rjuq651imu8to3w1",
-      "seq": 140952,
-      "desc": "The Astros reinstated Matthews (knee) from the 60-day injured list Saturday, Matt Kawahara of the Houston Chronicle reports.",
-      "player": {
-        "name": "Brice Matthews",
-        "posShortNames": "2B,SS,LF,CF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06c36_96_2.png",
-        "scorerId": "06c36",
-        "posIds": [
-          "003",
-          "005",
-          "009",
-          "010"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -4907,6 +4922,179 @@
   "mlbTransactions": [
     {
       "displayDate": 1790006400000,
+      "teamId": "10090",
+      "id": "53oya744muc2qvuq",
+      "seq": 140988,
+      "desc": "Gonsolin (elbow) was activated from the 15-day injured list Monday.",
+      "player": {
+        "name": "Tony Gonsolin",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041v6_96_9.png",
+        "scorerId": "041v6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10180",
+      "id": "x4m3hhd5muc0rvjl",
+      "seq": 140987,
+      "desc": "Cortes (undisclosed) was activated from the 7-day injured list Sept. 8.",
+      "player": {
+        "name": "Nestor Cortes Jr.",
+        "posShortNames": "SP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03bin_96_10.png",
+        "scorerId": "03bin",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10300",
+      "id": "9ihoqn6kmubvnh3z",
+      "seq": 140986,
+      "desc": "Abner was designated for assignment by San Francisco on Monday.",
+      "player": {
+        "name": "Philip Abner",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uab_96_1.png",
+        "scorerId": "05uab",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10300",
+      "id": "jctg4j22mubv9a6u",
+      "seq": 140985,
+      "desc": "The Giants selected Davidson's contract from Triple-A Sacramento on Monday, Justice delos Santos of The San Jose Mercury News reports.",
+      "player": {
+        "name": "Bo Davidson",
+        "posShortNames": "CF",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "06hua",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 3",
+            "typeId": "23"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10300",
+      "id": "6d8jeyh8mubugvna",
+      "seq": 140984,
+      "desc": "The Giants activated Mayer (forearm/foot) from the 10-day injured list Monday, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Marcelo Mayer",
+        "posShortNames": "3B,2B",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05r9j_96_2.png",
+        "scorerId": "05r9j",
+        "posIds": [
+          "004",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 4",
+            "typeId": "24"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10080",
+      "id": "s8iscr5dmubtohhf",
+      "seq": 140983,
+      "desc": "The Tigers recalled Jung from Triple-A Toledo on Monday.",
+      "player": {
+        "name": "Jace Jung",
+        "posShortNames": "3B",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzg_96_1.png",
+        "scorerId": "05tzg",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790006400000,
+      "teamId": "10080",
+      "id": "c7yxc2s9mubtohey",
+      "seq": 140982,
+      "desc": "The Tigers recalled Ryan from Triple-A Toledo on Monday.",
+      "player": {
+        "name": "River Ryan",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ynx_96_1.png",
+        "scorerId": "05ynx",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790006400000,
       "teamId": "10050",
       "id": "iprq8bikmubmz9ku",
       "seq": 140981,
@@ -5048,7 +5236,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -5444,169 +5637,6 @@
         "scorerId": "04el7",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10300",
-      "id": "zxgcqy3xmu90kqje",
-      "seq": 140958,
-      "desc": "Hentges (forearm) was activated from the 15-day injured list Saturday, Justice delos Santos of The San Jose Mercury News reports.",
-      "player": {
-        "name": "Sam Hentges",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dbu_96_8.png",
-        "scorerId": "03dbu",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10105",
-      "id": "vn2pyiuamu906jo3",
-      "seq": 140957,
-      "desc": "The Astros recalled VanWey from Triple-A Sugar Land on Saturday, Matt Kawahara of the Houston Chronicle reports.",
-      "player": {
-        "name": "Logan VanWey",
-        "posShortNames": "RP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "06l4y",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10140",
-      "id": "an8m2animu8x7vym",
-      "seq": 140956,
-      "desc": "The Rangers recalled Macko from Triple-A Round Rock on Saturday.",
-      "player": {
-        "name": "Adam Macko",
-        "posShortNames": "SP,RP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515q_96_1.png",
-        "scorerId": "0515q",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10270",
-      "id": "s2cn6xl2mu8x7vwp",
-      "seq": 140955,
-      "desc": "The Rockies optioned Hughes to Triple-A Albuquerque on Saturday.",
-      "player": {
-        "name": "Gabriel Hughes",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ubl_96_1.png",
-        "scorerId": "05ubl",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10090",
-      "id": "ybx0on9umu8u2a9y",
-      "seq": 140954,
-      "desc": "The Royals recalled Bivens from Triple-A Omaha on Saturday.",
-      "player": {
-        "name": "Spencer Bivens",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06kvo_96_2.png",
-        "scorerId": "06kvo",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10105",
-      "id": "lax2ei28mu8u2a70",
-      "seq": 140953,
-      "desc": "The Astros designated Barrosa for assignment Saturday, Matt Kawahara of the Houston Chronicle reports.",
-      "player": {
-        "name": "Jorge Barrosa",
-        "posShortNames": "CF,LF,RF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mrb_96_3.png",
-        "scorerId": "04mrb",
-        "posIds": [
-          "010",
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789833600000,
-      "teamId": "10105",
-      "id": "rjuq651imu8to3w1",
-      "seq": 140952,
-      "desc": "The Astros reinstated Matthews (knee) from the 60-day injured list Saturday, Matt Kawahara of the Houston Chronicle reports.",
-      "player": {
-        "name": "Brice Matthews",
-        "posShortNames": "2B,SS,LF,CF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06c36_96_2.png",
-        "scorerId": "06c36",
-        "posIds": [
-          "003",
-          "005",
-          "009",
-          "010"
         ],
         "rookie": false,
         "minorsEligible": false,
