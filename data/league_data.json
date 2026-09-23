@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T10:37:29.480748Z",
+  "lastUpdated": "2026-09-23T15:56:36.624859Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,27 @@
   },
   "transactions": [
     {
+      "displayDate": 1790179200000,
+      "teamId": "10190",
+      "id": "jxqvfdnfmue96mww",
+      "seq": 141010,
+      "desc": "The Nationals recalled Varland from Triple-A Rochester on Wednesday.",
+      "player": {
+        "name": "Gus Varland",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxq_96_5.png",
+        "scorerId": "04pxq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1790092800000,
       "teamId": "10190",
       "id": "c42sqhr3mudhaxmz",
@@ -4365,7 +4386,7 @@
       "teamId": "10030",
       "id": "fyij9fz0mud4s2d3",
       "seq": 141002,
-      "desc": "The Yankees activated Chisholm (intercostal) from the 10-day injured list Tuesday.",
+      "desc": "The Yankees activated Chisholm (intercostal) from the 10-day injured list Tuesday in between the first and second games of a doubleheader against the Rays.",
       "player": {
         "name": "Jazz Chisholm Jr.",
         "posShortNames": "2B,3B",
@@ -4831,7 +4852,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4874,37 +4900,32 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10050",
-      "id": "1rxtf581mubml2h5",
-      "seq": 140980,
-      "desc": "The Blue Jays designated Mantiply for assignment Monday.",
-      "player": {
-        "name": "Joe Mantiply",
-        "posShortNames": "RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03mle_96_10.png",
-        "scorerId": "03mle",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1790179200000,
+      "teamId": "10190",
+      "id": "jxqvfdnfmue96mww",
+      "seq": 141010,
+      "desc": "The Nationals recalled Varland from Triple-A Rochester on Wednesday.",
+      "player": {
+        "name": "Gus Varland",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxq_96_5.png",
+        "scorerId": "04pxq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1790092800000,
       "teamId": "10190",
       "id": "c42sqhr3mudhaxmz",
@@ -5074,7 +5095,7 @@
       "teamId": "10030",
       "id": "fyij9fz0mud4s2d3",
       "seq": 141002,
-      "desc": "The Yankees activated Chisholm (intercostal) from the 10-day injured list Tuesday.",
+      "desc": "The Yankees activated Chisholm (intercostal) from the 10-day injured list Tuesday in between the first and second games of a doubleheader against the Rays.",
       "player": {
         "name": "Jazz Chisholm Jr.",
         "posShortNames": "2B,3B",
@@ -5540,7 +5561,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5583,32 +5609,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10050",
-      "id": "1rxtf581mubml2h5",
-      "seq": 140980,
-      "desc": "The Blue Jays designated Mantiply for assignment Monday.",
-      "player": {
-        "name": "Joe Mantiply",
-        "posShortNames": "RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03mle_96_10.png",
-        "scorerId": "03mle",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
