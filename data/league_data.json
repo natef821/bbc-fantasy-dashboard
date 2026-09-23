@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T20:45:49.122456Z",
+  "lastUpdated": "2026-09-23T02:54:51.953190Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,153 @@
   "transactions": [
     {
       "displayDate": 1790092800000,
+      "teamId": "10190",
+      "id": "c42sqhr3mudhaxmz",
+      "seq": 141009,
+      "desc": "The Nationals optioned Kent to Triple-A Rochester after Tuesday's game against the Tigers.",
+      "player": {
+        "name": "Jackson Kent",
+        "posShortNames": "SP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "",
+        "scorerId": "06nuj",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790092800000,
+      "teamId": "10140",
+      "id": "24nzt1aamudazwf1",
+      "seq": 141008,
+      "desc": "Texas activated Helman (hand) from the 60-day injured list Tuesday.",
+      "player": {
+        "name": "Michael Helman",
+        "posShortNames": "CF",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pvp_96_1.png",
+        "scorerId": "04pvp",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790092800000,
+      "teamId": "10300",
+      "id": "7f71v0namud9tadl",
+      "seq": 141007,
+      "desc": "The Giants recalled Roxby from Triple-A Sacramento on Tuesday.",
+      "player": {
+        "name": "Braxton Roxby",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "05rkx",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790092800000,
+      "teamId": "10121",
+      "id": "calayvetmud71yyo",
+      "seq": 141006,
+      "desc": "The Athletics reinstated Kuroda-Grauer (groin) from the 60-day injured list Tuesday.",
+      "player": {
+        "name": "Joshua Kuroda-Grauer",
+        "posShortNames": "SS",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06nue_96_2.png",
+        "scorerId": "06nue",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790092800000,
+      "teamId": "10140",
+      "id": "nm13aq6jmud5vg7i",
+      "seq": 141005,
+      "desc": "The Rangers optioned Macko to the club's Arizona Complex League affiliate Tuesday.",
+      "player": {
+        "name": "Adam Macko",
+        "posShortNames": "SP,RP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515q_96_1.png",
+        "scorerId": "0515q",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790092800000,
+      "teamId": "10140",
+      "id": "mykzbyi0mud5vg59",
+      "seq": 141004,
+      "desc": "The Rangers activated Gray (elbow) from the 15-day injured list Tuesday.",
+      "player": {
+        "name": "Peyton Gray",
+        "posShortNames": "RP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oyx_96_1.png",
+        "scorerId": "05oyx",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790092800000,
       "teamId": "10030",
       "id": "xv93iogamud4s2fs",
       "seq": 141003,
@@ -4244,8 +4391,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
           }
         ]
       }
@@ -4562,7 +4709,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
       }
     },
     {
@@ -4570,7 +4722,7 @@
       "teamId": "10090",
       "id": "53oya744muc2qvuq",
       "seq": 140988,
-      "desc": "Gonsolin (elbow) was activated from the 15-day injured list Monday.",
+      "desc": "The Royals activated Gonsolin (elbow) from the 15-day injured list Monday.",
       "player": {
         "name": "Tony Gonsolin",
         "posShortNames": "SP",
@@ -4656,7 +4808,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 5",
+            "typeId": "25"
+          }
+        ]
       }
     },
     {
@@ -4678,7 +4835,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -4762,147 +4924,6 @@
         "teamName": "Toronto Blue Jays",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03mle_96_10.png",
         "scorerId": "03mle",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10050",
-      "id": "c7hw2uh4mubml2f8",
-      "seq": 140979,
-      "desc": "The Blue Jays activated Yesavage (knee) from the 15-day injured list Monday.",
-      "player": {
-        "name": "Trey Yesavage",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06apx_96_2.png",
-        "scorerId": "06apx",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10050",
-      "id": "p0kk678smubml2ca",
-      "seq": 140978,
-      "desc": "The Blue Jays optioned Arrighetti to their spring training complex Monday.",
-      "player": {
-        "name": "Spencer Arrighetti",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y0j_96_3.png",
-        "scorerId": "05y0j",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10190",
-      "id": "tyw84fp5mubjfjr4",
-      "seq": 140977,
-      "desc": "The Nationals activated Herz (elbow) from the 60-day injured list Monday.",
-      "player": {
-        "name": "DJ Herz",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0516h_96_2.png",
-        "scorerId": "0516h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10100",
-      "id": "qyaetu59mubjfjof",
-      "seq": 140976,
-      "desc": "The Twins selected Sabato's contract from Triple-A St. Paul on Monday.",
-      "player": {
-        "name": "Aaron Sabato",
-        "posShortNames": "1B",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ge2_96_1.png",
-        "scorerId": "05ge2",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10100",
-      "id": "rb0zp2w8mubj1cfi",
-      "seq": 140975,
-      "desc": "The Twins designated Jackson for assignment Monday.",
-      "player": {
-        "name": "Alex Jackson",
-        "posShortNames": "C",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02yoi_96_10.png",
-        "scorerId": "02yoi",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10190",
-      "id": "ygntvd10muaeh0zy",
-      "seq": 140974,
-      "desc": "Simpson was optioned to Triple-A Rochester after Sunday's 5-3 loss to the Cardinals.",
-      "player": {
-        "name": "Jared Simpson",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "06fqh",
         "posIds": [
           "016"
         ],
@@ -4920,6 +4941,153 @@
   "mlbTransactions": [
     {
       "displayDate": 1790092800000,
+      "teamId": "10190",
+      "id": "c42sqhr3mudhaxmz",
+      "seq": 141009,
+      "desc": "The Nationals optioned Kent to Triple-A Rochester after Tuesday's game against the Tigers.",
+      "player": {
+        "name": "Jackson Kent",
+        "posShortNames": "SP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "",
+        "scorerId": "06nuj",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790092800000,
+      "teamId": "10140",
+      "id": "24nzt1aamudazwf1",
+      "seq": 141008,
+      "desc": "Texas activated Helman (hand) from the 60-day injured list Tuesday.",
+      "player": {
+        "name": "Michael Helman",
+        "posShortNames": "CF",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pvp_96_1.png",
+        "scorerId": "04pvp",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790092800000,
+      "teamId": "10300",
+      "id": "7f71v0namud9tadl",
+      "seq": 141007,
+      "desc": "The Giants recalled Roxby from Triple-A Sacramento on Tuesday.",
+      "player": {
+        "name": "Braxton Roxby",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "05rkx",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790092800000,
+      "teamId": "10121",
+      "id": "calayvetmud71yyo",
+      "seq": 141006,
+      "desc": "The Athletics reinstated Kuroda-Grauer (groin) from the 60-day injured list Tuesday.",
+      "player": {
+        "name": "Joshua Kuroda-Grauer",
+        "posShortNames": "SS",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06nue_96_2.png",
+        "scorerId": "06nue",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790092800000,
+      "teamId": "10140",
+      "id": "nm13aq6jmud5vg7i",
+      "seq": 141005,
+      "desc": "The Rangers optioned Macko to the club's Arizona Complex League affiliate Tuesday.",
+      "player": {
+        "name": "Adam Macko",
+        "posShortNames": "SP,RP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515q_96_1.png",
+        "scorerId": "0515q",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790092800000,
+      "teamId": "10140",
+      "id": "mykzbyi0mud5vg59",
+      "seq": 141004,
+      "desc": "The Rangers activated Gray (elbow) from the 15-day injured list Tuesday.",
+      "player": {
+        "name": "Peyton Gray",
+        "posShortNames": "RP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oyx_96_1.png",
+        "scorerId": "05oyx",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790092800000,
       "teamId": "10030",
       "id": "xv93iogamud4s2fs",
       "seq": 141003,
@@ -4967,8 +5135,8 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Not in starting lineup",
-            "typeId": "15"
+            "tooltip": "Batting Order: 6",
+            "typeId": "26"
           }
         ]
       }
@@ -5285,7 +5453,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
       }
     },
     {
@@ -5293,7 +5466,7 @@
       "teamId": "10090",
       "id": "53oya744muc2qvuq",
       "seq": 140988,
-      "desc": "Gonsolin (elbow) was activated from the 15-day injured list Monday.",
+      "desc": "The Royals activated Gonsolin (elbow) from the 15-day injured list Monday.",
       "player": {
         "name": "Tony Gonsolin",
         "posShortNames": "SP",
@@ -5379,7 +5552,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 5",
+            "typeId": "25"
+          }
+        ]
       }
     },
     {
@@ -5401,7 +5579,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -5485,147 +5668,6 @@
         "teamName": "Toronto Blue Jays",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03mle_96_10.png",
         "scorerId": "03mle",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10050",
-      "id": "c7hw2uh4mubml2f8",
-      "seq": 140979,
-      "desc": "The Blue Jays activated Yesavage (knee) from the 15-day injured list Monday.",
-      "player": {
-        "name": "Trey Yesavage",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06apx_96_2.png",
-        "scorerId": "06apx",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10050",
-      "id": "p0kk678smubml2ca",
-      "seq": 140978,
-      "desc": "The Blue Jays optioned Arrighetti to their spring training complex Monday.",
-      "player": {
-        "name": "Spencer Arrighetti",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y0j_96_3.png",
-        "scorerId": "05y0j",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10190",
-      "id": "tyw84fp5mubjfjr4",
-      "seq": 140977,
-      "desc": "The Nationals activated Herz (elbow) from the 60-day injured list Monday.",
-      "player": {
-        "name": "DJ Herz",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0516h_96_2.png",
-        "scorerId": "0516h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10100",
-      "id": "qyaetu59mubjfjof",
-      "seq": 140976,
-      "desc": "The Twins selected Sabato's contract from Triple-A St. Paul on Monday.",
-      "player": {
-        "name": "Aaron Sabato",
-        "posShortNames": "1B",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ge2_96_1.png",
-        "scorerId": "05ge2",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790006400000,
-      "teamId": "10100",
-      "id": "rb0zp2w8mubj1cfi",
-      "seq": 140975,
-      "desc": "The Twins designated Jackson for assignment Monday.",
-      "player": {
-        "name": "Alex Jackson",
-        "posShortNames": "C",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02yoi_96_10.png",
-        "scorerId": "02yoi",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1789920000000,
-      "teamId": "10190",
-      "id": "ygntvd10muaeh0zy",
-      "seq": 140974,
-      "desc": "Simpson was optioned to Triple-A Rochester after Sunday's 5-3 loss to the Cardinals.",
-      "player": {
-        "name": "Jared Simpson",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "06fqh",
         "posIds": [
           "016"
         ],
