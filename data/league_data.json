@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T10:57:55.509449Z",
+  "lastUpdated": "2026-09-25T16:19:50.493181Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,27 @@
   },
   "transactions": [
     {
+      "displayDate": 1790352000000,
+      "teamId": "10200",
+      "id": "9uv0w50xmuh3o59a",
+      "seq": 141057,
+      "desc": "The Cubs activated Hollowell (shoulder) from the 15-day injured list Friday, Meghan Montemurro of the Chicago Tribune reports.",
+      "player": {
+        "name": "Gavin Hollowell",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514j_96_3.png",
+        "scorerId": "0514j",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1790265600000,
       "teamId": "10030",
       "id": "0796seogmugedxb5",
@@ -4252,7 +4273,7 @@
       "teamId": "10010",
       "id": "k0g3hdd3mug5ouoh",
       "seq": 141054,
-      "desc": "Gibson was optioned to the Orioles' Spring Training Complex after Wednesday's doubleheader against the Blue Jays.",
+      "desc": "Gibson was optioned to the Orioles' spring training complex after Wednesday's doubleheader against the Blue Jays.",
       "player": {
         "name": "Trey Gibson",
         "posShortNames": "SP",
@@ -4278,7 +4299,7 @@
       "teamId": "10010",
       "id": "6cf7umlsmug5oun2",
       "seq": 141053,
-      "desc": "Suarez had his contract selected from Triple-A Norfolk on Thursday.",
+      "desc": "The Orioles selected Suarez's contract from Triple-A Norfolk on Thursday.",
       "player": {
         "name": "Albert Suarez",
         "posShortNames": "RP",
@@ -4291,12 +4312,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -4380,7 +4396,7 @@
         "posShortNames": "RP",
         "teamShortName": "LAA",
         "teamName": "Los Angeles Angels",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06309_96_1.png",
         "scorerId": "06309",
         "posIds": [
           "016"
@@ -4544,7 +4560,7 @@
         "posShortNames": "RP",
         "teamShortName": "CHW",
         "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qxg_96_1.png",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qxg_96_2.png",
         "scorerId": "06qxg",
         "posIds": [
           "016"
@@ -4706,7 +4722,7 @@
         "posShortNames": "CF,LF,RF",
         "teamShortName": "HOU",
         "teamName": "Houston Astros",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qjw_96_1.png",
         "scorerId": "06qjw",
         "posIds": [
           "010",
@@ -4750,7 +4766,7 @@
       "teamId": "10280",
       "id": "rrp1rogfmueoa7fy",
       "seq": 141032,
-      "desc": "The Dodgers reinstated Skubal from the bereavement list Wednesday, Noah Camras of SI.com reports.",
+      "desc": "The Dodgers reinstated Skubal (personal) from the bereavement list Wednesday, Noah Camras of SI.com reports.",
       "player": {
         "name": "Tarik Skubal",
         "posShortNames": "SP",
@@ -4857,7 +4873,7 @@
         "posShortNames": "RP,SP",
         "teamShortName": "TEX",
         "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05198_96_1.png",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05198_96_2.png",
         "scorerId": "05198",
         "posIds": [
           "016",
@@ -4892,32 +4908,32 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10050",
-      "id": "94my80xbmuempebm",
-      "seq": 141026,
-      "desc": "The Blue Jays recalled Van Eyk from Triple-A Buffalo between games of Wednesday's doubleheader against the Orioles.",
-      "player": {
-        "name": "CJ Van Eyk",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "04erh",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1790352000000,
+      "teamId": "10200",
+      "id": "9uv0w50xmuh3o59a",
+      "seq": 141057,
+      "desc": "The Cubs activated Hollowell (shoulder) from the 15-day injured list Friday, Meghan Montemurro of the Chicago Tribune reports.",
+      "player": {
+        "name": "Gavin Hollowell",
+        "posShortNames": "RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514j_96_3.png",
+        "scorerId": "0514j",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1790265600000,
       "teamId": "10030",
       "id": "0796seogmugedxb5",
@@ -4974,7 +4990,7 @@
       "teamId": "10010",
       "id": "k0g3hdd3mug5ouoh",
       "seq": 141054,
-      "desc": "Gibson was optioned to the Orioles' Spring Training Complex after Wednesday's doubleheader against the Blue Jays.",
+      "desc": "Gibson was optioned to the Orioles' spring training complex after Wednesday's doubleheader against the Blue Jays.",
       "player": {
         "name": "Trey Gibson",
         "posShortNames": "SP",
@@ -5000,7 +5016,7 @@
       "teamId": "10010",
       "id": "6cf7umlsmug5oun2",
       "seq": 141053,
-      "desc": "Suarez had his contract selected from Triple-A Norfolk on Thursday.",
+      "desc": "The Orioles selected Suarez's contract from Triple-A Norfolk on Thursday.",
       "player": {
         "name": "Albert Suarez",
         "posShortNames": "RP",
@@ -5013,12 +5029,7 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     },
     {
@@ -5102,7 +5113,7 @@
         "posShortNames": "RP",
         "teamShortName": "LAA",
         "teamName": "Los Angeles Angels",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06309_96_1.png",
         "scorerId": "06309",
         "posIds": [
           "016"
@@ -5266,7 +5277,7 @@
         "posShortNames": "RP",
         "teamShortName": "CHW",
         "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qxg_96_1.png",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qxg_96_2.png",
         "scorerId": "06qxg",
         "posIds": [
           "016"
@@ -5428,7 +5439,7 @@
         "posShortNames": "CF,LF,RF",
         "teamShortName": "HOU",
         "teamName": "Houston Astros",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06qjw_96_1.png",
         "scorerId": "06qjw",
         "posIds": [
           "010",
@@ -5472,7 +5483,7 @@
       "teamId": "10280",
       "id": "rrp1rogfmueoa7fy",
       "seq": 141032,
-      "desc": "The Dodgers reinstated Skubal from the bereavement list Wednesday, Noah Camras of SI.com reports.",
+      "desc": "The Dodgers reinstated Skubal (personal) from the bereavement list Wednesday, Noah Camras of SI.com reports.",
       "player": {
         "name": "Tarik Skubal",
         "posShortNames": "SP",
@@ -5579,7 +5590,7 @@
         "posShortNames": "RP,SP",
         "teamShortName": "TEX",
         "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05198_96_1.png",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05198_96_2.png",
         "scorerId": "05198",
         "posIds": [
           "016",
@@ -5614,27 +5625,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10050",
-      "id": "94my80xbmuempebm",
-      "seq": 141026,
-      "desc": "The Blue Jays recalled Van Eyk from Triple-A Buffalo between games of Wednesday's doubleheader against the Orioles.",
-      "player": {
-        "name": "CJ Van Eyk",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "04erh",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
