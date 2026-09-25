@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T21:02:15.193323Z",
+  "lastUpdated": "2026-09-25T03:01:12.489350Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4197,6 +4197,154 @@
   "transactions": [
     {
       "displayDate": 1790265600000,
+      "teamId": "10010",
+      "id": "k0g3hdd3mug5ouoh",
+      "seq": 141054,
+      "desc": "Gibson was optioned to the Orioles' Spring Training Complex after Wednesday's doubleheader against the Blue Jays.",
+      "player": {
+        "name": "Trey Gibson",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mc1_96_1.png",
+        "scorerId": "06mc1",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790265600000,
+      "teamId": "10010",
+      "id": "6cf7umlsmug5oun2",
+      "seq": 141053,
+      "desc": "Suarez had his contract selected from Triple-A Norfolk on Thursday.",
+      "player": {
+        "name": "Albert Suarez",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02xid_96_9.png",
+        "scorerId": "02xid",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790265600000,
+      "teamId": "10105",
+      "id": "evkux0bwmug5ouke",
+      "seq": 141052,
+      "desc": "The Astros selected Barrosa from Triple-A Sugar Land on Thursday.",
+      "player": {
+        "name": "Jorge Barrosa",
+        "posShortNames": "CF,LF,RF",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mrb_96_3.png",
+        "scorerId": "04mrb",
+        "posIds": [
+          "010",
+          "009",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790265600000,
+      "teamId": "10105",
+      "id": "j8elabaxmug5ao3r",
+      "seq": 141051,
+      "desc": "The Astros designated Alexander for assignment Thursday.",
+      "player": {
+        "name": "Jason Alexander",
+        "posShortNames": "SP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xze_96_2.png",
+        "scorerId": "05xze",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790265600000,
+      "teamId": "10150",
+      "id": "te2hsa4rmug4ibo9",
+      "seq": 141050,
+      "desc": "Atlanta selected Hernandez's contract from Triple-A Gwinnett on Thursday.",
+      "player": {
+        "name": "Elieser Hernandez",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yx9_96_11.png",
+        "scorerId": "03yx9",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790265600000,
+      "teamId": "10110",
+      "id": "ql08hm37mug444pu",
+      "seq": 141049,
+      "desc": "The Angels recalled Martin from Triple-A Salt Lake on Thursday.",
+      "player": {
+        "name": "Trevor Martin",
+        "posShortNames": "RP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "",
+        "scorerId": "06309",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790265600000,
       "teamId": "10250",
       "id": "u0aq7oe2mug064yu",
       "seq": 141048,
@@ -4240,7 +4388,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
       }
     },
     {
@@ -4515,7 +4668,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
       }
     },
     {
@@ -4612,7 +4770,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 1",
+            "typeId": "21"
+          }
+        ]
       }
     },
     {
@@ -4753,153 +4916,6 @@
           {
             "tooltip": "Minor Leagues",
             "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10010",
-      "id": "v7k1kggvmuelwzmr",
-      "seq": 141023,
-      "desc": "The Orioles recalled Gibson from Triple-A Norfolk in between games of Wednesday's doubleheader against the Blue Jays. Gibson will start the second game of the twin bill.",
-      "player": {
-        "name": "Trey Gibson",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mc1_96_1.png",
-        "scorerId": "06mc1",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10010",
-      "id": "e83y9uuemuelwzjr",
-      "seq": 141022,
-      "desc": "The Orioles optioned De Leon to their spring training complex Wednesday.",
-      "player": {
-        "name": "Luis De Leon",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ckl_96_1.png",
-        "scorerId": "06ckl",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10070",
-      "id": "btayhkhumuek80oh",
-      "seq": 141021,
-      "desc": "The Guardians reinstated Armstrong (calf) from the 60-day injured list Wednesday.",
-      "player": {
-        "name": "Shawn Armstrong",
-        "posShortNames": "RP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02c47_96_16.png",
-        "scorerId": "02c47",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10070",
-      "id": "14t2pcdqmuejtthu",
-      "seq": 141020,
-      "desc": "The Guardians designated Brogdon for assignment Wednesday.",
-      "player": {
-        "name": "Connor Brogdon",
-        "posShortNames": "RP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ek8_96_7.png",
-        "scorerId": "04ek8",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10020",
-      "id": "75tzwfxbmuejfmfc",
-      "seq": 141019,
-      "desc": "The Red Sox optioned Eaton to Triple-A Worcester on Wednesday, Gabrielle Starr of the Boston Herald reports.",
-      "player": {
-        "name": "Nate Eaton",
-        "posShortNames": "RF,3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3n_96_2.png",
-        "scorerId": "04q3n",
-        "posIds": [
-          "011",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10020",
-      "id": "2ajjerg5muehgoct",
-      "seq": 141018,
-      "desc": "The Red Sox reinstated Rafaela (quadriceps) from the injured list Wednesday, Tim Healey of The Boston Globe reports. The 26-year-old will start in center field and bat sixth in Wednesday's game against the Guardians.",
-      "player": {
-        "name": "Ceddanne Rafaela",
-        "posShortNames": "CF",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gsi_96_3.png",
-        "scorerId": "05gsi",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 6",
-            "typeId": "26"
           }
         ]
       }
@@ -4908,6 +4924,154 @@
   "mlbTransactions": [
     {
       "displayDate": 1790265600000,
+      "teamId": "10010",
+      "id": "k0g3hdd3mug5ouoh",
+      "seq": 141054,
+      "desc": "Gibson was optioned to the Orioles' Spring Training Complex after Wednesday's doubleheader against the Blue Jays.",
+      "player": {
+        "name": "Trey Gibson",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mc1_96_1.png",
+        "scorerId": "06mc1",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790265600000,
+      "teamId": "10010",
+      "id": "6cf7umlsmug5oun2",
+      "seq": 141053,
+      "desc": "Suarez had his contract selected from Triple-A Norfolk on Thursday.",
+      "player": {
+        "name": "Albert Suarez",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02xid_96_9.png",
+        "scorerId": "02xid",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790265600000,
+      "teamId": "10105",
+      "id": "evkux0bwmug5ouke",
+      "seq": 141052,
+      "desc": "The Astros selected Barrosa from Triple-A Sugar Land on Thursday.",
+      "player": {
+        "name": "Jorge Barrosa",
+        "posShortNames": "CF,LF,RF",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mrb_96_3.png",
+        "scorerId": "04mrb",
+        "posIds": [
+          "010",
+          "009",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790265600000,
+      "teamId": "10105",
+      "id": "j8elabaxmug5ao3r",
+      "seq": 141051,
+      "desc": "The Astros designated Alexander for assignment Thursday.",
+      "player": {
+        "name": "Jason Alexander",
+        "posShortNames": "SP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xze_96_2.png",
+        "scorerId": "05xze",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790265600000,
+      "teamId": "10150",
+      "id": "te2hsa4rmug4ibo9",
+      "seq": 141050,
+      "desc": "Atlanta selected Hernandez's contract from Triple-A Gwinnett on Thursday.",
+      "player": {
+        "name": "Elieser Hernandez",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yx9_96_11.png",
+        "scorerId": "03yx9",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790265600000,
+      "teamId": "10110",
+      "id": "ql08hm37mug444pu",
+      "seq": 141049,
+      "desc": "The Angels recalled Martin from Triple-A Salt Lake on Thursday.",
+      "player": {
+        "name": "Trevor Martin",
+        "posShortNames": "RP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "",
+        "scorerId": "06309",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790265600000,
       "teamId": "10250",
       "id": "u0aq7oe2mug064yu",
       "seq": 141048,
@@ -4951,7 +5115,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
       }
     },
     {
@@ -5226,7 +5395,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 8",
+            "typeId": "28"
+          }
+        ]
       }
     },
     {
@@ -5323,7 +5497,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 1",
+            "typeId": "21"
+          }
+        ]
       }
     },
     {
@@ -5464,153 +5643,6 @@
           {
             "tooltip": "Minor Leagues",
             "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10010",
-      "id": "v7k1kggvmuelwzmr",
-      "seq": 141023,
-      "desc": "The Orioles recalled Gibson from Triple-A Norfolk in between games of Wednesday's doubleheader against the Blue Jays. Gibson will start the second game of the twin bill.",
-      "player": {
-        "name": "Trey Gibson",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06mc1_96_1.png",
-        "scorerId": "06mc1",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10010",
-      "id": "e83y9uuemuelwzjr",
-      "seq": 141022,
-      "desc": "The Orioles optioned De Leon to their spring training complex Wednesday.",
-      "player": {
-        "name": "Luis De Leon",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ckl_96_1.png",
-        "scorerId": "06ckl",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10070",
-      "id": "btayhkhumuek80oh",
-      "seq": 141021,
-      "desc": "The Guardians reinstated Armstrong (calf) from the 60-day injured list Wednesday.",
-      "player": {
-        "name": "Shawn Armstrong",
-        "posShortNames": "RP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02c47_96_16.png",
-        "scorerId": "02c47",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10070",
-      "id": "14t2pcdqmuejtthu",
-      "seq": 141020,
-      "desc": "The Guardians designated Brogdon for assignment Wednesday.",
-      "player": {
-        "name": "Connor Brogdon",
-        "posShortNames": "RP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ek8_96_7.png",
-        "scorerId": "04ek8",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10020",
-      "id": "75tzwfxbmuejfmfc",
-      "seq": 141019,
-      "desc": "The Red Sox optioned Eaton to Triple-A Worcester on Wednesday, Gabrielle Starr of the Boston Herald reports.",
-      "player": {
-        "name": "Nate Eaton",
-        "posShortNames": "RF,3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3n_96_2.png",
-        "scorerId": "04q3n",
-        "posIds": [
-          "011",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790179200000,
-      "teamId": "10020",
-      "id": "2ajjerg5muehgoct",
-      "seq": 141018,
-      "desc": "The Red Sox reinstated Rafaela (quadriceps) from the injured list Wednesday, Tim Healey of The Boston Globe reports. The 26-year-old will start in center field and bat sixth in Wednesday's game against the Guardians.",
-      "player": {
-        "name": "Ceddanne Rafaela",
-        "posShortNames": "CF",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gsi_96_3.png",
-        "scorerId": "05gsi",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Batting Order: 6",
-            "typeId": "26"
           }
         ]
       }
