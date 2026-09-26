@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T10:39:11.907147Z",
+  "lastUpdated": "2026-09-26T15:34:06.170980Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [
@@ -4196,6 +4196,80 @@
   },
   "transactions": [
     {
+      "displayDate": 1790438400000,
+      "teamId": "10080",
+      "id": "vj0fwk9amuijjyyz",
+      "seq": 141082,
+      "desc": "The Tigers reinstated Verlander (hamstring) from the 60-day injured list ahead of his start Saturday against the Pirates, Chris McCosky of The Detroit News reports.",
+      "player": {
+        "name": "Justin Verlander",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs000dp_96_17.png",
+        "scorerId": "000dp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790438400000,
+      "teamId": "10170",
+      "id": "ajm96tb2muijjyw5",
+      "seq": 141081,
+      "desc": "The Mets recalled McDermott from Triple-A Syracuse on Saturday.",
+      "player": {
+        "name": "Chayce McDermott",
+        "posShortNames": "RP,SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uws_96_2.png",
+        "scorerId": "05uws",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790438400000,
+      "teamId": "10170",
+      "id": "l39rj28cmuij5rrk",
+      "seq": 141080,
+      "desc": "The Mets optioned Yan to the Florida Complex League on Saturday.",
+      "player": {
+        "name": "Jefry Yan",
+        "posShortNames": "RP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "",
+        "scorerId": "05xsf",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1790352000000,
       "teamId": "10130",
       "id": "r584jfymmuhoz65t",
@@ -4819,76 +4893,6 @@
         "teamName": "Baltimore Orioles",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02xid_96_9.png",
         "scorerId": "02xid",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790265600000,
-      "teamId": "10105",
-      "id": "evkux0bwmug5ouke",
-      "seq": 141052,
-      "desc": "The Astros selected Barrosa from Triple-A Sugar Land on Thursday.",
-      "player": {
-        "name": "Jorge Barrosa",
-        "posShortNames": "CF,LF,RF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mrb_96_3.png",
-        "scorerId": "04mrb",
-        "posIds": [
-          "010",
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790265600000,
-      "teamId": "10105",
-      "id": "j8elabaxmug5ao3r",
-      "seq": 141051,
-      "desc": "The Astros designated Alexander for assignment Thursday.",
-      "player": {
-        "name": "Jason Alexander",
-        "posShortNames": "SP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xze_96_2.png",
-        "scorerId": "05xze",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790265600000,
-      "teamId": "10150",
-      "id": "te2hsa4rmug4ibo9",
-      "seq": 141050,
-      "desc": "Atlanta selected Hernandez's contract from Triple-A Gwinnett on Thursday.",
-      "player": {
-        "name": "Elieser Hernandez",
-        "posShortNames": "RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yx9_96_11.png",
-        "scorerId": "03yx9",
         "posIds": [
           "016"
         ],
@@ -4900,6 +4904,80 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1790438400000,
+      "teamId": "10080",
+      "id": "vj0fwk9amuijjyyz",
+      "seq": 141082,
+      "desc": "The Tigers reinstated Verlander (hamstring) from the 60-day injured list ahead of his start Saturday against the Pirates, Chris McCosky of The Detroit News reports.",
+      "player": {
+        "name": "Justin Verlander",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs000dp_96_17.png",
+        "scorerId": "000dp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790438400000,
+      "teamId": "10170",
+      "id": "ajm96tb2muijjyw5",
+      "seq": 141081,
+      "desc": "The Mets recalled McDermott from Triple-A Syracuse on Saturday.",
+      "player": {
+        "name": "Chayce McDermott",
+        "posShortNames": "RP,SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uws_96_2.png",
+        "scorerId": "05uws",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1790438400000,
+      "teamId": "10170",
+      "id": "l39rj28cmuij5rrk",
+      "seq": 141080,
+      "desc": "The Mets optioned Yan to the Florida Complex League on Saturday.",
+      "player": {
+        "name": "Jefry Yan",
+        "posShortNames": "RP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "",
+        "scorerId": "05xsf",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1790352000000,
       "teamId": "10130",
       "id": "r584jfymmuhoz65t",
@@ -5523,76 +5601,6 @@
         "teamName": "Baltimore Orioles",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02xid_96_9.png",
         "scorerId": "02xid",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790265600000,
-      "teamId": "10105",
-      "id": "evkux0bwmug5ouke",
-      "seq": 141052,
-      "desc": "The Astros selected Barrosa from Triple-A Sugar Land on Thursday.",
-      "player": {
-        "name": "Jorge Barrosa",
-        "posShortNames": "CF,LF,RF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mrb_96_3.png",
-        "scorerId": "04mrb",
-        "posIds": [
-          "010",
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790265600000,
-      "teamId": "10105",
-      "id": "j8elabaxmug5ao3r",
-      "seq": 141051,
-      "desc": "The Astros designated Alexander for assignment Thursday.",
-      "player": {
-        "name": "Jason Alexander",
-        "posShortNames": "SP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xze_96_2.png",
-        "scorerId": "05xze",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790265600000,
-      "teamId": "10150",
-      "id": "te2hsa4rmug4ibo9",
-      "seq": 141050,
-      "desc": "Atlanta selected Hernandez's contract from Triple-A Gwinnett on Thursday.",
-      "player": {
-        "name": "Elieser Hernandez",
-        "posShortNames": "RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yx9_96_11.png",
-        "scorerId": "03yx9",
         "posIds": [
           "016"
         ],
