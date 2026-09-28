@@ -1,11 +1,37 @@
 {
-  "lastUpdated": "2026-09-28T12:40:10.729975Z",
+  "lastUpdated": "2026-09-28T22:51:36.530333Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1790611200000,
+      "teamId": "10250",
+      "id": "nfc7cecdmulmc7nd",
+      "seq": 141123,
+      "desc": "The Cardinals claimed Hampton off waivers from the Nationals on Monday.",
+      "player": {
+        "name": "Chase Hampton",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yh3_96_1.png",
+        "scorerId": "05yh3",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1790524800000,
       "teamId": "10280",
@@ -249,7 +275,7 @@
         "posShortNames": "RP",
         "teamShortName": "PIT",
         "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515a_96_1.png",
         "scorerId": "0515a",
         "posIds": [
           "016"
@@ -665,33 +691,6 @@
         "headshotUrl": "",
         "scorerId": "06cqy",
         "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790438400000,
-      "teamId": "10140",
-      "id": "iotk69pbmuir1izv",
-      "seq": 141093,
-      "desc": "The Rangers optioned Collyer to the Arizona Complex League on Saturday.",
-      "player": {
-        "name": "Gavin Collyer",
-        "posShortNames": "RP,SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05198_96_2.png",
-        "scorerId": "05198",
-        "posIds": [
-          "016",
           "015"
         ],
         "rookie": false,
@@ -707,6 +706,32 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1790611200000,
+      "teamId": "10250",
+      "id": "nfc7cecdmulmc7nd",
+      "seq": 141123,
+      "desc": "The Cardinals claimed Hampton off waivers from the Nationals on Monday.",
+      "player": {
+        "name": "Chase Hampton",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yh3_96_1.png",
+        "scorerId": "05yh3",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1790524800000,
       "teamId": "10280",
       "id": "69j9k12imuk6ir0z",
@@ -949,7 +974,7 @@
         "posShortNames": "RP",
         "teamShortName": "PIT",
         "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515a_96_1.png",
         "scorerId": "0515a",
         "posIds": [
           "016"
@@ -1365,33 +1390,6 @@
         "headshotUrl": "",
         "scorerId": "06cqy",
         "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790438400000,
-      "teamId": "10140",
-      "id": "iotk69pbmuir1izv",
-      "seq": 141093,
-      "desc": "The Rangers optioned Collyer to the Arizona Complex League on Saturday.",
-      "player": {
-        "name": "Gavin Collyer",
-        "posShortNames": "RP,SP",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05198_96_2.png",
-        "scorerId": "05198",
-        "posIds": [
-          "016",
           "015"
         ],
         "rookie": false,
