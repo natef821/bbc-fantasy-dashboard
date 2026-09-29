@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T03:46:34.829610Z",
+  "lastUpdated": "2026-09-29T11:58:18.109048Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -419,7 +419,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
       }
     },
     {
@@ -1118,7 +1123,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "In starting lineup",
+            "typeId": "12"
+          }
+        ]
       }
     },
     {
