@@ -1,11 +1,38 @@
 {
-  "lastUpdated": "2026-09-30T17:26:40.781039Z",
+  "lastUpdated": "2026-09-30T21:46:25.533524Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1790784000000,
+      "teamId": "10020",
+      "id": "6j8pdmqkmuombx1c",
+      "seq": 141136,
+      "desc": "The Red Sox added Mead (wrist) to their wild-card series roster Wednesday, Jorge Castillo of ESPN.com reports.",
+      "player": {
+        "name": "Curtis Mead",
+        "posShortNames": "1B,3B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_4.png",
+        "scorerId": "05ahe",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1790697600000,
       "teamId": "10290",
@@ -197,7 +224,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -219,7 +251,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -360,7 +397,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -614,7 +656,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
       }
     },
     {
@@ -678,28 +725,6 @@
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041r1_96_9.png",
         "scorerId": "041r1",
         "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10040",
-      "id": "8oyt0kh5muk102jm",
-      "seq": 141105,
-      "desc": "The Rays recalled Scholtens from Triple-A Durham on Sunday.",
-      "player": {
-        "name": "Jesse Scholtens",
-        "posShortNames": "RP,SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041uv_96_4.png",
-        "scorerId": "041uv",
-        "posIds": [
-          "016",
           "015"
         ],
         "rookie": false,
@@ -710,6 +735,33 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1790784000000,
+      "teamId": "10020",
+      "id": "6j8pdmqkmuombx1c",
+      "seq": 141136,
+      "desc": "The Red Sox added Mead (wrist) to their wild-card series roster Wednesday, Jorge Castillo of ESPN.com reports.",
+      "player": {
+        "name": "Curtis Mead",
+        "posShortNames": "1B,3B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_4.png",
+        "scorerId": "05ahe",
+        "posIds": [
+          "002",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1790697600000,
       "teamId": "10290",
       "id": "phx4jrzzmumwyaiw",
@@ -900,7 +952,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -922,7 +979,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1063,7 +1125,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1317,7 +1384,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 9",
+            "typeId": "29"
+          }
+        ]
       }
     },
     {
@@ -1381,28 +1453,6 @@
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041r1_96_9.png",
         "scorerId": "041r1",
         "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10040",
-      "id": "8oyt0kh5muk102jm",
-      "seq": 141105,
-      "desc": "The Rays recalled Scholtens from Triple-A Durham on Sunday.",
-      "player": {
-        "name": "Jesse Scholtens",
-        "posShortNames": "RP,SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041uv_96_4.png",
-        "scorerId": "041uv",
-        "posIds": [
-          "016",
           "015"
         ],
         "rookie": false,
