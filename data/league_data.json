@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T12:15:24.958397Z",
+  "lastUpdated": "2026-10-01T22:14:14.262725Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,17 +7,95 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1790870400000,
+      "teamId": "10250",
+      "id": "h9zo3tvkmuq3bf7h",
+      "seq": 141139,
+      "desc": "The Arizona Diamondbacks traded SP Brian Curley to the St. Louis Cardinals.",
+      "player": {
+        "name": "Brian Curley",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "06roy",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790870400000,
+      "teamId": "10030",
+      "id": "kl4563kdmupxccy4",
+      "seq": 141138,
+      "desc": "The Yankees outrighted Cornielle to the Florida Complex League on Thursday.",
+      "player": {
+        "name": "Alexander Cornielle",
+        "posShortNames": "SP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "",
+        "scorerId": "0622r",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790870400000,
+      "teamId": "10180",
+      "id": "9tg7ijhnmupohghh",
+      "seq": 141137,
+      "desc": "Urquidy elected free agency Wednesday after clearing waivers.",
+      "player": {
+        "name": "Jose Urquidy",
+        "posShortNames": "SP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0440h_96_8.png",
+        "scorerId": "0440h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1790784000000,
       "teamId": "10020",
       "id": "6j8pdmqkmuombx1c",
       "seq": 141136,
-      "desc": "The Red Sox added Mead (wrist) to their wild-card series roster Wednesday, Jorge Castillo of ESPN.com reports.",
+      "desc": "The Red Sox added Mead (wrist) to their roster Wednesday for the AL Wild Card Series against the Yankees, Jorge Castillo of ESPN.com reports.",
       "player": {
         "name": "Curtis Mead",
         "posShortNames": "1B,3B",
         "teamShortName": "BOS",
         "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_4.png",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_5.png",
         "scorerId": "05ahe",
         "posIds": [
           "002",
@@ -139,14 +217,19 @@
         "posShortNames": "SS",
         "teamShortName": "ATL",
         "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qk3_96_3.png",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qk3_96_4.png",
         "scorerId": "03qk3",
         "posIds": [
           "005"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -160,14 +243,19 @@
         "posShortNames": "1B",
         "teamShortName": "ATL",
         "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs032gq_96_14.png",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs032gq_96_15.png",
         "scorerId": "032gq",
         "posIds": [
           "002"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -333,7 +421,7 @@
       "teamId": "10105",
       "id": "9tsyxc3gmuk5qd4u",
       "seq": 141121,
-      "desc": "The Astros optioned Blanco to the minors Sunday.",
+      "desc": "The Astros optioned Blanco to Triple-A Sugar Land on Sunday.",
       "player": {
         "name": "Ronel Blanco",
         "posShortNames": "SP",
@@ -365,7 +453,7 @@
         "posShortNames": "2B",
         "teamShortName": "HOU",
         "teamName": "Houston Astros",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ps5_96_1.png",
         "scorerId": "04ps5",
         "posIds": [
           "003"
@@ -448,7 +536,7 @@
       "teamId": "10140",
       "id": "tam7pflhmuk4jrl0",
       "seq": 141116,
-      "desc": "O'Hoppe was optioned to the ACL Rangers on Sunday.",
+      "desc": "The Rangers optioned O'Hoppe to the rookie-level Arizona Complex League on Sunday.",
       "player": {
         "name": "Logan O'Hoppe",
         "posShortNames": "C",
@@ -497,7 +585,7 @@
       "teamId": "10070",
       "id": "rdwallmzmuk3rebl",
       "seq": 141114,
-      "desc": "The Guardians optioned Yoho to Triple-A Columbus on Sunday, Roundtable.io reports.",
+      "desc": "The Guardians optioned Yoho to Triple-A Columbus on Sunday.",
       "player": {
         "name": "Craig Yoho",
         "posShortNames": "SP",
@@ -523,7 +611,7 @@
       "teamId": "10070",
       "id": "jticxpuxmuk3re9d",
       "seq": 141113,
-      "desc": "The Guardians recalled Peterson from Triple-A Columbus on Sunday, Roundtable.io reports.",
+      "desc": "The Guardians recalled Peterson from Triple-A Columbus on Sunday.",
       "player": {
         "name": "Austin Peterson",
         "posShortNames": "SP",
@@ -623,74 +711,6 @@
         "posIds": [
           "011",
           "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10020",
-      "id": "g7sz3hmjmuk1ea1d",
-      "seq": 141108,
-      "desc": "The Red Sox reinstated Houck (elbow) from the 60-day injured list Sunday. He will start Boston's regular-season finale against the Cubs.",
-      "player": {
-        "name": "Tanner Houck",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03djk_96_8.png",
-        "scorerId": "03djk",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10180",
-      "id": "kni837n7muk102nq",
-      "seq": 141107,
-      "desc": "The Phillies designated Urquidy for assignment Sunday.",
-      "player": {
-        "name": "Jose Urquidy",
-        "posShortNames": "SP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0440h_96_8.png",
-        "scorerId": "0440h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10180",
-      "id": "h59ju5uxmuk102mb",
-      "seq": 141106,
-      "desc": "The Phillies activated Luzardo (shoulder) from the 15-day injured list Sunday, Matt Gelb of The Athletic reports.",
-      "player": {
-        "name": "Jesus Luzardo",
-        "posShortNames": "SP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041r1_96_9.png",
-        "scorerId": "041r1",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -700,17 +720,95 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1790870400000,
+      "teamId": "10250",
+      "id": "h9zo3tvkmuq3bf7h",
+      "seq": 141139,
+      "desc": "The Arizona Diamondbacks traded SP Brian Curley to the St. Louis Cardinals.",
+      "player": {
+        "name": "Brian Curley",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "06roy",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790870400000,
+      "teamId": "10030",
+      "id": "kl4563kdmupxccy4",
+      "seq": 141138,
+      "desc": "The Yankees outrighted Cornielle to the Florida Complex League on Thursday.",
+      "player": {
+        "name": "Alexander Cornielle",
+        "posShortNames": "SP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "",
+        "scorerId": "0622r",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1790870400000,
+      "teamId": "10180",
+      "id": "9tg7ijhnmupohghh",
+      "seq": 141137,
+      "desc": "Urquidy elected free agency Wednesday after clearing waivers.",
+      "player": {
+        "name": "Jose Urquidy",
+        "posShortNames": "SP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0440h_96_8.png",
+        "scorerId": "0440h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1790784000000,
       "teamId": "10020",
       "id": "6j8pdmqkmuombx1c",
       "seq": 141136,
-      "desc": "The Red Sox added Mead (wrist) to their wild-card series roster Wednesday, Jorge Castillo of ESPN.com reports.",
+      "desc": "The Red Sox added Mead (wrist) to their roster Wednesday for the AL Wild Card Series against the Yankees, Jorge Castillo of ESPN.com reports.",
       "player": {
         "name": "Curtis Mead",
         "posShortNames": "1B,3B",
         "teamShortName": "BOS",
         "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_4.png",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_5.png",
         "scorerId": "05ahe",
         "posIds": [
           "002",
@@ -832,14 +930,19 @@
         "posShortNames": "SS",
         "teamShortName": "ATL",
         "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qk3_96_3.png",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qk3_96_4.png",
         "scorerId": "03qk3",
         "posIds": [
           "005"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -853,14 +956,19 @@
         "posShortNames": "1B",
         "teamShortName": "ATL",
         "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs032gq_96_14.png",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs032gq_96_15.png",
         "scorerId": "032gq",
         "posIds": [
           "002"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1026,7 +1134,7 @@
       "teamId": "10105",
       "id": "9tsyxc3gmuk5qd4u",
       "seq": 141121,
-      "desc": "The Astros optioned Blanco to the minors Sunday.",
+      "desc": "The Astros optioned Blanco to Triple-A Sugar Land on Sunday.",
       "player": {
         "name": "Ronel Blanco",
         "posShortNames": "SP",
@@ -1058,7 +1166,7 @@
         "posShortNames": "2B",
         "teamShortName": "HOU",
         "teamName": "Houston Astros",
-        "headshotUrl": "",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ps5_96_1.png",
         "scorerId": "04ps5",
         "posIds": [
           "003"
@@ -1141,7 +1249,7 @@
       "teamId": "10140",
       "id": "tam7pflhmuk4jrl0",
       "seq": 141116,
-      "desc": "O'Hoppe was optioned to the ACL Rangers on Sunday.",
+      "desc": "The Rangers optioned O'Hoppe to the rookie-level Arizona Complex League on Sunday.",
       "player": {
         "name": "Logan O'Hoppe",
         "posShortNames": "C",
@@ -1190,7 +1298,7 @@
       "teamId": "10070",
       "id": "rdwallmzmuk3rebl",
       "seq": 141114,
-      "desc": "The Guardians optioned Yoho to Triple-A Columbus on Sunday, Roundtable.io reports.",
+      "desc": "The Guardians optioned Yoho to Triple-A Columbus on Sunday.",
       "player": {
         "name": "Craig Yoho",
         "posShortNames": "SP",
@@ -1216,7 +1324,7 @@
       "teamId": "10070",
       "id": "jticxpuxmuk3re9d",
       "seq": 141113,
-      "desc": "The Guardians recalled Peterson from Triple-A Columbus on Sunday, Roundtable.io reports.",
+      "desc": "The Guardians recalled Peterson from Triple-A Columbus on Sunday.",
       "player": {
         "name": "Austin Peterson",
         "posShortNames": "SP",
@@ -1316,74 +1424,6 @@
         "posIds": [
           "011",
           "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10020",
-      "id": "g7sz3hmjmuk1ea1d",
-      "seq": 141108,
-      "desc": "The Red Sox reinstated Houck (elbow) from the 60-day injured list Sunday. He will start Boston's regular-season finale against the Cubs.",
-      "player": {
-        "name": "Tanner Houck",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03djk_96_8.png",
-        "scorerId": "03djk",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10180",
-      "id": "kni837n7muk102nq",
-      "seq": 141107,
-      "desc": "The Phillies designated Urquidy for assignment Sunday.",
-      "player": {
-        "name": "Jose Urquidy",
-        "posShortNames": "SP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0440h_96_8.png",
-        "scorerId": "0440h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10180",
-      "id": "h59ju5uxmuk102mb",
-      "seq": 141106,
-      "desc": "The Phillies activated Luzardo (shoulder) from the 15-day injured list Sunday, Matt Gelb of The Athletic reports.",
-      "player": {
-        "name": "Jesus Luzardo",
-        "posShortNames": "SP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041r1_96_9.png",
-        "scorerId": "041r1",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
