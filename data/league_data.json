@@ -1,11 +1,37 @@
 {
-  "lastUpdated": "2026-10-02T11:44:26.176644Z",
+  "lastUpdated": "2026-10-02T17:16:25.717410Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1790956800000,
+      "teamId": "10090",
+      "id": "rhtr1k9amur3chlc",
+      "seq": 141140,
+      "desc": "The Royals outrighted Little to Triple-A Omaha on Thursday.",
+      "player": {
+        "name": "Luke Little",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05koh_96_2.png",
+        "scorerId": "05koh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1790870400000,
       "teamId": "10250",
@@ -679,28 +705,6 @@
         "scorerId": "05xy1",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10020",
-      "id": "q8u84j12muk1sfn3",
-      "seq": 141109,
-      "desc": "The Red Sox recalled Eaton from Triple-A Worcester on Sunday.",
-      "player": {
-        "name": "Nate Eaton",
-        "posShortNames": "RF,3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3n_96_2.png",
-        "scorerId": "04q3n",
-        "posIds": [
-          "011",
-          "004"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -710,6 +714,32 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1790956800000,
+      "teamId": "10090",
+      "id": "rhtr1k9amur3chlc",
+      "seq": 141140,
+      "desc": "The Royals outrighted Little to Triple-A Omaha on Thursday.",
+      "player": {
+        "name": "Luke Little",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05koh_96_2.png",
+        "scorerId": "05koh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1790870400000,
       "teamId": "10250",
       "id": "h9zo3tvkmuq3bf7h",
@@ -1382,28 +1412,6 @@
         "scorerId": "05xy1",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10020",
-      "id": "q8u84j12muk1sfn3",
-      "seq": 141109,
-      "desc": "The Red Sox recalled Eaton from Triple-A Worcester on Sunday.",
-      "player": {
-        "name": "Nate Eaton",
-        "posShortNames": "RF,3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3n_96_2.png",
-        "scorerId": "04q3n",
-        "posIds": [
-          "011",
-          "004"
         ],
         "rookie": false,
         "minorsEligible": false,
