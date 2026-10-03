@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T15:34:35.462148Z",
+  "lastUpdated": "2026-10-03T20:28:12.503387Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,27 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1791043200000,
+      "teamId": "10290",
+      "id": "w1p1btr5musmbwma",
+      "seq": 141142,
+      "desc": "Vasquez was added to the Padres' NLDS roster Saturday, Bob Nightengale of USA Today reports.",
+      "player": {
+        "name": "Randy Vasquez",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05itb_96_3.png",
+        "scorerId": "05itb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1790956800000,
       "teamId": "10240",
       "id": "cot850mjmuredj71",
@@ -276,7 +297,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -297,7 +323,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -339,7 +370,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -361,7 +397,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -688,37 +729,32 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10240",
-      "id": "c7xrd4xbmuk3d6tg",
-      "seq": 141111,
-      "desc": "The Pirates optioned Sisk to Triple-A Indianapolis on Sunday, Kevin Gorman of TribLive.com reports.",
-      "player": {
-        "name": "Evan Sisk",
-        "posShortNames": "RP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pzi_96_1.png",
-        "scorerId": "04pzi",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1791043200000,
+      "teamId": "10290",
+      "id": "w1p1btr5musmbwma",
+      "seq": 141142,
+      "desc": "Vasquez was added to the Padres' NLDS roster Saturday, Bob Nightengale of USA Today reports.",
+      "player": {
+        "name": "Randy Vasquez",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05itb_96_3.png",
+        "scorerId": "05itb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1790956800000,
       "teamId": "10240",
       "id": "cot850mjmuredj71",
@@ -988,7 +1024,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1009,7 +1050,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1051,7 +1097,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -1073,7 +1124,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1400,32 +1456,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10240",
-      "id": "c7xrd4xbmuk3d6tg",
-      "seq": 141111,
-      "desc": "The Pirates optioned Sisk to Triple-A Indianapolis on Sunday, Kevin Gorman of TribLive.com reports.",
-      "player": {
-        "name": "Evan Sisk",
-        "posShortNames": "RP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pzi_96_1.png",
-        "scorerId": "04pzi",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
