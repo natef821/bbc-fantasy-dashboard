@@ -1,11 +1,53 @@
 {
-  "lastUpdated": "2026-10-05T13:20:59.816845Z",
+  "lastUpdated": "2026-10-05T23:36:03.728809Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1791216000000,
+      "teamId": "10290",
+      "id": "n924enk2muvoaavx",
+      "seq": 141145,
+      "desc": "The Padres removed Vasquez from their NLDS roster Monday.",
+      "player": {
+        "name": "Randy Vasquez",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05itb_96_3.png",
+        "scorerId": "05itb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1791216000000,
+      "teamId": "10290",
+      "id": "7klwf96cmuvoaasw",
+      "seq": 141144,
+      "desc": "The Padres activated Buehler from the paternity list Monday.",
+      "player": {
+        "name": "Walker Buehler",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03aac_96_12.png",
+        "scorerId": "03aac",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1791129600000,
       "teamId": "10020",
@@ -381,7 +423,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -403,7 +450,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -658,53 +710,6 @@
           "005",
           "003",
           "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10070",
-      "id": "rdwallmzmuk3rebl",
-      "seq": 141114,
-      "desc": "The Guardians optioned Yoho to Triple-A Columbus on Sunday.",
-      "player": {
-        "name": "Craig Yoho",
-        "posShortNames": "SP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06fzq_96_1.png",
-        "scorerId": "06fzq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10070",
-      "id": "jticxpuxmuk3re9d",
-      "seq": 141113,
-      "desc": "The Guardians recalled Peterson from Triple-A Columbus on Sunday.",
-      "player": {
-        "name": "Austin Peterson",
-        "posShortNames": "SP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061bn_96_1.png",
-        "scorerId": "061bn",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -714,6 +719,48 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1791216000000,
+      "teamId": "10290",
+      "id": "n924enk2muvoaavx",
+      "seq": 141145,
+      "desc": "The Padres removed Vasquez from their NLDS roster Monday.",
+      "player": {
+        "name": "Randy Vasquez",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05itb_96_3.png",
+        "scorerId": "05itb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1791216000000,
+      "teamId": "10290",
+      "id": "7klwf96cmuvoaasw",
+      "seq": 141144,
+      "desc": "The Padres activated Buehler from the paternity list Monday.",
+      "player": {
+        "name": "Walker Buehler",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03aac_96_12.png",
+        "scorerId": "03aac",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1791129600000,
       "teamId": "10020",
       "id": "00xs0p9jmuubloi7",
@@ -1088,7 +1135,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 7",
+            "typeId": "27"
+          }
+        ]
       }
     },
     {
@@ -1110,7 +1162,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1365,53 +1422,6 @@
           "005",
           "003",
           "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10070",
-      "id": "rdwallmzmuk3rebl",
-      "seq": 141114,
-      "desc": "The Guardians optioned Yoho to Triple-A Columbus on Sunday.",
-      "player": {
-        "name": "Craig Yoho",
-        "posShortNames": "SP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06fzq_96_1.png",
-        "scorerId": "06fzq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10070",
-      "id": "jticxpuxmuk3re9d",
-      "seq": 141113,
-      "desc": "The Guardians recalled Peterson from Triple-A Columbus on Sunday.",
-      "player": {
-        "name": "Austin Peterson",
-        "posShortNames": "SP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs061bn_96_1.png",
-        "scorerId": "061bn",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
