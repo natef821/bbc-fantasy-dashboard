@@ -1,11 +1,32 @@
 {
-  "lastUpdated": "2026-10-04T20:46:26.718076Z",
+  "lastUpdated": "2026-10-05T03:36:33.593614Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1791129600000,
+      "teamId": "10020",
+      "id": "00xs0p9jmuubloi7",
+      "seq": 141143,
+      "desc": "Chapman passed a physical examination Saturday, which was the final hurdle in order for his $13 million option for 2027 to vest, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Aroldis Chapman",
+        "posShortNames": "RP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01gya_96_16.png",
+        "scorerId": "01gya",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1791043200000,
       "teamId": "10290",
@@ -297,7 +318,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -318,7 +344,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -684,27 +715,6 @@
         "scorerId": "061bn",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10240",
-      "id": "jbed4i4mmuk3d6wf",
-      "seq": 141112,
-      "desc": "The Pirates recalled Murdock from Triple-A Indianapolis on Sunday, Kevin Gorman of TribLive.com reports.",
-      "player": {
-        "name": "Noah Murdock",
-        "posShortNames": "RP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515a_96_1.png",
-        "scorerId": "0515a",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -714,6 +724,27 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1791129600000,
+      "teamId": "10020",
+      "id": "00xs0p9jmuubloi7",
+      "seq": 141143,
+      "desc": "Chapman passed a physical examination Saturday, which was the final hurdle in order for his $13 million option for 2027 to vest, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Aroldis Chapman",
+        "posShortNames": "RP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01gya_96_16.png",
+        "scorerId": "01gya",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1791043200000,
       "teamId": "10290",
       "id": "w1p1btr5musmbwma",
@@ -1004,7 +1035,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1025,7 +1061,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1391,27 +1432,6 @@
         "scorerId": "061bn",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10240",
-      "id": "jbed4i4mmuk3d6wf",
-      "seq": 141112,
-      "desc": "The Pirates recalled Murdock from Triple-A Indianapolis on Sunday, Kevin Gorman of TribLive.com reports.",
-      "player": {
-        "name": "Noah Murdock",
-        "posShortNames": "RP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515a_96_1.png",
-        "scorerId": "0515a",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
