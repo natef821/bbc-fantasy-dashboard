@@ -1,11 +1,53 @@
 {
-  "lastUpdated": "2026-10-07T12:29:35.679272Z",
+  "lastUpdated": "2026-10-07T22:32:22.915611Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1791388800000,
+      "teamId": "10290",
+      "id": "2yw05rqhmuyn3th6",
+      "seq": 141148,
+      "desc": "The Padres removed Peralta from their NLDS roster on Wednesday.",
+      "player": {
+        "name": "Wandy Peralta",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047sh_96_12.png",
+        "scorerId": "047sh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1791388800000,
+      "teamId": "10290",
+      "id": "hm0i0dehmuyn3te0",
+      "seq": 141147,
+      "desc": "Miller was reinstated from the paternity list ahead of Game 4 of the NLDS versus the Brewers on Wednesday.",
+      "player": {
+        "name": "Mason Miller",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ucd_96_6.png",
+        "scorerId": "05ucd",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1791302400000,
       "teamId": "10290",
@@ -386,7 +428,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -407,7 +454,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -449,7 +501,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 1",
+            "typeId": "21"
+          }
+        ]
       }
     },
     {
@@ -471,7 +528,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -651,53 +713,6 @@
         "scorerId": "0514j",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10200",
-      "id": "pfnfd023muk4jrnj",
-      "seq": 141117,
-      "desc": "The Cubs recalled Garrett from Triple-A Iowa on Sunday.",
-      "player": {
-        "name": "Braxton Garrett",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041e3_96_9.png",
-        "scorerId": "041e3",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10140",
-      "id": "tam7pflhmuk4jrl0",
-      "seq": 141116,
-      "desc": "The Rangers optioned O'Hoppe to the rookie-level Arizona Complex League on Sunday.",
-      "player": {
-        "name": "Logan O'Hoppe",
-        "posShortNames": "C",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q56_96_4.png",
-        "scorerId": "04q56",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -712,6 +727,48 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1791388800000,
+      "teamId": "10290",
+      "id": "2yw05rqhmuyn3th6",
+      "seq": 141148,
+      "desc": "The Padres removed Peralta from their NLDS roster on Wednesday.",
+      "player": {
+        "name": "Wandy Peralta",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047sh_96_12.png",
+        "scorerId": "047sh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1791388800000,
+      "teamId": "10290",
+      "id": "hm0i0dehmuyn3te0",
+      "seq": 141147,
+      "desc": "Miller was reinstated from the paternity list ahead of Game 4 of the NLDS versus the Brewers on Wednesday.",
+      "player": {
+        "name": "Mason Miller",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ucd_96_6.png",
+        "scorerId": "05ucd",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1791302400000,
       "teamId": "10290",
       "id": "i9zmchc0muxet72h",
@@ -1091,7 +1148,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1112,7 +1174,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1154,7 +1221,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Batting Order: 1",
+            "typeId": "21"
+          }
+        ]
       }
     },
     {
@@ -1176,7 +1248,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1356,53 +1433,6 @@
         "scorerId": "0514j",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10200",
-      "id": "pfnfd023muk4jrnj",
-      "seq": 141117,
-      "desc": "The Cubs recalled Garrett from Triple-A Iowa on Sunday.",
-      "player": {
-        "name": "Braxton Garrett",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041e3_96_9.png",
-        "scorerId": "041e3",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10140",
-      "id": "tam7pflhmuk4jrl0",
-      "seq": 141116,
-      "desc": "The Rangers optioned O'Hoppe to the rookie-level Arizona Complex League on Sunday.",
-      "player": {
-        "name": "Logan O'Hoppe",
-        "posShortNames": "C",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q56_96_4.png",
-        "scorerId": "04q56",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
