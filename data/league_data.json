@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T22:07:46.396008Z",
+  "lastUpdated": "2026-10-10T03:54:26.479690Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,53 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1791561600000,
+      "teamId": "10150",
+      "id": "4huhjy2smv1kel0e",
+      "seq": 141150,
+      "desc": "Atlanta selected Young's contract from Triple-A Gwinnett on Thursday, Lindsay Crosby of BravesToday.com reports.",
+      "player": {
+        "name": "Danny Young",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qni_96_3.png",
+        "scorerId": "03qni",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1791561600000,
+      "teamId": "10150",
+      "id": "mw5nhmdumv1kekz0",
+      "seq": 141149,
+      "desc": "Atlanta designated Williams for assignment Friday, Lindsay Crosby of BravesToday.com reports.",
+      "player": {
+        "name": "Luke Williams",
+        "posShortNames": "SS",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qk3_96_4.png",
+        "scorerId": "03qk3",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1791388800000,
       "teamId": "10290",
       "id": "2yw05rqhmuyn3th6",
@@ -423,7 +470,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -650,58 +702,58 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10090",
-      "id": "79am6eibmuk4xyq1",
-      "seq": 141119,
-      "desc": "The Royals activated McArthur (elbow) from the 60-day injured list Sunday.",
-      "player": {
-        "name": "James McArthur",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pw3_96_3.png",
-        "scorerId": "04pw3",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10200",
-      "id": "3hyl1gummuk4jrp9",
-      "seq": 141118,
-      "desc": "The Cubs optioned Hollowell to the Arizona Complex League on Sunday.",
-      "player": {
-        "name": "Gavin Hollowell",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514j_96_3.png",
-        "scorerId": "0514j",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1791561600000,
+      "teamId": "10150",
+      "id": "4huhjy2smv1kel0e",
+      "seq": 141150,
+      "desc": "Atlanta selected Young's contract from Triple-A Gwinnett on Thursday, Lindsay Crosby of BravesToday.com reports.",
+      "player": {
+        "name": "Danny Young",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qni_96_3.png",
+        "scorerId": "03qni",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1791561600000,
+      "teamId": "10150",
+      "id": "mw5nhmdumv1kekz0",
+      "seq": 141149,
+      "desc": "Atlanta designated Williams for assignment Friday, Lindsay Crosby of BravesToday.com reports.",
+      "player": {
+        "name": "Luke Williams",
+        "posShortNames": "SS",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qk3_96_4.png",
+        "scorerId": "03qk3",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1791388800000,
       "teamId": "10290",
       "id": "2yw05rqhmuyn3th6",
@@ -1118,7 +1170,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     },
     {
@@ -1345,53 +1402,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10090",
-      "id": "79am6eibmuk4xyq1",
-      "seq": 141119,
-      "desc": "The Royals activated McArthur (elbow) from the 60-day injured list Sunday.",
-      "player": {
-        "name": "James McArthur",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pw3_96_3.png",
-        "scorerId": "04pw3",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10200",
-      "id": "3hyl1gummuk4jrp9",
-      "seq": 141118,
-      "desc": "The Cubs optioned Hollowell to the Arizona Complex League on Sunday.",
-      "player": {
-        "name": "Gavin Hollowell",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514j_96_3.png",
-        "scorerId": "0514j",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
