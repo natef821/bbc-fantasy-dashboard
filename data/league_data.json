@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T14:10:53.663992Z",
+  "lastUpdated": "2026-10-13T00:02:17.725790Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,32 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1791820800000,
+      "teamId": "10070",
+      "id": "ogoa0g1ymv5cyhdf",
+      "seq": 141152,
+      "desc": "Scheemann has been removed from the Guardians' roster for the ALCS, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "Daniel Schneemann",
+        "posShortNames": "CF",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bs4_96_2.png",
+        "scorerId": "06bs4",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1791734400000,
       "teamId": "10280",
       "id": "16bz1hi6mv42zizc",
@@ -675,37 +701,37 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10105",
-      "id": "9tsyxc3gmuk5qd4u",
-      "seq": 141121,
-      "desc": "The Astros optioned Blanco to Triple-A Sugar Land on Sunday.",
-      "player": {
-        "name": "Ronel Blanco",
-        "posShortNames": "SP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ydi_96_6.png",
-        "scorerId": "04ydi",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1791820800000,
+      "teamId": "10070",
+      "id": "ogoa0g1ymv5cyhdf",
+      "seq": 141152,
+      "desc": "Scheemann has been removed from the Guardians' roster for the ALCS, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "Daniel Schneemann",
+        "posShortNames": "CF",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bs4_96_2.png",
+        "scorerId": "06bs4",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1791734400000,
       "teamId": "10280",
       "id": "16bz1hi6mv42zizc",
@@ -1374,32 +1400,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10105",
-      "id": "9tsyxc3gmuk5qd4u",
-      "seq": 141121,
-      "desc": "The Astros optioned Blanco to Triple-A Sugar Land on Sunday.",
-      "player": {
-        "name": "Ronel Blanco",
-        "posShortNames": "SP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ydi_96_6.png",
-        "scorerId": "04ydi",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
