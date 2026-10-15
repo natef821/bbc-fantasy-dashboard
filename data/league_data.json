@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T10:43:34.179374Z",
+  "lastUpdated": "2026-10-15T16:08:23.558573Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,27 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1792080000000,
+      "teamId": "10180",
+      "id": "48tjq5aqmv9nnmzj",
+      "seq": 141153,
+      "desc": "The Phillies re-signed Mayza to a one-year contract Thursday, Matt Gelb of The Athletic reports.",
+      "player": {
+        "name": "Tim Mayza",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031dd_96_12.png",
+        "scorerId": "031dd",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1791820800000,
       "teamId": "10070",
       "id": "ogoa0g1ymv5cyhdf",
@@ -24,7 +45,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -675,32 +701,32 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10280",
-      "id": "69j9k12imuk6ir0z",
-      "seq": 141122,
-      "desc": "The Dodgers recalled Miller from Triple-A Oklahoma City on Sunday.",
-      "player": {
-        "name": "Bobby Miller",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwz_96_5.png",
-        "scorerId": "05gwz",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1792080000000,
+      "teamId": "10180",
+      "id": "48tjq5aqmv9nnmzj",
+      "seq": 141153,
+      "desc": "The Phillies re-signed Mayza to a one-year contract Thursday, Matt Gelb of The Athletic reports.",
+      "player": {
+        "name": "Tim Mayza",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031dd_96_12.png",
+        "scorerId": "031dd",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1791820800000,
       "teamId": "10070",
       "id": "ogoa0g1ymv5cyhdf",
@@ -718,7 +744,12 @@
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": []
+        "icons": [
+          {
+            "tooltip": "Not in starting lineup",
+            "typeId": "15"
+          }
+        ]
       }
     },
     {
@@ -1369,27 +1400,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1790524800000,
-      "teamId": "10280",
-      "id": "69j9k12imuk6ir0z",
-      "seq": 141122,
-      "desc": "The Dodgers recalled Miller from Triple-A Oklahoma City on Sunday.",
-      "player": {
-        "name": "Bobby Miller",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwz_96_5.png",
-        "scorerId": "05gwz",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
