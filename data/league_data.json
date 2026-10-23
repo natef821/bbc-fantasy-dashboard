@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T10:52:50.026398Z",
+  "lastUpdated": "2026-10-23T16:17:00.489191Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,100 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1792771200000,
+      "teamId": "10090",
+      "id": "m5atf5hkmvl36ic7",
+      "seq": 141160,
+      "desc": "The Royals outrighted Lange to Triple-A Omaha on Thursday.",
+      "player": {
+        "name": "Alex Lange",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yui_96_8.png",
+        "scorerId": "03yui",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1792771200000,
+      "teamId": "10090",
+      "id": "l6jnh5ugmvl36iar",
+      "seq": 141159,
+      "desc": "The Royals outrighted Black to Triple-A Omaha on Thursday.",
+      "player": {
+        "name": "Mason Black",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05r3g_96_1.png",
+        "scorerId": "05r3g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1792771200000,
+      "teamId": "10090",
+      "id": "c5znzu98mvl36i85",
+      "seq": 141158,
+      "desc": "The Royals outrighted McGee to Triple-A Omaha on Thursday.",
+      "player": {
+        "name": "Easton McGee",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rp_96_2.png",
+        "scorerId": "041rp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1792771200000,
+      "teamId": "10090",
+      "id": "v5p3f88vmvl2sca2",
+      "seq": 141157,
+      "desc": "The Royals outrighted Seabold (lat) to Triple-A Omaha on Thursday.",
+      "player": {
+        "name": "Connor Seabold",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
+        "scorerId": "03drx",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1792080000000,
       "teamId": "10150",
       "id": "dwewol8smv9y7k8v",
@@ -606,96 +700,105 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10150",
-      "id": "g6rde2ximumsmz89",
-      "seq": 141130,
-      "desc": "Atlanta selected Tellez's contract from Triple-A Gwinnett on Tuesday, Harrison Smajovits of SI.com reports.",
-      "player": {
-        "name": "Rowdy Tellez",
-        "posShortNames": "1B",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs032gq_96_15.png",
-        "scorerId": "032gq",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10020",
-      "id": "gjmpbc2emums8sgf",
-      "seq": 141129,
-      "desc": "The Red Sox activated Crochet (shoulder) from the 60-day injured list Tuesday, Tim Healey of The Boston Globe reports.",
-      "player": {
-        "name": "Garrett Crochet",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ajh_96_8.png",
-        "scorerId": "05ajh",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10030",
-      "id": "i4nc93u1mums8see",
-      "seq": 141128,
-      "desc": "The Yankees activated Grisham (hamstring) from the 10-day injured list Tuesday, Jon Morosi of MLB Network reports.",
-      "player": {
-        "name": "Trent Grisham",
-        "posShortNames": "CF",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pit_96_6.png",
-        "scorerId": "03pit",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10030",
-      "id": "0v7pd0tsmums8sbu",
-      "seq": 141127,
-      "desc": "The Yankees activated Stanton (calves) from the 60-day injured list Tuesday, Jon Morosi of MLB Network reports.",
-      "player": {
-        "name": "Giancarlo Stanton",
-        "posShortNames": "DH,RF",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01cdf_96_16.png",
-        "scorerId": "01cdf",
-        "posIds": [
-          "013",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1792771200000,
+      "teamId": "10090",
+      "id": "m5atf5hkmvl36ic7",
+      "seq": 141160,
+      "desc": "The Royals outrighted Lange to Triple-A Omaha on Thursday.",
+      "player": {
+        "name": "Alex Lange",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yui_96_8.png",
+        "scorerId": "03yui",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1792771200000,
+      "teamId": "10090",
+      "id": "l6jnh5ugmvl36iar",
+      "seq": 141159,
+      "desc": "The Royals outrighted Black to Triple-A Omaha on Thursday.",
+      "player": {
+        "name": "Mason Black",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05r3g_96_1.png",
+        "scorerId": "05r3g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1792771200000,
+      "teamId": "10090",
+      "id": "c5znzu98mvl36i85",
+      "seq": 141158,
+      "desc": "The Royals outrighted McGee to Triple-A Omaha on Thursday.",
+      "player": {
+        "name": "Easton McGee",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rp_96_2.png",
+        "scorerId": "041rp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1792771200000,
+      "teamId": "10090",
+      "id": "v5p3f88vmvl2sca2",
+      "seq": 141157,
+      "desc": "The Royals outrighted Seabold (lat) to Triple-A Omaha on Thursday.",
+      "player": {
+        "name": "Connor Seabold",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
+        "scorerId": "03drx",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1792080000000,
       "teamId": "10150",
       "id": "dwewol8smv9y7k8v",
@@ -1295,91 +1398,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10150",
-      "id": "g6rde2ximumsmz89",
-      "seq": 141130,
-      "desc": "Atlanta selected Tellez's contract from Triple-A Gwinnett on Tuesday, Harrison Smajovits of SI.com reports.",
-      "player": {
-        "name": "Rowdy Tellez",
-        "posShortNames": "1B",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs032gq_96_15.png",
-        "scorerId": "032gq",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10020",
-      "id": "gjmpbc2emums8sgf",
-      "seq": 141129,
-      "desc": "The Red Sox activated Crochet (shoulder) from the 60-day injured list Tuesday, Tim Healey of The Boston Globe reports.",
-      "player": {
-        "name": "Garrett Crochet",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ajh_96_8.png",
-        "scorerId": "05ajh",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10030",
-      "id": "i4nc93u1mums8see",
-      "seq": 141128,
-      "desc": "The Yankees activated Grisham (hamstring) from the 10-day injured list Tuesday, Jon Morosi of MLB Network reports.",
-      "player": {
-        "name": "Trent Grisham",
-        "posShortNames": "CF",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pit_96_6.png",
-        "scorerId": "03pit",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10030",
-      "id": "0v7pd0tsmums8sbu",
-      "seq": 141127,
-      "desc": "The Yankees activated Stanton (calves) from the 60-day injured list Tuesday, Jon Morosi of MLB Network reports.",
-      "player": {
-        "name": "Giancarlo Stanton",
-        "posShortNames": "DH,RF",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01cdf_96_16.png",
-        "scorerId": "01cdf",
-        "posIds": [
-          "013",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
