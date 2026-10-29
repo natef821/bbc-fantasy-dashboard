@@ -1,11 +1,507 @@
 {
-  "lastUpdated": "2026-10-29T12:07:31.408151Z",
+  "lastUpdated": "2026-10-29T22:19:50.202720Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10090",
+      "id": "xfti8z7kmvu1v7n7",
+      "seq": 141183,
+      "desc": "The Royals exercised Gonsolin's $2.5 million club option for 2027 on Thursday.",
+      "player": {
+        "name": "Tony Gonsolin",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041v6_96_10.png",
+        "scorerId": "041v6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10300",
+      "id": "xyknwu9imvu1v7m9",
+      "seq": 141182,
+      "desc": "Foley cleared waivers Thursday and was sent outright to Triple-A Sacramento, Susan Slusser of the San Francisco Chronicle reports.",
+      "player": {
+        "name": "Jason Foley",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aoq_96_7.png",
+        "scorerId": "04aoq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10300",
+      "id": "9dzn2rwlmvu1v7l7",
+      "seq": 141181,
+      "desc": "The Giants outrighted Basabe to Triple-A Sacramento on Thursday.",
+      "player": {
+        "name": "Osleivis Basabe",
+        "posShortNames": "2B",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ni5_96_2.png",
+        "scorerId": "04ni5",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10300",
+      "id": "lwh8471amvu1v7k1",
+      "seq": 141180,
+      "desc": "The Mariners claimed McCray off waivers from the Giants on Thursday, Susan Slusser of the San Francisco Chronicle reports.",
+      "player": {
+        "name": "Grant McCray",
+        "posShortNames": "CF",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0512r_96_1.png",
+        "scorerId": "0512r",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10300",
+      "id": "q1chp7szmvu1v7il",
+      "seq": 141179,
+      "desc": "The Giants activated Gage (elbow) from the 60-day injured list Thursday and outrighted him to Triple-A Sacramento.",
+      "player": {
+        "name": "Matt Gage",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03di1_96_2.png",
+        "scorerId": "03di1",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10190",
+      "id": "zabevhh3mvu1v7gt",
+      "seq": 141178,
+      "desc": "The Nationals designated Kent for assignment Thursday.",
+      "player": {
+        "name": "Zak Kent",
+        "posShortNames": "SP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0516v_96_2.png",
+        "scorerId": "0516v",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10300",
+      "id": "38gb6030mvu1v7e9",
+      "seq": 141177,
+      "desc": "The Nationals claimed Roxby off waivers from the Giants on Thursday.",
+      "player": {
+        "name": "Braxton Roxby",
+        "posShortNames": "SP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "05rkx",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10121",
+      "id": "buuz384hmvu0psj8",
+      "seq": 141176,
+      "desc": "The Boston Red Sox traded LF Nate Eaton to the  Athletics.",
+      "player": {
+        "name": "Nate Eaton",
+        "posShortNames": "LF",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3n_96_2.png",
+        "scorerId": "04q3n",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10020",
+      "id": "sagf2ih9mvu0pm8d",
+      "seq": 141176,
+      "desc": "The  Athletics traded SP Jareth Rayo to the Boston Red Sox.",
+      "player": null
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10130",
+      "id": "tb7hsfb5mvtxjkua",
+      "seq": 141175,
+      "desc": "The Mariners declined Robles' $9 million club option for the 2027 season Thursday, Daniel Kramer of MLB.com reports.",
+      "player": {
+        "name": "Victor Robles",
+        "posShortNames": "RF",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03c65_96_12.png",
+        "scorerId": "03c65",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10130",
+      "id": "u0kpx798mvtxjktc",
+      "seq": 141174,
+      "desc": "The Mariners declined Miller's $6.075 million club option for 2027 on Thursday.",
+      "player": {
+        "name": "Bryce Miller",
+        "posShortNames": "SP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05vy6_96_3.png",
+        "scorerId": "05vy6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10130",
+      "id": "hborrnt8mvtxjks9",
+      "seq": 141173,
+      "desc": "The Mariners exercised Munoz's $9 million club option for 2027 on Thursday.",
+      "player": {
+        "name": "Andres Munoz",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0403o_96_9.png",
+        "scorerId": "0403o",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10105",
+      "id": "eabfxkmjmvtxjkr3",
+      "seq": 141172,
+      "desc": "The Astros declined Weiss's $5 million club option for 2027 on Thursday, Jesse Rogers of ESPN.com reports.",
+      "player": {
+        "name": "Ryan Weiss",
+        "posShortNames": "SP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pq7_96_2.png",
+        "scorerId": "04pq7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10100",
+      "id": "zclh1iq4mvtxjkpo",
+      "seq": 141171,
+      "desc": "The Twins outrighted Gray to Triple-A St. Paul on Thursday, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Tristan Gray",
+        "posShortNames": "SS",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eme_96_4.png",
+        "scorerId": "04eme",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10100",
+      "id": "geglpjlsmvtxjko5",
+      "seq": 141170,
+      "desc": "The Twins outrighted Sabato to Triple-A St. Paul on Thursday, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Aaron Sabato",
+        "posShortNames": "1B",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ge2_96_1.png",
+        "scorerId": "05ge2",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10121",
+      "id": "pgfyy4y1mvtxjkmj",
+      "seq": 141169,
+      "desc": "The Athletics outrighted Serven to Triple-A Las Vegas on Thursday.",
+      "player": {
+        "name": "Brian Serven",
+        "posShortNames": "C",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rz_96_9.png",
+        "scorerId": "041rz",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10121",
+      "id": "ootu9q6pmvtxjkkn",
+      "seq": 141168,
+      "desc": "The Athletics outrighted Hartlieb to Triple-A Las Vegas on Thursday.",
+      "player": {
+        "name": "Geoff Hartlieb",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yk6_96_7.png",
+        "scorerId": "04yk6",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10121",
+      "id": "59vuaugxmvtxjkh0",
+      "seq": 141167,
+      "desc": "The Athletics outrighted Estes to Triple-A Las Vegas on Thursday.",
+      "player": {
+        "name": "Joey Estes",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051cl_96_1.png",
+        "scorerId": "051cl",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10121",
+      "id": "npfg4n35mvtxjke2",
+      "seq": 141166,
+      "desc": "The Athletics outrighted Baez to Triple-A Las Vegas on Thursday.",
+      "player": {
+        "name": "Henry Baez",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05iyp_96_1.png",
+        "scorerId": "05iyp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10200",
+      "id": "zqzo3609mvtqji30",
+      "seq": 141165,
+      "desc": "Boyd declined his side of a $15 million option for 2027 on Thursday and is now a free agent, Jesse Rogers of ESPN.com reports.",
+      "player": {
+        "name": "Matthew Boyd",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n4s_96_14.png",
+        "scorerId": "02n4s",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10200",
+      "id": "fbb3uhggmvtqji0i",
+      "seq": 141164,
+      "desc": "Holmes declined his $12 million player option for 2027 on Thursday and is now a free agent, Jesse Rogers of ESPN.com reports.",
+      "player": {
+        "name": "Clay Holmes",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bx4_96_13.png",
+        "scorerId": "02bx4",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10010",
+      "id": "7jtx2036mvtm7vkq",
+      "seq": 141163,
+      "desc": "Barrero declined an outright assignment from the Orioles and elected free agency Thursday, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Jose Barrero",
+        "posShortNames": "SS,CF",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04dwv_96_7.png",
+        "scorerId": "04dwv",
+        "posIds": [
+          "005",
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10290",
+      "id": "beoe1tplmvtm7vid",
+      "seq": 141162,
+      "desc": "King declined his $28 million player option for 2027 on Thursday and is now a free agent, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Michael King",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041wv_96_9.png",
+        "scorerId": "041wv",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1793116800000,
       "teamId": "10105",
@@ -158,535 +654,6 @@
         "posIds": [
           "003",
           "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1792080000000,
-      "teamId": "10210",
-      "id": "aj61f861mv9w8ofb",
-      "seq": 141154,
-      "desc": "The Reds and Cabrera avoided arbitration by agreeing to a one-year contract Thursday.",
-      "player": {
-        "name": "Oswaldo Cabrera",
-        "posShortNames": "3B",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs042no_96_5.png",
-        "scorerId": "042no",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1792080000000,
-      "teamId": "10180",
-      "id": "48tjq5aqmv9nnmzj",
-      "seq": 141153,
-      "desc": "The Phillies re-signed Mayza to a one-year contract Thursday, Matt Gelb of The Athletic reports.",
-      "player": {
-        "name": "Tim Mayza",
-        "posShortNames": "RP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031dd_96_12.png",
-        "scorerId": "031dd",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791820800000,
-      "teamId": "10070",
-      "id": "ogoa0g1ymv5cyhdf",
-      "seq": 141152,
-      "desc": "Scheemann has been removed from the Guardians' roster for the ALCS, Tim Stebbins of MLB.com reports.",
-      "player": {
-        "name": "Daniel Schneemann",
-        "posShortNames": "CF",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bs4_96_2.png",
-        "scorerId": "06bs4",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791734400000,
-      "teamId": "10280",
-      "id": "16bz1hi6mv42zizc",
-      "seq": 141151,
-      "desc": "The Dodgers added Wrobleski to their roster for the NLCS against the Brewers, Alden Gonzalez of ESPN.com reports.",
-      "player": {
-        "name": "Justin Wrobleski",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y9r_96_2.png",
-        "scorerId": "05y9r",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791561600000,
-      "teamId": "10150",
-      "id": "4huhjy2smv1kel0e",
-      "seq": 141150,
-      "desc": "Atlanta selected Young's contract from Triple-A Gwinnett on Thursday, Lindsay Crosby of BravesToday.com reports.",
-      "player": {
-        "name": "Danny Young",
-        "posShortNames": "RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qni_96_3.png",
-        "scorerId": "03qni",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791561600000,
-      "teamId": "10150",
-      "id": "mw5nhmdumv1kekz0",
-      "seq": 141149,
-      "desc": "Atlanta designated Williams for assignment Friday, Lindsay Crosby of BravesToday.com reports.",
-      "player": {
-        "name": "Luke Williams",
-        "posShortNames": "SS",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qk3_96_4.png",
-        "scorerId": "03qk3",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1791388800000,
-      "teamId": "10290",
-      "id": "2yw05rqhmuyn3th6",
-      "seq": 141148,
-      "desc": "The Padres removed Peralta from their NLDS roster on Wednesday.",
-      "player": {
-        "name": "Wandy Peralta",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047sh_96_12.png",
-        "scorerId": "047sh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791388800000,
-      "teamId": "10290",
-      "id": "hm0i0dehmuyn3te0",
-      "seq": 141147,
-      "desc": "Miller was reinstated from the paternity list ahead of Game 4 of the NLDS versus the Brewers on Wednesday.",
-      "player": {
-        "name": "Mason Miller",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ucd_96_6.png",
-        "scorerId": "05ucd",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791302400000,
-      "teamId": "10290",
-      "id": "i9zmchc0muxet72h",
-      "seq": 141146,
-      "desc": "The Padres added Peralta to their NLDS roster Tuesday, Alden Gonzalez of ESPN.com reports.",
-      "player": {
-        "name": "Wandy Peralta",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047sh_96_12.png",
-        "scorerId": "047sh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791216000000,
-      "teamId": "10290",
-      "id": "n924enk2muvoaavx",
-      "seq": 141145,
-      "desc": "The Padres removed Vasquez from their NLDS roster Monday.",
-      "player": {
-        "name": "Randy Vasquez",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05itb_96_3.png",
-        "scorerId": "05itb",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791216000000,
-      "teamId": "10290",
-      "id": "7klwf96cmuvoaasw",
-      "seq": 141144,
-      "desc": "The Padres activated Buehler from the paternity list Monday.",
-      "player": {
-        "name": "Walker Buehler",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03aac_96_12.png",
-        "scorerId": "03aac",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791129600000,
-      "teamId": "10020",
-      "id": "00xs0p9jmuubloi7",
-      "seq": 141143,
-      "desc": "Chapman passed a physical examination Saturday, which was the final hurdle in order for his $13 million option for 2027 to vest, Francys Romero of BeisbolFR.com reports.",
-      "player": {
-        "name": "Aroldis Chapman",
-        "posShortNames": "RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01gya_96_16.png",
-        "scorerId": "01gya",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791043200000,
-      "teamId": "10290",
-      "id": "w1p1btr5musmbwma",
-      "seq": 141142,
-      "desc": "Vasquez was added to the Padres' NLDS roster Saturday, Bob Nightengale of USA Today reports.",
-      "player": {
-        "name": "Randy Vasquez",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05itb_96_3.png",
-        "scorerId": "05itb",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790956800000,
-      "teamId": "10240",
-      "id": "cot850mjmuredj71",
-      "seq": 141141,
-      "desc": "The Pirates signed Urquidy to a minor-league contract Thursday.",
-      "player": {
-        "name": "Jose Urquidy",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0440h_96_8.png",
-        "scorerId": "0440h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790956800000,
-      "teamId": "10090",
-      "id": "rhtr1k9amur3chlc",
-      "seq": 141140,
-      "desc": "The Royals outrighted Little to Triple-A Omaha on Thursday.",
-      "player": {
-        "name": "Luke Little",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05koh_96_2.png",
-        "scorerId": "05koh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790870400000,
-      "teamId": "10250",
-      "id": "h9zo3tvkmuq3bf7h",
-      "seq": 141139,
-      "desc": "The Arizona Diamondbacks traded SP Brian Curley to the St. Louis Cardinals.",
-      "player": {
-        "name": "Brian Curley",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "06roy",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790870400000,
-      "teamId": "10030",
-      "id": "kl4563kdmupxccy4",
-      "seq": 141138,
-      "desc": "The Yankees outrighted Cornielle to the Florida Complex League on Thursday.",
-      "player": {
-        "name": "Alexander Cornielle",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "0622r",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790870400000,
-      "teamId": "10180",
-      "id": "9tg7ijhnmupohghh",
-      "seq": 141137,
-      "desc": "Urquidy elected free agency Wednesday after clearing waivers.",
-      "player": {
-        "name": "Jose Urquidy",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0440h_96_8.png",
-        "scorerId": "0440h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790784000000,
-      "teamId": "10020",
-      "id": "6j8pdmqkmuombx1c",
-      "seq": 141136,
-      "desc": "The Red Sox added Mead (wrist) to their roster Wednesday for the AL Wild Card Series against the Yankees, Jorge Castillo of ESPN.com reports.",
-      "player": {
-        "name": "Curtis Mead",
-        "posShortNames": "3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_5.png",
-        "scorerId": "05ahe",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10290",
-      "id": "phx4jrzzmumwyaiw",
-      "seq": 141135,
-      "desc": "The Padres activated Musgrove (elbow) from the 60-day injured list Tuesday, Dennis Lin of The Athletic reports.",
-      "player": {
-        "name": "Joe Musgrove",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bqy_96_14.png",
-        "scorerId": "02bqy",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10030",
-      "id": "jun92rzumumulykm",
-      "seq": 141134,
-      "desc": "The Yankees designated Cornielle for assignment Tuesday, Gary Phillips of the New York Daily News reports.",
-      "player": {
-        "name": "Alexander Cornielle",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "0622r",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10150",
-      "id": "6op287qymumttlgf",
-      "seq": 141133,
-      "desc": "Atlanta designated Vanasco for assignment Tuesday, Harrison Smajovits of SI.com reports.",
-      "player": {
-        "name": "Ricky Vanasco",
-        "posShortNames": "SP,RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eoi_96_3.png",
-        "scorerId": "04eoi",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10150",
-      "id": "sxg4u6z2mumtfc8e",
-      "seq": 141132,
-      "desc": "Atlanta designated Hernandez for assignment Tuesday, Harrison Smajovits of SI.com reports.",
-      "player": {
-        "name": "Elieser Hernandez",
-        "posShortNames": "RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yx9_96_11.png",
-        "scorerId": "03yx9",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -701,6 +668,502 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1793289600000,
+      "teamId": "10090",
+      "id": "xfti8z7kmvu1v7n7",
+      "seq": 141183,
+      "desc": "The Royals exercised Gonsolin's $2.5 million club option for 2027 on Thursday.",
+      "player": {
+        "name": "Tony Gonsolin",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041v6_96_10.png",
+        "scorerId": "041v6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10300",
+      "id": "xyknwu9imvu1v7m9",
+      "seq": 141182,
+      "desc": "Foley cleared waivers Thursday and was sent outright to Triple-A Sacramento, Susan Slusser of the San Francisco Chronicle reports.",
+      "player": {
+        "name": "Jason Foley",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aoq_96_7.png",
+        "scorerId": "04aoq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10300",
+      "id": "9dzn2rwlmvu1v7l7",
+      "seq": 141181,
+      "desc": "The Giants outrighted Basabe to Triple-A Sacramento on Thursday.",
+      "player": {
+        "name": "Osleivis Basabe",
+        "posShortNames": "2B",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ni5_96_2.png",
+        "scorerId": "04ni5",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10300",
+      "id": "lwh8471amvu1v7k1",
+      "seq": 141180,
+      "desc": "The Mariners claimed McCray off waivers from the Giants on Thursday, Susan Slusser of the San Francisco Chronicle reports.",
+      "player": {
+        "name": "Grant McCray",
+        "posShortNames": "CF",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0512r_96_1.png",
+        "scorerId": "0512r",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10300",
+      "id": "q1chp7szmvu1v7il",
+      "seq": 141179,
+      "desc": "The Giants activated Gage (elbow) from the 60-day injured list Thursday and outrighted him to Triple-A Sacramento.",
+      "player": {
+        "name": "Matt Gage",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03di1_96_2.png",
+        "scorerId": "03di1",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10190",
+      "id": "zabevhh3mvu1v7gt",
+      "seq": 141178,
+      "desc": "The Nationals designated Kent for assignment Thursday.",
+      "player": {
+        "name": "Zak Kent",
+        "posShortNames": "SP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0516v_96_2.png",
+        "scorerId": "0516v",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10300",
+      "id": "38gb6030mvu1v7e9",
+      "seq": 141177,
+      "desc": "The Nationals claimed Roxby off waivers from the Giants on Thursday.",
+      "player": {
+        "name": "Braxton Roxby",
+        "posShortNames": "SP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "05rkx",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10121",
+      "id": "buuz384hmvu0psj8",
+      "seq": 141176,
+      "desc": "The Boston Red Sox traded LF Nate Eaton to the  Athletics.",
+      "player": {
+        "name": "Nate Eaton",
+        "posShortNames": "LF",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3n_96_2.png",
+        "scorerId": "04q3n",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10020",
+      "id": "sagf2ih9mvu0pm8d",
+      "seq": 141176,
+      "desc": "The  Athletics traded SP Jareth Rayo to the Boston Red Sox.",
+      "player": null
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10130",
+      "id": "tb7hsfb5mvtxjkua",
+      "seq": 141175,
+      "desc": "The Mariners declined Robles' $9 million club option for the 2027 season Thursday, Daniel Kramer of MLB.com reports.",
+      "player": {
+        "name": "Victor Robles",
+        "posShortNames": "RF",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03c65_96_12.png",
+        "scorerId": "03c65",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10130",
+      "id": "u0kpx798mvtxjktc",
+      "seq": 141174,
+      "desc": "The Mariners declined Miller's $6.075 million club option for 2027 on Thursday.",
+      "player": {
+        "name": "Bryce Miller",
+        "posShortNames": "SP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05vy6_96_3.png",
+        "scorerId": "05vy6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10130",
+      "id": "hborrnt8mvtxjks9",
+      "seq": 141173,
+      "desc": "The Mariners exercised Munoz's $9 million club option for 2027 on Thursday.",
+      "player": {
+        "name": "Andres Munoz",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0403o_96_9.png",
+        "scorerId": "0403o",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10105",
+      "id": "eabfxkmjmvtxjkr3",
+      "seq": 141172,
+      "desc": "The Astros declined Weiss's $5 million club option for 2027 on Thursday, Jesse Rogers of ESPN.com reports.",
+      "player": {
+        "name": "Ryan Weiss",
+        "posShortNames": "SP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pq7_96_2.png",
+        "scorerId": "04pq7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10100",
+      "id": "zclh1iq4mvtxjkpo",
+      "seq": 141171,
+      "desc": "The Twins outrighted Gray to Triple-A St. Paul on Thursday, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Tristan Gray",
+        "posShortNames": "SS",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eme_96_4.png",
+        "scorerId": "04eme",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10100",
+      "id": "geglpjlsmvtxjko5",
+      "seq": 141170,
+      "desc": "The Twins outrighted Sabato to Triple-A St. Paul on Thursday, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Aaron Sabato",
+        "posShortNames": "1B",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ge2_96_1.png",
+        "scorerId": "05ge2",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10121",
+      "id": "pgfyy4y1mvtxjkmj",
+      "seq": 141169,
+      "desc": "The Athletics outrighted Serven to Triple-A Las Vegas on Thursday.",
+      "player": {
+        "name": "Brian Serven",
+        "posShortNames": "C",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rz_96_9.png",
+        "scorerId": "041rz",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10121",
+      "id": "ootu9q6pmvtxjkkn",
+      "seq": 141168,
+      "desc": "The Athletics outrighted Hartlieb to Triple-A Las Vegas on Thursday.",
+      "player": {
+        "name": "Geoff Hartlieb",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yk6_96_7.png",
+        "scorerId": "04yk6",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10121",
+      "id": "59vuaugxmvtxjkh0",
+      "seq": 141167,
+      "desc": "The Athletics outrighted Estes to Triple-A Las Vegas on Thursday.",
+      "player": {
+        "name": "Joey Estes",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051cl_96_1.png",
+        "scorerId": "051cl",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10121",
+      "id": "npfg4n35mvtxjke2",
+      "seq": 141166,
+      "desc": "The Athletics outrighted Baez to Triple-A Las Vegas on Thursday.",
+      "player": {
+        "name": "Henry Baez",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05iyp_96_1.png",
+        "scorerId": "05iyp",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10200",
+      "id": "zqzo3609mvtqji30",
+      "seq": 141165,
+      "desc": "Boyd declined his side of a $15 million option for 2027 on Thursday and is now a free agent, Jesse Rogers of ESPN.com reports.",
+      "player": {
+        "name": "Matthew Boyd",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n4s_96_14.png",
+        "scorerId": "02n4s",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10200",
+      "id": "fbb3uhggmvtqji0i",
+      "seq": 141164,
+      "desc": "Holmes declined his $12 million player option for 2027 on Thursday and is now a free agent, Jesse Rogers of ESPN.com reports.",
+      "player": {
+        "name": "Clay Holmes",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bx4_96_13.png",
+        "scorerId": "02bx4",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10010",
+      "id": "7jtx2036mvtm7vkq",
+      "seq": 141163,
+      "desc": "Barrero declined an outright assignment from the Orioles and elected free agency Thursday, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Jose Barrero",
+        "posShortNames": "SS,CF",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04dwv_96_7.png",
+        "scorerId": "04dwv",
+        "posIds": [
+          "005",
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10290",
+      "id": "beoe1tplmvtm7vid",
+      "seq": 141162,
+      "desc": "King declined his $28 million player option for 2027 on Thursday and is now a free agent, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Michael King",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041wv_96_9.png",
+        "scorerId": "041wv",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1793116800000,
       "teamId": "10105",
       "id": "gd861oktmvqxa6f9",
@@ -852,535 +1315,6 @@
         "posIds": [
           "003",
           "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1792080000000,
-      "teamId": "10210",
-      "id": "aj61f861mv9w8ofb",
-      "seq": 141154,
-      "desc": "The Reds and Cabrera avoided arbitration by agreeing to a one-year contract Thursday.",
-      "player": {
-        "name": "Oswaldo Cabrera",
-        "posShortNames": "3B",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs042no_96_5.png",
-        "scorerId": "042no",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1792080000000,
-      "teamId": "10180",
-      "id": "48tjq5aqmv9nnmzj",
-      "seq": 141153,
-      "desc": "The Phillies re-signed Mayza to a one-year contract Thursday, Matt Gelb of The Athletic reports.",
-      "player": {
-        "name": "Tim Mayza",
-        "posShortNames": "RP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031dd_96_12.png",
-        "scorerId": "031dd",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791820800000,
-      "teamId": "10070",
-      "id": "ogoa0g1ymv5cyhdf",
-      "seq": 141152,
-      "desc": "Scheemann has been removed from the Guardians' roster for the ALCS, Tim Stebbins of MLB.com reports.",
-      "player": {
-        "name": "Daniel Schneemann",
-        "posShortNames": "CF",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06bs4_96_2.png",
-        "scorerId": "06bs4",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791734400000,
-      "teamId": "10280",
-      "id": "16bz1hi6mv42zizc",
-      "seq": 141151,
-      "desc": "The Dodgers added Wrobleski to their roster for the NLCS against the Brewers, Alden Gonzalez of ESPN.com reports.",
-      "player": {
-        "name": "Justin Wrobleski",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y9r_96_2.png",
-        "scorerId": "05y9r",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791561600000,
-      "teamId": "10150",
-      "id": "4huhjy2smv1kel0e",
-      "seq": 141150,
-      "desc": "Atlanta selected Young's contract from Triple-A Gwinnett on Thursday, Lindsay Crosby of BravesToday.com reports.",
-      "player": {
-        "name": "Danny Young",
-        "posShortNames": "RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qni_96_3.png",
-        "scorerId": "03qni",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791561600000,
-      "teamId": "10150",
-      "id": "mw5nhmdumv1kekz0",
-      "seq": 141149,
-      "desc": "Atlanta designated Williams for assignment Friday, Lindsay Crosby of BravesToday.com reports.",
-      "player": {
-        "name": "Luke Williams",
-        "posShortNames": "SS",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qk3_96_4.png",
-        "scorerId": "03qk3",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1791388800000,
-      "teamId": "10290",
-      "id": "2yw05rqhmuyn3th6",
-      "seq": 141148,
-      "desc": "The Padres removed Peralta from their NLDS roster on Wednesday.",
-      "player": {
-        "name": "Wandy Peralta",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047sh_96_12.png",
-        "scorerId": "047sh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791388800000,
-      "teamId": "10290",
-      "id": "hm0i0dehmuyn3te0",
-      "seq": 141147,
-      "desc": "Miller was reinstated from the paternity list ahead of Game 4 of the NLDS versus the Brewers on Wednesday.",
-      "player": {
-        "name": "Mason Miller",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ucd_96_6.png",
-        "scorerId": "05ucd",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791302400000,
-      "teamId": "10290",
-      "id": "i9zmchc0muxet72h",
-      "seq": 141146,
-      "desc": "The Padres added Peralta to their NLDS roster Tuesday, Alden Gonzalez of ESPN.com reports.",
-      "player": {
-        "name": "Wandy Peralta",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047sh_96_12.png",
-        "scorerId": "047sh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791216000000,
-      "teamId": "10290",
-      "id": "n924enk2muvoaavx",
-      "seq": 141145,
-      "desc": "The Padres removed Vasquez from their NLDS roster Monday.",
-      "player": {
-        "name": "Randy Vasquez",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05itb_96_3.png",
-        "scorerId": "05itb",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791216000000,
-      "teamId": "10290",
-      "id": "7klwf96cmuvoaasw",
-      "seq": 141144,
-      "desc": "The Padres activated Buehler from the paternity list Monday.",
-      "player": {
-        "name": "Walker Buehler",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03aac_96_12.png",
-        "scorerId": "03aac",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791129600000,
-      "teamId": "10020",
-      "id": "00xs0p9jmuubloi7",
-      "seq": 141143,
-      "desc": "Chapman passed a physical examination Saturday, which was the final hurdle in order for his $13 million option for 2027 to vest, Francys Romero of BeisbolFR.com reports.",
-      "player": {
-        "name": "Aroldis Chapman",
-        "posShortNames": "RP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01gya_96_16.png",
-        "scorerId": "01gya",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1791043200000,
-      "teamId": "10290",
-      "id": "w1p1btr5musmbwma",
-      "seq": 141142,
-      "desc": "Vasquez was added to the Padres' NLDS roster Saturday, Bob Nightengale of USA Today reports.",
-      "player": {
-        "name": "Randy Vasquez",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05itb_96_3.png",
-        "scorerId": "05itb",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790956800000,
-      "teamId": "10240",
-      "id": "cot850mjmuredj71",
-      "seq": 141141,
-      "desc": "The Pirates signed Urquidy to a minor-league contract Thursday.",
-      "player": {
-        "name": "Jose Urquidy",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0440h_96_8.png",
-        "scorerId": "0440h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790956800000,
-      "teamId": "10090",
-      "id": "rhtr1k9amur3chlc",
-      "seq": 141140,
-      "desc": "The Royals outrighted Little to Triple-A Omaha on Thursday.",
-      "player": {
-        "name": "Luke Little",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05koh_96_2.png",
-        "scorerId": "05koh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790870400000,
-      "teamId": "10250",
-      "id": "h9zo3tvkmuq3bf7h",
-      "seq": 141139,
-      "desc": "The Arizona Diamondbacks traded SP Brian Curley to the St. Louis Cardinals.",
-      "player": {
-        "name": "Brian Curley",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "06roy",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790870400000,
-      "teamId": "10030",
-      "id": "kl4563kdmupxccy4",
-      "seq": 141138,
-      "desc": "The Yankees outrighted Cornielle to the Florida Complex League on Thursday.",
-      "player": {
-        "name": "Alexander Cornielle",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "0622r",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790870400000,
-      "teamId": "10180",
-      "id": "9tg7ijhnmupohghh",
-      "seq": 141137,
-      "desc": "Urquidy elected free agency Wednesday after clearing waivers.",
-      "player": {
-        "name": "Jose Urquidy",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0440h_96_8.png",
-        "scorerId": "0440h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790784000000,
-      "teamId": "10020",
-      "id": "6j8pdmqkmuombx1c",
-      "seq": 141136,
-      "desc": "The Red Sox added Mead (wrist) to their roster Wednesday for the AL Wild Card Series against the Yankees, Jorge Castillo of ESPN.com reports.",
-      "player": {
-        "name": "Curtis Mead",
-        "posShortNames": "3B",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ahe_96_5.png",
-        "scorerId": "05ahe",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10290",
-      "id": "phx4jrzzmumwyaiw",
-      "seq": 141135,
-      "desc": "The Padres activated Musgrove (elbow) from the 60-day injured list Tuesday, Dennis Lin of The Athletic reports.",
-      "player": {
-        "name": "Joe Musgrove",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bqy_96_14.png",
-        "scorerId": "02bqy",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10030",
-      "id": "jun92rzumumulykm",
-      "seq": 141134,
-      "desc": "The Yankees designated Cornielle for assignment Tuesday, Gary Phillips of the New York Daily News reports.",
-      "player": {
-        "name": "Alexander Cornielle",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "0622r",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10150",
-      "id": "6op287qymumttlgf",
-      "seq": 141133,
-      "desc": "Atlanta designated Vanasco for assignment Tuesday, Harrison Smajovits of SI.com reports.",
-      "player": {
-        "name": "Ricky Vanasco",
-        "posShortNames": "SP,RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eoi_96_3.png",
-        "scorerId": "04eoi",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1790697600000,
-      "teamId": "10150",
-      "id": "sxg4u6z2mumtfc8e",
-      "seq": 141132,
-      "desc": "Atlanta designated Hernandez for assignment Tuesday, Harrison Smajovits of SI.com reports.",
-      "player": {
-        "name": "Elieser Hernandez",
-        "posShortNames": "RP",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yx9_96_11.png",
-        "scorerId": "03yx9",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
