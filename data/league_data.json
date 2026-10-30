@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T22:19:50.202720Z",
+  "lastUpdated": "2026-10-30T03:58:59.297516Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -8,6 +8,159 @@
   "transactions": [
     {
       "displayDate": 1793289600000,
+      "teamId": "10080",
+      "id": "5ahlqgo3mvubvfvm",
+      "seq": 141190,
+      "desc": "The Boston Red Sox traded SS Tsung-Che Cheng to the Detroit Tigers.",
+      "player": {
+        "name": "Tsung-Che Cheng",
+        "posShortNames": "SS,2B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y34_96_2.png",
+        "scorerId": "05y34",
+        "posIds": [
+          "005",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10170",
+      "id": "tshvaxgrmvuaihup",
+      "seq": 141189,
+      "desc": "Paris was claimed off waivers by the Mets on Thursday.",
+      "player": {
+        "name": "Kyren Paris",
+        "posShortNames": "2B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050s0_96_3.png",
+        "scorerId": "050s0",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10170",
+      "id": "oqb6fgdkmvuaiht4",
+      "seq": 141188,
+      "desc": "Pache was designated for assignment by the Mets on Thursday.",
+      "player": {
+        "name": "Cristian Pache",
+        "posShortNames": "CF",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03xlc_96_8.png",
+        "scorerId": "03xlc",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10230",
+      "id": "6rdb9qm4mvuaihqm",
+      "seq": 141187,
+      "desc": "May declined his mutual option with the Brewers on Thursday, becoming a free agent, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Dustin May",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041r5_96_12.png",
+        "scorerId": "041r5",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10170",
+      "id": "4yxfcexsmvu66v2c",
+      "seq": 141186,
+      "desc": "Bichette exercised his $42 million player option for the 2027 season Thursday, Will Sammon of The Athletic reports.",
+      "player": {
+        "name": "Bo Bichette",
+        "posShortNames": "3B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qb_96_10.png",
+        "scorerId": "041qb",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10150",
+      "id": "7tfmmvjomvu66v0l",
+      "seq": 141185,
+      "desc": "Atlanta exercised Acuna's $17 million club option for the 2027 season Thursday.",
+      "player": {
+        "name": "Ronald Acuna Jr.",
+        "posShortNames": "RF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03wha_96_11.png",
+        "scorerId": "03wha",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10150",
+      "id": "56fir91hmvu66uy4",
+      "seq": 141184,
+      "desc": "Atlanta exercised Albies' $7 million club option for the 2027 season Thursday.",
+      "player": {
+        "name": "Ozzie Albies",
+        "posShortNames": "2B",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03fi0_96_14.png",
+        "scorerId": "03fi0",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
       "teamId": "10090",
       "id": "xfti8z7kmvu1v7n7",
       "seq": 141183,
@@ -78,8 +231,8 @@
       "player": {
         "name": "Grant McCray",
         "posShortNames": "CF",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0512r_96_1.png",
         "scorerId": "0512r",
         "posIds": [
@@ -146,8 +299,8 @@
       "player": {
         "name": "Braxton Roxby",
         "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
         "headshotUrl": "",
         "scorerId": "05rkx",
         "posIds": [
@@ -500,175 +653,165 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1793116800000,
-      "teamId": "10105",
-      "id": "gd861oktmvqxa6f9",
-      "seq": 141161,
-      "desc": "The Astros released Velazquez on Tuesday, Brian McTaggart of MLB.com reports.",
-      "player": {
-        "name": "Nelson Velazquez",
-        "posShortNames": "LF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eh9_96_4.png",
-        "scorerId": "04eh9",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1792771200000,
-      "teamId": "10090",
-      "id": "m5atf5hkmvl36ic7",
-      "seq": 141160,
-      "desc": "The Royals outrighted Lange to Triple-A Omaha on Thursday.",
-      "player": {
-        "name": "Alex Lange",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yui_96_8.png",
-        "scorerId": "03yui",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1792771200000,
-      "teamId": "10090",
-      "id": "l6jnh5ugmvl36iar",
-      "seq": 141159,
-      "desc": "The Royals outrighted Black to Triple-A Omaha on Thursday.",
-      "player": {
-        "name": "Mason Black",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05r3g_96_1.png",
-        "scorerId": "05r3g",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1792771200000,
-      "teamId": "10090",
-      "id": "c5znzu98mvl36i85",
-      "seq": 141158,
-      "desc": "McGee elected to become a free agent Thursday.",
-      "player": {
-        "name": "Easton McGee",
-        "posShortNames": "SP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rp_96_2.png",
-        "scorerId": "041rp",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1792771200000,
-      "teamId": "10090",
-      "id": "v5p3f88vmvl2sca2",
-      "seq": 141157,
-      "desc": "Seabold (lat) elected to become a free agent Thursday.",
-      "player": {
-        "name": "Connor Seabold",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
-        "scorerId": "03drx",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1792080000000,
-      "teamId": "10150",
-      "id": "dwewol8smv9y7k8v",
-      "seq": 141156,
-      "desc": "Atlanta outrighted Keirsey to Triple-A Gwinnett on Thursday, Harrison Smajovits of SI.com reports.",
-      "player": {
-        "name": "DaShawn Keirsey",
-        "posShortNames": "CF",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pq5_96_1.png",
-        "scorerId": "04pq5",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1792080000000,
-      "teamId": "10150",
-      "id": "gmmc0yusmv9y7k69",
-      "seq": 141155,
-      "desc": "Atlanta selected Wisely's contract from Triple-A Gwinnett on Thursday, Harrison Smajovits of SI.com reports.",
-      "player": {
-        "name": "Brett Wisely",
-        "posShortNames": "2B,SS",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051br_96_3.png",
-        "scorerId": "051br",
-        "posIds": [
-          "003",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1793289600000,
+      "teamId": "10080",
+      "id": "5ahlqgo3mvubvfvm",
+      "seq": 141190,
+      "desc": "The Boston Red Sox traded SS Tsung-Che Cheng to the Detroit Tigers.",
+      "player": {
+        "name": "Tsung-Che Cheng",
+        "posShortNames": "SS,2B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y34_96_2.png",
+        "scorerId": "05y34",
+        "posIds": [
+          "005",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10170",
+      "id": "tshvaxgrmvuaihup",
+      "seq": 141189,
+      "desc": "Paris was claimed off waivers by the Mets on Thursday.",
+      "player": {
+        "name": "Kyren Paris",
+        "posShortNames": "2B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050s0_96_3.png",
+        "scorerId": "050s0",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10170",
+      "id": "oqb6fgdkmvuaiht4",
+      "seq": 141188,
+      "desc": "Pache was designated for assignment by the Mets on Thursday.",
+      "player": {
+        "name": "Cristian Pache",
+        "posShortNames": "CF",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03xlc_96_8.png",
+        "scorerId": "03xlc",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10230",
+      "id": "6rdb9qm4mvuaihqm",
+      "seq": 141187,
+      "desc": "May declined his mutual option with the Brewers on Thursday, becoming a free agent, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Dustin May",
+        "posShortNames": "SP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041r5_96_12.png",
+        "scorerId": "041r5",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10170",
+      "id": "4yxfcexsmvu66v2c",
+      "seq": 141186,
+      "desc": "Bichette exercised his $42 million player option for the 2027 season Thursday, Will Sammon of The Athletic reports.",
+      "player": {
+        "name": "Bo Bichette",
+        "posShortNames": "3B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qb_96_10.png",
+        "scorerId": "041qb",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10150",
+      "id": "7tfmmvjomvu66v0l",
+      "seq": 141185,
+      "desc": "Atlanta exercised Acuna's $17 million club option for the 2027 season Thursday.",
+      "player": {
+        "name": "Ronald Acuna Jr.",
+        "posShortNames": "RF",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03wha_96_11.png",
+        "scorerId": "03wha",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
+      "teamId": "10150",
+      "id": "56fir91hmvu66uy4",
+      "seq": 141184,
+      "desc": "Atlanta exercised Albies' $7 million club option for the 2027 season Thursday.",
+      "player": {
+        "name": "Ozzie Albies",
+        "posShortNames": "2B",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03fi0_96_14.png",
+        "scorerId": "03fi0",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793289600000,
       "teamId": "10090",
       "id": "xfti8z7kmvu1v7n7",
       "seq": 141183,
@@ -739,8 +882,8 @@
       "player": {
         "name": "Grant McCray",
         "posShortNames": "CF",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0512r_96_1.png",
         "scorerId": "0512r",
         "posIds": [
@@ -807,8 +950,8 @@
       "player": {
         "name": "Braxton Roxby",
         "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
         "headshotUrl": "",
         "scorerId": "05rkx",
         "posIds": [
@@ -1161,169 +1304,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1793116800000,
-      "teamId": "10105",
-      "id": "gd861oktmvqxa6f9",
-      "seq": 141161,
-      "desc": "The Astros released Velazquez on Tuesday, Brian McTaggart of MLB.com reports.",
-      "player": {
-        "name": "Nelson Velazquez",
-        "posShortNames": "LF",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eh9_96_4.png",
-        "scorerId": "04eh9",
-        "posIds": [
-          "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1792771200000,
-      "teamId": "10090",
-      "id": "m5atf5hkmvl36ic7",
-      "seq": 141160,
-      "desc": "The Royals outrighted Lange to Triple-A Omaha on Thursday.",
-      "player": {
-        "name": "Alex Lange",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yui_96_8.png",
-        "scorerId": "03yui",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1792771200000,
-      "teamId": "10090",
-      "id": "l6jnh5ugmvl36iar",
-      "seq": 141159,
-      "desc": "The Royals outrighted Black to Triple-A Omaha on Thursday.",
-      "player": {
-        "name": "Mason Black",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05r3g_96_1.png",
-        "scorerId": "05r3g",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1792771200000,
-      "teamId": "10090",
-      "id": "c5znzu98mvl36i85",
-      "seq": 141158,
-      "desc": "McGee elected to become a free agent Thursday.",
-      "player": {
-        "name": "Easton McGee",
-        "posShortNames": "SP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rp_96_2.png",
-        "scorerId": "041rp",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1792771200000,
-      "teamId": "10090",
-      "id": "v5p3f88vmvl2sca2",
-      "seq": 141157,
-      "desc": "Seabold (lat) elected to become a free agent Thursday.",
-      "player": {
-        "name": "Connor Seabold",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03drx_96_7.png",
-        "scorerId": "03drx",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1792080000000,
-      "teamId": "10150",
-      "id": "dwewol8smv9y7k8v",
-      "seq": 141156,
-      "desc": "Atlanta outrighted Keirsey to Triple-A Gwinnett on Thursday, Harrison Smajovits of SI.com reports.",
-      "player": {
-        "name": "DaShawn Keirsey",
-        "posShortNames": "CF",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pq5_96_1.png",
-        "scorerId": "04pq5",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1792080000000,
-      "teamId": "10150",
-      "id": "gmmc0yusmv9y7k69",
-      "seq": 141155,
-      "desc": "Atlanta selected Wisely's contract from Triple-A Gwinnett on Thursday, Harrison Smajovits of SI.com reports.",
-      "player": {
-        "name": "Brett Wisely",
-        "posShortNames": "2B,SS",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051br_96_3.png",
-        "scorerId": "051br",
-        "posIds": [
-          "003",
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
