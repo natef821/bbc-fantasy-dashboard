@@ -1,11 +1,169 @@
 {
-  "lastUpdated": "2026-10-30T11:59:01.958686Z",
+  "lastUpdated": "2026-10-30T17:52:41.953292Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10160",
+      "id": "lswe2k4ymvv4fqbm",
+      "seq": 141197,
+      "desc": "The Marlins exercised Alcantara's $21 million club option for 2027 on Friday.",
+      "player": {
+        "name": "Sandy Alcantara",
+        "posShortNames": "SP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03btv_96_14.png",
+        "scorerId": "03btv",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10160",
+      "id": "yumc24smmvv1nqw5",
+      "seq": 141196,
+      "desc": "The Marlins outrighted Brzykcy to Triple-A Jacksonville on Thursday.",
+      "player": {
+        "name": "Zach Brzykcy",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ocn_96_1.png",
+        "scorerId": "05ocn",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10160",
+      "id": "qlbfrspimvv1nque",
+      "seq": 141195,
+      "desc": "The Marlins outrighted Driscoll to Triple-A Jacksonville on Thursday.",
+      "player": {
+        "name": "Logan Driscoll",
+        "posShortNames": "C",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "",
+        "scorerId": "0512b",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10160",
+      "id": "zb6rfysamvv1nqsp",
+      "seq": 141194,
+      "desc": "The Marlins outrighted Gonzalez to Triple-A Jacksonville on Thursday.",
+      "player": {
+        "name": "Wikelman Gonzalez",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs052ht_96_2.png",
+        "scorerId": "052ht",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10160",
+      "id": "pab9v63nmvv1nqr0",
+      "seq": 141193,
+      "desc": "The Marlins outrighted Navarreto to Triple-A Jacksonville on Thursday.",
+      "player": {
+        "name": "Brian Navarreto",
+        "posShortNames": "C",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031bn_96_9.png",
+        "scorerId": "031bn",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10040",
+      "id": "ti074l2pmvv1nqpm",
+      "seq": 141192,
+      "desc": "Martinez declined his part of a $20 mutual option for 2027 and is now a free agent, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Nick Martinez",
+        "posShortNames": "SP,RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02c4q_96_8.png",
+        "scorerId": "02c4q",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10050",
+      "id": "mcwub0xmmvv1nqnw",
+      "seq": 141191,
+      "desc": "The Blue Jays outrighted Martin to Triple-A Buffalo on Thursday.",
+      "player": {
+        "name": "Rudy Martin",
+        "posShortNames": "RF",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "03dwo",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1793289600000,
       "teamId": "10080",
@@ -491,164 +649,6 @@
         "scorerId": "041rz",
         "posIds": [
           "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10121",
-      "id": "ootu9q6pmvtxjkkn",
-      "seq": 141168,
-      "desc": "The Athletics outrighted Hartlieb to Triple-A Las Vegas on Thursday.",
-      "player": {
-        "name": "Geoff Hartlieb",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yk6_96_7.png",
-        "scorerId": "04yk6",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10121",
-      "id": "59vuaugxmvtxjkh0",
-      "seq": 141167,
-      "desc": "The Athletics outrighted Estes to Triple-A Las Vegas on Thursday.",
-      "player": {
-        "name": "Joey Estes",
-        "posShortNames": "SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051cl_96_1.png",
-        "scorerId": "051cl",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10121",
-      "id": "npfg4n35mvtxjke2",
-      "seq": 141166,
-      "desc": "The Athletics outrighted Baez to Triple-A Las Vegas on Thursday.",
-      "player": {
-        "name": "Henry Baez",
-        "posShortNames": "SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05iyp_96_1.png",
-        "scorerId": "05iyp",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10200",
-      "id": "zqzo3609mvtqji30",
-      "seq": 141165,
-      "desc": "Boyd declined his side of a $15 million option for 2027 on Thursday and is now a free agent, Jesse Rogers of ESPN.com reports.",
-      "player": {
-        "name": "Matthew Boyd",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n4s_96_14.png",
-        "scorerId": "02n4s",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10200",
-      "id": "fbb3uhggmvtqji0i",
-      "seq": 141164,
-      "desc": "Holmes declined his $12 million player option for 2027 on Thursday and is now a free agent, Jesse Rogers of ESPN.com reports.",
-      "player": {
-        "name": "Clay Holmes",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bx4_96_13.png",
-        "scorerId": "02bx4",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10010",
-      "id": "7jtx2036mvtm7vkq",
-      "seq": 141163,
-      "desc": "Barrero declined an outright assignment from the Orioles and elected free agency Thursday, Francys Romero of BeisbolFR.com reports.",
-      "player": {
-        "name": "Jose Barrero",
-        "posShortNames": "SS,CF",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04dwv_96_7.png",
-        "scorerId": "04dwv",
-        "posIds": [
-          "005",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10290",
-      "id": "beoe1tplmvtm7vid",
-      "seq": 141162,
-      "desc": "King declined his $28 million player option for 2027 on Thursday and is now a free agent, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Michael King",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041wv_96_9.png",
-        "scorerId": "041wv",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -658,6 +658,164 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1793376000000,
+      "teamId": "10160",
+      "id": "lswe2k4ymvv4fqbm",
+      "seq": 141197,
+      "desc": "The Marlins exercised Alcantara's $21 million club option for 2027 on Friday.",
+      "player": {
+        "name": "Sandy Alcantara",
+        "posShortNames": "SP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03btv_96_14.png",
+        "scorerId": "03btv",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10160",
+      "id": "yumc24smmvv1nqw5",
+      "seq": 141196,
+      "desc": "The Marlins outrighted Brzykcy to Triple-A Jacksonville on Thursday.",
+      "player": {
+        "name": "Zach Brzykcy",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ocn_96_1.png",
+        "scorerId": "05ocn",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10160",
+      "id": "qlbfrspimvv1nque",
+      "seq": 141195,
+      "desc": "The Marlins outrighted Driscoll to Triple-A Jacksonville on Thursday.",
+      "player": {
+        "name": "Logan Driscoll",
+        "posShortNames": "C",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "",
+        "scorerId": "0512b",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10160",
+      "id": "zb6rfysamvv1nqsp",
+      "seq": 141194,
+      "desc": "The Marlins outrighted Gonzalez to Triple-A Jacksonville on Thursday.",
+      "player": {
+        "name": "Wikelman Gonzalez",
+        "posShortNames": "RP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs052ht_96_2.png",
+        "scorerId": "052ht",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10160",
+      "id": "pab9v63nmvv1nqr0",
+      "seq": 141193,
+      "desc": "The Marlins outrighted Navarreto to Triple-A Jacksonville on Thursday.",
+      "player": {
+        "name": "Brian Navarreto",
+        "posShortNames": "C",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031bn_96_9.png",
+        "scorerId": "031bn",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10040",
+      "id": "ti074l2pmvv1nqpm",
+      "seq": 141192,
+      "desc": "Martinez declined his part of a $20 mutual option for 2027 and is now a free agent, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Nick Martinez",
+        "posShortNames": "SP,RP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02c4q_96_8.png",
+        "scorerId": "02c4q",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10050",
+      "id": "mcwub0xmmvv1nqnw",
+      "seq": 141191,
+      "desc": "The Blue Jays outrighted Martin to Triple-A Buffalo on Thursday.",
+      "player": {
+        "name": "Rudy Martin",
+        "posShortNames": "RF",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "03dwo",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1793289600000,
       "teamId": "10080",
       "id": "5ahlqgo3mvubvfvm",
@@ -1142,164 +1300,6 @@
         "scorerId": "041rz",
         "posIds": [
           "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10121",
-      "id": "ootu9q6pmvtxjkkn",
-      "seq": 141168,
-      "desc": "The Athletics outrighted Hartlieb to Triple-A Las Vegas on Thursday.",
-      "player": {
-        "name": "Geoff Hartlieb",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04yk6_96_7.png",
-        "scorerId": "04yk6",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10121",
-      "id": "59vuaugxmvtxjkh0",
-      "seq": 141167,
-      "desc": "The Athletics outrighted Estes to Triple-A Las Vegas on Thursday.",
-      "player": {
-        "name": "Joey Estes",
-        "posShortNames": "SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051cl_96_1.png",
-        "scorerId": "051cl",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10121",
-      "id": "npfg4n35mvtxjke2",
-      "seq": 141166,
-      "desc": "The Athletics outrighted Baez to Triple-A Las Vegas on Thursday.",
-      "player": {
-        "name": "Henry Baez",
-        "posShortNames": "SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05iyp_96_1.png",
-        "scorerId": "05iyp",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10200",
-      "id": "zqzo3609mvtqji30",
-      "seq": 141165,
-      "desc": "Boyd declined his side of a $15 million option for 2027 on Thursday and is now a free agent, Jesse Rogers of ESPN.com reports.",
-      "player": {
-        "name": "Matthew Boyd",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n4s_96_14.png",
-        "scorerId": "02n4s",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10200",
-      "id": "fbb3uhggmvtqji0i",
-      "seq": 141164,
-      "desc": "Holmes declined his $12 million player option for 2027 on Thursday and is now a free agent, Jesse Rogers of ESPN.com reports.",
-      "player": {
-        "name": "Clay Holmes",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02bx4_96_13.png",
-        "scorerId": "02bx4",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10010",
-      "id": "7jtx2036mvtm7vkq",
-      "seq": 141163,
-      "desc": "Barrero declined an outright assignment from the Orioles and elected free agency Thursday, Francys Romero of BeisbolFR.com reports.",
-      "player": {
-        "name": "Jose Barrero",
-        "posShortNames": "SS,CF",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04dwv_96_7.png",
-        "scorerId": "04dwv",
-        "posIds": [
-          "005",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10290",
-      "id": "beoe1tplmvtm7vid",
-      "seq": 141162,
-      "desc": "King declined his $28 million player option for 2027 on Thursday and is now a free agent, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Michael King",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041wv_96_9.png",
-        "scorerId": "041wv",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
