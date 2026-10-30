@@ -1,11 +1,159 @@
 {
-  "lastUpdated": "2026-10-30T17:52:41.953292Z",
+  "lastUpdated": "2026-10-30T21:52:24.834745Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10121",
+      "id": "pjsxn2e2mvvd308y",
+      "seq": 141204,
+      "desc": "The Athletics declined Springs' $15 million club option for 2027 on Friday.",
+      "player": {
+        "name": "Jeffrey Springs",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mlr_96_10.png",
+        "scorerId": "04mlr",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10121",
+      "id": "7kvjqa3umvvd307x",
+      "seq": 141203,
+      "desc": "The Athletics declined McNeil's $15.75 million club option for 2027 on Friday.",
+      "player": {
+        "name": "Jeff McNeil",
+        "posShortNames": "2B",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0317o_96_10.png",
+        "scorerId": "0317o",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10010",
+      "id": "i1j53wi9mvvd306r",
+      "seq": 141202,
+      "desc": "The Orioles re-signed Hinds to a one-year contract Friday.",
+      "player": {
+        "name": "Rece Hinds",
+        "posShortNames": "RF",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04nb4_96_2.png",
+        "scorerId": "04nb4",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10100",
+      "id": "2xozdcucmvvd305g",
+      "seq": 141201,
+      "desc": "The Twins declined Ryan's $13 million mutual option for 2027 on Friday, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Joe Ryan",
+        "posShortNames": "SP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ps7_96_8.png",
+        "scorerId": "04ps7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10100",
+      "id": "vyryzypxmvvd303v",
+      "seq": 141200,
+      "desc": "The Twins declined Bell's $10 million club option for 2027 on Friday.",
+      "player": {
+        "name": "Josh Bell",
+        "posShortNames": "1B,DH",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs026lz_96_15.png",
+        "scorerId": "026lz",
+        "posIds": [
+          "002",
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10200",
+      "id": "hv1iqgr3mvvd301v",
+      "seq": 141199,
+      "desc": "The Cubs declined Kelly's $7.5 million mutual option for 2027 on Friday.",
+      "player": {
+        "name": "Carson Kelly",
+        "posShortNames": "C",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02mxf_96_15.png",
+        "scorerId": "02mxf",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10020",
+      "id": "ej96dmxhmvvd2zz5",
+      "seq": 141198,
+      "desc": "Gray declined his side of a $30 million mutual option for 2027 on Friday and is now a free agent, Mac Cerullo of the Boston Herald reports.",
+      "player": {
+        "name": "Sonny Gray",
+        "posShortNames": "SP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0260v_96_17.png",
+        "scorerId": "0260v",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1793376000000,
       "teamId": "10160",
@@ -471,6 +619,14 @@
     },
     {
       "displayDate": 1793289600000,
+      "teamId": "10020",
+      "id": "sagf2ih9mvu0pm8d",
+      "seq": 141176,
+      "desc": "The  Athletics traded SP Jareth Rayo to the Boston Red Sox.",
+      "player": null
+    },
+    {
+      "displayDate": 1793289600000,
       "teamId": "10121",
       "id": "buuz384hmvu0psj8",
       "seq": 141176,
@@ -484,171 +640,6 @@
         "scorerId": "04q3n",
         "posIds": [
           "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10020",
-      "id": "sagf2ih9mvu0pm8d",
-      "seq": 141176,
-      "desc": "The  Athletics traded SP Jareth Rayo to the Boston Red Sox.",
-      "player": null
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10130",
-      "id": "tb7hsfb5mvtxjkua",
-      "seq": 141175,
-      "desc": "The Mariners declined Robles' $9 million club option for the 2027 season Thursday, Daniel Kramer of MLB.com reports.",
-      "player": {
-        "name": "Victor Robles",
-        "posShortNames": "RF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03c65_96_12.png",
-        "scorerId": "03c65",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10130",
-      "id": "u0kpx798mvtxjktc",
-      "seq": 141174,
-      "desc": "The Mariners declined Miller's $6.075 million club option for 2027 on Thursday.",
-      "player": {
-        "name": "Bryce Miller",
-        "posShortNames": "SP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05vy6_96_3.png",
-        "scorerId": "05vy6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10130",
-      "id": "hborrnt8mvtxjks9",
-      "seq": 141173,
-      "desc": "The Mariners exercised Munoz's $9 million club option for 2027 on Thursday.",
-      "player": {
-        "name": "Andres Munoz",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0403o_96_9.png",
-        "scorerId": "0403o",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10105",
-      "id": "eabfxkmjmvtxjkr3",
-      "seq": 141172,
-      "desc": "The Astros declined Weiss's $5 million club option for 2027 on Thursday, Jesse Rogers of ESPN.com reports.",
-      "player": {
-        "name": "Ryan Weiss",
-        "posShortNames": "SP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pq7_96_2.png",
-        "scorerId": "04pq7",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10100",
-      "id": "zclh1iq4mvtxjkpo",
-      "seq": 141171,
-      "desc": "The Twins outrighted Gray to Triple-A St. Paul on Thursday, Dan Hayes of The Athletic reports.",
-      "player": {
-        "name": "Tristan Gray",
-        "posShortNames": "SS",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eme_96_4.png",
-        "scorerId": "04eme",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10100",
-      "id": "geglpjlsmvtxjko5",
-      "seq": 141170,
-      "desc": "The Twins outrighted Sabato to Triple-A St. Paul on Thursday, Dan Hayes of The Athletic reports.",
-      "player": {
-        "name": "Aaron Sabato",
-        "posShortNames": "1B",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ge2_96_1.png",
-        "scorerId": "05ge2",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10121",
-      "id": "pgfyy4y1mvtxjkmj",
-      "seq": 141169,
-      "desc": "The Athletics outrighted Serven to Triple-A Las Vegas on Thursday.",
-      "player": {
-        "name": "Brian Serven",
-        "posShortNames": "C",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rz_96_9.png",
-        "scorerId": "041rz",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -659,6 +650,154 @@
   "mlbTransactions": [
     {
       "displayDate": 1793376000000,
+      "teamId": "10121",
+      "id": "pjsxn2e2mvvd308y",
+      "seq": 141204,
+      "desc": "The Athletics declined Springs' $15 million club option for 2027 on Friday.",
+      "player": {
+        "name": "Jeffrey Springs",
+        "posShortNames": "SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mlr_96_10.png",
+        "scorerId": "04mlr",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10121",
+      "id": "7kvjqa3umvvd307x",
+      "seq": 141203,
+      "desc": "The Athletics declined McNeil's $15.75 million club option for 2027 on Friday.",
+      "player": {
+        "name": "Jeff McNeil",
+        "posShortNames": "2B",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0317o_96_10.png",
+        "scorerId": "0317o",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10010",
+      "id": "i1j53wi9mvvd306r",
+      "seq": 141202,
+      "desc": "The Orioles re-signed Hinds to a one-year contract Friday.",
+      "player": {
+        "name": "Rece Hinds",
+        "posShortNames": "RF",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04nb4_96_2.png",
+        "scorerId": "04nb4",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10100",
+      "id": "2xozdcucmvvd305g",
+      "seq": 141201,
+      "desc": "The Twins declined Ryan's $13 million mutual option for 2027 on Friday, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Joe Ryan",
+        "posShortNames": "SP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ps7_96_8.png",
+        "scorerId": "04ps7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10100",
+      "id": "vyryzypxmvvd303v",
+      "seq": 141200,
+      "desc": "The Twins declined Bell's $10 million club option for 2027 on Friday.",
+      "player": {
+        "name": "Josh Bell",
+        "posShortNames": "1B,DH",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs026lz_96_15.png",
+        "scorerId": "026lz",
+        "posIds": [
+          "002",
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10200",
+      "id": "hv1iqgr3mvvd301v",
+      "seq": 141199,
+      "desc": "The Cubs declined Kelly's $7.5 million mutual option for 2027 on Friday.",
+      "player": {
+        "name": "Carson Kelly",
+        "posShortNames": "C",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02mxf_96_15.png",
+        "scorerId": "02mxf",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10020",
+      "id": "ej96dmxhmvvd2zz5",
+      "seq": 141198,
+      "desc": "Gray declined his side of a $30 million mutual option for 2027 on Friday and is now a free agent, Mac Cerullo of the Boston Herald reports.",
+      "player": {
+        "name": "Sonny Gray",
+        "posShortNames": "SP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0260v_96_17.png",
+        "scorerId": "0260v",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
       "teamId": "10160",
       "id": "lswe2k4ymvv4fqbm",
       "seq": 141197,
@@ -1122,6 +1261,14 @@
     },
     {
       "displayDate": 1793289600000,
+      "teamId": "10020",
+      "id": "sagf2ih9mvu0pm8d",
+      "seq": 141176,
+      "desc": "The  Athletics traded SP Jareth Rayo to the Boston Red Sox.",
+      "player": null
+    },
+    {
+      "displayDate": 1793289600000,
       "teamId": "10121",
       "id": "buuz384hmvu0psj8",
       "seq": 141176,
@@ -1135,171 +1282,6 @@
         "scorerId": "04q3n",
         "posIds": [
           "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10020",
-      "id": "sagf2ih9mvu0pm8d",
-      "seq": 141176,
-      "desc": "The  Athletics traded SP Jareth Rayo to the Boston Red Sox.",
-      "player": null
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10130",
-      "id": "tb7hsfb5mvtxjkua",
-      "seq": 141175,
-      "desc": "The Mariners declined Robles' $9 million club option for the 2027 season Thursday, Daniel Kramer of MLB.com reports.",
-      "player": {
-        "name": "Victor Robles",
-        "posShortNames": "RF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03c65_96_12.png",
-        "scorerId": "03c65",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10130",
-      "id": "u0kpx798mvtxjktc",
-      "seq": 141174,
-      "desc": "The Mariners declined Miller's $6.075 million club option for 2027 on Thursday.",
-      "player": {
-        "name": "Bryce Miller",
-        "posShortNames": "SP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05vy6_96_3.png",
-        "scorerId": "05vy6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10130",
-      "id": "hborrnt8mvtxjks9",
-      "seq": 141173,
-      "desc": "The Mariners exercised Munoz's $9 million club option for 2027 on Thursday.",
-      "player": {
-        "name": "Andres Munoz",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0403o_96_9.png",
-        "scorerId": "0403o",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10105",
-      "id": "eabfxkmjmvtxjkr3",
-      "seq": 141172,
-      "desc": "The Astros declined Weiss's $5 million club option for 2027 on Thursday, Jesse Rogers of ESPN.com reports.",
-      "player": {
-        "name": "Ryan Weiss",
-        "posShortNames": "SP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pq7_96_2.png",
-        "scorerId": "04pq7",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10100",
-      "id": "zclh1iq4mvtxjkpo",
-      "seq": 141171,
-      "desc": "The Twins outrighted Gray to Triple-A St. Paul on Thursday, Dan Hayes of The Athletic reports.",
-      "player": {
-        "name": "Tristan Gray",
-        "posShortNames": "SS",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eme_96_4.png",
-        "scorerId": "04eme",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10100",
-      "id": "geglpjlsmvtxjko5",
-      "seq": 141170,
-      "desc": "The Twins outrighted Sabato to Triple-A St. Paul on Thursday, Dan Hayes of The Athletic reports.",
-      "player": {
-        "name": "Aaron Sabato",
-        "posShortNames": "1B",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ge2_96_1.png",
-        "scorerId": "05ge2",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10121",
-      "id": "pgfyy4y1mvtxjkmj",
-      "seq": 141169,
-      "desc": "The Athletics outrighted Serven to Triple-A Las Vegas on Thursday.",
-      "player": {
-        "name": "Brian Serven",
-        "posShortNames": "C",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rz_96_9.png",
-        "scorerId": "041rz",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
