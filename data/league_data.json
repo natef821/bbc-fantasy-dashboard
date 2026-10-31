@@ -1,11 +1,53 @@
 {
-  "lastUpdated": "2026-10-31T03:43:22.676071Z",
+  "lastUpdated": "2026-10-31T11:33:10.809655Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10140",
+      "id": "h243664hmvvzt136",
+      "seq": 141215,
+      "desc": "Junis' mutual option for the 2027 season wasn't exercised Friday, making him a free agent, Kennedi Landry of MLB.com reports.",
+      "player": {
+        "name": "Jakob Junis",
+        "posShortNames": "RP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02f9m_96_13.png",
+        "scorerId": "02f9m",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10140",
+      "id": "q3jgd9nsmvvzt10c",
+      "seq": 141214,
+      "desc": "Higashioka's mutual option for 2027 wasn't exercised Friday, making him a free agent, Kennedi Landry of MLB.com reports.",
+      "player": {
+        "name": "Kyle Higashioka",
+        "posShortNames": "C",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01usr_96_17.png",
+        "scorerId": "01usr",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1793376000000,
       "teamId": "10140",
@@ -629,48 +671,6 @@
         "scorerId": "041qb",
         "posIds": [
           "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10150",
-      "id": "7tfmmvjomvu66v0l",
-      "seq": 141185,
-      "desc": "Atlanta exercised Acuna's $17 million club option for the 2027 season Thursday.",
-      "player": {
-        "name": "Ronald Acuna Jr.",
-        "posShortNames": "RF",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03wha_96_11.png",
-        "scorerId": "03wha",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10150",
-      "id": "56fir91hmvu66uy4",
-      "seq": 141184,
-      "desc": "Atlanta exercised Albies' $7 million club option for the 2027 season Thursday.",
-      "player": {
-        "name": "Ozzie Albies",
-        "posShortNames": "2B",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03fi0_96_14.png",
-        "scorerId": "03fi0",
-        "posIds": [
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -680,6 +680,48 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1793462400000,
+      "teamId": "10140",
+      "id": "h243664hmvvzt136",
+      "seq": 141215,
+      "desc": "Junis' mutual option for the 2027 season wasn't exercised Friday, making him a free agent, Kennedi Landry of MLB.com reports.",
+      "player": {
+        "name": "Jakob Junis",
+        "posShortNames": "RP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02f9m_96_13.png",
+        "scorerId": "02f9m",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10140",
+      "id": "q3jgd9nsmvvzt10c",
+      "seq": 141214,
+      "desc": "Higashioka's mutual option for 2027 wasn't exercised Friday, making him a free agent, Kennedi Landry of MLB.com reports.",
+      "player": {
+        "name": "Kyle Higashioka",
+        "posShortNames": "C",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01usr_96_17.png",
+        "scorerId": "01usr",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1793376000000,
       "teamId": "10140",
       "id": "1h0xqdwxmvvrvt4t",
@@ -1302,48 +1344,6 @@
         "scorerId": "041qb",
         "posIds": [
           "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10150",
-      "id": "7tfmmvjomvu66v0l",
-      "seq": 141185,
-      "desc": "Atlanta exercised Acuna's $17 million club option for the 2027 season Thursday.",
-      "player": {
-        "name": "Ronald Acuna Jr.",
-        "posShortNames": "RF",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03wha_96_11.png",
-        "scorerId": "03wha",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10150",
-      "id": "56fir91hmvu66uy4",
-      "seq": 141184,
-      "desc": "Atlanta exercised Albies' $7 million club option for the 2027 season Thursday.",
-      "player": {
-        "name": "Ozzie Albies",
-        "posShortNames": "2B",
-        "teamShortName": "ATL",
-        "teamName": "Atlanta Braves",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03fi0_96_14.png",
-        "scorerId": "03fi0",
-        "posIds": [
-          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
