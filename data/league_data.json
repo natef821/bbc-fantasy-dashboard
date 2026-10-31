@@ -1,11 +1,223 @@
 {
-  "lastUpdated": "2026-10-30T21:52:24.834745Z",
+  "lastUpdated": "2026-10-31T03:43:22.676071Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10140",
+      "id": "1h0xqdwxmvvrvt4t",
+      "seq": 141213,
+      "desc": "The Rangers selected Curry's contract from Double-A Frisco on Friday, Joel Sherman of the New York Post reports.",
+      "player": {
+        "name": "Aidan Curry",
+        "posShortNames": "SP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "",
+        "scorerId": "06b49",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10260",
+      "id": "9kc53auumvvrvt2b",
+      "seq": 141212,
+      "desc": "Soroka declined his end of a $10 million mutual option for the 2027 season Friday, Nick Piecoro of The Arizona Republic reports.",
+      "player": {
+        "name": "Michael Soroka",
+        "posShortNames": "SP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pjf_96_12.png",
+        "scorerId": "03pjf",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10110",
+      "id": "bg87i2t1mvvj8iuj",
+      "seq": 141211,
+      "desc": "The Angels selected Pinazzi's contract from Double-A Rocket City on Friday.",
+      "player": {
+        "name": "Nicolo Pinazzi",
+        "posShortNames": "RP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "",
+        "scorerId": "072ii",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10070",
+      "id": "6ten8o7amvvj8ith",
+      "seq": 141210,
+      "desc": "The Guardians selected Tolentino's contract from Triple-A Columbus on Friday, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "Milan Tolentino",
+        "posShortNames": "SS,2B,3B",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "",
+        "scorerId": "05h2t",
+        "posIds": [
+          "005",
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10070",
+      "id": "fllc3rrymvvj8isf",
+      "seq": 141209,
+      "desc": "The Guardians declined Stephan's $7.25 million club option for 2027 on Friday, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "Trevor Stephan",
+        "posShortNames": "RP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0421j_96_6.png",
+        "scorerId": "0421j",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10070",
+      "id": "duo1xboymvvj8ir4",
+      "seq": 141208,
+      "desc": "The Guardians declined their side of Armstrong's $8 million mutual option for the 2027 season Friday, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "Shawn Armstrong",
+        "posShortNames": "RP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02c47_96_16.png",
+        "scorerId": "02c47",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10300",
+      "id": "eqbo9x35mvvj8ipo",
+      "seq": 141207,
+      "desc": "Knizner cleared waivers Friday and was sent outright to Triple-A Sacramento, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Andrew Knizner",
+        "posShortNames": "C",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041t8_96_14.png",
+        "scorerId": "041t8",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10140",
+      "id": "n01015ebmvvj8inq",
+      "seq": 141206,
+      "desc": "Pederson declined his side of an $18.5 million mutual option for 2027 on Friday, Jesse Rogers of ESPN.com reports.",
+      "player": {
+        "name": "Joc Pederson",
+        "posShortNames": "DH,1B",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs026qc_96_16.png",
+        "scorerId": "026qc",
+        "posIds": [
+          "013",
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10040",
+      "id": "u0umce91mvvj8il1",
+      "seq": 141205,
+      "desc": "The Rays declined Mullins' $10 million mutual option for 2027 on Friday.",
+      "player": {
+        "name": "Cedric Mullins",
+        "posShortNames": "CF",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qr0_96_12.png",
+        "scorerId": "03qr0",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1793376000000,
       "teamId": "10121",
@@ -459,187 +671,6 @@
         "scorerId": "03fi0",
         "posIds": [
           "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10090",
-      "id": "xfti8z7kmvu1v7n7",
-      "seq": 141183,
-      "desc": "The Royals exercised Gonsolin's $2.5 million club option for 2027 on Thursday.",
-      "player": {
-        "name": "Tony Gonsolin",
-        "posShortNames": "SP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041v6_96_10.png",
-        "scorerId": "041v6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10300",
-      "id": "xyknwu9imvu1v7m9",
-      "seq": 141182,
-      "desc": "Foley cleared waivers Thursday and was sent outright to Triple-A Sacramento, Susan Slusser of the San Francisco Chronicle reports.",
-      "player": {
-        "name": "Jason Foley",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aoq_96_7.png",
-        "scorerId": "04aoq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10300",
-      "id": "9dzn2rwlmvu1v7l7",
-      "seq": 141181,
-      "desc": "The Giants outrighted Basabe to Triple-A Sacramento on Thursday.",
-      "player": {
-        "name": "Osleivis Basabe",
-        "posShortNames": "2B",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ni5_96_2.png",
-        "scorerId": "04ni5",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10300",
-      "id": "lwh8471amvu1v7k1",
-      "seq": 141180,
-      "desc": "The Mariners claimed McCray off waivers from the Giants on Thursday, Susan Slusser of the San Francisco Chronicle reports.",
-      "player": {
-        "name": "Grant McCray",
-        "posShortNames": "CF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0512r_96_1.png",
-        "scorerId": "0512r",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10300",
-      "id": "q1chp7szmvu1v7il",
-      "seq": 141179,
-      "desc": "The Giants activated Gage (elbow) from the 60-day injured list Thursday and outrighted him to Triple-A Sacramento.",
-      "player": {
-        "name": "Matt Gage",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03di1_96_2.png",
-        "scorerId": "03di1",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10190",
-      "id": "zabevhh3mvu1v7gt",
-      "seq": 141178,
-      "desc": "The Nationals designated Kent for assignment Thursday.",
-      "player": {
-        "name": "Zak Kent",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0516v_96_2.png",
-        "scorerId": "0516v",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10300",
-      "id": "38gb6030mvu1v7e9",
-      "seq": 141177,
-      "desc": "The Nationals claimed Roxby off waivers from the Giants on Thursday.",
-      "player": {
-        "name": "Braxton Roxby",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "05rkx",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10020",
-      "id": "sagf2ih9mvu0pm8d",
-      "seq": 141176,
-      "desc": "The  Athletics traded SP Jareth Rayo to the Boston Red Sox.",
-      "player": null
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10121",
-      "id": "buuz384hmvu0psj8",
-      "seq": 141176,
-      "desc": "The Boston Red Sox traded LF Nate Eaton to the  Athletics.",
-      "player": {
-        "name": "Nate Eaton",
-        "posShortNames": "LF",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3n_96_2.png",
-        "scorerId": "04q3n",
-        "posIds": [
-          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -650,6 +681,218 @@
   "mlbTransactions": [
     {
       "displayDate": 1793376000000,
+      "teamId": "10140",
+      "id": "1h0xqdwxmvvrvt4t",
+      "seq": 141213,
+      "desc": "The Rangers selected Curry's contract from Double-A Frisco on Friday, Joel Sherman of the New York Post reports.",
+      "player": {
+        "name": "Aidan Curry",
+        "posShortNames": "SP",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "",
+        "scorerId": "06b49",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10260",
+      "id": "9kc53auumvvrvt2b",
+      "seq": 141212,
+      "desc": "Soroka declined his end of a $10 million mutual option for the 2027 season Friday, Nick Piecoro of The Arizona Republic reports.",
+      "player": {
+        "name": "Michael Soroka",
+        "posShortNames": "SP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pjf_96_12.png",
+        "scorerId": "03pjf",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10110",
+      "id": "bg87i2t1mvvj8iuj",
+      "seq": 141211,
+      "desc": "The Angels selected Pinazzi's contract from Double-A Rocket City on Friday.",
+      "player": {
+        "name": "Nicolo Pinazzi",
+        "posShortNames": "RP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "",
+        "scorerId": "072ii",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10070",
+      "id": "6ten8o7amvvj8ith",
+      "seq": 141210,
+      "desc": "The Guardians selected Tolentino's contract from Triple-A Columbus on Friday, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "Milan Tolentino",
+        "posShortNames": "SS,2B,3B",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "",
+        "scorerId": "05h2t",
+        "posIds": [
+          "005",
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10070",
+      "id": "fllc3rrymvvj8isf",
+      "seq": 141209,
+      "desc": "The Guardians declined Stephan's $7.25 million club option for 2027 on Friday, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "Trevor Stephan",
+        "posShortNames": "RP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0421j_96_6.png",
+        "scorerId": "0421j",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10070",
+      "id": "duo1xboymvvj8ir4",
+      "seq": 141208,
+      "desc": "The Guardians declined their side of Armstrong's $8 million mutual option for the 2027 season Friday, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "Shawn Armstrong",
+        "posShortNames": "RP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02c47_96_16.png",
+        "scorerId": "02c47",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10300",
+      "id": "eqbo9x35mvvj8ipo",
+      "seq": 141207,
+      "desc": "Knizner cleared waivers Friday and was sent outright to Triple-A Sacramento, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Andrew Knizner",
+        "posShortNames": "C",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041t8_96_14.png",
+        "scorerId": "041t8",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10140",
+      "id": "n01015ebmvvj8inq",
+      "seq": 141206,
+      "desc": "Pederson declined his side of an $18.5 million mutual option for 2027 on Friday, Jesse Rogers of ESPN.com reports.",
+      "player": {
+        "name": "Joc Pederson",
+        "posShortNames": "DH,1B",
+        "teamShortName": "TEX",
+        "teamName": "Texas Rangers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs026qc_96_16.png",
+        "scorerId": "026qc",
+        "posIds": [
+          "013",
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
+      "teamId": "10040",
+      "id": "u0umce91mvvj8il1",
+      "seq": 141205,
+      "desc": "The Rays declined Mullins' $10 million mutual option for 2027 on Friday.",
+      "player": {
+        "name": "Cedric Mullins",
+        "posShortNames": "CF",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qr0_96_12.png",
+        "scorerId": "03qr0",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793376000000,
       "teamId": "10121",
       "id": "pjsxn2e2mvvd308y",
       "seq": 141204,
@@ -1101,187 +1344,6 @@
         "scorerId": "03fi0",
         "posIds": [
           "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10090",
-      "id": "xfti8z7kmvu1v7n7",
-      "seq": 141183,
-      "desc": "The Royals exercised Gonsolin's $2.5 million club option for 2027 on Thursday.",
-      "player": {
-        "name": "Tony Gonsolin",
-        "posShortNames": "SP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041v6_96_10.png",
-        "scorerId": "041v6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10300",
-      "id": "xyknwu9imvu1v7m9",
-      "seq": 141182,
-      "desc": "Foley cleared waivers Thursday and was sent outright to Triple-A Sacramento, Susan Slusser of the San Francisco Chronicle reports.",
-      "player": {
-        "name": "Jason Foley",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aoq_96_7.png",
-        "scorerId": "04aoq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10300",
-      "id": "9dzn2rwlmvu1v7l7",
-      "seq": 141181,
-      "desc": "The Giants outrighted Basabe to Triple-A Sacramento on Thursday.",
-      "player": {
-        "name": "Osleivis Basabe",
-        "posShortNames": "2B",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ni5_96_2.png",
-        "scorerId": "04ni5",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10300",
-      "id": "lwh8471amvu1v7k1",
-      "seq": 141180,
-      "desc": "The Mariners claimed McCray off waivers from the Giants on Thursday, Susan Slusser of the San Francisco Chronicle reports.",
-      "player": {
-        "name": "Grant McCray",
-        "posShortNames": "CF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0512r_96_1.png",
-        "scorerId": "0512r",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10300",
-      "id": "q1chp7szmvu1v7il",
-      "seq": 141179,
-      "desc": "The Giants activated Gage (elbow) from the 60-day injured list Thursday and outrighted him to Triple-A Sacramento.",
-      "player": {
-        "name": "Matt Gage",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03di1_96_2.png",
-        "scorerId": "03di1",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10190",
-      "id": "zabevhh3mvu1v7gt",
-      "seq": 141178,
-      "desc": "The Nationals designated Kent for assignment Thursday.",
-      "player": {
-        "name": "Zak Kent",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0516v_96_2.png",
-        "scorerId": "0516v",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10300",
-      "id": "38gb6030mvu1v7e9",
-      "seq": 141177,
-      "desc": "The Nationals claimed Roxby off waivers from the Giants on Thursday.",
-      "player": {
-        "name": "Braxton Roxby",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "05rkx",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10020",
-      "id": "sagf2ih9mvu0pm8d",
-      "seq": 141176,
-      "desc": "The  Athletics traded SP Jareth Rayo to the Boston Red Sox.",
-      "player": null
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10121",
-      "id": "buuz384hmvu0psj8",
-      "seq": 141176,
-      "desc": "The Boston Red Sox traded LF Nate Eaton to the  Athletics.",
-      "player": {
-        "name": "Nate Eaton",
-        "posShortNames": "LF",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3n_96_2.png",
-        "scorerId": "04q3n",
-        "posIds": [
-          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
