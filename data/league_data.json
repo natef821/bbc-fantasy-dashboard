@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T20:53:15.102225Z",
+  "lastUpdated": "2026-11-01T03:51:59.289645Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -8,6 +8,222 @@
   "transactions": [
     {
       "displayDate": 1793462400000,
+      "teamId": "10290",
+      "id": "z9tst31dmvx71h3m",
+      "seq": 141225,
+      "desc": "Peralta exercised his $4.45 million player option for 2027 on Saturday, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Wandy Peralta",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047sh_96_12.png",
+        "scorerId": "047sh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10290",
+      "id": "9fkszp5qmvx71h29",
+      "seq": 141224,
+      "desc": "The Padres declined Pivetta's $14 million option for 2027 on Saturday, Kevin Acee of The San Diego Union-Tribune reports.",
+      "player": {
+        "name": "Nick Pivetta",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0316j_96_14.png",
+        "scorerId": "0316j",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10040",
+      "id": "ryflykh0mvx71h0h",
+      "seq": 141223,
+      "desc": "The Rays have formalized the completion of Diaz's $13 million vesting option for 2027, Marc Topkin of the Tampa Bay Times reports.",
+      "player": {
+        "name": "Yandy Diaz",
+        "posShortNames": "DH",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03m6o_96_13.png",
+        "scorerId": "03m6o",
+        "posIds": [
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10110",
+      "id": "pnjuoephmvx71gxz",
+      "seq": 141222,
+      "desc": "Peralta elected free agency Saturday.",
+      "player": {
+        "name": "Sammy Peralta",
+        "posShortNames": "RP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051dq_96_1.png",
+        "scorerId": "051dq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10010",
+      "id": "gp4xtu70mvx2ptw0",
+      "seq": 141221,
+      "desc": "Heuer cleared waivers and accepted an outright assignment to Triple-A Norfolk on Saturday.",
+      "player": {
+        "name": "Codi Heuer",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04prq_96_7.png",
+        "scorerId": "04prq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10010",
+      "id": "fl018zpqmvx2ptuq",
+      "seq": 141220,
+      "desc": "Suarez cleared waivers and chose to become a free agent Saturday.",
+      "player": {
+        "name": "Albert Suarez",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02xid_96_9.png",
+        "scorerId": "02xid",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10040",
+      "id": "kq6gaervmvx2pttb",
+      "seq": 141219,
+      "desc": "The Rays exercised Rasmussen's $20 million club option for the 2027 season Saturday, Marc Topkin of the Tampa Bay Times reports.",
+      "player": {
+        "name": "Drew Rasmussen",
+        "posShortNames": "SP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eee_96_9.png",
+        "scorerId": "04eee",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10210",
+      "id": "i7y35hvmmvx2ptqt",
+      "seq": 141218,
+      "desc": "The Reds declined Johnson's $8 million mutual option for the 2027 season Saturday.",
+      "player": {
+        "name": "Pierce Johnson",
+        "posShortNames": "RP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hdy_96_16.png",
+        "scorerId": "02hdy",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10210",
+      "id": "k8lgzru5mvwye6ey",
+      "seq": 141217,
+      "desc": "The Reds declined Suarez's $16 million mutual option for 2027 on Saturday.",
+      "player": {
+        "name": "Eugenio Suarez",
+        "posShortNames": "DH,3B",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02jh6_96_15.png",
+        "scorerId": "02jh6",
+        "posIds": [
+          "013",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10210",
+      "id": "4lmy5ag6mvwye6cf",
+      "seq": 141216,
+      "desc": "Pagan declined his $10 million player option for the 2027 season Saturday, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Emilio Pagan",
+        "posShortNames": "RP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031cy_96_11.png",
+        "scorerId": "031cy",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
       "teamId": "10140",
       "id": "h243664hmvvzt136",
       "seq": 141215,
@@ -453,234 +669,228 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10160",
-      "id": "qlbfrspimvv1nque",
-      "seq": 141195,
-      "desc": "The Marlins outrighted Driscoll to Triple-A Jacksonville on Thursday.",
-      "player": {
-        "name": "Logan Driscoll",
-        "posShortNames": "C",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "",
-        "scorerId": "0512b",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10160",
-      "id": "zb6rfysamvv1nqsp",
-      "seq": 141194,
-      "desc": "The Marlins outrighted Gonzalez to Triple-A Jacksonville on Thursday.",
-      "player": {
-        "name": "Wikelman Gonzalez",
-        "posShortNames": "RP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs052ht_96_2.png",
-        "scorerId": "052ht",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10160",
-      "id": "pab9v63nmvv1nqr0",
-      "seq": 141193,
-      "desc": "The Marlins outrighted Navarreto to Triple-A Jacksonville on Thursday.",
-      "player": {
-        "name": "Brian Navarreto",
-        "posShortNames": "C",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031bn_96_9.png",
-        "scorerId": "031bn",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10040",
-      "id": "ti074l2pmvv1nqpm",
-      "seq": 141192,
-      "desc": "Martinez declined his side of a $20 million mutual option for 2027 and is now a free agent, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Nick Martinez",
-        "posShortNames": "SP,RP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02c4q_96_8.png",
-        "scorerId": "02c4q",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10050",
-      "id": "mcwub0xmmvv1nqnw",
-      "seq": 141191,
-      "desc": "The Blue Jays outrighted Martin to Triple-A Buffalo on Thursday.",
-      "player": {
-        "name": "Rudy Martin",
-        "posShortNames": "RF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "03dwo",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10080",
-      "id": "5ahlqgo3mvubvfvm",
-      "seq": 141190,
-      "desc": "The Boston Red Sox traded SS Tsung-Che Cheng to the Detroit Tigers.",
-      "player": {
-        "name": "Tsung-Che Cheng",
-        "posShortNames": "SS,2B",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y34_96_2.png",
-        "scorerId": "05y34",
-        "posIds": [
-          "005",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10170",
-      "id": "tshvaxgrmvuaihup",
-      "seq": 141189,
-      "desc": "Paris was claimed off waivers by the Mets on Thursday.",
-      "player": {
-        "name": "Kyren Paris",
-        "posShortNames": "2B",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050s0_96_3.png",
-        "scorerId": "050s0",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10170",
-      "id": "oqb6fgdkmvuaiht4",
-      "seq": 141188,
-      "desc": "Pache was designated for assignment by the Mets on Thursday.",
-      "player": {
-        "name": "Cristian Pache",
-        "posShortNames": "CF",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03xlc_96_8.png",
-        "scorerId": "03xlc",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10230",
-      "id": "6rdb9qm4mvuaihqm",
-      "seq": 141187,
-      "desc": "May declined his mutual option with the Brewers on Thursday, becoming a free agent, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Dustin May",
-        "posShortNames": "SP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041r5_96_12.png",
-        "scorerId": "041r5",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10170",
-      "id": "4yxfcexsmvu66v2c",
-      "seq": 141186,
-      "desc": "Bichette exercised his $42 million player option for the 2027 season Thursday, Will Sammon of The Athletic reports.",
-      "player": {
-        "name": "Bo Bichette",
-        "posShortNames": "3B",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qb_96_10.png",
-        "scorerId": "041qb",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1793462400000,
+      "teamId": "10290",
+      "id": "z9tst31dmvx71h3m",
+      "seq": 141225,
+      "desc": "Peralta exercised his $4.45 million player option for 2027 on Saturday, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Wandy Peralta",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047sh_96_12.png",
+        "scorerId": "047sh",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10290",
+      "id": "9fkszp5qmvx71h29",
+      "seq": 141224,
+      "desc": "The Padres declined Pivetta's $14 million option for 2027 on Saturday, Kevin Acee of The San Diego Union-Tribune reports.",
+      "player": {
+        "name": "Nick Pivetta",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0316j_96_14.png",
+        "scorerId": "0316j",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10040",
+      "id": "ryflykh0mvx71h0h",
+      "seq": 141223,
+      "desc": "The Rays have formalized the completion of Diaz's $13 million vesting option for 2027, Marc Topkin of the Tampa Bay Times reports.",
+      "player": {
+        "name": "Yandy Diaz",
+        "posShortNames": "DH",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03m6o_96_13.png",
+        "scorerId": "03m6o",
+        "posIds": [
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10110",
+      "id": "pnjuoephmvx71gxz",
+      "seq": 141222,
+      "desc": "Peralta elected free agency Saturday.",
+      "player": {
+        "name": "Sammy Peralta",
+        "posShortNames": "RP",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051dq_96_1.png",
+        "scorerId": "051dq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10010",
+      "id": "gp4xtu70mvx2ptw0",
+      "seq": 141221,
+      "desc": "Heuer cleared waivers and accepted an outright assignment to Triple-A Norfolk on Saturday.",
+      "player": {
+        "name": "Codi Heuer",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04prq_96_7.png",
+        "scorerId": "04prq",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10010",
+      "id": "fl018zpqmvx2ptuq",
+      "seq": 141220,
+      "desc": "Suarez cleared waivers and chose to become a free agent Saturday.",
+      "player": {
+        "name": "Albert Suarez",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02xid_96_9.png",
+        "scorerId": "02xid",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10040",
+      "id": "kq6gaervmvx2pttb",
+      "seq": 141219,
+      "desc": "The Rays exercised Rasmussen's $20 million club option for the 2027 season Saturday, Marc Topkin of the Tampa Bay Times reports.",
+      "player": {
+        "name": "Drew Rasmussen",
+        "posShortNames": "SP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eee_96_9.png",
+        "scorerId": "04eee",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10210",
+      "id": "i7y35hvmmvx2ptqt",
+      "seq": 141218,
+      "desc": "The Reds declined Johnson's $8 million mutual option for the 2027 season Saturday.",
+      "player": {
+        "name": "Pierce Johnson",
+        "posShortNames": "RP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hdy_96_16.png",
+        "scorerId": "02hdy",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10210",
+      "id": "k8lgzru5mvwye6ey",
+      "seq": 141217,
+      "desc": "The Reds declined Suarez's $16 million mutual option for 2027 on Saturday.",
+      "player": {
+        "name": "Eugenio Suarez",
+        "posShortNames": "DH,3B",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02jh6_96_15.png",
+        "scorerId": "02jh6",
+        "posIds": [
+          "013",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
+      "teamId": "10210",
+      "id": "4lmy5ag6mvwye6cf",
+      "seq": 141216,
+      "desc": "Pagan declined his $10 million player option for the 2027 season Saturday, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Emilio Pagan",
+        "posShortNames": "RP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031cy_96_11.png",
+        "scorerId": "031cy",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793462400000,
       "teamId": "10140",
       "id": "h243664hmvvzt136",
       "seq": 141215,
@@ -1126,228 +1336,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10160",
-      "id": "qlbfrspimvv1nque",
-      "seq": 141195,
-      "desc": "The Marlins outrighted Driscoll to Triple-A Jacksonville on Thursday.",
-      "player": {
-        "name": "Logan Driscoll",
-        "posShortNames": "C",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "",
-        "scorerId": "0512b",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10160",
-      "id": "zb6rfysamvv1nqsp",
-      "seq": 141194,
-      "desc": "The Marlins outrighted Gonzalez to Triple-A Jacksonville on Thursday.",
-      "player": {
-        "name": "Wikelman Gonzalez",
-        "posShortNames": "RP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs052ht_96_2.png",
-        "scorerId": "052ht",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10160",
-      "id": "pab9v63nmvv1nqr0",
-      "seq": 141193,
-      "desc": "The Marlins outrighted Navarreto to Triple-A Jacksonville on Thursday.",
-      "player": {
-        "name": "Brian Navarreto",
-        "posShortNames": "C",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031bn_96_9.png",
-        "scorerId": "031bn",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10040",
-      "id": "ti074l2pmvv1nqpm",
-      "seq": 141192,
-      "desc": "Martinez declined his side of a $20 million mutual option for 2027 and is now a free agent, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Nick Martinez",
-        "posShortNames": "SP,RP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02c4q_96_8.png",
-        "scorerId": "02c4q",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10050",
-      "id": "mcwub0xmmvv1nqnw",
-      "seq": 141191,
-      "desc": "The Blue Jays outrighted Martin to Triple-A Buffalo on Thursday.",
-      "player": {
-        "name": "Rudy Martin",
-        "posShortNames": "RF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "03dwo",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10080",
-      "id": "5ahlqgo3mvubvfvm",
-      "seq": 141190,
-      "desc": "The Boston Red Sox traded SS Tsung-Che Cheng to the Detroit Tigers.",
-      "player": {
-        "name": "Tsung-Che Cheng",
-        "posShortNames": "SS,2B",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y34_96_2.png",
-        "scorerId": "05y34",
-        "posIds": [
-          "005",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10170",
-      "id": "tshvaxgrmvuaihup",
-      "seq": 141189,
-      "desc": "Paris was claimed off waivers by the Mets on Thursday.",
-      "player": {
-        "name": "Kyren Paris",
-        "posShortNames": "2B",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050s0_96_3.png",
-        "scorerId": "050s0",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10170",
-      "id": "oqb6fgdkmvuaiht4",
-      "seq": 141188,
-      "desc": "Pache was designated for assignment by the Mets on Thursday.",
-      "player": {
-        "name": "Cristian Pache",
-        "posShortNames": "CF",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03xlc_96_8.png",
-        "scorerId": "03xlc",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10230",
-      "id": "6rdb9qm4mvuaihqm",
-      "seq": 141187,
-      "desc": "May declined his mutual option with the Brewers on Thursday, becoming a free agent, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Dustin May",
-        "posShortNames": "SP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041r5_96_12.png",
-        "scorerId": "041r5",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793289600000,
-      "teamId": "10170",
-      "id": "4yxfcexsmvu66v2c",
-      "seq": 141186,
-      "desc": "Bichette exercised his $42 million player option for the 2027 season Thursday, Will Sammon of The Athletic reports.",
-      "player": {
-        "name": "Bo Bichette",
-        "posShortNames": "3B",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qb_96_10.png",
-        "scorerId": "041qb",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
