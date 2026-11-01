@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T03:51:59.289645Z",
+  "lastUpdated": "2026-11-01T12:30:44.680160Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,32 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1793548800000,
+      "teamId": "10105",
+      "id": "vry3txq5mvxfg953",
+      "seq": 141226,
+      "desc": "The Tampa Bay Rays traded RP Evan Reifert to the Houston Astros.",
+      "player": {
+        "name": "Evan Reifert",
+        "posShortNames": "RP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "",
+        "scorerId": "05y0r",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1793462400000,
       "teamId": "10290",
       "id": "z9tst31dmvx71h3m",
@@ -643,37 +669,37 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10160",
-      "id": "yumc24smmvv1nqw5",
-      "seq": 141196,
-      "desc": "The Marlins outrighted Brzykcy to Triple-A Jacksonville on Thursday.",
-      "player": {
-        "name": "Zach Brzykcy",
-        "posShortNames": "RP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ocn_96_1.png",
-        "scorerId": "05ocn",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1793548800000,
+      "teamId": "10105",
+      "id": "vry3txq5mvxfg953",
+      "seq": 141226,
+      "desc": "The Tampa Bay Rays traded RP Evan Reifert to the Houston Astros.",
+      "player": {
+        "name": "Evan Reifert",
+        "posShortNames": "RP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "",
+        "scorerId": "05y0r",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1793462400000,
       "teamId": "10290",
       "id": "z9tst31dmvx71h3m",
@@ -1310,32 +1336,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10160",
-      "id": "yumc24smmvv1nqw5",
-      "seq": 141196,
-      "desc": "The Marlins outrighted Brzykcy to Triple-A Jacksonville on Thursday.",
-      "player": {
-        "name": "Zach Brzykcy",
-        "posShortNames": "RP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ocn_96_1.png",
-        "scorerId": "05ocn",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
