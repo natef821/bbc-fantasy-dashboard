@@ -1,11 +1,37 @@
 {
-  "lastUpdated": "2026-11-01T12:30:44.680160Z",
+  "lastUpdated": "2026-11-01T21:35:31.242340Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1793548800000,
+      "teamId": "10170",
+      "id": "09ntvojrmvy50seu",
+      "seq": 141227,
+      "desc": "Brujan agreed to a minor-league contract with Atlanta on Saturday.",
+      "player": {
+        "name": "Vidal Brujan",
+        "posShortNames": "SS",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yxd_96_9.png",
+        "scorerId": "03yxd",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1793548800000,
       "teamId": "10105",
@@ -642,27 +668,6 @@
         "teamName": "Boston Red Sox",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0260v_96_17.png",
         "scorerId": "0260v",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10160",
-      "id": "lswe2k4ymvv4fqbm",
-      "seq": 141197,
-      "desc": "The Marlins exercised Alcantara's $21 million club option for 2027 on Friday.",
-      "player": {
-        "name": "Sandy Alcantara",
-        "posShortNames": "SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03btv_96_14.png",
-        "scorerId": "03btv",
         "posIds": [
           "015"
         ],
@@ -675,6 +680,32 @@
   "mlbTransactions": [
     {
       "displayDate": 1793548800000,
+      "teamId": "10170",
+      "id": "09ntvojrmvy50seu",
+      "seq": 141227,
+      "desc": "Brujan agreed to a minor-league contract with Atlanta on Saturday.",
+      "player": {
+        "name": "Vidal Brujan",
+        "posShortNames": "SS",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yxd_96_9.png",
+        "scorerId": "03yxd",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793548800000,
       "teamId": "10105",
       "id": "vry3txq5mvxfg953",
       "seq": 141226,
@@ -1309,27 +1340,6 @@
         "teamName": "Boston Red Sox",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0260v_96_17.png",
         "scorerId": "0260v",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10160",
-      "id": "lswe2k4ymvv4fqbm",
-      "seq": 141197,
-      "desc": "The Marlins exercised Alcantara's $21 million club option for 2027 on Friday.",
-      "player": {
-        "name": "Sandy Alcantara",
-        "posShortNames": "SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03btv_96_14.png",
-        "scorerId": "03btv",
         "posIds": [
           "015"
         ],
