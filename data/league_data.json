@@ -1,11 +1,58 @@
 {
-  "lastUpdated": "2026-11-01T21:35:31.242340Z",
+  "lastUpdated": "2026-11-02T03:55:49.146396Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1793548800000,
+      "teamId": "10190",
+      "id": "qr7qedlqmvyp01ki",
+      "seq": 141229,
+      "desc": "Lovelady was designated for assignment by the Nationals on Sunday, Kyle Williams of TheBanner.com reports.",
+      "player": {
+        "name": "Richard Lovelady",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041w0_96_10.png",
+        "scorerId": "041w0",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793548800000,
+      "teamId": "10290",
+      "id": "6ic565ywmvydo2dh",
+      "seq": 141228,
+      "desc": "The Padres exercised Hart's $2.5 million club option for 2027 on Sunday, Kevin Acee of The San Diego Union-Tribune reports.",
+      "player": {
+        "name": "Kyle Hart",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0422c_96_3.png",
+        "scorerId": "0422c",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1793548800000,
       "teamId": "10170",
@@ -628,48 +675,6 @@
         "posIds": [
           "002",
           "013"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10200",
-      "id": "hv1iqgr3mvvd301v",
-      "seq": 141199,
-      "desc": "The Cubs declined Kelly's $7.5 million mutual option for 2027 on Friday.",
-      "player": {
-        "name": "Carson Kelly",
-        "posShortNames": "C",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02mxf_96_15.png",
-        "scorerId": "02mxf",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10020",
-      "id": "ej96dmxhmvvd2zz5",
-      "seq": 141198,
-      "desc": "Gray declined his side of a $30 million mutual option for 2027 on Friday and is now a free agent, Mac Cerullo of the Boston Herald reports.",
-      "player": {
-        "name": "Sonny Gray",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0260v_96_17.png",
-        "scorerId": "0260v",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -680,6 +685,53 @@
   "mlbTransactions": [
     {
       "displayDate": 1793548800000,
+      "teamId": "10190",
+      "id": "qr7qedlqmvyp01ki",
+      "seq": 141229,
+      "desc": "Lovelady was designated for assignment by the Nationals on Sunday, Kyle Williams of TheBanner.com reports.",
+      "player": {
+        "name": "Richard Lovelady",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041w0_96_10.png",
+        "scorerId": "041w0",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793548800000,
+      "teamId": "10290",
+      "id": "6ic565ywmvydo2dh",
+      "seq": 141228,
+      "desc": "The Padres exercised Hart's $2.5 million club option for 2027 on Sunday, Kevin Acee of The San Diego Union-Tribune reports.",
+      "player": {
+        "name": "Kyle Hart",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0422c_96_3.png",
+        "scorerId": "0422c",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793548800000,
       "teamId": "10170",
       "id": "09ntvojrmvy50seu",
       "seq": 141227,
@@ -1300,48 +1352,6 @@
         "posIds": [
           "002",
           "013"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10200",
-      "id": "hv1iqgr3mvvd301v",
-      "seq": 141199,
-      "desc": "The Cubs declined Kelly's $7.5 million mutual option for 2027 on Friday.",
-      "player": {
-        "name": "Carson Kelly",
-        "posShortNames": "C",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02mxf_96_15.png",
-        "scorerId": "02mxf",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10020",
-      "id": "ej96dmxhmvvd2zz5",
-      "seq": 141198,
-      "desc": "Gray declined his side of a $30 million mutual option for 2027 on Friday and is now a free agent, Mac Cerullo of the Boston Herald reports.",
-      "player": {
-        "name": "Sonny Gray",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0260v_96_17.png",
-        "scorerId": "0260v",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
