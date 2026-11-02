@@ -1,11 +1,58 @@
 {
-  "lastUpdated": "2026-11-02T03:55:49.146396Z",
+  "lastUpdated": "2026-11-02T14:31:34.307378Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10190",
+      "id": "jr1uhfbomvysdz7b",
+      "seq": 141230,
+      "desc": "The San Francisco Giants traded 2B Nate Furman to the Washington Nationals.",
+      "player": {
+        "name": "Nate Furman",
+        "posShortNames": "2B",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06487_96_1.png",
+        "scorerId": "06487",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10300",
+      "id": "3rjhszrtmvysdz25",
+      "seq": 141230,
+      "desc": "The Washington Nationals traded RP Tony Neubeck to the San Francisco Giants.",
+      "player": {
+        "name": "Tony Neubeck",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "0792e",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1793548800000,
       "teamId": "10190",
@@ -632,49 +679,6 @@
         "scorerId": "04nb4",
         "posIds": [
           "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10100",
-      "id": "2xozdcucmvvd305g",
-      "seq": 141201,
-      "desc": "The Twins declined Ryan's $13 million mutual option for 2027 on Friday, Dan Hayes of The Athletic reports.",
-      "player": {
-        "name": "Joe Ryan",
-        "posShortNames": "SP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ps7_96_8.png",
-        "scorerId": "04ps7",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10100",
-      "id": "vyryzypxmvvd303v",
-      "seq": 141200,
-      "desc": "The Twins declined Bell's $10 million club option for 2027 on Friday.",
-      "player": {
-        "name": "Josh Bell",
-        "posShortNames": "1B,DH",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs026lz_96_15.png",
-        "scorerId": "026lz",
-        "posIds": [
-          "002",
-          "013"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -684,6 +688,53 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1793638800000,
+      "teamId": "10190",
+      "id": "jr1uhfbomvysdz7b",
+      "seq": 141230,
+      "desc": "The San Francisco Giants traded 2B Nate Furman to the Washington Nationals.",
+      "player": {
+        "name": "Nate Furman",
+        "posShortNames": "2B",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06487_96_1.png",
+        "scorerId": "06487",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10300",
+      "id": "3rjhszrtmvysdz25",
+      "seq": 141230,
+      "desc": "The Washington Nationals traded RP Tony Neubeck to the San Francisco Giants.",
+      "player": {
+        "name": "Tony Neubeck",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "0792e",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1793548800000,
       "teamId": "10190",
       "id": "qr7qedlqmvyp01ki",
@@ -1309,49 +1360,6 @@
         "scorerId": "04nb4",
         "posIds": [
           "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10100",
-      "id": "2xozdcucmvvd305g",
-      "seq": 141201,
-      "desc": "The Twins declined Ryan's $13 million mutual option for 2027 on Friday, Dan Hayes of The Athletic reports.",
-      "player": {
-        "name": "Joe Ryan",
-        "posShortNames": "SP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ps7_96_8.png",
-        "scorerId": "04ps7",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793376000000,
-      "teamId": "10100",
-      "id": "vyryzypxmvvd303v",
-      "seq": 141200,
-      "desc": "The Twins declined Bell's $10 million club option for 2027 on Friday.",
-      "player": {
-        "name": "Josh Bell",
-        "posShortNames": "1B,DH",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs026lz_96_15.png",
-        "scorerId": "026lz",
-        "posIds": [
-          "002",
-          "013"
         ],
         "rookie": false,
         "minorsEligible": false,
