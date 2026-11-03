@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T13:28:00.768527Z",
+  "lastUpdated": "2026-11-03T22:47:08.309995Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,96 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1793725200000,
+      "teamId": "10200",
+      "id": "yc0xf08nmw15l36s",
+      "seq": 141304,
+      "desc": "The Cubs declined Assad's $3.3 million club option for 2027 on Monday, Jordan Bastian of MLB.com reports.",
+      "player": {
+        "name": "Javier Assad",
+        "posShortNames": "SP,RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04fq2_96_4.png",
+        "scorerId": "04fq2",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10020",
+      "id": "02epkyicmw115oe3",
+      "seq": 141303,
+      "desc": "The St. Louis Cardinals traded SP Juan Garc\u00eda to the Boston Red Sox.",
+      "player": {
+        "name": "Juan Garcia",
+        "posShortNames": "SP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "",
+        "scorerId": "07awt",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10020",
+      "id": "96h34cnlmw0xvstt",
+      "seq": 141302,
+      "desc": "The Cardinals acquired Rivera from the Red Sox on Tuesday in exchange for Juan Garcia, Andrew Parker of SoxProspects.com reports.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1793638800000,
       "teamId": "10080",
       "id": "0ee5e94hmw0atpwi",
@@ -593,106 +683,101 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10290",
-      "id": "lorbknxzmvzxutm7",
-      "seq": 141275,
-      "desc": "The Padres extended Morejon a one-year, $23.15 million qualifying offer Monday, Joel Sherman of the New York Post reports.",
-      "player": {
-        "name": "Adrian Morejon",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs043ia_96_9.png",
-        "scorerId": "043ia",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10230",
-      "id": "wyvqsqwzmvzxutlc",
-      "seq": 141274,
-      "desc": "The Brewers extended Bauers a one-year, $23.15 million qualifying offer Monday, Joel Sherman of the New York Post reports.",
-      "player": {
-        "name": "Jake Bauers",
-        "posShortNames": "1B",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0316v_96_13.png",
-        "scorerId": "0316v",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10200",
-      "id": "le9wkn99mvzxutke",
-      "seq": 141273,
-      "desc": "The Cubs claimed Orze off waivers from the Twins on Monday.",
-      "player": {
-        "name": "Eric Orze",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05mrv_96_1.png",
-        "scorerId": "05mrv",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10040",
-      "id": "cvl71iacmvzxutji",
-      "seq": 141272,
-      "desc": "Madrigal cleared waivers and elected free agency Monday.",
-      "player": {
-        "name": "Nick Madrigal",
-        "posShortNames": "3B,2B",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qu7_96_9.png",
-        "scorerId": "03qu7",
-        "posIds": [
-          "004",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1793725200000,
+      "teamId": "10200",
+      "id": "yc0xf08nmw15l36s",
+      "seq": 141304,
+      "desc": "The Cubs declined Assad's $3.3 million club option for 2027 on Monday, Jordan Bastian of MLB.com reports.",
+      "player": {
+        "name": "Javier Assad",
+        "posShortNames": "SP,RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04fq2_96_4.png",
+        "scorerId": "04fq2",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10020",
+      "id": "02epkyicmw115oe3",
+      "seq": 141303,
+      "desc": "The St. Louis Cardinals traded SP Juan Garc\u00eda to the Boston Red Sox.",
+      "player": {
+        "name": "Juan Garcia",
+        "posShortNames": "SP",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "",
+        "scorerId": "07awt",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10020",
+      "id": "96h34cnlmw0xvstt",
+      "seq": 141302,
+      "desc": "The Cardinals acquired Rivera from the Red Sox on Tuesday in exchange for Juan Garcia, Andrew Parker of SoxProspects.com reports.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1793638800000,
       "teamId": "10080",
       "id": "0ee5e94hmw0atpwi",
@@ -1279,101 +1364,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10290",
-      "id": "lorbknxzmvzxutm7",
-      "seq": 141275,
-      "desc": "The Padres extended Morejon a one-year, $23.15 million qualifying offer Monday, Joel Sherman of the New York Post reports.",
-      "player": {
-        "name": "Adrian Morejon",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs043ia_96_9.png",
-        "scorerId": "043ia",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10230",
-      "id": "wyvqsqwzmvzxutlc",
-      "seq": 141274,
-      "desc": "The Brewers extended Bauers a one-year, $23.15 million qualifying offer Monday, Joel Sherman of the New York Post reports.",
-      "player": {
-        "name": "Jake Bauers",
-        "posShortNames": "1B",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0316v_96_13.png",
-        "scorerId": "0316v",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10200",
-      "id": "le9wkn99mvzxutke",
-      "seq": 141273,
-      "desc": "The Cubs claimed Orze off waivers from the Twins on Monday.",
-      "player": {
-        "name": "Eric Orze",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05mrv_96_1.png",
-        "scorerId": "05mrv",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10040",
-      "id": "cvl71iacmvzxutji",
-      "seq": 141272,
-      "desc": "Madrigal cleared waivers and elected free agency Monday.",
-      "player": {
-        "name": "Nick Madrigal",
-        "posShortNames": "3B,2B",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qu7_96_9.png",
-        "scorerId": "03qu7",
-        "posIds": [
-          "004",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
