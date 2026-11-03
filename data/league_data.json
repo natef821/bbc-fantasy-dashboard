@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T00:20:57.231603Z",
+  "lastUpdated": "2026-11-03T13:28:00.768527Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -9,6 +9,401 @@
     {
       "displayDate": 1793638800000,
       "teamId": "10080",
+      "id": "0ee5e94hmw0atpwi",
+      "seq": 141301,
+      "desc": "Diaz was designated for assignment by the Tigers on Monday.",
+      "player": {
+        "name": "Yilber Diaz",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06agh_96_1.png",
+        "scorerId": "06agh",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10260",
+      "id": "6ozpf1zfmw06i1rp",
+      "seq": 141300,
+      "desc": "Smith was sent outright to Triple-A Reno on Monday, Alex Weiner of ArizonaSports.com reports.",
+      "player": {
+        "name": "Pavin Smith",
+        "posShortNames": "1B",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04alq_96_9.png",
+        "scorerId": "04alq",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10270",
+      "id": "64xpg9rmmw026gg3",
+      "seq": 141299,
+      "desc": "Adams was sent outright to Triple-A Albuquerque on Monday.",
+      "player": {
+        "name": "Blake Adams",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "065nn",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10270",
+      "id": "c460nwoimw026ge8",
+      "seq": 141298,
+      "desc": "Stevens elected free agency Monday after clearing waivers.",
+      "player": {
+        "name": "Chad Stevens",
+        "posShortNames": "2B",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "05yfu",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10130",
+      "id": "1vhmcqwpmw026gd0",
+      "seq": 141297,
+      "desc": "The Mariners outrighted Wilson to Triple-A Tacoma on Monday, Ryan Divish of The Seattle Times reports.",
+      "player": {
+        "name": "Weston Wilson",
+        "posShortNames": "3B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0420h_96_4.png",
+        "scorerId": "0420h",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10270",
+      "id": "tmv497ofmw026g97",
+      "seq": 141296,
+      "desc": "Castellano elected free agency Monday after clearing waivers.",
+      "player": {
+        "name": "Eiberson Castellano",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "06l49",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10130",
+      "id": "fivuqwnnmw026g88",
+      "seq": 141295,
+      "desc": "The Mariners extended Arozarena a one-year, $23.15 million qualifying offer Monday, Ryan Divish of The Seattle Times reports.",
+      "player": {
+        "name": "Randy Arozarena",
+        "posShortNames": "LF",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs040b5_96_10.png",
+        "scorerId": "040b5",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10270",
+      "id": "ziisch90mw026g7d",
+      "seq": 141294,
+      "desc": "Shook elected free agency Monday after clearing waivers.",
+      "player": {
+        "name": "TJ Shook",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "05t66",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10100",
+      "id": "2vh4daj6mw026g6h",
+      "seq": 141293,
+      "desc": "The Twins extended Jeffers a one-year, $23.15 million qualifying offer Monday, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Ryan Jeffers",
+        "posShortNames": "C",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmu_96_9.png",
+        "scorerId": "04pmu",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10105",
+      "id": "ni5v5397mw026g5l",
+      "seq": 141292,
+      "desc": "The Astros exercised Paredes' $13.35 club option for the 2027 season Monday, Chandler Rome of The Athletic reports.",
+      "player": {
+        "name": "Isaac Paredes",
+        "posShortNames": "3B",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04071_96_9.png",
+        "scorerId": "04071",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10010",
+      "id": "nqqpdyu0mw026g4k",
+      "seq": 141291,
+      "desc": "The Orioles extended Rogers a one-year, $23.15 million qualifying offer Monday.",
+      "player": {
+        "name": "Trevor Rogers",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ak5_96_9.png",
+        "scorerId": "04ak5",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10030",
+      "id": "uo7sj726mw026g2f",
+      "seq": 141290,
+      "desc": "The Yankees extended Bednar a one-year, $23.15 million qualifying offer Monday.",
+      "player": {
+        "name": "David Bednar",
+        "posShortNames": "RP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aqc_96_9.png",
+        "scorerId": "04aqc",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10010",
+      "id": "61a5hqjgmw026g13",
+      "seq": 141289,
+      "desc": "Enns became a free agent Monday after the Orioles declined his club option for the 2027 season, Andy Kostka of TheBanner.com reports.",
+      "player": {
+        "name": "Dietrich Enns",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n9l_96_9.png",
+        "scorerId": "02n9l",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10030",
+      "id": "ykkdtceimw026fzn",
+      "seq": 141288,
+      "desc": "The Yankees selected Luciano's contract from Triple-A Scranton/Wilkes-Barre on Monday.",
+      "player": {
+        "name": "Marco Luciano",
+        "posShortNames": "2B,CF",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ooy_96_5.png",
+        "scorerId": "04ooy",
+        "posIds": [
+          "003",
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10300",
+      "id": "y2gske8lmw026fxt",
+      "seq": 141287,
+      "desc": "Sanmartin was designated for assignment by the Giants on Monday.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10050",
+      "id": "1i82n53cmw026fvs",
+      "seq": 141286,
+      "desc": "The Blue Jays declined Straw's $8 million club option for the 2027 season Monday, Keegan Matheson of MLB.com reports.",
+      "player": {
+        "name": "Myles Straw",
+        "posShortNames": "CF,LF,RF",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qqb_96_9.png",
+        "scorerId": "03qqb",
+        "posIds": [
+          "010",
+          "009",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10050",
+      "id": "8ro8a1camw026fsz",
+      "seq": 141285,
+      "desc": "Martin elected free agency Monday, Keegan Matheson of MLB.com reports.",
+      "player": {
+        "name": "Rudy Martin",
+        "posShortNames": "RF",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "03dwo",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10080",
       "id": "9951i3yimvzxutup",
       "seq": 141284,
       "desc": "The Tigers activated Meadows (arm) from the 60-day injured list Monday.",
@@ -293,400 +688,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10170",
-      "id": "g4914lyemvzxutin",
-      "seq": 141271,
-      "desc": "The Mets signed Paris to a one-year contract Monday and designated him for assignment.",
-      "player": {
-        "name": "Kyren Paris",
-        "posShortNames": "2B",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050s0_96_3.png",
-        "scorerId": "050s0",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10040",
-      "id": "ntpvtpekmvzxuthr",
-      "seq": 141270,
-      "desc": "The Rays selected Suwinski's contract from Triple-A Durham on Monday.",
-      "player": {
-        "name": "Jack Suwinski",
-        "posShortNames": "CF,LF,RF",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041z2_96_3.png",
-        "scorerId": "041z2",
-        "posIds": [
-          "010",
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10040",
-      "id": "326qcw5fmvzxutgw",
-      "seq": 141269,
-      "desc": "The Rays selected Alberto's contract from Triple-A Durham on Monday.",
-      "player": {
-        "name": "Alexander Alberto",
-        "posShortNames": "RP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "05rh5",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10040",
-      "id": "7ekpnnkimvzxutg1",
-      "seq": 141268,
-      "desc": "The Rays exercised Walls' $3.1 million club option for the 2027 season Monday.",
-      "player": {
-        "name": "Taylor Walls",
-        "posShortNames": "SS",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04bpj_96_9.png",
-        "scorerId": "04bpj",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "boxrrjdcmvzxutf5",
-      "seq": 141267,
-      "desc": "Zulueta cleared waivers and was outrighted to Triple-A Norfolk on Monday.",
-      "player": {
-        "name": "Yosver Zulueta",
-        "posShortNames": "RP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05it9_96_2.png",
-        "scorerId": "05it9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "enjcmfwwmvzxute7",
-      "seq": 141266,
-      "desc": "Pozo cleared waivers and was outrighted to Triple-A Norfolk on Monday.",
-      "player": {
-        "name": "Yohel Pozo",
-        "posShortNames": "C",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yr2_96_1.png",
-        "scorerId": "03yr2",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "ptdyqp4amvzxutd7",
-      "seq": 141265,
-      "desc": "Taveras cleared waivers and elected to become a free agent Monday.",
-      "player": {
-        "name": "Leody Taveras",
-        "posShortNames": "CF",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pzo_96_8.png",
-        "scorerId": "03pzo",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10160",
-      "id": "12qeimczmvzxutcc",
-      "seq": 141264,
-      "desc": "Monteverde cleared waivers and elected to become a free agent Monday, Christina De Nicola of MLB.com reports.",
-      "player": {
-        "name": "Patrick Monteverde",
-        "posShortNames": "SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "",
-        "scorerId": "05yer",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10140",
-      "id": "bzf99rfymvzxutbh",
-      "seq": 141263,
-      "desc": "The Rangers outrighted Helman to Triple-A Round Rock on Monday.",
-      "player": {
-        "name": "Michael Helman",
-        "posShortNames": "CF",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pvp_96_1.png",
-        "scorerId": "04pvp",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "594athjfmvzxutam",
-      "seq": 141262,
-      "desc": "The Orioles claimed Abner off waivers from the Mets on Monday.",
-      "player": {
-        "name": "Philip Abner",
-        "posShortNames": "RP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uab_96_1.png",
-        "scorerId": "05uab",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10180",
-      "id": "5b6vfqbvmvzxut9q",
-      "seq": 141261,
-      "desc": "Stubbs cleared waivers and elected to become a free agent Monday.",
-      "player": {
-        "name": "Garrett Stubbs",
-        "posShortNames": "C",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qn0_96_13.png",
-        "scorerId": "03qn0",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "2j3f71jfmvzxut8u",
-      "seq": 141260,
-      "desc": "The Orioles claimed White off waivers from the Marlins on Monday.",
-      "player": {
-        "name": "Josh White",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05zyb_96_1.png",
-        "scorerId": "05zyb",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10300",
-      "id": "n429u3oimvzxut7y",
-      "seq": 141259,
-      "desc": "The Giants released Beck on Monday.",
-      "player": {
-        "name": "Tristan Beck",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04afk_96_3.png",
-        "scorerId": "04afk",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10300",
-      "id": "2e3h1a1wmvzxut70",
-      "seq": 141258,
-      "desc": "The Giants outrighted Lonsway to Triple-A Sacramento on Monday.",
-      "player": {
-        "name": "Seth Lonsway",
-        "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "",
-        "scorerId": "04er0",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10300",
-      "id": "cnzhx67lmvzxut65",
-      "seq": 141257,
-      "desc": "The Giants outrighted Kuhnel to Triple-A Sacramento on Monday.",
-      "player": {
-        "name": "Joel Kuhnel",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041wc_96_6.png",
-        "scorerId": "041wc",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "ic10r1ozmvzxut57",
-      "seq": 141256,
-      "desc": "The Orioles claimed Morgan off waivers from the Giants on Monday.",
-      "player": {
-        "name": "Zach Morgan",
-        "posShortNames": "C",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "0657p",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10180",
-      "id": "1iwhgenbmvztj5fs",
-      "seq": 141255,
-      "desc": "The Phillies claimed Whitcomb off waivers from the Giants on Monday.",
-      "player": {
-        "name": "Shay Whitcomb",
-        "posShortNames": "3B",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jqi_96_1.png",
-        "scorerId": "05jqi",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
@@ -694,6 +695,401 @@
     {
       "displayDate": 1793638800000,
       "teamId": "10080",
+      "id": "0ee5e94hmw0atpwi",
+      "seq": 141301,
+      "desc": "Diaz was designated for assignment by the Tigers on Monday.",
+      "player": {
+        "name": "Yilber Diaz",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06agh_96_1.png",
+        "scorerId": "06agh",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10260",
+      "id": "6ozpf1zfmw06i1rp",
+      "seq": 141300,
+      "desc": "Smith was sent outright to Triple-A Reno on Monday, Alex Weiner of ArizonaSports.com reports.",
+      "player": {
+        "name": "Pavin Smith",
+        "posShortNames": "1B",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04alq_96_9.png",
+        "scorerId": "04alq",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10270",
+      "id": "64xpg9rmmw026gg3",
+      "seq": 141299,
+      "desc": "Adams was sent outright to Triple-A Albuquerque on Monday.",
+      "player": {
+        "name": "Blake Adams",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "065nn",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10270",
+      "id": "c460nwoimw026ge8",
+      "seq": 141298,
+      "desc": "Stevens elected free agency Monday after clearing waivers.",
+      "player": {
+        "name": "Chad Stevens",
+        "posShortNames": "2B",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "05yfu",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10130",
+      "id": "1vhmcqwpmw026gd0",
+      "seq": 141297,
+      "desc": "The Mariners outrighted Wilson to Triple-A Tacoma on Monday, Ryan Divish of The Seattle Times reports.",
+      "player": {
+        "name": "Weston Wilson",
+        "posShortNames": "3B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0420h_96_4.png",
+        "scorerId": "0420h",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10270",
+      "id": "tmv497ofmw026g97",
+      "seq": 141296,
+      "desc": "Castellano elected free agency Monday after clearing waivers.",
+      "player": {
+        "name": "Eiberson Castellano",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "06l49",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10130",
+      "id": "fivuqwnnmw026g88",
+      "seq": 141295,
+      "desc": "The Mariners extended Arozarena a one-year, $23.15 million qualifying offer Monday, Ryan Divish of The Seattle Times reports.",
+      "player": {
+        "name": "Randy Arozarena",
+        "posShortNames": "LF",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs040b5_96_10.png",
+        "scorerId": "040b5",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10270",
+      "id": "ziisch90mw026g7d",
+      "seq": 141294,
+      "desc": "Shook elected free agency Monday after clearing waivers.",
+      "player": {
+        "name": "TJ Shook",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "05t66",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10100",
+      "id": "2vh4daj6mw026g6h",
+      "seq": 141293,
+      "desc": "The Twins extended Jeffers a one-year, $23.15 million qualifying offer Monday, Dan Hayes of The Athletic reports.",
+      "player": {
+        "name": "Ryan Jeffers",
+        "posShortNames": "C",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmu_96_9.png",
+        "scorerId": "04pmu",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10105",
+      "id": "ni5v5397mw026g5l",
+      "seq": 141292,
+      "desc": "The Astros exercised Paredes' $13.35 club option for the 2027 season Monday, Chandler Rome of The Athletic reports.",
+      "player": {
+        "name": "Isaac Paredes",
+        "posShortNames": "3B",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04071_96_9.png",
+        "scorerId": "04071",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10010",
+      "id": "nqqpdyu0mw026g4k",
+      "seq": 141291,
+      "desc": "The Orioles extended Rogers a one-year, $23.15 million qualifying offer Monday.",
+      "player": {
+        "name": "Trevor Rogers",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ak5_96_9.png",
+        "scorerId": "04ak5",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10030",
+      "id": "uo7sj726mw026g2f",
+      "seq": 141290,
+      "desc": "The Yankees extended Bednar a one-year, $23.15 million qualifying offer Monday.",
+      "player": {
+        "name": "David Bednar",
+        "posShortNames": "RP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aqc_96_9.png",
+        "scorerId": "04aqc",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10010",
+      "id": "61a5hqjgmw026g13",
+      "seq": 141289,
+      "desc": "Enns became a free agent Monday after the Orioles declined his club option for the 2027 season, Andy Kostka of TheBanner.com reports.",
+      "player": {
+        "name": "Dietrich Enns",
+        "posShortNames": "RP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n9l_96_9.png",
+        "scorerId": "02n9l",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10030",
+      "id": "ykkdtceimw026fzn",
+      "seq": 141288,
+      "desc": "The Yankees selected Luciano's contract from Triple-A Scranton/Wilkes-Barre on Monday.",
+      "player": {
+        "name": "Marco Luciano",
+        "posShortNames": "2B,CF",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ooy_96_5.png",
+        "scorerId": "04ooy",
+        "posIds": [
+          "003",
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10300",
+      "id": "y2gske8lmw026fxt",
+      "seq": 141287,
+      "desc": "Sanmartin was designated for assignment by the Giants on Monday.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10050",
+      "id": "1i82n53cmw026fvs",
+      "seq": 141286,
+      "desc": "The Blue Jays declined Straw's $8 million club option for the 2027 season Monday, Keegan Matheson of MLB.com reports.",
+      "player": {
+        "name": "Myles Straw",
+        "posShortNames": "CF,LF,RF",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qqb_96_9.png",
+        "scorerId": "03qqb",
+        "posIds": [
+          "010",
+          "009",
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10050",
+      "id": "8ro8a1camw026fsz",
+      "seq": 141285,
+      "desc": "Martin elected free agency Monday, Keegan Matheson of MLB.com reports.",
+      "player": {
+        "name": "Rudy Martin",
+        "posShortNames": "RF",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "03dwo",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793638800000,
+      "teamId": "10080",
       "id": "9951i3yimvzxutup",
       "seq": 141284,
       "desc": "The Tigers activated Meadows (arm) from the 60-day injured list Monday.",
@@ -978,400 +1374,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10170",
-      "id": "g4914lyemvzxutin",
-      "seq": 141271,
-      "desc": "The Mets signed Paris to a one-year contract Monday and designated him for assignment.",
-      "player": {
-        "name": "Kyren Paris",
-        "posShortNames": "2B",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050s0_96_3.png",
-        "scorerId": "050s0",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10040",
-      "id": "ntpvtpekmvzxuthr",
-      "seq": 141270,
-      "desc": "The Rays selected Suwinski's contract from Triple-A Durham on Monday.",
-      "player": {
-        "name": "Jack Suwinski",
-        "posShortNames": "CF,LF,RF",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041z2_96_3.png",
-        "scorerId": "041z2",
-        "posIds": [
-          "010",
-          "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10040",
-      "id": "326qcw5fmvzxutgw",
-      "seq": 141269,
-      "desc": "The Rays selected Alberto's contract from Triple-A Durham on Monday.",
-      "player": {
-        "name": "Alexander Alberto",
-        "posShortNames": "RP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "05rh5",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10040",
-      "id": "7ekpnnkimvzxutg1",
-      "seq": 141268,
-      "desc": "The Rays exercised Walls' $3.1 million club option for the 2027 season Monday.",
-      "player": {
-        "name": "Taylor Walls",
-        "posShortNames": "SS",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04bpj_96_9.png",
-        "scorerId": "04bpj",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "boxrrjdcmvzxutf5",
-      "seq": 141267,
-      "desc": "Zulueta cleared waivers and was outrighted to Triple-A Norfolk on Monday.",
-      "player": {
-        "name": "Yosver Zulueta",
-        "posShortNames": "RP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05it9_96_2.png",
-        "scorerId": "05it9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "enjcmfwwmvzxute7",
-      "seq": 141266,
-      "desc": "Pozo cleared waivers and was outrighted to Triple-A Norfolk on Monday.",
-      "player": {
-        "name": "Yohel Pozo",
-        "posShortNames": "C",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yr2_96_1.png",
-        "scorerId": "03yr2",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "ptdyqp4amvzxutd7",
-      "seq": 141265,
-      "desc": "Taveras cleared waivers and elected to become a free agent Monday.",
-      "player": {
-        "name": "Leody Taveras",
-        "posShortNames": "CF",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pzo_96_8.png",
-        "scorerId": "03pzo",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10160",
-      "id": "12qeimczmvzxutcc",
-      "seq": 141264,
-      "desc": "Monteverde cleared waivers and elected to become a free agent Monday, Christina De Nicola of MLB.com reports.",
-      "player": {
-        "name": "Patrick Monteverde",
-        "posShortNames": "SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "",
-        "scorerId": "05yer",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10140",
-      "id": "bzf99rfymvzxutbh",
-      "seq": 141263,
-      "desc": "The Rangers outrighted Helman to Triple-A Round Rock on Monday.",
-      "player": {
-        "name": "Michael Helman",
-        "posShortNames": "CF",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pvp_96_1.png",
-        "scorerId": "04pvp",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "594athjfmvzxutam",
-      "seq": 141262,
-      "desc": "The Orioles claimed Abner off waivers from the Mets on Monday.",
-      "player": {
-        "name": "Philip Abner",
-        "posShortNames": "RP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uab_96_1.png",
-        "scorerId": "05uab",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10180",
-      "id": "5b6vfqbvmvzxut9q",
-      "seq": 141261,
-      "desc": "Stubbs cleared waivers and elected to become a free agent Monday.",
-      "player": {
-        "name": "Garrett Stubbs",
-        "posShortNames": "C",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qn0_96_13.png",
-        "scorerId": "03qn0",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "2j3f71jfmvzxut8u",
-      "seq": 141260,
-      "desc": "The Orioles claimed White off waivers from the Marlins on Monday.",
-      "player": {
-        "name": "Josh White",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05zyb_96_1.png",
-        "scorerId": "05zyb",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10300",
-      "id": "n429u3oimvzxut7y",
-      "seq": 141259,
-      "desc": "The Giants released Beck on Monday.",
-      "player": {
-        "name": "Tristan Beck",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04afk_96_3.png",
-        "scorerId": "04afk",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10300",
-      "id": "2e3h1a1wmvzxut70",
-      "seq": 141258,
-      "desc": "The Giants outrighted Lonsway to Triple-A Sacramento on Monday.",
-      "player": {
-        "name": "Seth Lonsway",
-        "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "",
-        "scorerId": "04er0",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10300",
-      "id": "cnzhx67lmvzxut65",
-      "seq": 141257,
-      "desc": "The Giants outrighted Kuhnel to Triple-A Sacramento on Monday.",
-      "player": {
-        "name": "Joel Kuhnel",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041wc_96_6.png",
-        "scorerId": "041wc",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "ic10r1ozmvzxut57",
-      "seq": 141256,
-      "desc": "The Orioles claimed Morgan off waivers from the Giants on Monday.",
-      "player": {
-        "name": "Zach Morgan",
-        "posShortNames": "C",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "0657p",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10180",
-      "id": "1iwhgenbmvztj5fs",
-      "seq": 141255,
-      "desc": "The Phillies claimed Whitcomb off waivers from the Giants on Monday.",
-      "player": {
-        "name": "Shay Whitcomb",
-        "posShortNames": "3B",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05jqi_96_1.png",
-        "scorerId": "05jqi",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
