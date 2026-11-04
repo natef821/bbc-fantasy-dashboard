@@ -1,11 +1,32 @@
 {
-  "lastUpdated": "2026-11-03T22:47:08.309995Z",
+  "lastUpdated": "2026-11-04T04:28:49.944466Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10160",
+      "id": "2y3kc0z1mw1dko8h",
+      "seq": 141305,
+      "desc": "The Marlins released Blalock on Tuesday, Kevin Barral of FishonFirst.com reports.",
+      "player": {
+        "name": "Bradley Blalock",
+        "posShortNames": "SP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0579z_96_1.png",
+        "scorerId": "0579z",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1793725200000,
       "teamId": "10200",
@@ -22,6 +43,27 @@
         "posIds": [
           "015",
           "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -52,27 +94,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -658,27 +679,6 @@
         "scorerId": "02nb6",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10200",
-      "id": "krf6gjpvmvzxutn4",
-      "seq": 141276,
-      "desc": "The Cubs extended Suzuki a one-year, $23.15 million qualifying offer Monday, Joel Sherman of the New York Post reports.",
-      "player": {
-        "name": "Seiya Suzuki",
-        "posShortNames": "RF",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04b02_96_5.png",
-        "scorerId": "04b02",
-        "posIds": [
-          "011"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -689,6 +689,27 @@
   "mlbTransactions": [
     {
       "displayDate": 1793725200000,
+      "teamId": "10160",
+      "id": "2y3kc0z1mw1dko8h",
+      "seq": 141305,
+      "desc": "The Marlins released Blalock on Tuesday, Kevin Barral of FishonFirst.com reports.",
+      "player": {
+        "name": "Bradley Blalock",
+        "posShortNames": "SP",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0579z_96_1.png",
+        "scorerId": "0579z",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
       "teamId": "10200",
       "id": "yc0xf08nmw15l36s",
       "seq": 141304,
@@ -703,6 +724,27 @@
         "posIds": [
           "015",
           "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -733,27 +775,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -1339,27 +1360,6 @@
         "scorerId": "02nb6",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10200",
-      "id": "krf6gjpvmvzxutn4",
-      "seq": 141276,
-      "desc": "The Cubs extended Suzuki a one-year, $23.15 million qualifying offer Monday, Joel Sherman of the New York Post reports.",
-      "player": {
-        "name": "Seiya Suzuki",
-        "posShortNames": "RF",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04b02_96_5.png",
-        "scorerId": "04b02",
-        "posIds": [
-          "011"
         ],
         "rookie": false,
         "minorsEligible": false,
