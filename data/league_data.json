@@ -1,11 +1,37 @@
 {
-  "lastUpdated": "2026-11-04T13:39:17.061380Z",
+  "lastUpdated": "2026-11-04T23:05:15.843630Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1793811600000,
+      "teamId": "10080",
+      "id": "cvact6rhmw2k08t2",
+      "seq": 141306,
+      "desc": "The Tigers released Gipson-Long on Monday.",
+      "player": {
+        "name": "Sawyer Gipson-Long",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514z_96_3.png",
+        "scorerId": "0514z",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1793725200000,
       "teamId": "10160",
@@ -51,27 +77,6 @@
     },
     {
       "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -94,6 +99,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -658,27 +684,6 @@
         "scorerId": "03yrz",
         "posIds": [
           "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10080",
-      "id": "5e95214xmvzxutnz",
-      "seq": 141277,
-      "desc": "The Tigers exercised Anderson's $10 million club option for the 2027 season Monday.",
-      "player": {
-        "name": "Drew Anderson",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02nb6_96_4.png",
-        "scorerId": "02nb6",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -688,6 +693,32 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1793811600000,
+      "teamId": "10080",
+      "id": "cvact6rhmw2k08t2",
+      "seq": 141306,
+      "desc": "The Tigers released Gipson-Long on Monday.",
+      "player": {
+        "name": "Sawyer Gipson-Long",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0514z_96_3.png",
+        "scorerId": "0514z",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1793725200000,
       "teamId": "10160",
       "id": "2y3kc0z1mw1dko8h",
@@ -732,27 +763,6 @@
     },
     {
       "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -775,6 +785,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -1339,27 +1370,6 @@
         "scorerId": "03yrz",
         "posIds": [
           "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10080",
-      "id": "5e95214xmvzxutnz",
-      "seq": 141277,
-      "desc": "The Tigers exercised Anderson's $10 million club option for the 2027 season Monday.",
-      "player": {
-        "name": "Drew Anderson",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02nb6_96_4.png",
-        "scorerId": "02nb6",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
