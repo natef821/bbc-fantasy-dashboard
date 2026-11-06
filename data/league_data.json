@@ -1,11 +1,175 @@
 {
-  "lastUpdated": "2026-11-06T13:37:07.452982Z",
+  "lastUpdated": "2026-11-06T22:37:42.503466Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10080",
+      "id": "yrcvte5qmw5gymph",
+      "seq": 141312,
+      "desc": "The Tigers outrighted Diaz to Triple-A Toledo on Friday, Chris McCosky of The Detroit News reports.",
+      "player": {
+        "name": "Yilber Diaz",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06agh_96_1.png",
+        "scorerId": "06agh",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10170",
+      "id": "qrx194tlmw5gymnq",
+      "seq": 141311,
+      "desc": "The Mets re-signed Stock to a one-year contract Friday.",
+      "player": {
+        "name": "Robert Stock",
+        "posShortNames": "RP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01shb_96_8.png",
+        "scorerId": "01shb",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "ir9urqtymw5gyml6",
+      "seq": 141310,
+      "desc": "The Guardians claimed Tena off waivers from the Nationals on Friday, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "Jose Tena",
+        "posShortNames": "DH,2B,LF",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04sxv_96_4.png",
+        "scorerId": "04sxv",
+        "posIds": [
+          "013",
+          "003",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "3pbv232fmw5elvxa",
+      "seq": 141309,
+      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10300",
+      "id": "cp3agpohmw5elu8w",
+      "seq": 141309,
+      "desc": "The Washington Nationals traded RP Robert Cranz to the San Francisco Giants.",
+      "player": {
+        "name": "Robert Cranz",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "06pqc",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "v0c1h7wymw5cn0x1",
+      "seq": 141308,
+      "desc": "The Nationals designated Nicolas for assignment Friday, Mark Zuckerman of NatsJournal.com reports.",
+      "player": {
+        "name": "Kyle Nicolas",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9g_96_2.png",
+        "scorerId": "05l9g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "ulswfrhxmw587b5s",
+      "seq": 141307,
+      "desc": "The Nationals and Young avoided arbitration by agreeing to a four-year, $23 million contract extension Friday, Robert Murray of FanSided.com reports. The deal includes an $8 million club option for 2031.",
+      "player": {
+        "name": "Jacob Young",
+        "posShortNames": "CF",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yaf_96_2.png",
+        "scorerId": "05yaf",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1793811600000,
       "teamId": "10080",
@@ -77,6 +241,27 @@
     },
     {
       "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -99,27 +284,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -482,8 +646,8 @@
       "player": {
         "name": "Reiver Sanmartin",
         "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
         "scorerId": "04j1w",
         "posIds": [
@@ -532,158 +696,6 @@
         "scorerId": "03dwo",
         "posIds": [
           "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10080",
-      "id": "9951i3yimvzxutup",
-      "seq": 141284,
-      "desc": "The Tigers activated Meadows (arm) from the 60-day injured list Monday.",
-      "player": {
-        "name": "Parker Meadows",
-        "posShortNames": "CF",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmn_96_4.png",
-        "scorerId": "04pmn",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10240",
-      "id": "mwprar0imvzxutto",
-      "seq": 141283,
-      "desc": "The Pirates claimed Baddoo off waivers from the Brewers on Monday, Adam McCalvy of MLB.com reports.",
-      "player": {
-        "name": "Akil Baddoo",
-        "posShortNames": "RF",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qi_96_7.png",
-        "scorerId": "041qi",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10080",
-      "id": "3swe2ke5mvzxutsl",
-      "seq": 141282,
-      "desc": "The Tigers signed Waguespack to a one-year, $1.3 million contract Monday.",
-      "player": {
-        "name": "Jacob Waguespack",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04y78_96_7.png",
-        "scorerId": "04y78",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10230",
-      "id": "z1024jh0mvzxutrj",
-      "seq": 141281,
-      "desc": "The Brewers declined Senzatela's $14 million club option for 2027 on Monday, Adam McCalvy of MLB.com reports.",
-      "player": {
-        "name": "Antonio Senzatela",
-        "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02zoa_96_15.png",
-        "scorerId": "02zoa",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10080",
-      "id": "vsxoleelmvzxutqn",
-      "seq": 141280,
-      "desc": "The Tigers declined Jansen's $12 million club option for the 2027 season Monday.",
-      "player": {
-        "name": "Kenley Jansen",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01svz_96_16.png",
-        "scorerId": "01svz",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10230",
-      "id": "juafatwfmvzxutpq",
-      "seq": 141279,
-      "desc": "The Brewers declined their side of Sanchez's mutual option for 2027 on Monday, Adam McCalvy of MLB.com reports.",
-      "player": {
-        "name": "Gary Sanchez",
-        "posShortNames": "C",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01t9q_96_15.png",
-        "scorerId": "01t9q",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10230",
-      "id": "qit6y2wfmvzxutou",
-      "seq": 141278,
-      "desc": "The Brewers exercised Contreras' $15.5 million club option for 2027 on Monday, Adam McCalvy of MLB.com reports.",
-      "player": {
-        "name": "William Contreras",
-        "posShortNames": "C",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yrz_96_10.png",
-        "scorerId": "03yrz",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -693,6 +705,170 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1793984400000,
+      "teamId": "10080",
+      "id": "yrcvte5qmw5gymph",
+      "seq": 141312,
+      "desc": "The Tigers outrighted Diaz to Triple-A Toledo on Friday, Chris McCosky of The Detroit News reports.",
+      "player": {
+        "name": "Yilber Diaz",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06agh_96_1.png",
+        "scorerId": "06agh",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10170",
+      "id": "qrx194tlmw5gymnq",
+      "seq": 141311,
+      "desc": "The Mets re-signed Stock to a one-year contract Friday.",
+      "player": {
+        "name": "Robert Stock",
+        "posShortNames": "RP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01shb_96_8.png",
+        "scorerId": "01shb",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "ir9urqtymw5gyml6",
+      "seq": 141310,
+      "desc": "The Guardians claimed Tena off waivers from the Nationals on Friday, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "Jose Tena",
+        "posShortNames": "DH,2B,LF",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04sxv_96_4.png",
+        "scorerId": "04sxv",
+        "posIds": [
+          "013",
+          "003",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "3pbv232fmw5elvxa",
+      "seq": 141309,
+      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10300",
+      "id": "cp3agpohmw5elu8w",
+      "seq": 141309,
+      "desc": "The Washington Nationals traded RP Robert Cranz to the San Francisco Giants.",
+      "player": {
+        "name": "Robert Cranz",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "06pqc",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "v0c1h7wymw5cn0x1",
+      "seq": 141308,
+      "desc": "The Nationals designated Nicolas for assignment Friday, Mark Zuckerman of NatsJournal.com reports.",
+      "player": {
+        "name": "Kyle Nicolas",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9g_96_2.png",
+        "scorerId": "05l9g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "ulswfrhxmw587b5s",
+      "seq": 141307,
+      "desc": "The Nationals and Young avoided arbitration by agreeing to a four-year, $23 million contract extension Friday, Robert Murray of FanSided.com reports. The deal includes an $8 million club option for 2031.",
+      "player": {
+        "name": "Jacob Young",
+        "posShortNames": "CF",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yaf_96_2.png",
+        "scorerId": "05yaf",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1793811600000,
       "teamId": "10080",
       "id": "cvact6rhmw2k08t2",
@@ -763,6 +939,27 @@
     },
     {
       "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -785,27 +982,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -1168,8 +1344,8 @@
       "player": {
         "name": "Reiver Sanmartin",
         "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
         "scorerId": "04j1w",
         "posIds": [
@@ -1218,158 +1394,6 @@
         "scorerId": "03dwo",
         "posIds": [
           "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10080",
-      "id": "9951i3yimvzxutup",
-      "seq": 141284,
-      "desc": "The Tigers activated Meadows (arm) from the 60-day injured list Monday.",
-      "player": {
-        "name": "Parker Meadows",
-        "posShortNames": "CF",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmn_96_4.png",
-        "scorerId": "04pmn",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10240",
-      "id": "mwprar0imvzxutto",
-      "seq": 141283,
-      "desc": "The Pirates claimed Baddoo off waivers from the Brewers on Monday, Adam McCalvy of MLB.com reports.",
-      "player": {
-        "name": "Akil Baddoo",
-        "posShortNames": "RF",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041qi_96_7.png",
-        "scorerId": "041qi",
-        "posIds": [
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10080",
-      "id": "3swe2ke5mvzxutsl",
-      "seq": 141282,
-      "desc": "The Tigers signed Waguespack to a one-year, $1.3 million contract Monday.",
-      "player": {
-        "name": "Jacob Waguespack",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04y78_96_7.png",
-        "scorerId": "04y78",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10230",
-      "id": "z1024jh0mvzxutrj",
-      "seq": 141281,
-      "desc": "The Brewers declined Senzatela's $14 million club option for 2027 on Monday, Adam McCalvy of MLB.com reports.",
-      "player": {
-        "name": "Antonio Senzatela",
-        "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02zoa_96_15.png",
-        "scorerId": "02zoa",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10080",
-      "id": "vsxoleelmvzxutqn",
-      "seq": 141280,
-      "desc": "The Tigers declined Jansen's $12 million club option for the 2027 season Monday.",
-      "player": {
-        "name": "Kenley Jansen",
-        "posShortNames": "RP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01svz_96_16.png",
-        "scorerId": "01svz",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10230",
-      "id": "juafatwfmvzxutpq",
-      "seq": 141279,
-      "desc": "The Brewers declined their side of Sanchez's mutual option for 2027 on Monday, Adam McCalvy of MLB.com reports.",
-      "player": {
-        "name": "Gary Sanchez",
-        "posShortNames": "C",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01t9q_96_15.png",
-        "scorerId": "01t9q",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10230",
-      "id": "qit6y2wfmvzxutou",
-      "seq": 141278,
-      "desc": "The Brewers exercised Contreras' $15.5 million club option for 2027 on Monday, Adam McCalvy of MLB.com reports.",
-      "player": {
-        "name": "William Contreras",
-        "posShortNames": "C",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03yrz_96_10.png",
-        "scorerId": "03yrz",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
