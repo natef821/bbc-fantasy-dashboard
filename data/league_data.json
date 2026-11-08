@@ -1,11 +1,37 @@
 {
-  "lastUpdated": "2026-11-08T12:37:26.211875Z",
+  "lastUpdated": "2026-11-08T21:34:17.529859Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1794070800000,
+      "teamId": "10050",
+      "id": "sfxzbkqgmw83322n",
+      "seq": 141313,
+      "desc": "Estrada signed a minor-league contract with the Blue Jays on Saturday that includes an invite to big-league spring training, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Lazaro Estrada",
+        "posShortNames": "RP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04up8_96_1.png",
+        "scorerId": "04up8",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1793984400000,
       "teamId": "10080",
@@ -241,27 +267,6 @@
     },
     {
       "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -284,6 +289,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -674,27 +700,6 @@
         "posIds": [
           "010",
           "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10050",
-      "id": "8ro8a1camw026fsz",
-      "seq": 141285,
-      "desc": "Martin elected free agency Monday, Keegan Matheson of MLB.com reports.",
-      "player": {
-        "name": "Rudy Martin",
-        "posShortNames": "RF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "03dwo",
-        "posIds": [
           "011"
         ],
         "rookie": false,
@@ -705,6 +710,32 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1794070800000,
+      "teamId": "10050",
+      "id": "sfxzbkqgmw83322n",
+      "seq": 141313,
+      "desc": "Estrada signed a minor-league contract with the Blue Jays on Saturday that includes an invite to big-league spring training, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Lazaro Estrada",
+        "posShortNames": "RP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04up8_96_1.png",
+        "scorerId": "04up8",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1793984400000,
       "teamId": "10080",
       "id": "yrcvte5qmw5gymph",
@@ -939,27 +970,6 @@
     },
     {
       "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -982,6 +992,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -1372,27 +1403,6 @@
         "posIds": [
           "010",
           "009",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10050",
-      "id": "8ro8a1camw026fsz",
-      "seq": 141285,
-      "desc": "Martin elected free agency Monday, Keegan Matheson of MLB.com reports.",
-      "player": {
-        "name": "Rudy Martin",
-        "posShortNames": "RF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "03dwo",
-        "posIds": [
           "011"
         ],
         "rookie": false,
