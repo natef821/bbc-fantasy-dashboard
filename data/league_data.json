@@ -1,11 +1,38 @@
 {
-  "lastUpdated": "2026-11-09T14:55:49.646942Z",
+  "lastUpdated": "2026-11-10T01:03:57.619082Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1794243600000,
+      "teamId": "10280",
+      "id": "mnt39o99mw9wb40q",
+      "seq": 141314,
+      "desc": "The Dodgers claimed Cairo off waivers from the Mets on Monday.",
+      "player": {
+        "name": "Christian Cairo",
+        "posShortNames": "SS,3B",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "0513m",
+        "posIds": [
+          "005",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1794070800000,
       "teamId": "10050",
@@ -267,6 +294,27 @@
     },
     {
       "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -289,27 +337,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -678,29 +705,6 @@
         "scorerId": "04j1w",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10050",
-      "id": "1i82n53cmw026fvs",
-      "seq": 141286,
-      "desc": "The Blue Jays declined Straw's $8 million club option for the 2027 season Monday, Keegan Matheson of MLB.com reports.",
-      "player": {
-        "name": "Myles Straw",
-        "posShortNames": "CF,LF,RF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qqb_96_9.png",
-        "scorerId": "03qqb",
-        "posIds": [
-          "010",
-          "009",
-          "011"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -710,6 +714,33 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1794243600000,
+      "teamId": "10280",
+      "id": "mnt39o99mw9wb40q",
+      "seq": 141314,
+      "desc": "The Dodgers claimed Cairo off waivers from the Mets on Monday.",
+      "player": {
+        "name": "Christian Cairo",
+        "posShortNames": "SS,3B",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "0513m",
+        "posIds": [
+          "005",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1794070800000,
       "teamId": "10050",
       "id": "sfxzbkqgmw83322n",
@@ -970,6 +1001,27 @@
     },
     {
       "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -992,27 +1044,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -1381,29 +1412,6 @@
         "scorerId": "04j1w",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10050",
-      "id": "1i82n53cmw026fvs",
-      "seq": 141286,
-      "desc": "The Blue Jays declined Straw's $8 million club option for the 2027 season Monday, Keegan Matheson of MLB.com reports.",
-      "player": {
-        "name": "Myles Straw",
-        "posShortNames": "CF,LF,RF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qqb_96_9.png",
-        "scorerId": "03qqb",
-        "posIds": [
-          "010",
-          "009",
-          "011"
         ],
         "rookie": false,
         "minorsEligible": false,
