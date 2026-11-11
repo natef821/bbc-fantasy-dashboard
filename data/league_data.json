@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T22:44:04.207609Z",
+  "lastUpdated": "2026-11-11T04:13:57.253113Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,32 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1794330000000,
+      "teamId": "10105",
+      "id": "02y5rysumwbkx1fr",
+      "seq": 141315,
+      "desc": "Weiss signed a one-year contract with the Padres on Tuesday, Jesse Rogers of ESPN.com reports.",
+      "player": {
+        "name": "Ryan Weiss",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pq7_96_2.png",
+        "scorerId": "04pq7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1794243600000,
       "teamId": "10280",
       "id": "mnt39o99mw9wb40q",
@@ -688,32 +714,37 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10300",
-      "id": "y2gske8lmw026fxt",
-      "seq": 141287,
-      "desc": "Sanmartin was designated for assignment by the Giants on Monday.",
-      "player": {
-        "name": "Reiver Sanmartin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
-        "scorerId": "04j1w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1794330000000,
+      "teamId": "10105",
+      "id": "02y5rysumwbkx1fr",
+      "seq": 141315,
+      "desc": "Weiss signed a one-year contract with the Padres on Tuesday, Jesse Rogers of ESPN.com reports.",
+      "player": {
+        "name": "Ryan Weiss",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pq7_96_2.png",
+        "scorerId": "04pq7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1794243600000,
       "teamId": "10280",
       "id": "mnt39o99mw9wb40q",
@@ -1395,27 +1426,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10300",
-      "id": "y2gske8lmw026fxt",
-      "seq": 141287,
-      "desc": "Sanmartin was designated for assignment by the Giants on Monday.",
-      "player": {
-        "name": "Reiver Sanmartin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
-        "scorerId": "04j1w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
