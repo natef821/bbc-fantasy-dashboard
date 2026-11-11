@@ -1,11 +1,32 @@
 {
-  "lastUpdated": "2026-11-11T04:13:57.253113Z",
+  "lastUpdated": "2026-11-11T13:25:11.402522Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1794416400000,
+      "teamId": "10210",
+      "id": "s19vp3bomwbp8p95",
+      "seq": 141316,
+      "desc": "Pagan signed a one-year, $11 million contract with the Tigers on Tuesday, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Emilio Pagan",
+        "posShortNames": "RP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031cy_96_11.png",
+        "scorerId": "031cy",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1794330000000,
       "teamId": "10105",
@@ -678,33 +699,6 @@
         "scorerId": "02n9l",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10030",
-      "id": "ykkdtceimw026fzn",
-      "seq": 141288,
-      "desc": "The Yankees selected Luciano's contract from Triple-A Scranton/Wilkes-Barre on Monday.",
-      "player": {
-        "name": "Marco Luciano",
-        "posShortNames": "2B,CF",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ooy_96_5.png",
-        "scorerId": "04ooy",
-        "posIds": [
-          "003",
-          "010"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -719,6 +713,27 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1794416400000,
+      "teamId": "10210",
+      "id": "s19vp3bomwbp8p95",
+      "seq": 141316,
+      "desc": "Pagan signed a one-year, $11 million contract with the Tigers on Tuesday, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Emilio Pagan",
+        "posShortNames": "RP",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031cy_96_11.png",
+        "scorerId": "031cy",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1794330000000,
       "teamId": "10105",
       "id": "02y5rysumwbkx1fr",
@@ -1390,33 +1405,6 @@
         "scorerId": "02n9l",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10030",
-      "id": "ykkdtceimw026fzn",
-      "seq": 141288,
-      "desc": "The Yankees selected Luciano's contract from Triple-A Scranton/Wilkes-Barre on Monday.",
-      "player": {
-        "name": "Marco Luciano",
-        "posShortNames": "2B,CF",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ooy_96_5.png",
-        "scorerId": "04ooy",
-        "posIds": [
-          "003",
-          "010"
         ],
         "rookie": false,
         "minorsEligible": false,
