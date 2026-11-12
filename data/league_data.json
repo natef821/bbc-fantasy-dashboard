@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T14:29:37.377847Z",
+  "lastUpdated": "2026-11-12T23:05:16.609587Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,27 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1794502800000,
+      "teamId": "10150",
+      "id": "c2neqwhgmwe2f4j2",
+      "seq": 141317,
+      "desc": "Atlanta signed Phillips to a three-year, $35 million contract Thursday.",
+      "player": {
+        "name": "Evan Phillips",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qto_96_10.png",
+        "scorerId": "03qto",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1794416400000,
       "teamId": "10210",
       "id": "s19vp3bomwbp8p95",
@@ -341,27 +362,6 @@
     },
     {
       "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -384,6 +384,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -682,37 +703,32 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "61a5hqjgmw026g13",
-      "seq": 141289,
-      "desc": "Enns became a free agent Monday after the Orioles declined his club option for the 2027 season, Andy Kostka of TheBanner.com reports.",
-      "player": {
-        "name": "Dietrich Enns",
-        "posShortNames": "RP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n9l_96_9.png",
-        "scorerId": "02n9l",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1794502800000,
+      "teamId": "10150",
+      "id": "c2neqwhgmwe2f4j2",
+      "seq": 141317,
+      "desc": "Atlanta signed Phillips to a three-year, $35 million contract Thursday.",
+      "player": {
+        "name": "Evan Phillips",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qto_96_10.png",
+        "scorerId": "03qto",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1794416400000,
       "teamId": "10210",
       "id": "s19vp3bomwbp8p95",
@@ -1047,27 +1063,6 @@
     },
     {
       "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -1090,6 +1085,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -1388,32 +1404,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "61a5hqjgmw026g13",
-      "seq": 141289,
-      "desc": "Enns became a free agent Monday after the Orioles declined his club option for the 2027 season, Andy Kostka of TheBanner.com reports.",
-      "player": {
-        "name": "Dietrich Enns",
-        "posShortNames": "RP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n9l_96_9.png",
-        "scorerId": "02n9l",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
