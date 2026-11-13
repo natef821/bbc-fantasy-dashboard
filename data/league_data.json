@@ -1,11 +1,79 @@
 {
-  "lastUpdated": "2026-11-13T13:47:08.057808Z",
+  "lastUpdated": "2026-11-13T23:08:06.709220Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1794589200000,
+      "teamId": "10110",
+      "id": "56eo6538mwfjosec",
+      "seq": 141320,
+      "desc": "Heineman signed a one-year, $1.2375 million contract with the Angels on Friday to avoid arbitration.",
+      "player": {
+        "name": "Tyler Heineman",
+        "posShortNames": "C",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n1c_96_15.png",
+        "scorerId": "02n1c",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1794589200000,
+      "teamId": "10230",
+      "id": "r916qkmomwfdb0yu",
+      "seq": 141319,
+      "desc": "The Red Sox signed Bauers to a four-year, $58 million contract Friday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Jake Bauers",
+        "posShortNames": "1B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0316v_96_13.png",
+        "scorerId": "0316v",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1794589200000,
+      "teamId": "10190",
+      "id": "84wq04g2mwf3yocv",
+      "seq": 141318,
+      "desc": "The Nationals released Nicolas on Thursday.",
+      "player": {
+        "name": "Kyle Nicolas",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9g_96_2.png",
+        "scorerId": "05l9g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1794502800000,
       "teamId": "10150",
@@ -199,27 +267,6 @@
     },
     {
       "displayDate": 1793984400000,
-      "teamId": "10190",
-      "id": "3pbv232fmw5elvxa",
-      "seq": 141309,
-      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
-      "player": {
-        "name": "Reiver Sanmartin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
-        "scorerId": "04j1w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793984400000,
       "teamId": "10300",
       "id": "cp3agpohmw5elu8w",
       "seq": 141309,
@@ -242,6 +289,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "3pbv232fmw5elvxa",
+      "seq": 141309,
+      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -636,69 +704,6 @@
         "scorerId": "04pmu",
         "posIds": [
           "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10105",
-      "id": "ni5v5397mw026g5l",
-      "seq": 141292,
-      "desc": "The Astros exercised Paredes' $13.35 club option for the 2027 season Monday, Chandler Rome of The Athletic reports.",
-      "player": {
-        "name": "Isaac Paredes",
-        "posShortNames": "3B",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04071_96_9.png",
-        "scorerId": "04071",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "nqqpdyu0mw026g4k",
-      "seq": 141291,
-      "desc": "The Orioles extended Rogers a one-year, $23.15 million qualifying offer Monday.",
-      "player": {
-        "name": "Trevor Rogers",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ak5_96_9.png",
-        "scorerId": "04ak5",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10030",
-      "id": "uo7sj726mw026g2f",
-      "seq": 141290,
-      "desc": "The Yankees extended Bednar a one-year, $23.15 million qualifying offer Monday.",
-      "player": {
-        "name": "David Bednar",
-        "posShortNames": "RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aqc_96_9.png",
-        "scorerId": "04aqc",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -708,6 +713,74 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1794589200000,
+      "teamId": "10110",
+      "id": "56eo6538mwfjosec",
+      "seq": 141320,
+      "desc": "Heineman signed a one-year, $1.2375 million contract with the Angels on Friday to avoid arbitration.",
+      "player": {
+        "name": "Tyler Heineman",
+        "posShortNames": "C",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02n1c_96_15.png",
+        "scorerId": "02n1c",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1794589200000,
+      "teamId": "10230",
+      "id": "r916qkmomwfdb0yu",
+      "seq": 141319,
+      "desc": "The Red Sox signed Bauers to a four-year, $58 million contract Friday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Jake Bauers",
+        "posShortNames": "1B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0316v_96_13.png",
+        "scorerId": "0316v",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1794589200000,
+      "teamId": "10190",
+      "id": "84wq04g2mwf3yocv",
+      "seq": 141318,
+      "desc": "The Nationals released Nicolas on Thursday.",
+      "player": {
+        "name": "Kyle Nicolas",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05l9g_96_2.png",
+        "scorerId": "05l9g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1794502800000,
       "teamId": "10150",
       "id": "c2neqwhgmwe2f4j2",
@@ -900,27 +973,6 @@
     },
     {
       "displayDate": 1793984400000,
-      "teamId": "10190",
-      "id": "3pbv232fmw5elvxa",
-      "seq": 141309,
-      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
-      "player": {
-        "name": "Reiver Sanmartin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
-        "scorerId": "04j1w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793984400000,
       "teamId": "10300",
       "id": "cp3agpohmw5elu8w",
       "seq": 141309,
@@ -943,6 +995,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "3pbv232fmw5elvxa",
+      "seq": 141309,
+      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -1337,69 +1410,6 @@
         "scorerId": "04pmu",
         "posIds": [
           "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10105",
-      "id": "ni5v5397mw026g5l",
-      "seq": 141292,
-      "desc": "The Astros exercised Paredes' $13.35 club option for the 2027 season Monday, Chandler Rome of The Athletic reports.",
-      "player": {
-        "name": "Isaac Paredes",
-        "posShortNames": "3B",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04071_96_9.png",
-        "scorerId": "04071",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10010",
-      "id": "nqqpdyu0mw026g4k",
-      "seq": 141291,
-      "desc": "The Orioles extended Rogers a one-year, $23.15 million qualifying offer Monday.",
-      "player": {
-        "name": "Trevor Rogers",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ak5_96_9.png",
-        "scorerId": "04ak5",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10030",
-      "id": "uo7sj726mw026g2f",
-      "seq": 141290,
-      "desc": "The Yankees extended Bednar a one-year, $23.15 million qualifying offer Monday.",
-      "player": {
-        "name": "David Bednar",
-        "posShortNames": "RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aqc_96_9.png",
-        "scorerId": "04aqc",
-        "posIds": [
-          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
