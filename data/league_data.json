@@ -1,11 +1,58 @@
 {
-  "lastUpdated": "2026-11-15T13:18:15.921197Z",
+  "lastUpdated": "2026-11-15T22:23:26.555205Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1794762000000,
+      "teamId": "10030",
+      "id": "jscjmv4cmwi361u3",
+      "seq": 141322,
+      "desc": "Hill agreed to a one-year, $2.25 million contract with the Yankees on Sunday, which includes a $2.5 million club option for 2028, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Tim Hill",
+        "posShortNames": "RP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04022_96_12.png",
+        "scorerId": "04022",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1794762000000,
+      "teamId": "10190",
+      "id": "g7ozwf9tmwi361s3",
+      "seq": 141321,
+      "desc": "Kranick agreed to a split contract with the Phillies on Sunday and will be in big-league spring training as a non-roster invitee, Will Sammon of The Athletic reports.",
+      "player": {
+        "name": "Max Kranick",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0429r_96_7.png",
+        "scorerId": "0429r",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1794589200000,
       "teamId": "10110",
@@ -267,6 +314,27 @@
     },
     {
       "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "3pbv232fmw5elvxa",
+      "seq": 141309,
+      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793984400000,
       "teamId": "10300",
       "id": "cp3agpohmw5elu8w",
       "seq": 141309,
@@ -289,27 +357,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793984400000,
-      "teamId": "10190",
-      "id": "3pbv232fmw5elvxa",
-      "seq": 141309,
-      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
-      "player": {
-        "name": "Reiver Sanmartin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
-        "scorerId": "04j1w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -430,6 +477,27 @@
     },
     {
       "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -452,27 +520,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -657,53 +704,6 @@
         "scorerId": "040b5",
         "posIds": [
           "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10270",
-      "id": "ziisch90mw026g7d",
-      "seq": 141294,
-      "desc": "Shook elected free agency Monday after clearing waivers.",
-      "player": {
-        "name": "TJ Shook",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "05t66",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10100",
-      "id": "2vh4daj6mw026g6h",
-      "seq": 141293,
-      "desc": "The Twins extended Jeffers a one-year, $23.15 million qualifying offer Monday, Dan Hayes of The Athletic reports.",
-      "player": {
-        "name": "Ryan Jeffers",
-        "posShortNames": "C",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmu_96_9.png",
-        "scorerId": "04pmu",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -713,6 +713,53 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1794762000000,
+      "teamId": "10030",
+      "id": "jscjmv4cmwi361u3",
+      "seq": 141322,
+      "desc": "Hill agreed to a one-year, $2.25 million contract with the Yankees on Sunday, which includes a $2.5 million club option for 2028, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Tim Hill",
+        "posShortNames": "RP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04022_96_12.png",
+        "scorerId": "04022",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1794762000000,
+      "teamId": "10190",
+      "id": "g7ozwf9tmwi361s3",
+      "seq": 141321,
+      "desc": "Kranick agreed to a split contract with the Phillies on Sunday and will be in big-league spring training as a non-roster invitee, Will Sammon of The Athletic reports.",
+      "player": {
+        "name": "Max Kranick",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0429r_96_7.png",
+        "scorerId": "0429r",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1794589200000,
       "teamId": "10110",
       "id": "56eo6538mwfjosec",
@@ -973,6 +1020,27 @@
     },
     {
       "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "3pbv232fmw5elvxa",
+      "seq": 141309,
+      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793984400000,
       "teamId": "10300",
       "id": "cp3agpohmw5elu8w",
       "seq": 141309,
@@ -995,27 +1063,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793984400000,
-      "teamId": "10190",
-      "id": "3pbv232fmw5elvxa",
-      "seq": 141309,
-      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
-      "player": {
-        "name": "Reiver Sanmartin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
-        "scorerId": "04j1w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -1136,6 +1183,27 @@
     },
     {
       "displayDate": 1793725200000,
+      "teamId": "10250",
+      "id": "ez9izp39mw115o5g",
+      "seq": 141303,
+      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
+      "player": {
+        "name": "Eduardo Rivera",
+        "posShortNames": "SP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "05y40",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793725200000,
       "teamId": "10020",
       "id": "02epkyicmw115oe3",
       "seq": 141303,
@@ -1158,27 +1226,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793725200000,
-      "teamId": "10250",
-      "id": "ez9izp39mw115o5g",
-      "seq": 141303,
-      "desc": "The Boston Red Sox traded SP Eduardo Rivera to the St. Louis Cardinals.",
-      "player": {
-        "name": "Eduardo Rivera",
-        "posShortNames": "SP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "05y40",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -1363,53 +1410,6 @@
         "scorerId": "040b5",
         "posIds": [
           "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10270",
-      "id": "ziisch90mw026g7d",
-      "seq": 141294,
-      "desc": "Shook elected free agency Monday after clearing waivers.",
-      "player": {
-        "name": "TJ Shook",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "05t66",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10100",
-      "id": "2vh4daj6mw026g6h",
-      "seq": 141293,
-      "desc": "The Twins extended Jeffers a one-year, $23.15 million qualifying offer Monday, Dan Hayes of The Athletic reports.",
-      "player": {
-        "name": "Ryan Jeffers",
-        "posShortNames": "C",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmu_96_9.png",
-        "scorerId": "04pmu",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
