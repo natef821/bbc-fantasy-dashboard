@@ -1,11 +1,63 @@
 {
-  "lastUpdated": "2026-11-15T22:23:26.555205Z",
+  "lastUpdated": "2026-11-16T04:22:13.306599Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1794762000000,
+      "teamId": "10230",
+      "id": "3xrxudsomwikhns9",
+      "seq": 141324,
+      "desc": "The San Francisco Giants traded RP Ryan Walker to the Milwaukee Brewers.",
+      "player": {
+        "name": "Ryan Walker",
+        "posShortNames": "RP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066n3_96_2.png",
+        "scorerId": "066n3",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794762000000,
+      "teamId": "10230",
+      "id": "gutxqqdvmwikgnty",
+      "seq": 141323,
+      "desc": "The Giants dealt Walker to the Brewers on Sunday for minor-league right-handers Blake Holub and Gavin Perry, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Ryan Walker",
+        "posShortNames": "RP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066n3_96_2.png",
+        "scorerId": "066n3",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1794762000000,
       "teamId": "10030",
@@ -314,27 +366,6 @@
     },
     {
       "displayDate": 1793984400000,
-      "teamId": "10190",
-      "id": "3pbv232fmw5elvxa",
-      "seq": 141309,
-      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
-      "player": {
-        "name": "Reiver Sanmartin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
-        "scorerId": "04j1w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793984400000,
       "teamId": "10300",
       "id": "cp3agpohmw5elu8w",
       "seq": 141309,
@@ -357,6 +388,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "3pbv232fmw5elvxa",
+      "seq": 141309,
+      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -657,53 +709,6 @@
         "scorerId": "0420h",
         "posIds": [
           "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10270",
-      "id": "tmv497ofmw026g97",
-      "seq": 141296,
-      "desc": "Castellano elected free agency Monday after clearing waivers.",
-      "player": {
-        "name": "Eiberson Castellano",
-        "posShortNames": "RP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "06l49",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10130",
-      "id": "fivuqwnnmw026g88",
-      "seq": 141295,
-      "desc": "The Mariners extended Arozarena a one-year, $23.15 million qualifying offer Monday, Ryan Divish of The Seattle Times reports.",
-      "player": {
-        "name": "Randy Arozarena",
-        "posShortNames": "LF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs040b5_96_10.png",
-        "scorerId": "040b5",
-        "posIds": [
-          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -714,6 +719,58 @@
   "mlbTransactions": [
     {
       "displayDate": 1794762000000,
+      "teamId": "10230",
+      "id": "3xrxudsomwikhns9",
+      "seq": 141324,
+      "desc": "The San Francisco Giants traded RP Ryan Walker to the Milwaukee Brewers.",
+      "player": {
+        "name": "Ryan Walker",
+        "posShortNames": "RP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066n3_96_2.png",
+        "scorerId": "066n3",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794762000000,
+      "teamId": "10230",
+      "id": "gutxqqdvmwikgnty",
+      "seq": 141323,
+      "desc": "The Giants dealt Walker to the Brewers on Sunday for minor-league right-handers Blake Holub and Gavin Perry, Alex Pavlovic of NBC Sports Bay Area reports.",
+      "player": {
+        "name": "Ryan Walker",
+        "posShortNames": "RP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066n3_96_2.png",
+        "scorerId": "066n3",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794762000000,
       "teamId": "10030",
       "id": "jscjmv4cmwi361u3",
       "seq": 141322,
@@ -1020,27 +1077,6 @@
     },
     {
       "displayDate": 1793984400000,
-      "teamId": "10190",
-      "id": "3pbv232fmw5elvxa",
-      "seq": 141309,
-      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
-      "player": {
-        "name": "Reiver Sanmartin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
-        "scorerId": "04j1w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793984400000,
       "teamId": "10300",
       "id": "cp3agpohmw5elu8w",
       "seq": 141309,
@@ -1063,6 +1099,27 @@
             "typeId": "4"
           }
         ]
+      }
+    },
+    {
+      "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "3pbv232fmw5elvxa",
+      "seq": 141309,
+      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
       }
     },
     {
@@ -1363,53 +1420,6 @@
         "scorerId": "0420h",
         "posIds": [
           "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10270",
-      "id": "tmv497ofmw026g97",
-      "seq": 141296,
-      "desc": "Castellano elected free agency Monday after clearing waivers.",
-      "player": {
-        "name": "Eiberson Castellano",
-        "posShortNames": "RP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "06l49",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10130",
-      "id": "fivuqwnnmw026g88",
-      "seq": 141295,
-      "desc": "The Mariners extended Arozarena a one-year, $23.15 million qualifying offer Monday, Ryan Divish of The Seattle Times reports.",
-      "player": {
-        "name": "Randy Arozarena",
-        "posShortNames": "LF",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs040b5_96_10.png",
-        "scorerId": "040b5",
-        "posIds": [
-          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
