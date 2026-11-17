@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T14:32:14.092948Z",
+  "lastUpdated": "2026-11-17T01:26:50.445767Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,27 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1794848400000,
+      "teamId": "10130",
+      "id": "255sxespmwjvwu8x",
+      "seq": 141325,
+      "desc": "Arozarena rejected the Mariners' one-year, $23.15 million qualifying offer Monday, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Randy Arozarena",
+        "posShortNames": "LF",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs040b5_96_10.png",
+        "scorerId": "040b5",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1794762000000,
       "teamId": "10230",
       "id": "3xrxudsomwikhns9",
@@ -366,6 +387,27 @@
     },
     {
       "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "3pbv232fmw5elvxa",
+      "seq": 141309,
+      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793984400000,
       "teamId": "10300",
       "id": "cp3agpohmw5elu8w",
       "seq": 141309,
@@ -388,27 +430,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793984400000,
-      "teamId": "10190",
-      "id": "3pbv232fmw5elvxa",
-      "seq": 141309,
-      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
-      "player": {
-        "name": "Reiver Sanmartin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
-        "scorerId": "04j1w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -692,32 +713,32 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10130",
-      "id": "1vhmcqwpmw026gd0",
-      "seq": 141297,
-      "desc": "The Mariners outrighted Wilson to Triple-A Tacoma on Monday, Ryan Divish of The Seattle Times reports.",
-      "player": {
-        "name": "Weston Wilson",
-        "posShortNames": "3B",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0420h_96_4.png",
-        "scorerId": "0420h",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1794848400000,
+      "teamId": "10130",
+      "id": "255sxespmwjvwu8x",
+      "seq": 141325,
+      "desc": "Arozarena rejected the Mariners' one-year, $23.15 million qualifying offer Monday, Francys Romero of BeisbolFR.com reports.",
+      "player": {
+        "name": "Randy Arozarena",
+        "posShortNames": "LF",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs040b5_96_10.png",
+        "scorerId": "040b5",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1794762000000,
       "teamId": "10230",
       "id": "3xrxudsomwikhns9",
@@ -1077,6 +1098,27 @@
     },
     {
       "displayDate": 1793984400000,
+      "teamId": "10190",
+      "id": "3pbv232fmw5elvxa",
+      "seq": 141309,
+      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
+      "player": {
+        "name": "Reiver Sanmartin",
+        "posShortNames": "RP",
+        "teamShortName": "WSH",
+        "teamName": "Washington Nationals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
+        "scorerId": "04j1w",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1793984400000,
       "teamId": "10300",
       "id": "cp3agpohmw5elu8w",
       "seq": 141309,
@@ -1099,27 +1141,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793984400000,
-      "teamId": "10190",
-      "id": "3pbv232fmw5elvxa",
-      "seq": 141309,
-      "desc": "The San Francisco Giants traded RP Reiver Sanmartin to the Washington Nationals.",
-      "player": {
-        "name": "Reiver Sanmartin",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04j1w_96_6.png",
-        "scorerId": "04j1w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     },
     {
@@ -1403,27 +1424,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1793638800000,
-      "teamId": "10130",
-      "id": "1vhmcqwpmw026gd0",
-      "seq": 141297,
-      "desc": "The Mariners outrighted Wilson to Triple-A Tacoma on Monday, Ryan Divish of The Seattle Times reports.",
-      "player": {
-        "name": "Weston Wilson",
-        "posShortNames": "3B",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0420h_96_4.png",
-        "scorerId": "0420h",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
