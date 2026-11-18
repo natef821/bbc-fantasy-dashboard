@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T00:23:19.212958Z",
+  "lastUpdated": "2026-11-18T14:57:20.206548Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,71 +7,18 @@
   "seasonStats": {},
   "transactions": [
     {
-      "displayDate": 1794934800000,
-      "teamId": "10260",
-      "id": "jbprkjjpmwlbrl34",
-      "seq": 141381,
-      "desc": "The Diamondbacks selected Jones' contract from Double-A Amarillo on Tuesday, Nick Piecoro of The Arizona Republic reports.",
+      "displayDate": 1795021200000,
+      "teamId": "10010",
+      "id": "kgxk1ny0mwlhtr23",
+      "seq": 141417,
+      "desc": "The  Athletics traded SP Josiah Romeo to the Baltimore Orioles.",
       "player": {
-        "name": "Druw Jones",
-        "posShortNames": "CF",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "",
-        "scorerId": "05tdk",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10050",
-      "id": "9klgckdfmwlbrl1c",
-      "seq": 141380,
-      "desc": "The Blue Jays selected Schreck's contract from Triple-A Buffalo on Tuesday.",
-      "player": {
-        "name": "RJ Schreck",
-        "posShortNames": "RF,CF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "0603l",
-        "posIds": [
-          "011",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10260",
-      "id": "wlwwhpzbmwlbrl0h",
-      "seq": 141379,
-      "desc": "The Diamondbacks selected Aracena's contract from Double-A Amarillo on Tuesday, Nick Piecoro of The Arizona Republic reports.",
-      "player": {
-        "name": "Wellington Aracena",
+        "name": "Josiah Romeo",
         "posShortNames": "SP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
         "headshotUrl": "",
-        "scorerId": "06m7d",
+        "scorerId": "06pgj",
         "posIds": [
           "015"
         ],
@@ -86,149 +33,18 @@
       }
     },
     {
-      "displayDate": 1794934800000,
-      "teamId": "10160",
-      "id": "2iv4ale3mwlbrkzl",
-      "seq": 141378,
-      "desc": "The Marlins selected Dishmey's contract from Double-A Pensacola on Tuesday.",
+      "displayDate": 1795021200000,
+      "teamId": "10121",
+      "id": "vw15nww3mwlhtra1",
+      "seq": 141417,
+      "desc": "The Baltimore Orioles traded RP Yaqui Rivera to the  Athletics.",
       "player": {
-        "name": "Eliazar Dishmey",
-        "posShortNames": "SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "",
-        "scorerId": "06krw",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10050",
-      "id": "o1e7lacumwlbrkyr",
-      "seq": 141377,
-      "desc": "The Blue Jays selected Guerra's contract from Triple-A Buffalo on Tuesday.",
-      "player": {
-        "name": "Daniel Guerra",
-        "posShortNames": "SP,RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "06uhj",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10260",
-      "id": "sfjfg0v7mwlbrkxs",
-      "seq": 141376,
-      "desc": "The Diamondbacks selected Izzi's contract from Triple-A Reno on Tuesday, Nick Piecoro of The Arizona Republic reports.",
-      "player": {
-        "name": "Ashton Izzi",
-        "posShortNames": "SP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "",
-        "scorerId": "063e6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10260",
-      "id": "6dsur1y7mwlbrkwq",
-      "seq": 141375,
-      "desc": "The Diamondbacks selected Torin's contract from Double-A Amarillo on Tuesday, Nick Piecoro of The Arizona Republic reports.",
-      "player": {
-        "name": "Cristofer Torin",
-        "posShortNames": "SS",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "",
-        "scorerId": "063dm",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10050",
-      "id": "uisrbzcrmwlbrkvj",
-      "seq": 141374,
-      "desc": "The Blue Jays selected Perry's contract from Double-A New Hampshire on Tuesday.",
-      "player": {
-        "name": "Nolan Perry",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "067xg",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10160",
-      "id": "jaq50kcemwlbrkug",
-      "seq": 141373,
-      "desc": "The Marlins selected Beck's contract from Triple-A Jacksonville on Tuesday.",
-      "player": {
-        "name": "Jace Beck",
+        "name": "Yaqui Rivera",
         "posShortNames": "RP,SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
         "headshotUrl": "",
-        "scorerId": "051gy",
+        "scorerId": "061oc",
         "posIds": [
           "016",
           "015"
@@ -245,311 +61,19 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10260",
-      "id": "lwg6dvvumwlbrkr9",
-      "seq": 141372,
-      "desc": "The Diamondbacks selected Crisantes' contract from Triple-A Reno on Tuesday, Nick Piecoro of The Arizona Republic reports.",
+      "teamId": "10300",
+      "id": "toy1kfnimwlket2j",
+      "seq": 141423,
+      "desc": "The Giants designated Koss for assignment Tuesday.",
       "player": {
-        "name": "Demetrio Crisantes",
-        "posShortNames": "2B",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "",
-        "scorerId": "064o4",
+        "name": "Christian Koss",
+        "posShortNames": "SS",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ydt_96_2.png",
+        "scorerId": "04ydt",
         "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10070",
-      "id": "e3itiu8emwlbrkpw",
-      "seq": 141371,
-      "desc": "The Guardians selected Chourio's contract from Double-A Akron on Tuesday.",
-      "player": {
-        "name": "Jaison Chourio",
-        "posShortNames": "CF,RF",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "",
-        "scorerId": "05yix",
-        "posIds": [
-          "010",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10030",
-      "id": "v7ebwe90mwlbrkor",
-      "seq": 141370,
-      "desc": "The Yankees selected Martin's contract from Triple-A Scranton/Wilkes-Barre on Tuesday.",
-      "player": {
-        "name": "Garrett Martin",
-        "posShortNames": "RF,CF",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "04q4k",
-        "posIds": [
-          "011",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10070",
-      "id": "p2loj2v5mwlbrkmn",
-      "seq": 141369,
-      "desc": "The Guardians selected Huff's contract from Triple-A Columbus on Tuesday.",
-      "player": {
-        "name": "Kody Huff",
-        "posShortNames": "C,1B,3B",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "",
-        "scorerId": "06433",
-        "posIds": [
-          "001",
-          "002",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10070",
-      "id": "n9fma6vmmwlbrklk",
-      "seq": 141368,
-      "desc": "The Guardians selected Campbell's contract from Triple-A Columbus on Tuesday.",
-      "player": {
-        "name": "Justin Campbell",
-        "posShortNames": "SP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "",
-        "scorerId": "051e9",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10040",
-      "id": "vbvgomsqmwlbrkkc",
-      "seq": 141367,
-      "desc": "The Rays selected Isaac's contract from Triple-A Durham on Tuesday.",
-      "player": {
-        "name": "Xavier Isaac",
-        "posShortNames": "1B",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "062pp",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10030",
-      "id": "fonq8ksymwlbrkj5",
-      "seq": 141366,
-      "desc": "The Yankees' selected Carr's contract from Triple-A Scranton/Wilkes-Barre on Tuesday.",
-      "player": {
-        "name": "Kyle Carr",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "06dmq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10240",
-      "id": "m27xob9jmwlbrkia",
-      "seq": 141365,
-      "desc": "The Pirates selected Plaz's contract from High-A Greensboro on Tuesday.",
-      "player": {
-        "name": "Axiel Plaz",
-        "posShortNames": "C,1B",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "0622o",
-        "posIds": [
-          "001",
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10160",
-      "id": "f19x7ghzmwlbrkhf",
-      "seq": 141364,
-      "desc": "The Marlins selected Matheus' contract from Triple-A Jacksonville on Tuesday, Chase Ford of MiLB Central reports.",
-      "player": {
-        "name": "Juan Matheus",
-        "posShortNames": "3B,2B",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "",
-        "scorerId": "066t9",
-        "posIds": [
-          "004",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10240",
-      "id": "u07tz3fymwlbrkgk",
-      "seq": 141363,
-      "desc": "The Pirates selected Jebb's contract from Triple-A Indianapolis on Tuesday.",
-      "player": {
-        "name": "Mitch Jebb",
-        "posShortNames": "CF",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "066eq",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10105",
-      "id": "bpvklyfbmwlbrkfn",
-      "seq": 141362,
-      "desc": "The Astros selected Nezuh's contract from Triple-A Sugar Land on Tuesday, Matt Kawahara of the Houston Chronicle reports.",
-      "player": {
-        "name": "Jackson Nezuh",
-        "posShortNames": "SP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "06dlx",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10170",
-      "id": "nrehj4tcmwlbrkep",
-      "seq": 141361,
-      "desc": "McDermott signed a one-year contract with the Mets on Tuesday.",
-      "player": {
-        "name": "Chayce McDermott",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uws_96_2.png",
-        "scorerId": "05uws",
-        "posIds": [
-          "015"
+          "005"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -558,17 +82,43 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10170",
-      "id": "3y82gizzmwlbrkdm",
-      "seq": 141360,
-      "desc": "The Mets designated Ross for assignment Tuesday.",
+      "teamId": "10300",
+      "id": "chwbjoqsmwlket1j",
+      "seq": 141422,
+      "desc": "The Giants selected Gair's contract from Double-A Richmond on Tuesday.",
       "player": {
-        "name": "Dylan Ross",
+        "name": "Marty Gair",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "06hw6",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10300",
+      "id": "iorguandmwlket0l",
+      "seq": 141421,
+      "desc": "The Giants selected Lalane's contract from Double-A Richmond on Tuesday.",
+      "player": {
+        "name": "Henry Lalane",
         "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06580_96_1.png",
-        "scorerId": "06580",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "05ym5",
         "posIds": [
           "015"
         ],
@@ -584,20 +134,19 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10170",
-      "id": "g3rb3knymwlbrkch",
-      "seq": 141359,
-      "desc": "The Mets selected Rojas' contract from Triple-A Syracuse on Tuesday.",
+      "teamId": "10290",
+      "id": "y6x97edymwlkeszk",
+      "seq": 141420,
+      "desc": "The Padres selected Musgrove's contract from Double-A San Antonio on Tuesday.",
       "player": {
-        "name": "Jefferson Rojas",
-        "posShortNames": "3B,SS",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
+        "name": "Tucker Musgrove",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
         "headshotUrl": "",
-        "scorerId": "061wh",
+        "scorerId": "06fql",
         "posIds": [
-          "004",
-          "005"
+          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -611,17 +160,95 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10030",
-      "id": "fipz2josmwlbrkb0",
-      "seq": 141358,
-      "desc": "The Yankees selected Lagrange's contract from Triple-A Scranton/Wilkes-Barre on Tuesday, Francys Romero of BeisbolFR.com reports.",
+      "teamId": "10290",
+      "id": "6bkxucq8mwlkesyh",
+      "seq": 141419,
+      "desc": "The Padres selected Koenig's contract from Triple-A El Paso on Tuesday.",
       "player": {
-        "name": "Carlos Lagrange",
-        "posShortNames": "SP,RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
+        "name": "Ian Koenig",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
         "headshotUrl": "",
-        "scorerId": "062h4",
+        "scorerId": "066aa",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10280",
+      "id": "u95bmnifmwlkesvq",
+      "seq": 141418,
+      "desc": "The Dodgers selected Fox's contract from Double-A Tulsa on Tuesday.",
+      "player": {
+        "name": "Luke Fox",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "06hol",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10200",
+      "id": "a3ibaqhtmwlg38ts",
+      "seq": 141416,
+      "desc": "The Cubs selected McCullough's contract from Double-A Knoxville on Tuesday.",
+      "player": {
+        "name": "Brody McCullough",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "",
+        "scorerId": "06655",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10200",
+      "id": "hifanhpsmwlg38qz",
+      "seq": 141415,
+      "desc": "The Cubs selected Wiggins' contract from Triple-A Iowa on Tuesday.",
+      "player": {
+        "name": "Jaxon Wiggins",
+        "posShortNames": "SP,RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "",
+        "scorerId": "05u2p",
         "posIds": [
           "015",
           "016"
@@ -638,18 +265,19 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10230",
-      "id": "km24ry5xmwlbrk9e",
-      "seq": 141357,
-      "desc": "The Brewers selected Williams' contract from Triple-A Nashville on Tuesday, Pat Ragazzo of AthlonSports.com reports.",
+      "teamId": "10280",
+      "id": "rydxwrp3mwlg38oe",
+      "seq": 141414,
+      "desc": "The Dodgers designated Cairo for assignment Tuesday.",
       "player": {
-        "name": "Jett Williams",
-        "posShortNames": "3B",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
+        "name": "Christian Cairo",
+        "posShortNames": "SS,3B",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
         "headshotUrl": "",
-        "scorerId": "060la",
+        "scorerId": "0513m",
         "posIds": [
+          "005",
           "004"
         ],
         "rookie": false,
@@ -664,187 +292,505 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10090",
-      "id": "gr7dzklmmwlbrk6u",
-      "seq": 141356,
-      "desc": "The Royals selected Roccaforte's contract from Triple-A Omaha on Tuesday.",
+      "teamId": "10280",
+      "id": "a7cth1h6mwlg38m4",
+      "seq": 141413,
+      "desc": "The Dodgers designated Cousins for assignment Tuesday.",
       "player": {
-        "name": "Carson Roccaforte",
-        "posShortNames": "CF",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "",
-        "scorerId": "06af4",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10090",
-      "id": "kxm7o5y4mwl7fy6p",
-      "seq": 141355,
-      "desc": "The Royals selected Braun's contract from Triple-A Omaha on Tuesday.",
-      "player": {
-        "name": "Lucas Braun",
-        "posShortNames": "SP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "",
-        "scorerId": "06f18",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10100",
-      "id": "vcwqzkrmmwl7fy5q",
-      "seq": 141354,
-      "desc": "Jeffers accepted the Twins' one-year, $23.15 million qualifying offer Tuesday, Alden Gonzalez of ESPN.com reports.",
-      "player": {
-        "name": "Ryan Jeffers",
-        "posShortNames": "C",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmu_96_9.png",
-        "scorerId": "04pmu",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "eq4xd6mmmwl7fy4u",
-      "seq": 141353,
-      "desc": "Rogers rejected the Orioles' one-year, $23.15 million qualifying offer Tuesday, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Trevor Rogers",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ak5_96_9.png",
-        "scorerId": "04ak5",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10030",
-      "id": "a6crxl5dmwl7fy3z",
-      "seq": 141352,
-      "desc": "Bednar accepted the Yankees' one-year, $23.15 million qualifying offer Tuesday, Tyler Kepner of The Athletic reports.",
-      "player": {
-        "name": "David Bednar",
+        "name": "Jake Cousins",
         "posShortNames": "RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aqc_96_9.png",
-        "scorerId": "04aqc",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eru_96_5.png",
+        "scorerId": "04eru",
         "posIds": [
           "016"
         ],
         "rookie": false,
         "minorsEligible": false,
         "icons": []
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10121",
+      "id": "u1wfa6yamwlg38k3",
+      "seq": 141412,
+      "desc": "The Athletics designated Tur for assignment on Tuesday.",
+      "player": {
+        "name": "Yunior Tur",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06jbm_96_1.png",
+        "scorerId": "06jbm",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10121",
+      "id": "23lmwht2mwlg38i8",
+      "seq": 141411,
+      "desc": "The Athletics designated Juenger for assignment on Tuesday.",
+      "player": {
+        "name": "Hayden Juenger",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "05xsv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10280",
+      "id": "oazamm0amwlg38g4",
+      "seq": 141410,
+      "desc": "The Dodgers selected Serwinowski's contract from Double-A Tulsa on Tuesday.",
+      "player": {
+        "name": "Adam Serwinowski",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "066az",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10121",
+      "id": "ab4rv3p1mwlg38e4",
+      "seq": 141409,
+      "desc": "The Athletics selected Conn's contract from Triple-A Las Vegas on Tuesday.",
+      "player": {
+        "name": "Cole Conn",
+        "posShortNames": "C",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "06gvf",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10280",
+      "id": "5bnm6394mwlg38bx",
+      "seq": 141408,
+      "desc": "The Dodgers selected Ferris' contract from Triple-A Oklahoma City on Tuesday.",
+      "player": {
+        "name": "Jackson Ferris",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "05u6g",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10280",
+      "id": "648dsv9hmwlg389t",
+      "seq": 141407,
+      "desc": "The Dodgers selected Zazueta's contract from Double-A Tulsa on Tuesday.",
+      "player": {
+        "name": "Christian Zazueta",
+        "posShortNames": "RP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "06207",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10270",
+      "id": "zb81s7jcmwlg387m",
+      "seq": 141406,
+      "desc": "The Rockies selected Mahoney's contract from Triple-A Albuquerque on Tuesday.",
+      "player": {
+        "name": "Jack Mahoney",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "06dq6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10270",
+      "id": "q0yuis5jmwlg385k",
+      "seq": 141405,
+      "desc": "The Rockies selected Cox's contract from Double-A Hartford on Tuesday.",
+      "player": {
+        "name": "Jackson Cox",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "06146",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "09s2hcjymwlg383n",
+      "seq": 141404,
+      "desc": "The Athletics acquired Rivera from the Orioles in exchange for Josiah Romeo on Tuesday.",
+      "player": {
+        "name": "Yaqui Rivera",
+        "posShortNames": "RP,SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "061oc",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10270",
+      "id": "o14chj57mwlg3819",
+      "seq": 141403,
+      "desc": "The Rockies selected Betancourt's contract from Triple-A Albuquerque on Tuesday.",
+      "player": {
+        "name": "Bryant Betancourt",
+        "posShortNames": "C",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "0626r",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10121",
+      "id": "npau5ftkmwlg37wg",
+      "seq": 141402,
+      "desc": "The Orioles acquired Romeo from the Athletics in exchange for Yaqui Rivera on Tuesday.",
+      "player": {
+        "name": "Josiah Romeo",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06pgj",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "m61necuvmwlg37ua",
+      "seq": 141401,
+      "desc": "The Orioles selected Reilly's contract from Triple-A Norfolk on Tuesday.",
+      "player": {
+        "name": "Patrick Reilly",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "05jpm",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10250",
+      "id": "daigdr71mwlg37s7",
+      "seq": 141400,
+      "desc": "The Cardinals selected Odle's contract from High-A Peoria on Tuesday.",
+      "player": {
+        "name": "Jacob Odle",
+        "posShortNames": "RP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "06hwr",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "f438shvdmwlg37qj",
+      "seq": 141399,
+      "desc": "The Orioles selected German's contract from Triple-A Norfolk on Tuesday.",
+      "player": {
+        "name": "Nestor German",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06gjv",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10250",
+      "id": "6pkpcy2dmwlg37p0",
+      "seq": 141398,
+      "desc": "The Cardinals selected Baez's contract from Double-A Ozarks on Tuesday.",
+      "player": {
+        "name": "Jesus Baez",
+        "posShortNames": "SS",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "061rf",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "zz4g293pmwlg37nl",
+      "seq": 141397,
+      "desc": "The Orioles selected Forret's contract from Triple-A Norfolk on Tuesday.",
+      "player": {
+        "name": "Michael Forret",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06hwt",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "gb58px1omwlg37m2",
+      "seq": 141396,
+      "desc": "The Orioles selected Estrada's contract from Triple-A Norfolk on Tuesday.",
+      "player": {
+        "name": "Aron Estrada",
+        "posShortNames": "2B",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "0630n",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "n30uknugmwlg37kc",
+      "seq": 141395,
+      "desc": "The Orioles selected Bradfield's contract from Triple-A Norfolk on Tuesday.",
+      "player": {
+        "name": "Enrique Bradfield Jr.",
+        "posShortNames": "CF,LF",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "05jre",
+        "posIds": [
+          "010",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     }
   ],
   "mlbTransactions": [
     {
-      "displayDate": 1794934800000,
-      "teamId": "10260",
-      "id": "jbprkjjpmwlbrl34",
-      "seq": 141381,
-      "desc": "The Diamondbacks selected Jones' contract from Double-A Amarillo on Tuesday, Nick Piecoro of The Arizona Republic reports.",
+      "displayDate": 1795021200000,
+      "teamId": "10010",
+      "id": "kgxk1ny0mwlhtr23",
+      "seq": 141417,
+      "desc": "The  Athletics traded SP Josiah Romeo to the Baltimore Orioles.",
       "player": {
-        "name": "Druw Jones",
-        "posShortNames": "CF",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "",
-        "scorerId": "05tdk",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10050",
-      "id": "9klgckdfmwlbrl1c",
-      "seq": 141380,
-      "desc": "The Blue Jays selected Schreck's contract from Triple-A Buffalo on Tuesday.",
-      "player": {
-        "name": "RJ Schreck",
-        "posShortNames": "RF,CF",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "0603l",
-        "posIds": [
-          "011",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10260",
-      "id": "wlwwhpzbmwlbrl0h",
-      "seq": 141379,
-      "desc": "The Diamondbacks selected Aracena's contract from Double-A Amarillo on Tuesday, Nick Piecoro of The Arizona Republic reports.",
-      "player": {
-        "name": "Wellington Aracena",
+        "name": "Josiah Romeo",
         "posShortNames": "SP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
         "headshotUrl": "",
-        "scorerId": "06m7d",
+        "scorerId": "06pgj",
         "posIds": [
           "015"
         ],
@@ -859,149 +805,18 @@
       }
     },
     {
-      "displayDate": 1794934800000,
-      "teamId": "10160",
-      "id": "2iv4ale3mwlbrkzl",
-      "seq": 141378,
-      "desc": "The Marlins selected Dishmey's contract from Double-A Pensacola on Tuesday.",
+      "displayDate": 1795021200000,
+      "teamId": "10121",
+      "id": "vw15nww3mwlhtra1",
+      "seq": 141417,
+      "desc": "The Baltimore Orioles traded RP Yaqui Rivera to the  Athletics.",
       "player": {
-        "name": "Eliazar Dishmey",
-        "posShortNames": "SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "",
-        "scorerId": "06krw",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10050",
-      "id": "o1e7lacumwlbrkyr",
-      "seq": 141377,
-      "desc": "The Blue Jays selected Guerra's contract from Triple-A Buffalo on Tuesday.",
-      "player": {
-        "name": "Daniel Guerra",
-        "posShortNames": "SP,RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "06uhj",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10260",
-      "id": "sfjfg0v7mwlbrkxs",
-      "seq": 141376,
-      "desc": "The Diamondbacks selected Izzi's contract from Triple-A Reno on Tuesday, Nick Piecoro of The Arizona Republic reports.",
-      "player": {
-        "name": "Ashton Izzi",
-        "posShortNames": "SP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "",
-        "scorerId": "063e6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10260",
-      "id": "6dsur1y7mwlbrkwq",
-      "seq": 141375,
-      "desc": "The Diamondbacks selected Torin's contract from Double-A Amarillo on Tuesday, Nick Piecoro of The Arizona Republic reports.",
-      "player": {
-        "name": "Cristofer Torin",
-        "posShortNames": "SS",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "",
-        "scorerId": "063dm",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10050",
-      "id": "uisrbzcrmwlbrkvj",
-      "seq": 141374,
-      "desc": "The Blue Jays selected Perry's contract from Double-A New Hampshire on Tuesday.",
-      "player": {
-        "name": "Nolan Perry",
-        "posShortNames": "SP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "067xg",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10160",
-      "id": "jaq50kcemwlbrkug",
-      "seq": 141373,
-      "desc": "The Marlins selected Beck's contract from Triple-A Jacksonville on Tuesday.",
-      "player": {
-        "name": "Jace Beck",
+        "name": "Yaqui Rivera",
         "posShortNames": "RP,SP",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
         "headshotUrl": "",
-        "scorerId": "051gy",
+        "scorerId": "061oc",
         "posIds": [
           "016",
           "015"
@@ -1018,311 +833,19 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10260",
-      "id": "lwg6dvvumwlbrkr9",
-      "seq": 141372,
-      "desc": "The Diamondbacks selected Crisantes' contract from Triple-A Reno on Tuesday, Nick Piecoro of The Arizona Republic reports.",
+      "teamId": "10300",
+      "id": "toy1kfnimwlket2j",
+      "seq": 141423,
+      "desc": "The Giants designated Koss for assignment Tuesday.",
       "player": {
-        "name": "Demetrio Crisantes",
-        "posShortNames": "2B",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "",
-        "scorerId": "064o4",
+        "name": "Christian Koss",
+        "posShortNames": "SS",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ydt_96_2.png",
+        "scorerId": "04ydt",
         "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10070",
-      "id": "e3itiu8emwlbrkpw",
-      "seq": 141371,
-      "desc": "The Guardians selected Chourio's contract from Double-A Akron on Tuesday.",
-      "player": {
-        "name": "Jaison Chourio",
-        "posShortNames": "CF,RF",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "",
-        "scorerId": "05yix",
-        "posIds": [
-          "010",
-          "011"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10030",
-      "id": "v7ebwe90mwlbrkor",
-      "seq": 141370,
-      "desc": "The Yankees selected Martin's contract from Triple-A Scranton/Wilkes-Barre on Tuesday.",
-      "player": {
-        "name": "Garrett Martin",
-        "posShortNames": "RF,CF",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "04q4k",
-        "posIds": [
-          "011",
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10070",
-      "id": "p2loj2v5mwlbrkmn",
-      "seq": 141369,
-      "desc": "The Guardians selected Huff's contract from Triple-A Columbus on Tuesday.",
-      "player": {
-        "name": "Kody Huff",
-        "posShortNames": "C,1B,3B",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "",
-        "scorerId": "06433",
-        "posIds": [
-          "001",
-          "002",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10070",
-      "id": "n9fma6vmmwlbrklk",
-      "seq": 141368,
-      "desc": "The Guardians selected Campbell's contract from Triple-A Columbus on Tuesday.",
-      "player": {
-        "name": "Justin Campbell",
-        "posShortNames": "SP",
-        "teamShortName": "CLE",
-        "teamName": "Cleveland Guardians",
-        "headshotUrl": "",
-        "scorerId": "051e9",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10040",
-      "id": "vbvgomsqmwlbrkkc",
-      "seq": 141367,
-      "desc": "The Rays selected Isaac's contract from Triple-A Durham on Tuesday.",
-      "player": {
-        "name": "Xavier Isaac",
-        "posShortNames": "1B",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "062pp",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10030",
-      "id": "fonq8ksymwlbrkj5",
-      "seq": 141366,
-      "desc": "The Yankees' selected Carr's contract from Triple-A Scranton/Wilkes-Barre on Tuesday.",
-      "player": {
-        "name": "Kyle Carr",
-        "posShortNames": "SP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "",
-        "scorerId": "06dmq",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10240",
-      "id": "m27xob9jmwlbrkia",
-      "seq": 141365,
-      "desc": "The Pirates selected Plaz's contract from High-A Greensboro on Tuesday.",
-      "player": {
-        "name": "Axiel Plaz",
-        "posShortNames": "C,1B",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "0622o",
-        "posIds": [
-          "001",
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10160",
-      "id": "f19x7ghzmwlbrkhf",
-      "seq": 141364,
-      "desc": "The Marlins selected Matheus' contract from Triple-A Jacksonville on Tuesday, Chase Ford of MiLB Central reports.",
-      "player": {
-        "name": "Juan Matheus",
-        "posShortNames": "3B,2B",
-        "teamShortName": "MIA",
-        "teamName": "Miami Marlins",
-        "headshotUrl": "",
-        "scorerId": "066t9",
-        "posIds": [
-          "004",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10240",
-      "id": "u07tz3fymwlbrkgk",
-      "seq": 141363,
-      "desc": "The Pirates selected Jebb's contract from Triple-A Indianapolis on Tuesday.",
-      "player": {
-        "name": "Mitch Jebb",
-        "posShortNames": "CF",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "",
-        "scorerId": "066eq",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10105",
-      "id": "bpvklyfbmwlbrkfn",
-      "seq": 141362,
-      "desc": "The Astros selected Nezuh's contract from Triple-A Sugar Land on Tuesday, Matt Kawahara of the Houston Chronicle reports.",
-      "player": {
-        "name": "Jackson Nezuh",
-        "posShortNames": "SP",
-        "teamShortName": "HOU",
-        "teamName": "Houston Astros",
-        "headshotUrl": "",
-        "scorerId": "06dlx",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10170",
-      "id": "nrehj4tcmwlbrkep",
-      "seq": 141361,
-      "desc": "McDermott signed a one-year contract with the Mets on Tuesday.",
-      "player": {
-        "name": "Chayce McDermott",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uws_96_2.png",
-        "scorerId": "05uws",
-        "posIds": [
-          "015"
+          "005"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -1331,17 +854,43 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10170",
-      "id": "3y82gizzmwlbrkdm",
-      "seq": 141360,
-      "desc": "The Mets designated Ross for assignment Tuesday.",
+      "teamId": "10300",
+      "id": "chwbjoqsmwlket1j",
+      "seq": 141422,
+      "desc": "The Giants selected Gair's contract from Double-A Richmond on Tuesday.",
       "player": {
-        "name": "Dylan Ross",
+        "name": "Marty Gair",
+        "posShortNames": "RP",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "06hw6",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10300",
+      "id": "iorguandmwlket0l",
+      "seq": 141421,
+      "desc": "The Giants selected Lalane's contract from Double-A Richmond on Tuesday.",
+      "player": {
+        "name": "Henry Lalane",
         "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06580_96_1.png",
-        "scorerId": "06580",
+        "teamShortName": "SF",
+        "teamName": "San Francisco Giants",
+        "headshotUrl": "",
+        "scorerId": "05ym5",
         "posIds": [
           "015"
         ],
@@ -1357,20 +906,19 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10170",
-      "id": "g3rb3knymwlbrkch",
-      "seq": 141359,
-      "desc": "The Mets selected Rojas' contract from Triple-A Syracuse on Tuesday.",
+      "teamId": "10290",
+      "id": "y6x97edymwlkeszk",
+      "seq": 141420,
+      "desc": "The Padres selected Musgrove's contract from Double-A San Antonio on Tuesday.",
       "player": {
-        "name": "Jefferson Rojas",
-        "posShortNames": "3B,SS",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
+        "name": "Tucker Musgrove",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
         "headshotUrl": "",
-        "scorerId": "061wh",
+        "scorerId": "06fql",
         "posIds": [
-          "004",
-          "005"
+          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -1384,17 +932,95 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10030",
-      "id": "fipz2josmwlbrkb0",
-      "seq": 141358,
-      "desc": "The Yankees selected Lagrange's contract from Triple-A Scranton/Wilkes-Barre on Tuesday, Francys Romero of BeisbolFR.com reports.",
+      "teamId": "10290",
+      "id": "6bkxucq8mwlkesyh",
+      "seq": 141419,
+      "desc": "The Padres selected Koenig's contract from Triple-A El Paso on Tuesday.",
       "player": {
-        "name": "Carlos Lagrange",
-        "posShortNames": "SP,RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
+        "name": "Ian Koenig",
+        "posShortNames": "SP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
         "headshotUrl": "",
-        "scorerId": "062h4",
+        "scorerId": "066aa",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10280",
+      "id": "u95bmnifmwlkesvq",
+      "seq": 141418,
+      "desc": "The Dodgers selected Fox's contract from Double-A Tulsa on Tuesday.",
+      "player": {
+        "name": "Luke Fox",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "06hol",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10200",
+      "id": "a3ibaqhtmwlg38ts",
+      "seq": 141416,
+      "desc": "The Cubs selected McCullough's contract from Double-A Knoxville on Tuesday.",
+      "player": {
+        "name": "Brody McCullough",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "",
+        "scorerId": "06655",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10200",
+      "id": "hifanhpsmwlg38qz",
+      "seq": 141415,
+      "desc": "The Cubs selected Wiggins' contract from Triple-A Iowa on Tuesday.",
+      "player": {
+        "name": "Jaxon Wiggins",
+        "posShortNames": "SP,RP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "",
+        "scorerId": "05u2p",
         "posIds": [
           "015",
           "016"
@@ -1411,18 +1037,19 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10230",
-      "id": "km24ry5xmwlbrk9e",
-      "seq": 141357,
-      "desc": "The Brewers selected Williams' contract from Triple-A Nashville on Tuesday, Pat Ragazzo of AthlonSports.com reports.",
+      "teamId": "10280",
+      "id": "rydxwrp3mwlg38oe",
+      "seq": 141414,
+      "desc": "The Dodgers designated Cairo for assignment Tuesday.",
       "player": {
-        "name": "Jett Williams",
-        "posShortNames": "3B",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
+        "name": "Christian Cairo",
+        "posShortNames": "SS,3B",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
         "headshotUrl": "",
-        "scorerId": "060la",
+        "scorerId": "0513m",
         "posIds": [
+          "005",
           "004"
         ],
         "rookie": false,
@@ -1437,117 +1064,488 @@
     },
     {
       "displayDate": 1794934800000,
-      "teamId": "10090",
-      "id": "gr7dzklmmwlbrk6u",
-      "seq": 141356,
-      "desc": "The Royals selected Roccaforte's contract from Triple-A Omaha on Tuesday.",
+      "teamId": "10280",
+      "id": "a7cth1h6mwlg38m4",
+      "seq": 141413,
+      "desc": "The Dodgers designated Cousins for assignment Tuesday.",
       "player": {
-        "name": "Carson Roccaforte",
-        "posShortNames": "CF",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "",
-        "scorerId": "06af4",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10090",
-      "id": "kxm7o5y4mwl7fy6p",
-      "seq": 141355,
-      "desc": "The Royals selected Braun's contract from Triple-A Omaha on Tuesday.",
-      "player": {
-        "name": "Lucas Braun",
-        "posShortNames": "SP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "",
-        "scorerId": "06f18",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10100",
-      "id": "vcwqzkrmmwl7fy5q",
-      "seq": 141354,
-      "desc": "Jeffers accepted the Twins' one-year, $23.15 million qualifying offer Tuesday, Alden Gonzalez of ESPN.com reports.",
-      "player": {
-        "name": "Ryan Jeffers",
-        "posShortNames": "C",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmu_96_9.png",
-        "scorerId": "04pmu",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "eq4xd6mmmwl7fy4u",
-      "seq": 141353,
-      "desc": "Rogers rejected the Orioles' one-year, $23.15 million qualifying offer Tuesday, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Trevor Rogers",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ak5_96_9.png",
-        "scorerId": "04ak5",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10030",
-      "id": "a6crxl5dmwl7fy3z",
-      "seq": 141352,
-      "desc": "Bednar accepted the Yankees' one-year, $23.15 million qualifying offer Tuesday, Tyler Kepner of The Athletic reports.",
-      "player": {
-        "name": "David Bednar",
+        "name": "Jake Cousins",
         "posShortNames": "RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aqc_96_9.png",
-        "scorerId": "04aqc",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eru_96_5.png",
+        "scorerId": "04eru",
         "posIds": [
           "016"
         ],
         "rookie": false,
         "minorsEligible": false,
         "icons": []
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10121",
+      "id": "u1wfa6yamwlg38k3",
+      "seq": 141412,
+      "desc": "The Athletics designated Tur for assignment on Tuesday.",
+      "player": {
+        "name": "Yunior Tur",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06jbm_96_1.png",
+        "scorerId": "06jbm",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10121",
+      "id": "23lmwht2mwlg38i8",
+      "seq": 141411,
+      "desc": "The Athletics designated Juenger for assignment on Tuesday.",
+      "player": {
+        "name": "Hayden Juenger",
+        "posShortNames": "RP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "05xsv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10280",
+      "id": "oazamm0amwlg38g4",
+      "seq": 141410,
+      "desc": "The Dodgers selected Serwinowski's contract from Double-A Tulsa on Tuesday.",
+      "player": {
+        "name": "Adam Serwinowski",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "066az",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10121",
+      "id": "ab4rv3p1mwlg38e4",
+      "seq": 141409,
+      "desc": "The Athletics selected Conn's contract from Triple-A Las Vegas on Tuesday.",
+      "player": {
+        "name": "Cole Conn",
+        "posShortNames": "C",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "06gvf",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10280",
+      "id": "5bnm6394mwlg38bx",
+      "seq": 141408,
+      "desc": "The Dodgers selected Ferris' contract from Triple-A Oklahoma City on Tuesday.",
+      "player": {
+        "name": "Jackson Ferris",
+        "posShortNames": "SP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "05u6g",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10280",
+      "id": "648dsv9hmwlg389t",
+      "seq": 141407,
+      "desc": "The Dodgers selected Zazueta's contract from Double-A Tulsa on Tuesday.",
+      "player": {
+        "name": "Christian Zazueta",
+        "posShortNames": "RP",
+        "teamShortName": "LAD",
+        "teamName": "Los Angeles Dodgers",
+        "headshotUrl": "",
+        "scorerId": "06207",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10270",
+      "id": "zb81s7jcmwlg387m",
+      "seq": 141406,
+      "desc": "The Rockies selected Mahoney's contract from Triple-A Albuquerque on Tuesday.",
+      "player": {
+        "name": "Jack Mahoney",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "06dq6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10270",
+      "id": "q0yuis5jmwlg385k",
+      "seq": 141405,
+      "desc": "The Rockies selected Cox's contract from Double-A Hartford on Tuesday.",
+      "player": {
+        "name": "Jackson Cox",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "06146",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "09s2hcjymwlg383n",
+      "seq": 141404,
+      "desc": "The Athletics acquired Rivera from the Orioles in exchange for Josiah Romeo on Tuesday.",
+      "player": {
+        "name": "Yaqui Rivera",
+        "posShortNames": "RP,SP",
+        "teamShortName": "ATH",
+        "teamName": "Athletics",
+        "headshotUrl": "",
+        "scorerId": "061oc",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10270",
+      "id": "o14chj57mwlg3819",
+      "seq": 141403,
+      "desc": "The Rockies selected Betancourt's contract from Triple-A Albuquerque on Tuesday.",
+      "player": {
+        "name": "Bryant Betancourt",
+        "posShortNames": "C",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "",
+        "scorerId": "0626r",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10121",
+      "id": "npau5ftkmwlg37wg",
+      "seq": 141402,
+      "desc": "The Orioles acquired Romeo from the Athletics in exchange for Yaqui Rivera on Tuesday.",
+      "player": {
+        "name": "Josiah Romeo",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06pgj",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "m61necuvmwlg37ua",
+      "seq": 141401,
+      "desc": "The Orioles selected Reilly's contract from Triple-A Norfolk on Tuesday.",
+      "player": {
+        "name": "Patrick Reilly",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "05jpm",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10250",
+      "id": "daigdr71mwlg37s7",
+      "seq": 141400,
+      "desc": "The Cardinals selected Odle's contract from High-A Peoria on Tuesday.",
+      "player": {
+        "name": "Jacob Odle",
+        "posShortNames": "RP",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "06hwr",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "f438shvdmwlg37qj",
+      "seq": 141399,
+      "desc": "The Orioles selected German's contract from Triple-A Norfolk on Tuesday.",
+      "player": {
+        "name": "Nestor German",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06gjv",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10250",
+      "id": "6pkpcy2dmwlg37p0",
+      "seq": 141398,
+      "desc": "The Cardinals selected Baez's contract from Double-A Ozarks on Tuesday.",
+      "player": {
+        "name": "Jesus Baez",
+        "posShortNames": "SS",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "",
+        "scorerId": "061rf",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "zz4g293pmwlg37nl",
+      "seq": 141397,
+      "desc": "The Orioles selected Forret's contract from Triple-A Norfolk on Tuesday.",
+      "player": {
+        "name": "Michael Forret",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "06hwt",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "gb58px1omwlg37m2",
+      "seq": 141396,
+      "desc": "The Orioles selected Estrada's contract from Triple-A Norfolk on Tuesday.",
+      "player": {
+        "name": "Aron Estrada",
+        "posShortNames": "2B",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "0630n",
+        "posIds": [
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1794934800000,
+      "teamId": "10010",
+      "id": "n30uknugmwlg37kc",
+      "seq": 141395,
+      "desc": "The Orioles selected Bradfield's contract from Triple-A Norfolk on Tuesday.",
+      "player": {
+        "name": "Enrique Bradfield Jr.",
+        "posShortNames": "CF,LF",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "",
+        "scorerId": "05jre",
+        "posIds": [
+          "010",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
       }
     }
   ],
