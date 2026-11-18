@@ -1,11 +1,324 @@
 {
-  "lastUpdated": "2026-11-18T14:57:20.206548Z",
+  "lastUpdated": "2026-11-18T23:47:34.310299Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "kdtgsab1mwmoghja",
+      "seq": 141429,
+      "desc": "The Seattle Mariners traded RP Jos\u00e9 A. Ferrer to the Kansas City Royals.",
+      "player": {
+        "name": "Jose Ferrer",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs062ob_96_3.png",
+        "scorerId": "062ob",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10110",
+      "id": "az55ibvrmwmoggy2",
+      "seq": 141429,
+      "desc": "The Detroit Tigers traded 3B Jace Jung to the Los Angeles Angels.",
+      "player": {
+        "name": "Jace Jung",
+        "posShortNames": "DH,1B,2B,3B",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzg_96_1.png",
+        "scorerId": "05tzg",
+        "posIds": [
+          "013",
+          "002",
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "jrgmaf74mwmoghn5",
+      "seq": 141429,
+      "desc": "The Kansas City Royals traded SP L.P. Langevin to the Seattle Mariners.",
+      "player": {
+        "name": "L.P. Langevin",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "",
+        "scorerId": "06nzz",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "cmeosku2mwmoghe1",
+      "seq": 141429,
+      "desc": "The Kansas City Royals traded 3B Maikel Garcia to the Seattle Mariners.",
+      "player": {
+        "name": "Maikel Garcia",
+        "posShortNames": "3B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05g3x_96_5.png",
+        "scorerId": "05g3x",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "fsibcuk0mwmoghar",
+      "seq": 141429,
+      "desc": "The Seattle Mariners traded SP Logan Evans to the Kansas City Royals.",
+      "player": {
+        "name": "Logan Evans",
+        "posShortNames": "SP,RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06hv8_96_1.png",
+        "scorerId": "06hv8",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Elbow - Out Indefinitely - Expected return Apr 1",
+            "typeId": "30"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "ne4c7835mwmogh0o",
+      "seq": 141429,
+      "desc": "The Kansas City Royals traded RP James McArthur to the Seattle Mariners.",
+      "player": {
+        "name": "James McArthur",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pw3_96_3.png",
+        "scorerId": "04pw3",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "ggvqo01vmwmoght6",
+      "seq": 141429,
+      "desc": "The Seattle Mariners traded SP Bryce Miller to the Kansas City Royals.",
+      "player": {
+        "name": "Bryce Miller",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05vy6_96_3.png",
+        "scorerId": "05vy6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10020",
+      "id": "tokfsvg4mwmoggva",
+      "seq": 141429,
+      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
+      "player": {
+        "name": "Nick Fortes",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
+        "scorerId": "04pqf",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10040",
+      "id": "8g1o7a5ymwmogh5k",
+      "seq": 141429,
+      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
+      "player": {
+        "name": "Angel Roa",
+        "posShortNames": "SP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "",
+        "scorerId": "078nb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "9cgut9o4mwmm4as1",
+      "seq": 141428,
+      "desc": "The Royals designated Isbel for assignment Wednesday.",
+      "player": {
+        "name": "Kyle Isbel",
+        "posShortNames": "CF",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ppo_96_8.png",
+        "scorerId": "04ppo",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10020",
+      "id": "2klfp4m1mwmm4apt",
+      "seq": 141427,
+      "desc": "The Twins signed Gray to a two-year, $55 million contract Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Sonny Gray",
+        "posShortNames": "SP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0260v_96_17.png",
+        "scorerId": "0260v",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10020",
+      "id": "nwrarrhmmwmm4am2",
+      "seq": 141426,
+      "desc": "The Red Sox designated Wong for assignment Wednesday, Chris Cotillo of MassLive.com reports.",
+      "player": {
+        "name": "Connor Wong",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efi_96_8.png",
+        "scorerId": "04efi",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "y5ego0dnmwmdhi3n",
+      "seq": 141425,
+      "desc": "The Mariners acquired McArthur, Maikel Garcia and L.P. Langevin from the Royals on Wednesday in exchange for Bryce Miller, Logan Evans (elbow) and Jose Ferrer, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "James McArthur",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pw3_96_3.png",
+        "scorerId": "04pw3",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "yrtbjrdqmwmdhi0y",
+      "seq": 141424,
+      "desc": "The Royals acquired Ferrer, Bryce Miller and Logan Evans (elbow) from the Mariners on Wednesday in exchange for Maikel Garcia, James McArthur and L.P. Langevin, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Jose Ferrer",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs062ob_96_3.png",
+        "scorerId": "062ob",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1795021200000,
       "teamId": "10010",
@@ -166,13 +479,13 @@
       "desc": "The Padres selected Koenig's contract from Triple-A El Paso on Tuesday.",
       "player": {
         "name": "Ian Koenig",
-        "posShortNames": "SP",
+        "posShortNames": "RP",
         "teamShortName": "SD",
         "teamName": "San Diego Padres",
         "headshotUrl": "",
         "scorerId": "066aa",
         "posIds": [
-          "015"
+          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -316,7 +629,7 @@
       "teamId": "10121",
       "id": "u1wfa6yamwlg38k3",
       "seq": 141412,
-      "desc": "The Athletics designated Tur for assignment on Tuesday.",
+      "desc": "The Athletics designated Tur for assignment Tuesday.",
       "player": {
         "name": "Yunior Tur",
         "posShortNames": "RP",
@@ -399,372 +712,6 @@
         "scorerId": "06gvf",
         "posIds": [
           "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "5bnm6394mwlg38bx",
-      "seq": 141408,
-      "desc": "The Dodgers selected Ferris' contract from Triple-A Oklahoma City on Tuesday.",
-      "player": {
-        "name": "Jackson Ferris",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "05u6g",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "648dsv9hmwlg389t",
-      "seq": 141407,
-      "desc": "The Dodgers selected Zazueta's contract from Double-A Tulsa on Tuesday.",
-      "player": {
-        "name": "Christian Zazueta",
-        "posShortNames": "RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "06207",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10270",
-      "id": "zb81s7jcmwlg387m",
-      "seq": 141406,
-      "desc": "The Rockies selected Mahoney's contract from Triple-A Albuquerque on Tuesday.",
-      "player": {
-        "name": "Jack Mahoney",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "06dq6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10270",
-      "id": "q0yuis5jmwlg385k",
-      "seq": 141405,
-      "desc": "The Rockies selected Cox's contract from Double-A Hartford on Tuesday.",
-      "player": {
-        "name": "Jackson Cox",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "06146",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "09s2hcjymwlg383n",
-      "seq": 141404,
-      "desc": "The Athletics acquired Rivera from the Orioles in exchange for Josiah Romeo on Tuesday.",
-      "player": {
-        "name": "Yaqui Rivera",
-        "posShortNames": "RP,SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "",
-        "scorerId": "061oc",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10270",
-      "id": "o14chj57mwlg3819",
-      "seq": 141403,
-      "desc": "The Rockies selected Betancourt's contract from Triple-A Albuquerque on Tuesday.",
-      "player": {
-        "name": "Bryant Betancourt",
-        "posShortNames": "C",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "0626r",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10121",
-      "id": "npau5ftkmwlg37wg",
-      "seq": 141402,
-      "desc": "The Orioles acquired Romeo from the Athletics in exchange for Yaqui Rivera on Tuesday.",
-      "player": {
-        "name": "Josiah Romeo",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "06pgj",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "m61necuvmwlg37ua",
-      "seq": 141401,
-      "desc": "The Orioles selected Reilly's contract from Triple-A Norfolk on Tuesday.",
-      "player": {
-        "name": "Patrick Reilly",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "05jpm",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10250",
-      "id": "daigdr71mwlg37s7",
-      "seq": 141400,
-      "desc": "The Cardinals selected Odle's contract from High-A Peoria on Tuesday.",
-      "player": {
-        "name": "Jacob Odle",
-        "posShortNames": "RP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "06hwr",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "f438shvdmwlg37qj",
-      "seq": 141399,
-      "desc": "The Orioles selected German's contract from Triple-A Norfolk on Tuesday.",
-      "player": {
-        "name": "Nestor German",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "06gjv",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10250",
-      "id": "6pkpcy2dmwlg37p0",
-      "seq": 141398,
-      "desc": "The Cardinals selected Baez's contract from Double-A Ozarks on Tuesday.",
-      "player": {
-        "name": "Jesus Baez",
-        "posShortNames": "SS",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "061rf",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "zz4g293pmwlg37nl",
-      "seq": 141397,
-      "desc": "The Orioles selected Forret's contract from Triple-A Norfolk on Tuesday.",
-      "player": {
-        "name": "Michael Forret",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "06hwt",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "gb58px1omwlg37m2",
-      "seq": 141396,
-      "desc": "The Orioles selected Estrada's contract from Triple-A Norfolk on Tuesday.",
-      "player": {
-        "name": "Aron Estrada",
-        "posShortNames": "2B",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "0630n",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "n30uknugmwlg37kc",
-      "seq": 141395,
-      "desc": "The Orioles selected Bradfield's contract from Triple-A Norfolk on Tuesday.",
-      "player": {
-        "name": "Enrique Bradfield Jr.",
-        "posShortNames": "CF,LF",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "05jre",
-        "posIds": [
-          "010",
-          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -780,6 +727,319 @@
   "mlbTransactions": [
     {
       "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "kdtgsab1mwmoghja",
+      "seq": 141429,
+      "desc": "The Seattle Mariners traded RP Jos\u00e9 A. Ferrer to the Kansas City Royals.",
+      "player": {
+        "name": "Jose Ferrer",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs062ob_96_3.png",
+        "scorerId": "062ob",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10110",
+      "id": "az55ibvrmwmoggy2",
+      "seq": 141429,
+      "desc": "The Detroit Tigers traded 3B Jace Jung to the Los Angeles Angels.",
+      "player": {
+        "name": "Jace Jung",
+        "posShortNames": "DH,1B,2B,3B",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzg_96_1.png",
+        "scorerId": "05tzg",
+        "posIds": [
+          "013",
+          "002",
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "jrgmaf74mwmoghn5",
+      "seq": 141429,
+      "desc": "The Kansas City Royals traded SP L.P. Langevin to the Seattle Mariners.",
+      "player": {
+        "name": "L.P. Langevin",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "",
+        "scorerId": "06nzz",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "cmeosku2mwmoghe1",
+      "seq": 141429,
+      "desc": "The Kansas City Royals traded 3B Maikel Garcia to the Seattle Mariners.",
+      "player": {
+        "name": "Maikel Garcia",
+        "posShortNames": "3B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05g3x_96_5.png",
+        "scorerId": "05g3x",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "fsibcuk0mwmoghar",
+      "seq": 141429,
+      "desc": "The Seattle Mariners traded SP Logan Evans to the Kansas City Royals.",
+      "player": {
+        "name": "Logan Evans",
+        "posShortNames": "SP,RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06hv8_96_1.png",
+        "scorerId": "06hv8",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Elbow - Out Indefinitely - Expected return Apr 1",
+            "typeId": "30"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "ne4c7835mwmogh0o",
+      "seq": 141429,
+      "desc": "The Kansas City Royals traded RP James McArthur to the Seattle Mariners.",
+      "player": {
+        "name": "James McArthur",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pw3_96_3.png",
+        "scorerId": "04pw3",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "ggvqo01vmwmoght6",
+      "seq": 141429,
+      "desc": "The Seattle Mariners traded SP Bryce Miller to the Kansas City Royals.",
+      "player": {
+        "name": "Bryce Miller",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05vy6_96_3.png",
+        "scorerId": "05vy6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10020",
+      "id": "tokfsvg4mwmoggva",
+      "seq": 141429,
+      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
+      "player": {
+        "name": "Nick Fortes",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
+        "scorerId": "04pqf",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10040",
+      "id": "8g1o7a5ymwmogh5k",
+      "seq": 141429,
+      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
+      "player": {
+        "name": "Angel Roa",
+        "posShortNames": "SP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "",
+        "scorerId": "078nb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "9cgut9o4mwmm4as1",
+      "seq": 141428,
+      "desc": "The Royals designated Isbel for assignment Wednesday.",
+      "player": {
+        "name": "Kyle Isbel",
+        "posShortNames": "CF",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ppo_96_8.png",
+        "scorerId": "04ppo",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10020",
+      "id": "2klfp4m1mwmm4apt",
+      "seq": 141427,
+      "desc": "The Twins signed Gray to a two-year, $55 million contract Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Sonny Gray",
+        "posShortNames": "SP",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0260v_96_17.png",
+        "scorerId": "0260v",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10020",
+      "id": "nwrarrhmmwmm4am2",
+      "seq": 141426,
+      "desc": "The Red Sox designated Wong for assignment Wednesday, Chris Cotillo of MassLive.com reports.",
+      "player": {
+        "name": "Connor Wong",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efi_96_8.png",
+        "scorerId": "04efi",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "y5ego0dnmwmdhi3n",
+      "seq": 141425,
+      "desc": "The Mariners acquired McArthur, Maikel Garcia and L.P. Langevin from the Royals on Wednesday in exchange for Bryce Miller, Logan Evans (elbow) and Jose Ferrer, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "James McArthur",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pw3_96_3.png",
+        "scorerId": "04pw3",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "yrtbjrdqmwmdhi0y",
+      "seq": 141424,
+      "desc": "The Royals acquired Ferrer, Bryce Miller and Logan Evans (elbow) from the Mariners on Wednesday in exchange for Maikel Garcia, James McArthur and L.P. Langevin, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Jose Ferrer",
+        "posShortNames": "RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs062ob_96_3.png",
+        "scorerId": "062ob",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
       "teamId": "10010",
       "id": "kgxk1ny0mwlhtr23",
       "seq": 141417,
@@ -938,13 +1198,13 @@
       "desc": "The Padres selected Koenig's contract from Triple-A El Paso on Tuesday.",
       "player": {
         "name": "Ian Koenig",
-        "posShortNames": "SP",
+        "posShortNames": "RP",
         "teamShortName": "SD",
         "teamName": "San Diego Padres",
         "headshotUrl": "",
         "scorerId": "066aa",
         "posIds": [
-          "015"
+          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -1088,7 +1348,7 @@
       "teamId": "10121",
       "id": "u1wfa6yamwlg38k3",
       "seq": 141412,
-      "desc": "The Athletics designated Tur for assignment on Tuesday.",
+      "desc": "The Athletics designated Tur for assignment Tuesday.",
       "player": {
         "name": "Yunior Tur",
         "posShortNames": "RP",
@@ -1171,372 +1431,6 @@
         "scorerId": "06gvf",
         "posIds": [
           "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "5bnm6394mwlg38bx",
-      "seq": 141408,
-      "desc": "The Dodgers selected Ferris' contract from Triple-A Oklahoma City on Tuesday.",
-      "player": {
-        "name": "Jackson Ferris",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "05u6g",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "648dsv9hmwlg389t",
-      "seq": 141407,
-      "desc": "The Dodgers selected Zazueta's contract from Double-A Tulsa on Tuesday.",
-      "player": {
-        "name": "Christian Zazueta",
-        "posShortNames": "RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "06207",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10270",
-      "id": "zb81s7jcmwlg387m",
-      "seq": 141406,
-      "desc": "The Rockies selected Mahoney's contract from Triple-A Albuquerque on Tuesday.",
-      "player": {
-        "name": "Jack Mahoney",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "06dq6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10270",
-      "id": "q0yuis5jmwlg385k",
-      "seq": 141405,
-      "desc": "The Rockies selected Cox's contract from Double-A Hartford on Tuesday.",
-      "player": {
-        "name": "Jackson Cox",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "06146",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "09s2hcjymwlg383n",
-      "seq": 141404,
-      "desc": "The Athletics acquired Rivera from the Orioles in exchange for Josiah Romeo on Tuesday.",
-      "player": {
-        "name": "Yaqui Rivera",
-        "posShortNames": "RP,SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "",
-        "scorerId": "061oc",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10270",
-      "id": "o14chj57mwlg3819",
-      "seq": 141403,
-      "desc": "The Rockies selected Betancourt's contract from Triple-A Albuquerque on Tuesday.",
-      "player": {
-        "name": "Bryant Betancourt",
-        "posShortNames": "C",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "",
-        "scorerId": "0626r",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10121",
-      "id": "npau5ftkmwlg37wg",
-      "seq": 141402,
-      "desc": "The Orioles acquired Romeo from the Athletics in exchange for Yaqui Rivera on Tuesday.",
-      "player": {
-        "name": "Josiah Romeo",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "06pgj",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "m61necuvmwlg37ua",
-      "seq": 141401,
-      "desc": "The Orioles selected Reilly's contract from Triple-A Norfolk on Tuesday.",
-      "player": {
-        "name": "Patrick Reilly",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "05jpm",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10250",
-      "id": "daigdr71mwlg37s7",
-      "seq": 141400,
-      "desc": "The Cardinals selected Odle's contract from High-A Peoria on Tuesday.",
-      "player": {
-        "name": "Jacob Odle",
-        "posShortNames": "RP",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "06hwr",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "f438shvdmwlg37qj",
-      "seq": 141399,
-      "desc": "The Orioles selected German's contract from Triple-A Norfolk on Tuesday.",
-      "player": {
-        "name": "Nestor German",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "06gjv",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10250",
-      "id": "6pkpcy2dmwlg37p0",
-      "seq": 141398,
-      "desc": "The Cardinals selected Baez's contract from Double-A Ozarks on Tuesday.",
-      "player": {
-        "name": "Jesus Baez",
-        "posShortNames": "SS",
-        "teamShortName": "STL",
-        "teamName": "St. Louis Cardinals",
-        "headshotUrl": "",
-        "scorerId": "061rf",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "zz4g293pmwlg37nl",
-      "seq": 141397,
-      "desc": "The Orioles selected Forret's contract from Triple-A Norfolk on Tuesday.",
-      "player": {
-        "name": "Michael Forret",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "06hwt",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "gb58px1omwlg37m2",
-      "seq": 141396,
-      "desc": "The Orioles selected Estrada's contract from Triple-A Norfolk on Tuesday.",
-      "player": {
-        "name": "Aron Estrada",
-        "posShortNames": "2B",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "0630n",
-        "posIds": [
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10010",
-      "id": "n30uknugmwlg37kc",
-      "seq": 141395,
-      "desc": "The Orioles selected Bradfield's contract from Triple-A Norfolk on Tuesday.",
-      "player": {
-        "name": "Enrique Bradfield Jr.",
-        "posShortNames": "CF,LF",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "05jre",
-        "posIds": [
-          "010",
-          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
