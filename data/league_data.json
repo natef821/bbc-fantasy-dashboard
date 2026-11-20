@@ -1,11 +1,221 @@
 {
-  "lastUpdated": "2026-11-19T15:03:50.331586Z",
+  "lastUpdated": "2026-11-20T00:10:33.892417Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10040",
+      "id": "3gf23rkemwo50fpx",
+      "seq": 141435,
+      "desc": "The Rays released Scholtens on Thursday so that he can pursue an opportunity in the Korea Baseball Organization.",
+      "player": {
+        "name": "Jesse Scholtens",
+        "posShortNames": "SP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041uv_96_4.png",
+        "scorerId": "041uv",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10200",
+      "id": "kolsxc1ymwo50fmg",
+      "seq": 141434,
+      "desc": "The Cubs claimed McDermott off waivers from the Mets on Thursday, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Chayce McDermott",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uws_96_2.png",
+        "scorerId": "05uws",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10050",
+      "id": "t5q5r6samwo1krh5",
+      "seq": 141433,
+      "desc": "The Blue Jays designated Lee for assignment Thursday.",
+      "player": {
+        "name": "Chase Lee",
+        "posShortNames": "RP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xpv_96_1.png",
+        "scorerId": "05xpv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10280",
+      "id": "xiprdpblmwo1krfn",
+      "seq": 141432,
+      "desc": "The Blue Jays claimed Cairo off waivers from the Dodgers on Thursday.",
+      "player": {
+        "name": "Christian Cairo",
+        "posShortNames": "SS,3B",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "0513m",
+        "posIds": [
+          "005",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10090",
+      "id": "0u5ccjokmwo1krd7",
+      "seq": 141431,
+      "desc": "The Royals and Dobnak avoided arbitration by agreeing to a one-year, $1.35 million contract Thursday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Randy Dobnak",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0506h_96_7.png",
+        "scorerId": "0506h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10121",
+      "id": "nf43f0aymwnx9388",
+      "seq": 141430,
+      "desc": "The Orioles claimed Nett off waivers from the Athletics on Thursday, Andy Kostka of TheBanner.com reports.",
+      "player": {
+        "name": "Braden Nett",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066a6_96_1.png",
+        "scorerId": "066a6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10040",
+      "id": "8g1o7a5ymwmogh5k",
+      "seq": 141429,
+      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
+      "player": {
+        "name": "Angel Roa",
+        "posShortNames": "SP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "",
+        "scorerId": "078nb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10020",
+      "id": "tokfsvg4mwmoggva",
+      "seq": 141429,
+      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
+      "player": {
+        "name": "Nick Fortes",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
+        "scorerId": "04pqf",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "jrgmaf74mwmoghn5",
+      "seq": 141429,
+      "desc": "The Kansas City Royals traded SP L.P. Langevin to the Seattle Mariners.",
+      "player": {
+        "name": "L.P. Langevin",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "",
+        "scorerId": "06nzz",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
     {
       "displayDate": 1795021200000,
       "teamId": "10090",
@@ -44,53 +254,6 @@
           "013",
           "002",
           "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "jrgmaf74mwmoghn5",
-      "seq": 141429,
-      "desc": "The Kansas City Royals traded SP L.P. Langevin to the Seattle Mariners.",
-      "player": {
-        "name": "L.P. Langevin",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "",
-        "scorerId": "06nzz",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "cmeosku2mwmoghe1",
-      "seq": 141429,
-      "desc": "The Kansas City Royals traded 3B Maikel Garcia to the Seattle Mariners.",
-      "player": {
-        "name": "Maikel Garcia",
-        "posShortNames": "3B",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05g3x_96_5.png",
-        "scorerId": "05g3x",
-        "posIds": [
           "004"
         ],
         "rookie": false,
@@ -148,6 +311,27 @@
     },
     {
       "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "cmeosku2mwmoghe1",
+      "seq": 141429,
+      "desc": "The Kansas City Royals traded 3B Maikel Garcia to the Seattle Mariners.",
+      "player": {
+        "name": "Maikel Garcia",
+        "posShortNames": "3B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05g3x_96_5.png",
+        "scorerId": "05g3x",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
       "teamId": "10090",
       "id": "ggvqo01vmwmoght6",
       "seq": 141429,
@@ -165,53 +349,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10020",
-      "id": "tokfsvg4mwmoggva",
-      "seq": 141429,
-      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
-      "player": {
-        "name": "Nick Fortes",
-        "posShortNames": "C",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
-        "scorerId": "04pqf",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10040",
-      "id": "8g1o7a5ymwmogh5k",
-      "seq": 141429,
-      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
-      "player": {
-        "name": "Angel Roa",
-        "posShortNames": "SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "078nb",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     },
     {
@@ -565,153 +702,6 @@
         "posIds": [
           "015",
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "rydxwrp3mwlg38oe",
-      "seq": 141414,
-      "desc": "The Dodgers designated Cairo for assignment Tuesday.",
-      "player": {
-        "name": "Christian Cairo",
-        "posShortNames": "SS,3B",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "0513m",
-        "posIds": [
-          "005",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "a7cth1h6mwlg38m4",
-      "seq": 141413,
-      "desc": "The Dodgers designated Cousins for assignment Tuesday.",
-      "player": {
-        "name": "Jake Cousins",
-        "posShortNames": "RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eru_96_5.png",
-        "scorerId": "04eru",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10121",
-      "id": "u1wfa6yamwlg38k3",
-      "seq": 141412,
-      "desc": "The Athletics designated Tur for assignment Tuesday.",
-      "player": {
-        "name": "Yunior Tur",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06jbm_96_1.png",
-        "scorerId": "06jbm",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10121",
-      "id": "23lmwht2mwlg38i8",
-      "seq": 141411,
-      "desc": "The Athletics designated Juenger for assignment on Tuesday.",
-      "player": {
-        "name": "Hayden Juenger",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "",
-        "scorerId": "05xsv",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "oazamm0amwlg38g4",
-      "seq": 141410,
-      "desc": "The Dodgers selected Serwinowski's contract from Double-A Tulsa on Tuesday.",
-      "player": {
-        "name": "Adam Serwinowski",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "066az",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10121",
-      "id": "ab4rv3p1mwlg38e4",
-      "seq": 141409,
-      "desc": "The Athletics selected Conn's contract from Triple-A Las Vegas on Tuesday.",
-      "player": {
-        "name": "Cole Conn",
-        "posShortNames": "C",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "",
-        "scorerId": "06gvf",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -726,6 +716,216 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1795107600000,
+      "teamId": "10040",
+      "id": "3gf23rkemwo50fpx",
+      "seq": 141435,
+      "desc": "The Rays released Scholtens on Thursday so that he can pursue an opportunity in the Korea Baseball Organization.",
+      "player": {
+        "name": "Jesse Scholtens",
+        "posShortNames": "SP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041uv_96_4.png",
+        "scorerId": "041uv",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10200",
+      "id": "kolsxc1ymwo50fmg",
+      "seq": 141434,
+      "desc": "The Cubs claimed McDermott off waivers from the Mets on Thursday, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Chayce McDermott",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uws_96_2.png",
+        "scorerId": "05uws",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10050",
+      "id": "t5q5r6samwo1krh5",
+      "seq": 141433,
+      "desc": "The Blue Jays designated Lee for assignment Thursday.",
+      "player": {
+        "name": "Chase Lee",
+        "posShortNames": "RP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xpv_96_1.png",
+        "scorerId": "05xpv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10280",
+      "id": "xiprdpblmwo1krfn",
+      "seq": 141432,
+      "desc": "The Blue Jays claimed Cairo off waivers from the Dodgers on Thursday.",
+      "player": {
+        "name": "Christian Cairo",
+        "posShortNames": "SS,3B",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "0513m",
+        "posIds": [
+          "005",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10090",
+      "id": "0u5ccjokmwo1krd7",
+      "seq": 141431,
+      "desc": "The Royals and Dobnak avoided arbitration by agreeing to a one-year, $1.35 million contract Thursday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Randy Dobnak",
+        "posShortNames": "SP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0506h_96_7.png",
+        "scorerId": "0506h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10121",
+      "id": "nf43f0aymwnx9388",
+      "seq": 141430,
+      "desc": "The Orioles claimed Nett off waivers from the Athletics on Thursday, Andy Kostka of TheBanner.com reports.",
+      "player": {
+        "name": "Braden Nett",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066a6_96_1.png",
+        "scorerId": "066a6",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10040",
+      "id": "8g1o7a5ymwmogh5k",
+      "seq": 141429,
+      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
+      "player": {
+        "name": "Angel Roa",
+        "posShortNames": "SP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "",
+        "scorerId": "078nb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10020",
+      "id": "tokfsvg4mwmoggva",
+      "seq": 141429,
+      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
+      "player": {
+        "name": "Nick Fortes",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
+        "scorerId": "04pqf",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "jrgmaf74mwmoghn5",
+      "seq": 141429,
+      "desc": "The Kansas City Royals traded SP L.P. Langevin to the Seattle Mariners.",
+      "player": {
+        "name": "L.P. Langevin",
+        "posShortNames": "RP",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "",
+        "scorerId": "06nzz",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1795021200000,
       "teamId": "10090",
       "id": "kdtgsab1mwmoghja",
@@ -763,53 +963,6 @@
           "013",
           "002",
           "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "jrgmaf74mwmoghn5",
-      "seq": 141429,
-      "desc": "The Kansas City Royals traded SP L.P. Langevin to the Seattle Mariners.",
-      "player": {
-        "name": "L.P. Langevin",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "",
-        "scorerId": "06nzz",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "cmeosku2mwmoghe1",
-      "seq": 141429,
-      "desc": "The Kansas City Royals traded 3B Maikel Garcia to the Seattle Mariners.",
-      "player": {
-        "name": "Maikel Garcia",
-        "posShortNames": "3B",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05g3x_96_5.png",
-        "scorerId": "05g3x",
-        "posIds": [
           "004"
         ],
         "rookie": false,
@@ -867,6 +1020,27 @@
     },
     {
       "displayDate": 1795021200000,
+      "teamId": "10130",
+      "id": "cmeosku2mwmoghe1",
+      "seq": 141429,
+      "desc": "The Kansas City Royals traded 3B Maikel Garcia to the Seattle Mariners.",
+      "player": {
+        "name": "Maikel Garcia",
+        "posShortNames": "3B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05g3x_96_5.png",
+        "scorerId": "05g3x",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
       "teamId": "10090",
       "id": "ggvqo01vmwmoght6",
       "seq": 141429,
@@ -884,53 +1058,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10020",
-      "id": "tokfsvg4mwmoggva",
-      "seq": 141429,
-      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
-      "player": {
-        "name": "Nick Fortes",
-        "posShortNames": "C",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
-        "scorerId": "04pqf",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10040",
-      "id": "8g1o7a5ymwmogh5k",
-      "seq": 141429,
-      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
-      "player": {
-        "name": "Angel Roa",
-        "posShortNames": "SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "078nb",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     },
     {
@@ -1284,153 +1411,6 @@
         "posIds": [
           "015",
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "rydxwrp3mwlg38oe",
-      "seq": 141414,
-      "desc": "The Dodgers designated Cairo for assignment Tuesday.",
-      "player": {
-        "name": "Christian Cairo",
-        "posShortNames": "SS,3B",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "0513m",
-        "posIds": [
-          "005",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "a7cth1h6mwlg38m4",
-      "seq": 141413,
-      "desc": "The Dodgers designated Cousins for assignment Tuesday.",
-      "player": {
-        "name": "Jake Cousins",
-        "posShortNames": "RP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eru_96_5.png",
-        "scorerId": "04eru",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10121",
-      "id": "u1wfa6yamwlg38k3",
-      "seq": 141412,
-      "desc": "The Athletics designated Tur for assignment Tuesday.",
-      "player": {
-        "name": "Yunior Tur",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06jbm_96_1.png",
-        "scorerId": "06jbm",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10121",
-      "id": "23lmwht2mwlg38i8",
-      "seq": 141411,
-      "desc": "The Athletics designated Juenger for assignment on Tuesday.",
-      "player": {
-        "name": "Hayden Juenger",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "",
-        "scorerId": "05xsv",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "oazamm0amwlg38g4",
-      "seq": 141410,
-      "desc": "The Dodgers selected Serwinowski's contract from Double-A Tulsa on Tuesday.",
-      "player": {
-        "name": "Adam Serwinowski",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "066az",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10121",
-      "id": "ab4rv3p1mwlg38e4",
-      "seq": 141409,
-      "desc": "The Athletics selected Conn's contract from Triple-A Las Vegas on Tuesday.",
-      "player": {
-        "name": "Cole Conn",
-        "posShortNames": "C",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "",
-        "scorerId": "06gvf",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
