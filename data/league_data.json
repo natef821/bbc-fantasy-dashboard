@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T14:45:29.359517Z",
+  "lastUpdated": "2026-11-20T23:34:35.813981Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -8,45 +8,19 @@
   "transactions": [
     {
       "displayDate": 1795194000000,
-      "teamId": "10060",
-      "id": "zlw3mqn6mwoi866y",
-      "seq": 141440,
-      "desc": "The Colorado Rockies traded SP Sean Sullivan to the Chicago White Sox.",
+      "teamId": "10180",
+      "id": "osdcjtremwplcb22",
+      "seq": 141475,
+      "desc": "The Phillies non-tendered De La Cruz on Friday, Mark Feinsand of MLB.com reports.",
       "player": {
-        "name": "Sean Sullivan",
-        "posShortNames": "SP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ahu_96_2.png",
-        "scorerId": "06ahu",
+        "name": "Bryan De La Cruz",
+        "posShortNames": "RF",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03bud_96_7.png",
+        "scorerId": "03bud",
         "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 15-day IL - Shoulder - Expected return Sep 22",
-            "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10270",
-      "id": "o9silgjqmwoi86hj",
-      "seq": 141440,
-      "desc": "The Chicago White Sox traded SP Davis Martin to the Colorado Rockies.",
-      "player": {
-        "name": "Davis Martin",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxf_96_2.png",
-        "scorerId": "04pxf",
-        "posIds": [
-          "015"
+          "011"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -55,17 +29,38 @@
     },
     {
       "displayDate": 1795194000000,
-      "teamId": "10270",
-      "id": "q8bvjswtmwoi8604",
-      "seq": 141440,
-      "desc": "The Chicago White Sox traded SP Luis Castillo to the Colorado Rockies.",
+      "teamId": "10180",
+      "id": "q6dyryx9mwplcb0v",
+      "seq": 141474,
+      "desc": "The Phillies non-tendered Harris on Friday, Mark Feinsand of MLB.com reports.",
       "player": {
-        "name": "Luis Castillo",
+        "name": "Brett Harris",
+        "posShortNames": "3B",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yca_96_1.png",
+        "scorerId": "05yca",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10100",
+      "id": "og9rmx8cmwplcazw",
+      "seq": 141473,
+      "desc": "The Twins acquired Miller and minor-league catcher Francisco Espinoza from the Dodgers on Friday in exchange for third baseman Royce Lewis, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "Bobby Miller",
         "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nuc_96_13.png",
-        "scorerId": "03nuc",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwz_96_5.png",
+        "scorerId": "05gwz",
         "posIds": [
           "015"
         ],
@@ -75,18 +70,70 @@
       }
     },
     {
-      "displayDate": 1795107600000,
-      "teamId": "10270",
-      "id": "6swx60xsmwodnpic",
-      "seq": 141438,
-      "desc": "The White Sox acquired Sullivan and Douglas Veliz from the Rockies in exchange for Davis Martin and Luis Castillo on Thursday, Jeff Passan of ESPN.com reports.",
+      "displayDate": 1795194000000,
+      "teamId": "10100",
+      "id": "ewf46d7cmwplcaz1",
+      "seq": 141472,
+      "desc": "The Twins non-tendered Wallner on Friday, Aaron Gleeman of AaronGleeman.com reports.",
       "player": {
-        "name": "Sean Sullivan",
+        "name": "Matt Wallner",
+        "posShortNames": "RF",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04o78_96_4.png",
+        "scorerId": "04o78",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10170",
+      "id": "ivb3gi5lmwplcay5",
+      "seq": 141471,
+      "desc": "Mark Feinsand of MLB.comThe Mets non-tendered Senger on Friday, Mark reports.",
+      "player": {
+        "name": "Hayden Senger",
+        "posShortNames": "C",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q63_96_1.png",
+        "scorerId": "04q63",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10170",
+      "id": "xsg1bqpfmwplcax7",
+      "seq": 141470,
+      "desc": "The Mets non-tendered Ross on Friday, Mark Feinsand of MLB.com reports.",
+      "player": {
+        "name": "Dylan Ross",
         "posShortNames": "SP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ahu_96_2.png",
-        "scorerId": "06ahu",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06580_96_1.png",
+        "scorerId": "06580",
         "posIds": [
           "015"
         ],
@@ -94,27 +141,301 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Injured List - 15-day IL - Shoulder - Expected return Sep 22",
-            "typeId": "2"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
       }
     },
     {
-      "displayDate": 1795107600000,
-      "teamId": "10270",
-      "id": "u32z35ybmwodnpgt",
-      "seq": 141437,
-      "desc": "The Rockies acquired Castillo and Davis Martin from the White Sox in exchange for Sean Sullivan and Douglas Veliz on Thursday, Jeff Passan of ESPN.com reports.",
+      "displayDate": 1795194000000,
+      "teamId": "10105",
+      "id": "77m9ox3ymwplcawb",
+      "seq": 141469,
+      "desc": "Allen agreed to a one-year, $1.95 million contract with the Astros to avoid arbitration Friday, Chandler Rome of The Athletic reports.",
       "player": {
-        "name": "Luis Castillo",
+        "name": "Nick Allen",
+        "posShortNames": "SS",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efs_96_5.png",
+        "scorerId": "04efs",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10170",
+      "id": "hdlrwjiumwplcave",
+      "seq": 141468,
+      "desc": "The Yankees non-tendered Morel on Friday, Mark Feinsand of MLB.com reports.",
+      "player": {
+        "name": "Christopher Morel",
+        "posShortNames": "1B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pbp_96_8.png",
+        "scorerId": "04pbp",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10070",
+      "id": "jcli3613mwplcauj",
+      "seq": 141467,
+      "desc": "Perkins signed a one-year, $950,000 contract with the Guardians on Friday to avoid arbitration, Zack Meisel of The Athletic reports.",
+      "player": {
+        "name": "Blake Perkins",
+        "posShortNames": "CF,LF",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pp5_96_4.png",
+        "scorerId": "03pp5",
+        "posIds": [
+          "010",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10030",
+      "id": "09bwm752mwplcate",
+      "seq": 141466,
+      "desc": "The Yankees non-tendered Gil on Friday, Gary Phillips of the New York Daily News reports.",
+      "player": {
+        "name": "Luis Gil",
         "posShortNames": "SP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04s1h_96_9.png",
+        "scorerId": "04s1h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10070",
+      "id": "vh7u3dt4mwplcasi",
+      "seq": 141465,
+      "desc": "Festa signed a one-year, $1.5 million contract with the Guardians on Friday, Zack Meisel of The Athletic reports.",
+      "player": {
+        "name": "Matt Festa",
+        "posShortNames": "RP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041tl_96_6.png",
+        "scorerId": "041tl",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10150",
+      "id": "gfcsbcqdmwplcarm",
+      "seq": 141464,
+      "desc": "The Braved non-tendered Grove on Friday.",
+      "player": {
+        "name": "Michael Grove",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmk_96_5.png",
+        "scorerId": "04pmk",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10070",
+      "id": "ogmqsgw2mwplcaqn",
+      "seq": 141463,
+      "desc": "The Guardians non-tendered Fry on Friday, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "David Fry",
+        "posShortNames": "RF",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04psr_96_3.png",
+        "scorerId": "04psr",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10105",
+      "id": "jidsj84hmwplcapn",
+      "seq": 141462,
+      "desc": "Sousa agreed to a one-year, $1.26 million contract with the Astros on Friday, Chandler Rome of The Athletic reports.",
+      "player": {
+        "name": "Bennett Sousa",
+        "posShortNames": "RP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04puc_96_3.png",
+        "scorerId": "04puc",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10130",
+      "id": "tfeicn17mwplcaoh",
+      "seq": 141461,
+      "desc": "The Mariners non-tendered Raley on Friday, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "Luke Raley",
+        "posShortNames": "RF,1B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041ts_96_10.png",
+        "scorerId": "041ts",
+        "posIds": [
+          "011",
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10150",
+      "id": "cj3r7s1nmwplcan5",
+      "seq": 141460,
+      "desc": "Atlanta non-tendered Karinchak on Friday.",
+      "player": {
+        "name": "James Karinchak",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejp_96_8.png",
+        "scorerId": "04ejp",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10105",
+      "id": "j1izv5vlmwplcalk",
+      "seq": 141459,
+      "desc": "The Astros non-tendered Trammell on Friday.",
+      "player": {
+        "name": "Taylor Trammell",
+        "posShortNames": "LF",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041pq_96_9.png",
+        "scorerId": "041pq",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10080",
+      "id": "m2re1oo3mwplcaj2",
+      "seq": 141458,
+      "desc": "The Tigers signed Melton to a six-year, $46.5 million contract extension Friday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Troy Melton",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uc4_96_2.png",
+        "scorerId": "05uc4",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10270",
+      "id": "cm20elmsmwph0o2j",
+      "seq": 141457,
+      "desc": "The Rockies designated Herget for assignment Friday, Thomas Harding of MLB.com reports.",
+      "player": {
+        "name": "Jimmy Herget",
+        "posShortNames": "RP",
         "teamShortName": "COL",
         "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nuc_96_13.png",
-        "scorerId": "03nuc",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qln_96_13.png",
+        "scorerId": "03qln",
         "posIds": [
-          "015"
+          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -122,79 +443,16 @@
       }
     },
     {
-      "displayDate": 1795107600000,
-      "teamId": "10270",
-      "id": "6ub1l67nmwodnpe7",
-      "seq": 141436,
-      "desc": "The Rockies acquired Martin and Luis Castillo from the White Sox in exchange for Sean Sullivan and Douglas Veliz on Thursday, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "Davis Martin",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxf_96_2.png",
-        "scorerId": "04pxf",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795107600000,
-      "teamId": "10040",
-      "id": "3gf23rkemwo50fpx",
-      "seq": 141435,
-      "desc": "The Rays released Scholtens on Thursday so that he can pursue an opportunity in the Korea Baseball Organization.",
-      "player": {
-        "name": "Jesse Scholtens",
-        "posShortNames": "SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041uv_96_4.png",
-        "scorerId": "041uv",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795107600000,
-      "teamId": "10200",
-      "id": "kolsxc1ymwo50fmg",
-      "seq": 141434,
-      "desc": "The Cubs claimed McDermott off waivers from the Mets on Thursday, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Chayce McDermott",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uws_96_2.png",
-        "scorerId": "05uws",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795107600000,
+      "displayDate": 1795194000000,
       "teamId": "10050",
-      "id": "t5q5r6samwo1krh5",
-      "seq": 141433,
-      "desc": "The Blue Jays designated Lee for assignment Thursday.",
+      "id": "83n6dfmlmwph0o1l",
+      "seq": 141456,
+      "desc": "The Rockies acquired Lee from the Blue Jays on Friday in exchange for cash consideration, Thomas Harding of MLB.com reports.",
       "player": {
         "name": "Chase Lee",
         "posShortNames": "RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xpv_96_1.png",
         "scorerId": "05xpv",
         "posIds": [
@@ -206,47 +464,20 @@
       }
     },
     {
-      "displayDate": 1795107600000,
-      "teamId": "10280",
-      "id": "xiprdpblmwo1krfn",
-      "seq": 141432,
-      "desc": "The Blue Jays claimed Cairo off waivers from the Dodgers on Thursday.",
+      "displayDate": 1795194000000,
+      "teamId": "10290",
+      "id": "nwon6r70mwph0o0n",
+      "seq": 141455,
+      "desc": "The Padres and Sheets avoided arbitration by agreeing to a three-year, $11 million contract Friday, Robert Murray of FanSided.com reports.",
       "player": {
-        "name": "Christian Cairo",
-        "posShortNames": "SS,3B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "0513m",
+        "name": "Gavin Sheets",
+        "posShortNames": "1B",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eej_96_9.png",
+        "scorerId": "04eej",
         "posIds": [
-          "005",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795107600000,
-      "teamId": "10090",
-      "id": "0u5ccjokmwo1krd7",
-      "seq": 141431,
-      "desc": "The Royals and Dobnak avoided arbitration by agreeing to a one-year, $1.35 million contract Thursday, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "Randy Dobnak",
-        "posShortNames": "SP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0506h_96_7.png",
-        "scorerId": "0506h",
-        "posIds": [
-          "015"
+          "002"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -254,20 +485,63 @@
       }
     },
     {
-      "displayDate": 1795107600000,
-      "teamId": "10121",
-      "id": "nf43f0aymwnx9388",
-      "seq": 141430,
-      "desc": "The Orioles claimed Nett off waivers from the Athletics on Thursday, Andy Kostka of TheBanner.com reports.",
+      "displayDate": 1795194000000,
+      "teamId": "10180",
+      "id": "pyy2avgmmwph0nzk",
+      "seq": 141454,
+      "desc": "The Phillies and Banks avoided arbitration by agreeing to a one-year, $1.3 million contract Friday, Jon Morosi of MLB Network reports.",
       "player": {
-        "name": "Braden Nett",
-        "posShortNames": "SP",
+        "name": "Tanner Banks",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dqv_96_4.png",
+        "scorerId": "03dqv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10250",
+      "id": "6ehhemwfmwph0nyf",
+      "seq": 141453,
+      "desc": "The Cardinals non-tendered Gorman on Friday, Joel Sherman of the New York Post reports.",
+      "player": {
+        "name": "Nolan Gorman",
+        "posShortNames": "3B,2B",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ai4_96_8.png",
+        "scorerId": "04ai4",
+        "posIds": [
+          "004",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10010",
+      "id": "u9l0rwg1mwph0nwv",
+      "seq": 141452,
+      "desc": "Vazquez agreed to a minor-league contract with the Orioles on Friday, Jorge Castillo of ESPN.com reports.",
+      "player": {
+        "name": "Luis Vazquez",
+        "posShortNames": "SS",
         "teamShortName": "BAL",
         "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066a6_96_1.png",
-        "scorerId": "066a6",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ens_96_1.png",
+        "scorerId": "04ens",
         "posIds": [
-          "015"
+          "005"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -280,44 +554,18 @@
       }
     },
     {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "jrgmaf74mwmoghn5",
-      "seq": 141429,
-      "desc": "The Kansas City Royals traded SP L.P. Langevin to the Seattle Mariners.",
+      "displayDate": 1795194000000,
+      "teamId": "10121",
+      "id": "lp5y9288mwph0nv1",
+      "seq": 141451,
+      "desc": "The Mets claimed Tur off waivers Friday, Francys Romero of BeisbolFR.com reports.",
       "player": {
-        "name": "L.P. Langevin",
+        "name": "Yunior Tur",
         "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "",
-        "scorerId": "06nzz",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "kdtgsab1mwmoghja",
-      "seq": 141429,
-      "desc": "The Seattle Mariners traded RP Jos\u00e9 A. Ferrer to the Kansas City Royals.",
-      "player": {
-        "name": "Jose Ferrer",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs062ob_96_3.png",
-        "scorerId": "062ob",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06jbm_96_1.png",
+        "scorerId": "06jbm",
         "posIds": [
           "016"
         ],
@@ -327,18 +575,18 @@
       }
     },
     {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "ne4c7835mwmogh0o",
-      "seq": 141429,
-      "desc": "The Kansas City Royals traded RP James McArthur to the Seattle Mariners.",
+      "displayDate": 1795194000000,
+      "teamId": "10010",
+      "id": "dq7xmlwymwpcp075",
+      "seq": 141450,
+      "desc": "The Orioles and Bautista avoided arbitration by agreeing to a one-year, $2.35 million contract Friday, Andy Kostka of TheBanner.com reports.",
       "player": {
-        "name": "James McArthur",
+        "name": "Felix Bautista",
         "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pw3_96_3.png",
-        "scorerId": "04pw3",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t64_96_5.png",
+        "scorerId": "05t64",
         "posIds": [
           "016"
         ],
@@ -348,65 +596,22 @@
       }
     },
     {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "cmeosku2mwmoghe1",
-      "seq": 141429,
-      "desc": "The Kansas City Royals traded 3B Maikel Garcia to the Seattle Mariners.",
+      "displayDate": 1795194000000,
+      "teamId": "10020",
+      "id": "8c9c7nr3mwpcp060",
+      "seq": 141449,
+      "desc": "Gonzalez (elbow) agreed to a one-year, $1.65 million contract with the Red Sox to avoid arbitration Friday, Chris Cotillo of MassLive.com reports.",
       "player": {
-        "name": "Maikel Garcia",
-        "posShortNames": "3B",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05g3x_96_5.png",
-        "scorerId": "05g3x",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10110",
-      "id": "az55ibvrmwmoggy2",
-      "seq": 141429,
-      "desc": "The Detroit Tigers traded 3B Jace Jung to the Los Angeles Angels.",
-      "player": {
-        "name": "Jace Jung",
-        "posShortNames": "DH,1B,2B,3B",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzg_96_1.png",
-        "scorerId": "05tzg",
+        "name": "Romy Gonzalez",
+        "posShortNames": "DH,1B,2B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q0o_96_3.png",
+        "scorerId": "04q0o",
         "posIds": [
           "013",
           "002",
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10040",
-      "id": "8g1o7a5ymwmogh5k",
-      "seq": 141429,
-      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
-      "player": {
-        "name": "Angel Roa",
-        "posShortNames": "SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "078nb",
-        "posIds": [
-          "015"
+          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -419,68 +624,22 @@
       }
     },
     {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "fsibcuk0mwmoghar",
-      "seq": 141429,
-      "desc": "The Seattle Mariners traded SP Logan Evans to the Kansas City Royals.",
-      "player": {
-        "name": "Logan Evans",
-        "posShortNames": "SP,RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06hv8_96_1.png",
-        "scorerId": "06hv8",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Elbow - Out Indefinitely - Expected return Apr 1",
-            "typeId": "30"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "ggvqo01vmwmoght6",
-      "seq": 141429,
-      "desc": "The Seattle Mariners traded SP Bryce Miller to the Kansas City Royals.",
-      "player": {
-        "name": "Bryce Miller",
-        "posShortNames": "SP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05vy6_96_3.png",
-        "scorerId": "05vy6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
+      "displayDate": 1795194000000,
       "teamId": "10020",
-      "id": "tokfsvg4mwmoggva",
-      "seq": 141429,
-      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
+      "id": "34jmje4fmwpcp04q",
+      "seq": 141448,
+      "desc": "The Red Sox and Jones avoided arbitration by agreeing to a one-year, $950,000 contract Friday, Chris Cotillo of MassLive.com reports.",
       "player": {
-        "name": "Nick Fortes",
-        "posShortNames": "C",
+        "name": "Jahmai Jones",
+        "posShortNames": "DH,LF,RF",
         "teamShortName": "BOS",
         "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
-        "scorerId": "04pqf",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pp6_96_9.png",
+        "scorerId": "03pp6",
         "posIds": [
-          "001"
+          "013",
+          "009",
+          "011"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -488,176 +647,18 @@
       }
     },
     {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "9cgut9o4mwmm4as1",
-      "seq": 141428,
-      "desc": "The Royals designated Isbel for assignment Wednesday.",
-      "player": {
-        "name": "Kyle Isbel",
-        "posShortNames": "CF",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ppo_96_8.png",
-        "scorerId": "04ppo",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
+      "displayDate": 1795194000000,
       "teamId": "10020",
-      "id": "2klfp4m1mwmm4apt",
-      "seq": 141427,
-      "desc": "The Twins signed Gray to a two-year, $55 million contract Wednesday, Jeff Passan of ESPN.com reports.",
+      "id": "fp4p7r3xmwpcp035",
+      "seq": 141447,
+      "desc": "The Red Sox and Monasterio avoided arbitration by agreeing to a one-year, $1.4 million contract Friday, Chris Cotillo of MassLive.com reports.",
       "player": {
-        "name": "Sonny Gray",
-        "posShortNames": "SP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0260v_96_17.png",
-        "scorerId": "0260v",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10020",
-      "id": "nwrarrhmmwmm4am2",
-      "seq": 141426,
-      "desc": "The Red Sox designated Wong for assignment Wednesday, Chris Cotillo of MassLive.com reports.",
-      "player": {
-        "name": "Connor Wong",
-        "posShortNames": "C",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efi_96_8.png",
-        "scorerId": "04efi",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "y5ego0dnmwmdhi3n",
-      "seq": 141425,
-      "desc": "The Mariners acquired McArthur, Maikel Garcia and L.P. Langevin from the Royals on Wednesday in exchange for Bryce Miller, Logan Evans (elbow) and Jose Ferrer, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "James McArthur",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pw3_96_3.png",
-        "scorerId": "04pw3",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "yrtbjrdqmwmdhi0y",
-      "seq": 141424,
-      "desc": "The Royals acquired Ferrer, Bryce Miller and Logan Evans (elbow) from the Mariners on Wednesday in exchange for Maikel Garcia, James McArthur and L.P. Langevin, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "Jose Ferrer",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs062ob_96_3.png",
-        "scorerId": "062ob",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10010",
-      "id": "kgxk1ny0mwlhtr23",
-      "seq": 141417,
-      "desc": "The  Athletics traded SP Josiah Romeo to the Baltimore Orioles.",
-      "player": {
-        "name": "Josiah Romeo",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "06pgj",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10121",
-      "id": "vw15nww3mwlhtra1",
-      "seq": 141417,
-      "desc": "The Baltimore Orioles traded RP Yaqui Rivera to the  Athletics.",
-      "player": {
-        "name": "Yaqui Rivera",
-        "posShortNames": "RP,SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "",
-        "scorerId": "061oc",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10300",
-      "id": "toy1kfnimwlket2j",
-      "seq": 141423,
-      "desc": "The Giants designated Koss for assignment Tuesday.",
-      "player": {
-        "name": "Christian Koss",
+        "name": "Andruw Monasterio",
         "posShortNames": "SS",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ydt_96_2.png",
-        "scorerId": "04ydt",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04vvy_96_4.png",
+        "scorerId": "04vvy",
         "posIds": [
           "005"
         ],
@@ -667,74 +668,43 @@
       }
     },
     {
-      "displayDate": 1794934800000,
-      "teamId": "10300",
-      "id": "chwbjoqsmwlket1j",
-      "seq": 141422,
-      "desc": "The Giants selected Gair's contract from Double-A Richmond on Tuesday.",
+      "displayDate": 1795194000000,
+      "teamId": "10060",
+      "id": "8w14hh6cmwpcp00y",
+      "seq": 141446,
+      "desc": "The Cubs claimed Bart off waivers from the White Sox, Mark Feinsand of MLB.com reports.",
       "player": {
-        "name": "Marty Gair",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "",
-        "scorerId": "06hw6",
+        "name": "Joey Bart",
+        "posShortNames": "C",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mn4_96_11.png",
+        "scorerId": "04mn4",
         "posIds": [
-          "016"
+          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1795194000000,
-      "teamId": "10060",
-      "id": "zlw3mqn6mwoi866y",
-      "seq": 141440,
-      "desc": "The Colorado Rockies traded SP Sean Sullivan to the Chicago White Sox.",
+      "teamId": "10180",
+      "id": "osdcjtremwplcb22",
+      "seq": 141475,
+      "desc": "The Phillies non-tendered De La Cruz on Friday, Mark Feinsand of MLB.com reports.",
       "player": {
-        "name": "Sean Sullivan",
-        "posShortNames": "SP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ahu_96_2.png",
-        "scorerId": "06ahu",
+        "name": "Bryan De La Cruz",
+        "posShortNames": "RF",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03bud_96_7.png",
+        "scorerId": "03bud",
         "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Injured List - 15-day IL - Shoulder - Expected return Sep 22",
-            "typeId": "2"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10270",
-      "id": "o9silgjqmwoi86hj",
-      "seq": 141440,
-      "desc": "The Chicago White Sox traded SP Davis Martin to the Colorado Rockies.",
-      "player": {
-        "name": "Davis Martin",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxf_96_2.png",
-        "scorerId": "04pxf",
-        "posIds": [
-          "015"
+          "011"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -743,17 +713,38 @@
     },
     {
       "displayDate": 1795194000000,
-      "teamId": "10270",
-      "id": "q8bvjswtmwoi8604",
-      "seq": 141440,
-      "desc": "The Chicago White Sox traded SP Luis Castillo to the Colorado Rockies.",
+      "teamId": "10180",
+      "id": "q6dyryx9mwplcb0v",
+      "seq": 141474,
+      "desc": "The Phillies non-tendered Harris on Friday, Mark Feinsand of MLB.com reports.",
       "player": {
-        "name": "Luis Castillo",
+        "name": "Brett Harris",
+        "posShortNames": "3B",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05yca_96_1.png",
+        "scorerId": "05yca",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10100",
+      "id": "og9rmx8cmwplcazw",
+      "seq": 141473,
+      "desc": "The Twins acquired Miller and minor-league catcher Francisco Espinoza from the Dodgers on Friday in exchange for third baseman Royce Lewis, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "Bobby Miller",
         "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nuc_96_13.png",
-        "scorerId": "03nuc",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05gwz_96_5.png",
+        "scorerId": "05gwz",
         "posIds": [
           "015"
         ],
@@ -763,18 +754,70 @@
       }
     },
     {
-      "displayDate": 1795107600000,
-      "teamId": "10270",
-      "id": "6swx60xsmwodnpic",
-      "seq": 141438,
-      "desc": "The White Sox acquired Sullivan and Douglas Veliz from the Rockies in exchange for Davis Martin and Luis Castillo on Thursday, Jeff Passan of ESPN.com reports.",
+      "displayDate": 1795194000000,
+      "teamId": "10100",
+      "id": "ewf46d7cmwplcaz1",
+      "seq": 141472,
+      "desc": "The Twins non-tendered Wallner on Friday, Aaron Gleeman of AaronGleeman.com reports.",
       "player": {
-        "name": "Sean Sullivan",
+        "name": "Matt Wallner",
+        "posShortNames": "RF",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04o78_96_4.png",
+        "scorerId": "04o78",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10170",
+      "id": "ivb3gi5lmwplcay5",
+      "seq": 141471,
+      "desc": "Mark Feinsand of MLB.comThe Mets non-tendered Senger on Friday, Mark reports.",
+      "player": {
+        "name": "Hayden Senger",
+        "posShortNames": "C",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q63_96_1.png",
+        "scorerId": "04q63",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10170",
+      "id": "xsg1bqpfmwplcax7",
+      "seq": 141470,
+      "desc": "The Mets non-tendered Ross on Friday, Mark Feinsand of MLB.com reports.",
+      "player": {
+        "name": "Dylan Ross",
         "posShortNames": "SP",
-        "teamShortName": "CHW",
-        "teamName": "Chicago White Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ahu_96_2.png",
-        "scorerId": "06ahu",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06580_96_1.png",
+        "scorerId": "06580",
         "posIds": [
           "015"
         ],
@@ -782,27 +825,301 @@
         "minorsEligible": false,
         "icons": [
           {
-            "tooltip": "Injured List - 15-day IL - Shoulder - Expected return Sep 22",
-            "typeId": "2"
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
           }
         ]
       }
     },
     {
-      "displayDate": 1795107600000,
-      "teamId": "10270",
-      "id": "u32z35ybmwodnpgt",
-      "seq": 141437,
-      "desc": "The Rockies acquired Castillo and Davis Martin from the White Sox in exchange for Sean Sullivan and Douglas Veliz on Thursday, Jeff Passan of ESPN.com reports.",
+      "displayDate": 1795194000000,
+      "teamId": "10105",
+      "id": "77m9ox3ymwplcawb",
+      "seq": 141469,
+      "desc": "Allen agreed to a one-year, $1.95 million contract with the Astros to avoid arbitration Friday, Chandler Rome of The Athletic reports.",
       "player": {
-        "name": "Luis Castillo",
+        "name": "Nick Allen",
+        "posShortNames": "SS",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efs_96_5.png",
+        "scorerId": "04efs",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10170",
+      "id": "hdlrwjiumwplcave",
+      "seq": 141468,
+      "desc": "The Yankees non-tendered Morel on Friday, Mark Feinsand of MLB.com reports.",
+      "player": {
+        "name": "Christopher Morel",
+        "posShortNames": "1B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pbp_96_8.png",
+        "scorerId": "04pbp",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10070",
+      "id": "jcli3613mwplcauj",
+      "seq": 141467,
+      "desc": "Perkins signed a one-year, $950,000 contract with the Guardians on Friday to avoid arbitration, Zack Meisel of The Athletic reports.",
+      "player": {
+        "name": "Blake Perkins",
+        "posShortNames": "CF,LF",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pp5_96_4.png",
+        "scorerId": "03pp5",
+        "posIds": [
+          "010",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10030",
+      "id": "09bwm752mwplcate",
+      "seq": 141466,
+      "desc": "The Yankees non-tendered Gil on Friday, Gary Phillips of the New York Daily News reports.",
+      "player": {
+        "name": "Luis Gil",
         "posShortNames": "SP",
+        "teamShortName": "NYY",
+        "teamName": "New York Yankees",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04s1h_96_9.png",
+        "scorerId": "04s1h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10070",
+      "id": "vh7u3dt4mwplcasi",
+      "seq": 141465,
+      "desc": "Festa signed a one-year, $1.5 million contract with the Guardians on Friday, Zack Meisel of The Athletic reports.",
+      "player": {
+        "name": "Matt Festa",
+        "posShortNames": "RP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041tl_96_6.png",
+        "scorerId": "041tl",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10150",
+      "id": "gfcsbcqdmwplcarm",
+      "seq": 141464,
+      "desc": "The Braved non-tendered Grove on Friday.",
+      "player": {
+        "name": "Michael Grove",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmk_96_5.png",
+        "scorerId": "04pmk",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10070",
+      "id": "ogmqsgw2mwplcaqn",
+      "seq": 141463,
+      "desc": "The Guardians non-tendered Fry on Friday, Tim Stebbins of MLB.com reports.",
+      "player": {
+        "name": "David Fry",
+        "posShortNames": "RF",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04psr_96_3.png",
+        "scorerId": "04psr",
+        "posIds": [
+          "011"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10105",
+      "id": "jidsj84hmwplcapn",
+      "seq": 141462,
+      "desc": "Sousa agreed to a one-year, $1.26 million contract with the Astros on Friday, Chandler Rome of The Athletic reports.",
+      "player": {
+        "name": "Bennett Sousa",
+        "posShortNames": "RP",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04puc_96_3.png",
+        "scorerId": "04puc",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10130",
+      "id": "tfeicn17mwplcaoh",
+      "seq": 141461,
+      "desc": "The Mariners non-tendered Raley on Friday, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "Luke Raley",
+        "posShortNames": "RF,1B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041ts_96_10.png",
+        "scorerId": "041ts",
+        "posIds": [
+          "011",
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10150",
+      "id": "cj3r7s1nmwplcan5",
+      "seq": 141460,
+      "desc": "Atlanta non-tendered Karinchak on Friday.",
+      "player": {
+        "name": "James Karinchak",
+        "posShortNames": "RP",
+        "teamShortName": "ATL",
+        "teamName": "Atlanta Braves",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ejp_96_8.png",
+        "scorerId": "04ejp",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10105",
+      "id": "j1izv5vlmwplcalk",
+      "seq": 141459,
+      "desc": "The Astros non-tendered Trammell on Friday.",
+      "player": {
+        "name": "Taylor Trammell",
+        "posShortNames": "LF",
+        "teamShortName": "HOU",
+        "teamName": "Houston Astros",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041pq_96_9.png",
+        "scorerId": "041pq",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10080",
+      "id": "m2re1oo3mwplcaj2",
+      "seq": 141458,
+      "desc": "The Tigers signed Melton to a six-year, $46.5 million contract extension Friday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Troy Melton",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uc4_96_2.png",
+        "scorerId": "05uc4",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10270",
+      "id": "cm20elmsmwph0o2j",
+      "seq": 141457,
+      "desc": "The Rockies designated Herget for assignment Friday, Thomas Harding of MLB.com reports.",
+      "player": {
+        "name": "Jimmy Herget",
+        "posShortNames": "RP",
         "teamShortName": "COL",
         "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nuc_96_13.png",
-        "scorerId": "03nuc",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qln_96_13.png",
+        "scorerId": "03qln",
         "posIds": [
-          "015"
+          "016"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -810,79 +1127,16 @@
       }
     },
     {
-      "displayDate": 1795107600000,
-      "teamId": "10270",
-      "id": "6ub1l67nmwodnpe7",
-      "seq": 141436,
-      "desc": "The Rockies acquired Martin and Luis Castillo from the White Sox in exchange for Sean Sullivan and Douglas Veliz on Thursday, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "Davis Martin",
-        "posShortNames": "SP",
-        "teamShortName": "COL",
-        "teamName": "Colorado Rockies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxf_96_2.png",
-        "scorerId": "04pxf",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795107600000,
-      "teamId": "10040",
-      "id": "3gf23rkemwo50fpx",
-      "seq": 141435,
-      "desc": "The Rays released Scholtens on Thursday so that he can pursue an opportunity in the Korea Baseball Organization.",
-      "player": {
-        "name": "Jesse Scholtens",
-        "posShortNames": "SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041uv_96_4.png",
-        "scorerId": "041uv",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795107600000,
-      "teamId": "10200",
-      "id": "kolsxc1ymwo50fmg",
-      "seq": 141434,
-      "desc": "The Cubs claimed McDermott off waivers from the Mets on Thursday, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Chayce McDermott",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uws_96_2.png",
-        "scorerId": "05uws",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795107600000,
+      "displayDate": 1795194000000,
       "teamId": "10050",
-      "id": "t5q5r6samwo1krh5",
-      "seq": 141433,
-      "desc": "The Blue Jays designated Lee for assignment Thursday.",
+      "id": "83n6dfmlmwph0o1l",
+      "seq": 141456,
+      "desc": "The Rockies acquired Lee from the Blue Jays on Friday in exchange for cash consideration, Thomas Harding of MLB.com reports.",
       "player": {
         "name": "Chase Lee",
         "posShortNames": "RP",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
         "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05xpv_96_1.png",
         "scorerId": "05xpv",
         "posIds": [
@@ -894,47 +1148,20 @@
       }
     },
     {
-      "displayDate": 1795107600000,
-      "teamId": "10280",
-      "id": "xiprdpblmwo1krfn",
-      "seq": 141432,
-      "desc": "The Blue Jays claimed Cairo off waivers from the Dodgers on Thursday.",
+      "displayDate": 1795194000000,
+      "teamId": "10290",
+      "id": "nwon6r70mwph0o0n",
+      "seq": 141455,
+      "desc": "The Padres and Sheets avoided arbitration by agreeing to a three-year, $11 million contract Friday, Robert Murray of FanSided.com reports.",
       "player": {
-        "name": "Christian Cairo",
-        "posShortNames": "SS,3B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "",
-        "scorerId": "0513m",
+        "name": "Gavin Sheets",
+        "posShortNames": "1B",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eej_96_9.png",
+        "scorerId": "04eej",
         "posIds": [
-          "005",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795107600000,
-      "teamId": "10090",
-      "id": "0u5ccjokmwo1krd7",
-      "seq": 141431,
-      "desc": "The Royals and Dobnak avoided arbitration by agreeing to a one-year, $1.35 million contract Thursday, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "Randy Dobnak",
-        "posShortNames": "SP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0506h_96_7.png",
-        "scorerId": "0506h",
-        "posIds": [
-          "015"
+          "002"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -942,20 +1169,63 @@
       }
     },
     {
-      "displayDate": 1795107600000,
-      "teamId": "10121",
-      "id": "nf43f0aymwnx9388",
-      "seq": 141430,
-      "desc": "The Orioles claimed Nett off waivers from the Athletics on Thursday, Andy Kostka of TheBanner.com reports.",
+      "displayDate": 1795194000000,
+      "teamId": "10180",
+      "id": "pyy2avgmmwph0nzk",
+      "seq": 141454,
+      "desc": "The Phillies and Banks avoided arbitration by agreeing to a one-year, $1.3 million contract Friday, Jon Morosi of MLB Network reports.",
       "player": {
-        "name": "Braden Nett",
-        "posShortNames": "SP",
+        "name": "Tanner Banks",
+        "posShortNames": "RP",
+        "teamShortName": "PHI",
+        "teamName": "Philadelphia Phillies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dqv_96_4.png",
+        "scorerId": "03dqv",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10250",
+      "id": "6ehhemwfmwph0nyf",
+      "seq": 141453,
+      "desc": "The Cardinals non-tendered Gorman on Friday, Joel Sherman of the New York Post reports.",
+      "player": {
+        "name": "Nolan Gorman",
+        "posShortNames": "3B,2B",
+        "teamShortName": "STL",
+        "teamName": "St. Louis Cardinals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ai4_96_8.png",
+        "scorerId": "04ai4",
+        "posIds": [
+          "004",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10010",
+      "id": "u9l0rwg1mwph0nwv",
+      "seq": 141452,
+      "desc": "Vazquez agreed to a minor-league contract with the Orioles on Friday, Jorge Castillo of ESPN.com reports.",
+      "player": {
+        "name": "Luis Vazquez",
+        "posShortNames": "SS",
         "teamShortName": "BAL",
         "teamName": "Baltimore Orioles",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066a6_96_1.png",
-        "scorerId": "066a6",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ens_96_1.png",
+        "scorerId": "04ens",
         "posIds": [
-          "015"
+          "005"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -968,44 +1238,18 @@
       }
     },
     {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "jrgmaf74mwmoghn5",
-      "seq": 141429,
-      "desc": "The Kansas City Royals traded SP L.P. Langevin to the Seattle Mariners.",
+      "displayDate": 1795194000000,
+      "teamId": "10121",
+      "id": "lp5y9288mwph0nv1",
+      "seq": 141451,
+      "desc": "The Mets claimed Tur off waivers Friday, Francys Romero of BeisbolFR.com reports.",
       "player": {
-        "name": "L.P. Langevin",
+        "name": "Yunior Tur",
         "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "",
-        "scorerId": "06nzz",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "kdtgsab1mwmoghja",
-      "seq": 141429,
-      "desc": "The Seattle Mariners traded RP Jos\u00e9 A. Ferrer to the Kansas City Royals.",
-      "player": {
-        "name": "Jose Ferrer",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs062ob_96_3.png",
-        "scorerId": "062ob",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06jbm_96_1.png",
+        "scorerId": "06jbm",
         "posIds": [
           "016"
         ],
@@ -1015,18 +1259,18 @@
       }
     },
     {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "ne4c7835mwmogh0o",
-      "seq": 141429,
-      "desc": "The Kansas City Royals traded RP James McArthur to the Seattle Mariners.",
+      "displayDate": 1795194000000,
+      "teamId": "10010",
+      "id": "dq7xmlwymwpcp075",
+      "seq": 141450,
+      "desc": "The Orioles and Bautista avoided arbitration by agreeing to a one-year, $2.35 million contract Friday, Andy Kostka of TheBanner.com reports.",
       "player": {
-        "name": "James McArthur",
+        "name": "Felix Bautista",
         "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pw3_96_3.png",
-        "scorerId": "04pw3",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t64_96_5.png",
+        "scorerId": "05t64",
         "posIds": [
           "016"
         ],
@@ -1036,65 +1280,22 @@
       }
     },
     {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "cmeosku2mwmoghe1",
-      "seq": 141429,
-      "desc": "The Kansas City Royals traded 3B Maikel Garcia to the Seattle Mariners.",
+      "displayDate": 1795194000000,
+      "teamId": "10020",
+      "id": "8c9c7nr3mwpcp060",
+      "seq": 141449,
+      "desc": "Gonzalez (elbow) agreed to a one-year, $1.65 million contract with the Red Sox to avoid arbitration Friday, Chris Cotillo of MassLive.com reports.",
       "player": {
-        "name": "Maikel Garcia",
-        "posShortNames": "3B",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05g3x_96_5.png",
-        "scorerId": "05g3x",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10110",
-      "id": "az55ibvrmwmoggy2",
-      "seq": 141429,
-      "desc": "The Detroit Tigers traded 3B Jace Jung to the Los Angeles Angels.",
-      "player": {
-        "name": "Jace Jung",
-        "posShortNames": "DH,1B,2B,3B",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzg_96_1.png",
-        "scorerId": "05tzg",
+        "name": "Romy Gonzalez",
+        "posShortNames": "DH,1B,2B",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q0o_96_3.png",
+        "scorerId": "04q0o",
         "posIds": [
           "013",
           "002",
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10040",
-      "id": "8g1o7a5ymwmogh5k",
-      "seq": 141429,
-      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
-      "player": {
-        "name": "Angel Roa",
-        "posShortNames": "SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "078nb",
-        "posIds": [
-          "015"
+          "003"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -1107,68 +1308,22 @@
       }
     },
     {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "fsibcuk0mwmoghar",
-      "seq": 141429,
-      "desc": "The Seattle Mariners traded SP Logan Evans to the Kansas City Royals.",
-      "player": {
-        "name": "Logan Evans",
-        "posShortNames": "SP,RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06hv8_96_1.png",
-        "scorerId": "06hv8",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Elbow - Out Indefinitely - Expected return Apr 1",
-            "typeId": "30"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "ggvqo01vmwmoght6",
-      "seq": 141429,
-      "desc": "The Seattle Mariners traded SP Bryce Miller to the Kansas City Royals.",
-      "player": {
-        "name": "Bryce Miller",
-        "posShortNames": "SP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05vy6_96_3.png",
-        "scorerId": "05vy6",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
+      "displayDate": 1795194000000,
       "teamId": "10020",
-      "id": "tokfsvg4mwmoggva",
-      "seq": 141429,
-      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
+      "id": "34jmje4fmwpcp04q",
+      "seq": 141448,
+      "desc": "The Red Sox and Jones avoided arbitration by agreeing to a one-year, $950,000 contract Friday, Chris Cotillo of MassLive.com reports.",
       "player": {
-        "name": "Nick Fortes",
-        "posShortNames": "C",
+        "name": "Jahmai Jones",
+        "posShortNames": "DH,LF,RF",
         "teamShortName": "BOS",
         "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
-        "scorerId": "04pqf",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pp6_96_9.png",
+        "scorerId": "03pp6",
         "posIds": [
-          "001"
+          "013",
+          "009",
+          "011"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -1176,176 +1331,18 @@
       }
     },
     {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "9cgut9o4mwmm4as1",
-      "seq": 141428,
-      "desc": "The Royals designated Isbel for assignment Wednesday.",
-      "player": {
-        "name": "Kyle Isbel",
-        "posShortNames": "CF",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ppo_96_8.png",
-        "scorerId": "04ppo",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
+      "displayDate": 1795194000000,
       "teamId": "10020",
-      "id": "2klfp4m1mwmm4apt",
-      "seq": 141427,
-      "desc": "The Twins signed Gray to a two-year, $55 million contract Wednesday, Jeff Passan of ESPN.com reports.",
+      "id": "fp4p7r3xmwpcp035",
+      "seq": 141447,
+      "desc": "The Red Sox and Monasterio avoided arbitration by agreeing to a one-year, $1.4 million contract Friday, Chris Cotillo of MassLive.com reports.",
       "player": {
-        "name": "Sonny Gray",
-        "posShortNames": "SP",
-        "teamShortName": "MIN",
-        "teamName": "Minnesota Twins",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0260v_96_17.png",
-        "scorerId": "0260v",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10020",
-      "id": "nwrarrhmmwmm4am2",
-      "seq": 141426,
-      "desc": "The Red Sox designated Wong for assignment Wednesday, Chris Cotillo of MassLive.com reports.",
-      "player": {
-        "name": "Connor Wong",
-        "posShortNames": "C",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04efi_96_8.png",
-        "scorerId": "04efi",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "y5ego0dnmwmdhi3n",
-      "seq": 141425,
-      "desc": "The Mariners acquired McArthur, Maikel Garcia and L.P. Langevin from the Royals on Wednesday in exchange for Bryce Miller, Logan Evans (elbow) and Jose Ferrer, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "James McArthur",
-        "posShortNames": "RP",
-        "teamShortName": "SEA",
-        "teamName": "Seattle Mariners",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pw3_96_3.png",
-        "scorerId": "04pw3",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10130",
-      "id": "yrtbjrdqmwmdhi0y",
-      "seq": 141424,
-      "desc": "The Royals acquired Ferrer, Bryce Miller and Logan Evans (elbow) from the Mariners on Wednesday in exchange for Maikel Garcia, James McArthur and L.P. Langevin, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "Jose Ferrer",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs062ob_96_3.png",
-        "scorerId": "062ob",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10010",
-      "id": "kgxk1ny0mwlhtr23",
-      "seq": 141417,
-      "desc": "The  Athletics traded SP Josiah Romeo to the Baltimore Orioles.",
-      "player": {
-        "name": "Josiah Romeo",
-        "posShortNames": "SP",
-        "teamShortName": "BAL",
-        "teamName": "Baltimore Orioles",
-        "headshotUrl": "",
-        "scorerId": "06pgj",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10121",
-      "id": "vw15nww3mwlhtra1",
-      "seq": 141417,
-      "desc": "The Baltimore Orioles traded RP Yaqui Rivera to the  Athletics.",
-      "player": {
-        "name": "Yaqui Rivera",
-        "posShortNames": "RP,SP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "",
-        "scorerId": "061oc",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10300",
-      "id": "toy1kfnimwlket2j",
-      "seq": 141423,
-      "desc": "The Giants designated Koss for assignment Tuesday.",
-      "player": {
-        "name": "Christian Koss",
+        "name": "Andruw Monasterio",
         "posShortNames": "SS",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ydt_96_2.png",
-        "scorerId": "04ydt",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04vvy_96_4.png",
+        "scorerId": "04vvy",
         "posIds": [
           "005"
         ],
@@ -1355,29 +1352,24 @@
       }
     },
     {
-      "displayDate": 1794934800000,
-      "teamId": "10300",
-      "id": "chwbjoqsmwlket1j",
-      "seq": 141422,
-      "desc": "The Giants selected Gair's contract from Double-A Richmond on Tuesday.",
+      "displayDate": 1795194000000,
+      "teamId": "10060",
+      "id": "8w14hh6cmwpcp00y",
+      "seq": 141446,
+      "desc": "The Cubs claimed Bart off waivers from the White Sox, Mark Feinsand of MLB.com reports.",
       "player": {
-        "name": "Marty Gair",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "",
-        "scorerId": "06hw6",
+        "name": "Joey Bart",
+        "posShortNames": "C",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mn4_96_11.png",
+        "scorerId": "04mn4",
         "posIds": [
-          "016"
+          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
+        "icons": []
       }
     }
   ],
