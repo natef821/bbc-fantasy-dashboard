@@ -1,11 +1,147 @@
 {
-  "lastUpdated": "2026-11-20T00:10:33.892417Z",
+  "lastUpdated": "2026-11-20T14:45:29.359517Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10060",
+      "id": "zlw3mqn6mwoi866y",
+      "seq": 141440,
+      "desc": "The Colorado Rockies traded SP Sean Sullivan to the Chicago White Sox.",
+      "player": {
+        "name": "Sean Sullivan",
+        "posShortNames": "SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ahu_96_2.png",
+        "scorerId": "06ahu",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 15-day IL - Shoulder - Expected return Sep 22",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10270",
+      "id": "o9silgjqmwoi86hj",
+      "seq": 141440,
+      "desc": "The Chicago White Sox traded SP Davis Martin to the Colorado Rockies.",
+      "player": {
+        "name": "Davis Martin",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxf_96_2.png",
+        "scorerId": "04pxf",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10270",
+      "id": "q8bvjswtmwoi8604",
+      "seq": 141440,
+      "desc": "The Chicago White Sox traded SP Luis Castillo to the Colorado Rockies.",
+      "player": {
+        "name": "Luis Castillo",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nuc_96_13.png",
+        "scorerId": "03nuc",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10270",
+      "id": "6swx60xsmwodnpic",
+      "seq": 141438,
+      "desc": "The White Sox acquired Sullivan and Douglas Veliz from the Rockies in exchange for Davis Martin and Luis Castillo on Thursday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Sean Sullivan",
+        "posShortNames": "SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ahu_96_2.png",
+        "scorerId": "06ahu",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 15-day IL - Shoulder - Expected return Sep 22",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10270",
+      "id": "u32z35ybmwodnpgt",
+      "seq": 141437,
+      "desc": "The Rockies acquired Castillo and Davis Martin from the White Sox in exchange for Sean Sullivan and Douglas Veliz on Thursday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Luis Castillo",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nuc_96_13.png",
+        "scorerId": "03nuc",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10270",
+      "id": "6ub1l67nmwodnpe7",
+      "seq": 141436,
+      "desc": "The Rockies acquired Martin and Luis Castillo from the White Sox in exchange for Sean Sullivan and Douglas Veliz on Thursday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Davis Martin",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxf_96_2.png",
+        "scorerId": "04pxf",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1795107600000,
       "teamId": "10040",
@@ -145,53 +281,6 @@
     },
     {
       "displayDate": 1795021200000,
-      "teamId": "10040",
-      "id": "8g1o7a5ymwmogh5k",
-      "seq": 141429,
-      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
-      "player": {
-        "name": "Angel Roa",
-        "posShortNames": "SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "078nb",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10020",
-      "id": "tokfsvg4mwmoggva",
-      "seq": 141429,
-      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
-      "player": {
-        "name": "Nick Fortes",
-        "posShortNames": "C",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
-        "scorerId": "04pqf",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
       "teamId": "10130",
       "id": "jrgmaf74mwmoghn5",
       "seq": 141429,
@@ -239,57 +328,6 @@
     },
     {
       "displayDate": 1795021200000,
-      "teamId": "10110",
-      "id": "az55ibvrmwmoggy2",
-      "seq": 141429,
-      "desc": "The Detroit Tigers traded 3B Jace Jung to the Los Angeles Angels.",
-      "player": {
-        "name": "Jace Jung",
-        "posShortNames": "DH,1B,2B,3B",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzg_96_1.png",
-        "scorerId": "05tzg",
-        "posIds": [
-          "013",
-          "002",
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "fsibcuk0mwmoghar",
-      "seq": 141429,
-      "desc": "The Seattle Mariners traded SP Logan Evans to the Kansas City Royals.",
-      "player": {
-        "name": "Logan Evans",
-        "posShortNames": "SP,RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06hv8_96_1.png",
-        "scorerId": "06hv8",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Elbow - Out Indefinitely - Expected return Apr 1",
-            "typeId": "30"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
       "teamId": "10130",
       "id": "ne4c7835mwmogh0o",
       "seq": 141429,
@@ -332,6 +370,83 @@
     },
     {
       "displayDate": 1795021200000,
+      "teamId": "10110",
+      "id": "az55ibvrmwmoggy2",
+      "seq": 141429,
+      "desc": "The Detroit Tigers traded 3B Jace Jung to the Los Angeles Angels.",
+      "player": {
+        "name": "Jace Jung",
+        "posShortNames": "DH,1B,2B,3B",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzg_96_1.png",
+        "scorerId": "05tzg",
+        "posIds": [
+          "013",
+          "002",
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10040",
+      "id": "8g1o7a5ymwmogh5k",
+      "seq": 141429,
+      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
+      "player": {
+        "name": "Angel Roa",
+        "posShortNames": "SP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "",
+        "scorerId": "078nb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "fsibcuk0mwmoghar",
+      "seq": 141429,
+      "desc": "The Seattle Mariners traded SP Logan Evans to the Kansas City Royals.",
+      "player": {
+        "name": "Logan Evans",
+        "posShortNames": "SP,RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06hv8_96_1.png",
+        "scorerId": "06hv8",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Elbow - Out Indefinitely - Expected return Apr 1",
+            "typeId": "30"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
       "teamId": "10090",
       "id": "ggvqo01vmwmoght6",
       "seq": 141429,
@@ -345,6 +460,27 @@
         "scorerId": "05vy6",
         "posIds": [
           "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10020",
+      "id": "tokfsvg4mwmoggva",
+      "seq": 141429,
+      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
+      "player": {
+        "name": "Nick Fortes",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
+        "scorerId": "04pqf",
+        "posIds": [
+          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -544,163 +680,6 @@
         "headshotUrl": "",
         "scorerId": "06hw6",
         "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10300",
-      "id": "iorguandmwlket0l",
-      "seq": 141421,
-      "desc": "The Giants selected Lalane's contract from Double-A Richmond on Tuesday.",
-      "player": {
-        "name": "Henry Lalane",
-        "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "",
-        "scorerId": "05ym5",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10290",
-      "id": "y6x97edymwlkeszk",
-      "seq": 141420,
-      "desc": "The Padres selected Musgrove's contract from Double-A San Antonio on Tuesday.",
-      "player": {
-        "name": "Tucker Musgrove",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "",
-        "scorerId": "06fql",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10290",
-      "id": "6bkxucq8mwlkesyh",
-      "seq": 141419,
-      "desc": "The Padres selected Koenig's contract from Triple-A El Paso on Tuesday.",
-      "player": {
-        "name": "Ian Koenig",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "",
-        "scorerId": "066aa",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "u95bmnifmwlkesvq",
-      "seq": 141418,
-      "desc": "The Dodgers selected Fox's contract from Double-A Tulsa on Tuesday.",
-      "player": {
-        "name": "Luke Fox",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "06hol",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10200",
-      "id": "a3ibaqhtmwlg38ts",
-      "seq": 141416,
-      "desc": "The Cubs selected McCullough's contract from Double-A Knoxville on Tuesday.",
-      "player": {
-        "name": "Brody McCullough",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "",
-        "scorerId": "06655",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10200",
-      "id": "hifanhpsmwlg38qz",
-      "seq": 141415,
-      "desc": "The Cubs selected Wiggins' contract from Triple-A Iowa on Tuesday.",
-      "player": {
-        "name": "Jaxon Wiggins",
-        "posShortNames": "SP,RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "",
-        "scorerId": "05u2p",
-        "posIds": [
-          "015",
           "016"
         ],
         "rookie": false,
@@ -716,6 +695,142 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1795194000000,
+      "teamId": "10060",
+      "id": "zlw3mqn6mwoi866y",
+      "seq": 141440,
+      "desc": "The Colorado Rockies traded SP Sean Sullivan to the Chicago White Sox.",
+      "player": {
+        "name": "Sean Sullivan",
+        "posShortNames": "SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ahu_96_2.png",
+        "scorerId": "06ahu",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 15-day IL - Shoulder - Expected return Sep 22",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10270",
+      "id": "o9silgjqmwoi86hj",
+      "seq": 141440,
+      "desc": "The Chicago White Sox traded SP Davis Martin to the Colorado Rockies.",
+      "player": {
+        "name": "Davis Martin",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxf_96_2.png",
+        "scorerId": "04pxf",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795194000000,
+      "teamId": "10270",
+      "id": "q8bvjswtmwoi8604",
+      "seq": 141440,
+      "desc": "The Chicago White Sox traded SP Luis Castillo to the Colorado Rockies.",
+      "player": {
+        "name": "Luis Castillo",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nuc_96_13.png",
+        "scorerId": "03nuc",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10270",
+      "id": "6swx60xsmwodnpic",
+      "seq": 141438,
+      "desc": "The White Sox acquired Sullivan and Douglas Veliz from the Rockies in exchange for Davis Martin and Luis Castillo on Thursday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Sean Sullivan",
+        "posShortNames": "SP",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06ahu_96_2.png",
+        "scorerId": "06ahu",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Injured List - 15-day IL - Shoulder - Expected return Sep 22",
+            "typeId": "2"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10270",
+      "id": "u32z35ybmwodnpgt",
+      "seq": 141437,
+      "desc": "The Rockies acquired Castillo and Davis Martin from the White Sox in exchange for Sean Sullivan and Douglas Veliz on Thursday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Luis Castillo",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03nuc_96_13.png",
+        "scorerId": "03nuc",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795107600000,
+      "teamId": "10270",
+      "id": "6ub1l67nmwodnpe7",
+      "seq": 141436,
+      "desc": "The Rockies acquired Martin and Luis Castillo from the White Sox in exchange for Sean Sullivan and Douglas Veliz on Thursday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Davis Martin",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxf_96_2.png",
+        "scorerId": "04pxf",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1795107600000,
       "teamId": "10040",
       "id": "3gf23rkemwo50fpx",
@@ -854,53 +969,6 @@
     },
     {
       "displayDate": 1795021200000,
-      "teamId": "10040",
-      "id": "8g1o7a5ymwmogh5k",
-      "seq": 141429,
-      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
-      "player": {
-        "name": "Angel Roa",
-        "posShortNames": "SP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "",
-        "scorerId": "078nb",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10020",
-      "id": "tokfsvg4mwmoggva",
-      "seq": 141429,
-      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
-      "player": {
-        "name": "Nick Fortes",
-        "posShortNames": "C",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
-        "scorerId": "04pqf",
-        "posIds": [
-          "001"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
       "teamId": "10130",
       "id": "jrgmaf74mwmoghn5",
       "seq": 141429,
@@ -948,57 +1016,6 @@
     },
     {
       "displayDate": 1795021200000,
-      "teamId": "10110",
-      "id": "az55ibvrmwmoggy2",
-      "seq": 141429,
-      "desc": "The Detroit Tigers traded 3B Jace Jung to the Los Angeles Angels.",
-      "player": {
-        "name": "Jace Jung",
-        "posShortNames": "DH,1B,2B,3B",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzg_96_1.png",
-        "scorerId": "05tzg",
-        "posIds": [
-          "013",
-          "002",
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795021200000,
-      "teamId": "10090",
-      "id": "fsibcuk0mwmoghar",
-      "seq": 141429,
-      "desc": "The Seattle Mariners traded SP Logan Evans to the Kansas City Royals.",
-      "player": {
-        "name": "Logan Evans",
-        "posShortNames": "SP,RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06hv8_96_1.png",
-        "scorerId": "06hv8",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Elbow - Out Indefinitely - Expected return Apr 1",
-            "typeId": "30"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795021200000,
       "teamId": "10130",
       "id": "ne4c7835mwmogh0o",
       "seq": 141429,
@@ -1041,6 +1058,83 @@
     },
     {
       "displayDate": 1795021200000,
+      "teamId": "10110",
+      "id": "az55ibvrmwmoggy2",
+      "seq": 141429,
+      "desc": "The Detroit Tigers traded 3B Jace Jung to the Los Angeles Angels.",
+      "player": {
+        "name": "Jace Jung",
+        "posShortNames": "DH,1B,2B,3B",
+        "teamShortName": "LAA",
+        "teamName": "Los Angeles Angels",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05tzg_96_1.png",
+        "scorerId": "05tzg",
+        "posIds": [
+          "013",
+          "002",
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10040",
+      "id": "8g1o7a5ymwmogh5k",
+      "seq": 141429,
+      "desc": "The Boston Red Sox traded RP Angel Roa to the Tampa Bay Rays.",
+      "player": {
+        "name": "Angel Roa",
+        "posShortNames": "SP",
+        "teamShortName": "TB",
+        "teamName": "Tampa Bay Rays",
+        "headshotUrl": "",
+        "scorerId": "078nb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10090",
+      "id": "fsibcuk0mwmoghar",
+      "seq": 141429,
+      "desc": "The Seattle Mariners traded SP Logan Evans to the Kansas City Royals.",
+      "player": {
+        "name": "Logan Evans",
+        "posShortNames": "SP,RP",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06hv8_96_1.png",
+        "scorerId": "06hv8",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Elbow - Out Indefinitely - Expected return Apr 1",
+            "typeId": "30"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795021200000,
       "teamId": "10090",
       "id": "ggvqo01vmwmoght6",
       "seq": 141429,
@@ -1054,6 +1148,27 @@
         "scorerId": "05vy6",
         "posIds": [
           "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795021200000,
+      "teamId": "10020",
+      "id": "tokfsvg4mwmoggva",
+      "seq": 141429,
+      "desc": "The Tampa Bay Rays traded C Nick Fortes to the Boston Red Sox.",
+      "player": {
+        "name": "Nick Fortes",
+        "posShortNames": "C",
+        "teamShortName": "BOS",
+        "teamName": "Boston Red Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pqf_96_6.png",
+        "scorerId": "04pqf",
+        "posIds": [
+          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -1253,163 +1368,6 @@
         "headshotUrl": "",
         "scorerId": "06hw6",
         "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10300",
-      "id": "iorguandmwlket0l",
-      "seq": 141421,
-      "desc": "The Giants selected Lalane's contract from Double-A Richmond on Tuesday.",
-      "player": {
-        "name": "Henry Lalane",
-        "posShortNames": "SP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "",
-        "scorerId": "05ym5",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10290",
-      "id": "y6x97edymwlkeszk",
-      "seq": 141420,
-      "desc": "The Padres selected Musgrove's contract from Double-A San Antonio on Tuesday.",
-      "player": {
-        "name": "Tucker Musgrove",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "",
-        "scorerId": "06fql",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10290",
-      "id": "6bkxucq8mwlkesyh",
-      "seq": 141419,
-      "desc": "The Padres selected Koenig's contract from Triple-A El Paso on Tuesday.",
-      "player": {
-        "name": "Ian Koenig",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "",
-        "scorerId": "066aa",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10280",
-      "id": "u95bmnifmwlkesvq",
-      "seq": 141418,
-      "desc": "The Dodgers selected Fox's contract from Double-A Tulsa on Tuesday.",
-      "player": {
-        "name": "Luke Fox",
-        "posShortNames": "SP",
-        "teamShortName": "LAD",
-        "teamName": "Los Angeles Dodgers",
-        "headshotUrl": "",
-        "scorerId": "06hol",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10200",
-      "id": "a3ibaqhtmwlg38ts",
-      "seq": 141416,
-      "desc": "The Cubs selected McCullough's contract from Double-A Knoxville on Tuesday.",
-      "player": {
-        "name": "Brody McCullough",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "",
-        "scorerId": "06655",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1794934800000,
-      "teamId": "10200",
-      "id": "hifanhpsmwlg38qz",
-      "seq": 141415,
-      "desc": "The Cubs selected Wiggins' contract from Triple-A Iowa on Tuesday.",
-      "player": {
-        "name": "Jaxon Wiggins",
-        "posShortNames": "SP,RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "",
-        "scorerId": "05u2p",
-        "posIds": [
-          "015",
           "016"
         ],
         "rookie": false,
