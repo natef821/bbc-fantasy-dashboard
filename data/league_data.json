@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T14:01:20.606514Z",
+  "lastUpdated": "2026-11-21T22:41:05.536487Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,27 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1795280400000,
+      "teamId": "10170",
+      "id": "x22n0bf4mwqs4ptf",
+      "seq": 141506,
+      "desc": "Ewing and the Mets agreed to an eight-year contract extension Saturday, Chelsea Janes of SNY.tv reports.",
+      "player": {
+        "name": "A.J. Ewing",
+        "posShortNames": "CF",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06dn7_96_2.png",
+        "scorerId": "06dn7",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1795194000000,
       "teamId": "10200",
       "id": "t9k142l5mwpw5p10",
@@ -688,37 +709,32 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10020",
-      "id": "h6k1enazmwpnhjs9",
-      "seq": 141476,
-      "desc": "The Arizona Diamondbacks traded SP Luke Dotson to the Boston Red Sox.",
-      "player": {
-        "name": "Luke Dotson",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "",
-        "scorerId": "06z13",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1795280400000,
+      "teamId": "10170",
+      "id": "x22n0bf4mwqs4ptf",
+      "seq": 141506,
+      "desc": "Ewing and the Mets agreed to an eight-year contract extension Saturday, Chelsea Janes of SNY.tv reports.",
+      "player": {
+        "name": "A.J. Ewing",
+        "posShortNames": "CF",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06dn7_96_2.png",
+        "scorerId": "06dn7",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1795194000000,
       "teamId": "10200",
       "id": "t9k142l5mwpw5p10",
@@ -1400,32 +1416,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10020",
-      "id": "h6k1enazmwpnhjs9",
-      "seq": 141476,
-      "desc": "The Arizona Diamondbacks traded SP Luke Dotson to the Boston Red Sox.",
-      "player": {
-        "name": "Luke Dotson",
-        "posShortNames": "SP",
-        "teamShortName": "BOS",
-        "teamName": "Boston Red Sox",
-        "headshotUrl": "",
-        "scorerId": "06z13",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
