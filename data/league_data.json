@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T13:55:04.949264Z",
+  "lastUpdated": "2026-11-22T23:06:13.271606Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,11 +7,37 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1795366800000,
+      "teamId": "10080",
+      "id": "bkb52wwkmwsbwbr7",
+      "seq": 141507,
+      "desc": "Gil agreed to a one-year, $2.3 million contract with the Tigers on Sunday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Luis Gil",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04s1h_96_9.png",
+        "scorerId": "04s1h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1795280400000,
       "teamId": "10170",
       "id": "x22n0bf4mwqs4ptf",
       "seq": 141506,
-      "desc": "Ewing and the Mets agreed to an eight-year contract extension Saturday, Chelsea Janes of SNY.tv reports.",
+      "desc": "Ewing and the Mets agreed to an eight-year, $95 million contract extension Saturday, Chelsea Janes of SNY.tv reports.",
       "player": {
         "name": "A.J. Ewing",
         "posShortNames": "CF",
@@ -688,37 +714,42 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10240",
-      "id": "jbyg4wmkmwppnyxy",
-      "seq": 141477,
-      "desc": "The Pirates non-tendered Murdock on Friday, Jason Mackey of MLB.com reports.",
-      "player": {
-        "name": "Noah Murdock",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515a_96_1.png",
-        "scorerId": "0515a",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1795366800000,
+      "teamId": "10080",
+      "id": "bkb52wwkmwsbwbr7",
+      "seq": 141507,
+      "desc": "Gil agreed to a one-year, $2.3 million contract with the Tigers on Sunday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Luis Gil",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04s1h_96_9.png",
+        "scorerId": "04s1h",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1795280400000,
       "teamId": "10170",
       "id": "x22n0bf4mwqs4ptf",
       "seq": 141506,
-      "desc": "Ewing and the Mets agreed to an eight-year contract extension Saturday, Chelsea Janes of SNY.tv reports.",
+      "desc": "Ewing and the Mets agreed to an eight-year, $95 million contract extension Saturday, Chelsea Janes of SNY.tv reports.",
       "player": {
         "name": "A.J. Ewing",
         "posShortNames": "CF",
@@ -1395,27 +1426,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10240",
-      "id": "jbyg4wmkmwppnyxy",
-      "seq": 141477,
-      "desc": "The Pirates non-tendered Murdock on Friday, Jason Mackey of MLB.com reports.",
-      "player": {
-        "name": "Noah Murdock",
-        "posShortNames": "SP",
-        "teamShortName": "PIT",
-        "teamName": "Pittsburgh Pirates",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0515a_96_1.png",
-        "scorerId": "0515a",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
