@@ -1,11 +1,32 @@
 {
-  "lastUpdated": "2026-11-23T05:17:22.569482Z",
+  "lastUpdated": "2026-11-23T17:07:36.869029Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1795453200000,
+      "teamId": "10170",
+      "id": "t72ccd4amwtiow4h",
+      "seq": 141509,
+      "desc": "The Mets agreed to a contract with Goldschmidt on Monday, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "Paul Goldschmidt",
+        "posShortNames": "1B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01ual_96_16.png",
+        "scorerId": "01ual",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1795366800000,
       "teamId": "10280",
@@ -674,32 +695,6 @@
         "scorerId": "05y29",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10180",
-      "id": "mqw8p5dcmwppnz0f",
-      "seq": 141479,
-      "desc": "The Phillies non-tendered Chace on Friday, Mark Feinsand of MLB.com reports.",
-      "player": {
-        "name": "Moises Chace",
-        "posShortNames": "SP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060vu_96_1.png",
-        "scorerId": "060vu",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -714,6 +709,27 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1795453200000,
+      "teamId": "10170",
+      "id": "t72ccd4amwtiow4h",
+      "seq": 141509,
+      "desc": "The Mets agreed to a contract with Goldschmidt on Monday, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "Paul Goldschmidt",
+        "posShortNames": "1B",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01ual_96_16.png",
+        "scorerId": "01ual",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1795366800000,
       "teamId": "10280",
       "id": "tu58qhudmwsg7y4y",
@@ -1381,32 +1397,6 @@
         "scorerId": "05y29",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10180",
-      "id": "mqw8p5dcmwppnz0f",
-      "seq": 141479,
-      "desc": "The Phillies non-tendered Chace on Friday, Mark Feinsand of MLB.com reports.",
-      "player": {
-        "name": "Moises Chace",
-        "posShortNames": "SP",
-        "teamShortName": "PHI",
-        "teamName": "Philadelphia Phillies",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs060vu_96_1.png",
-        "scorerId": "060vu",
-        "posIds": [
-          "015"
         ],
         "rookie": false,
         "minorsEligible": false,
