@@ -1,11 +1,32 @@
 {
-  "lastUpdated": "2026-11-22T23:06:13.271606Z",
+  "lastUpdated": "2026-11-23T05:17:22.569482Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1795366800000,
+      "teamId": "10280",
+      "id": "tu58qhudmwsg7y4y",
+      "seq": 141508,
+      "desc": "Skubal agreed to a nine-year, $450 million contract with the Mets on Sunday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Tarik Skubal",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ptt_96_10.png",
+        "scorerId": "04ptt",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1795366800000,
       "teamId": "10080",
@@ -679,32 +700,6 @@
         "scorerId": "060vu",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10140",
-      "id": "y9dlxc06mwppnyzf",
-      "seq": 141478,
-      "desc": "O'Hoppe agreed to a one-year contract with the Rangers on Friday to avoid arbitration.",
-      "player": {
-        "name": "Logan O'Hoppe",
-        "posShortNames": "DH",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q56_96_4.png",
-        "scorerId": "04q56",
-        "posIds": [
-          "013"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -720,6 +715,27 @@
   "mlbTransactions": [
     {
       "displayDate": 1795366800000,
+      "teamId": "10280",
+      "id": "tu58qhudmwsg7y4y",
+      "seq": 141508,
+      "desc": "Skubal agreed to a nine-year, $450 million contract with the Mets on Sunday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Tarik Skubal",
+        "posShortNames": "SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ptt_96_10.png",
+        "scorerId": "04ptt",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795366800000,
       "teamId": "10080",
       "id": "bkb52wwkmwsbwbr7",
       "seq": 141507,
@@ -1391,32 +1407,6 @@
         "scorerId": "060vu",
         "posIds": [
           "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10140",
-      "id": "y9dlxc06mwppnyzf",
-      "seq": 141478,
-      "desc": "O'Hoppe agreed to a one-year contract with the Rangers on Friday to avoid arbitration.",
-      "player": {
-        "name": "Logan O'Hoppe",
-        "posShortNames": "DH",
-        "teamShortName": "TEX",
-        "teamName": "Texas Rangers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q56_96_4.png",
-        "scorerId": "04q56",
-        "posIds": [
-          "013"
         ],
         "rookie": false,
         "minorsEligible": false,
