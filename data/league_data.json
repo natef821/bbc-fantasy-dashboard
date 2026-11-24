@@ -1,11 +1,32 @@
 {
-  "lastUpdated": "2026-11-24T03:42:56.780977Z",
+  "lastUpdated": "2026-11-24T16:51:41.022775Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1795453200000,
+      "teamId": "10200",
+      "id": "41z5bna2mwu9rd1u",
+      "seq": 141512,
+      "desc": "Rogers agreed to a five-year, $120 million contract with the Cubs on Monday, Jon Morosi of MLB Network reports.",
+      "player": {
+        "name": "Trevor Rogers",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ak5_96_9.png",
+        "scorerId": "04ak5",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1795453200000,
       "teamId": "10090",
@@ -669,27 +690,6 @@
         "scorerId": "05rb4",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10110",
-      "id": "70963ftxmwppnz38",
-      "seq": 141482,
-      "desc": "Siri agreed to a one-year, $2.5 million contract with the Angels on Friday to avoid arbitration.",
-      "player": {
-        "name": "Jose Siri",
-        "posShortNames": "LF",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs039vx_96_11.png",
-        "scorerId": "039vx",
-        "posIds": [
-          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -700,6 +700,27 @@
   "mlbTransactions": [
     {
       "displayDate": 1795453200000,
+      "teamId": "10200",
+      "id": "41z5bna2mwu9rd1u",
+      "seq": 141512,
+      "desc": "Rogers agreed to a five-year, $120 million contract with the Cubs on Monday, Jon Morosi of MLB Network reports.",
+      "player": {
+        "name": "Trevor Rogers",
+        "posShortNames": "SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ak5_96_9.png",
+        "scorerId": "04ak5",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795453200000,
       "teamId": "10090",
       "id": "yiqqwjc2mwu140m3",
       "seq": 141511,
@@ -1361,27 +1382,6 @@
         "scorerId": "05rb4",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10110",
-      "id": "70963ftxmwppnz38",
-      "seq": 141482,
-      "desc": "Siri agreed to a one-year, $2.5 million contract with the Angels on Friday to avoid arbitration.",
-      "player": {
-        "name": "Jose Siri",
-        "posShortNames": "LF",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs039vx_96_11.png",
-        "scorerId": "039vx",
-        "posIds": [
-          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
