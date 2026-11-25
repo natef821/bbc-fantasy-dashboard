@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T16:51:41.022775Z",
+  "lastUpdated": "2026-11-25T01:49:55.267553Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,142 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1795539600000,
+      "teamId": "10060",
+      "id": "boyuhoofmwvcg2n4",
+      "seq": 141518,
+      "desc": "Taylor signed a two-year, $17 million contract with the White Sox on Tuesday, Mark Feinsand of MLB.com reports.",
+      "player": {
+        "name": "Tyrone Taylor",
+        "posShortNames": "LF",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02mx2_96_10.png",
+        "scorerId": "02mx2",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10050",
+      "id": "3odn28pemwv3su77",
+      "seq": 141517,
+      "desc": "The Blue Jays and Taira agreed to a five-year, $80 million contract Tuesday, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Kaima Taira",
+        "posShortNames": "RP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "06ag9",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10080",
+      "id": "h72alvhjmwv2gdr8",
+      "seq": 141516,
+      "desc": "The Tigers and Kim agreed to a one-year, $5 million contract Tuesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Ha-seong Kim",
+        "posShortNames": "SS",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ajg_96_10.png",
+        "scorerId": "05ajg",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10010",
+      "id": "naluolesmwuy4q6w",
+      "seq": 141515,
+      "desc": "The Orioles and Peralta agreed to a five-year, $125 million contract Tuesday, Ken Rosenthal of The Athletic reports.",
+      "player": {
+        "name": "Freddy Peralta",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dc4_96_12.png",
+        "scorerId": "03dc4",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10070",
+      "id": "4j8kv0pgmwuy4q5a",
+      "seq": 141514,
+      "desc": "The Guardians and Bubic agreed to a one-year, $17.5 million contract Tuesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Kris Bubic",
+        "posShortNames": "SP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmb_96_9.png",
+        "scorerId": "04pmb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10200",
+      "id": "4p31dm9umwuy4q2n",
+      "seq": 141513,
+      "desc": "The Cubs and Sato agreed to a six-year, $120 million contract Tuesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Teruaki Sato",
+        "posShortNames": "3B",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "",
+        "scorerId": "06hj6",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1795453200000,
       "teamId": "10200",
       "id": "41z5bna2mwu9rd1u",
@@ -563,142 +699,147 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10121",
-      "id": "qibt3j7pmwppnz8r",
-      "seq": 141488,
-      "desc": "Juenger cleared waivers and was outrighted to Triple-A Las Vegas on Friday.",
-      "player": {
-        "name": "Hayden Juenger",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "",
-        "scorerId": "05xsv",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10230",
-      "id": "3qzczeo2mwppnz7v",
-      "seq": 141487,
-      "desc": "Hall signed a one-year contract with the Brewers on Friday to avoid arbitration.",
-      "player": {
-        "name": "DL Hall",
-        "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aeh_96_5.png",
-        "scorerId": "04aeh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10110",
-      "id": "1mh6bxjbmwppnz70",
-      "seq": 141486,
-      "desc": "Saucedo agreed to a one-year, $1.3 million contract with the Angels on Friday.",
-      "player": {
-        "name": "Tayler Saucedo",
-        "posShortNames": "RP",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qx9_96_4.png",
-        "scorerId": "03qx9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10230",
-      "id": "uadrz2q5mwppnz61",
-      "seq": 141485,
-      "desc": "Anderson signed a one-year contract with the Brewers on Friday to avoid arbitration.",
-      "player": {
-        "name": "Grant Anderson",
-        "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3y_96_2.png",
-        "scorerId": "04q3y",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10230",
-      "id": "0uucn565mwppnz50",
-      "seq": 141484,
-      "desc": "Ortiz signed a one-year contract with the Brewers on Friday to avoid arbitration.",
-      "player": {
-        "name": "Joey Ortiz",
-        "posShortNames": "SS",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0513c_96_4.png",
-        "scorerId": "0513c",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10110",
-      "id": "47jebo9emwppnz44",
-      "seq": 141483,
-      "desc": "Bachman agreed to a one-year, $1.05 million contract with the Angels on Friday.",
-      "player": {
-        "name": "Sam Bachman",
-        "posShortNames": "RP",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05rb4_96_5.png",
-        "scorerId": "05rb4",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1795539600000,
+      "teamId": "10060",
+      "id": "boyuhoofmwvcg2n4",
+      "seq": 141518,
+      "desc": "Taylor signed a two-year, $17 million contract with the White Sox on Tuesday, Mark Feinsand of MLB.com reports.",
+      "player": {
+        "name": "Tyrone Taylor",
+        "posShortNames": "LF",
+        "teamShortName": "CHW",
+        "teamName": "Chicago White Sox",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02mx2_96_10.png",
+        "scorerId": "02mx2",
+        "posIds": [
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10050",
+      "id": "3odn28pemwv3su77",
+      "seq": 141517,
+      "desc": "The Blue Jays and Taira agreed to a five-year, $80 million contract Tuesday, Jon Heyman of the New York Post reports.",
+      "player": {
+        "name": "Kaima Taira",
+        "posShortNames": "RP",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "",
+        "scorerId": "06ag9",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10080",
+      "id": "h72alvhjmwv2gdr8",
+      "seq": 141516,
+      "desc": "The Tigers and Kim agreed to a one-year, $5 million contract Tuesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Ha-seong Kim",
+        "posShortNames": "SS",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ajg_96_10.png",
+        "scorerId": "05ajg",
+        "posIds": [
+          "005"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10010",
+      "id": "naluolesmwuy4q6w",
+      "seq": 141515,
+      "desc": "The Orioles and Peralta agreed to a five-year, $125 million contract Tuesday, Ken Rosenthal of The Athletic reports.",
+      "player": {
+        "name": "Freddy Peralta",
+        "posShortNames": "SP",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dc4_96_12.png",
+        "scorerId": "03dc4",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10070",
+      "id": "4j8kv0pgmwuy4q5a",
+      "seq": 141514,
+      "desc": "The Guardians and Bubic agreed to a one-year, $17.5 million contract Tuesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Kris Bubic",
+        "posShortNames": "SP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pmb_96_9.png",
+        "scorerId": "04pmb",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10200",
+      "id": "4p31dm9umwuy4q2n",
+      "seq": 141513,
+      "desc": "The Cubs and Sato agreed to a six-year, $120 million contract Tuesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Teruaki Sato",
+        "posShortNames": "3B",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "",
+        "scorerId": "06hj6",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
       "displayDate": 1795453200000,
       "teamId": "10200",
       "id": "41z5bna2mwu9rd1u",
@@ -1255,137 +1396,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10121",
-      "id": "qibt3j7pmwppnz8r",
-      "seq": 141488,
-      "desc": "Juenger cleared waivers and was outrighted to Triple-A Las Vegas on Friday.",
-      "player": {
-        "name": "Hayden Juenger",
-        "posShortNames": "RP",
-        "teamShortName": "ATH",
-        "teamName": "Athletics",
-        "headshotUrl": "",
-        "scorerId": "05xsv",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10230",
-      "id": "3qzczeo2mwppnz7v",
-      "seq": 141487,
-      "desc": "Hall signed a one-year contract with the Brewers on Friday to avoid arbitration.",
-      "player": {
-        "name": "DL Hall",
-        "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04aeh_96_5.png",
-        "scorerId": "04aeh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10110",
-      "id": "1mh6bxjbmwppnz70",
-      "seq": 141486,
-      "desc": "Saucedo agreed to a one-year, $1.3 million contract with the Angels on Friday.",
-      "player": {
-        "name": "Tayler Saucedo",
-        "posShortNames": "RP",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qx9_96_4.png",
-        "scorerId": "03qx9",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10230",
-      "id": "uadrz2q5mwppnz61",
-      "seq": 141485,
-      "desc": "Anderson signed a one-year contract with the Brewers on Friday to avoid arbitration.",
-      "player": {
-        "name": "Grant Anderson",
-        "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04q3y_96_2.png",
-        "scorerId": "04q3y",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10230",
-      "id": "0uucn565mwppnz50",
-      "seq": 141484,
-      "desc": "Ortiz signed a one-year contract with the Brewers on Friday to avoid arbitration.",
-      "player": {
-        "name": "Joey Ortiz",
-        "posShortNames": "SS",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0513c_96_4.png",
-        "scorerId": "0513c",
-        "posIds": [
-          "005"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10110",
-      "id": "47jebo9emwppnz44",
-      "seq": 141483,
-      "desc": "Bachman agreed to a one-year, $1.05 million contract with the Angels on Friday.",
-      "player": {
-        "name": "Sam Bachman",
-        "posShortNames": "RP",
-        "teamShortName": "LAA",
-        "teamName": "Los Angeles Angels",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05rb4_96_5.png",
-        "scorerId": "05rb4",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
