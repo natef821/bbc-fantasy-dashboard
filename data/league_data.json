@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T01:49:55.267553Z",
+  "lastUpdated": "2026-11-25T16:39:27.873869Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -7,6 +7,74 @@
   "seasonStats": {},
   "transactions": [
     {
+      "displayDate": 1795626000000,
+      "teamId": "10180",
+      "id": "24atfgz3mwwc0u8m",
+      "seq": 141521,
+      "desc": "The Royals and Bohm agreed to a contract Wednesday, Jon Morosi of MLB Network reports",
+      "player": {
+        "name": "Alec Bohm",
+        "posShortNames": "3B",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mn5_96_9.png",
+        "scorerId": "04mn5",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10150",
+      "id": "1o6wytd0mwvl3ewl",
+      "seq": 141520,
+      "desc": "Santana signed a minor-league contract with the Mariners on Tuesday, Will Sammon of The Athletic reports.",
+      "player": {
+        "name": "Carlos Santana",
+        "posShortNames": "1B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01cfr_96_15.png",
+        "scorerId": "01cfr",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10210",
+      "id": "lk6evukqmwvl3eu3",
+      "seq": 141519,
+      "desc": "Stephenson signed a three-year, $30 million contract with the Reds on Tuesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Tyler Stephenson",
+        "posShortNames": "C",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pix_96_10.png",
+        "scorerId": "03pix",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1795539600000,
       "teamId": "10060",
       "id": "boyuhoofmwvcg2n4",
@@ -630,80 +698,79 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10050",
-      "id": "btd96nvgmwppnzbj",
-      "seq": 141491,
-      "desc": "The Blue Jays non-tendered Schneider on Friday.",
-      "player": {
-        "name": "Davis Schneider",
-        "posShortNames": "LF,2B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04o2x_96_3.png",
-        "scorerId": "04o2x",
-        "posIds": [
-          "009",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10040",
-      "id": "xy9cn6himwppnzam",
-      "seq": 141490,
-      "desc": "The Rays non-tendered Sulser on Friday, Mark Feinsand of MLB.com reports.",
-      "player": {
-        "name": "Cole Sulser",
-        "posShortNames": "RP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031hc_96_10.png",
-        "scorerId": "031hc",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10230",
-      "id": "rvr2zwuumwppnz9p",
-      "seq": 141489,
-      "desc": "Walker signed a one-year contract with the Brewers on Friday to avoid arbitration.",
-      "player": {
-        "name": "Ryan Walker",
-        "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066n3_96_2.png",
-        "scorerId": "066n3",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1795626000000,
+      "teamId": "10180",
+      "id": "24atfgz3mwwc0u8m",
+      "seq": 141521,
+      "desc": "The Royals and Bohm agreed to a contract Wednesday, Jon Morosi of MLB Network reports",
+      "player": {
+        "name": "Alec Bohm",
+        "posShortNames": "3B",
+        "teamShortName": "KC",
+        "teamName": "Kansas City Royals",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04mn5_96_9.png",
+        "scorerId": "04mn5",
+        "posIds": [
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10150",
+      "id": "1o6wytd0mwvl3ewl",
+      "seq": 141520,
+      "desc": "Santana signed a minor-league contract with the Mariners on Tuesday, Will Sammon of The Athletic reports.",
+      "player": {
+        "name": "Carlos Santana",
+        "posShortNames": "1B",
+        "teamShortName": "SEA",
+        "teamName": "Seattle Mariners",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01cfr_96_15.png",
+        "scorerId": "01cfr",
+        "posIds": [
+          "002"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795539600000,
+      "teamId": "10210",
+      "id": "lk6evukqmwvl3eu3",
+      "seq": 141519,
+      "desc": "Stephenson signed a three-year, $30 million contract with the Reds on Tuesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Tyler Stephenson",
+        "posShortNames": "C",
+        "teamShortName": "CIN",
+        "teamName": "Cincinnati Reds",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03pix_96_10.png",
+        "scorerId": "03pix",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1795539600000,
       "teamId": "10060",
       "id": "boyuhoofmwvcg2n4",
@@ -1327,75 +1394,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10050",
-      "id": "btd96nvgmwppnzbj",
-      "seq": 141491,
-      "desc": "The Blue Jays non-tendered Schneider on Friday.",
-      "player": {
-        "name": "Davis Schneider",
-        "posShortNames": "LF,2B",
-        "teamShortName": "TOR",
-        "teamName": "Toronto Blue Jays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04o2x_96_3.png",
-        "scorerId": "04o2x",
-        "posIds": [
-          "009",
-          "003"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10040",
-      "id": "xy9cn6himwppnzam",
-      "seq": 141490,
-      "desc": "The Rays non-tendered Sulser on Friday, Mark Feinsand of MLB.com reports.",
-      "player": {
-        "name": "Cole Sulser",
-        "posShortNames": "RP",
-        "teamShortName": "TB",
-        "teamName": "Tampa Bay Rays",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs031hc_96_10.png",
-        "scorerId": "031hc",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10230",
-      "id": "rvr2zwuumwppnz9p",
-      "seq": 141489,
-      "desc": "Walker signed a one-year contract with the Brewers on Friday to avoid arbitration.",
-      "player": {
-        "name": "Ryan Walker",
-        "posShortNames": "RP",
-        "teamShortName": "MIL",
-        "teamName": "Milwaukee Brewers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs066n3_96_2.png",
-        "scorerId": "066n3",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
