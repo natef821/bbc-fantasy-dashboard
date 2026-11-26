@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T01:27:11.297194Z",
+  "lastUpdated": "2026-11-26T16:13:18.712097Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -8,6 +8,111 @@
   "transactions": [
     {
       "displayDate": 1795626000000,
+      "teamId": "10100",
+      "id": "v3gnb2b6mwx0rzyf",
+      "seq": 141533,
+      "desc": "Ginkel signed a two-year, $18 million contract with the Twins on Wednesday, Mark Feinsand of MLB.com reports.",
+      "player": {
+        "name": "Kevin Ginkel",
+        "posShortNames": "RP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dpg_96_9.png",
+        "scorerId": "03dpg",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10020",
+      "id": "98tpxxgemwwwgc4n",
+      "seq": 141532,
+      "desc": "Sandoval signed a three-year, $42 million contract with the Rockies on Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Patrick Sandoval",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qpi_96_9.png",
+        "scorerId": "03qpi",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10010",
+      "id": "pjfw0cb9mwwwgc33",
+      "seq": 141531,
+      "desc": "Robert signed a one-year, $12 million contract with the Orioles on Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Luis Robert Jr.",
+        "posShortNames": "CF",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047l7_96_10.png",
+        "scorerId": "047l7",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10270",
+      "id": "cd53v3yjmwwwgc19",
+      "seq": 141530,
+      "desc": "Peterson signed a two-year, $32 million contract with the Rockies on Wednesday, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "David Peterson",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04g1x_96_10.png",
+        "scorerId": "04g1x",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10080",
+      "id": "ze8svmyjmwwwgbyq",
+      "seq": 141529,
+      "desc": "Gausman signed a one-year, $25 million contract with the Tigers on Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Kevin Gausman",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hi7_96_17.png",
+        "scorerId": "02hi7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
       "teamId": "10070",
       "id": "2mi98y8pmwws4o25",
       "seq": 141528,
@@ -562,134 +667,117 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10200",
-      "id": "83xyxxpfmwppnzml",
-      "seq": 141503,
-      "desc": "The Cubs non-tendered Roberts on Friday.",
-      "player": {
-        "name": "Ethan Roberts",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pql_96_3.png",
-        "scorerId": "04pql",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10200",
-      "id": "7dqm0hdrmwppnzlq",
-      "seq": 141502,
-      "desc": "The Cubs non-tendered Arias on Friday, Vinnie Duber of the Chicago Sun-Times reports.",
-      "player": {
-        "name": "Gabriel Arias",
-        "posShortNames": "3B",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0414h_96_7.png",
-        "scorerId": "0414h",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10210",
-      "id": "exd6m6oqmwppnzkr",
-      "seq": 141501,
-      "desc": "The Reds non-tendered Balcazar on Friday.",
-      "player": {
-        "name": "Leo Balcazar",
-        "posShortNames": "SS,2B,3B",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "",
-        "scorerId": "05unp",
-        "posIds": [
-          "005",
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10170",
-      "id": "o1400x01mwppnzjv",
-      "seq": 141500,
-      "desc": "The Mets claimed Varland off waivers from the Nationals on Friday.",
-      "player": {
-        "name": "Gus Varland",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxq_96_5.png",
-        "scorerId": "04pxq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10290",
-      "id": "d8dt4n0tmwppnzj0",
-      "seq": 141499,
-      "desc": "The Padres non-tendered Sears on Friday.",
-      "player": {
-        "name": "J.P. Sears",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eld_96_4.png",
-        "scorerId": "04eld",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1795626000000,
+      "teamId": "10100",
+      "id": "v3gnb2b6mwx0rzyf",
+      "seq": 141533,
+      "desc": "Ginkel signed a two-year, $18 million contract with the Twins on Wednesday, Mark Feinsand of MLB.com reports.",
+      "player": {
+        "name": "Kevin Ginkel",
+        "posShortNames": "RP",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03dpg_96_9.png",
+        "scorerId": "03dpg",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10020",
+      "id": "98tpxxgemwwwgc4n",
+      "seq": 141532,
+      "desc": "Sandoval signed a three-year, $42 million contract with the Rockies on Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Patrick Sandoval",
+        "posShortNames": "SP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03qpi_96_9.png",
+        "scorerId": "03qpi",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10010",
+      "id": "pjfw0cb9mwwwgc33",
+      "seq": 141531,
+      "desc": "Robert signed a one-year, $12 million contract with the Orioles on Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Luis Robert Jr.",
+        "posShortNames": "CF",
+        "teamShortName": "BAL",
+        "teamName": "Baltimore Orioles",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs047l7_96_10.png",
+        "scorerId": "047l7",
+        "posIds": [
+          "010"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10270",
+      "id": "cd53v3yjmwwwgc19",
+      "seq": 141530,
+      "desc": "Peterson signed a two-year, $32 million contract with the Rockies on Wednesday, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "David Peterson",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04g1x_96_10.png",
+        "scorerId": "04g1x",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10080",
+      "id": "ze8svmyjmwwwgbyq",
+      "seq": 141529,
+      "desc": "Gausman signed a one-year, $25 million contract with the Tigers on Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Kevin Gausman",
+        "posShortNames": "SP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hi7_96_17.png",
+        "scorerId": "02hi7",
+        "posIds": [
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
       "teamId": "10070",
       "id": "2mi98y8pmwws4o25",
       "seq": 141528,
@@ -1244,128 +1332,6 @@
         "rookie": false,
         "minorsEligible": false,
         "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10200",
-      "id": "83xyxxpfmwppnzml",
-      "seq": 141503,
-      "desc": "The Cubs non-tendered Roberts on Friday.",
-      "player": {
-        "name": "Ethan Roberts",
-        "posShortNames": "RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pql_96_3.png",
-        "scorerId": "04pql",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10200",
-      "id": "7dqm0hdrmwppnzlq",
-      "seq": 141502,
-      "desc": "The Cubs non-tendered Arias on Friday, Vinnie Duber of the Chicago Sun-Times reports.",
-      "player": {
-        "name": "Gabriel Arias",
-        "posShortNames": "3B",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0414h_96_7.png",
-        "scorerId": "0414h",
-        "posIds": [
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10210",
-      "id": "exd6m6oqmwppnzkr",
-      "seq": 141501,
-      "desc": "The Reds non-tendered Balcazar on Friday.",
-      "player": {
-        "name": "Leo Balcazar",
-        "posShortNames": "SS,2B,3B",
-        "teamShortName": "CIN",
-        "teamName": "Cincinnati Reds",
-        "headshotUrl": "",
-        "scorerId": "05unp",
-        "posIds": [
-          "005",
-          "003",
-          "004"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10170",
-      "id": "o1400x01mwppnzjv",
-      "seq": 141500,
-      "desc": "The Mets claimed Varland off waivers from the Nationals on Friday.",
-      "player": {
-        "name": "Gus Varland",
-        "posShortNames": "RP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pxq_96_5.png",
-        "scorerId": "04pxq",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10290",
-      "id": "d8dt4n0tmwppnzj0",
-      "seq": 141499,
-      "desc": "The Padres non-tendered Sears on Friday.",
-      "player": {
-        "name": "J.P. Sears",
-        "posShortNames": "SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04eld_96_4.png",
-        "scorerId": "04eld",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
       }
     }
   ],
