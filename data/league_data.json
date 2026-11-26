@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T16:39:27.873869Z",
+  "lastUpdated": "2026-11-26T01:27:11.297194Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -8,10 +8,169 @@
   "transactions": [
     {
       "displayDate": 1795626000000,
-      "teamId": "10180",
+      "teamId": "10070",
+      "id": "2mi98y8pmwws4o25",
+      "seq": 141528,
+      "desc": "Griffin signed a three-year, $48 million contract with the Guardians on Wednesday, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "Foster Griffin",
+        "posShortNames": "SP,RP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03caf_96_6.png",
+        "scorerId": "03caf",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10170",
+      "id": "6u3xxxv4mwws4o0p",
+      "seq": 141527,
+      "desc": "The Mets designated Tur for assignment Wednesday.",
+      "player": {
+        "name": "Yunior Tur",
+        "posShortNames": "RP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06jbm_96_1.png",
+        "scorerId": "06jbm",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10170",
+      "id": "6yk32t3wmwws4nyy",
+      "seq": 141526,
+      "desc": "The Mets designated Anderson for assignment Wednesday.",
+      "player": {
+        "name": "Jack Anderson",
+        "posShortNames": "RP,SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "",
+        "scorerId": "060uk",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10160",
+      "id": "ljbt03c2mwws4nwi",
+      "seq": 141525,
+      "desc": "Sanchez signed a one-year, $6.5 million contract with the Marlins on Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Gary Sanchez",
+        "posShortNames": "C",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01t9q_96_15.png",
+        "scorerId": "01t9q",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10230",
+      "id": "pncdjeuimwwnt0fk",
+      "seq": 141524,
+      "desc": "The Padres and Romero agreed to a contract Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "JoJo Romero",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rj_96_9.png",
+        "scorerId": "041rj",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10230",
+      "id": "uxp3obp3mwwjhcp5",
+      "seq": 141523,
+      "desc": "The Brewers designated Black for assignment Wednesday.",
+      "player": {
+        "name": "Tyler Black",
+        "posShortNames": "DH",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05u2u_96_1.png",
+        "scorerId": "05u2u",
+        "posIds": [
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10230",
+      "id": "fdwgyd7qmwwjhcnh",
+      "seq": 141522,
+      "desc": "The Brewers re-signed Senzatela to a one-year contract Wednesday.",
+      "player": {
+        "name": "Antonio Senzatela",
+        "posShortNames": "RP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02zoa_96_15.png",
+        "scorerId": "02zoa",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10090",
       "id": "24atfgz3mwwc0u8m",
       "seq": 141521,
-      "desc": "The Royals and Bohm agreed to a contract Wednesday, Jon Morosi of MLB Network reports",
+      "desc": "The Royals and Bohm agreed to a two-year, $20 million contract Wednesday, Jon Morosi of MLB Network reports",
       "player": {
         "name": "Alec Bohm",
         "posShortNames": "3B",
@@ -525,189 +684,175 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10190",
-      "id": "nmp5b4w7mwppnzi4",
-      "seq": 141498,
-      "desc": "The Nationals non-tendered Simpson on Friday, Bob Nightengale of USA Today reports.",
-      "player": {
-        "name": "Jared Simpson",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "06fqh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10290",
-      "id": "kja9ljs3mwppnzh7",
-      "seq": 141497,
-      "desc": "The Padres non-tendered Hawkins on Friday.",
-      "player": {
-        "name": "Garrett Hawkins",
-        "posShortNames": "RP,SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "",
-        "scorerId": "05yc8",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10190",
-      "id": "s4d3uonomwppnzgb",
-      "seq": 141496,
-      "desc": "The Nationals non-tendered Palmquist on Friday, Bob Nightengale of USA Today reports.",
-      "player": {
-        "name": "Carson Palmquist",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ybw_96_3.png",
-        "scorerId": "05ybw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10290",
-      "id": "z51wleejmwppnzfa",
-      "seq": 141495,
-      "desc": "Brito signed a one-year contract with the Padres on Friday to avoid arbitration.",
-      "player": {
-        "name": "Jhony Brito",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050ih_96_3.png",
-        "scorerId": "050ih",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10190",
-      "id": "tiq2p86hmwppnzee",
-      "seq": 141494,
-      "desc": "The Nationals non-tendered Gray on Friday, Bob Nightengale of USA Today reports.",
-      "player": {
-        "name": "Josiah Gray",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pn3_96_9.png",
-        "scorerId": "04pn3",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10260",
-      "id": "unbs3ffcmwppnzdf",
-      "seq": 141493,
-      "desc": "The Diamondbacks non-tendered Walston on Friday",
-      "player": {
-        "name": "Blake Walston",
-        "posShortNames": "SP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050s3_96_3.png",
-        "scorerId": "050s3",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10300",
-      "id": "h3uu1viumwppnzce",
-      "seq": 141492,
-      "desc": "Doval signed a one-year, $6.3 million contract with the Giants on Friday to avoid arbitration, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Camilo Doval",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04k0w_96_8.png",
-        "scorerId": "04k0w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1795626000000,
-      "teamId": "10180",
+      "teamId": "10070",
+      "id": "2mi98y8pmwws4o25",
+      "seq": 141528,
+      "desc": "Griffin signed a three-year, $48 million contract with the Guardians on Wednesday, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "Foster Griffin",
+        "posShortNames": "SP,RP",
+        "teamShortName": "CLE",
+        "teamName": "Cleveland Guardians",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03caf_96_6.png",
+        "scorerId": "03caf",
+        "posIds": [
+          "015",
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10170",
+      "id": "6u3xxxv4mwws4o0p",
+      "seq": 141527,
+      "desc": "The Mets designated Tur for assignment Wednesday.",
+      "player": {
+        "name": "Yunior Tur",
+        "posShortNames": "RP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06jbm_96_1.png",
+        "scorerId": "06jbm",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10170",
+      "id": "6yk32t3wmwws4nyy",
+      "seq": 141526,
+      "desc": "The Mets designated Anderson for assignment Wednesday.",
+      "player": {
+        "name": "Jack Anderson",
+        "posShortNames": "RP,SP",
+        "teamShortName": "NYM",
+        "teamName": "New York Mets",
+        "headshotUrl": "",
+        "scorerId": "060uk",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10160",
+      "id": "ljbt03c2mwws4nwi",
+      "seq": 141525,
+      "desc": "Sanchez signed a one-year, $6.5 million contract with the Marlins on Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Gary Sanchez",
+        "posShortNames": "C",
+        "teamShortName": "MIA",
+        "teamName": "Miami Marlins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01t9q_96_15.png",
+        "scorerId": "01t9q",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10230",
+      "id": "pncdjeuimwwnt0fk",
+      "seq": 141524,
+      "desc": "The Padres and Romero agreed to a contract Wednesday, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "JoJo Romero",
+        "posShortNames": "RP",
+        "teamShortName": "SD",
+        "teamName": "San Diego Padres",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs041rj_96_9.png",
+        "scorerId": "041rj",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10230",
+      "id": "uxp3obp3mwwjhcp5",
+      "seq": 141523,
+      "desc": "The Brewers designated Black for assignment Wednesday.",
+      "player": {
+        "name": "Tyler Black",
+        "posShortNames": "DH",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05u2u_96_1.png",
+        "scorerId": "05u2u",
+        "posIds": [
+          "013"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10230",
+      "id": "fdwgyd7qmwwjhcnh",
+      "seq": 141522,
+      "desc": "The Brewers re-signed Senzatela to a one-year contract Wednesday.",
+      "player": {
+        "name": "Antonio Senzatela",
+        "posShortNames": "RP",
+        "teamShortName": "MIL",
+        "teamName": "Milwaukee Brewers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02zoa_96_15.png",
+        "scorerId": "02zoa",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795626000000,
+      "teamId": "10090",
       "id": "24atfgz3mwwc0u8m",
       "seq": 141521,
-      "desc": "The Royals and Bohm agreed to a contract Wednesday, Jon Morosi of MLB Network reports",
+      "desc": "The Royals and Bohm agreed to a two-year, $20 million contract Wednesday, Jon Morosi of MLB Network reports",
       "player": {
         "name": "Alec Bohm",
         "posShortNames": "3B",
@@ -1221,179 +1366,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10190",
-      "id": "nmp5b4w7mwppnzi4",
-      "seq": 141498,
-      "desc": "The Nationals non-tendered Simpson on Friday, Bob Nightengale of USA Today reports.",
-      "player": {
-        "name": "Jared Simpson",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "",
-        "scorerId": "06fqh",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10290",
-      "id": "kja9ljs3mwppnzh7",
-      "seq": 141497,
-      "desc": "The Padres non-tendered Hawkins on Friday.",
-      "player": {
-        "name": "Garrett Hawkins",
-        "posShortNames": "RP,SP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "",
-        "scorerId": "05yc8",
-        "posIds": [
-          "016",
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10190",
-      "id": "s4d3uonomwppnzgb",
-      "seq": 141496,
-      "desc": "The Nationals non-tendered Palmquist on Friday, Bob Nightengale of USA Today reports.",
-      "player": {
-        "name": "Carson Palmquist",
-        "posShortNames": "RP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05ybw_96_3.png",
-        "scorerId": "05ybw",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10290",
-      "id": "z51wleejmwppnzfa",
-      "seq": 141495,
-      "desc": "Brito signed a one-year contract with the Padres on Friday to avoid arbitration.",
-      "player": {
-        "name": "Jhony Brito",
-        "posShortNames": "RP",
-        "teamShortName": "SD",
-        "teamName": "San Diego Padres",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050ih_96_3.png",
-        "scorerId": "050ih",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10190",
-      "id": "tiq2p86hmwppnzee",
-      "seq": 141494,
-      "desc": "The Nationals non-tendered Gray on Friday, Bob Nightengale of USA Today reports.",
-      "player": {
-        "name": "Josiah Gray",
-        "posShortNames": "SP",
-        "teamShortName": "WSH",
-        "teamName": "Washington Nationals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04pn3_96_9.png",
-        "scorerId": "04pn3",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10260",
-      "id": "unbs3ffcmwppnzdf",
-      "seq": 141493,
-      "desc": "The Diamondbacks non-tendered Walston on Friday",
-      "player": {
-        "name": "Blake Walston",
-        "posShortNames": "SP",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs050s3_96_3.png",
-        "scorerId": "050s3",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10300",
-      "id": "h3uu1viumwppnzce",
-      "seq": 141492,
-      "desc": "Doval signed a one-year, $6.3 million contract with the Giants on Friday to avoid arbitration, Jon Heyman of the New York Post reports.",
-      "player": {
-        "name": "Camilo Doval",
-        "posShortNames": "RP",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04k0w_96_8.png",
-        "scorerId": "04k0w",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
