@@ -1,11 +1,148 @@
 {
-  "lastUpdated": "2026-11-27T15:58:25.139738Z",
+  "lastUpdated": "2026-11-28T00:57:40.117747Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
   "schedule": {},
   "seasonStats": {},
   "transactions": [
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10080",
+      "id": "46s7ikp0mwzm00xj",
+      "seq": 141539,
+      "desc": "The Tigers designated Cheng for assignment Friday, Chris McCosky of The Detroit News reports.",
+      "player": {
+        "name": "Tsung-Che Cheng",
+        "posShortNames": "SS,2B",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y34_96_2.png",
+        "scorerId": "05y34",
+        "posIds": [
+          "005",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10080",
+      "id": "rg0671wbmwzm00vo",
+      "seq": 141538,
+      "desc": "The Tigers designated Brieske for assignment Friday, Chris McCosky of The Detroit News reports.",
+      "player": {
+        "name": "Beau Brieske",
+        "posShortNames": "RP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t6u_96_5.png",
+        "scorerId": "05t6u",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10240",
+      "id": "svuvttinmwziqzq9",
+      "seq": 141536,
+      "desc": "The Arizona Diamondbacks traded 1B Tim Tawa to the Pittsburgh Pirates.",
+      "player": {
+        "name": "Tim Tawa",
+        "posShortNames": "1B,2B,LF",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y4m_96_2.png",
+        "scorerId": "05y4m",
+        "posIds": [
+          "002",
+          "003",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10260",
+      "id": "eyxxn79jmwziqzlt",
+      "seq": 141536,
+      "desc": "The Pittsburgh Pirates traded C Henry Davis to the Arizona Diamondbacks.",
+      "player": {
+        "name": "Henry Davis",
+        "posShortNames": "C",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oxc_96_5.png",
+        "scorerId": "05oxc",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10030",
+      "id": "2c1ouifgmwzhoewu",
+      "seq": 141535,
+      "desc": "The Blue Jays and Chisholm agreed to a one-year, $20 million contract Friday, Jeff Passan of ESPN.com reports. The deal includes a $16 million club option (or $1.5 million buyout) for 2028.",
+      "player": {
+        "name": "Jazz Chisholm Jr.",
+        "posShortNames": "2B,3B",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs045qo_96_10.png",
+        "scorerId": "045qo",
+        "posIds": [
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10260",
+      "id": "bh1ns4zimwzdcqaz",
+      "seq": 141534,
+      "desc": "The Pirates acquired Tawa from the Diamondbacks on Friday in exchange for Henry Davis, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Tim Tawa",
+        "posShortNames": "1B,2B,LF",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y4m_96_2.png",
+        "scorerId": "05y4m",
+        "posIds": [
+          "002",
+          "003",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
     {
       "displayDate": 1795626000000,
       "teamId": "10100",
@@ -531,138 +668,6 @@
         "scorerId": "03cav",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795453200000,
-      "teamId": "10170",
-      "id": "t72ccd4amwtiow4h",
-      "seq": 141509,
-      "desc": "The Mets agreed to a contract with Goldschmidt on Monday, Robert Murray of FanSided.com reports.",
-      "player": {
-        "name": "Paul Goldschmidt",
-        "posShortNames": "1B",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01ual_96_16.png",
-        "scorerId": "01ual",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795366800000,
-      "teamId": "10280",
-      "id": "tu58qhudmwsg7y4y",
-      "seq": 141508,
-      "desc": "Skubal agreed to a nine-year, $450 million contract with the Mets on Sunday, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "Tarik Skubal",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ptt_96_10.png",
-        "scorerId": "04ptt",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795366800000,
-      "teamId": "10080",
-      "id": "bkb52wwkmwsbwbr7",
-      "seq": 141507,
-      "desc": "Gil agreed to a one-year, $2.3 million contract with the Tigers on Sunday, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "Luis Gil",
-        "posShortNames": "SP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04s1h_96_9.png",
-        "scorerId": "04s1h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795280400000,
-      "teamId": "10170",
-      "id": "x22n0bf4mwqs4ptf",
-      "seq": 141506,
-      "desc": "Ewing and the Mets agreed to an eight-year, $95 million contract extension Saturday, Chelsea Janes of SNY.tv reports.",
-      "player": {
-        "name": "A.J. Ewing",
-        "posShortNames": "CF",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06dn7_96_2.png",
-        "scorerId": "06dn7",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10200",
-      "id": "t9k142l5mwpw5p10",
-      "seq": 141505,
-      "desc": "The Washington Nationals traded RP Braxton Roxby to the Chicago Cubs.",
-      "player": {
-        "name": "Braxton Roxby",
-        "posShortNames": "SP,RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "",
-        "scorerId": "05rkx",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10300",
-      "id": "yopcb6gcmwptzlgo",
-      "seq": 141504,
-      "desc": "The Giants non-tendered Bericoto on Friday, John Shea of the San Francisco Chronicle reports.",
-      "player": {
-        "name": "Victor Bericoto",
-        "posShortNames": "LF",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051wu_96_3.png",
-        "scorerId": "051wu",
-        "posIds": [
-          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -672,6 +677,143 @@
   ],
   "mlbTransactions": [
     {
+      "displayDate": 1795798800000,
+      "teamId": "10080",
+      "id": "46s7ikp0mwzm00xj",
+      "seq": 141539,
+      "desc": "The Tigers designated Cheng for assignment Friday, Chris McCosky of The Detroit News reports.",
+      "player": {
+        "name": "Tsung-Che Cheng",
+        "posShortNames": "SS,2B",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y34_96_2.png",
+        "scorerId": "05y34",
+        "posIds": [
+          "005",
+          "003"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10080",
+      "id": "rg0671wbmwzm00vo",
+      "seq": 141538,
+      "desc": "The Tigers designated Brieske for assignment Friday, Chris McCosky of The Detroit News reports.",
+      "player": {
+        "name": "Beau Brieske",
+        "posShortNames": "RP",
+        "teamShortName": "DET",
+        "teamName": "Detroit Tigers",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05t6u_96_5.png",
+        "scorerId": "05t6u",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10240",
+      "id": "svuvttinmwziqzq9",
+      "seq": 141536,
+      "desc": "The Arizona Diamondbacks traded 1B Tim Tawa to the Pittsburgh Pirates.",
+      "player": {
+        "name": "Tim Tawa",
+        "posShortNames": "1B,2B,LF",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y4m_96_2.png",
+        "scorerId": "05y4m",
+        "posIds": [
+          "002",
+          "003",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10260",
+      "id": "eyxxn79jmwziqzlt",
+      "seq": 141536,
+      "desc": "The Pittsburgh Pirates traded C Henry Davis to the Arizona Diamondbacks.",
+      "player": {
+        "name": "Henry Davis",
+        "posShortNames": "C",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oxc_96_5.png",
+        "scorerId": "05oxc",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10030",
+      "id": "2c1ouifgmwzhoewu",
+      "seq": 141535,
+      "desc": "The Blue Jays and Chisholm agreed to a one-year, $20 million contract Friday, Jeff Passan of ESPN.com reports. The deal includes a $16 million club option (or $1.5 million buyout) for 2028.",
+      "player": {
+        "name": "Jazz Chisholm Jr.",
+        "posShortNames": "2B,3B",
+        "teamShortName": "TOR",
+        "teamName": "Toronto Blue Jays",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs045qo_96_10.png",
+        "scorerId": "045qo",
+        "posIds": [
+          "003",
+          "004"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10260",
+      "id": "bh1ns4zimwzdcqaz",
+      "seq": 141534,
+      "desc": "The Pirates acquired Tawa from the Diamondbacks on Friday in exchange for Henry Davis, Jeff Passan of ESPN.com reports.",
+      "player": {
+        "name": "Tim Tawa",
+        "posShortNames": "1B,2B,LF",
+        "teamShortName": "PIT",
+        "teamName": "Pittsburgh Pirates",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05y4m_96_2.png",
+        "scorerId": "05y4m",
+        "posIds": [
+          "002",
+          "003",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
       "displayDate": 1795626000000,
       "teamId": "10100",
       "id": "v3gnb2b6mwx0rzyf",
@@ -1196,138 +1338,6 @@
         "scorerId": "03cav",
         "posIds": [
           "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795453200000,
-      "teamId": "10170",
-      "id": "t72ccd4amwtiow4h",
-      "seq": 141509,
-      "desc": "The Mets agreed to a contract with Goldschmidt on Monday, Robert Murray of FanSided.com reports.",
-      "player": {
-        "name": "Paul Goldschmidt",
-        "posShortNames": "1B",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs01ual_96_16.png",
-        "scorerId": "01ual",
-        "posIds": [
-          "002"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795366800000,
-      "teamId": "10280",
-      "id": "tu58qhudmwsg7y4y",
-      "seq": 141508,
-      "desc": "Skubal agreed to a nine-year, $450 million contract with the Mets on Sunday, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "Tarik Skubal",
-        "posShortNames": "SP",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ptt_96_10.png",
-        "scorerId": "04ptt",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795366800000,
-      "teamId": "10080",
-      "id": "bkb52wwkmwsbwbr7",
-      "seq": 141507,
-      "desc": "Gil agreed to a one-year, $2.3 million contract with the Tigers on Sunday, Jeff Passan of ESPN.com reports.",
-      "player": {
-        "name": "Luis Gil",
-        "posShortNames": "SP",
-        "teamShortName": "DET",
-        "teamName": "Detroit Tigers",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04s1h_96_9.png",
-        "scorerId": "04s1h",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": [
-          {
-            "tooltip": "Minor Leagues",
-            "typeId": "4"
-          }
-        ]
-      }
-    },
-    {
-      "displayDate": 1795280400000,
-      "teamId": "10170",
-      "id": "x22n0bf4mwqs4ptf",
-      "seq": 141506,
-      "desc": "Ewing and the Mets agreed to an eight-year, $95 million contract extension Saturday, Chelsea Janes of SNY.tv reports.",
-      "player": {
-        "name": "A.J. Ewing",
-        "posShortNames": "CF",
-        "teamShortName": "NYM",
-        "teamName": "New York Mets",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs06dn7_96_2.png",
-        "scorerId": "06dn7",
-        "posIds": [
-          "010"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10200",
-      "id": "t9k142l5mwpw5p10",
-      "seq": 141505,
-      "desc": "The Washington Nationals traded RP Braxton Roxby to the Chicago Cubs.",
-      "player": {
-        "name": "Braxton Roxby",
-        "posShortNames": "SP,RP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "",
-        "scorerId": "05rkx",
-        "posIds": [
-          "015",
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795194000000,
-      "teamId": "10300",
-      "id": "yopcb6gcmwptzlgo",
-      "seq": 141504,
-      "desc": "The Giants non-tendered Bericoto on Friday, John Shea of the San Francisco Chronicle reports.",
-      "player": {
-        "name": "Victor Bericoto",
-        "posShortNames": "LF",
-        "teamShortName": "SF",
-        "teamName": "San Francisco Giants",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs051wu_96_3.png",
-        "scorerId": "051wu",
-        "posIds": [
-          "009"
         ],
         "rookie": false,
         "minorsEligible": false,
