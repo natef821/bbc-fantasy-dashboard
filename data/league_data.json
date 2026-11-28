@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-28T00:57:40.117747Z",
+  "lastUpdated": "2026-11-28T14:55:28.267228Z",
   "leagueId": "n25i1grumg7kg722",
   "season": 2026,
   "standings": [],
@@ -8,6 +8,82 @@
   "transactions": [
     {
       "displayDate": 1795798800000,
+      "teamId": "10030",
+      "id": "69qrxlgemwzyyx6e",
+      "seq": 141543,
+      "desc": "Yarbrough signed a one-year contract with the Cubs on Friday, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "Ryan Yarbrough",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0314j_96_12.png",
+        "scorerId": "0314j",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10280",
+      "id": "ycbyp31dmwzqbn8y",
+      "seq": 141541,
+      "desc": "Fitzgerald signed a one-year, major-league contract with the Twins on Friday, Ken Rosenthal of The Athletic reports.",
+      "player": {
+        "name": "Ryan Fitzgerald",
+        "posShortNames": "3B,1B,LF",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uo0_96_2.png",
+        "scorerId": "05uo0",
+        "posIds": [
+          "004",
+          "002",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10270",
+      "id": "ovce97p5mwzqbn6g",
+      "seq": 141540,
+      "desc": "The Rockies designated Harris for assignment Friday.",
+      "player": {
+        "name": "Hayden Harris",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0664g_96_1.png",
+        "scorerId": "0664g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795798800000,
       "teamId": "10080",
       "id": "46s7ikp0mwzm00xj",
       "seq": 141539,
@@ -56,6 +132,27 @@
     },
     {
       "displayDate": 1795798800000,
+      "teamId": "10260",
+      "id": "eyxxn79jmwziqzlt",
+      "seq": 141536,
+      "desc": "The Pittsburgh Pirates traded C Henry Davis to the Arizona Diamondbacks.",
+      "player": {
+        "name": "Henry Davis",
+        "posShortNames": "C",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oxc_96_5.png",
+        "scorerId": "05oxc",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
       "teamId": "10240",
       "id": "svuvttinmwziqzq9",
       "seq": 141536,
@@ -71,27 +168,6 @@
           "002",
           "003",
           "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795798800000,
-      "teamId": "10260",
-      "id": "eyxxn79jmwziqzlt",
-      "seq": 141536,
-      "desc": "The Pittsburgh Pirates traded C Henry Davis to the Arizona Diamondbacks.",
-      "player": {
-        "name": "Henry Davis",
-        "posShortNames": "C",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oxc_96_5.png",
-        "scorerId": "05oxc",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -609,75 +685,88 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1795453200000,
-      "teamId": "10200",
-      "id": "41z5bna2mwu9rd1u",
-      "seq": 141512,
-      "desc": "Rogers agreed to a five-year, $120 million contract with the Cubs on Monday, Jon Morosi of MLB Network reports.",
-      "player": {
-        "name": "Trevor Rogers",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ak5_96_9.png",
-        "scorerId": "04ak5",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795453200000,
-      "teamId": "10090",
-      "id": "yiqqwjc2mwu140m3",
-      "seq": 141511,
-      "desc": "The Royals and Thielbar agreed to a one-year, $3.25 million contract Monday, Jorge Castillo of ESPN.com reports.",
-      "player": {
-        "name": "Caleb Thielbar",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hfr_96_11.png",
-        "scorerId": "02hfr",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795453200000,
-      "teamId": "10030",
-      "id": "5cej8747mwtrc7ru",
-      "seq": 141510,
-      "desc": "The Yankees and Suter agreed to a one-year, $3.75 million contract Monday that includes a $3.5 million club option for 2028, Joel Sherman of the New York Post reports.",
-      "player": {
-        "name": "Brent Suter",
-        "posShortNames": "RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03cav_96_11.png",
-        "scorerId": "03cav",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
   "mlbTransactions": [
     {
       "displayDate": 1795798800000,
+      "teamId": "10030",
+      "id": "69qrxlgemwzyyx6e",
+      "seq": 141543,
+      "desc": "Yarbrough signed a one-year contract with the Cubs on Friday, Robert Murray of FanSided.com reports.",
+      "player": {
+        "name": "Ryan Yarbrough",
+        "posShortNames": "RP,SP",
+        "teamShortName": "CHC",
+        "teamName": "Chicago Cubs",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0314j_96_12.png",
+        "scorerId": "0314j",
+        "posIds": [
+          "016",
+          "015"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10280",
+      "id": "ycbyp31dmwzqbn8y",
+      "seq": 141541,
+      "desc": "Fitzgerald signed a one-year, major-league contract with the Twins on Friday, Ken Rosenthal of The Athletic reports.",
+      "player": {
+        "name": "Ryan Fitzgerald",
+        "posShortNames": "3B,1B,LF",
+        "teamShortName": "MIN",
+        "teamName": "Minnesota Twins",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05uo0_96_2.png",
+        "scorerId": "05uo0",
+        "posIds": [
+          "004",
+          "002",
+          "009"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795798800000,
+      "teamId": "10270",
+      "id": "ovce97p5mwzqbn6g",
+      "seq": 141540,
+      "desc": "The Rockies designated Harris for assignment Friday.",
+      "player": {
+        "name": "Hayden Harris",
+        "posShortNames": "RP",
+        "teamShortName": "COL",
+        "teamName": "Colorado Rockies",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs0664g_96_1.png",
+        "scorerId": "0664g",
+        "posIds": [
+          "016"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": [
+          {
+            "tooltip": "Minor Leagues",
+            "typeId": "4"
+          }
+        ]
+      }
+    },
+    {
+      "displayDate": 1795798800000,
       "teamId": "10080",
       "id": "46s7ikp0mwzm00xj",
       "seq": 141539,
@@ -726,6 +815,27 @@
     },
     {
       "displayDate": 1795798800000,
+      "teamId": "10260",
+      "id": "eyxxn79jmwziqzlt",
+      "seq": 141536,
+      "desc": "The Pittsburgh Pirates traded C Henry Davis to the Arizona Diamondbacks.",
+      "player": {
+        "name": "Henry Davis",
+        "posShortNames": "C",
+        "teamShortName": "ARI",
+        "teamName": "Arizona Diamondbacks",
+        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oxc_96_5.png",
+        "scorerId": "05oxc",
+        "posIds": [
+          "001"
+        ],
+        "rookie": false,
+        "minorsEligible": false,
+        "icons": []
+      }
+    },
+    {
+      "displayDate": 1795798800000,
       "teamId": "10240",
       "id": "svuvttinmwziqzq9",
       "seq": 141536,
@@ -741,27 +851,6 @@
           "002",
           "003",
           "009"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795798800000,
-      "teamId": "10260",
-      "id": "eyxxn79jmwziqzlt",
-      "seq": 141536,
-      "desc": "The Pittsburgh Pirates traded C Henry Davis to the Arizona Diamondbacks.",
-      "player": {
-        "name": "Henry Davis",
-        "posShortNames": "C",
-        "teamShortName": "ARI",
-        "teamName": "Arizona Diamondbacks",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs05oxc_96_5.png",
-        "scorerId": "05oxc",
-        "posIds": [
-          "001"
         ],
         "rookie": false,
         "minorsEligible": false,
@@ -1279,69 +1368,6 @@
             "typeId": "4"
           }
         ]
-      }
-    },
-    {
-      "displayDate": 1795453200000,
-      "teamId": "10200",
-      "id": "41z5bna2mwu9rd1u",
-      "seq": 141512,
-      "desc": "Rogers agreed to a five-year, $120 million contract with the Cubs on Monday, Jon Morosi of MLB Network reports.",
-      "player": {
-        "name": "Trevor Rogers",
-        "posShortNames": "SP",
-        "teamShortName": "CHC",
-        "teamName": "Chicago Cubs",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs04ak5_96_9.png",
-        "scorerId": "04ak5",
-        "posIds": [
-          "015"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795453200000,
-      "teamId": "10090",
-      "id": "yiqqwjc2mwu140m3",
-      "seq": 141511,
-      "desc": "The Royals and Thielbar agreed to a one-year, $3.25 million contract Monday, Jorge Castillo of ESPN.com reports.",
-      "player": {
-        "name": "Caleb Thielbar",
-        "posShortNames": "RP",
-        "teamShortName": "KC",
-        "teamName": "Kansas City Royals",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs02hfr_96_11.png",
-        "scorerId": "02hfr",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
-      }
-    },
-    {
-      "displayDate": 1795453200000,
-      "teamId": "10030",
-      "id": "5cej8747mwtrc7ru",
-      "seq": 141510,
-      "desc": "The Yankees and Suter agreed to a one-year, $3.75 million contract Monday that includes a $3.5 million club option for 2028, Joel Sherman of the New York Post reports.",
-      "player": {
-        "name": "Brent Suter",
-        "posShortNames": "RP",
-        "teamShortName": "NYY",
-        "teamName": "New York Yankees",
-        "headshotUrl": "https://fantraximg.com/si/headshots/MLB/hs03cav_96_11.png",
-        "scorerId": "03cav",
-        "posIds": [
-          "016"
-        ],
-        "rookie": false,
-        "minorsEligible": false,
-        "icons": []
       }
     }
   ],
